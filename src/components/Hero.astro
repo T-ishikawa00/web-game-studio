@@ -1,0 +1,9 @@
+---
+import type { Locale } from '../data/games';
+interface Props { locale: Locale; preview?: boolean }
+const { locale, preview = false } = Astro.props;
+---
+<section class="hero">
+  <div class="hero-copy"><h1>{locale === 'ja' ? <><span>小さなゲーム。</span><span>大きなワクワク。</span></> : 'Small Games. Big Play.'}</h1><p>{locale === 'ja' ? 'ブラウザから、すぐ遊びの世界へ。次のお気に入りを見つけよう。' : 'Original browser games to play instantly. Find your next favorite.'}</p></div>
+  <div class="hero-landscape" aria-hidden="true"><span class="cloud cloud-one"></span><span class="cloud cloud-two"></span>{preview ? <img src="/design-art/hero.webp" width="278" height="129" alt="" /> : <span class="little-mascot">●‿●</span>}<span class="hill"></span></div>
+</section>

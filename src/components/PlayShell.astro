@@ -1,13 +1,13 @@
 ---
 import type { Game, Locale } from '../data/games';
 import { ui } from '../i18n/ui';
+import PlayFrame from './PlayFrame.astro';
 interface Props { game: Game; locale: Locale }
 const { game, locale } = Astro.props;
 const t = ui[locale];
 ---
 <section id="play-shell" data-game={game.id} data-build={game.buildPath} data-locale={locale}>
-  <div class="player-toolbar"><div><span class="badge">{t.internal}</span><h1>{game.title[locale]}</h1></div><a class="text-link" href={`/${locale}/games/${game.slug}/`}>{t.back} ↗</a></div>
-  <div class="play-layout">
+  <PlayFrame game={game} locale={locale}>
     <div>
       <div class="game-stage" id="game-stage" aria-busy="true">
         <div id="load-state" class="stage-message" role="status"><span class="loader" aria-hidden="true"></span><p>{t.loading}</p></div>
@@ -17,7 +17,7 @@ const t = ui[locale];
       <p class="play-instructions">{t.instructions}</p>
       <noscript><p>{locale === 'ja' ? 'ゲームを動かすにはJavaScriptを有効にしてください。' : 'Enable JavaScript to run the game.'}</p></noscript>
     </div>
-    <aside class="qa-panel">
+    <aside class="qa-panel" slot="aside">
       <span class="eyebrow accent">LOCAL LAB</span><h2>{t.qa}</h2><p>{t.qaDescription}</p>
       <button class="button secondary" id="mock-interstitial">{t.mockAd}</button>
       <button class="button secondary" id="mock-rewarded">{t.rewardAd}</button>
@@ -27,7 +27,7 @@ const t = ui[locale];
       <p id="network-status" class="small muted"></p>
       <details open><summary>{t.events}</summary><p class="small muted">{t.eventsHint}</p><ol id="event-log" class="event-log" aria-label={t.events}></ol></details>
     </aside>
-  </div>
+  </PlayFrame>
   <dialog id="ad-dialog" aria-labelledby="ad-heading"><span class="badge">MOCK ONLY</span><h2 id="ad-heading">{t.mockTitle}</h2><p>{t.mockBody}</p><div class="dialog-actions"><button id="finish-ad" class="button primary">{t.finishAd}</button><button id="skip-ad" class="button secondary">{t.skipAd}</button></div></dialog>
   <dialog id="reset-dialog" aria-labelledby="reset-heading"><h2 id="reset-heading">{t.resetTitle}</h2><p>{t.resetBody}</p><div class="dialog-actions"><button id="cancel-reset" class="button secondary">{t.cancel}</button><button id="confirm-reset" class="button primary">{t.confirmReset}</button></div></dialog>
 </section>

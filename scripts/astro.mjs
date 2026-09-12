@@ -6,7 +6,12 @@ import path from 'node:path';
 const project = fileURLToPath(new URL('../', import.meta.url));
 const temp = path.join(project, '.tmp');
 await mkdir(temp, { recursive: true });
-const child = spawn(process.execPath, [path.join(project, 'node_modules/astro/bin/astro.mjs'), ...process.argv.slice(2)], {
+const args = process.argv.slice(2);
+const design = args.includes('--design-preview');
+if (design) { process.env.WGS_DESIGN_PREVIEW = '1'; await import('./design-assets.mjs'); }
+// Keep the second, design-only preview in the foreground; preserve the normal preview lock.
+if (design && args[0] === 'preview') process.env.ASTRO_PREVIEW_BACKGROUND = '1';
+const child = spawn(process.execPath, [path.join(project, 'node_modules/astro/bin/astro.mjs'), ...args.filter(arg => arg !== '--design-preview')], {
   cwd: project,
   stdio: 'inherit',
   windowsHide: true,

@@ -1,0 +1,45 @@
+ M AGENTS.md
+ M README.md
+ M astro.config.mjs
+ M docs/records/ASSET_REGISTER_R1.md
+ M package.json
+ M scripts/astro.mjs
+ M src/components/GameCard.astro
+ M src/components/PlayShell.astro
+ M src/components/Related.astro
+ M src/data/games.ts
+ M src/layouts/Layout.astro
+ M src/pages/[locale]/[...path].astro
+ M src/scripts/play-shell.ts
+ M src/styles/global.css
+?? docs/design/references/PORTAL_VISUAL_REFERENCE_R1.md
+?? docs/design/references/PORTAL_VISUAL_REFERENCE_R1.png
+?? docs/design/references/crops.json
+?? docs/qa/visual-r1/REPORT.md
+?? docs/qa/visual-r1/browser-results.json
+?? docs/qa/visual-r1/home-metrics.json
+?? docs/qa/visual-r1/screens/artwork-failure.png
+?? docs/qa/visual-r1/screens/detail-en-1440.png
+?? docs/qa/visual-r1/screens/fixture-en-1440.png
+?? docs/qa/visual-r1/screens/fixture-ja-390.png
+?? docs/qa/visual-r1/screens/home-en-1672.png
+?? docs/qa/visual-r1/screens/home-en-390.png
+?? docs/qa/visual-r1/screens/home-en-mixed.png
+?? docs/qa/visual-r1/screens/home-ja-1440.png
+?? docs/qa/visual-r1/screens/home-ja-390.png
+?? docs/qa/visual-r1/screens/home-normal-ja-1440.png
+?? docs/qa/visual-r1/screens/no-js-play.png
+?? docs/qa/visual-r1/screens/play-en-1440.png
+?? docs/qa/visual-r1/screens/play-ja-390.png
+?? docs/qa/visual-r1/worktree.txt
+?? scripts/design-assets.mjs
+?? src/components/Catalog.astro
+?? src/components/Hero.astro
+?? src/components/PlayFrame.astro
+?? src/components/StudioFooter.astro
+?? src/design/catalog.ts
+?? src/lib/catalog.ts
+?? src/scripts/catalog.ts
+?? tests/unit/catalog.test.ts
+?? tests/visual-output.test.ts
+?? tests/visual.browser.mjs

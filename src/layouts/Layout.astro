@@ -2,11 +2,11 @@
 import '../styles/global.css';
 import type { Locale } from '../data/games';
 import { ui } from '../i18n/ui';
-interface Props { locale: Locale; title: string; description?: string; path?: string }
-const { locale, title, description = ui[locale].intro, path = '' } = Astro.props;
+interface Props { locale: Locale; title: string; description?: string; path?: string; preview?: boolean; catalog?: boolean }
+const { locale, title, description = ui[locale].intro, path = '', preview = false, catalog = false } = Astro.props;
 const t = ui[locale];
-const other = locale === 'ja' ? 'en' : 'ja';
 const suffix = path ? `${path}/` : '';
+const homePath = preview ? 'design-preview/' : '';
 ---
 <!doctype html>
 <html lang={locale}>
@@ -15,28 +15,28 @@ const suffix = path ? `${path}/` : '';
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="robots" content="noindex, nofollow" />
-    <meta name="theme-color" content="#111a20" />
+    <meta name="theme-color" content="#f7f9f8" />
     <link rel="alternate" hreflang="ja" href={`/ja/${suffix}`} />
     <link rel="alternate" hreflang="en" href={`/en/${suffix}`} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>{title} | Web Game Studio</title>
   </head>
-  <body data-locale={locale}>
+  <body data-locale={locale} class:list={{ 'is-play': path.includes('play/'), 'is-preview': preview }}>
     <a class="skip-link" href="#main">{t.skip}</a>
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="brand" href={`/${locale}/`} aria-label="Web Game Studio">
-          <img src="/favicon.svg" width="38" height="38" alt="" /><span>web game<span class="brand-light">studio</span></span>
+        <a class="brand" href={`/${locale}/${homePath}`} aria-label="Web Game Studio">
+          <svg width="52" height="46" viewBox="0 0 60 52" aria-hidden="true"><path d="M4 16C0 0 21 4 30 12C43 2 60 6 56 25L52 40Q30 57 9 41Z" fill="#d4ff69"/><path d="M19 21Q16 45 27 30Q32 46 39 22" fill="none" stroke="#121b2d" stroke-width="8" stroke-linecap="round"/><circle cx="25" cy="6" r="3" fill="#121b2d"/><circle cx="36" cy="5" r="3" fill="#121b2d"/></svg><span>web game studio</span>
         </a>
+        <span class="brand-tagline">{locale === 'ja' ? 'オリジナルのブラウザゲーム。' : 'Play original browser games.'}<br />{locale === 'ja' ? '日本語と英語で。' : 'In Japanese and English.'}</span>
         <nav aria-label={t.home} class="main-nav">
-          <a href={`/${locale}/`} aria-current={path === '' ? 'page' : undefined}>{t.home}</a>
-          <a href={`/${locale}/games/`} aria-current={path.startsWith('games') || path.startsWith('play') ? 'page' : undefined}>{t.games}</a>
-          <a href={`/${locale}/about/`} aria-current={path === 'about' ? 'page' : undefined}>{t.about}</a>
+          <a href={`/${locale}/${preview ? 'design-preview/' : 'games/'}`} aria-current={catalog ? 'page' : undefined}><span aria-hidden="true">✚</span> {t.games}</a>
         </nav>
-        <a class="language-switch" href={`/${other}/${suffix}`} data-event="language_change" lang={other} aria-label={`${t.language}: ${other === 'ja' ? '日本語' : 'English'}`}>{other === 'ja' ? '日本語' : 'English'} <span aria-hidden="true">↗</span></a>
+        {catalog && <label class="header-search" data-search-controls hidden><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m16 16 6 6"/></svg><span class="sr-only">{locale === 'ja' ? 'ゲームを検索' : 'Search games'}</span><input id="game-search" type="search" placeholder={locale === 'ja' ? 'ゲームを探す…' : 'Search games…'} autocomplete="off" /></label>}
+        <nav class="language-switch" aria-label={t.language}>{(['ja', 'en'] as const).map(lang => <a href={`/${lang}/${suffix}`} data-locale-link data-event="language_change" lang={lang} aria-current={lang === locale ? 'page' : undefined} aria-label={lang === 'ja' ? '日本語' : 'English'}>{lang.toUpperCase()}</a>)}</nav>
       </div>
     </header>
-    <div class="preview-strip"><div class="wrap"><span class="mini-square" aria-hidden="true"></span>{t.local}<span class="strip-divider">/</span>{t.footerStatus}</div></div>
+    <div class="preview-strip"><div class="wrap">{preview ? locale === 'ja' ? 'Design preview — 仮の作品を使った見本・ゲーム未制作' : 'Design preview — sample titles, games not built' : `${t.local} · ${t.previewNote}`}<a href={`/${locale}/play/connection-lab/`}>{t.openLab} ↗</a></div></div>
     <main id="main" class="wrap"><slot /></main>
     <footer class="site-footer wrap">
       <div><a class="footer-brand" href={`/${locale}/`}>web game studio</a><p>{t.footer}</p><span class="muted">{t.footerStatus}</span></div>
@@ -61,6 +61,17 @@ const suffix = path ? `${path}/` : '';
       });
       // A local observation port for QA; no transport or persistent event log.
       Object.defineProperty(window, '__portalEvents', { value: () => analytics.snapshot(), configurable: true });
+      document.querySelectorAll<HTMLImageElement>('img').forEach(img => {
+        const fallback = () => { img.style.visibility = 'hidden'; img.parentElement?.classList.add('image-failed'); };
+        img.addEventListener('error', fallback);
+        if (img.complete && img.naturalWidth === 0) fallback();
+      });
+      if (!document.querySelector('[data-catalog]')) {
+        const params = new URLSearchParams(location.search);
+        const safe = new URLSearchParams();
+        for (const key of ['q', 'category', 'samples', 'art']) if (params.has(key)) safe.set(key, params.get(key)!);
+        document.querySelectorAll<HTMLAnchorElement>('[data-catalog-return], [data-locale-link], [data-catalog-state-link]').forEach(link => { const url = new URL(link.href); url.search = safe.toString(); link.href = url.href; });
+      }
     </script>
   </body>
 </html>

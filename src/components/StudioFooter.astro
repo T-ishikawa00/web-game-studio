@@ -1,0 +1,7 @@
+---
+import type { Locale } from '../data/games';
+interface Props { locale: Locale; preview?: boolean }
+const { locale, preview = false } = Astro.props;
+const ja = locale === 'ja';
+---
+<div class="studio-benefits"><div class="coming-soon">{preview && <img src="/design-art/footer.webp" width="165" height="76" alt="" loading="lazy" />}<div><strong>{ja ? '次のワクワクを、準備中！' : 'More games coming soon!'}</strong><p>{ja ? '新しい遊びの世界を、大切につくっています。' : 'We’re creating new worlds to play. Stay tuned!'}</p></div></div><div class="benefit"><span aria-hidden="true">⚡</span><div><strong>{ja ? 'ブラウザですぐに' : 'Play instantly'}</strong><p>{ja ? 'ダウンロード不要。' : 'No downloads, just games.'}</p></div></div><div class="benefit"><span aria-hidden="true">◎</span><div><strong>{ja ? '日本語 & English' : 'Japanese & English'}</strong><p>{ja ? '好きな言語で遊ぼう。' : 'Play in your language.'}</p></div></div><div class="benefit"><span aria-hidden="true">♥</span><div><strong>{ja ? 'オリジナルの遊び' : 'Original games'}</strong><p>{ja ? 'アイデアを、ひとつずつ。' : 'Fresh ideas, made with care.'}</p></div></div></div>

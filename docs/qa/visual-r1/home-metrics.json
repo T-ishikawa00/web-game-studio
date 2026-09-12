@@ -1,0 +1,27 @@
+{
+  "heroHeight": 108,
+  "cardTop": 294,
+  "columns": 5,
+  "iframeCount": 0,
+  "external": 0,
+  "requestPaths": [
+    "/en/design-preview/",
+    "/_astro/Layout.BGqG0rw_.css",
+    "/design-art/hero.webp",
+    "/design-art/card-1.webp",
+    "/design-art/card-2.webp",
+    "/design-art/card-3.webp",
+    "/design-art/card-4.webp",
+    "/design-art/card-5.webp",
+    "/_astro/Layout.astro_astro_type_script_index_0_lang.BYVJWBAC.js",
+    "/_astro/analytics.BExKe1UN.js",
+    "/design-art/card-6.webp",
+    "/design-art/card-7.webp",
+    "/design-art/card-8.webp",
+    "/design-art/card-9.webp",
+    "/design-art/card-10.webp",
+    "/design-art/footer.webp",
+    "/favicon.svg"
+  ],
+  "artworkBytes": 130991
+}

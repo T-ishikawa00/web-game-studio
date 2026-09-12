@@ -37,10 +37,10 @@ export const games: Game[] = [{
 }];
 
 export function relatedGames(game: Game, catalog: Game[] = games): Game[] {
-  return game.related.flatMap(id => {
+  return [...new Set(game.related)].flatMap(id => {
     const entry = catalog.find(item => item.id === id && item.id !== game.id && item.state === 'released');
     return entry ? [entry] : [];
-  });
+  }).slice(0, 4);
 }
 
 export const themes: { key: string; title: Localized; description: Localized; category: Localized }[] = [

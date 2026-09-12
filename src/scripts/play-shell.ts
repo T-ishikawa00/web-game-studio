@@ -30,6 +30,7 @@ if (shell) {
   let progressReached = false;
   let runCompleted = false;
   let adKind: AdKind = 'interstitial';
+  let adOpener: HTMLElement | null = null;
   let rewardCount = 0;
   let generation = '';
   function showNetwork() {
@@ -114,6 +115,7 @@ if (shell) {
     const decision = ads.request(mode, lastInputAt);
     emit('ad_opportunity', decision);
     if (decision !== 'show-mock') { adStatus.textContent = decision === 'unavailable' ? t.unavailable : t.cooldown; return; }
+    adOpener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     adKind = kind; phase = 'paused'; sync(); setControls(false);
     adDialog.showModal();
   }
@@ -123,6 +125,7 @@ if (shell) {
     adDialog.close();
     if (phase === 'paused') phase = 'playing';
     sync(); setControls(phase === 'playing');
+    if (phase === 'playing') adOpener?.focus();
     adStatus.textContent = result.reward ? t.rewardGranted : t.resumed;
     emit('ad_resume', result.reward ? 'reward-granted' : 'no-reward');
   }

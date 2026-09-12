@@ -1,0 +1,21 @@
+---
+import type { Locale } from '../data/games';
+import { categoryLabels, type CatalogEntry, type Category } from '../lib/catalog';
+import GameCard from './GameCard.astro';
+interface Props { locale: Locale; entries: CatalogEntry[]; preview?: boolean }
+const { locale, entries, preview = false } = Astro.props;
+const ja = locale === 'ja';
+const categories = (['puzzle', 'growth', 'quick'] as Category[]).filter(c => entries.some(e => e.categories.includes(c)));
+const icons = { all: '▦', puzzle: '✚', growth: '🌱', quick: '⚡' };
+---
+<section class="catalog" data-catalog data-preview={String(preview)} aria-label={ja ? 'ゲームを探す' : 'Explore games'}>
+  <div class="catalog-tools" data-search-controls hidden><div class="filter-chips" role="group" aria-label={ja ? 'カテゴリ' : 'Categories'}>{(['all', ...categories] as const).map(c => <button type="button" class={`filter filter-${c}`} data-filter={c} aria-pressed={c === 'all' ? 'true' : 'false'}><span aria-hidden="true">{icons[c]}</span>{categoryLabels[locale][c]}</button>)}</div><span class="sort-label">{ja ? 'スタジオの編集順' : 'Studio picks'} ↓</span></div>
+  <div class="catalog-status" data-search-controls hidden><span id="catalog-count" role="status" aria-live="polite"></span><button type="button" id="clear-search" class="text-button" hidden>{ja ? '条件を解除' : 'Clear filters'}</button></div>
+  <div class="card-grid">{entries.map((entry, index) => <GameCard game={entry} locale={locale} index={index} />)}</div>
+  <div class="empty-state" id="catalog-empty" hidden={entries.length > 0}><span class="empty-symbol" aria-hidden="true">✿</span><h2>{entries.length ? ja ? '条件に合うゲームがありません' : 'No games match just yet' : ja ? '最初の作品は、これから。' : 'Our first games are on their way.'}</h2><p>{entries.length ? ja ? '検索する言葉やカテゴリを変えてみてください。' : 'Try another search or category.' : ja ? '試作と試遊を重ねて、遊びたくなる作品を育てています。' : 'A little more making, a little more playtesting. Good games take care.'}</p></div>
+  <noscript><p class="notice">{ja ? '検索・絞り込みにはJavaScriptが必要です。作品の一覧とリンクはそのまま使えます。' : 'Search and filters need JavaScript. You can still browse every card and follow its link.'}</p></noscript>
+  {preview && <details class="design-controls" data-search-controls hidden><summary>{ja ? 'デザイン確認用の表示設定' : 'Design review settings'}</summary><p>{ja ? 'すべて仮作品です。公開作品・実ゲームには含まれません。' : 'All titles are visual samples, excluded from real games and release inventory.'}</p><label>{ja ? '見本の件数' : 'Sample count'} <select id="sample-count"><option value="10">10</option><option value="2">2</option><option value="0">0</option></select></label><label><input id="mixed-art" type="checkbox" />{ja ? '絵柄の混在を確認' : 'Mixed artwork styles'}</label><a href={`/${locale}/design-preview/`}>{ja ? '標準の見本へ戻す' : 'Reset to reference view'}</a></details>}
+</section>
+<script>
+  import '../scripts/catalog';
+</script>

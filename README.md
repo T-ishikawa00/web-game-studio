@@ -2,6 +2,30 @@
 
 AI支援による自社開発ブラウザゲームと、日英の自社Portal。**ローカルbootstrap完成 / Humanレビュー・最初のテーマ選択待ち**。公開ゲームは0本です。
 
+## Visual R1 — Concept A 採用後のローカルレビュー
+
+採用画像・5調整を反映した共通Home/Card/Play周辺と日英補助画面を実装。2026-09-13、Concept A実装方向と日英PC HomeはHuman PASS、日本語スマホHome提示画像はVisual PASS。現在の配色・Hero・カード・グリッド・雰囲気をVisual Baselineとして維持します。Play受入・物理スマホ操作・公開可否は未承認です。[採用記録](docs/qa/visual-r1/REPORT.md#human-acceptance) / [原本](docs/design/references/PORTAL_VISUAL_REFERENCE_R1.md) / [画像](docs/design/references/PORTAL_VISUAL_REFERENCE_R1.png) / [技術QAと実装画像](docs/qa/visual-r1/REPORT.md)。Repository全体のTier S/A/B割当方針はrepo-local `AGENTS.md` に記載しています。
+
+```powershell
+npm run build:design
+npm run preview:design
+```
+
+デザイン見本: [日本語Home](http://127.0.0.1:4323/ja/design-preview/) / [English Home](http://127.0.0.1:4323/en/design-preview/) / [Play周辺](http://127.0.0.1:4323/ja/design-preview/play/larva-evolution-lab/)。仮10作品は実ゲーム・公開本数に含みません。下部の「デザイン確認用の表示設定」で10/2/0件・混在Artworkを確認できます。
+
+通常ビルドは `dist/`、デザイン専用ビルドは `.cache/visual-dist/`。デザイン用データは `src/design/`、画像は原本から `scripts/design-assets.mjs` で再現し `.cache/visual-public/design-art/` に隔離します。通常ビルドに見本ルート・仮作品データ・仮Artworkを含めません。通常データ: [日本語Home](http://127.0.0.1:4322/ja/)、実際に動く [内部接続テスト](http://127.0.0.1:4323/ja/play/connection-lab/)。4322と4323は別originなので保存は共有しません。
+
+`preview:design` は4323でフォアグラウンド起動し、既存4322のAstro preview lockを維持します。端末起動ならCtrl+Cで停止。今回のレビュー用プロセスはウィンドウ非表示で起動済みです。再起動前はポート使用状況を確認してください。
+
+```powershell
+node node_modules/tsx/dist/cli.mjs --test tests/visual-output.test.ts
+# Playwrightがインストール済みならそのまま実行可能。
+# 同梱runtimeを使う場合はQA_PLAYWRIGHT_MODULEにplaywright/index.mjsの絶対パスを指定。
+node tests/visual.browser.mjs
+```
+
+Visual実装完了時はcommit/push/deploy・実広告・購入・外部サービス接続は0。その後のHome採用に伴い、Humanが今回のVisual実装・受入記録のローカルcommitだけを追加許可しました。push・deploy・実広告・購入・ゲーム制作は許可されていません。以下のbootstrap記録中の「初期化・commitなし」は初期工程当時の情報です。
+
 最上位Authority: START_HERE_CODEX_WEB_GAME_STUDIO.md（参照原本はPrivate保全・候補には非同梱）。元文書は変更していません。ゲーム「Connection Lab」はPortal接続用の内部fixture 1本のみで、Game 001・販売作品・公開本数には含みません。
 
 ## ローカル起動（PowerShell）
