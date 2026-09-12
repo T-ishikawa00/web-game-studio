@@ -1,5 +1,7 @@
 # Portal Visual R1 — Human review package
 
+**後続の採用決定（2026-09-13）:** Homeの既存採用を維持したPortal Baseline R1全体（確認したPlayを含むローカルPortal）がHuman Acceptance PASS・正式採用となった。[受入範囲・残課題](../baseline-r1/REPORT.md#human-acceptance)。以下のPlay未受入等は当時の記録として保持する。物理スマホはNOT TESTED、一般公開・実広告・法務確定・実ゲーム完成は引き続き未承認。
+
 **現在の採用状態: Concept A実装方向・日英PC HomeはHuman PASS、日本語スマホHome提示画像はVisual PASS。Play受入・物理スマホ操作・公開可否は未承認。** 詳細は末尾の[Human Acceptance追記](#human-acceptance)を参照。
 
 以下はローカル実装完了時の技術QA・作業状態を保存した記録。その後のHome採用とローカルcommit許可は末尾に追記し、技術QAや過去の未commit状態を事後的に書き換えない。

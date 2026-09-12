@@ -1,6 +1,14 @@
 # Web Game Studio — Portal Core R1
 
-AI支援による自社開発ブラウザゲームと、日英の自社Portal。**ローカルbootstrap完成 / Humanレビュー・最初のテーマ選択待ち**。公開ゲームは0本です。
+AI支援による自社開発ブラウザゲームと、日英の自社Portal。**Portal Baseline R1はHuman Acceptance PASS・正式採用 / 最初の実ゲームのテーマ選択待ち**。公開ゲームは0本です。
+
+## Portal Baseline R1 — Human Acceptance PASS
+
+2026-09-13、Humanが「ゲーム画面もこれでいい。Portalとして完成でOK」と判断し、前回のHome Visualを維持したローカルPortal本体（確認したPlayを含む）を正式採用しました。Games index、全幅Playと折りたたみ内部QA、関連作品の空状態、JS無効時と404、画像復旧を含みます。[受入範囲・残課題](docs/qa/baseline-r1/REPORT.md#human-acceptance) / [技術QA・6画面](docs/qa/baseline-r1/REPORT.md)。物理スマホはNOT TESTED、一般公開・実広告・法務確定・実ゲーム完成は未承認です。
+
+基準commitは `95e3360b8de68a4df89a1a8889653af8c8e41d40`。今回のHuman指示でBaseline差分と受入記録のcommit・Private `origin/main`への通常pushだけを許可。直近QAを引き継ぎ、採用後の追加編集は文書のみです。下記のVisual R1・bootstrapの作業状態は以前の工程の記録です。
+
+見本の[Games index](http://127.0.0.1:4323/ja/design-preview/games/)も利用できます。ブラウザQAの最新出力先は `docs/qa/baseline-r1/`（`QA_OUTPUT_DIR`で変更可）。以前のHome受入証跡は上書きしません。
 
 ## Visual R1 — Concept A 採用後のローカルレビュー
 

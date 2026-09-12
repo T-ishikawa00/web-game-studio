@@ -7,7 +7,7 @@ const { game, locale } = Astro.props;
 const t = ui[locale];
 const related = relatedGames(game);
 ---
-{related.length > 0 && <section class="section related-section">
+<section class="section related-section">
   <div class="section-heading"><h2>{t.related}</h2><a class="text-link" href={`/${locale}/games/`}>{t.games} <span aria-hidden="true">↗</span></a></div>
   {related.length ? <div class="card-grid">{related.map(entry => <GameCard game={entry} locale={locale} related />)}</div> : <div class="empty-state compact"><h3>{t.relatedEmpty}</h3><p>{t.relatedEmptyDetail}</p></div>}
-</section>}
+</section>

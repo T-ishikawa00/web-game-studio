@@ -1,6 +1,6 @@
 # Portal Core R1 Specification
 
-状態: ローカル実装 / Human受入待ち。最上位Authorityはルートの `START_HERE_CODEX_WEB_GAME_STUDIO.md`。
+状態: Portal Baseline R1はHuman Acceptance PASS・正式採用（2026-09-13）。前回採用したHome Visualを維持し、今回確認したPlayを含むローカルPortal本体を受入。物理スマホはNOT TESTED。一般公開・実広告・法務確定・実ゲーム完成の承認ではない。受入記録・技術QAは `docs/qa/baseline-r1/REPORT.md`。最上位Authorityはルートの `START_HERE_CODEX_WEB_GAME_STUDIO.md`。
 
 ## スタックと選択理由
 Astro 7.3.2、TypeScript 6.0.3、通常のCSS、ゲームfixtureはHTML/CSS/JavaScript。Node 22.12以上（今回24.14.0）。依存バージョンは `package-lock.json` に固定。
@@ -15,14 +15,16 @@ Astroのlocale付きルートをファイルルーティング/getStaticPathsで
 | パス | 内容 |
 |---|---|
 | `/` | 日本語へ誘導、日英の通常リンクも用意 |
-| `/{ja,en}/` | Home、内部接続テストへの導線、未制作の3候補 |
+| `/{ja,en}/` | 受入済み共通VisualのHome、公開0作品の空状態、内部接続テストへの導線 |
 | `/{ja,en}/games/` | 公開作品の空状態、内部fixtureの別枠 |
 | `/{ja,en}/games/connection-lab/` | 詳細、操作、対応端末、保存、関連作品領域 |
-| `/{ja,en}/play/connection-lab/` | ゲーム、loading/error/retry、保存/reset、mock広告、ローカルイベント |
+| `/{ja,en}/play/connection-lab/` | 全幅ゲーム、戻る/詳細、loading/error/retry/JS無効、保存/reset。内部QAは下部折りたたみ |
 | `/{ja,en}/{about,privacy,terms,contact}/` | スタジオ仮情報、法務草案、未設定のサポート連絡先 |
 | `/404.html` | 日英Homeへ戻れる404 |
 
 18 HTMLルート（ゲームの静的fixtureファイルは別）。通常のリンクによるページ遷移を採用し、ゲーム遷移時の購読解除を単純化。言語スイッチは詳細/プレイを含む対応パスを維持する。
+
+明示的なDesign buildのみ `/{ja,en}/design-preview/`、`design-preview/games/` と仮10作品の詳細/Play見本を追加し計62ページ。仮Artwork/metadataは通常buildから除外する。HomeのHeroとGames indexの一覧見出しを区別し、検索・初期カテゴリ・空状態は共通。404は静的配信の共通ページとして日英を併記し、個々の文言にlangを付ける。
 
 ## Registry契約
 `src/data/games.ts` の `Game` にID/slug、日英タイトルと説明、cover、入力方式、desktop/mobile、orientation、buildPath、version、state、category/tags、related、save/ad方針、legal evidenceを持たせる。ページ追加はregistryから生成する。Game配列は1本のinternal fixtureだけ。3候補は別のthemes配列でありプレイ可能作品ではない。
@@ -42,4 +44,4 @@ releasedだけを公開一覧・関連作品に使う。internalはローカル�
 内部イベントは最新50件のページメモリのみ。プロバイダー、送信、広告SDKはない。辞書は `docs/architecture/EVENT_DICTIONARY_R1.md`。
 
 ## UX・品質と限界
-desktop/mobileのレスポンシブ、44px以上の主要操作、Tab/Enter/Space、focus-visible、skip link、aria-live、native dialog、reduce-motion。デザインは暗い青緑とライム、接続テストの模式図を使用。外部フォント/画像は不要。fixtureはゲームの面白さ・負荷・本番広告SDK・実機互換性の証明ではない。QA実績は `docs/qa/BOOTSTRAP_QA_R1.md` を参照する。
+desktop/tablet/mobileのレスポンシブ、44px以上の主要操作、Tab/Enter/Space、focus-visible、skip link、aria-live、native dialog、reduce-motion。PortalはHuman採用済みの白系・lime、compact Hero、Artwork中心のカード、PC約5列・通常スマホ2列（受入済み実装の320px幅では可読性のため1列）を維持。ゲーム内の旧配色はfixture自身の表現として保全。外部フォント/画像は不要。fixtureはゲームの面白さ・負荷・本番広告SDK・実機互換性の証明ではない。初期QAは `docs/qa/BOOTSTRAP_QA_R1.md`、Home受入は `docs/qa/visual-r1/REPORT.md`、最新QAは `docs/qa/baseline-r1/REPORT.md` を参照する。

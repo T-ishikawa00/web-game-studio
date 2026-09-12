@@ -30,7 +30,15 @@ test('production HTML: 16 locale routes, metadata and every local link/asset res
 test('root, unknown path, legal drafts and fixture assets', async () => {
   const root = await fetch(base); assert.equal(root.status, 200);
   assert.match(await root.text(), /url=\/ja\//);
-  assert.equal((await fetch(`${base}/en/games/nonexistent/`)).status, 404);
+  for (const locale of locales) {
+    const missing = await fetch(`${base}/${locale}/games/nonexistent/`);
+    assert.equal(missing.status, 404);
+    const html = await missing.text();
+    assert.match(html, /<span lang="ja">ページが見つかりません/);
+    assert.match(html, /<span lang="en">Page not found/);
+    assert.match(html, /href="\/ja\/" lang="ja"/);
+    assert.match(html, /href="\/en\/" lang="en"/);
+  }
   assert.match(await (await fetch(`${base}/en/privacy/`)).text(), /NOT LEGALLY REVIEWED/);
   for (const game of games) {
     assert.equal((await fetch(`${base}${game.buildPath}`)).status, 200);

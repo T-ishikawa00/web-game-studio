@@ -1,0 +1,311 @@
+[
+  {
+    "name": "home-en-1672",
+    "dimensions": [
+      1672,
+      1164
+    ],
+    "sameDimensions": true,
+    "changedChannels": 23355,
+    "changedPixels": 15399,
+    "bounds": {
+      "minX": 1262,
+      "minY": 104,
+      "maxX": 1570,
+      "maxY": 211
+    },
+    "changedPixelsOutsideImageBounds": 0,
+    "imageBounds": [
+      {
+        "src": "/design-art/hero.webp",
+        "x": 1262,
+        "y": 104,
+        "width": 310,
+        "height": 108
+      },
+      {
+        "src": "/design-art/card-1.webp",
+        "x": 57,
+        "y": 295,
+        "width": 297.1875,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-2.webp",
+        "x": 372.1875,
+        "y": 295,
+        "width": 297.203125,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-3.webp",
+        "x": 687.390625,
+        "y": 295,
+        "width": 297.203125,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-4.webp",
+        "x": 1002.59375,
+        "y": 295,
+        "width": 297.203125,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-5.webp",
+        "x": 1317.796875,
+        "y": 295,
+        "width": 297.203125,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-6.webp",
+        "x": 57,
+        "y": 593.046875,
+        "width": 297.1875,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-7.webp",
+        "x": 372.1875,
+        "y": 593.046875,
+        "width": 297.203125,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-8.webp",
+        "x": 687.390625,
+        "y": 593.046875,
+        "width": 297.203125,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-9.webp",
+        "x": 1002.59375,
+        "y": 593.046875,
+        "width": 297.203125,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/card-10.webp",
+        "x": 1317.796875,
+        "y": 593.046875,
+        "width": 297.203125,
+        "height": 166.953125
+      },
+      {
+        "src": "/design-art/footer.webp",
+        "x": 78,
+        "y": 949.921875,
+        "width": 118,
+        "height": 54.34375
+      }
+    ]
+  },
+  {
+    "name": "home-ja-1440",
+    "dimensions": [
+      1440,
+      1122
+    ],
+    "sameDimensions": true,
+    "changedChannels": 45334,
+    "changedPixels": 26680,
+    "bounds": {
+      "minX": 33,
+      "minY": 572,
+      "maxX": 292,
+      "maxY": 718
+    },
+    "changedPixelsOutsideImageBounds": 0,
+    "imageBounds": [
+      {
+        "src": "/design-art/hero.webp",
+        "x": 1061.375,
+        "y": 104,
+        "width": 310,
+        "height": 108
+      },
+      {
+        "src": "/design-art/card-1.webp",
+        "x": 33,
+        "y": 295,
+        "width": 260.390625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-2.webp",
+        "x": 311.390625,
+        "y": 295,
+        "width": 260.40625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-3.webp",
+        "x": 589.796875,
+        "y": 295,
+        "width": 260.390625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-4.webp",
+        "x": 868.1875,
+        "y": 295,
+        "width": 260.40625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-5.webp",
+        "x": 1146.59375,
+        "y": 295,
+        "width": 260.390625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-6.webp",
+        "x": 33,
+        "y": 572.375,
+        "width": 260.390625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-7.webp",
+        "x": 311.390625,
+        "y": 572.375,
+        "width": 260.40625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-8.webp",
+        "x": 589.796875,
+        "y": 572.375,
+        "width": 260.390625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-9.webp",
+        "x": 868.1875,
+        "y": 572.375,
+        "width": 260.40625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/card-10.webp",
+        "x": 1146.59375,
+        "y": 572.375,
+        "width": 260.390625,
+        "height": 146.28125
+      },
+      {
+        "src": "/design-art/footer.webp",
+        "x": 54,
+        "y": 908.578125,
+        "width": 118,
+        "height": 54.34375
+      }
+    ]
+  },
+  {
+    "name": "home-ja-390",
+    "dimensions": [
+      390,
+      2007
+    ],
+    "sameDimensions": true,
+    "changedChannels": 50755,
+    "changedPixels": 29871,
+    "bounds": {
+      "minX": 29,
+      "minY": 364,
+      "maxX": 374,
+      "maxY": 1784
+    },
+    "changedPixelsOutsideImageBounds": 0,
+    "imageBounds": [
+      {
+        "src": "/design-art/hero.webp",
+        "x": 257.15625,
+        "y": 212,
+        "width": 150.84375,
+        "height": 70
+      },
+      {
+        "src": "/design-art/card-1.webp",
+        "x": 15,
+        "y": 364.421875,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-2.webp",
+        "x": 201,
+        "y": 364.421875,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-3.webp",
+        "x": 15,
+        "y": 623.96875,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-4.webp",
+        "x": 201,
+        "y": 623.96875,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-5.webp",
+        "x": 15,
+        "y": 883.515625,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-6.webp",
+        "x": 201,
+        "y": 883.515625,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-7.webp",
+        "x": 15,
+        "y": 1143.0625,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-8.webp",
+        "x": 201,
+        "y": 1143.0625,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-9.webp",
+        "x": 15,
+        "y": 1402.609375,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/card-10.webp",
+        "x": 201,
+        "y": 1402.609375,
+        "width": 174,
+        "height": 108.75
+      },
+      {
+        "src": "/design-art/footer.webp",
+        "x": 29,
+        "y": 1750.890625,
+        "width": 75,
+        "height": 34.53125
+      }
+    ]
+  }
+]

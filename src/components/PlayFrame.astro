@@ -7,5 +7,9 @@ const { game, locale } = Astro.props;
 const sample = game.state === 'design';
 const t = ui[locale];
 ---
-<div class="player-toolbar"><div><span class="badge">{sample ? locale === 'ja' ? '画面見本・ゲーム未制作' : 'Screen sample · game not built' : t.internal}</span><h1>{game.title[locale]}</h1></div><a class="text-link" data-catalog-state-link href={`/${locale}/${sample ? 'design-preview/' : ''}games/${game.slug}/`}>{sample ? t.details : t.back} ↗</a></div>
+<div class="player-toolbar">
+  <a class="player-back text-link" data-catalog-return href={`/${locale}/${sample ? 'design-preview/' : 'games/'}`}>← {t.games}</a>
+  <div class="player-title"><h1>{game.title[locale]}</h1>{(sample || game.state === 'internal') && <span class="badge">{sample ? locale === 'ja' ? '画面見本・ゲーム未制作' : 'Screen sample · game not built' : t.internal}</span>}</div>
+  <a class="text-link" data-catalog-state-link href={`/${locale}/${sample ? 'design-preview/' : ''}games/${game.slug}/`}>{t.details} ↗</a>
+</div>
 <div class:list={['play-layout', { 'preview-play-layout': sample }]}><slot /><slot name="aside" /></div>

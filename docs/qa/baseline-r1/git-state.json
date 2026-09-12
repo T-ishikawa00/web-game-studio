@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-12T22:21:14.124Z",
+  "head": "95e3360b8de68a4df89a1a8889653af8c8e41d40",
+  "originMain": "95e3360b8de68a4df89a1a8889653af8c8e41d40",
+  "upstream": "95e3360b8de68a4df89a1a8889653af8c8e41d40",
+  "branch": "main",
+  "staged": "",
+  "stash": "",
+  "protectedPaths": [
+    "START_HERE_CODEX_WEB_GAME_STUDIO.md",
+    "AGENTS.md",
+    "SECURITY.md",
+    "src/data/games.ts",
+    "src/lib/",
+    "src/scripts/play-shell.ts",
+    "public/games/",
+    "src/design/",
+    "src/components/Hero.astro",
+    "src/components/GameCard.astro",
+    "src/styles/global.css",
+    "docs/qa/visual-r1/",
+    "package.json",
+    "package-lock.json"
+  ],
+  "protectedDiff": "empty",
+  "remoteRechecked": false,
+  "worktree": "M README.md\n M docs/planning/PORTAL_CORE_R1_SPEC.md\n M src/components/PlayFrame.astro\n M src/components/PlayShell.astro\n M src/components/Related.astro\n M src/layouts/Layout.astro\n M src/pages/404.astro\n M src/pages/[locale]/[...path].astro\n M tests/routes.test.ts\n M tests/visual.browser.mjs\n?? docs/qa/baseline-r1/\n?? src/styles/baseline.css"
+}

@@ -12,12 +12,14 @@ const t = ui[locale];
       <div class="game-stage" id="game-stage" aria-busy="true">
         <div id="load-state" class="stage-message" role="status"><span class="loader" aria-hidden="true"></span><p>{t.loading}</p></div>
         <div id="error-state" class="stage-message" hidden role="alert"><h2>{t.loadError}</h2><button class="button primary" id="reload-game">{t.reload}</button></div>
+        <noscript><div class="stage-message no-js-state"><h2>{locale === 'ja' ? 'JavaScriptを有効にしてください' : 'Enable JavaScript to play'}</h2><p>{locale === 'ja' ? 'ゲームの実行と保存にはJavaScriptが必要です。' : 'The game and local saves need JavaScript.'}</p><a class="button secondary" href={`/${locale}/games/`}>{t.games} ←</a></div><style>#load-state,.save-bar{display:none!important}</style></noscript>
       </div>
       <div class="save-bar"><span id="save-status" role="status">{t.saveEmpty}</span><button id="reset-save" class="text-button">{t.reset}</button></div>
       <p class="play-instructions">{t.instructions}</p>
-      <noscript><p>{locale === 'ja' ? 'ゲームを動かすにはJavaScriptを有効にしてください。' : 'Enable JavaScript to run the game.'}</p></noscript>
     </div>
-    <aside class="qa-panel" slot="aside">
+    <details class="internal-qa" id="internal-qa" slot="aside">
+      <summary>{locale === 'ja' ? '内部QA · 保存・モック広告・イベントの検証' : 'Internal QA · save, mock ads and events'}</summary>
+      <aside class="qa-panel">
       <span class="eyebrow accent">LOCAL LAB</span><h2>{t.qa}</h2><p>{t.qaDescription}</p>
       <button class="button secondary" id="mock-interstitial">{t.mockAd}</button>
       <button class="button secondary" id="mock-rewarded">{t.rewardAd}</button>
@@ -26,7 +28,8 @@ const t = ui[locale];
       <p id="ad-status" class="small" role="status"></p>
       <p id="network-status" class="small muted"></p>
       <details open><summary>{t.events}</summary><p class="small muted">{t.eventsHint}</p><ol id="event-log" class="event-log" aria-label={t.events}></ol></details>
-    </aside>
+      </aside>
+    </details>
   </PlayFrame>
   <dialog id="ad-dialog" aria-labelledby="ad-heading"><span class="badge">MOCK ONLY</span><h2 id="ad-heading">{t.mockTitle}</h2><p>{t.mockBody}</p><div class="dialog-actions"><button id="finish-ad" class="button primary">{t.finishAd}</button><button id="skip-ad" class="button secondary">{t.skipAd}</button></div></dialog>
   <dialog id="reset-dialog" aria-labelledby="reset-heading"><h2 id="reset-heading">{t.resetTitle}</h2><p>{t.resetBody}</p><div class="dialog-actions"><button id="cancel-reset" class="button secondary">{t.cancel}</button><button id="confirm-reset" class="button primary">{t.confirmReset}</button></div></dialog>

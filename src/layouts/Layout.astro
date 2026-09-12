@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/baseline.css';
 import type { Locale } from '../data/games';
 import { ui } from '../i18n/ui';
 interface Props { locale: Locale; title: string; description?: string; path?: string; preview?: boolean; catalog?: boolean }
@@ -30,7 +31,7 @@ const homePath = preview ? 'design-preview/' : '';
         </a>
         <span class="brand-tagline">{locale === 'ja' ? 'オリジナルのブラウザゲーム。' : 'Play original browser games.'}<br />{locale === 'ja' ? '日本語と英語で。' : 'In Japanese and English.'}</span>
         <nav aria-label={t.home} class="main-nav">
-          <a href={`/${locale}/${preview ? 'design-preview/' : 'games/'}`} aria-current={catalog ? 'page' : undefined}><span aria-hidden="true">✚</span> {t.games}</a>
+          <a href={`/${locale}/${preview ? 'design-preview/games/' : 'games/'}`} data-catalog-nav={catalog ? '' : undefined} aria-current={path === 'games' || path === 'design-preview/games' ? 'page' : undefined}><span aria-hidden="true">✚</span> {t.games}</a>
         </nav>
         {catalog && <label class="header-search" data-search-controls hidden><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m16 16 6 6"/></svg><span class="sr-only">{locale === 'ja' ? 'ゲームを検索' : 'Search games'}</span><input id="game-search" type="search" placeholder={locale === 'ja' ? 'ゲームを探す…' : 'Search games…'} autocomplete="off" /></label>}
         <nav class="language-switch" aria-label={t.language}>{(['ja', 'en'] as const).map(lang => <a href={`/${lang}/${suffix}`} data-locale-link data-event="language_change" lang={lang} aria-current={lang === locale ? 'page' : undefined} aria-label={lang === 'ja' ? '日本語' : 'English'}>{lang.toUpperCase()}</a>)}</nav>
@@ -64,6 +65,7 @@ const homePath = preview ? 'design-preview/' : '';
       document.querySelectorAll<HTMLImageElement>('img').forEach(img => {
         const fallback = () => { img.style.visibility = 'hidden'; img.parentElement?.classList.add('image-failed'); };
         img.addEventListener('error', fallback);
+        img.addEventListener('load', () => { img.style.visibility = ''; img.parentElement?.classList.remove('image-failed'); });
         if (img.complete && img.naturalWidth === 0) fallback();
       });
       if (!document.querySelector('[data-catalog]')) {
