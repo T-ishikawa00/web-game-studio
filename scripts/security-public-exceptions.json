@@ -1,0 +1,24 @@
+[
+  {
+    "file": ".cache/npm/_cacache/content-v2/sha512/66/70/00aeeea9fe530e06411a383efc0c5854d15b37d93d570606237f3a57891d560d42f099bbd1ea70e97b03214341e4880f03cffd1ccefe0de533a83fa302c2",
+    "sha256": "c8050ee02ab2a48b0762e5ef4754c5b0078a73a13cb7aaeeecc9717a29e80b37",
+    "source": "https://registry.npmjs.org/astro",
+    "reason": "Two public experimental version strings in dist-tags; exact values and corresponding version metadata verified against npm. Human authorized verified public non-secret exceptions on 2026-09-13.",
+    "findings": ["generic-api-key:1"]
+  },
+  {
+    "file": ".cache/tools/gitleaks/8.30.1/README.md",
+    "sha256": "022fd4d9fb53a8e7eb6b6e49875052e571f784bafab387deb484e28f8a1ea38b",
+    "source": "https://raw.githubusercontent.com/gitleaks/gitleaks/v8.30.1/README.md",
+    "reason": "Official detection examples; full file byte-identical to tagged upstream README. Human authorized verified public sample exceptions on 2026-09-13.",
+    "findings": ["sidekiq-secret:47", "discord-client-secret:518", "generic-api-key:574"]
+  },
+  {
+    "file": ".cache/tools/gitleaks/8.30.1/gitleaks.zip",
+    "sha256": "d29144deff3a68aa93ced33dddf84b7fdc26070add4aa0f4513094c8332afc4e",
+    "source": "https://github.com/gitleaks/gitleaks/releases/tag/v8.30.1",
+    "reason": "Official archive checksum verified; contains the same approved README samples.",
+    "member": "!README.md",
+    "findings": ["sidekiq-secret:47", "discord-client-secret:518", "generic-api-key:574"]
+  }
+]

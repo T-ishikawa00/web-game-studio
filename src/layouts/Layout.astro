@@ -1,0 +1,66 @@
+---
+import '../styles/global.css';
+import type { Locale } from '../data/games';
+import { ui } from '../i18n/ui';
+interface Props { locale: Locale; title: string; description?: string; path?: string }
+const { locale, title, description = ui[locale].intro, path = '' } = Astro.props;
+const t = ui[locale];
+const other = locale === 'ja' ? 'en' : 'ja';
+const suffix = path ? `${path}/` : '';
+---
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#111a20" />
+    <link rel="alternate" hreflang="ja" href={`/ja/${suffix}`} />
+    <link rel="alternate" hreflang="en" href={`/en/${suffix}`} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title} | Web Game Studio</title>
+  </head>
+  <body data-locale={locale}>
+    <a class="skip-link" href="#main">{t.skip}</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={`/${locale}/`} aria-label="Web Game Studio">
+          <img src="/favicon.svg" width="38" height="38" alt="" /><span>web game<span class="brand-light">studio</span></span>
+        </a>
+        <nav aria-label={t.home} class="main-nav">
+          <a href={`/${locale}/`} aria-current={path === '' ? 'page' : undefined}>{t.home}</a>
+          <a href={`/${locale}/games/`} aria-current={path.startsWith('games') || path.startsWith('play') ? 'page' : undefined}>{t.games}</a>
+          <a href={`/${locale}/about/`} aria-current={path === 'about' ? 'page' : undefined}>{t.about}</a>
+        </nav>
+        <a class="language-switch" href={`/${other}/${suffix}`} data-event="language_change" lang={other} aria-label={`${t.language}: ${other === 'ja' ? '日本語' : 'English'}`}>{other === 'ja' ? '日本語' : 'English'} <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+    <div class="preview-strip"><div class="wrap"><span class="mini-square" aria-hidden="true"></span>{t.local}<span class="strip-divider">/</span>{t.footerStatus}</div></div>
+    <main id="main" class="wrap"><slot /></main>
+    <footer class="site-footer wrap">
+      <div><a class="footer-brand" href={`/${locale}/`}>web game studio</a><p>{t.footer}</p><span class="muted">{t.footerStatus}</span></div>
+      <nav aria-label={t.contact}>{(['about', 'privacy', 'terms', 'contact'] as const).map(key => <a href={`/${locale}/${key}/`}>{t[key]}</a>)}</nav>
+    </footer>
+    <script>
+      import { createAnalytics } from '../lib/analytics';
+      const analytics = createAnalytics();
+      const locale = document.body.dataset.locale === 'en' ? 'en' : 'ja';
+      try {
+        if (!sessionStorage.getItem('wgs:session:v1')) {
+          analytics.emit({ name: 'portal_session_start', locale });
+          sessionStorage.setItem('wgs:session:v1', 'started');
+        }
+      } catch { analytics.emit({ name: 'portal_session_start', locale, result: 'storage-unavailable' }); }
+      document.addEventListener('click', event => {
+        const target = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[data-event]') : null;
+        const name = target?.dataset.event;
+        if (name === 'language_change' || name === 'game_card_open' || name === 'related_game_open') {
+          analytics.emit({ name, locale, gameId: target?.dataset.game });
+        }
+      });
+      // A local observation port for QA; no transport or persistent event log.
+      Object.defineProperty(window, '__portalEvents', { value: () => analytics.snapshot(), configurable: true });
+    </script>
+  </body>
+</html>

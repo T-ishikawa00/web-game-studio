@@ -1,0 +1,2 @@
+# Shell hooks must remain executable with LF endings on Windows/macOS/Linux.
+.githooks/* text eol=lf

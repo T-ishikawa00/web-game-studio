@@ -1,0 +1,7 @@
+# Template only. R1 is static/local and requires no secrets.
+# Copy to .dev.vars only when an approved server-side integration needs it.
+# Cloudflare API deployment credentials are not runtime browser variables.
+# Set only the required names in .dev.vars; keep unused integrations disabled.
+SERVER_API_KEY=
+AD_PROVIDER_SECRET=
+ANALYTICS_WRITE_SECRET=

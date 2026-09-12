@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import GameCard from '../../components/GameCard.astro';
+import Related from '../../components/Related.astro';
+import PlayShell from '../../components/PlayShell.astro';
+import { games, themes, locales, type Locale, type Game } from '../../data/games';
+import { ui } from '../../i18n/ui';
+import { gameLabels } from '../../lib/game-labels';
+export function getStaticPaths() {
+  return locales.flatMap(locale => [
+    ...['', 'games', 'about', 'privacy', 'terms', 'contact'].map(path => ({ params: { locale, path: path || undefined }, props: { locale, path } })),
+    ...games.flatMap(game => ['games', 'play'].map(prefix => ({ params: { locale, path: `${prefix}/${game.slug}` }, props: { locale, path: `${prefix}/${game.slug}`, game } }))),
+  ]);
+}
+interface Props { locale: Locale; path: string; game?: Game }
+const { locale, path, game } = Astro.props;
+const t = ui[locale];
+const fixture = games[0]!;
+const released = games.filter(entry => entry.state === 'released');
+const title = game ? game.title[locale] : path === 'games' ? t.collection : path === 'about' ? t.about : path === 'privacy' ? t.privacy : path === 'terms' ? t.terms : path === 'contact' ? t.contact : t.home;
+---
+<Layout locale={locale} path={path} title={title} description={game?.description[locale]}>
+  {path === '' && <>
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow accent">{t.eyebrow}</p><h1>{t.headline.split('\n').map(line => <span>{line}</span>)}</h1><p class="hero-description">{t.intro}</p><div class="hero-actions"><a class="button primary" href={`/${locale}/games/`}>{t.browse}<span aria-hidden="true">↗</span></a><a class="text-link" href={`/${locale}/about/`}>{t.explore}</a></div><p class="preview-note">{t.previewNote}</p></div>
+      <a class="hero-feature" href={`/${locale}/games/${fixture.slug}/`} data-event="game_card_open" data-game={fixture.id}><div class="feature-art"><img src={fixture.cover} width="960" height="660" alt={locale === 'ja' ? '9つのパネルのうち3つが点灯した接続テストの模式図' : 'Diagram of the connection test with three of nine panels lit'} fetchpriority="high" /><span class="badge">{t.internal}</span></div><div class="feature-caption"><div><span class="eyebrow">{t.labLabel}</span><h2>{fixture.title[locale]}</h2></div><span class="round-arrow" aria-hidden="true">↗</span></div></a>
+    </section>
+    <section class="section concepts"><div class="section-heading"><div><span class="eyebrow accent">ON THE DRAWING BOARD</span><h2>{t.conceptsTitle}</h2></div><p>{t.conceptsIntro}</p></div><div class="theme-grid">{themes.map(theme => <article class={`theme-card theme-${theme.key.toLowerCase()}`}><div class="theme-top"><span class="theme-letter">{theme.key}</span><span class="badge">{t.concept}</span></div><span class="small muted">{theme.category[locale]}</span><h3>{theme.title[locale]}</h3><p>{theme.description[locale]}</p></article>)}</div></section>
+  </>}
+  {path === 'games' && <>
+    <section class="page-heading"><span class="eyebrow accent">THE COLLECTION</span><h1>{t.collection}</h1><p>{t.collectionIntro}</p></section>
+    <section class="section"><div class="section-heading"><h2>{t.available}</h2></div>{released.length ? <div class="card-grid">{released.map(entry => <GameCard game={entry} locale={locale} />)}</div> : <div class="empty-state"><span class="empty-symbol" aria-hidden="true">＋</span><div><h3>{t.emptyReleased}</h3><p>{t.emptyDescription}</p></div></div>}</section>
+    <section class="section"><div class="section-heading"><h2>{t.internalSection}</h2><span class="muted small">{t.noCount}</span></div><div class="card-grid">{games.filter(entry => entry.state === 'internal').map(entry => <GameCard game={entry} locale={locale} />)}</div></section>
+  </>}
+  {game && path.startsWith('games/') && <>
+    <div class="breadcrumb"><a href={`/${locale}/games/`}>{t.games}</a><span>/</span>{game.title[locale]}</div>
+    <section class="detail-hero"><img class="detail-cover" src={game.cover} width="960" height="660" alt="" /><div class="detail-copy"><span class="badge">{game.state === 'internal' ? `${t.internal} · ${t.noCount}` : game.state === 'draft' ? t.concept : game.category[locale]}</span><h1>{game.title[locale]}</h1><p>{game.description[locale]}</p><a class="button primary" href={`/${locale}/play/${game.slug}/`}>{game.state === 'internal' ? t.play : locale === 'ja' ? 'プレイする' : 'Play game'}<span aria-hidden="true">↗</span></a><dl class="game-facts">{(['device', 'inputs', 'save', 'version'] as const).map((key, index) => <div><dt>{t[key]}</dt><dd>{[gameLabels(game, locale).devices, gameLabels(game, locale).inputs, t.saveValue, game.version][index]}</dd></div>)}</dl></div></section>
+    <section class="how-to"><span class="eyebrow accent">HOW TO</span><h2>{t.howTo}</h2><p>{t.instructions}</p></section><Related game={game} locale={locale} />
+  </>}
+  {game && path.startsWith('play/') && <><PlayShell game={game} locale={locale} /><Related game={game} locale={locale} /></>}
+  {path === 'about' && <article class="prose-page"><span class="eyebrow accent">THE STUDIO</span><h1>{t.aboutTitle}</h1><p class="lead">{t.aboutBody}</p><p>{t.aboutSecond}</p><div class="about-note"><span class="badge">{t.local}</span><p>{t.previewNote}</p><a class="text-link" href={`/${locale}/games/`}>{t.browse} ↗</a></div></article>}
+  {(path === 'privacy' || path === 'terms') && <article class="prose-page"><span class="badge draft">{t.draft}</span><h1>{path === 'privacy' ? t.privacyTitle : t.termsTitle}</h1><p class="draft-note">{t.draftNote}</p><p>{path === 'privacy' ? t.privacyBody : t.termsBody}</p><p>{path === 'privacy' ? t.privacySecond : t.termsSecond}</p><a class="text-link" href={`/${locale}/contact/`}>{t.contact} ↗</a></article>}
+  {path === 'contact' && <article class="prose-page"><span class="eyebrow accent">SUPPORT</span><h1>{t.contactTitle}</h1><p class="lead">{t.contactBody}</p><p>{t.contactSecond}</p><a class="button secondary" href={`/${locale}/`}>{t.home} ↗</a></article>}
+</Layout>

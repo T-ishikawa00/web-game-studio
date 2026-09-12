@@ -1,0 +1,289 @@
+{
+  "date": "2026-09-13",
+  "browser": "Codex in-app browser",
+  "base": "http://127.0.0.1:4322",
+  "checks": [
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "「もう一回」を、つくる場所。",
+      "language": "ja",
+      "path": "/ja/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "「もう一回」を、つくる場所。",
+      "language": "ja",
+      "path": "/ja/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "ゲーム一覧",
+      "language": "ja",
+      "path": "/ja/games/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "ゲーム一覧",
+      "language": "ja",
+      "path": "/ja/games/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "コネクション・ラボ",
+      "language": "ja",
+      "path": "/ja/games/connection-lab/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "コネクション・ラボ",
+      "language": "ja",
+      "path": "/ja/games/connection-lab/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "コネクション・ラボ",
+      "language": "ja",
+      "path": "/ja/play/connection-lab/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "コネクション・ラボ",
+      "language": "ja",
+      "path": "/ja/play/connection-lab/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "見た後にも、遊びたくなる。",
+      "language": "ja",
+      "path": "/ja/about/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "見た後にも、遊びたくなる。",
+      "language": "ja",
+      "path": "/ja/about/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "プライバシーポリシー（草案）",
+      "language": "ja",
+      "path": "/ja/privacy/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "プライバシーポリシー（草案）",
+      "language": "ja",
+      "path": "/ja/privacy/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "利用規約（草案）",
+      "language": "ja",
+      "path": "/ja/terms/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "利用規約（草案）",
+      "language": "ja",
+      "path": "/ja/terms/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "お問い合わせ・サポート",
+      "language": "ja",
+      "path": "/ja/contact/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1440,
+      "h1": "お問い合わせ・サポート",
+      "language": "ja",
+      "path": "/ja/contact/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "A little play.One more try.",
+      "language": "en",
+      "path": "/en/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "A little play.One more try.",
+      "language": "en",
+      "path": "/en/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "The game collection",
+      "language": "en",
+      "path": "/en/games/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "The game collection",
+      "language": "en",
+      "path": "/en/games/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "Connection Lab",
+      "language": "en",
+      "path": "/en/games/connection-lab/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "Connection Lab",
+      "language": "en",
+      "path": "/en/games/connection-lab/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "Connection Lab",
+      "language": "en",
+      "path": "/en/play/connection-lab/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "Connection Lab",
+      "language": "en",
+      "path": "/en/play/connection-lab/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "Worth playing, even after watching.",
+      "language": "en",
+      "path": "/en/about/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "Worth playing, even after watching.",
+      "language": "en",
+      "path": "/en/about/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "Privacy policy draft",
+      "language": "en",
+      "path": "/en/privacy/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "Privacy policy draft",
+      "language": "en",
+      "path": "/en/privacy/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "Terms of use draft",
+      "language": "en",
+      "path": "/en/terms/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1425,
+      "h1": "Terms of use draft",
+      "language": "en",
+      "path": "/en/terms/",
+      "viewport": 1440
+    },
+    {
+      "brokenImages": 0,
+      "content": 375,
+      "h1": "Contact & support",
+      "language": "en",
+      "path": "/en/contact/",
+      "viewport": 390
+    },
+    {
+      "brokenImages": 0,
+      "content": 1440,
+      "h1": "Contact & support",
+      "language": "en",
+      "path": "/en/contact/",
+      "viewport": 1440
+    }
+  ],
+  "playWidths": [
+    {
+      "bodyWidth": 305,
+      "frameWidth": 267,
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "bodyWidth": 375,
+      "frameWidth": 337,
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "bodyWidth": 753,
+      "frameWidth": 424,
+      "viewport": 768,
+      "width": 753
+    },
+    {
+      "bodyWidth": 1425,
+      "frameWidth": 884,
+      "viewport": 1440,
+      "width": 1425
+    }
+  ]
+}

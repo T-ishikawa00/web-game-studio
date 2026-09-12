@@ -1,0 +1,26 @@
+{
+  "name": "web-game-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "node scripts/astro.mjs dev --host 127.0.0.1",
+    "check": "node scripts/astro.mjs check",
+    "build": "node scripts/astro.mjs build",
+    "preview": "node scripts/astro.mjs preview --host 127.0.0.1",
+    "test": "tsx --test tests/unit/*.test.ts",
+    "test:routes": "tsx --test tests/routes.test.ts"
+  },
+  "dependencies": {
+    "astro": "7.3.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/node": "22.20.2",
+    "tsx": "4.23.13",
+    "typescript": "6.0.3"
+  }
+}

@@ -1,0 +1,12 @@
+---
+import type { Game, Locale } from '../data/games';
+import { ui } from '../i18n/ui';
+import { gameLabels } from '../lib/game-labels';
+interface Props { game: Game; locale: Locale; related?: boolean }
+const { game, locale, related = false } = Astro.props;
+const t = ui[locale];
+---
+<a class="game-card" href={`/${locale}/games/${game.slug}/`} data-event={related ? 'related_game_open' : 'game_card_open'} data-game={game.id}>
+  <div class="game-cover"><img src={game.cover} width="960" height="660" alt="" loading="lazy" /><span class="cover-tag">{game.state === 'internal' ? t.internal : game.category[locale]}</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+  <div class="card-body"><span class="eyebrow muted">{game.category[locale]}</span><h3>{game.title[locale]}</h3><p>{game.description[locale]}</p><span class="small muted">{gameLabels(game, locale).inputs}</span></div>
+</a>

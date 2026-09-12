@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="660" viewBox="0 0 960 660">
+  <rect width="960" height="660" fill="#122a2b"/>
+  <defs><pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#234244" stroke-width="1"/></pattern></defs>
+  <rect width="960" height="660" fill="url(#grid)"/>
+  <g transform="translate(272 120) rotate(-8 208 208)">
+    <rect x="-24" y="-24" width="464" height="464" rx="40" fill="#0b191b" stroke="#456062" stroke-width="2"/>
+    <g fill="#233d3f" stroke="#416062" stroke-width="2"><rect width="128" height="128" rx="22"/><rect x="144" width="128" height="128" rx="22"/><rect x="288" width="128" height="128" rx="22"/><rect y="144" width="128" height="128" rx="22"/><rect x="144" y="144" width="128" height="128" rx="22"/><rect x="288" y="144" width="128" height="128" rx="22"/><rect y="288" width="128" height="128" rx="22"/><rect x="144" y="288" width="128" height="128" rx="22"/><rect x="288" y="288" width="128" height="128" rx="22"/></g>
+    <g fill="#d2fc70"><rect width="128" height="128" rx="22"/><rect x="144" y="144" width="128" height="128" rx="22"/><rect x="288" y="288" width="128" height="128" rx="22"/></g>
+    <g fill="none" stroke="#425d26" stroke-width="3"><circle cx="64" cy="64" r="21"/><path d="M208 180v56m-28-28h56M338 338l28 28m0-28l-28 28"/></g>
+  </g>
+</svg>
