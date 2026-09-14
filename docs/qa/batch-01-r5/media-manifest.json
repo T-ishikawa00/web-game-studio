@@ -1,0 +1,32 @@
+[
+  {
+    "id": "light-garden",
+    "video": "videos/light-garden.webm",
+    "width": 432,
+    "height": 768,
+    "durationSeconds": 5.943,
+    "source": "Edge real UI recording; mouse/touch emulation; crop only, no scale",
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "two-ways-home",
+    "video": "videos/two-ways-home.webm",
+    "width": 432,
+    "height": 768,
+    "durationSeconds": 7.781,
+    "source": "Edge real UI recording; mouse/touch emulation; crop only, no scale",
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "tiny-delivery",
+    "video": "videos/tiny-delivery.webm",
+    "width": 432,
+    "height": 768,
+    "durationSeconds": 10.458,
+    "source": "Edge real UI recording; mouse/touch emulation; crop only, no scale",
+    "errors": [],
+    "external": []
+  }
+]

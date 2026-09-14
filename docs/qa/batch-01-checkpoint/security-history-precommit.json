@@ -1,0 +1,6 @@
+{
+  "mode": "history",
+  "status": "PASS",
+  "scanner": "gitleaks 8.30.1",
+  "findings": []
+}

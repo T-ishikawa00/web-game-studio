@@ -1,0 +1,1239 @@
+{
+  "date": "2026-09-13T20:22:02.161Z",
+  "browser": "153.0.4234.32",
+  "base": "http://127.0.0.1:4323",
+  "results": [
+    {
+      "name": "Search JA/EN names, description, category conjunction, empty and clear",
+      "status": "PASS"
+    },
+    {
+      "name": "10 / 2 / 0 samples and mixed artwork reset",
+      "status": "PASS"
+    },
+    {
+      "name": "Native new-tab card navigation and safe return URLs",
+      "status": "PASS"
+    },
+    {
+      "name": "Real fixture Play/detail/catalog return keeps safe filter state",
+      "status": "PASS"
+    },
+    {
+      "name": "JA/EN routes at six widths, images and horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "200% layout and 200% text reflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Reference screenshots, desktop/mobile Home and Play, JA/EN",
+      "status": "PASS"
+    },
+    {
+      "name": "Fixture pointer, keyboard, save reload, language, reset cancel/confirm",
+      "status": "PASS"
+    },
+    {
+      "name": "Load failure, retry and actual ready timeout recovery",
+      "status": "PASS"
+    },
+    {
+      "name": "Mock pause, Escape focus restore, skip, reward once, disabled and cross-locale cooldown",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed and unknown-version saves preserve original data and show failure honestly",
+      "status": "PASS"
+    },
+    {
+      "name": "Browser-injected storage denial reports save failure and allows continued input",
+      "status": "PASS"
+    },
+    {
+      "name": "Touch emulation, orientation resize and iframe keyboard exit",
+      "status": "PASS"
+    },
+    {
+      "name": "No-JS cards and broken artwork fallback",
+      "status": "PASS"
+    },
+    {
+      "name": "Color contrast tokens, reduced motion, primary touch targets",
+      "status": "PASS"
+    },
+    {
+      "name": "Baseline index, empty registry, compact Play and bilingual 404",
+      "status": "PASS"
+    },
+    {
+      "name": "No-JS real Play replaces Loading in both languages",
+      "status": "PASS"
+    },
+    {
+      "name": "Artwork fallback recovers when a valid source replaces a failed image",
+      "status": "PASS"
+    },
+    {
+      "name": "Console and external network",
+      "status": "PASS"
+    }
+  ],
+  "layout": [
+    {
+      "locale": "en",
+      "route": "design-preview/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/connection-lab/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/connection-lab/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/connection-lab/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/connection-lab/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/connection-lab/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "games/connection-lab/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "play/connection-lab/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "play/connection-lab/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "play/connection-lab/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "play/connection-lab/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "play/connection-lab/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "play/connection-lab/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "about/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "about/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "about/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "about/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "about/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "about/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "privacy/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "privacy/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "privacy/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "privacy/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "privacy/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "privacy/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "terms/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "terms/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "terms/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "terms/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "terms/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "terms/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "contact/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "contact/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "contact/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "contact/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "contact/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "route": "contact/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/games/clockwork-repair-workshop/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "design-preview/play/larva-evolution-lab/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/connection-lab/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/connection-lab/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/connection-lab/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/connection-lab/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/connection-lab/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "games/connection-lab/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "play/connection-lab/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "play/connection-lab/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "play/connection-lab/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "play/connection-lab/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "play/connection-lab/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "play/connection-lab/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "about/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "about/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "about/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "about/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "about/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "about/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "privacy/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "privacy/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "privacy/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "privacy/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "privacy/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "privacy/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "terms/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "terms/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "terms/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "terms/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "terms/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "terms/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "contact/",
+      "width": 320,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "contact/",
+      "width": 390,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "contact/",
+      "width": 768,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "contact/",
+      "width": 1024,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "contact/",
+      "width": 1440,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    },
+    {
+      "locale": "ja",
+      "route": "contact/",
+      "width": 1672,
+      "overflow": false,
+      "bad": [],
+      "h1": 1
+    }
+  ],
+  "consoleErrors": [],
+  "externalOrigins": []
+}

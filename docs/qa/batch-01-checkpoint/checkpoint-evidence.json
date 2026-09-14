@@ -1,0 +1,4037 @@
+{
+  "at": "2026-09-14T22:13:33.935Z",
+  "cwd": "C:\\projects\\Web Game Studio",
+  "branch": "main",
+  "parent": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "upstream": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "remote": "https://github.com/T-ishikawa00/web-game-studio.git",
+  "actualModel": "gpt-6-astra",
+  "modelEvidence": "session 01a09f3c-dace-70f3-ae56-3b1cb083de43 turn_context.model; unchanged model allocation",
+  "suites": [
+    {
+      "file": "full-run-results.json",
+      "passed": 54,
+      "status": "PASS"
+    },
+    {
+      "file": "input-results.json",
+      "passed": 14,
+      "status": "PASS"
+    },
+    {
+      "file": "state-results.json",
+      "passed": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "regression-results.json",
+      "passed": 15,
+      "status": "PASS"
+    },
+    {
+      "file": "layout-results.json",
+      "passed": 54,
+      "status": "PASS"
+    },
+    {
+      "file": "responsive-results.json",
+      "passed": 84,
+      "status": "PASS"
+    },
+    {
+      "file": "visual-contract-results.json",
+      "passed": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "review-results.json",
+      "passed": 2,
+      "status": "PASS"
+    },
+    {
+      "file": "portal/browser-results.json",
+      "passed": 19,
+      "status": "PASS"
+    }
+  ],
+  "baseline": {
+    "files": 665,
+    "changed": [
+      "scripts/prototype-assets.mjs",
+      "scripts/prototype-covers.mjs",
+      "src/prototypes/art.ts",
+      "src/prototypes/board-view.ts",
+      "src/prototypes/game-r2.ts",
+      "src/prototypes/guides.ts",
+      "AGENTS.md",
+      "README.md",
+      "docs/records/ASSET_REGISTER_R1.md"
+    ],
+    "missing": [],
+    "unexpected": [],
+    "protectedGameplaySavePortalUnchanged": true
+  },
+  "inventory": {
+    "files": 978,
+    "bytes": 87333428,
+    "largestBytes": 1199766,
+    "forbidden": [],
+    "candidates": [
+      {
+        "file": "AGENTS.md",
+        "bytes": 7328
+      },
+      {
+        "file": "README.md",
+        "bytes": 13861
+      },
+      {
+        "file": "astro.config.mjs",
+        "bytes": 532
+      },
+      {
+        "file": "docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md",
+        "bytes": 30460
+      },
+      {
+        "file": "docs/games/GAME_CONTROL_UI_AND_CAPTURE_R3.md",
+        "bytes": 32052
+      },
+      {
+        "file": "docs/games/GAME_DIRECT_MANIPULATION_R4.md",
+        "bytes": 32492
+      },
+      {
+        "file": "docs/games/GAME_PROTOTYPE_BATCH_01_R1.md",
+        "bytes": 31661
+      },
+      {
+        "file": "docs/games/GAME_VISUAL_LANGUAGE_BASELINE_R5.md",
+        "bytes": 2450
+      },
+      {
+        "file": "docs/games/GAME_VISUAL_LANGUAGE_R5.md",
+        "bytes": 59719
+      },
+      {
+        "file": "docs/games/light-garden/R2-CONTENT.md",
+        "bytes": 9692
+      },
+      {
+        "file": "docs/games/light-garden/SPEC.md",
+        "bytes": 2454
+      },
+      {
+        "file": "docs/games/tiny-delivery/R2-CONTENT.md",
+        "bytes": 7764
+      },
+      {
+        "file": "docs/games/tiny-delivery/SPEC.md",
+        "bytes": 2777
+      },
+      {
+        "file": "docs/games/two-ways-home/R2-CONTENT.md",
+        "bytes": 8848
+      },
+      {
+        "file": "docs/games/two-ways-home/SPEC.md",
+        "bytes": 2426
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/REPORT.md",
+        "bytes": 7662
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/checkpoint-evidence.json",
+        "bytes": 116689
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/comparison-before.json",
+        "bytes": 22797
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/full-run-results.json",
+        "bytes": 6114
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/input-results.json",
+        "bytes": 2113
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/layout-results.json",
+        "bytes": 70553
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/browser-results.json",
+        "bytes": 23500
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/artwork-failure.png",
+        "bytes": 822539
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/detail-en-1440.png",
+        "bytes": 484692
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/fixture-en-1440.png",
+        "bytes": 119132
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/fixture-ja-390.png",
+        "bytes": 105432
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/home-en-1672.png",
+        "bytes": 1025572
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/home-en-390.png",
+        "bytes": 515307
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/home-en-mixed.png",
+        "bytes": 810125
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/home-ja-1440.png",
+        "bytes": 920310
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/home-ja-390.png",
+        "bytes": 553212
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/home-normal-ja-1440.png",
+        "bytes": 207613
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/no-js-play.png",
+        "bytes": 111000
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/play-en-1440.png",
+        "bytes": 442267
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/play-ja-1440.png",
+        "bytes": 141297
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/portal/screens/play-ja-390.png",
+        "bytes": 132316
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/regression-results.json",
+        "bytes": 4401
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/responsive-results.json",
+        "bytes": 72275
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/review-results.json",
+        "bytes": 311
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-en-1.png",
+        "bytes": 13775
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-en-12.png",
+        "bytes": 17586
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-en-1440-final.png",
+        "bytes": 25178
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-en-18.png",
+        "bytes": 25178
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-en-320-final.png",
+        "bytes": 16083
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-en-360-final.png",
+        "bytes": 16690
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-en-390-final.png",
+        "bytes": 17367
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-en-768-final.png",
+        "bytes": 24087
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-ja-1.png",
+        "bytes": 13775
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-ja-12.png",
+        "bytes": 17586
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-ja-1440-final.png",
+        "bytes": 25178
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-ja-18.png",
+        "bytes": 25178
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-ja-320-final.png",
+        "bytes": 16083
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-ja-360-final.png",
+        "bytes": 16681
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-ja-390-final.png",
+        "bytes": 17362
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-auto-ja-768-final.png",
+        "bytes": 24087
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-first-use-390.png",
+        "bytes": 10946
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-en-1440.png",
+        "bytes": 21258
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-en-320.png",
+        "bytes": 18412
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-en-360.png",
+        "bytes": 18522
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-en-390.png",
+        "bytes": 19839
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-en-768.png",
+        "bytes": 21258
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-ja-1440.png",
+        "bytes": 34872
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-ja-320.png",
+        "bytes": 30178
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-ja-360.png",
+        "bytes": 30558
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-ja-390.png",
+        "bytes": 33447
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-help-ja-768.png",
+        "bytes": 34872
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-landscape-en-1.png",
+        "bytes": 12235
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-landscape-en-12.png",
+        "bytes": 15661
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-landscape-en-18.png",
+        "bytes": 22535
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-landscape-ja-1.png",
+        "bytes": 12235
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-landscape-ja-12.png",
+        "bytes": 15661
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-landscape-ja-18.png",
+        "bytes": 22535
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-portrait-en-1.png",
+        "bytes": 11179
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-portrait-en-12.png",
+        "bytes": 13442
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-portrait-en-18.png",
+        "bytes": 19816
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-portrait-ja-1.png",
+        "bytes": 11179
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-portrait-ja-12.png",
+        "bytes": 13442
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/light-garden-portrait-ja-18.png",
+        "bytes": 19816
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/review-top.png",
+        "bytes": 131235
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/review-videos-320px.png",
+        "bytes": 167519
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-en-1.png",
+        "bytes": 12699
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-en-12.png",
+        "bytes": 17131
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-en-1440-final.png",
+        "bytes": 18297
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-en-18.png",
+        "bytes": 18297
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-en-320-final.png",
+        "bytes": 11674
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-en-360-final.png",
+        "bytes": 11884
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-en-390-final.png",
+        "bytes": 12748
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-en-768-final.png",
+        "bytes": 17418
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-ja-1.png",
+        "bytes": 13167
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-ja-12.png",
+        "bytes": 17594
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-ja-1440-final.png",
+        "bytes": 18768
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-ja-18.png",
+        "bytes": 18768
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-ja-320-final.png",
+        "bytes": 12110
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-ja-360-final.png",
+        "bytes": 12316
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-ja-390-final.png",
+        "bytes": 13186
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-auto-ja-768-final.png",
+        "bytes": 17855
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-first-use-390.png",
+        "bytes": 10543
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-en-1440.png",
+        "bytes": 25817
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-en-320.png",
+        "bytes": 21770
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-en-360.png",
+        "bytes": 22044
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-en-390.png",
+        "bytes": 23915
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-en-768.png",
+        "bytes": 25819
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-ja-1440.png",
+        "bytes": 39775
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-ja-320.png",
+        "bytes": 34668
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-ja-360.png",
+        "bytes": 35148
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-ja-390.png",
+        "bytes": 37846
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-help-ja-768.png",
+        "bytes": 39777
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-landscape-en-1.png",
+        "bytes": 11101
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-landscape-en-12.png",
+        "bytes": 15521
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-landscape-en-18.png",
+        "bytes": 16294
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-landscape-ja-1.png",
+        "bytes": 11572
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-landscape-ja-12.png",
+        "bytes": 15967
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-landscape-ja-18.png",
+        "bytes": 16750
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-portrait-en-1.png",
+        "bytes": 10233
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-portrait-en-12.png",
+        "bytes": 12913
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-portrait-en-18.png",
+        "bytes": 14588
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-portrait-ja-1.png",
+        "bytes": 10688
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-portrait-ja-12.png",
+        "bytes": 13380
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tiny-delivery-portrait-ja-18.png",
+        "bytes": 15050
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/tips-replayed-en.png",
+        "bytes": 15365
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-1.png",
+        "bytes": 12889
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-12.png",
+        "bytes": 13848
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-1440-final-buttons.png",
+        "bytes": 16412
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-1440-final.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-18.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-320-final-buttons.png",
+        "bytes": 11664
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-320-final.png",
+        "bytes": 10246
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-360-final-buttons.png",
+        "bytes": 11750
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-360-final.png",
+        "bytes": 10371
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-390-final-buttons.png",
+        "bytes": 12088
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-390-final.png",
+        "bytes": 10899
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-768-final-buttons.png",
+        "bytes": 14732
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-en-768-final.png",
+        "bytes": 12077
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-1.png",
+        "bytes": 12889
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-12.png",
+        "bytes": 13848
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-1440-final-buttons.png",
+        "bytes": 16412
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-1440-final.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-18.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-320-final-buttons.png",
+        "bytes": 11664
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-320-final.png",
+        "bytes": 10258
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-360-final-buttons.png",
+        "bytes": 11746
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-360-final.png",
+        "bytes": 10334
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-390-final-buttons.png",
+        "bytes": 12085
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-390-final.png",
+        "bytes": 10895
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-768-final-buttons.png",
+        "bytes": 14732
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-auto-ja-768-final.png",
+        "bytes": 12077
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-first-use-390.png",
+        "bytes": 14204
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-en-1440.png",
+        "bytes": 26936
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-en-320.png",
+        "bytes": 24967
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-en-360.png",
+        "bytes": 25359
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-en-390.png",
+        "bytes": 26169
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-en-768.png",
+        "bytes": 26703
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-ja-1440.png",
+        "bytes": 40849
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-ja-320.png",
+        "bytes": 37954
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-ja-360.png",
+        "bytes": 38267
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-ja-390.png",
+        "bytes": 39114
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-help-ja-768.png",
+        "bytes": 40593
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-landscape-en-1.png",
+        "bytes": 12734
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-landscape-en-12.png",
+        "bytes": 12959
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-landscape-en-18.png",
+        "bytes": 13043
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-landscape-ja-1.png",
+        "bytes": 12734
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-landscape-ja-12.png",
+        "bytes": 12959
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-landscape-ja-18.png",
+        "bytes": 13043
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-1440-buttonsfalse.png",
+        "bytes": 15189
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-1440-buttonstrue.png",
+        "bytes": 16471
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-390-buttonsfalse.png",
+        "bytes": 13658
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-390-buttonstrue.png",
+        "bytes": 14428
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-en-1.png",
+        "bytes": 12006
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-en-12.png",
+        "bytes": 11965
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-en-18.png",
+        "bytes": 11878
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-ja-1.png",
+        "bytes": 12006
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-ja-12.png",
+        "bytes": 11965
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/screens/two-ways-home-portrait-ja-18.png",
+        "bytes": 11878
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/security-history-precommit.json",
+        "bytes": 94
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/state-results.json",
+        "bytes": 947
+      },
+      {
+        "file": "docs/qa/batch-01-checkpoint/visual-contract-results.json",
+        "bytes": 772
+      },
+      {
+        "file": "docs/qa/batch-01-r2/REPORT.md",
+        "bytes": 14167
+      },
+      {
+        "file": "docs/qa/batch-01-r2/REVIEW.html",
+        "bytes": 13796
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/browser-results.json",
+        "bytes": 23500
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/artwork-failure.png",
+        "bytes": 822540
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/detail-en-1440.png",
+        "bytes": 484692
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/fixture-en-1440.png",
+        "bytes": 119132
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/fixture-ja-390.png",
+        "bytes": 105432
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/home-en-1672.png",
+        "bytes": 1025935
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/home-en-390.png",
+        "bytes": 515176
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/home-en-mixed.png",
+        "bytes": 809922
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/home-ja-1440.png",
+        "bytes": 920310
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/home-ja-390.png",
+        "bytes": 553293
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/home-normal-ja-1440.png",
+        "bytes": 207613
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/no-js-play.png",
+        "bytes": 111000
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/play-en-1440.png",
+        "bytes": 442267
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/play-ja-1440.png",
+        "bytes": 141297
+      },
+      {
+        "file": "docs/qa/batch-01-r2/baseline-regression/screens/play-ja-390.png",
+        "bytes": 132316
+      },
+      {
+        "file": "docs/qa/batch-01-r2/full-run-browser-results.json",
+        "bytes": 24742
+      },
+      {
+        "file": "docs/qa/batch-01-r2/git-state.json",
+        "bytes": 33959
+      },
+      {
+        "file": "docs/qa/batch-01-r2/regression-results.json",
+        "bytes": 32905
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/focus-review-clip.png",
+        "bytes": 39434
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/focus-review-tall.png",
+        "bytes": 58750
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/focus-review.png",
+        "bytes": 59298
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-after-guide.png",
+        "bytes": 133004
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-after.png",
+        "bytes": 104865
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-before.png",
+        "bytes": 54467
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-draft-1440.png",
+        "bytes": 133011
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-draft-320.png",
+        "bytes": 68822
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-draft-390.png",
+        "bytes": 85073
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-final-initial.png",
+        "bytes": 136078
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-final-solved.png",
+        "bytes": 150701
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-interaction-2.png",
+        "bytes": 137447
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-interaction-3.png",
+        "bytes": 137380
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-intro-initial.png",
+        "bytes": 133039
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-intro-solved.png",
+        "bytes": 137350
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-middle-initial.png",
+        "bytes": 107885
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-middle-solved.png",
+        "bytes": 119454
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-mobile-final.png",
+        "bytes": 84574
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-mobile-guide.png",
+        "bytes": 77094
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/light-garden-mobile.png",
+        "bytes": 61400
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-after-guide.png",
+        "bytes": 162051
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-after.png",
+        "bytes": 133825
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-before.png",
+        "bytes": 71719
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-draft-1440.png",
+        "bytes": 162049
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-draft-320.png",
+        "bytes": 91724
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-draft-390.png",
+        "bytes": 106346
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-final-initial.png",
+        "bytes": 156680
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-final-solved.png",
+        "bytes": 153629
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-interaction-2.png",
+        "bytes": 161270
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-interaction-3.png",
+        "bytes": 161494
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-intro-initial.png",
+        "bytes": 162059
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-intro-solved.png",
+        "bytes": 161436
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-middle-initial.png",
+        "bytes": 130235
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-middle-solved.png",
+        "bytes": 125513
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-mobile-final.png",
+        "bytes": 90555
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-mobile-guide.png",
+        "bytes": 93108
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/tiny-delivery-mobile.png",
+        "bytes": 75797
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-after-guide.png",
+        "bytes": 116701
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-after.png",
+        "bytes": 90023
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-before.png",
+        "bytes": 70520
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-draft-1440.png",
+        "bytes": 116703
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-draft-320.png",
+        "bytes": 67047
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-draft-390.png",
+        "bytes": 72529
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-final-initial.png",
+        "bytes": 93606
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-final-solved.png",
+        "bytes": 100095
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-interaction-2.png",
+        "bytes": 114151
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-interaction-3.png",
+        "bytes": 120972
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-intro-initial.png",
+        "bytes": 116706
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-intro-solved.png",
+        "bytes": 120671
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-middle-initial.png",
+        "bytes": 92044
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-middle-solved.png",
+        "bytes": 97207
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-mobile-final.png",
+        "bytes": 43150
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-mobile-guide.png",
+        "bytes": 68911
+      },
+      {
+        "file": "docs/qa/batch-01-r2/screens/two-ways-home-mobile.png",
+        "bytes": 49308
+      },
+      {
+        "file": "docs/qa/batch-01-r2/technical-results.json",
+        "bytes": 20348
+      },
+      {
+        "file": "docs/qa/batch-01-r3/REPORT.md",
+        "bytes": 12252
+      },
+      {
+        "file": "docs/qa/batch-01-r3/REVIEW.html",
+        "bytes": 18110
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/browser-results.json",
+        "bytes": 23500
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/artwork-failure.png",
+        "bytes": 822540
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/detail-en-1440.png",
+        "bytes": 484692
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/fixture-en-1440.png",
+        "bytes": 119132
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/fixture-ja-390.png",
+        "bytes": 105432
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/home-en-1672.png",
+        "bytes": 1025260
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/home-en-390.png",
+        "bytes": 515307
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/home-en-mixed.png",
+        "bytes": 810045
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/home-ja-1440.png",
+        "bytes": 920310
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/home-ja-390.png",
+        "bytes": 553257
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/home-normal-ja-1440.png",
+        "bytes": 207613
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/no-js-play.png",
+        "bytes": 111000
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/play-en-1440.png",
+        "bytes": 442267
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/play-ja-1440.png",
+        "bytes": 141297
+      },
+      {
+        "file": "docs/qa/batch-01-r3/baseline-regression/screens/play-ja-390.png",
+        "bytes": 132316
+      },
+      {
+        "file": "docs/qa/batch-01-r3/comparison-9.png",
+        "bytes": 300443
+      },
+      {
+        "file": "docs/qa/batch-01-r3/control-results.json",
+        "bytes": 2775
+      },
+      {
+        "file": "docs/qa/batch-01-r3/full-run-browser-results.json",
+        "bytes": 24742
+      },
+      {
+        "file": "docs/qa/batch-01-r3/git-state.json",
+        "bytes": 3601
+      },
+      {
+        "file": "docs/qa/batch-01-r3/layout-results.json",
+        "bytes": 23915
+      },
+      {
+        "file": "docs/qa/batch-01-r3/media-manifest.json",
+        "bytes": 3126
+      },
+      {
+        "file": "docs/qa/batch-01-r3/regression-results.json",
+        "bytes": 8984
+      },
+      {
+        "file": "docs/qa/batch-01-r3/responsive-results.json",
+        "bytes": 14011
+      },
+      {
+        "file": "docs/qa/batch-01-r3/review-verification.json",
+        "bytes": 2241
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-after-guide.png",
+        "bytes": 125126
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-after.png",
+        "bytes": 97892
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-en-1.png",
+        "bytes": 82160
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-en-12.png",
+        "bytes": 86292
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-en-1280-final.png",
+        "bytes": 126626
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-en-18.png",
+        "bytes": 115272
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-en-320-final.png",
+        "bytes": 77343
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-en-390-final.png",
+        "bytes": 86558
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-ja-1.png",
+        "bytes": 88983
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-ja-12.png",
+        "bytes": 91845
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-ja-1280-final.png",
+        "bytes": 132341
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-ja-18.png",
+        "bytes": 118178
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-ja-320-final.png",
+        "bytes": 82757
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-auto-ja-390-final.png",
+        "bytes": 90937
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-before.png",
+        "bytes": 99679
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-controls-after.png",
+        "bytes": 3952
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-controls-before.png",
+        "bytes": 7373
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-controls-clear.png",
+        "bytes": 4817
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-controls-pressed.png",
+        "bytes": 4118
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-final-initial.png",
+        "bytes": 128403
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-final-solved.png",
+        "bytes": 141642
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-interaction-2.png",
+        "bytes": 129557
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-interaction-3.png",
+        "bytes": 129786
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-intro-initial.png",
+        "bytes": 125157
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-intro-solved.png",
+        "bytes": 129740
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-en-1.png",
+        "bytes": 64238
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-en-12.png",
+        "bytes": 67809
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-en-18.png",
+        "bytes": 97002
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-en-390-final.png",
+        "bytes": 56720
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-hd.png",
+        "bytes": 172992
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-ja-1.png",
+        "bytes": 70600
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-ja-12.png",
+        "bytes": 72659
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-ja-18.png",
+        "bytes": 100343
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-ja-390-final.png",
+        "bytes": 79876
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-motion-1.png",
+        "bytes": 70607
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-motion-2.png",
+        "bytes": 76562
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-landscape-motion-3.png",
+        "bytes": 76598
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-middle-initial.png",
+        "bytes": 100429
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-middle-solved.png",
+        "bytes": 111952
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-mobile-final.png",
+        "bytes": 84657
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-mobile-guide.png",
+        "bytes": 72889
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-mobile.png",
+        "bytes": 60367
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-en-1.png",
+        "bytes": 55243
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-en-12.png",
+        "bytes": 59830
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-en-18.png",
+        "bytes": 84988
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-en-390-final.png",
+        "bytes": 81993
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-hd.png",
+        "bytes": 179885
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-ja-1.png",
+        "bytes": 61292
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-ja-12.png",
+        "bytes": 64802
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-ja-18.png",
+        "bytes": 88802
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-ja-390-final.png",
+        "bytes": 86104
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-motion-1.png",
+        "bytes": 61545
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-motion-2.png",
+        "bytes": 62737
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/light-garden-portrait-motion-3.png",
+        "bytes": 62687
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-after-guide.png",
+        "bytes": 153818
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-after.png",
+        "bytes": 126058
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-en-1.png",
+        "bytes": 102088
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-en-12.png",
+        "bytes": 93683
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-en-1280-final.png",
+        "bytes": 120034
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-en-18.png",
+        "bytes": 120036
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-en-320-final.png",
+        "bytes": 69590
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-en-390-final.png",
+        "bytes": 77186
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-ja-1.png",
+        "bytes": 111261
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-ja-12.png",
+        "bytes": 102503
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-ja-1280-final.png",
+        "bytes": 128106
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-ja-18.png",
+        "bytes": 128106
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-ja-320-final.png",
+        "bytes": 75145
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-auto-ja-390-final.png",
+        "bytes": 84469
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-before.png",
+        "bytes": 122093
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-controls-after.png",
+        "bytes": 4850
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-controls-before.png",
+        "bytes": 5272
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-controls-clear.png",
+        "bytes": 5274
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-controls-pressed.png",
+        "bytes": 4890
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-final-initial.png",
+        "bytes": 142786
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-final-solved.png",
+        "bytes": 138365
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-interaction-2.png",
+        "bytes": 153144
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-interaction-3.png",
+        "bytes": 146861
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-intro-initial.png",
+        "bytes": 153825
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-intro-solved.png",
+        "bytes": 146813
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-en-1.png",
+        "bytes": 87313
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-en-12.png",
+        "bytes": 76552
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-en-18.png",
+        "bytes": 103534
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-en-390-final.png",
+        "bytes": 56273
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-hd.png",
+        "bytes": 235376
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-ja-1.png",
+        "bytes": 95034
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-ja-12.png",
+        "bytes": 84392
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-ja-18.png",
+        "bytes": 110125
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-ja-390-final.png",
+        "bytes": 72942
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-motion-1.png",
+        "bytes": 95034
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-motion-2.png",
+        "bytes": 94989
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-motion-3.png",
+        "bytes": 89496
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-landscape-motion-4.png",
+        "bytes": 89194
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-middle-initial.png",
+        "bytes": 116142
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-middle-solved.png",
+        "bytes": 111955
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-mobile-final.png",
+        "bytes": 89157
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-mobile-guide.png",
+        "bytes": 87080
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-mobile.png",
+        "bytes": 75647
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-en-1.png",
+        "bytes": 70402
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-en-12.png",
+        "bytes": 61354
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-en-18.png",
+        "bytes": 84695
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-en-390-final.png",
+        "bytes": 76706
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-hd.png",
+        "bytes": 209941
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-ja-1.png",
+        "bytes": 78841
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-ja-12.png",
+        "bytes": 69933
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-ja-18.png",
+        "bytes": 92370
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-ja-390-final.png",
+        "bytes": 84826
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-motion-1.png",
+        "bytes": 78841
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-motion-2.png",
+        "bytes": 78867
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-motion-3.png",
+        "bytes": 73968
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/tiny-delivery-portrait-motion-4.png",
+        "bytes": 68899
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-after-guide.png",
+        "bytes": 109743
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-after.png",
+        "bytes": 82516
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-en-1.png",
+        "bytes": 69107
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-en-12.png",
+        "bytes": 69704
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-en-1280-final.png",
+        "bytes": 75430
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-en-18.png",
+        "bytes": 72905
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-en-320-final.png",
+        "bytes": 44322
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-en-390-final.png",
+        "bytes": 46319
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-ja-1.png",
+        "bytes": 71083
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-ja-12.png",
+        "bytes": 72904
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-ja-1280-final.png",
+        "bytes": 80337
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-ja-18.png",
+        "bytes": 74502
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-ja-320-final.png",
+        "bytes": 49380
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-auto-ja-390-final.png",
+        "bytes": 50927
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-before.png",
+        "bytes": 81617
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-controls-after.png",
+        "bytes": 3926
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-controls-before.png",
+        "bytes": 7356
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-controls-clear.png",
+        "bytes": 4853
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-controls-pressed.png",
+        "bytes": 2104
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-final-initial.png",
+        "bytes": 86217
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-final-solved.png",
+        "bytes": 91048
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-interaction-2.png",
+        "bytes": 107765
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-interaction-3.png",
+        "bytes": 113634
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-intro-initial.png",
+        "bytes": 109744
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-intro-solved.png",
+        "bytes": 113347
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-en-1.png",
+        "bytes": 49686
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-en-12.png",
+        "bytes": 57621
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-en-18.png",
+        "bytes": 60063
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-en-390-final.png",
+        "bytes": 38323
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-hd.png",
+        "bytes": 134707
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-ja-1.png",
+        "bytes": 51342
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-ja-12.png",
+        "bytes": 60592
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-ja-18.png",
+        "bytes": 62106
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-ja-390-final.png",
+        "bytes": 34018
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-motion-1.png",
+        "bytes": 51392
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-motion-2.png",
+        "bytes": 49757
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-landscape-motion-3.png",
+        "bytes": 52936
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-middle-initial.png",
+        "bytes": 84475
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-middle-solved.png",
+        "bytes": 89555
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-mobile-final.png",
+        "bytes": 50268
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-mobile-guide.png",
+        "bytes": 60622
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-mobile.png",
+        "bytes": 47727
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-en-1.png",
+        "bytes": 36755
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-en-12.png",
+        "bytes": 37031
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-en-18.png",
+        "bytes": 38302
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-en-390-final.png",
+        "bytes": 38772
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-hd.png",
+        "bytes": 111890
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-ja-1.png",
+        "bytes": 38864
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-ja-12.png",
+        "bytes": 40369
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-ja-18.png",
+        "bytes": 40727
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-ja-390-final.png",
+        "bytes": 43585
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-motion-1.png",
+        "bytes": 38864
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-motion-2.png",
+        "bytes": 37480
+      },
+      {
+        "file": "docs/qa/batch-01-r3/screens/two-ways-home-portrait-motion-3.png",
+        "bytes": 40591
+      },
+      {
+        "file": "docs/qa/batch-01-r3/state-results.json",
+        "bytes": 2319
+      },
+      {
+        "file": "docs/qa/batch-01-r3/videos/light-garden-landscape.webm",
+        "bytes": 843790
+      },
+      {
+        "file": "docs/qa/batch-01-r3/videos/light-garden-portrait.webm",
+        "bytes": 723974
+      },
+      {
+        "file": "docs/qa/batch-01-r3/videos/tiny-delivery-landscape.webm",
+        "bytes": 1199766
+      },
+      {
+        "file": "docs/qa/batch-01-r3/videos/tiny-delivery-portrait.webm",
+        "bytes": 1135811
+      },
+      {
+        "file": "docs/qa/batch-01-r3/videos/two-ways-home-landscape.webm",
+        "bytes": 1020992
+      },
+      {
+        "file": "docs/qa/batch-01-r3/videos/two-ways-home-portrait.webm",
+        "bytes": 794468
+      },
+      {
+        "file": "docs/qa/batch-01-r4/REPORT.md",
+        "bytes": 11075
+      },
+      {
+        "file": "docs/qa/batch-01-r4/REVIEW.html",
+        "bytes": 15819
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/browser-results.json",
+        "bytes": 23500
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/artwork-failure.png",
+        "bytes": 822540
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/detail-en-1440.png",
+        "bytes": 484692
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/fixture-en-1440.png",
+        "bytes": 119132
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/fixture-ja-390.png",
+        "bytes": 105432
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/home-en-1672.png",
+        "bytes": 1025935
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/home-en-390.png",
+        "bytes": 515307
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/home-en-mixed.png",
+        "bytes": 810721
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/home-ja-1440.png",
+        "bytes": 919705
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/home-ja-390.png",
+        "bytes": 553212
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/home-normal-ja-1440.png",
+        "bytes": 207613
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/no-js-play.png",
+        "bytes": 111000
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/play-en-1440.png",
+        "bytes": 442267
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/play-ja-1440.png",
+        "bytes": 141297
+      },
+      {
+        "file": "docs/qa/batch-01-r4/baseline-regression/screens/play-ja-390.png",
+        "bytes": 132316
+      },
+      {
+        "file": "docs/qa/batch-01-r4/comparison-before.json",
+        "bytes": 7603
+      },
+      {
+        "file": "docs/qa/batch-01-r4/diff-check.json",
+        "bytes": 1311
+      },
+      {
+        "file": "docs/qa/batch-01-r4/full-run-results.json",
+        "bytes": 6114
+      },
+      {
+        "file": "docs/qa/batch-01-r4/git-state.json",
+        "bytes": 2643
+      },
+      {
+        "file": "docs/qa/batch-01-r4/input-results.json",
+        "bytes": 2113
+      },
+      {
+        "file": "docs/qa/batch-01-r4/layout-results.json",
+        "bytes": 78604
+      },
+      {
+        "file": "docs/qa/batch-01-r4/media-manifest.json",
+        "bytes": 797
+      },
+      {
+        "file": "docs/qa/batch-01-r4/regression-results.json",
+        "bytes": 8733
+      },
+      {
+        "file": "docs/qa/batch-01-r4/responsive-results.json",
+        "bytes": 60232
+      },
+      {
+        "file": "docs/qa/batch-01-r4/review-results.json",
+        "bytes": 148
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-en-1.png",
+        "bytes": 76660
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-en-12.png",
+        "bytes": 81391
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-en-1440-final.png",
+        "bytes": 109732
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-en-18.png",
+        "bytes": 109732
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-en-320-final.png",
+        "bytes": 60407
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-en-360-final.png",
+        "bytes": 63457
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-en-390-final.png",
+        "bytes": 71402
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-ja-1.png",
+        "bytes": 82887
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-ja-12.png",
+        "bytes": 85725
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-ja-1440-final.png",
+        "bytes": 112647
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-ja-18.png",
+        "bytes": 112647
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-ja-320-final.png",
+        "bytes": 62716
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-ja-360-final.png",
+        "bytes": 65768
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-ja-390-final.png",
+        "bytes": 73435
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-auto-r3.png",
+        "bytes": 88983
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-help-en-1440.png",
+        "bytes": 23389
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-help-en-320.png",
+        "bytes": 22338
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-help-en-360.png",
+        "bytes": 22263
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-help-en-390.png",
+        "bytes": 22794
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-help-ja-1440.png",
+        "bytes": 37188
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-help-ja-320.png",
+        "bytes": 34838
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-help-ja-360.png",
+        "bytes": 35481
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-help-ja-390.png",
+        "bytes": 36046
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-landscape-en-1.png",
+        "bytes": 62854
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-landscape-en-12.png",
+        "bytes": 66419
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-landscape-en-18.png",
+        "bytes": 95231
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-landscape-ja-1.png",
+        "bytes": 69082
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-landscape-ja-12.png",
+        "bytes": 71125
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-landscape-ja-18.png",
+        "bytes": 98435
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-landscape-r3.png",
+        "bytes": 70607
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-motion-1.png",
+        "bytes": 58947
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-motion-2.png",
+        "bytes": 59806
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-motion-3.png",
+        "bytes": 58947
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-portrait-en-1.png",
+        "bytes": 53055
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-portrait-en-12.png",
+        "bytes": 57476
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-portrait-en-18.png",
+        "bytes": 82954
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-portrait-ja-1.png",
+        "bytes": 58947
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-portrait-ja-12.png",
+        "bytes": 62168
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-portrait-ja-18.png",
+        "bytes": 86316
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-portrait-r3.png",
+        "bytes": 61545
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/light-garden-video-decoded.png",
+        "bytes": 219038
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/review-top.png",
+        "bytes": 106554
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-en-1.png",
+        "bytes": 96606
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-en-12.png",
+        "bytes": 87392
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-en-1440-final.png",
+        "bytes": 113088
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-en-18.png",
+        "bytes": 113088
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-en-320-final.png",
+        "bytes": 62056
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-en-360-final.png",
+        "bytes": 63760
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-en-390-final.png",
+        "bytes": 70495
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-ja-1.png",
+        "bytes": 103550
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-ja-12.png",
+        "bytes": 94086
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-ja-1440-final.png",
+        "bytes": 119108
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-ja-18.png",
+        "bytes": 119108
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-ja-320-final.png",
+        "bytes": 67376
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-ja-360-final.png",
+        "bytes": 69137
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-ja-390-final.png",
+        "bytes": 75777
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-auto-r3.png",
+        "bytes": 111200
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-help-en-1440.png",
+        "bytes": 27682
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-help-en-320.png",
+        "bytes": 25658
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-help-en-360.png",
+        "bytes": 25867
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-help-en-390.png",
+        "bytes": 26373
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-help-ja-1440.png",
+        "bytes": 41125
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-help-ja-320.png",
+        "bytes": 38657
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-help-ja-360.png",
+        "bytes": 38884
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-help-ja-390.png",
+        "bytes": 39643
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-landscape-en-1.png",
+        "bytes": 84567
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-landscape-en-12.png",
+        "bytes": 75703
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-landscape-en-18.png",
+        "bytes": 101943
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-landscape-ja-1.png",
+        "bytes": 91854
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-landscape-ja-12.png",
+        "bytes": 82288
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-landscape-ja-18.png",
+        "bytes": 107483
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-landscape-r3.png",
+        "bytes": 95034
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-motion-1.png",
+        "bytes": 75584
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-motion-2.png",
+        "bytes": 75467
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-motion-3.png",
+        "bytes": 74270
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-motion-4.png",
+        "bytes": 75584
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-portrait-en-1.png",
+        "bytes": 68587
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-portrait-en-12.png",
+        "bytes": 61528
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-portrait-en-18.png",
+        "bytes": 84039
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-portrait-ja-1.png",
+        "bytes": 75584
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-portrait-ja-12.png",
+        "bytes": 68257
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-portrait-ja-18.png",
+        "bytes": 89991
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-portrait-r3.png",
+        "bytes": 78841
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/tiny-delivery-video-decoded.png",
+        "bytes": 257922
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-1.png",
+        "bytes": 60358
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-12.png",
+        "bytes": 61017
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-1440-final-buttons.png",
+        "bytes": 65382
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-1440-final.png",
+        "bytes": 63294
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-18.png",
+        "bytes": 63294
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-320-final-buttons.png",
+        "bytes": 39990
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-320-final.png",
+        "bytes": 43953
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-360-final-buttons.png",
+        "bytes": 40327
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-360-final.png",
+        "bytes": 44178
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-390-final-buttons.png",
+        "bytes": 40602
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-en-390-final.png",
+        "bytes": 44357
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-1.png",
+        "bytes": 62532
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-12.png",
+        "bytes": 64400
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-1440-final-buttons.png",
+        "bytes": 67241
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-1440-final.png",
+        "bytes": 65773
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-18.png",
+        "bytes": 65773
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-320-final-buttons.png",
+        "bytes": 41986
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-320-final.png",
+        "bytes": 46247
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-360-final-buttons.png",
+        "bytes": 42104
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-360-final.png",
+        "bytes": 46418
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-390-final-buttons.png",
+        "bytes": 42611
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-ja-390-final.png",
+        "bytes": 46652
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-auto-r3.png",
+        "bytes": 71083
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-help-en-1440.png",
+        "bytes": 30374
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-help-en-320.png",
+        "bytes": 28126
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-help-en-360.png",
+        "bytes": 28488
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-help-en-390.png",
+        "bytes": 29350
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-help-ja-1440.png",
+        "bytes": 44485
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-help-ja-320.png",
+        "bytes": 41116
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-help-ja-360.png",
+        "bytes": 41446
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-help-ja-390.png",
+        "bytes": 42643
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-landscape-en-1.png",
+        "bytes": 47073
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-landscape-en-12.png",
+        "bytes": 55089
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-landscape-en-18.png",
+        "bytes": 57181
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-landscape-ja-1.png",
+        "bytes": 49138
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-landscape-ja-12.png",
+        "bytes": 58416
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-landscape-ja-18.png",
+        "bytes": 59679
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-landscape-r3.png",
+        "bytes": 51342
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-motion-1.png",
+        "bytes": 43181
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-motion-2.png",
+        "bytes": 39639
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-motion-3.png",
+        "bytes": 36020
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-motion-4.png",
+        "bytes": 39422
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-1440-buttonsfalse.png",
+        "bytes": 40814
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-1440-buttonstrue.png",
+        "bytes": 36726
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-390-buttonsfalse.png",
+        "bytes": 35430
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-390-buttonstrue.png",
+        "bytes": 32460
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-en-1.png",
+        "bytes": 40814
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-en-12.png",
+        "bytes": 41128
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-en-18.png",
+        "bytes": 42648
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-ja-1.png",
+        "bytes": 43181
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-ja-12.png",
+        "bytes": 44574
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-ja-18.png",
+        "bytes": 45486
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-portrait-r3.png",
+        "bytes": 38864
+      },
+      {
+        "file": "docs/qa/batch-01-r4/screens/two-ways-home-video-decoded.png",
+        "bytes": 95466
+      },
+      {
+        "file": "docs/qa/batch-01-r4/security-provenance.json",
+        "bytes": 1163
+      },
+      {
+        "file": "docs/qa/batch-01-r4/state-results.json",
+        "bytes": 947
+      },
+      {
+        "file": "docs/qa/batch-01-r4/videos/light-garden.webm",
+        "bytes": 673749
+      },
+      {
+        "file": "docs/qa/batch-01-r4/videos/tiny-delivery.webm",
+        "bytes": 772672
+      },
+      {
+        "file": "docs/qa/batch-01-r4/videos/two-ways-home.webm",
+        "bytes": 603625
+      },
+      {
+        "file": "docs/qa/batch-01-r5/MATERIALS.html",
+        "bytes": 43340
+      },
+      {
+        "file": "docs/qa/batch-01-r5/RECIPE.md",
+        "bytes": 3484
+      },
+      {
+        "file": "docs/qa/batch-01-r5/REPORT.md",
+        "bytes": 9928
+      },
+      {
+        "file": "docs/qa/batch-01-r5/REVIEW.html",
+        "bytes": 16224
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/browser-results.json",
+        "bytes": 23500
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/artwork-failure.png",
+        "bytes": 822540
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/detail-en-1440.png",
+        "bytes": 484692
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/fixture-en-1440.png",
+        "bytes": 119132
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/fixture-ja-390.png",
+        "bytes": 105432
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/home-en-1672.png",
+        "bytes": 1025332
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/home-en-390.png",
+        "bytes": 514983
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/home-en-mixed.png",
+        "bytes": 810220
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/home-ja-1440.png",
+        "bytes": 920310
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/home-ja-390.png",
+        "bytes": 553212
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/home-normal-ja-1440.png",
+        "bytes": 207613
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/no-js-play.png",
+        "bytes": 111000
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/play-en-1440.png",
+        "bytes": 442267
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/play-ja-1440.png",
+        "bytes": 141297
+      },
+      {
+        "file": "docs/qa/batch-01-r5/baseline-regression/screens/play-ja-390.png",
+        "bytes": 132316
+      },
+      {
+        "file": "docs/qa/batch-01-r5/comparison-after.json",
+        "bytes": 22785
+      },
+      {
+        "file": "docs/qa/batch-01-r5/comparison-before.json",
+        "bytes": 22797
+      },
+      {
+        "file": "docs/qa/batch-01-r5/comparison-parity.json",
+        "bytes": 3047
+      },
+      {
+        "file": "docs/qa/batch-01-r5/contrast-and-vision.json",
+        "bytes": 1615
+      },
+      {
+        "file": "docs/qa/batch-01-r5/diff-check.json",
+        "bytes": 1469
+      },
+      {
+        "file": "docs/qa/batch-01-r5/full-run-results.json",
+        "bytes": 6114
+      },
+      {
+        "file": "docs/qa/batch-01-r5/git-state.json",
+        "bytes": 987
+      },
+      {
+        "file": "docs/qa/batch-01-r5/input-results.json",
+        "bytes": 2113
+      },
+      {
+        "file": "docs/qa/batch-01-r5/layout-results.json",
+        "bytes": 70553
+      },
+      {
+        "file": "docs/qa/batch-01-r5/material-styles.css",
+        "bytes": 52631
+      },
+      {
+        "file": "docs/qa/batch-01-r5/media-manifest.json",
+        "bytes": 799
+      },
+      {
+        "file": "docs/qa/batch-01-r5/regression-results.json",
+        "bytes": 8911
+      },
+      {
+        "file": "docs/qa/batch-01-r5/responsive-results.json",
+        "bytes": 72275
+      },
+      {
+        "file": "docs/qa/batch-01-r5/review-results.json",
+        "bytes": 311
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-dense-first.png",
+        "bytes": 20153
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-achromatopsia.png",
+        "bytes": 18737
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-1-after.png",
+        "bytes": 13775
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-1-before.png",
+        "bytes": 82887
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-18-after.png",
+        "bytes": 25178
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-18-before.png",
+        "bytes": 112647
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-en-1.png",
+        "bytes": 13775
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-en-12.png",
+        "bytes": 17586
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-en-1440-final.png",
+        "bytes": 25178
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-en-18.png",
+        "bytes": 25178
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-en-320-final.png",
+        "bytes": 16083
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-en-360-final.png",
+        "bytes": 16690
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-en-390-final.png",
+        "bytes": 17367
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-en-768-final.png",
+        "bytes": 24087
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-ja-1.png",
+        "bytes": 13762
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-ja-12.png",
+        "bytes": 17586
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-ja-1440-final.png",
+        "bytes": 25178
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-ja-18.png",
+        "bytes": 25184
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-ja-320-final.png",
+        "bytes": 16083
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-ja-360-final.png",
+        "bytes": 16681
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-ja-390-final.png",
+        "bytes": 17362
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-auto-ja-768-final.png",
+        "bytes": 24087
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-deuteranopia.png",
+        "bytes": 20313
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-first-use-390.png",
+        "bytes": 10946
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-en-1440.png",
+        "bytes": 21258
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-en-320.png",
+        "bytes": 18412
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-en-360.png",
+        "bytes": 18522
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-en-390.png",
+        "bytes": 19839
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-en-768.png",
+        "bytes": 21258
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-ja-1440.png",
+        "bytes": 34872
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-ja-320.png",
+        "bytes": 30178
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-ja-360.png",
+        "bytes": 30558
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-ja-390.png",
+        "bytes": 33447
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-help-ja-768.png",
+        "bytes": 34872
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-1-after.png",
+        "bytes": 12235
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-1-before.png",
+        "bytes": 69082
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-18-after.png",
+        "bytes": 22535
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-18-before.png",
+        "bytes": 98435
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-en-1.png",
+        "bytes": 12235
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-en-12.png",
+        "bytes": 15661
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-en-18.png",
+        "bytes": 22535
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-ja-1.png",
+        "bytes": 12232
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-ja-12.png",
+        "bytes": 15661
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-landscape-ja-18.png",
+        "bytes": 22535
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-motion-1.png",
+        "bytes": 11179
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-motion-2.png",
+        "bytes": 18695
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-motion-3.png",
+        "bytes": 11122
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-1-after.png",
+        "bytes": 11179
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-1-before.png",
+        "bytes": 58947
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-18-after.png",
+        "bytes": 19816
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-18-before.png",
+        "bytes": 86316
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-en-1.png",
+        "bytes": 11179
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-en-12.png",
+        "bytes": 13442
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-en-18.png",
+        "bytes": 19816
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-ja-1.png",
+        "bytes": 11179
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-ja-12.png",
+        "bytes": 13442
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-portrait-ja-18.png",
+        "bytes": 19816
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/light-garden-video-decoded.png",
+        "bytes": 97643
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/material-sheet.png",
+        "bytes": 111078
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/review-top.png",
+        "bytes": 131871
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/review-videos-320px.png",
+        "bytes": 167519
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-achromatopsia.png",
+        "bytes": 13981
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-1-after.png",
+        "bytes": 13167
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-1-before.png",
+        "bytes": 103550
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-18-after.png",
+        "bytes": 18768
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-18-before.png",
+        "bytes": 119108
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-en-1.png",
+        "bytes": 12699
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-en-12.png",
+        "bytes": 17131
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-en-1440-final.png",
+        "bytes": 18297
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-en-18.png",
+        "bytes": 18297
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-en-320-final.png",
+        "bytes": 11674
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-en-360-final.png",
+        "bytes": 11884
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-en-390-final.png",
+        "bytes": 12748
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-en-768-final.png",
+        "bytes": 17418
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-ja-1.png",
+        "bytes": 13167
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-ja-12.png",
+        "bytes": 17594
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-ja-1440-final.png",
+        "bytes": 18768
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-ja-18.png",
+        "bytes": 18768
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-ja-320-final.png",
+        "bytes": 12110
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-ja-360-final.png",
+        "bytes": 12316
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-ja-390-final.png",
+        "bytes": 13186
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-auto-ja-768-final.png",
+        "bytes": 17855
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-deuteranopia.png",
+        "bytes": 15057
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-first-use-390.png",
+        "bytes": 10543
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-en-1440.png",
+        "bytes": 25817
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-en-320.png",
+        "bytes": 21770
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-en-360.png",
+        "bytes": 22044
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-en-390.png",
+        "bytes": 23915
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-en-768.png",
+        "bytes": 25819
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-ja-1440.png",
+        "bytes": 39775
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-ja-320.png",
+        "bytes": 34668
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-ja-360.png",
+        "bytes": 35148
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-ja-390.png",
+        "bytes": 37846
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-help-ja-768.png",
+        "bytes": 39777
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-1-after.png",
+        "bytes": 11572
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-1-before.png",
+        "bytes": 91854
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-18-after.png",
+        "bytes": 16750
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-18-before.png",
+        "bytes": 107483
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-en-1.png",
+        "bytes": 11101
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-en-12.png",
+        "bytes": 15521
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-en-18.png",
+        "bytes": 16294
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-ja-1.png",
+        "bytes": 11572
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-ja-12.png",
+        "bytes": 15967
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-landscape-ja-18.png",
+        "bytes": 16750
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-motion-1.png",
+        "bytes": 13869
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-motion-collision.png",
+        "bytes": 14162
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-motion-delivered.png",
+        "bytes": 14612
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-motion-edited.png",
+        "bytes": 13869
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-motion-wait-set.png",
+        "bytes": 13724
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-motion-waiting.png",
+        "bytes": 15441
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-1-after.png",
+        "bytes": 10688
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-1-before.png",
+        "bytes": 75584
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-18-after.png",
+        "bytes": 15050
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-18-before.png",
+        "bytes": 89991
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-en-1.png",
+        "bytes": 10233
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-en-12.png",
+        "bytes": 12913
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-en-18.png",
+        "bytes": 14588
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-ja-1.png",
+        "bytes": 10688
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-ja-12.png",
+        "bytes": 13380
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-portrait-ja-18.png",
+        "bytes": 15050
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tiny-delivery-video-decoded.png",
+        "bytes": 125249
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/tips-replayed-en.png",
+        "bytes": 15365
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-achromatopsia.png",
+        "bytes": 11296
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-1-after.png",
+        "bytes": 12889
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-1-before.png",
+        "bytes": 62532
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-18-after.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-18-before.png",
+        "bytes": 65773
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-1.png",
+        "bytes": 12889
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-12.png",
+        "bytes": 13848
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-1440-final-buttons.png",
+        "bytes": 16412
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-1440-final.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-18.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-320-final-buttons.png",
+        "bytes": 11664
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-320-final.png",
+        "bytes": 10246
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-360-final-buttons.png",
+        "bytes": 11750
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-360-final.png",
+        "bytes": 10371
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-390-final-buttons.png",
+        "bytes": 12088
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-390-final.png",
+        "bytes": 10899
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-768-final-buttons.png",
+        "bytes": 14732
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-en-768-final.png",
+        "bytes": 12077
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-1.png",
+        "bytes": 12889
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-12.png",
+        "bytes": 13848
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-1440-final-buttons.png",
+        "bytes": 16412
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-1440-final.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-18.png",
+        "bytes": 14148
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-320-final-buttons.png",
+        "bytes": 11664
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-320-final.png",
+        "bytes": 10258
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-360-final-buttons.png",
+        "bytes": 11746
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-360-final.png",
+        "bytes": 10334
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-390-final-buttons.png",
+        "bytes": 12085
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-390-final.png",
+        "bytes": 10895
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-768-final-buttons.png",
+        "bytes": 14723
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-auto-ja-768-final.png",
+        "bytes": 12077
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-deuteranopia.png",
+        "bytes": 12099
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-first-use-390.png",
+        "bytes": 14204
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-en-1440.png",
+        "bytes": 26936
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-en-320.png",
+        "bytes": 24967
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-en-360.png",
+        "bytes": 25359
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-en-390.png",
+        "bytes": 26169
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-en-768.png",
+        "bytes": 26703
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-ja-1440.png",
+        "bytes": 40849
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-ja-320.png",
+        "bytes": 37954
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-ja-360.png",
+        "bytes": 38267
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-ja-390.png",
+        "bytes": 39114
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-help-ja-768.png",
+        "bytes": 40593
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-1-after.png",
+        "bytes": 12734
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-1-before.png",
+        "bytes": 49138
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-18-after.png",
+        "bytes": 13043
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-18-before.png",
+        "bytes": 59679
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-en-1.png",
+        "bytes": 12734
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-en-12.png",
+        "bytes": 12959
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-en-18.png",
+        "bytes": 13043
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-ja-1.png",
+        "bytes": 12734
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-ja-12.png",
+        "bytes": 12959
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-landscape-ja-18.png",
+        "bytes": 13043
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-motion-1.png",
+        "bytes": 11700
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-motion-home.png",
+        "bytes": 14920
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-motion-step-0-3.png",
+        "bytes": 13556
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-motion-step-0-4.png",
+        "bytes": 13493
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-motion-step-1-2.png",
+        "bytes": 13352
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-motion-step-1-5.png",
+        "bytes": 18743
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-motion-step-3-1.png",
+        "bytes": 14389
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-1-after.png",
+        "bytes": 12006
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-1-before.png",
+        "bytes": 43181
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-1440-buttonsfalse.png",
+        "bytes": 15189
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-1440-buttonstrue.png",
+        "bytes": 16471
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-18-after.png",
+        "bytes": 11878
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-18-before.png",
+        "bytes": 45486
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-390-buttonsfalse.png",
+        "bytes": 13658
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-390-buttonstrue.png",
+        "bytes": 14428
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-en-1.png",
+        "bytes": 12006
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-en-12.png",
+        "bytes": 11965
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-en-18.png",
+        "bytes": 11878
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-ja-1.png",
+        "bytes": 12006
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-ja-12.png",
+        "bytes": 11965
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-portrait-ja-18.png",
+        "bytes": 11878
+      },
+      {
+        "file": "docs/qa/batch-01-r5/screens/two-ways-home-video-decoded.png",
+        "bytes": 106948
+      },
+      {
+        "file": "docs/qa/batch-01-r5/security-provenance.json",
+        "bytes": 1332
+      },
+      {
+        "file": "docs/qa/batch-01-r5/state-results.json",
+        "bytes": 947
+      },
+      {
+        "file": "docs/qa/batch-01-r5/videos/light-garden.webm",
+        "bytes": 400368
+      },
+      {
+        "file": "docs/qa/batch-01-r5/videos/tiny-delivery.webm",
+        "bytes": 728927
+      },
+      {
+        "file": "docs/qa/batch-01-r5/videos/two-ways-home.webm",
+        "bytes": 572867
+      },
+      {
+        "file": "docs/qa/batch-01-r5/visual-contract-results.json",
+        "bytes": 772
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/REPORT.md",
+        "bytes": 10034
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/browser-results.json",
+        "bytes": 23500
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/artwork-failure.png",
+        "bytes": 822540
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/detail-en-1440.png",
+        "bytes": 484692
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/fixture-en-1440.png",
+        "bytes": 119132
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/fixture-ja-390.png",
+        "bytes": 105432
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/home-en-1672.png",
+        "bytes": 1025128
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/home-en-390.png",
+        "bytes": 515293
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/home-en-mixed.png",
+        "bytes": 810169
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/home-ja-1440.png",
+        "bytes": 920310
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/home-ja-390.png",
+        "bytes": 553212
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/home-normal-ja-1440.png",
+        "bytes": 207613
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/no-js-play.png",
+        "bytes": 111000
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/play-en-1440.png",
+        "bytes": 442267
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/play-ja-1440.png",
+        "bytes": 141297
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/baseline-regression/screens/play-ja-390.png",
+        "bytes": 132316
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/browser-results.json",
+        "bytes": 8675
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/extra-browser-results.json",
+        "bytes": 261
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/git-state.json",
+        "bytes": 3995
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/screens/collection-1440.png",
+        "bytes": 158150
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/screens/first-look.png",
+        "bytes": 126077
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/screens/light-garden-1440.png",
+        "bytes": 129081
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/screens/light-garden-390.png",
+        "bytes": 95143
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/screens/tiny-delivery-1440.png",
+        "bytes": 136950
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/screens/tiny-delivery-390.png",
+        "bytes": 108956
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/screens/two-ways-home-1440.png",
+        "bytes": 138917
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/screens/two-ways-home-390.png",
+        "bytes": 105827
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/solutions.json",
+        "bytes": 2769
+      },
+      {
+        "file": "docs/qa/prototype-batch-01/technical-results.json",
+        "bytes": 6639
+      },
+      {
+        "file": "docs/records/ASSET_REGISTER_R1.md",
+        "bytes": 6587
+      },
+      {
+        "file": "docs/security/BATCH_01_R5_CANDIDATE_DISPOSITION.md",
+        "bytes": 1775
+      },
+      {
+        "file": "docs/security/batch-01-r5-disposition.json",
+        "bytes": 1119
+      },
+      {
+        "file": "package.json",
+        "bytes": 1039
+      },
+      {
+        "file": "scripts/astro.mjs",
+        "bytes": 1599
+      },
+      {
+        "file": "scripts/checkpoint-evidence.mjs",
+        "bytes": 4737
+      },
+      {
+        "file": "scripts/checkpoint-security.mjs",
+        "bytes": 3929
+      },
+      {
+        "file": "scripts/design-assets.mjs",
+        "bytes": 2691
+      },
+      {
+        "file": "scripts/project-path.mjs",
+        "bytes": 1047
+      },
+      {
+        "file": "scripts/prototype-assets.mjs",
+        "bytes": 1859
+      },
+      {
+        "file": "scripts/prototype-covers.mjs",
+        "bytes": 2182
+      },
+      {
+        "file": "scripts/r3-baseline.mjs",
+        "bytes": 1799
+      },
+      {
+        "file": "scripts/r3-evidence.mjs",
+        "bytes": 3014
+      },
+      {
+        "file": "scripts/r3-review.mjs",
+        "bytes": 8306
+      },
+      {
+        "file": "scripts/r4-baseline.mjs",
+        "bytes": 1682
+      },
+      {
+        "file": "scripts/r4-diff-check.mjs",
+        "bytes": 2205
+      },
+      {
+        "file": "scripts/r4-evidence.mjs",
+        "bytes": 4953
+      },
+      {
+        "file": "scripts/r4-review-server.mjs",
+        "bytes": 1641
+      },
+      {
+        "file": "scripts/r4-review.mjs",
+        "bytes": 8797
+      },
+      {
+        "file": "scripts/r5-baseline.mjs",
+        "bytes": 1616
+      },
+      {
+        "file": "scripts/r5-diff-check.mjs",
+        "bytes": 2197
+      },
+      {
+        "file": "scripts/r5-evidence.mjs",
+        "bytes": 3209
+      },
+      {
+        "file": "scripts/r5-materials.ts",
+        "bytes": 4267
+      },
+      {
+        "file": "scripts/r5-review-server.mjs",
+        "bytes": 1682
+      },
+      {
+        "file": "scripts/r5-review.mjs",
+        "bytes": 8397
+      },
+      {
+        "file": "src/pages/[locale]/prototypes/[...path].astro",
+        "bytes": 7953
+      },
+      {
+        "file": "src/prototypes/art.ts",
+        "bytes": 6358
+      },
+      {
+        "file": "src/prototypes/board-view.ts",
+        "bytes": 9003
+      },
+      {
+        "file": "src/prototypes/catalog.ts",
+        "bytes": 1406
+      },
+      {
+        "file": "src/prototypes/controls.ts",
+        "bytes": 2188
+      },
+      {
+        "file": "src/prototypes/delivery-answers-r2.json",
+        "bytes": 65803
+      },
+      {
+        "file": "src/prototypes/delivery-levels-r2.ts",
+        "bytes": 17051
+      },
+      {
+        "file": "src/prototypes/delivery-r2.ts",
+        "bytes": 3663
+      },
+      {
+        "file": "src/prototypes/direct-input.ts",
+        "bytes": 3702
+      },
+      {
+        "file": "src/prototypes/game-r2.css",
+        "bytes": 16471
+      },
+      {
+        "file": "src/prototypes/game-r2.ts",
+        "bytes": 29014
+      },
+      {
+        "file": "src/prototypes/game-r3.css",
+        "bytes": 16987
+      },
+      {
+        "file": "src/prototypes/game-r4.css",
+        "bytes": 7517
+      },
+      {
+        "file": "src/prototypes/game-r5.css",
+        "bytes": 11653
+      },
+      {
+        "file": "src/prototypes/game.css",
+        "bytes": 25
+      },
+      {
+        "file": "src/prototypes/game.ts",
+        "bytes": 20
+      },
+      {
+        "file": "src/prototypes/guides.ts",
+        "bytes": 16407
+      },
+      {
+        "file": "src/prototypes/home-answers-r2.json",
+        "bytes": 60203
+      },
+      {
+        "file": "src/prototypes/home-levels-r2.ts",
+        "bytes": 17755
+      },
+      {
+        "file": "src/prototypes/level-answers.json",
+        "bytes": 25039
+      },
+      {
+        "file": "src/prototypes/levels.ts",
+        "bytes": 578
+      },
+      {
+        "file": "src/prototypes/light-answers-r2.json",
+        "bytes": 33105
+      },
+      {
+        "file": "src/prototypes/light-levels-r2.ts",
+        "bytes": 13068
+      },
+      {
+        "file": "src/prototypes/light-r2.ts",
+        "bytes": 3683
+      },
+      {
+        "file": "src/prototypes/protocol.ts",
+        "bytes": 1108
+      },
+      {
+        "file": "src/prototypes/rules.ts",
+        "bytes": 1864
+      },
+      {
+        "file": "src/prototypes/shell.ts",
+        "bytes": 5781
+      },
+      {
+        "file": "src/prototypes/state.ts",
+        "bytes": 4259
+      },
+      {
+        "file": "src/prototypes/visual-language.ts",
+        "bytes": 1870
+      },
+      {
+        "file": "tests/prototype-output.test.ts",
+        "bytes": 2126
+      },
+      {
+        "file": "tests/prototypes-extra.browser.mjs",
+        "bytes": 4270
+      },
+      {
+        "file": "tests/prototypes.browser.mjs",
+        "bytes": 17164
+      },
+      {
+        "file": "tests/r2-browser-regression.mjs",
+        "bytes": 20754
+      },
+      {
+        "file": "tests/r2-full-run.browser.mjs",
+        "bytes": 8818
+      },
+      {
+        "file": "tests/r3-before.browser.mjs",
+        "bytes": 1213
+      },
+      {
+        "file": "tests/r3-browser-regression.mjs",
+        "bytes": 20938
+      },
+      {
+        "file": "tests/r3-controls.browser.mjs",
+        "bytes": 3749
+      },
+      {
+        "file": "tests/r3-full-run.browser.mjs",
+        "bytes": 8807
+      },
+      {
+        "file": "tests/r3-layout.browser.mjs",
+        "bytes": 2978
+      },
+      {
+        "file": "tests/r3-media.browser.mjs",
+        "bytes": 5182
+      },
+      {
+        "file": "tests/r3-responsive.browser.mjs",
+        "bytes": 5357
+      },
+      {
+        "file": "tests/r3-state.browser.mjs",
+        "bytes": 9862
+      },
+      {
+        "file": "tests/r4-before.browser.mjs",
+        "bytes": 1452
+      },
+      {
+        "file": "tests/r4-browser-regression.mjs",
+        "bytes": 21313
+      },
+      {
+        "file": "tests/r4-full-run.browser.mjs",
+        "bytes": 3009
+      },
+      {
+        "file": "tests/r4-helpers.mjs",
+        "bytes": 2269
+      },
+      {
+        "file": "tests/r4-input.browser.mjs",
+        "bytes": 14970
+      },
+      {
+        "file": "tests/r4-layout.browser.mjs",
+        "bytes": 2579
+      },
+      {
+        "file": "tests/r4-media.browser.mjs",
+        "bytes": 3369
+      },
+      {
+        "file": "tests/r4-responsive.browser.mjs",
+        "bytes": 4052
+      },
+      {
+        "file": "tests/r4-review.browser.mjs",
+        "bytes": 1443
+      },
+      {
+        "file": "tests/r4-state.browser.mjs",
+        "bytes": 4090
+      },
+      {
+        "file": "tests/r5-browser-regression.mjs",
+        "bytes": 21421
+      },
+      {
+        "file": "tests/r5-comparison.browser.mjs",
+        "bytes": 1648
+      },
+      {
+        "file": "tests/r5-full-run.browser.mjs",
+        "bytes": 3009
+      },
+      {
+        "file": "tests/r5-helpers.mjs",
+        "bytes": 2302
+      },
+      {
+        "file": "tests/r5-input.browser.mjs",
+        "bytes": 15070
+      },
+      {
+        "file": "tests/r5-layout.browser.mjs",
+        "bytes": 2611
+      },
+      {
+        "file": "tests/r5-media.browser.mjs",
+        "bytes": 4008
+      },
+      {
+        "file": "tests/r5-responsive.browser.mjs",
+        "bytes": 4099
+      },
+      {
+        "file": "tests/r5-review.browser.mjs",
+        "bytes": 2352
+      },
+      {
+        "file": "tests/r5-state.browser.mjs",
+        "bytes": 4090
+      },
+      {
+        "file": "tests/r5-visual-contract.browser.mjs",
+        "bytes": 4852
+      },
+      {
+        "file": "tests/r5-visual-evidence.browser.mjs",
+        "bytes": 2192
+      },
+      {
+        "file": "tests/unit/delivery-r2.test.ts",
+        "bytes": 9586
+      },
+      {
+        "file": "tests/unit/home-r2.test.ts",
+        "bytes": 7947
+      },
+      {
+        "file": "tests/unit/light-r2.test.ts",
+        "bytes": 10388
+      },
+      {
+        "file": "tests/unit/project-path.test.ts",
+        "bytes": 1845
+      },
+      {
+        "file": "tests/unit/prototypes.test.ts",
+        "bytes": 14388
+      },
+      {
+        "file": "tests/unit/r2-state.test.ts",
+        "bytes": 10757
+      }
+    ]
+  },
+  "preservedIgnored": [
+    {
+      "file": ".tmp/r2-before",
+      "exists": true
+    },
+    {
+      "file": ".tmp/r3-before",
+      "exists": true
+    },
+    {
+      "file": ".tmp/r4-before",
+      "exists": true
+    },
+    {
+      "file": ".tmp/r5-before",
+      "exists": true
+    }
+  ],
+  "diffCheck": {
+    "rawStatus": "FINDINGS_PRESERVED",
+    "files": [
+      "docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md",
+      "docs/games/GAME_CONTROL_UI_AND_CAPTURE_R3.md",
+      "docs/games/GAME_DIRECT_MANIPULATION_R4.md",
+      "docs/games/GAME_VISUAL_LANGUAGE_R5.md",
+      "docs/games/light-garden/SPEC.md",
+      "docs/games/tiny-delivery/SPEC.md",
+      "docs/games/two-ways-home/SPEC.md"
+    ],
+    "newImplementationFindings": 0,
+    "classification": "Unchanged original Markdown whitespace; see prior R5 diff-check.json; no blanket whitespace suppression"
+  },
+  "hook": {
+    "path": ".githooks",
+    "indexMode": "100755",
+    "fullIndexScan": true
+  },
+  "externalReadOnlyPreflight": {
+    "repository": "T-ishikawa00/web-game-studio",
+    "visibility": "private",
+    "defaultBranch": "main",
+    "remoteMain": "fe5efc08239c1d40d253af07c33f0527bbae0db0"
+  }
+}

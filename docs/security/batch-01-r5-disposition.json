@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-14T22:13:14.713Z",
+  "candidateFile": ".tmp/r3-before/manifest.json",
+  "jsonKey": "hashes[\"docs/security/SECRETS_REGISTER.md\"]",
+  "rule": "generic-api-key",
+  "line": 232,
+  "conditions": {
+    "preservationHashField": true,
+    "sha256Format": true,
+    "currentFileMatches": true,
+    "baselineGitBlobMatches": true,
+    "credentialUseAbsent": true,
+    "locallyComputedNotProviderSecret": true
+  },
+  "trackedOrCandidateContentOccurrences": 0,
+  "rawScanner": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "humanDisposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED",
+  "authority": "Human instruction 2026-09-15; conditional approval verified for this one candidate only",
+  "securityGate": "PASS_WITH_EXPLICIT_HUMAN_DISPOSITION",
+  "valuesEmitted": false,
+  "providerValidation": false,
+  "newScannerExceptions": 0,
+  "priorEvidence": "docs/qa/batch-01-r5/security-provenance.json"
+}

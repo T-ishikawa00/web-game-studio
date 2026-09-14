@@ -1,0 +1,10 @@
+[
+  {
+    "name": "touch all three games, primary target dimensions and completed Home keyboard lock",
+    "status": "PASS"
+  },
+  {
+    "name": "runtime error during reset closes dialog, recovery and stale removed iframe rejection",
+    "status": "PASS"
+  }
+]

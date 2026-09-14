@@ -1,8 +1,10 @@
 import sharp from 'sharp';
+import {projectPath} from './project-path.mjs';
 import { fileURLToPath } from 'node:url';
 import { mkdir, cp, writeFile } from 'node:fs/promises';
 const root = new URL('../', import.meta.url);
 const target = new URL('.cache/visual-public/', root);
+projectPath(target);
 await mkdir(target, { recursive: true });
 await cp(new URL('public/', root), target, { recursive: true });
 await mkdir(new URL('design-art/', target), { recursive: true });
@@ -16,7 +18,7 @@ const crops = [
   ['hero', 1153, 81, 278, 129], ['footer', 48, 846, 165, 76],
 ];
 for (const [name, left, top, width, height] of crops) {
-  await sharp(fileURLToPath(source)).extract({ left, top, width, height }).webp({ quality: 88 }).toFile(fileURLToPath(new URL(`design-art/${name}.webp`, target)));
+  await sharp(fileURLToPath(source)).extract({ left, top, width, height }).webp({ quality: 88 }).toFile(projectPath(new URL(`design-art/${name}.webp`, target)));
 }
 const svg = body => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 288">${body}</svg>`;
 const mixed = [
@@ -24,5 +26,5 @@ const mixed = [
   svg('<rect width="480" height="288" fill="#f0eafa"/><circle cx="145" cy="145" r="90" fill="#7768dc"/><path d="M250 45l150 200H220Z" fill="#ff9d79"/><circle cx="350" cy="90" r="38" fill="#d4ff69"/><path d="M65 210L400 70" stroke="white" stroke-width="12"/>'),
   svg('<rect width="480" height="288" fill="#e4eced"/><path d="M70 65H230V215H400M70 215H140V130H400" fill="none" stroke="#658292" stroke-width="25"/><g fill="#17374b" stroke="#9db3ba" stroke-width="12"><circle cx="70" cy="65" r="30"/><circle cx="230" cy="215" r="30"/><circle cx="400" cy="130" r="30"/></g><g fill="#d4ff69"><circle cx="70" cy="65" r="10"/><circle cx="230" cy="215" r="10"/><circle cx="400" cy="130" r="10"/></g>'),
 ];
-for (const [i, content] of mixed.entries()) await writeFile(new URL(`design-art/mixed-${i}.svg`, target), content);
-await writeFile(new URL('docs/design/references/crops.json', root), JSON.stringify(crops, null, 2) + '\n');
+for (const [i, content] of mixed.entries()) await writeFile(projectPath(new URL(`design-art/mixed-${i}.svg`, target)), content);
+await writeFile(projectPath(new URL('docs/design/references/crops.json', root)), JSON.stringify(crops, null, 2) + '\n');

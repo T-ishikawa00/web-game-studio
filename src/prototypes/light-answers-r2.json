@@ -1,0 +1,1633 @@
+[
+  {
+    "key": "L01@1",
+    "gameId": "light-garden",
+    "id": "L01",
+    "version": 1,
+    "chapter": "First light",
+    "discovery": {
+      "ja": "鏡を回して、光を花へ届けよう。",
+      "en": "Turn the mirror to send light to the flower."
+    },
+    "solution": [
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          2
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          0
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L02@1",
+    "gameId": "light-garden",
+    "id": "L02",
+    "version": 1,
+    "chapter": "First light",
+    "discovery": {
+      "ja": "鏡から鏡へ。光の行き先を目で追おう。",
+      "en": "Follow the light from one mirror to the next."
+    },
+    "solution": [
+      0,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          9
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          1
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L03@1",
+    "gameId": "light-garden",
+    "id": "L03",
+    "version": 1,
+    "chapter": "First light",
+    "discovery": {
+      "ja": "石垣を回り込んで、ふたつの花を同時に照らそう。",
+      "en": "Go around the stones and light both flowers together."
+    },
+    "solution": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [
+          22
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          22,
+          27
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          1,
+          2
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L04@1",
+    "gameId": "light-garden",
+    "id": "L04",
+    "version": 1,
+    "chapter": "First light",
+    "discovery": {
+      "ja": "◇を照らすと門が開く。門は開いたまま。",
+      "en": "Light the ◇ switch. Its gate stays open."
+    },
+    "solution": [
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true
+          ],
+          "gate": true
+        },
+        "lit": [
+          2
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L05@1",
+    "gameId": "light-garden",
+    "id": "L05",
+    "version": 1,
+    "chapter": "First light",
+    "discovery": {
+      "ja": "先に◇へ。そのあと、開いた門の先の花へ。",
+      "en": "Visit ◇ first, then send the light through its open gate."
+    },
+    "solution": [
+      0,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            false
+          ],
+          "gate": true
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true
+          ],
+          "gate": true
+        },
+        "lit": [
+          2
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L06@1",
+    "gameId": "light-garden",
+    "id": "L06",
+    "version": 1,
+    "chapter": "First light",
+    "discovery": {
+      "ja": "ふたつの鏡で、準備と仕上げの道を作ろう。",
+      "en": "Use two mirrors to prepare, then finish the route."
+    },
+    "solution": [
+      0,
+      1,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            false,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            false,
+            true
+          ],
+          "gate": true
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            false,
+            false
+          ],
+          "gate": true
+        },
+        "lit": [
+          23
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          1
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L07@1",
+    "gameId": "light-garden",
+    "id": "L07",
+    "version": 1,
+    "chapter": "Preparing paths",
+    "discovery": {
+      "ja": "AとB。それぞれのスイッチが、同じ印の門を開く。",
+      "en": "Each switch opens the gate with its matching A or B crest."
+    },
+    "solution": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            false,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          35
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          2,
+          3
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L08@1",
+    "gameId": "light-garden",
+    "id": "L08",
+    "version": 1,
+    "chapter": "Preparing paths",
+    "discovery": {
+      "ja": "Aの門の先に、Bのスイッチ。順番を見つけよう。",
+      "en": "The B switch is beyond gate A. Find the opening order."
+    },
+    "solution": [
+      0,
+      1,
+      2,
+      2
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          28,
+          34
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          1
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L09@1",
+    "gameId": "light-garden",
+    "id": "L09",
+    "version": 1,
+    "chapter": "Preparing paths",
+    "discovery": {
+      "ja": "固定分光器は、矢印の入口から来た光を二つへ分ける。",
+      "en": "The fixed splitter divides light arriving through its marked entrance."
+    },
+    "solution": [
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          12,
+          17
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L10@1",
+    "gameId": "light-garden",
+    "id": "L10",
+    "version": 1,
+    "chapter": "Preparing paths",
+    "discovery": {
+      "ja": "枝ごとに鏡を調整して、二つの花を同時に。",
+      "en": "Adjust each branch to light both flowers together."
+    },
+    "solution": [
+      0,
+      1,
+      2
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [
+          25
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          25,
+          4
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          1
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L11@1",
+    "gameId": "light-garden",
+    "id": "L11",
+    "version": 1,
+    "chapter": "Preparing paths",
+    "discovery": {
+      "ja": "一本の枝で準備をして、その枝を花へ戻そう。",
+      "en": "Use one branch to prepare, then return it to the flower."
+    },
+    "solution": [
+      0,
+      1,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          17
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            false
+          ],
+          "gate": true
+        },
+        "lit": [
+          17
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true
+          ],
+          "gate": true
+        },
+        "lit": [
+          25,
+          17
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L12@1",
+    "gameId": "light-garden",
+    "id": "L12",
+    "version": 1,
+    "chapter": "Preparing paths",
+    "discovery": {
+      "ja": "門を準備してから、分光器へ一本の光を届けよう。",
+      "en": "Prepare the gate, then bring a single ray to the splitter."
+    },
+    "solution": [
+      0,
+      1,
+      2
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            false
+          ],
+          "gate": true
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false
+          ],
+          "gate": true
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true
+          ],
+          "gate": true
+        },
+        "lit": [
+          2,
+          5
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          1,
+          2,
+          0
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L13@1",
+    "gameId": "light-garden",
+    "id": "L13",
+    "version": 1,
+    "chapter": "The whole greenhouse",
+    "discovery": {
+      "ja": "もう灯った花から光を外すことが、全体の準備になる。",
+      "en": "Leaving a lit flower can prepare the whole garden."
+    },
+    "solution": [
+      0,
+      1,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          13,
+          24
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            false
+          ],
+          "gate": true
+        },
+        "lit": [
+          13,
+          17
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true
+          ],
+          "gate": true
+        },
+        "lit": [
+          13,
+          24,
+          17
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          1
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L14@1",
+    "gameId": "light-garden",
+    "id": "L14",
+    "version": 1,
+    "chapter": "The whole greenhouse",
+    "discovery": {
+      "ja": "二つの枝が、お互いの通り道を準備する。",
+      "en": "The two branches prepare each other’s paths."
+    },
+    "solution": [
+      0,
+      1,
+      2,
+      1,
+      2
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            false,
+            false
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [
+          47
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          13
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          13,
+          47
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          1,
+          1
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L15@1",
+    "gameId": "light-garden",
+    "id": "L15",
+    "version": 1,
+    "chapter": "The whole greenhouse",
+    "discovery": {
+      "ja": "枝が分かれていても、門には開ける順番がある。",
+      "en": "Even on separate branches, some gates have an opening order."
+    },
+    "solution": [
+      0,
+      2,
+      1,
+      1,
+      2
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            false,
+            false
+          ]
+        },
+        "lit": [
+          35
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [
+          35
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          35
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          35,
+          47
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          1,
+          1
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L16@1",
+    "gameId": "light-garden",
+    "id": "L16",
+    "version": 1,
+    "chapter": "The whole greenhouse",
+    "discovery": {
+      "ja": "花へ届く最後の光路から、準備する道を見つけよう。",
+      "en": "Work backward from the final flower routes to find what must be prepared."
+    },
+    "solution": [
+      0,
+      1,
+      2,
+      2,
+      3,
+      4
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          34
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          34
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          13,
+          34
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L17@1",
+    "gameId": "light-garden",
+    "id": "L17",
+    "version": 1,
+    "chapter": "The whole greenhouse",
+    "discovery": {
+      "ja": "上で準備を終えたら、下の分光器へ光を送り直そう。",
+      "en": "Finish preparing above, then redirect light to the splitter below."
+    },
+    "solution": [
+      1,
+      1,
+      0,
+      2,
+      3
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          39
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          15,
+          39
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "mirrors": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          15,
+          39,
+          19
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          0,
+          2,
+          3
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  },
+  {
+    "key": "L18@1",
+    "gameId": "light-garden",
+    "id": "L18",
+    "version": 1,
+    "chapter": "The whole greenhouse",
+    "discovery": {
+      "ja": "A、B、そして三つの花へ。庭の灯りを完成させよう。",
+      "en": "A, then B, then three flowers. Complete the greenhouse lights."
+    },
+    "solution": [
+      0,
+      1,
+      2,
+      2,
+      3
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          31,
+          34
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        "lit": [
+          31,
+          43,
+          34
+        ],
+        "won": true
+      }
+    ],
+    "counterexamples": [
+      {
+        "description": "No input leaves the initial problem unsolved",
+        "solution": [],
+        "won": false
+      },
+      {
+        "description": "Incomplete preparation or missing final routing",
+        "solution": [
+          1,
+          0,
+          3
+        ],
+        "won": false
+      }
+    ],
+    "provenance": "Authored actions and hand-traced intermediate flower / gate states; verified against runtime and an independent vector oracle. No shortest or unique solution claim."
+  }
+]

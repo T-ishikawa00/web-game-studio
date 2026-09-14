@@ -1,0 +1,132 @@
+{
+  "linksChecked": 79,
+  "brokenLinks": 0,
+  "videoResults": [
+    {
+      "id": "light-garden",
+      "mode": "portrait",
+      "decodedFrames": [
+        {
+          "t": 2,
+          "width": 432,
+          "height": 768
+        },
+        {
+          "t": 7,
+          "width": 432,
+          "height": 768
+        },
+        {
+          "t": 10,
+          "width": 432,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "id": "light-garden",
+      "mode": "landscape",
+      "decodedFrames": [
+        {
+          "t": 2,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "t": 7,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "t": 10,
+          "width": 960,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "id": "two-ways-home",
+      "mode": "portrait",
+      "decodedFrames": [
+        {
+          "t": 2,
+          "width": 432,
+          "height": 768
+        },
+        {
+          "t": 7,
+          "width": 432,
+          "height": 768
+        },
+        {
+          "t": 10,
+          "width": 432,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "id": "two-ways-home",
+      "mode": "landscape",
+      "decodedFrames": [
+        {
+          "t": 2,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "t": 7,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "t": 10,
+          "width": 960,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "id": "tiny-delivery",
+      "mode": "portrait",
+      "decodedFrames": [
+        {
+          "t": 2,
+          "width": 432,
+          "height": 768
+        },
+        {
+          "t": 7,
+          "width": 432,
+          "height": 768
+        },
+        {
+          "t": 10,
+          "width": 432,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "id": "tiny-delivery",
+      "mode": "landscape",
+      "decodedFrames": [
+        {
+          "t": 2,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "t": 7,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "t": 10,
+          "width": 960,
+          "height": 540
+        }
+      ]
+    }
+  ]
+}

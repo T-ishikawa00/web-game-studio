@@ -1,0 +1,152 @@
+[
+  {
+    "id": "light-garden",
+    "mode": "portrait",
+    "video": "videos/light-garden-portrait.webm",
+    "css": {
+      "width": 432,
+      "height": 768
+    },
+    "durationSeconds": 12,
+    "source": "real Edge UI operations; cropped recording, no scale"
+  },
+  {
+    "id": "light-garden",
+    "mode": "portrait",
+    "image": "screens/light-garden-portrait-hd.png",
+    "css": {
+      "width": 432,
+      "height": 768
+    },
+    "dpr": 2.5,
+    "pixels": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  {
+    "id": "light-garden",
+    "mode": "landscape",
+    "video": "videos/light-garden-landscape.webm",
+    "css": {
+      "width": 960,
+      "height": 540
+    },
+    "durationSeconds": 12,
+    "source": "real Edge UI operations; cropped recording, no scale"
+  },
+  {
+    "id": "light-garden",
+    "mode": "landscape",
+    "image": "screens/light-garden-landscape-hd.png",
+    "css": {
+      "width": 960,
+      "height": 540
+    },
+    "dpr": 2,
+    "pixels": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "portrait",
+    "video": "videos/two-ways-home-portrait.webm",
+    "css": {
+      "width": 432,
+      "height": 768
+    },
+    "durationSeconds": 12,
+    "source": "real Edge UI operations; cropped recording, no scale"
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "portrait",
+    "image": "screens/two-ways-home-portrait-hd.png",
+    "css": {
+      "width": 432,
+      "height": 768
+    },
+    "dpr": 2.5,
+    "pixels": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "landscape",
+    "video": "videos/two-ways-home-landscape.webm",
+    "css": {
+      "width": 960,
+      "height": 540
+    },
+    "durationSeconds": 12,
+    "source": "real Edge UI operations; cropped recording, no scale"
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "landscape",
+    "image": "screens/two-ways-home-landscape-hd.png",
+    "css": {
+      "width": 960,
+      "height": 540
+    },
+    "dpr": 2,
+    "pixels": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "portrait",
+    "video": "videos/tiny-delivery-portrait.webm",
+    "css": {
+      "width": 432,
+      "height": 768
+    },
+    "durationSeconds": 12,
+    "source": "real Edge UI operations; cropped recording, no scale"
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "portrait",
+    "image": "screens/tiny-delivery-portrait-hd.png",
+    "css": {
+      "width": 432,
+      "height": 768
+    },
+    "dpr": 2.5,
+    "pixels": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "landscape",
+    "video": "videos/tiny-delivery-landscape.webm",
+    "css": {
+      "width": 960,
+      "height": 540
+    },
+    "durationSeconds": 12,
+    "source": "real Edge UI operations; cropped recording, no scale"
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "landscape",
+    "image": "screens/tiny-delivery-landscape-hd.png",
+    "css": {
+      "width": 960,
+      "height": 540
+    },
+    "dpr": 2,
+    "pixels": {
+      "width": 1920,
+      "height": 1080
+    }
+  }
+]

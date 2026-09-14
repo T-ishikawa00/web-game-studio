@@ -1,0 +1,41 @@
+{
+  "at": "2026-09-14T04:54:08.496Z",
+  "candidateFile": ".tmp/r3-before/manifest.json",
+  "findings": [
+    {
+      "rule": "generic-api-key",
+      "line": 232
+    }
+  ],
+  "jsonKey": "hashes[\"docs/security/SECRETS_REGISTER.md\"]",
+  "generator": "scripts/r3-baseline.mjs:10-14",
+  "sourceType": "local file SHA256 integrity digest",
+  "sameGenerationBackupContainsTarget": false,
+  "baselineGitBlobMatch": true,
+  "currentFileMatch": true,
+  "baselineStatusMentionsTarget": false,
+  "baselineDiffMentionsTarget": false,
+  "currentTargetDiffEmpty": true,
+  "recommendation": "Generated non-secret file-integrity SHA256; proposed false positive",
+  "disposition": "PENDING: Human judgment required; no exception added",
+  "wholeProject": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "fullIndex": {
+    "mode": "staged",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "valuesEmitted": false,
+  "providerValidation": false
+}

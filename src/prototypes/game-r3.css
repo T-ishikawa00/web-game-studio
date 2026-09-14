@@ -1,0 +1,129 @@
+/* R3 is scoped to the prototype runtime. Board artwork and cell coordinates stay intact. */
+#game{container-type:inline-size;overflow-x:auto;padding:0 0 4px}
+.game-wrap{--control-ink:#244e3b;--control-edge:#698273;--control-surface:#f9f8eb;max-width:1120px;padding:20px 24px;min-height:0}
+[data-game=two-ways-home] .game-wrap{--control-ink:#494153;--control-edge:#83778b;--control-surface:#faf5ee}
+[data-game=tiny-delivery] .game-wrap{--control-ink:#25535a;--control-edge:#6c898a;--control-surface:#f2f7ef}
+.capture-frame{position:relative}
+.game-header{margin-bottom:18px}.chapter-track{display:none}.chapter b{letter-spacing:0}.goal{line-height:1.5}
+button{border-radius:9px;line-height:1.35;transition:background-color 120ms,border-color 120ms,box-shadow 120ms;position:relative}
+button:disabled{opacity:1;color:#7a8079;border-color:#c4c9c0;background:#e6e8df;box-shadow:none}
+button.cell-control:disabled{background:none;color:inherit}.cell-control:disabled .mirror{filter:saturate(.85)}
+.control{padding:0;min-height:48px;background:var(--control-surface);border:1px solid var(--control-edge);color:var(--control-ink);box-shadow:inset 0 1px 0 #ffffffc9,0 2px 0 #bac3b3;font:650 15px/1.25 "Segoe UI","Yu Gothic UI",Meiryo,sans-serif}
+.control-face{display:flex;justify-content:center;align-items:center;gap:8px;padding:11px 14px;min-height:46px;transition:translate 120ms}.control-face svg{flex:none;width:22px;height:22px}
+.control.primary{color:#fffefa;background:var(--control-ink);border-color:var(--control-ink);box-shadow:inset 0 1px 0 #ffffff24,0 2px 0 #233c34;min-width:124px}
+.control.primary:disabled{background:#e6e8df;color:#7a8079;border-color:#c4c9c0;box-shadow:none}
+@media(hover:hover){.control:hover:not(:disabled){background:#eeefde;border-color:var(--control-ink)}.control.primary:hover:not(:disabled){background:var(--control-ink);filter:brightness(1.12)}}
+.control:active:not(:disabled){box-shadow:inset 0 1px 2px #253d3430}.control:active:not(:disabled) .control-face{translate:0 1px}
+.quiet{color:var(--control-ink);min-height:44px;font-size:14px}.quiet:disabled{background:transparent;border-color:transparent;color:#7a8079}
+.control-deck{max-width:650px;margin:12px auto 0;padding:10px 0;border-top:1px solid #bac5b3;display:flex;flex-wrap:wrap;align-items:center;gap:16px;justify-content:center}
+.utility-group,.action-group{display:flex;align-items:center;justify-content:center;gap:8px}.action-group:empty{display:none}
+.control-deck:has(.action-group:not(:empty)) .utility-group{padding-right:16px;border-right:1px solid #c7cdbf}
+[data-game=tiny-delivery] .control-deck .utility-group{padding:0 0 0 16px;border-right:0;border-left:1px solid #c7cdbf}
+.outcome{min-height:62px;margin:0;line-height:1.4}.outcome:empty{min-height:62px;margin:0}.outcome strong{font-size:21px}.outcome span{font-size:12px;max-width:580px}
+.dpad{grid-template-columns:52px 52px 52px;grid-template-rows:48px 48px;gap:8px;margin:8px auto}
+.direction{border:1px solid var(--control-edge);border-radius:9px;color:var(--control-ink);box-shadow:inset 0 1px 0 white,0 2px 0 #bdb4c3;font-size:24px;background:var(--control-surface)}
+.direction:active:not(:disabled){box-shadow:inset 0 2px 2px #44374d38;background:#e2dce7}
+.production-tools{max-width:760px;margin:6px auto 0;display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}.utilities{margin:0}.capture-tools{display:flex;gap:10px;align-items:center;font-size:12px;color:#506557}.capture-tools[hidden]{display:none}.capture-size-note{display:none;font-size:13px;line-height:1.6}
+.guide{max-width:620px;margin:14px auto}.guide:before{display:none}.guide-diagram{max-width:300px;margin:10px auto}.guide-full{font-size:15px}.guide .guide-detail{display:inline-block}.guide-buttons .quiet{padding:8px 12px}.guide-short{display:none}.guide .guide-full{display:block}
+.levels{margin-top:14px}.wait-control{margin:8px auto}.wait-control button{min-height:44px;color:#614c28;border-color:#9a875c;font-size:14px}.wait-dots{color:#775a24}
+.feedback{font-size:14px;line-height:1.5;min-height:42px;margin:14px auto 6px;color:inherit}.direction-options{font-size:12px}.control-caption{color:#66606b}
+.control-dialog{color:#344c43;background:#fcfaef;border:1px solid #9eaa95;border-radius:16px;padding:24px;max-width:min(450px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow:auto;box-shadow:0 12px 40px #1c34273d}
+.control-dialog::backdrop{background:#293c365c}.control-dialog h2{font-size:22px;margin-bottom:20px}.control-dialog p{font-size:14px;margin:14px 0}.control-dialog label{font-weight:600}.control-dialog select{display:block;width:100%;min-height:48px;border:1px solid #698273;border-radius:8px;background:#fffef8;color:#244e3b;font:inherit;padding:8px;margin-top:8px}.control-dialog button{display:block;margin-top:18px}.control-dialog small{display:block;margin-top:12px}.check-setting{display:flex;align-items:center;gap:10px;min-height:48px;font-size:14px}.check-setting input{width:22px;height:22px;accent-color:#244e3b}.confirm-actions{display:flex;flex-wrap:wrap;gap:12px}.control-dialog :focus-visible{outline:3px solid #356a9c;outline-offset:3px}
+/* Explicit capture compositions. No transform scaling or cropped boards. */
+#game:not([data-layout=auto]) .game-wrap{max-width:none;padding:12px;width:max-content;min-width:100%;margin:auto}
+#game:not([data-layout=auto]) .capture-frame{margin:auto;display:grid;box-sizing:border-box;background:#f2f0e5;border:1px solid #c7cdbb;overflow:visible;padding:12px;gap:6px}
+[data-game=two-ways-home] #game:not([data-layout=auto]) .capture-frame{background:#f2eee6}
+[data-game=tiny-delivery] #game:not([data-layout=auto]) .capture-frame{background:#eaf0ed}
+#game:not([data-layout=auto]) .play-layout,#game:not([data-layout=auto]) .play-area{display:contents}
+#game:not([data-layout=auto]) .game-header{grid-area:header;margin:0;width:100%;align-self:center}
+#game:not([data-layout=auto]) .chapter{font-size:11px;letter-spacing:.02em}.chapter span{min-width:0}
+#game:not([data-layout=auto]) .chapter b{display:none}
+#game:not([data-layout=auto]) h1{font-size:21px;letter-spacing:.025em;line-height:1.3}
+#game:not([data-layout=auto]) .title-row{gap:8px;margin:4px 0}
+#game:not([data-layout=auto]) .stage-toggle{padding:5px 8px;font-size:12px}
+#game:not([data-layout=auto]) .goal{font-size:14px}
+#game:not([data-layout=auto]) .world-frame,#game:not([data-layout=auto]) .storybook{grid-area:board;width:100%;align-self:center}
+#game:not([data-layout=auto]) .feedback{grid-area:feedback;margin:0;min-height:0;align-self:center;font-size:14px}
+#game:not([data-layout=auto]) .wait-control{grid-area:waits;margin:0;align-self:center}
+#game:not([data-layout=auto]) .direction-options,#game:not([data-layout=auto]) .control-caption{display:none}
+#game:not([data-layout=auto]) .dpad{grid-area:dpad;margin:auto}
+#game:not([data-layout=auto]) .outcome{grid-area:outcome;margin:0;min-height:0;align-self:center;line-height:1.25}
+#game:not([data-layout=auto]) .outcome strong{font-size:18px}
+#game:not([data-layout=auto]) .outcome span{font-size:12px}
+#game:not([data-layout=auto]) .control-deck{grid-area:controls;align-self:center;width:100%;margin:0;padding:8px 0 0;gap:8px;flex-wrap:nowrap}
+#game:not([data-layout=auto]) .control-face{padding:10px 9px;font-size:14px;gap:5px}
+#game:not([data-layout=auto]) .control.primary{min-width:108px}
+#game:not([data-layout=auto]) .utility-group{padding:0;border:0;gap:8px}
+#game:not([data-layout=auto]) .world-label{display:none}
+#game:not([data-layout=auto]) .world-frame{padding:8px 8px 0;max-width:440px}
+#game:not([data-layout=auto]) .world-base{padding:7px 0;min-height:28px;gap:8px;font-size:9px}
+#game:not([data-layout=auto]) .world-frame:before,#game:not([data-layout=auto]) .world-frame:after{display:none}
+#game:not([data-layout=auto]) .book-title{display:none}
+#game:not([data-layout=auto]) .friend h3{font-size:12px;line-height:1.25;min-height:0;margin:0 0 4px;display:flex;justify-content:space-between;flex-wrap:nowrap}
+#game:not([data-layout=auto]) .friend h3 span{font-size:11px;display:inline}
+#game[data-layout=portrait] .capture-frame{width:clamp(360px,calc(100cqw - 24px),432px);aspect-ratio:9/16;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto auto 54px;grid-template-areas:'header' 'board' 'feedback' 'outcome' 'controls';container-type:inline-size}
+#game[data-layout=portrait] .world-frame{border-radius:24px 24px 16px 16px}
+#game[data-layout=portrait] .board[data-size="7"]{border-width:2px}
+[data-game=tiny-delivery] #game[data-layout=portrait] .capture-frame{grid-template-rows:auto minmax(0,1fr) auto auto auto 54px;grid-template-areas:'header' 'board' 'waits' 'feedback' 'outcome' 'controls'}
+[data-game=tiny-delivery] #game[data-layout=portrait] .world-frame{padding-bottom:8px}
+[data-game=tiny-delivery] #game[data-layout=portrait] .world-base{display:none}
+[data-game=two-ways-home] #game[data-layout=portrait] .capture-frame{grid-template-rows:auto minmax(0,1fr) auto 104px auto 54px;grid-template-areas:'header' 'board' 'feedback' 'dpad' 'outcome' 'controls'}
+#game[data-layout=portrait] .storybook{padding:8px 12px;background:#faf5e6;box-shadow:0 3px 0 #c7b69c;border-radius:12px}
+#game[data-layout=portrait] .two-boards{grid-template-columns:1fr;gap:10px;max-width:none}
+#game[data-layout=portrait] .friend{width:calc(43cqw - 10px);margin:auto}
+#game[data-layout=portrait] .friend .board{max-width:none;width:100%}
+#game[data-layout=portrait] .friend h3{font-size:11px;white-space:nowrap;gap:4px}
+#game[data-layout=portrait] .friend h3 span{font-size:10px}
+#game[data-layout=portrait] .book-binding{display:none}
+#game[data-layout=landscape] .capture-frame{width:960px;aspect-ratio:16/9;grid-template-columns:460px minmax(0,1fr);grid-template-rows:100px 1fr auto 70px 66px;grid-template-areas:'board header' 'board feedback' 'board waits' 'board outcome' 'board controls';padding:24px;gap:12px}
+#game[data-layout=landscape] .board{max-width:418px}
+#game[data-layout=landscape] .world-frame{max-width:450px}
+#game[data-layout=landscape] .world-base{font-size:10px}
+[data-game=two-ways-home] #game[data-layout=landscape] .capture-frame{grid-template-columns:600px minmax(0,1fr);grid-template-rows:110px 1fr 104px 56px 66px;grid-template-areas:'board header' 'board feedback' 'board dpad' 'board outcome' 'board controls'}
+#game[data-layout=landscape] .storybook{max-width:none;padding:18px 12px 22px}
+#game[data-layout=landscape] .two-boards{grid-template-columns:1fr 1fr;gap:18px;max-width:none}
+#game[data-layout=landscape] .friend .board{max-width:none}
+[data-game=two-ways-home] #game[data-layout=landscape] .control-deck{flex-wrap:wrap;align-self:end}
+[data-game=two-ways-home] #game[data-layout=landscape] .action-group{position:absolute;right:24px;bottom:102px}
+#game:not([data-layout=auto])[data-composition-guide=true] .capture-frame:after{content:'';position:absolute;inset:5% 4%;border:1px dashed #765d29;box-shadow:0 0 0 1px #fff8;pointer-events:none;z-index:4}
+@container(max-width:983px){#game[data-layout=landscape] .capture-size-note{display:block}#game[data-layout=landscape] .production-tools{justify-content:flex-start;width:calc(100cqw - 24px);margin-left:0}}
+@container(max-width:383px){#game[data-layout=portrait] .capture-size-note{display:block}#game[data-layout=portrait] .production-tools{justify-content:flex-start;width:calc(100cqw - 24px);margin-left:0}}
+@media(max-width:650px){#game[data-layout=auto] .game-wrap{padding:12px 10px}.guide{display:block;padding:12px 14px}.guide .guide-full{display:none}.guide .guide-short{display:block;font-size:14px;margin:8px 0}.guide-diagram{max-height:95px}.guide h2{font-size:16px}.guide-buttons{justify-content:flex-end}.control-deck{gap:8px}.control-face{padding:10px 11px;font-size:14px}.control-deck:has(.action-group:not(:empty)) .utility-group{padding-right:8px}.control.primary{min-width:108px}.outcome{min-height:56px}.outcome:empty{min-height:56px}.game-controls button{padding:0}.world-frame:has(.board[data-size="7"]){padding-left:0;padding-right:0}.game-wrap:has(.board[data-size="7"]){padding-left:0!important;padding-right:0!important}}
+@media(max-width:350px){#game[data-layout=auto] .game-wrap{padding-left:0;padding-right:0}.control-deck{margin-left:4px;margin-right:4px}.control-face{padding:10px 8px}.control-deck:has(.action-group:not(:empty)) .utility-group{padding-right:0;border:0}.control-deck{gap:8px}.utility-group{gap:8px}.production-tools{gap:4px}.utilities{gap:2px}}
+.reduce-motion .control-face{translate:none!important}@media(prefers-reduced-motion:reduce){.control-face{translate:none!important}}
+/* Reserve the same result/action space before and after a solve. */
+.control-deck:has(.progression-action){max-width:440px;justify-content:space-between}
+.control-deck .progression-action,.control-deck .progression-action:empty{display:flex;min-width:90px;min-height:48px}
+.progression-action .control.primary{min-width:90px}
+.control-deck:has(.progression-action) .utility-group{border:0;padding:0}
+#game:not([data-layout=auto]) .outcome{min-height:44px}
+[data-game=two-ways-home] #game[data-layout=landscape] .progression-action:empty{min-height:0}
+@media(max-width:350px){.control-deck .progression-action,.control-deck .progression-action:empty{min-width:78px}.progression-action .control.primary{min-width:78px}.control-face{gap:5px}.control-deck{margin-left:4px;margin-right:4px}}
+.control-dialog{position:fixed;bottom:auto;margin:0 auto;overscroll-behavior:contain}
+@media(min-width:651px){.guide .guide-detail{display:none}}
+.outcome,.outcome:empty{height:84px;min-height:84px}
+#game:not([data-layout=auto]) .outcome{height:70px;min-height:70px}
+#game[data-layout=portrait] .capture-frame{grid-template-rows:auto minmax(0,1fr) 42px 70px 54px}
+[data-game=tiny-delivery] #game[data-layout=portrait] .capture-frame{grid-template-rows:auto minmax(0,1fr) auto 42px 70px 54px}
+[data-game=two-ways-home] #game[data-layout=portrait] .capture-frame{grid-template-rows:auto minmax(0,1fr) 42px 104px 70px 54px}
+/* In portrait the short success message replaces the regular feedback, keeping boards stable. */
+#game[data-layout=portrait] .outcome{grid-area:feedback;height:42px;min-height:42px}
+#game[data-layout=portrait] .success .feedback{visibility:hidden}
+#game[data-layout=portrait] .outcome span{display:none}
+#game[data-layout=portrait] .capture-frame{grid-template-rows:auto minmax(0,1fr) 42px 54px;grid-template-areas:'header' 'board' 'feedback' 'controls'}
+[data-game=tiny-delivery] #game[data-layout=portrait] .capture-frame{grid-template-rows:auto minmax(0,1fr) auto 60px 54px;grid-template-areas:'header' 'board' 'waits' 'feedback' 'controls'}
+[data-game=two-ways-home] #game[data-layout=portrait] .capture-frame{grid-template-rows:auto minmax(0,1fr) 42px 104px 54px;grid-template-areas:'header' 'board' 'feedback' 'dpad' 'controls'}
+#game[data-layout=portrait] .friend{width:calc(40cqw - 14px)}
+#game[data-layout=landscape] .outcome{height:70px;min-height:70px}
+[data-game=two-ways-home] #game[data-layout=landscape] .outcome{height:56px;min-height:56px}
+@media(max-width:650px){#game[data-layout=auto] .guide{display:grid;grid-template-columns:100px minmax(0,1fr);gap:4px 8px;padding:10px 12px}#game[data-layout=auto] .guide h2{grid-column:1/-1;font-size:14px}#game[data-layout=auto] .guide-diagram{grid-column:1;grid-row:2;max-height:72px;margin:0;align-self:center}#game[data-layout=auto] .guide .guide-short{grid-column:2;grid-row:2;font-size:13px;line-height:1.45;margin:0;align-self:center}#game[data-layout=auto] .guide-buttons{grid-column:1/-1;grid-row:3}#game[data-layout=auto] .guide-buttons .quiet{font-size:12px;padding:4px 8px}#game[data-layout=auto] .play-layout.with-guide{gap:8px}#game[data-layout=auto] .guide{margin:0 auto 8px}#game[data-layout=auto] .feedback{margin-top:10px}}
+[data-game=tiny-delivery] .control-deck{display:grid!important;grid-template-columns:124px minmax(0,1fr);gap:8px;max-width:440px}
+[data-game=tiny-delivery] .control-deck .action-group{justify-content:stretch}
+[data-game=tiny-delivery] .control-deck .action-group .control{width:100%;min-width:0}
+[data-game=tiny-delivery] .control-deck .utility-group{padding:0;border:0;justify-content:flex-start}
+@media(max-width:350px){[data-game=tiny-delivery] .control-deck{grid-template-columns:108px minmax(0,1fr)}}
+[data-game=two-ways-home] #game[data-layout=landscape] .capture-frame{grid-template-rows:110px minmax(0,1fr) 104px 56px 112px}
+[data-game=two-ways-home] #game[data-layout=landscape] .control-deck{display:grid;grid-template-rows:48px 48px;gap:8px;height:104px;padding:0;align-self:end;border:0;justify-content:center}
+[data-game=two-ways-home] #game[data-layout=landscape] .control-deck .utility-group{grid-row:2}
+[data-game=two-ways-home] #game[data-layout=landscape] .control-deck .progression-action{position:static;grid-row:1;min-height:48px;margin:auto}
+[data-game=two-ways-home] #game[data-layout=landscape] .outcome span{display:none}

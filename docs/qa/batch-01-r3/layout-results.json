@@ -1,0 +1,1230 @@
+{
+  "results": [
+    {
+      "name": "light-garden-auto-ja-1",
+      "mode": "auto",
+      "stage": 1,
+      "w": 1072,
+      "h": 862.53125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 327,
+          "y": 166.78125,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-ja-12",
+      "mode": "auto",
+      "stage": 12,
+      "w": 1072,
+      "h": 862.53125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 327,
+          "y": 166.78125,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-ja-18",
+      "mode": "auto",
+      "stage": 18,
+      "w": 1072,
+      "h": 862.53125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 327,
+          "y": 166.78125,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-en-1",
+      "mode": "auto",
+      "stage": 1,
+      "w": 1072,
+      "h": 862.53125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 327,
+          "y": 166.78125,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-en-12",
+      "mode": "auto",
+      "stage": 12,
+      "w": 1072,
+      "h": 862.53125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 327,
+          "y": 166.78125,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-en-18",
+      "mode": "auto",
+      "stage": 18,
+      "w": 1072,
+      "h": 862.53125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 327,
+          "y": 166.78125,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-ja-1",
+      "mode": "portrait",
+      "stage": 1,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 22,
+          "y": 169.1875,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-ja-12",
+      "mode": "portrait",
+      "stage": 12,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 22,
+          "y": 169.1875,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-ja-18",
+      "mode": "portrait",
+      "stage": 18,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 22,
+          "y": 169.1875,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-en-1",
+      "mode": "portrait",
+      "stage": 1,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 22,
+          "y": 169.1875,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-en-12",
+      "mode": "portrait",
+      "stage": 12,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 22,
+          "y": 174.484375,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-en-18",
+      "mode": "portrait",
+      "stage": 18,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 22,
+          "y": 169.1875,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-ja-1",
+      "mode": "landscape",
+      "stage": 1,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 46,
+          "y": 45.625,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-ja-12",
+      "mode": "landscape",
+      "stage": 12,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 46,
+          "y": 45.625,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-ja-18",
+      "mode": "landscape",
+      "stage": 18,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 46,
+          "y": 45.625,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-en-1",
+      "mode": "landscape",
+      "stage": 1,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 46,
+          "y": 45.625,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-en-12",
+      "mode": "landscape",
+      "stage": 12,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 46,
+          "y": 45.625,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-en-18",
+      "mode": "landscape",
+      "stage": 18,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board garden",
+          "x": 46,
+          "y": 45.625,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-ja-1",
+      "mode": "auto",
+      "stage": 1,
+      "w": 1072,
+      "h": 867.078125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 236,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 549,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-ja-12",
+      "mode": "auto",
+      "stage": 12,
+      "w": 1072,
+      "h": 867.078125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 236,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 549,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-ja-18",
+      "mode": "auto",
+      "stage": 18,
+      "w": 1072,
+      "h": 867.078125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 236,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 549,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-en-1",
+      "mode": "auto",
+      "stage": 1,
+      "w": 1072,
+      "h": 867.078125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 236,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 549,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-en-12",
+      "mode": "auto",
+      "stage": 12,
+      "w": 1072,
+      "h": 867.078125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 236,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 549,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-en-18",
+      "mode": "auto",
+      "stage": 18,
+      "w": 1072,
+      "h": 867.078125,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 236,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 549,
+          "y": 197.9375,
+          "w": 287,
+          "h": 287
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-ja-1",
+      "mode": "portrait",
+      "stage": 1,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 170.171875,
+          "w": 148.390625,
+          "h": 148.390625
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 346.3125,
+          "w": 148.390625,
+          "h": 148.390625
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-ja-12",
+      "mode": "portrait",
+      "stage": 12,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 170.171875,
+          "w": 148.390625,
+          "h": 148.390625
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 346.3125,
+          "w": 148.390625,
+          "h": 148.390625
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-ja-18",
+      "mode": "portrait",
+      "stage": 18,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 170.171875,
+          "w": 148.390625,
+          "h": 148.390625
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 346.3125,
+          "w": 148.390625,
+          "h": 148.390625
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-en-1",
+      "mode": "portrait",
+      "stage": 1,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 170.171875,
+          "w": 148.390625,
+          "h": 148.390625
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 346.3125,
+          "w": 148.390625,
+          "h": 148.390625
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-en-12",
+      "mode": "portrait",
+      "stage": 12,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 170.171875,
+          "w": 148.390625,
+          "h": 148.390625
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 346.3125,
+          "w": 148.390625,
+          "h": 148.390625
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-en-18",
+      "mode": "portrait",
+      "stage": 18,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 170.171875,
+          "w": 148.390625,
+          "h": 148.390625
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 141.796875,
+          "y": 346.3125,
+          "w": 148.390625,
+          "h": 148.390625
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-ja-1",
+      "mode": "landscape",
+      "stage": 1,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 38,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 334,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-ja-12",
+      "mode": "landscape",
+      "stage": 12,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 38,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 334,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-ja-18",
+      "mode": "landscape",
+      "stage": 18,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 38,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 334,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-en-1",
+      "mode": "landscape",
+      "stage": 1,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 38,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 334,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-en-12",
+      "mode": "landscape",
+      "stage": 12,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 38,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 334,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-en-18",
+      "mode": "landscape",
+      "stage": 18,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 38,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        },
+        {
+          "tag": "DIV",
+          "cls": "board",
+          "x": 334,
+          "y": 138.5,
+          "w": 278,
+          "h": 278
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-ja-1",
+      "mode": "auto",
+      "stage": 1,
+      "w": 1072,
+      "h": 887.375,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 327,
+          "y": 199.875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-ja-12",
+      "mode": "auto",
+      "stage": 12,
+      "w": 1072,
+      "h": 975.96875,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 327,
+          "y": 199.875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-ja-18",
+      "mode": "auto",
+      "stage": 18,
+      "w": 1072,
+      "h": 975.96875,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 327,
+          "y": 199.875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-en-1",
+      "mode": "auto",
+      "stage": 1,
+      "w": 1072,
+      "h": 887.375,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 327,
+          "y": 199.875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-en-12",
+      "mode": "auto",
+      "stage": 12,
+      "w": 1072,
+      "h": 975.96875,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 327,
+          "y": 199.875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-en-18",
+      "mode": "auto",
+      "stage": 18,
+      "w": 1072,
+      "h": 975.96875,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 327,
+          "y": 199.875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-ja-1",
+      "mode": "portrait",
+      "stage": 1,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 22,
+          "y": 189.109375,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-ja-12",
+      "mode": "portrait",
+      "stage": 12,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 22,
+          "y": 167.109375,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-ja-18",
+      "mode": "portrait",
+      "stage": 18,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 22,
+          "y": 167.109375,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-en-1",
+      "mode": "portrait",
+      "stage": 1,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 22,
+          "y": 189.109375,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-en-12",
+      "mode": "portrait",
+      "stage": 12,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 22,
+          "y": 167.109375,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-en-18",
+      "mode": "portrait",
+      "stage": 18,
+      "w": 432,
+      "h": 768,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 22,
+          "y": 167.109375,
+          "w": 388,
+          "h": 388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-ja-1",
+      "mode": "landscape",
+      "stage": 1,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 46,
+          "y": 66.296875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-ja-12",
+      "mode": "landscape",
+      "stage": 12,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 46,
+          "y": 66.296875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-ja-18",
+      "mode": "landscape",
+      "stage": 18,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 46,
+          "y": 66.296875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-en-1",
+      "mode": "landscape",
+      "stage": 1,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 46,
+          "y": 66.296875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-en-12",
+      "mode": "landscape",
+      "stage": 12,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 46,
+          "y": 66.296875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-en-18",
+      "mode": "landscape",
+      "stage": 18,
+      "w": 960,
+      "h": 540,
+      "overflow": [],
+      "targets": [],
+      "boards": [
+        {
+          "tag": "DIV",
+          "cls": "board town",
+          "x": 46,
+          "y": 66.296875,
+          "w": 418,
+          "h": 418
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

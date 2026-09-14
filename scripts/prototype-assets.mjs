@@ -1,0 +1,18 @@
+import { build } from 'esbuild';
+import { mkdir, cp, writeFile, readFile, rm } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import { projectPath } from './project-path.mjs';
+const base=new URL('../.cache/prototype-public/',import.meta.url);
+const project=fileURLToPath(new URL('../',import.meta.url));
+projectPath(base);
+if(path.resolve(fileURLToPath(base))!==path.join(project,'.cache','prototype-public'))throw new Error('Unexpected staging directory');
+await rm(base,{recursive:true,force:true});
+await mkdir(base,{recursive:true});
+await cp(new URL('../public/',import.meta.url),base,{recursive:true});
+const assets=new URL('prototype-assets/',base);await mkdir(assets,{recursive:true});
+for(const name of ['game','shell'])await build({absWorkingDir:project,entryPoints:[`src/prototypes/${name}.ts`],outfile:projectPath(new URL(`${name}.js`,assets)),bundle:true,format:'esm',target:'es2022',minify:true});
+await writeFile(projectPath(new URL('game.css',assets)),(await readFile(new URL('../src/prototypes/game-r2.css',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../src/prototypes/game-r3.css',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../src/prototypes/game-r4.css',import.meta.url),'utf8'))+'\n'+(await readFile(new URL('../src/prototypes/game-r5.css',import.meta.url),'utf8')));
+await writeFile(new URL('game.html',assets),'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Game prototype</title><link rel="stylesheet" href="./game.css"></head><body><main id="game"></main><script type="module" src="./game.js"></script></body></html>');
+const {createPrototypeCovers}=await import('./prototype-covers.mjs');
+await createPrototypeCovers(assets);

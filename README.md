@@ -1,5 +1,17 @@
 # Web Game Studio — Portal Core R1
 
+## Current: Batch 01 R5 — Visual Language Human Acceptance PASS
+
+2026-09-15、HumanがR5の色・形・質感・最小テキスト・盤面中心の設計・R4操作との統合・3表示のVisual方向を正式採用。[現行Baselineと受入範囲](docs/games/GAME_VISUAL_LANGUAGE_BASELINE_R5.md) / [R5 Review Pack](docs/qa/batch-01-r5/REVIEW.html) / [制作レシピ](docs/qa/batch-01-r5/RECIPE.md) / [checkpoint QA](docs/qa/batch-01-checkpoint/REPORT.md)。全54問のHumanゲーム性受入・実機・初見・公開・法務・広告は未完了です。
+
+再起動: `npm run preview:prototypes`（4324）と `node scripts/r5-review-server.mjs`（4325）。今回だけ、検証後の1 checkpoint commitと既存Private origin/mainへの通常pushが承認されています。以下は以前の工程記録です。
+
+## Historical: Batch 01 R4 — 直接操作UI / Humanレビュー待ち
+
+最新の3作品レビューは [R4 Review Pack](docs/qa/batch-01-r4/REVIEW.html) / [QA・保全・Security調査](docs/qa/batch-01-r4/REPORT.md)。[R4仕様原本](docs/games/GAME_DIRECT_MANIPULATION_R4.md)に従い、54問・ルール・Art・R3の3表示を維持して盤面への直接操作と選択式D-padへ変更しました。下記のR1〜R3は以前の工程記録です。今回のUI／操作／全編Human AcceptanceはPENDING、Security候補1件もHuman判定待ちです。
+
+起動中の [レビュー](http://127.0.0.1:4325/) から日英・通常／縦／横の18リンクと比較画像・操作動画へ進めます。再起動は `npm run preview:prototypes`（4324）と `node scripts/r4-review-server.mjs`（4325）。ポートの重複起動を避けてください。今回のstage・commit・push・deployは0です。
+
 AI支援による自社開発ブラウザゲームと、日英の自社Portal。**Portal Baseline R1はHuman Acceptance PASS・正式採用 / 最初の実ゲームのテーマ選択待ち**。公開ゲームは0本です。
 
 ## Portal Baseline R1 — Human Acceptance PASS
@@ -95,3 +107,28 @@ npm run preview -- stop
 変更先は `C:\projects\Web Game Studio` のみ。Gitはmainを初期化し、commit/push/remote作成なし。公開/deploy/購入/契約/広告申請/実広告/外部メッセージ送信なし。全ページnoindexとrobots Disallowですが、これはアクセス制御ではありません。公開前にinternal/draftの除外と別途Human承認が必要です。
 
 HumanはHomeの印象、日英切替、スマホ幅の操作、内部fixtureの保存/広告復帰を確認してください。その後 [3テーマ](docs/planning/INITIAL_GAME_THEME_CARDS_R1.md) からA幼体進化 / B光と仕掛け / C一手の連鎖のいずれかを選択します。実ゲームの全制作・公開可否はこのbootstrapでは承認されていません。
+# Prototype Batch 01 — R1 historical opening slice
+
+Human選択の「ひかりの仕掛け庭」「ふたりの帰り道」「ちいさな配送パズル」を各5問の導入MVPとして実装。Portal Baseline R1を維持し、公開ゲーム0本・Design Preview10見本とは別のprototype buildへ隔離しています。
+
+```powershell
+cd 'C:\projects\Web Game Studio'
+npm run build:prototypes
+npm run preview:prototypes
+```
+
+案内: [日本語](http://127.0.0.1:4324/ja/prototypes/) / [English](http://127.0.0.1:4324/en/prototypes/)。127.0.0.1限定、deployではありません。日英で保存を共有しますが、4322/4323/4324は別originで保存も別です。起動済みの4324を二重に開始しないでください。
+
+仕様原本: [Batch依頼](docs/games/GAME_PROTOTYPE_BATCH_01_R1.md)。[実装/QA/試遊画像/制約](docs/qa/prototype-batch-01/REPORT.md)。今回の停止点は3作品まとめてのHuman試遊。中盤・終盤・公開・commit/push/deployは実行しません。
+
+## Historical: Batch 01 R2 full-run alpha
+
+3作品の核はHumanが継続制作を採用。各18問・3章へ拡張し、ゲーム内Artと初見ガイドを改修しました。ゲーム性の継続採用はVisual/UX/全編のHuman PASSを意味しません。[R2依頼原本](docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md) / [まとめて試遊・Before/After・QA](docs/qa/batch-01-r2/REPORT.md)。上記のbuild/previewコマンド、port4324を継続使用。公開0本・Design見本10点・旧fixtureを維持し、未stage/未commitでHumanレビュー待ちです。
+
+R2 QA: `npm test`、`npm run check`、通常/Design/prototype build、`node --import tsx tests/r2-full-run.browser.mjs`、`node tests/r2-browser-regression.mjs`。ブラウザQAはこのWindows環境のbundled Playwright/Edgeを使用し、他環境の依存パスは調整が必要です。
+
+## Historical: Batch 01 R3 controls and capture layouts
+
+3作品の54問・ルール・Art・旧保存を維持し、共通操作バー、状態に応じた主操作、設定内の通常／縦9:16／横16:9切替を追加しました。[依頼原本](docs/games/GAME_CONTROL_UI_AND_CAPTURE_R3.md) / [試遊・9画面比較・6動画](docs/qa/batch-01-r3/REVIEW.html) / [QAとHuman判断待ち事項](docs/qa/batch-01-r3/REPORT.md)。ローカル試遊は引き続き4324です。撮影切替は現在のiframeとゲーム状態を維持し、配送の走行は明示的な再開まで停止します。未stage・未commit、Humanレビュー待ちです。
+
+R3 QA: `node --import tsx tests/r3-full-run.browser.mjs`、`node tests/r3-state.browser.mjs`、`node tests/r3-browser-regression.mjs`、`node tests/r3-layout.browser.mjs`、`node tests/r3-responsive.browser.mjs`、`node tests/r3-controls.browser.mjs`。R2の証拠は別フォルダに保持しています。

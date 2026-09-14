@@ -1,0 +1,3493 @@
+[
+  {
+    "key": "T01@1",
+    "gameId": "two-ways-home",
+    "id": "T01",
+    "version": 1,
+    "chapter": 1,
+    "intent": {
+      "ja": "ひとつの方向ボタンで、ふたりが動く。○と□をそれぞれの家へ。",
+      "en": "One direction moves both friends. Bring ○ and □ to their matching homes."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      1,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            13,
+            13
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            14,
+            14
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 2,
+      "minimumUnilateralAdjustments": 0,
+      "pairStateBound": 256,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": false,
+      "requiresVerticalAdjustment": false,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          1
+        ],
+        "positions": [
+          13,
+          13
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          1,
+          1
+        ],
+        "positions": [
+          14,
+          14
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "T02@1",
+    "gameId": "two-ways-home",
+    "id": "T02",
+    "version": 1,
+    "chapter": 1,
+    "intent": {
+      "ja": "壁に当たった子だけ止まる。ふたりの位置をずらそう。",
+      "en": "Only the friend facing a wall stops. Use that to adjust their positions."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      3,
+      1,
+      0,
+      0,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            12,
+            12
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            13,
+            13
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            9,
+            9
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            5,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            6,
+            6
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 5,
+      "minimumUnilateralAdjustments": 1,
+      "pairStateBound": 256,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": false,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          3,
+          1,
+          0,
+          0
+        ],
+        "positions": [
+          5,
+          5
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          0,
+          0,
+          1,
+          1,
+          3
+        ],
+        "positions": [
+          5,
+          6
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T03@1",
+    "gameId": "two-ways-home",
+    "id": "T03",
+    "version": 1,
+    "chapter": 1,
+    "intent": {
+      "ja": "片方だけでなく、ふたつの庭を見比べよう。",
+      "en": "Look at both gardens before choosing your next step."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            13,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            14,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            14,
+            11
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            15,
+            11
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            11,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            7,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            7,
+            2
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            7,
+            1
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            7,
+            0
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            3,
+            0
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 10,
+      "minimumUnilateralAdjustments": 8,
+      "pairStateBound": 256,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": false
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          3,
+          3,
+          3
+        ],
+        "positions": [
+          7,
+          0
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1
+        ],
+        "positions": [
+          3,
+          3
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T04@1",
+    "gameId": "two-ways-home",
+    "id": "T04",
+    "version": 1,
+    "chapter": 1,
+    "intent": {
+      "ja": "ひとり帰っても、まだ続く。家から出て、ふたり同時に帰ろう。",
+      "en": "One friend home is not the finish. You can leave home to get both back together."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      3,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            13,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            9,
+            11
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            9,
+            7
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            9,
+            3
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            13,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            12,
+            6
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            12,
+            2
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            12,
+            1
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            13,
+            2
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 9,
+      "minimumUnilateralAdjustments": 4,
+      "pairStateBound": 256,
+      "requiresDeparture": true,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          1,
+          0,
+          0,
+          0,
+          2,
+          3,
+          0,
+          3
+        ],
+        "positions": [
+          12,
+          1
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          1,
+          0,
+          0,
+          0,
+          3,
+          2,
+          0
+        ],
+        "positions": [
+          9,
+          2
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T05@1",
+    "gameId": "two-ways-home",
+    "id": "T05",
+    "version": 1,
+    "chapter": 1,
+    "intent": {
+      "ja": "どちらの壁を使おう？ずらして、最後の一歩をそろえよう。",
+      "en": "Choose which walls to use. Line up the final step together."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      3,
+      3,
+      0,
+      3,
+      2,
+      2,
+      2,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            8,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            9,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            10,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            11,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            7,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            7,
+            2
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            7,
+            1
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            3,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            2,
+            0
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            2,
+            4
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 11,
+        "state": {
+          "positions": [
+            2,
+            8
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 12,
+        "state": {
+          "positions": [
+            2,
+            12
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 13,
+        "state": {
+          "positions": [
+            3,
+            13
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 13,
+      "minimumUnilateralAdjustments": 11,
+      "pairStateBound": 256,
+      "requiresDeparture": true,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          3,
+          3,
+          0,
+          3,
+          2,
+          2,
+          2
+        ],
+        "positions": [
+          2,
+          12
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0
+        ],
+        "positions": [
+          3,
+          3
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T06@1",
+    "gameId": "two-ways-home",
+    "id": "T06",
+    "version": 1,
+    "chapter": 1,
+    "intent": {
+      "ja": "ふたりの位置を見て、自分で家への道を作ろう。",
+      "en": "Read both positions and find your own route home."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            8,
+            10
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            4,
+            10
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            4,
+            11
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            0,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 4,
+      "minimumUnilateralAdjustments": 3,
+      "pairStateBound": 256,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          0,
+          0,
+          1
+        ],
+        "positions": [
+          4,
+          11
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "positions": [
+          0,
+          7
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "T07@1",
+    "gameId": "two-ways-home",
+    "id": "T07",
+    "version": 1,
+    "chapter": 2,
+    "intent": {
+      "ja": "横の差を、端で止まる一歩で調整しよう。",
+      "en": "Use an edge to adjust their columns."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      2,
+      3,
+      3,
+      1,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            15,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            14,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            13,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            14,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            10,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 5,
+      "minimumUnilateralAdjustments": 2,
+      "pairStateBound": 256,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": false,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          2,
+          3,
+          3,
+          1
+        ],
+        "positions": [
+          14,
+          5
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          1,
+          3,
+          1
+        ],
+        "positions": [
+          11,
+          1
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T08@1",
+    "gameId": "two-ways-home",
+    "id": "T08",
+    "version": 1,
+    "chapter": 2,
+    "intent": {
+      "ja": "下の壁を使って、ふたりの高さを調整しよう。",
+      "en": "Use the lower walls to adjust their rows."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            0,
+            1
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            4,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            8,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            12,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            12,
+            0
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            13,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 6,
+      "minimumUnilateralAdjustments": 3,
+      "pairStateBound": 256,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": false,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          1,
+          2,
+          2,
+          2,
+          3
+        ],
+        "positions": [
+          12,
+          0
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          1,
+          2,
+          2,
+          2,
+          1,
+          3
+        ],
+        "positions": [
+          12,
+          1
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T09@1",
+    "gameId": "two-ways-home",
+    "id": "T09",
+    "version": 1,
+    "chapter": 2,
+    "intent": {
+      "ja": "角でひとりを止め、もうひとりの位置を作ろう。",
+      "en": "Hold one friend at a corner to prepare the other position."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      2,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            15,
+            13
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            14,
+            12
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            13,
+            12
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            12,
+            12
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            8,
+            8
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            4,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            0,
+            0
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            1,
+            0
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 8,
+      "minimumUnilateralAdjustments": 4,
+      "pairStateBound": 256,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": false
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          2,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "positions": [
+          0,
+          0
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          0,
+          3,
+          0,
+          0,
+          2,
+          0
+        ],
+        "positions": [
+          11,
+          0
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T10@1",
+    "gameId": "two-ways-home",
+    "id": "T10",
+    "version": 1,
+    "chapter": 2,
+    "intent": {
+      "ja": "家を通り道にして、次の準備へ進もう。",
+      "en": "Pass through an early home to prepare the next move."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            20,
+            24
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            21,
+            24
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            21,
+            19
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            21,
+            14
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            21,
+            9
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            21,
+            4
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            22,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            21,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 8,
+      "minimumUnilateralAdjustments": 7,
+      "pairStateBound": 625,
+      "requiresDeparture": true,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "positions": [
+          22,
+          4
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          3,
+          1
+        ],
+        "positions": [
+          21,
+          4
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T11@1",
+    "gameId": "two-ways-home",
+    "id": "T11",
+    "version": 1,
+    "chapter": 2,
+    "intent": {
+      "ja": "横の差を作ってから、縦の壁へ向かおう。",
+      "en": "Adjust across the garden, then use the vertical walls."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      0,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1,
+      2
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            10,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            10,
+            3
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            10,
+            2
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            15,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            20,
+            12
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            21,
+            12
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            22,
+            12
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            22,
+            17
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 8,
+      "minimumUnilateralAdjustments": 5,
+      "pairStateBound": 625,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": false
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          0,
+          3,
+          3,
+          2,
+          2,
+          1,
+          1
+        ],
+        "positions": [
+          22,
+          12
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          2,
+          1,
+          1,
+          2,
+          1,
+          3
+        ],
+        "positions": [
+          22,
+          19
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T12@1",
+    "gameId": "two-ways-home",
+    "id": "T12",
+    "version": 1,
+    "chapter": 2,
+    "intent": {
+      "ja": "二つの壁の働きを組み合わせよう。",
+      "en": "Combine two wall adjustments."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      1,
+      2,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            2,
+            2
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            7,
+            2
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            7,
+            3
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            12,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            17,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            17,
+            4
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            16,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            21,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            22,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 9,
+      "minimumUnilateralAdjustments": 6,
+      "pairStateBound": 625,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          3,
+          2
+        ],
+        "positions": [
+          21,
+          3
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          1,
+          2,
+          1,
+          1,
+          2,
+          0
+        ],
+        "positions": [
+          7,
+          4
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T13@1",
+    "gameId": "two-ways-home",
+    "id": "T13",
+    "version": 1,
+    "chapter": 3,
+    "intent": {
+      "ja": "最後は上へ一歩。そこから逆に考えよう。",
+      "en": "Finish with one step up. Plan backward from there."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            19,
+            24
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            19,
+            23
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            19,
+            22
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            19,
+            21
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            24,
+            21
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            23,
+            20
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            23,
+            15
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            23,
+            10
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            23,
+            5
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            24,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 11,
+        "state": {
+          "positions": [
+            19,
+            0
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 11,
+      "minimumUnilateralAdjustments": 8,
+      "pairStateBound": 625,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          2,
+          3,
+          3,
+          3,
+          2,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "positions": [
+          24,
+          5
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "positions": [
+          4,
+          4
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T14@1",
+    "gameId": "two-ways-home",
+    "id": "T14",
+    "version": 1,
+    "chapter": 3,
+    "intent": {
+      "ja": "遠ざかる一歩も、ふたりの帰り道になる。",
+      "en": "A step away can bring both friends closer to home."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      2,
+      2,
+      3,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      3,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            17,
+            21
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            22,
+            21
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            21,
+            20
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            21,
+            15
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            21,
+            10
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            21,
+            5
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            22,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            23,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            23,
+            0
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            22,
+            0
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 11,
+        "state": {
+          "positions": [
+            23,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 11,
+      "minimumUnilateralAdjustments": 9,
+      "pairStateBound": 625,
+      "requiresDeparture": true,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          2,
+          2,
+          3,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          3
+        ],
+        "positions": [
+          22,
+          0
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          2,
+          2,
+          1,
+          0,
+          1,
+          3
+        ],
+        "positions": [
+          23,
+          17
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T15@1",
+    "gameId": "two-ways-home",
+    "id": "T15",
+    "version": 1,
+    "chapter": 3,
+    "intent": {
+      "ja": "待てる場所を先に作って、ふたりをそろえよう。",
+      "en": "Prepare a waiting spot, then line up both friends."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      2,
+      2,
+      2,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            10,
+            23
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            15,
+            23
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            20,
+            23
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            21,
+            24
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            21,
+            19
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            22,
+            19
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            23,
+            19
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            24,
+            19
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            19,
+            14
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            14,
+            9
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 11,
+        "state": {
+          "positions": [
+            9,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 11,
+      "minimumUnilateralAdjustments": 6,
+      "pairStateBound": 625,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          2,
+          2,
+          2,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "positions": [
+          14,
+          9
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2,
+          0
+        ],
+        "positions": [
+          4,
+          4
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T16@1",
+    "gameId": "two-ways-home",
+    "id": "T16",
+    "version": 1,
+    "chapter": 3,
+    "intent": {
+      "ja": "ひとりずつでなく、ふたりの位置をひと組で考えよう。",
+      "en": "Think about both positions as a pair."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      2,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            22,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            21,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            20,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            15,
+            2
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            10,
+            2
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            5,
+            2
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            0,
+            2
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            1,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            2,
+            4
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            2,
+            9
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 11,
+        "state": {
+          "positions": [
+            2,
+            14
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 12,
+        "state": {
+          "positions": [
+            1,
+            13
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 12,
+      "minimumUnilateralAdjustments": 7,
+      "pairStateBound": 625,
+      "requiresDeparture": false,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          2,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        "positions": [
+          2,
+          14
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          1,
+          1,
+          3
+        ],
+        "positions": [
+          17,
+          3
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T17@1",
+    "gameId": "two-ways-home",
+    "id": "T17",
+    "version": 1,
+    "chapter": 3,
+    "intent": {
+      "ja": "壁で止まり、家から離れ、最後の一歩を合わせよう。",
+      "en": "Use walls, leave home, and align the last step."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      1,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            5,
+            11
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            10,
+            11
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            15,
+            11
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            15,
+            10
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            20,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            21,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            22,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            22,
+            10
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            22,
+            5
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            23,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 11,
+        "state": {
+          "positions": [
+            24,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 12,
+        "state": {
+          "positions": [
+            24,
+            10
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 13,
+        "state": {
+          "positions": [
+            19,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 13,
+      "minimumUnilateralAdjustments": 7,
+      "pairStateBound": 625,
+      "requiresDeparture": true,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          1,
+          2,
+          2,
+          3,
+          2,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "positions": [
+          24,
+          10
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          0,
+          2
+        ],
+        "positions": [
+          5,
+          10
+        ],
+        "won": false
+      }
+    ]
+  },
+  {
+    "key": "T18@1",
+    "gameId": "two-ways-home",
+    "id": "T18",
+    "version": 1,
+    "chapter": 3,
+    "intent": {
+      "ja": "何度か位置をずらして、最後はふたり一緒に帰ろう。",
+      "en": "Adjust their positions, then take the last step home together."
+    },
+    "controls": "shared four-direction pad; arrows/WASD; undo",
+    "solution": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            5,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            0,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            1,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            2,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            2,
+            6
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            1,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            1,
+            10
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            1,
+            15
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            0,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            5,
+            20
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 11,
+        "state": {
+          "positions": [
+            5,
+            21
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 12,
+        "state": {
+          "positions": [
+            5,
+            22
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 13,
+        "state": {
+          "positions": [
+            0,
+            22
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 14,
+        "state": {
+          "positions": [
+            1,
+            23
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ],
+    "proof": {
+      "oracle": "Independent row/column transition, exhaustive pair graph; no runtime rule import",
+      "shortest": 14,
+      "minimumUnilateralAdjustments": 8,
+      "pairStateBound": 625,
+      "requiresDeparture": true,
+      "requiresHorizontalAdjustment": true,
+      "requiresVerticalAdjustment": true,
+      "finalBothMove": true
+    },
+    "counterexamples": [
+      {
+        "kind": "stop-before-final-step",
+        "solution": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          3,
+          2,
+          2,
+          3,
+          2,
+          1,
+          1,
+          0
+        ],
+        "positions": [
+          0,
+          22
+        ],
+        "won": false
+      },
+      {
+        "kind": "greedy-total-distance-with-loop-stop",
+        "solution": [
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        "positions": [
+          1,
+          1
+        ],
+        "won": false
+      }
+    ]
+  }
+]

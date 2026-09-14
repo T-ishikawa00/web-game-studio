@@ -1,0 +1,1038 @@
+{
+  "capturedAt": "2026-09-13T01:51:25.784Z",
+  "projectRoot": "C:\\projects\\Web Game Studio",
+  "models": [
+    "gpt-6-astra"
+  ],
+  "modelEvidence": "current session turn_context.model; global settings not modified",
+  "branch": "main",
+  "HEAD": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "upstream": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "upstreamEvidence": "local tracking ref only; no remote operation in this batch",
+  "indexDiff": "",
+  "stash": "",
+  "hooksPath": ".githooks",
+  "protectedResults": [
+    {
+      "path": "docs/qa/prototype-batch-01/REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/browser-results.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/artwork-failure.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/detail-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/fixture-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/fixture-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/home-en-1672.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/home-en-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/home-en-mixed.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/home-ja-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/home-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/home-normal-ja-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/no-js-play.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/play-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/play-ja-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/baseline-regression/screens/play-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/browser-results.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/extra-browser-results.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/git-state.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/screens/collection-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/screens/first-look.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/screens/light-garden-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/screens/light-garden-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/screens/tiny-delivery-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/screens/tiny-delivery-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/screens/two-ways-home-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/screens/two-ways-home-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/solutions.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/prototype-batch-01/technical-results.json",
+      "unchanged": true
+    },
+    {
+      "path": ".githooks/pre-commit",
+      "unchanged": true
+    },
+    {
+      "path": "SECURITY.md",
+      "unchanged": true
+    },
+    {
+      "path": "START_HERE_CODEX_WEB_GAME_STUDIO.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/accepted-checkpoint.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/browser-results.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/git-state.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/home-comparison.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/artwork-failure.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/detail-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/fixture-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/fixture-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/home-en-1672.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/home-en-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/home-en-mixed.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/home-ja-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/home-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/home-normal-ja-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/no-js-play.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/play-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/play-ja-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/baseline-r1/screens/play-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/browser-results.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/home-metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/artwork-failure.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/detail-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/fixture-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/fixture-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/home-en-1672.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/home-en-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/home-en-mixed.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/home-ja-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/home-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/home-normal-ja-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/no-js-play.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/play-en-1440.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/screens/play-ja-390.png",
+      "unchanged": true
+    },
+    {
+      "path": "docs/qa/visual-r1/worktree.txt",
+      "unchanged": true
+    },
+    {
+      "path": "docs/security/INCIDENT_RESPONSE.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/security/SECRETS_REGISTER.md",
+      "unchanged": true
+    },
+    {
+      "path": "public/covers/connection-lab.svg",
+      "unchanged": true
+    },
+    {
+      "path": "public/favicon.svg",
+      "unchanged": true
+    },
+    {
+      "path": "public/games/connection-lab/v0.1.0/fixture.css",
+      "unchanged": true
+    },
+    {
+      "path": "public/games/connection-lab/v0.1.0/fixture.js",
+      "unchanged": true
+    },
+    {
+      "path": "public/games/connection-lab/v0.1.0/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "public/robots.txt",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Catalog.astro",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/GameCard.astro",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Hero.astro",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/PlayFrame.astro",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/PlayShell.astro",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Related.astro",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/StudioFooter.astro",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/games.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/design/catalog.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/layouts/Layout.astro",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/ads.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/analytics.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/catalog.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/game-labels.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/save.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/scripts/catalog.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/scripts/play-shell.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/baseline.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/global.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/player.css",
+      "unchanged": true
+    }
+  ],
+  "backupResults": [
+    {
+      "path": "src/prototypes/catalog.ts",
+      "backupMatches": true
+    },
+    {
+      "path": "src/prototypes/game.css",
+      "backupMatches": true
+    },
+    {
+      "path": "src/prototypes/game.ts",
+      "backupMatches": true
+    },
+    {
+      "path": "src/prototypes/level-answers.json",
+      "backupMatches": true
+    },
+    {
+      "path": "src/prototypes/levels.ts",
+      "backupMatches": true
+    },
+    {
+      "path": "src/prototypes/protocol.ts",
+      "backupMatches": true
+    },
+    {
+      "path": "src/prototypes/rules.ts",
+      "backupMatches": true
+    },
+    {
+      "path": "src/prototypes/shell.ts",
+      "backupMatches": true
+    },
+    {
+      "path": "src/prototypes/state.ts",
+      "backupMatches": true
+    }
+  ],
+  "pathAccidentSiblingExists": false,
+  "changes": [
+    {
+      "path": "docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md",
+      "state": "new-in-R2",
+      "sha256": "ec5e39928d2c0774392120a0625dbff6ff98bcbc55fc3239c6ead4dc7d00b516"
+    },
+    {
+      "path": "docs/games/light-garden/R2-CONTENT.md",
+      "state": "new-in-R2",
+      "sha256": "5b7cbce82142acaac19a9a816fcc0ff8b18cb1e66ec5d573ccb71038a21d29b5"
+    },
+    {
+      "path": "docs/games/light-garden/SPEC.md",
+      "state": "modified-since-R2-start",
+      "sha256": "ff255bb71a67a1e0231e41921ca4dc8ae310d69826689e4d7d5b42780aa69d77"
+    },
+    {
+      "path": "docs/games/tiny-delivery/R2-CONTENT.md",
+      "state": "new-in-R2",
+      "sha256": "84ed500ec6e36892a06daef20ebc70a9c743e47c68c15b77d4cdf942cc0245c6"
+    },
+    {
+      "path": "docs/games/tiny-delivery/SPEC.md",
+      "state": "modified-since-R2-start",
+      "sha256": "433b5163f52311990aa52bf01decfaaabd929a12e8f09bf2a02755fd88a2b595"
+    },
+    {
+      "path": "docs/games/two-ways-home/R2-CONTENT.md",
+      "state": "new-in-R2",
+      "sha256": "2ec40055e069f459af93ffe10a72e06dd6d61b9738511da54e61e14157e3f515"
+    },
+    {
+      "path": "docs/games/two-ways-home/SPEC.md",
+      "state": "modified-since-R2-start",
+      "sha256": "6371c44960450a8fd8748610e430762c6674325b6204d2c44cd1502a8dd8cf02"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/REPORT.md",
+      "state": "new-in-R2",
+      "sha256": "4fd7e031627b0aba188e9f896724c832d06cc277ee1ff70c3bae0c7921d62355"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/REVIEW.html",
+      "state": "new-in-R2",
+      "sha256": "09ee2a705e32d16116fa43622e6efde8e66b33a5a748de75a4203a1ff67a9a92"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/browser-results.json",
+      "state": "new-in-R2",
+      "sha256": "63d27e64a5f8f90c9dc8c647c372e6e07864b8b2715c7386dfcc9be680f7f81b"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/artwork-failure.png",
+      "state": "new-in-R2",
+      "sha256": "f41dd07f1750c9dcb3b7765934ec79c5c0a034773622391a3753b738b6d119d7"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/detail-en-1440.png",
+      "state": "new-in-R2",
+      "sha256": "1eb642746c04f437ff91ed24bcc30a27f943c768ede33a64687406b7d18c565b"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/fixture-en-1440.png",
+      "state": "new-in-R2",
+      "sha256": "5c44f891b45a1b9a234d03fd4ee30c5576d0839bff93c7f418f8558685e5c860"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/fixture-ja-390.png",
+      "state": "new-in-R2",
+      "sha256": "1edfbf69ef2bcc36bc04a2e5ca54ec9bdc99b2e4ea59b795b1b85eb287cb5f6a"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/home-en-1672.png",
+      "state": "new-in-R2",
+      "sha256": "487934ea142ebc579b68a5fa92704dbf94cdff799c3a99b72d9309c643c50386"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/home-en-390.png",
+      "state": "new-in-R2",
+      "sha256": "5e51393dedc178e44e5fe0fdcc69864d92cec85047f9f058827ba10cce551f95"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/home-en-mixed.png",
+      "state": "new-in-R2",
+      "sha256": "7edd3da3d98ba640de2d063d5760ba82f12a8ad5558160b7c1b3dd86f7753e2d"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/home-ja-1440.png",
+      "state": "new-in-R2",
+      "sha256": "dd75fc9efbddbbe47ef947c4a3bc47795b43adc9e2bc8ad49557f6a8bcb1361b"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/home-ja-390.png",
+      "state": "new-in-R2",
+      "sha256": "df7edc74bdf65fa0ae2cffd6b50849cf3db70d0e55a1d52e2d224485ea2977ef"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/home-normal-ja-1440.png",
+      "state": "new-in-R2",
+      "sha256": "875cb9dbd5cd54ad0479d9babe5d63c4a217d1dcfd20316f57df4fe5ab7d60f4"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/no-js-play.png",
+      "state": "new-in-R2",
+      "sha256": "707c84b991dfe1115cb98f4409e9667c8e4fe5194c9a50ec4621aeb9fdbe5017"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/play-en-1440.png",
+      "state": "new-in-R2",
+      "sha256": "2070f4137a49d74f567cb4f449a18059fd110b4d0710dfc6ed25418843c36e70"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/play-ja-1440.png",
+      "state": "new-in-R2",
+      "sha256": "4e8ed0a7d2b23e89e0e3bf66fdde5a40f4604c587171df85fb370d739e76192c"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/baseline-regression/screens/play-ja-390.png",
+      "state": "new-in-R2",
+      "sha256": "30223cbe324f8ca482efcd8acadf73ee05bca036b804ac48d34d85cc8285a2dc"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/full-run-browser-results.json",
+      "state": "new-in-R2",
+      "sha256": "9ea614219f7d2c196bcadb403de4eccd7523037768ca904a7de8e943018eb4c8"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/regression-results.json",
+      "state": "new-in-R2",
+      "sha256": "1a6d4dff1749558c3e4f6ae4b92f50ad2c783b94646f39f35eb9f07253dbd7d8"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/focus-review-clip.png",
+      "state": "new-in-R2",
+      "sha256": "3af38259122f1a5fc42ab64154940ae6bcaca45222f948d703771db7a5acb2f2"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/focus-review-tall.png",
+      "state": "new-in-R2",
+      "sha256": "81246970a1dbc333c21340d66ed7389c2d1737a434745541720aea3d22403845"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/focus-review.png",
+      "state": "new-in-R2",
+      "sha256": "a48d91fee759d20ab2cc89cb44f6475a18b654dfc62691283b56846058aaff2a"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-after-guide.png",
+      "state": "new-in-R2",
+      "sha256": "59c8ca3252a6fb8375d8e8281fa1871d64f3240023a72166e09129aa8f70e338"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-after.png",
+      "state": "new-in-R2",
+      "sha256": "c55a8776527dfd7896562f706ff9a792a9736e426c2d63ec3639b3c231235c41"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-before.png",
+      "state": "new-in-R2",
+      "sha256": "3ee70f567919b9808480bdf019826405d88686b82603284cd65778a4bdea7056"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-draft-1440.png",
+      "state": "new-in-R2",
+      "sha256": "45b54ca382fdccda069ac6783cfeed2124498b89bba4c755d5daf77d8a5f54d5"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-draft-320.png",
+      "state": "new-in-R2",
+      "sha256": "8a75e9ba84eccae63c908981289bc290d51c3b4bc527b957d3a53737e41c2201"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-draft-390.png",
+      "state": "new-in-R2",
+      "sha256": "001bb9394036c21e2aac4c3926b94d7e66450744d77a6420f1ad9f2fa65eac7f"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-final-initial.png",
+      "state": "new-in-R2",
+      "sha256": "a811d20ac15d504ae09ba617228a76880c462184fc75d4fd209c3e84cc8917a2"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-final-solved.png",
+      "state": "new-in-R2",
+      "sha256": "e5f156ca748f874c70844391fc10209baed1ef7a68b87ed25cc29b2d58729757"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-interaction-2.png",
+      "state": "new-in-R2",
+      "sha256": "4856b427287b4ee65ef178ed303e5f6706ea87f55e4d3d593aa1fa59b6433e67"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-interaction-3.png",
+      "state": "new-in-R2",
+      "sha256": "6d79701566d5011fb6d80bd5412c7d9122c0ad00864871825cceb19abe325c1c"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-intro-initial.png",
+      "state": "new-in-R2",
+      "sha256": "80d0faeb0cb9dfd1a152498fe511995cc22b93d4e090e4c02e770f73cb580e17"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-intro-solved.png",
+      "state": "new-in-R2",
+      "sha256": "f3d223bb1faa67e6380c72fb5c9fe12d1cbdb502d1aeb9505bd121d1c1c2f32a"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-middle-initial.png",
+      "state": "new-in-R2",
+      "sha256": "5fca286decdad70a24ae799ca8810f1e658ee62624cec7f525976dd8e57fe489"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-middle-solved.png",
+      "state": "new-in-R2",
+      "sha256": "4d8e0502a8c8946d725cfbbc8d4d99611e63beffe6885488391e0a1e373a9343"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-mobile-final.png",
+      "state": "new-in-R2",
+      "sha256": "053ce84a657ea14e1f0e583c76343d3c6cf1f47708eb341e4278fdd88b02d1ef"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-mobile-guide.png",
+      "state": "new-in-R2",
+      "sha256": "f8e99076bece4d666b1fc10aa352d38fa013ac7c034c71f710145f3825aba356"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/light-garden-mobile.png",
+      "state": "new-in-R2",
+      "sha256": "42d770a07963befdd730db06a256bffc420d40613d69f04dfe7c4fb24b192873"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-after-guide.png",
+      "state": "new-in-R2",
+      "sha256": "68c38eace078ad76422074a940830c5e4846c060a44d0b548bef279f3e72526a"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-after.png",
+      "state": "new-in-R2",
+      "sha256": "f30e0ede4d7a5825df8384ffc01b549bdf1e6a6aba7aff259dd32e52e9887932"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-before.png",
+      "state": "new-in-R2",
+      "sha256": "23ba2c7fe5864007fe806637da5040ed027f583faba7ea7208462b458b77c9c1"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-draft-1440.png",
+      "state": "new-in-R2",
+      "sha256": "4f11386e2a09da39b6d8086f94a9047cb022976eb66da5785b7ceb4f76438825"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-draft-320.png",
+      "state": "new-in-R2",
+      "sha256": "b8c178faf60d11af7fc9f75aa4458ea4dba48f3d85cfecb414db03107a2d6496"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-draft-390.png",
+      "state": "new-in-R2",
+      "sha256": "baf5ed5512d9e7120fd0a382b069d3237f87246119bef8b5a59a800aeef106cd"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-final-initial.png",
+      "state": "new-in-R2",
+      "sha256": "8f4b98d2e52f9633c808d31a80a64dc10e4763ba2bb33edb082f1399bfe53226"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-final-solved.png",
+      "state": "new-in-R2",
+      "sha256": "c8dd215ace2e9eb1e6bc857bbcd9745e6964f95574dce364ec824c0c1a706f3d"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-interaction-2.png",
+      "state": "new-in-R2",
+      "sha256": "f9284b59024b8f8da44049c084832aa0872c0b83dae93ed3593a18d26ec94508"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-interaction-3.png",
+      "state": "new-in-R2",
+      "sha256": "c0daaeae398e53c333c01fb310fb8ff52fda52c755c9c2aad58ada1715c4c5f2"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-intro-initial.png",
+      "state": "new-in-R2",
+      "sha256": "3ef34ab15eed0b775f746973530d689b2886000b770779b30f10d9cda384bfb5"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-intro-solved.png",
+      "state": "new-in-R2",
+      "sha256": "5248e4409c0b620bbe0baae25defea96a9efaa812e071109dae9bdc5c7c56291"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-middle-initial.png",
+      "state": "new-in-R2",
+      "sha256": "f831dc5263cc91d208636cc45419746759fa2d6679edd3e61e8e95dd81204b87"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-middle-solved.png",
+      "state": "new-in-R2",
+      "sha256": "be57a023392ca5a7af73c129d73b7419276df30adb36797e7c3190752dccd380"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-mobile-final.png",
+      "state": "new-in-R2",
+      "sha256": "77f5a05b2da3dbb881abb1ebf93955e5094bb9394d13d20c55fe4de9c6c058cf"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-mobile-guide.png",
+      "state": "new-in-R2",
+      "sha256": "5275bcd1fbcaba954126623ff19fc575947f73a5acccc2edfe4d61be2874bc1f"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/tiny-delivery-mobile.png",
+      "state": "new-in-R2",
+      "sha256": "494c59389537dfcfbab107270863b40b039f7d08ba30318fe8b43dd6758281f8"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-after-guide.png",
+      "state": "new-in-R2",
+      "sha256": "3d87db66e9de64f6ddf499d0f5a02e3143b4d525e7dc5be05a4a2e5e08f8d1da"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-after.png",
+      "state": "new-in-R2",
+      "sha256": "294f805ae4735d7c371df0a67c1b6b9e88a20c65e7f8be75b302cde6b0dfc533"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-before.png",
+      "state": "new-in-R2",
+      "sha256": "d0057a8833f973ba96864ba46f5a35f7aba3208914ffb78391714d8587a5fcbb"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-draft-1440.png",
+      "state": "new-in-R2",
+      "sha256": "2122861674fbf82ba5e29532a608ec7027d11eb7614c643fd9b3c685ba7355a1"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-draft-320.png",
+      "state": "new-in-R2",
+      "sha256": "724cddf6ca3fe2f702524e9f0a97feba49a3c9b3d65fad5500c501711f24d985"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-draft-390.png",
+      "state": "new-in-R2",
+      "sha256": "9344955787474c3b07ab0b3940003561869d01f0a943a540fc2e421f2c91bb0c"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-final-initial.png",
+      "state": "new-in-R2",
+      "sha256": "bbac11e3e2ef74c4ba30b9895291aa749afe07d7dadb431a419cada0a8bb4e9b"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-final-solved.png",
+      "state": "new-in-R2",
+      "sha256": "dfa2fd743b7f4f131b62482a559020ebe2c4b7f2f215a6bcf2cf9dc3b7b7cf6f"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-interaction-2.png",
+      "state": "new-in-R2",
+      "sha256": "18aba80c0d5d69b5cf7984df370d9ca2f98e95274349aabbeed35500fb1c82da"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-interaction-3.png",
+      "state": "new-in-R2",
+      "sha256": "10e834ca68692bff5c1e3ad9c3d2346d65da348f8b7608c212c04d9637dea21d"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-intro-initial.png",
+      "state": "new-in-R2",
+      "sha256": "868ea68d99f05a24db20d2054024026fffdac829134baf7c06bdf95b4f77c8c5"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-intro-solved.png",
+      "state": "new-in-R2",
+      "sha256": "aba93f8b2571059edb232b1b4336ed6640400160760fa5e419e11e26e39acfae"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-middle-initial.png",
+      "state": "new-in-R2",
+      "sha256": "ce472cc6c04538a4693bf8cda984eeebd6f4130419b43189b1686c4d9219e9c0"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-middle-solved.png",
+      "state": "new-in-R2",
+      "sha256": "92bfe42b88f6b363bc43956ba639ffada736fa2385adaf0c850edb9830b4a912"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-mobile-final.png",
+      "state": "new-in-R2",
+      "sha256": "9c1374c12d805ca76cbf545075477b68bfb3b09638c241ea184099765da03de3"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-mobile-guide.png",
+      "state": "new-in-R2",
+      "sha256": "032ea72ff8eb1c9999e96d3cc6efd03ad24d17c53af4efc94479557539e4997e"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/screens/two-ways-home-mobile.png",
+      "state": "new-in-R2",
+      "sha256": "59453513d30643c53d23717e768193efd68d31691ff564f73f59b515ff60c289"
+    },
+    {
+      "path": "docs/qa/batch-01-r2/technical-results.json",
+      "state": "new-in-R2",
+      "sha256": "10881ea1db98b13c1bdbd2a688aa6104c03a1d3c77fe1398a5964801c7339a00"
+    },
+    {
+      "path": "scripts/project-path.mjs",
+      "state": "new-in-R2",
+      "sha256": "e95e4fe7227f7dd447eaa8c5bc4233b845d625e36e3fced9527b60c5706be0f5"
+    },
+    {
+      "path": "scripts/prototype-assets.mjs",
+      "state": "modified-since-R2-start",
+      "sha256": "5ffa627029c4fc8662d13fe363c61859ad3e16becbba3aaed6b48c78dc8f654d"
+    },
+    {
+      "path": "scripts/prototype-covers.mjs",
+      "state": "new-in-R2",
+      "sha256": "189e0e862f842547b461e01b3921d7e266421783291685e548206227e497db8a"
+    },
+    {
+      "path": "src/pages/[locale]/prototypes/[...path].astro",
+      "state": "modified-since-R2-start",
+      "sha256": "20765bfc21f9befe3a14f90dfd55737cff29a1a9de4e1c3bc40a3f18aeb0256e"
+    },
+    {
+      "path": "src/prototypes/art.ts",
+      "state": "new-in-R2",
+      "sha256": "90f61c4d83183352933d75109c76ad426edcb3cc17118d504f06b5924fc68a2f"
+    },
+    {
+      "path": "src/prototypes/board-view.ts",
+      "state": "new-in-R2",
+      "sha256": "eadf6b22b44b818f693949baa203b70ecc1b3a40b95f21b1239c1da7c6a88403"
+    },
+    {
+      "path": "src/prototypes/catalog.ts",
+      "state": "modified-since-R2-start",
+      "sha256": "89ba9b149749b1696dc46367b3cd60ff9a653490bf47b95886153a97de4d2873"
+    },
+    {
+      "path": "src/prototypes/delivery-answers-r2.json",
+      "state": "new-in-R2",
+      "sha256": "6ffd0ffc1a567fd3863c2846ffdf79dbcc5ce7693caad3778f64ba19c0ea7c1f"
+    },
+    {
+      "path": "src/prototypes/delivery-levels-r2.ts",
+      "state": "new-in-R2",
+      "sha256": "b167492358d2512408ae3f6c0a05c5e47c680a72355e3fa3ebea0d41fbb9b41b"
+    },
+    {
+      "path": "src/prototypes/delivery-r2.ts",
+      "state": "new-in-R2",
+      "sha256": "2ffb4e04eb86aaeb4eaa9be8d9391e606a6a3a1b2ee782242354c2c99a0f96aa"
+    },
+    {
+      "path": "src/prototypes/game-r2.css",
+      "state": "new-in-R2",
+      "sha256": "34218be86bc7692ae97fb6a83847d5ab7d966ce412fe4939e858abbd1734ae1b"
+    },
+    {
+      "path": "src/prototypes/game-r2.ts",
+      "state": "new-in-R2",
+      "sha256": "5d4cbc879611235fe58dc829948c4538fc824b9bfbd6b2110fa210483f826fc8"
+    },
+    {
+      "path": "src/prototypes/game.css",
+      "state": "modified-since-R2-start",
+      "sha256": "b6484f6a70f28af5fe2a244812d6b78e6e8d66db5944f0ead128e22a31ce68d9"
+    },
+    {
+      "path": "src/prototypes/game.ts",
+      "state": "modified-since-R2-start",
+      "sha256": "4fb2db7ca4df691ff795b8c12f2148ad0ae8fb4d69caf87495248f3bf2913060"
+    },
+    {
+      "path": "src/prototypes/guides.ts",
+      "state": "new-in-R2",
+      "sha256": "b120ec31c0ee56082753150e3293df226bbddcd51b6b1115827f7da069f57968"
+    },
+    {
+      "path": "src/prototypes/home-answers-r2.json",
+      "state": "new-in-R2",
+      "sha256": "e2ad5dd4f68240a12bcb4aab15e0a1c952a3f0cafe62760745308b6f8cfbda28"
+    },
+    {
+      "path": "src/prototypes/home-levels-r2.ts",
+      "state": "new-in-R2",
+      "sha256": "7e9ebc2d49e769c38c605151bf12d6a8b086e52a762bba3ff48d0f4772ba39a7"
+    },
+    {
+      "path": "src/prototypes/levels.ts",
+      "state": "modified-since-R2-start",
+      "sha256": "239518226c9378c0d4a8e151b9db0b97fce426affb086075c1237e4cc8c2ef68"
+    },
+    {
+      "path": "src/prototypes/light-answers-r2.json",
+      "state": "new-in-R2",
+      "sha256": "53717de0c5d5082938308e47da1860e20a3c0eded26c492b9e299e56fe137cb0"
+    },
+    {
+      "path": "src/prototypes/light-levels-r2.ts",
+      "state": "new-in-R2",
+      "sha256": "65f8b2a736e3628cf263e44c60802c211617581a519872e0f19d05175a62ad83"
+    },
+    {
+      "path": "src/prototypes/light-r2.ts",
+      "state": "new-in-R2",
+      "sha256": "a46d5dcb78fb4e712f9b94e49b5662ae612bc58699ca78588cfcdf9e8e6d8962"
+    },
+    {
+      "path": "src/prototypes/rules.ts",
+      "state": "modified-since-R2-start",
+      "sha256": "27089a572d8215adca1c097c9e89ae33c035c2c92def587249e38a0babbc92de"
+    },
+    {
+      "path": "src/prototypes/state.ts",
+      "state": "modified-since-R2-start",
+      "sha256": "05243e1bab849a3a7a86101bc1a6dc998eb208894e913aecb60c63b2af644c58"
+    },
+    {
+      "path": "tests/r2-browser-regression.mjs",
+      "state": "new-in-R2",
+      "sha256": "2eba5691dd98da93afb7ae197d6ca7f3b4273c3bcea64a4c9575f979c8402274"
+    },
+    {
+      "path": "tests/r2-full-run.browser.mjs",
+      "state": "new-in-R2",
+      "sha256": "f8ab2b4c8af5c1f1ce0e7883e6e42641a3c3f5affe98cce173e00f4cdc47bf87"
+    },
+    {
+      "path": "tests/unit/delivery-r2.test.ts",
+      "state": "new-in-R2",
+      "sha256": "e169398677c2c533995db750c53078d082bf6d586cfaa39644974e6cbea6d86a"
+    },
+    {
+      "path": "tests/unit/home-r2.test.ts",
+      "state": "new-in-R2",
+      "sha256": "7eec85b23221d1484c82c2d5f28fcd3488d78aa1c40d61410ab629bd9a7e64c0"
+    },
+    {
+      "path": "tests/unit/light-r2.test.ts",
+      "state": "new-in-R2",
+      "sha256": "6f7d6e49e32a23416ec6ab9e9a0f604783762cc4c3f546524a14c3cfe19cdd52"
+    },
+    {
+      "path": "tests/unit/project-path.test.ts",
+      "state": "new-in-R2",
+      "sha256": "524b8b8f068d60c46f82e430682dba1ef5d6e4d1a18a4c15a776b6dc1645470b"
+    },
+    {
+      "path": "tests/unit/prototypes.test.ts",
+      "state": "modified-since-R2-start",
+      "sha256": "ad5a4750e93cc0fe37f4f203463b11a9e114f67cd7af17539d5f2a07b181ca82"
+    },
+    {
+      "path": "tests/unit/r2-state.test.ts",
+      "state": "new-in-R2",
+      "sha256": "96ada7dce5034b46b260b7e6e5ec53faf3b9ed0c7ba53c59bb219d4a55db031b"
+    },
+    {
+      "path": "AGENTS.md",
+      "state": "modified-since-R2-start",
+      "sha256": "cbfd6eafb2746542cbbf10ac8c69636ead11232238c395b3febd014d17f9118b"
+    },
+    {
+      "path": "README.md",
+      "state": "modified-since-R2-start",
+      "sha256": "65809d86dc89229c0de29b2a55d18162b1368d391584a0cc3408365983ddb870"
+    },
+    {
+      "path": "docs/records/ASSET_REGISTER_R1.md",
+      "state": "modified-since-R2-start",
+      "sha256": "519831197e3eaf42e14a72c05c48b5171605e566759a555657778dcce35a9687"
+    },
+    {
+      "path": "scripts/astro.mjs",
+      "state": "modified-since-R2-start",
+      "sha256": "e904fa00363e255fa0c64c34c668322f7524ee3e69fae2615be89672f8831597"
+    },
+    {
+      "path": "scripts/design-assets.mjs",
+      "state": "modified-since-R2-start",
+      "sha256": "caea6cbda20db9aa27587551b24d376344b63988f09c6888300e36db9b4e4d01"
+    }
+  ],
+  "status": "M AGENTS.md\n M README.md\n M astro.config.mjs\n M docs/records/ASSET_REGISTER_R1.md\n M package.json\n M scripts/astro.mjs\n M scripts/design-assets.mjs\n?? docs/games/\n?? docs/qa/batch-01-r2/\n?? docs/qa/prototype-batch-01/\n?? scripts/project-path.mjs\n?? scripts/prototype-assets.mjs\n?? scripts/prototype-covers.mjs\n?? src/pages/[locale]/prototypes/\n?? src/prototypes/\n?? tests/prototype-output.test.ts\n?? tests/prototypes-extra.browser.mjs\n?? tests/prototypes.browser.mjs\n?? tests/r2-browser-regression.mjs\n?? tests/r2-full-run.browser.mjs\n?? tests/unit/delivery-r2.test.ts\n?? tests/unit/home-r2.test.ts\n?? tests/unit/light-r2.test.ts\n?? tests/unit/project-path.test.ts\n?? tests/unit/prototypes.test.ts\n?? tests/unit/r2-state.test.ts",
+  "operations": {
+    "stage": 0,
+    "commit": 0,
+    "push": 0,
+    "deploy": 0,
+    "purchase": 0,
+    "realAds": 0,
+    "newExternalServices": 0
+  },
+  "sourceMatchesAttachment": true
+}

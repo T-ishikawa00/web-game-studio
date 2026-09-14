@@ -12,6 +12,8 @@
     "build": "node scripts/astro.mjs build",
     "preview": "node scripts/astro.mjs preview --host 127.0.0.1",
     "build:design": "node scripts/astro.mjs build --design-preview",
+    "build:prototypes": "node scripts/astro.mjs build --prototype-preview",
+    "preview:prototypes": "node scripts/astro.mjs preview --prototype-preview --host 127.0.0.1 --port 4324 --ignore-lock",
     "preview:design": "node scripts/astro.mjs preview --design-preview --host 127.0.0.1 --port 4323 --ignore-lock",
     "test": "tsx --test tests/unit/*.test.ts",
     "test:routes": "tsx --test tests/routes.test.ts"

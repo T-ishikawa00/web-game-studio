@@ -1,0 +1,410 @@
+[
+  {
+    "id": "light-garden",
+    "mode": "auto",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 862.53125
+    },
+    "state": {
+      "progress": {
+        "levelId": "L01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false
+          ],
+          "gate": false
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto"
+    }
+  },
+  {
+    "id": "light-garden",
+    "mode": "portrait",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "L01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false
+          ],
+          "gate": false
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait"
+    }
+  },
+  {
+    "id": "light-garden",
+    "mode": "landscape",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "L01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false
+          ],
+          "gate": false
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape"
+    }
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "auto",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 867.078125
+    },
+    "state": {
+      "progress": {
+        "levelId": "T01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            12,
+            12
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto"
+    }
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "portrait",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "T01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            12,
+            12
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait"
+    }
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "landscape",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "T01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            12,
+            12
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape"
+    }
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "auto",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 887.375
+    },
+    "state": {
+      "progress": {
+        "levelId": "D01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            0
+          ],
+          "wait": 0
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto"
+    }
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "portrait",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "D01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            0
+          ],
+          "wait": 0
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait"
+    }
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "landscape",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "D01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            0
+          ],
+          "wait": 0
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape"
+    }
+  }
+]

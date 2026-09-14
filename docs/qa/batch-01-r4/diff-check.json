@@ -1,0 +1,42 @@
+{
+  "status": "RAW_WHITESPACE_FINDINGS_PRESERVED",
+  "trackedDiffCheck": true,
+  "untrackedTextFiles": 118,
+  "problems": [
+    "docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md",
+    "docs/games/GAME_CONTROL_UI_AND_CAPTURE_R3.md",
+    "docs/games/GAME_DIRECT_MANIPULATION_R4.md",
+    "docs/games/light-garden/SPEC.md",
+    "docs/games/tiny-delivery/SPEC.md",
+    "docs/games/two-ways-home/SPEC.md"
+  ],
+  "classified": [
+    {
+      "file": "docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md",
+      "classification": "UNCHANGED_R3_INPUT"
+    },
+    {
+      "file": "docs/games/GAME_CONTROL_UI_AND_CAPTURE_R3.md",
+      "classification": "UNCHANGED_R3_INPUT"
+    },
+    {
+      "file": "docs/games/GAME_DIRECT_MANIPULATION_R4.md",
+      "classification": "BYTE_EXACT_HUMAN_ATTACHMENT"
+    },
+    {
+      "file": "docs/games/light-garden/SPEC.md",
+      "classification": "UNCHANGED_R3_INPUT"
+    },
+    {
+      "file": "docs/games/tiny-delivery/SPEC.md",
+      "classification": "UNCHANGED_R3_INPUT"
+    },
+    {
+      "file": "docs/games/two-ways-home/SPEC.md",
+      "classification": "UNCHANGED_R3_INPUT"
+    }
+  ],
+  "newImplementationFindings": 0,
+  "notes": "Markdown source line breaks / existing EOF whitespace retained. No originals reformatted; raw findings remain recorded.",
+  "stagedCount": 0
+}

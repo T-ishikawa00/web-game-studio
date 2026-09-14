@@ -1,0 +1,26 @@
+// Verify the one Human-approved preservation digest; never emit its value.
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {execFileSync,spawnSync} from 'node:child_process';
+import path from 'node:path';
+import {projectRoot,projectPath} from './project-path.mjs';
+const git=(...args)=>execFileSync('git',args,{cwd:projectRoot,windowsHide:true});
+const candidateFile='.tmp/r3-before/manifest.json',target='docs/security/SECRETS_REGISTER.md';
+const manifest=JSON.parse(readFileSync(projectPath(path.join(projectRoot,candidateFile)),'utf8'));
+const value=manifest.hashes[target],sha=b=>createHash('sha256').update(b).digest('hex');
+const generator=readFileSync(projectPath(path.join(projectRoot,'scripts/r3-baseline.mjs')),'utf8');
+const files=git('ls-files','--cached','--others','--exclude-standard','-z').toString().split('\0').filter(Boolean);
+const occurrences=files.filter(f=>readFileSync(projectPath(path.join(projectRoot,f))).includes(Buffer.from(value)));
+const conditions={preservationHashField:generator.includes("hashes[file]=createHash('sha256').update(await readFile(projectPath(path.join(projectRoot,file)))).digest('hex')"),sha256Format:typeof value==='string'&&/^[a-f0-9]{64}$/.test(value),currentFileMatches:sha(readFileSync(projectPath(path.join(projectRoot,target))))===value,baselineGitBlobMatches:sha(git('show',`${manifest.head}:${target}`))===value,credentialUseAbsent:occurrences.length===0,locallyComputedNotProviderSecret:generator.includes("from 'node:crypto'")&&!/fetch\(|https?:\/\/|process\.env/.test(generator)};
+if(Object.values(conditions).some(v=>!v))throw new Error('Candidate conditions not fully verified; stop. No value emitted.');
+const scan=spawnSync(process.execPath,['scripts/security-scan.mjs','all'],{cwd:projectRoot,windowsHide:true,encoding:'utf8',maxBuffer:64*1024*1024});
+const summary=JSON.parse(readFileSync(projectPath(path.join(projectRoot,'.tmp/security-r1/all.summary.json')),'utf8'));
+if(scan.status!==1||summary.status!=='FAIL'||summary.findings.length!==1||summary.findings[0].file!==candidateFile||summary.findings[0].type!=='generic-api-key')throw new Error('Raw finding set changed; stop.');
+const raw=spawnSync(projectPath(path.join(projectRoot,'.cache/tools/gitleaks/8.30.1/gitleaks.exe')),['dir','.','--config',path.join(projectRoot,'.gitleaks.toml'),'--redact=100','--no-banner','--no-color','--gitleaks-ignore-path',path.join(projectRoot,'.tmp/security-r1/all.ignore'),'--ignore-gitleaks-allow','--max-archive-depth=2','--report-format=json','--report-path=-'],{cwd:projectRoot,windowsHide:true,encoding:'utf8',maxBuffer:64*1024*1024});
+const findings=JSON.parse(raw.stdout);
+const candidateLine=readFileSync(projectPath(path.join(projectRoot,candidateFile)),'utf8').split(/\r?\n/).findIndex(l=>l.includes(JSON.stringify(target))&&l.includes(value))+1;
+if(raw.status!==1||findings.length!==1||findings[0].RuleID!=='generic-api-key'||findings[0].File!==candidateFile||findings[0].StartLine!==candidateLine||findings[0].EndLine!==candidateLine)throw new Error('Raw candidate identity changed; stop.');
+const record={at:new Date().toISOString(),candidateFile,jsonKey:`hashes[${JSON.stringify(target)}]`,rule:'generic-api-key',line:candidateLine,conditions,trackedOrCandidateContentOccurrences:occurrences.length,rawScanner:summary,humanDisposition:'FALSE POSITIVE / NON-CREDENTIAL / APPROVED',authority:'Human instruction 2026-09-15; conditional approval verified for this one candidate only',securityGate:'PASS_WITH_EXPLICIT_HUMAN_DISPOSITION',valuesEmitted:false,providerValidation:false,newScannerExceptions:0,priorEvidence:'docs/qa/batch-01-r5/security-provenance.json'};
+const out=projectPath(path.join(projectRoot,'docs/security/batch-01-r5-disposition.json'));
+mkdirSync(path.dirname(out),{recursive:true});writeFileSync(out,JSON.stringify(record,null,2)+'\n');
+console.log(JSON.stringify(record));

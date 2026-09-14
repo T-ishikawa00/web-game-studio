@@ -1,0 +1,37 @@
+{
+  "at": "2026-09-14T04:54:07.827Z",
+  "actualModel": "gpt-6-astra",
+  "modelEvidence": "current session 01a09e26-075f-77d3-989a-ee4afd287d7a turn_context.model; read-only review subagent inherited Astra, no separate attestation",
+  "head": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "branch": "main",
+  "headUnchanged": true,
+  "indexUnchanged": true,
+  "stagedCount": 0,
+  "upstreamLocalRef": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "remoteLiveChecked": false,
+  "baselineFiles": 477,
+  "unchanged": 471,
+  "changed": [
+    "scripts/prototype-assets.mjs",
+    "src/prototypes/board-view.ts",
+    "src/prototypes/controls.ts",
+    "src/prototypes/game-r2.ts",
+    "src/prototypes/guides.ts",
+    "README.md"
+  ],
+  "missing": [],
+  "protectedChanged": [],
+  "rulesArtSaveChanged": [],
+  "attachmentCopyExact": true,
+  "status": "M AGENTS.md\n M README.md\n M astro.config.mjs\n M docs/records/ASSET_REGISTER_R1.md\n M package.json\n M scripts/astro.mjs\n M scripts/design-assets.mjs\n?? docs/games/\n?? docs/qa/batch-01-r2/\n?? docs/qa/batch-01-r3/\n?? docs/qa/batch-01-r4/\n?? docs/qa/prototype-batch-01/\n?? scripts/project-path.mjs\n?? scripts/prototype-assets.mjs\n?? scripts/prototype-covers.mjs\n?? scripts/r3-baseline.mjs\n?? scripts/r3-evidence.mjs\n?? scripts/r3-review.mjs\n?? scripts/r4-baseline.mjs\n?? scripts/r4-diff-check.mjs\n?? scripts/r4-evidence.mjs\n?? scripts/r4-review-server.mjs\n?? scripts/r4-review.mjs\n?? src/pages/[locale]/prototypes/\n?? src/prototypes/\n?? tests/prototype-output.test.ts\n?? tests/prototypes-extra.browser.mjs\n?? tests/prototypes.browser.mjs\n?? tests/r2-browser-regression.mjs\n?? tests/r2-full-run.browser.mjs\n?? tests/r3-before.browser.mjs\n?? tests/r3-browser-regression.mjs\n?? tests/r3-controls.browser.mjs\n?? tests/r3-full-run.browser.mjs\n?? tests/r3-layout.browser.mjs\n?? tests/r3-media.browser.mjs\n?? tests/r3-responsive.browser.mjs\n?? tests/r3-state.browser.mjs\n?? tests/r4-before.browser.mjs\n?? tests/r4-browser-regression.mjs\n?? tests/r4-full-run.browser.mjs\n?? tests/r4-helpers.mjs\n?? tests/r4-input.browser.mjs\n?? tests/r4-layout.browser.mjs\n?? tests/r4-media.browser.mjs\n?? tests/r4-responsive.browser.mjs\n?? tests/r4-review.browser.mjs\n?? tests/r4-state.browser.mjs\n?? tests/unit/delivery-r2.test.ts\n?? tests/unit/home-r2.test.ts\n?? tests/unit/light-r2.test.ts\n?? tests/unit/project-path.test.ts\n?? tests/unit/prototypes.test.ts\n?? tests/unit/r2-state.test.ts",
+  "operations": {
+    "stage": 0,
+    "commit": 0,
+    "push": 0,
+    "deploy": 0,
+    "realAds": 0,
+    "purchase": 0,
+    "newExternalServices": 0,
+    "globalConfiguration": 0
+  }
+}

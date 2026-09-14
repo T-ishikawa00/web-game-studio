@@ -1,0 +1,3401 @@
+[
+  {
+    "key": "D01@1",
+    "id": "D01",
+    "version": 1,
+    "chapter": 1,
+    "discovery": {
+      "ja": "矢印をタップして道を準備。出発すると走り出す。",
+      "en": "Tap arrows to prepare a route, then press Go."
+    },
+    "solution": {
+      "arrows": [
+        0,
+        1
+      ],
+      "wait": 0,
+      "ticks": 6
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 11,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 12,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 7,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 2,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 3,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 4,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Preserved MVP answer evidence",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            0
+          ],
+          "wait": 0
+        },
+        "reason": "wall",
+        "after": 3,
+        "failureCells": [
+          13
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 16,
+      "winningSettings": 1,
+      "complete": true
+    }
+  },
+  {
+    "key": "D02@1",
+    "id": "D02",
+    "version": 1,
+    "chapter": 1,
+    "discovery": {
+      "ja": "曲がり角をつないで、荷物を受取口へ届けよう。",
+      "en": "Connect the turns to bring the parcel to its matching depot."
+    },
+    "solution": {
+      "arrows": [
+        0,
+        1,
+        2
+      ],
+      "wait": 0,
+      "ticks": 10
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 21,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 17,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 12,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 7,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 8,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 9,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 9,
+        "bots": [
+          {
+            "id": "A",
+            "p": 19,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 10,
+        "bots": [
+          {
+            "id": "A",
+            "p": 24,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Preserved MVP answer evidence",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            0,
+            1
+          ],
+          "wait": 0
+        },
+        "reason": "wall",
+        "after": 3,
+        "failureCells": [
+          23
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 64,
+      "winningSettings": 1,
+      "complete": true
+    }
+  },
+  {
+    "key": "D03@1",
+    "id": "D03",
+    "version": 1,
+    "chapter": 1,
+    "discovery": {
+      "ja": "全員を届けよう。時計の場所で少し待つと、交差点を譲れる。",
+      "en": "Deliver every parcel. A short wait at the clock can clear the crossing."
+    },
+    "solution": {
+      "arrows": [
+        1,
+        2
+      ],
+      "wait": 1,
+      "ticks": 5
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 11,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 7,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 11,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 12,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 12,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 17,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Preserved MVP answer evidence",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            2
+          ],
+          "wait": 0
+        },
+        "reason": "collision",
+        "after": 2,
+        "failureCells": [
+          12
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 48,
+      "winningSettings": 2,
+      "complete": true
+    }
+  },
+  {
+    "key": "D04@1",
+    "id": "D04",
+    "version": 1,
+    "chapter": 1,
+    "discovery": {
+      "ja": "待ちすぎても、次の交差点でぶつかる。1コマずつ見てみよう。",
+      "en": "Waiting too long can block the next crossing. Watch one tick at a time."
+    },
+    "solution": {
+      "arrows": [
+        1,
+        0
+      ],
+      "wait": 1,
+      "ticks": 6
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 19,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 19,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 20,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 21,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 21,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 15,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Preserved MVP answer evidence",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            2,
+            1
+          ],
+          "wait": 0
+        },
+        "reason": "collision",
+        "after": 2,
+        "failureCells": [
+          20
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 48,
+      "winningSettings": 1,
+      "complete": true
+    }
+  },
+  {
+    "key": "D05@1",
+    "id": "D05",
+    "version": 1,
+    "chapter": 1,
+    "discovery": {
+      "ja": "曲がる場所と待つ場所。ふたりとも届ける計画を作ろう。",
+      "en": "Plan the turns and the wait to deliver both parcels."
+    },
+    "solution": {
+      "arrows": [
+        0,
+        1
+      ],
+      "wait": 1,
+      "ticks": 8
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 8,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 15,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 9,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 3,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 4,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 5,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Preserved MVP answer evidence",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            0
+          ],
+          "wait": 0
+        },
+        "reason": "collision",
+        "after": 2,
+        "failureCells": [
+          14
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 48,
+      "winningSettings": 2,
+      "complete": true
+    }
+  },
+  {
+    "key": "D06@1",
+    "id": "D06",
+    "version": 1,
+    "chapter": 1,
+    "discovery": {
+      "ja": "道を整え、交差点が空いてから進もう。",
+      "en": "Set the turns and enter after the crossing clears."
+    },
+    "solution": {
+      "arrows": [
+        0,
+        0,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        1
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 8,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 15,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 16,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 10,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 4,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            1,
+            0
+          ],
+          "wait": 0,
+          "waits": [
+            0
+          ]
+        },
+        "reason": "wall",
+        "after": 2,
+        "failureCells": [
+          7
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 24,
+      "winningSettings": 2,
+      "complete": true
+    }
+  },
+  {
+    "key": "D07@1",
+    "id": "D07",
+    "version": 1,
+    "chapter": 2,
+    "discovery": {
+      "ja": "近道がふさがるなら、外側の道を使おう。",
+      "en": "When the shortcut is busy, try the outer road."
+    },
+    "solution": {
+      "arrows": [
+        0,
+        0,
+        2
+      ],
+      "wait": 0,
+      "waits": []
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 21,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 8,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 15,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 2,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 9,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 3,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 9,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 4,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 9,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 10,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 9,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 16,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 9,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            1,
+            1
+          ],
+          "wait": 0,
+          "waits": []
+        },
+        "reason": "collision",
+        "after": 3,
+        "failureCells": [
+          15
+        ]
+      },
+      {
+        "label": "Direct road meets B; manual cell/beat expectation",
+        "edit": {
+          "arrows": [
+            1,
+            0,
+            2
+          ],
+          "wait": 0,
+          "waits": []
+        },
+        "reason": "collision",
+        "after": 3,
+        "failureCells": [
+          15
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 8,
+      "winningSettings": 1,
+      "complete": true
+    }
+  },
+  {
+    "key": "D08@1",
+    "id": "D08",
+    "version": 1,
+    "chapter": 2,
+    "discovery": {
+      "ja": "共有するマスへ入る順番を決めよう。",
+      "en": "Choose who enters the shared cell first."
+    },
+    "solution": {
+      "arrows": [
+        1,
+        2,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        1
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 10,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 17,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 24,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 24,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 31,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 25,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 38,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 26,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 45,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 45,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            0,
+            1,
+            0
+          ],
+          "wait": 0,
+          "waits": [
+            0
+          ]
+        },
+        "reason": "wall",
+        "after": 2,
+        "failureCells": [
+          11,
+          15
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 24,
+      "winningSettings": 2,
+      "complete": true
+    }
+  },
+  {
+    "key": "D09@1",
+    "id": "D09",
+    "version": 1,
+    "chapter": 2,
+    "discovery": {
+      "ja": "同じ長さの待機でも、置く側で順番が変わる。",
+      "en": "The same wait changes the order when assigned to the other robot."
+    },
+    "solution": {
+      "arrows": [
+        1,
+        2
+      ],
+      "wait": 0,
+      "waits": [
+        1,
+        0
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 8,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 15,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 16,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 17,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            0,
+            1
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            0
+          ]
+        },
+        "reason": "wall",
+        "after": 2,
+        "failureCells": [
+          7,
+          9
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 36,
+      "winningSettings": 6,
+      "complete": true
+    }
+  },
+  {
+    "key": "D10@1",
+    "id": "D10",
+    "version": 1,
+    "chapter": 2,
+    "discovery": {
+      "ja": "相手が出るマスには、同じ拍で入れる。",
+      "en": "You may enter a cell on the beat its occupant leaves."
+    },
+    "solution": {
+      "arrows": [
+        0,
+        1
+      ],
+      "wait": 0,
+      "waits": []
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 10,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 17,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 3,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 18,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 3,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 19,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 3,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            2
+          ],
+          "wait": 0,
+          "waits": []
+        },
+        "reason": "wall",
+        "after": 2,
+        "failureCells": [
+          11
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 4,
+      "winningSettings": 1,
+      "complete": true
+    }
+  },
+  {
+    "key": "D11@1",
+    "id": "D11",
+    "version": 1,
+    "chapter": 2,
+    "discovery": {
+      "ja": "正面から入れ替わる道を避けよう。",
+      "en": "Avoid exchanging cells head-on."
+    },
+    "solution": {
+      "arrows": [
+        2,
+        1,
+        3,
+        2
+      ],
+      "wait": 0,
+      "waits": []
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 11,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 17,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 16,
+            "d": 3,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 21,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 15,
+            "d": 3,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 21,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "wait": 0,
+          "waits": []
+        },
+        "reason": "wrong-goal",
+        "after": 3,
+        "failureCells": [
+          23
+        ]
+      },
+      {
+        "label": "Head-on edge exchange; manual expectation",
+        "edit": {
+          "arrows": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "wait": 0,
+          "waits": []
+        },
+        "reason": "swap",
+        "after": 4,
+        "failureCells": [
+          15,
+          16
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 16,
+      "winningSettings": 1,
+      "complete": true
+    }
+  },
+  {
+    "key": "D12@1",
+    "id": "D12",
+    "version": 1,
+    "chapter": 2,
+    "discovery": {
+      "ja": "経路を整えたら、二台の交差を調整しよう。",
+      "en": "After setting the route, tune the crossing."
+    },
+    "solution": {
+      "arrows": [
+        2,
+        1,
+        3,
+        2
+      ],
+      "wait": 0,
+      "waits": [
+        1,
+        0
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 17,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 16,
+            "d": 3,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 15,
+            "d": 3,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 21,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 21,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            0
+          ]
+        },
+        "reason": "wrong-goal",
+        "after": 2,
+        "failureCells": [
+          23
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 144,
+      "winningSettings": 6,
+      "complete": true
+    }
+  },
+  {
+    "key": "D13@1",
+    "id": "D13",
+    "version": 1,
+    "chapter": 3,
+    "discovery": {
+      "ja": "最初の交差だけで安心せず、次も確かめよう。",
+      "en": "Check the second crossing after clearing the first."
+    },
+    "solution": {
+      "arrows": [
+        1,
+        0,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        1
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 16,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 23,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 30,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 24,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 31,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 25,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 26,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 25,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 18,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            2,
+            1,
+            0
+          ],
+          "wait": 0,
+          "waits": [
+            0
+          ]
+        },
+        "reason": "collision",
+        "after": 2,
+        "failureCells": [
+          23
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 24,
+      "winningSettings": 1,
+      "complete": true
+    }
+  },
+  {
+    "key": "D14@1",
+    "id": "D14",
+    "version": 1,
+    "chapter": 3,
+    "discovery": {
+      "ja": "最初と次の交差で、先を譲る側が変わる。",
+      "en": "The robot that goes first changes at the next crossing."
+    },
+    "solution": {
+      "arrows": [
+        1,
+        0,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        1
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 9,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 21,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 16,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 30,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 31,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 24,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 24,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 25,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 17,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 10,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            2,
+            1,
+            2
+          ],
+          "wait": 0,
+          "waits": [
+            0
+          ]
+        },
+        "reason": "collision",
+        "after": 3,
+        "failureCells": [
+          23
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 24,
+      "winningSettings": 1,
+      "complete": true
+    }
+  },
+  {
+    "key": "D15@1",
+    "id": "D15",
+    "version": 1,
+    "chapter": 3,
+    "discovery": {
+      "ja": "待機を増やしたとき、二度目の交差も見よう。",
+      "en": "When adding a wait, check the second crossing too."
+    },
+    "solution": {
+      "arrows": [
+        1,
+        0,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        1,
+        0
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 19,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 19,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 26,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 21,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 21,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 15,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            2,
+            1,
+            0
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            0
+          ]
+        },
+        "reason": "collision",
+        "after": 2,
+        "failureCells": [
+          20
+        ]
+      },
+      {
+        "label": "Two beats for B is too late at the second crossing",
+        "edit": {
+          "arrows": [
+            1,
+            0,
+            1
+          ],
+          "wait": 0,
+          "waits": [
+            2,
+            0
+          ]
+        },
+        "reason": "collision",
+        "after": 5,
+        "failureCells": [
+          21
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 72,
+      "winningSettings": 5,
+      "complete": true
+    }
+  },
+  {
+    "key": "D16@1",
+    "id": "D16",
+    "version": 1,
+    "chapter": 3,
+    "discovery": {
+      "ja": "遠回りと待機を組み合わせて通そう。",
+      "en": "Combine a detour and a wait to clear the crossing."
+    },
+    "solution": {
+      "arrows": [
+        2,
+        1,
+        3,
+        2
+      ],
+      "wait": 0,
+      "waits": [
+        1
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 3,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 30,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 25,
+            "d": 3,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 31,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 32,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 39,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 33,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 39,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 34,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 39,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "wait": 0,
+          "waits": [
+            0
+          ]
+        },
+        "reason": "wrong-goal",
+        "after": 3,
+        "failureCells": [
+          34
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 48,
+      "winningSettings": 2,
+      "complete": true
+    }
+  },
+  {
+    "key": "D17@1",
+    "id": "D17",
+    "version": 1,
+    "chapter": 3,
+    "discovery": {
+      "ja": "二つの交差と、待つ位置をまとめて考えよう。",
+      "en": "Plan both crossings and the location of the wait."
+    },
+    "solution": {
+      "arrows": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        1,
+        0
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 16,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 30,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 31,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 24,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 24,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 25,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 17,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 18,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 19,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 9,
+        "bots": [
+          {
+            "id": "A",
+            "p": 20,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            0
+          ]
+        },
+        "reason": "collision",
+        "after": 2,
+        "failureCells": [
+          23
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 144,
+      "winningSettings": 5,
+      "complete": true
+    }
+  },
+  {
+    "key": "D18@1",
+    "id": "D18",
+    "version": 1,
+    "chapter": 3,
+    "discovery": {
+      "ja": "最初はA、次はB。道の長さと待つ場所を使い分けよう。",
+      "en": "A first, then B. Use the route length and the right waiting place."
+    },
+    "solution": {
+      "arrows": [
+        2,
+        2,
+        0,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        2,
+        0
+      ]
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 16,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 1,
+            "remaining": 2,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 30,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 37,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 38,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 24,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 39,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 25,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 32,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 25,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 9,
+        "bots": [
+          {
+            "id": "A",
+            "p": 18,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ],
+    "oracle": "Independent authored path coordinates plus arithmetic wait expansion",
+    "counterexamples": [
+      {
+        "label": "Unadjusted starting settings",
+        "edit": {
+          "arrows": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            0
+          ]
+        },
+        "reason": "wall",
+        "after": 2,
+        "failureCells": [
+          17
+        ]
+      },
+      {
+        "label": "Short route with a two-beat B wait meets at second crossing",
+        "edit": {
+          "arrows": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "wait": 0,
+          "waits": [
+            2,
+            0
+          ]
+        },
+        "reason": "collision",
+        "after": 6,
+        "failureCells": [
+          25
+        ]
+      },
+      {
+        "label": "Waiting after the first crossing cannot repair it",
+        "edit": {
+          "arrows": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            2
+          ]
+        },
+        "reason": "collision",
+        "after": 2,
+        "failureCells": [
+          23
+        ]
+      }
+    ],
+    "enumeration": {
+      "attempts": 144,
+      "winningSettings": 11,
+      "complete": true
+    }
+  }
+]

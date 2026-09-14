@@ -1,0 +1,58 @@
+/* R4: board first. Art/coordinates remain in the R2 stylesheet. */
+.control-deck{border:0!important;padding:0!important;max-width:465px;gap:8px;justify-content:space-between;margin:10px auto 0}
+.control-deck .utility-group{border:0!important;padding:0!important;gap:6px}
+.control-deck .control{min-height:44px;box-shadow:none;background:transparent}
+.control-deck .control.primary{background:var(--control-ink)}
+.control-face{min-height:42px;padding:9px 10px;font-size:14px;gap:5px}
+.control-face svg{width:19px;height:19px}
+.control-deck .progression-action,.control-deck .progression-action:empty{min-height:44px;min-width:78px}
+.control-deck .primary{min-width:90px}
+.game-header{max-width:760px;margin-bottom:12px}.chapter b{display:none}
+.stage-number{font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:0}
+.title-row{margin-top:5px}h1{font-size:25px}.goal{font-size:14px}
+#game[data-layout=auto] .play-layout{display:block!important}#game[data-layout=auto] .play-area{display:block}
+.outcome,.outcome:empty{height:48px;min-height:48px;margin:0}
+.outcome strong{font-size:19px}.outcome span{font-size:12px}
+.feedback{min-height:42px;margin:12px auto 0;font-size:13px}
+.input-cue{max-width:620px;width:100%;font-size:13px;line-height:1.5;text-align:center;color:inherit;margin:6px auto 0}
+.input-cue>div{display:flex;flex-wrap:wrap;justify-content:center;gap:4px}.input-cue .quiet{font-size:13px;padding:7px 9px}
+.production-tools{margin:8px auto 0}.direction-options{display:none}
+[data-swipe-board]{touch-action:pinch-zoom;cursor:grab}
+[data-swipe-board].pointer-pressed{cursor:grabbing;outline:2px solid #83778b;outline-offset:2px}
+.cell-control.pointer-pressed .mirror,.cell-control.pointer-pressed .socket{filter:brightness(1.12);outline:2px solid #547564;outline-offset:0}
+.clock-value{position:absolute;right:1px;bottom:1px;min-width:22px;min-height:22px;padding:3px;background:#fcf2d3;border:1px solid #9b8144;border-radius:50%;font-size:13px;line-height:16px;color:#624d25;box-shadow:0 1px 2px #63562630}
+.shared-clocks{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin:10px auto 0}.shared-clocks button{min-height:44px;padding:6px 10px;font-size:13px;background:#fcf2d3;border-color:#9b8144;color:#624d25}
+#game:not([data-layout=auto]) .shared-clocks{grid-area:waits;margin:0;align-self:center}
+.cell-control[data-action^="clock:"]{border:1px dashed #9b8144;border-radius:50%;padding:0}
+.cell-control[data-action^="clock:"]:disabled{border-color:transparent}.cell-control[data-action^="clock:"]:disabled .clock-value{background:#ece7d4;color:#746e5e}
+.menu-dialog button{min-height:44px;margin-top:10px}.menu-dialog .levels{grid-template-columns:repeat(3,minmax(0,1fr));padding:8px;gap:8px}.menu-dialog .levels button{font-size:12px;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.menu-dialog .guide-diagram{max-height:160px;margin:12px 0}.menu-dialog .hint{padding:12px;margin:12px 0}.menu-dialog .hint p{margin:6px 0}
+.clock-dialog{width:300px;padding:18px}.clock-dialog h2{margin:0;font-size:18px}.clock-choices{display:flex;gap:8px;flex-wrap:wrap}.clock-choices button{min-width:60px;margin-top:4px;padding:8px}.clock-choices [aria-pressed=true]{background:#624d25;color:#fff8e8;border-color:#624d25}
+[data-game=tiny-delivery] .control-deck{grid-template-columns:124px minmax(0,1fr);max-width:465px}
+[data-game=tiny-delivery] .control-deck .utility-group{justify-content:flex-end}
+.run-tools{grid-column:1/-1;display:flex;justify-content:center;gap:8px;min-height:44px}
+[data-game=two-ways-home] #game[data-layout=auto] .control-deck{max-width:640px}
+/* Reserve state feedback; success/Next never move the active board or Undo. */
+#game:not([data-layout=auto]) .control-deck{height:auto;min-height:44px;align-self:end;display:flex;padding:0;grid-template-rows:none;flex-wrap:wrap}
+#game:not([data-layout=auto]) .control-deck .progression-action{position:static;min-height:44px;grid-row:auto;margin:0}
+#game:not([data-layout=auto]) .control-deck .utility-group{grid-row:auto}
+#game:not([data-layout=auto]) .outcome{height:48px;min-height:48px}
+#game[data-layout=portrait] .capture-frame{grid-template-rows:86px minmax(0,1fr) 52px 48px;grid-template-areas:'header' 'board' 'feedback' 'controls'}
+#game[data-layout=portrait] .outcome{grid-area:feedback;height:52px;min-height:52px}
+[data-game=tiny-delivery] #game[data-layout=portrait] .capture-frame{grid-template-rows:86px minmax(0,1fr) auto 52px 96px;grid-template-areas:'header' 'board' 'waits' 'feedback' 'controls'}
+[data-game=tiny-delivery] #game:not([data-layout=auto]) .control-deck{display:grid!important;align-self:start}
+[data-game=two-ways-home] #game[data-layout=portrait] .capture-frame{grid-template-rows:86px minmax(0,1fr) 52px 48px;grid-template-areas:'header' 'board' 'feedback' 'controls'}
+[data-game=two-ways-home] #game[data-layout=portrait][data-dpad=true] .capture-frame{grid-template-rows:86px minmax(0,1fr) 42px 104px 48px;grid-template-areas:'header' 'board' 'feedback' 'dpad' 'controls'}
+#game[data-layout=portrait] .friend{width:min(100%,calc(57cqw - 16px));margin:auto}
+#game[data-layout=portrait][data-dpad=true] .friend{width:min(100%,calc(43cqw - 16px))}
+#game[data-layout=portrait] .storybook{padding:8px 12px}.friend h3 span{white-space:nowrap}
+#game[data-layout=landscape] .capture-frame{grid-template-rows:100px 1fr 48px 96px;grid-template-areas:'board header' 'board feedback' 'board outcome' 'board controls'}
+[data-game=tiny-delivery] #game[data-layout=landscape] .capture-frame{grid-template-rows:100px 1fr auto 48px 96px;grid-template-areas:'board header' 'board feedback' 'board waits' 'board outcome' 'board controls'}
+[data-game=two-ways-home] #game[data-layout=landscape] .capture-frame{grid-template-columns:600px minmax(0,1fr);grid-template-rows:110px 1fr 48px 100px;grid-template-areas:'board header' 'board feedback' 'board outcome' 'board controls'}
+[data-game=two-ways-home] #game[data-layout=landscape][data-dpad=true] .capture-frame{grid-template-rows:100px 1fr 104px 48px 100px;grid-template-areas:'board header' 'board feedback' 'board dpad' 'board outcome' 'board controls'}
+[data-game=two-ways-home] #game[data-layout=landscape] .control-deck{display:flex;flex-direction:column-reverse;height:96px;gap:4px;justify-content:flex-start;align-items:center}
+[data-game=two-ways-home] #game[data-layout=landscape] .outcome{height:48px;min-height:48px}
+@media(max-width:650px){#game[data-layout=auto] .game-wrap{padding:12px 8px}.game-header{margin-bottom:10px}.input-cue{font-size:12px}.feedback{font-size:12px}.title-row h1{font-size:22px}.control-deck .control-face{font-size:13px;padding:9px 8px}.control-deck .control.primary{min-width:78px}.control-deck{gap:4px}.storybook{padding:10px}.two-boards{max-width:230px}.friend .board{max-width:210px}.book-title{margin-bottom:6px}.two-boards{gap:10px}#game[data-dpad=true][data-layout=auto] .two-boards{max-width:180px}#game[data-dpad=true][data-layout=auto] .friend .board{max-width:170px}}
+@media(max-width:350px){.control-face{gap:4px}.control-deck .utility-group{gap:4px}.control-deck{margin-left:4px;margin-right:4px}.input-cue{padding:0 8px}}
+/* A narrow Normal viewport is portrait play too: never shrink two gardens side by side. */
+@media(max-width:650px){#game[data-layout=auto] .two-boards{grid-template-columns:1fr;max-width:210px}#game[data-layout=auto] .friend h3{flex-wrap:nowrap}#game[data-layout=auto] .friend .board{width:100%}#game[data-layout=auto][data-dpad=true] .two-boards{max-width:180px}}

@@ -1,0 +1,83 @@
+{
+  "results": [
+    {
+      "name": "light-garden: live mode cycle preserves every runtime field, raw save and event history",
+      "status": "PASS",
+      "evidence": {
+        "modes": 3,
+        "historyBefore": 1,
+        "hint": 1,
+        "iframeUnchanged": true,
+        "noSaveOrEvents": true
+      }
+    },
+    {
+      "name": "two-ways-home: live mode cycle preserves every runtime field, raw save and event history",
+      "status": "PASS",
+      "evidence": {
+        "modes": 3,
+        "historyBefore": 1,
+        "hint": 1,
+        "iframeUnchanged": true,
+        "noSaveOrEvents": true
+      }
+    },
+    {
+      "name": "tiny-delivery: live mode cycle preserves every runtime field, raw save and event history",
+      "status": "PASS",
+      "evidence": {
+        "modes": 3,
+        "historyBefore": 0,
+        "hint": 1,
+        "iframeUnchanged": true,
+        "noSaveOrEvents": true
+      }
+    },
+    {
+      "name": "unsaved progress survives display switching with storage writes denied",
+      "status": "PASS",
+      "evidence": {
+        "statePreservedWithoutSave": true
+      }
+    },
+    {
+      "name": "running delivery pauses on layout, stays paused across modal/mock/pagehide overlap and resumes one fresh tick",
+      "status": "PASS",
+      "evidence": {
+        "pausedTick": 1,
+        "noCatchup": true
+      }
+    },
+    {
+      "name": "failure/clear guide and completion state survive modes; Step disabled during edit/run/terminal",
+      "status": "PASS",
+      "evidence": {
+        "failureAndClearPreserved": true
+      }
+    },
+    {
+      "name": "Restart cancel/Escape/accept and keyboard separation, native Enter/Space one action, repeated keydown blocked",
+      "status": "PASS",
+      "evidence": {
+        "confirmCancelEscapeAccept": true,
+        "nativeActivation": true
+      }
+    },
+    {
+      "name": "touch pointer hit remains aligned after mode switches; pointerup alone is not a second move",
+      "status": "PASS",
+      "evidence": {
+        "cssCoordinatesAndUndo": true
+      }
+    },
+    {
+      "name": "enum-only query and session preference; language reload follows existing restore behavior",
+      "status": "PASS",
+      "evidence": {
+        "enumValidated": true,
+        "queryOverridesSession": true
+      }
+    }
+  ],
+  "errors": []
+}

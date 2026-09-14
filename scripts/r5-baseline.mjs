@@ -1,0 +1,15 @@
+import {readFile,writeFile,mkdir,cp} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import path from 'node:path';
+import {projectPath,projectRoot} from './project-path.mjs';
+const out=projectPath(path.join(projectRoot,'.tmp/r5-before'));
+await mkdir(out);
+const git=(...a)=>execFileSync('git',a,{cwd:projectRoot,encoding:'utf8'}).trim();
+const files=git('ls-files','--cached','--others','--exclude-standard','-z').split('\0').filter(Boolean),records=[];
+for(const file of files) records.push({file,digest:createHash('sha256').update(await readFile(projectPath(path.join(projectRoot,file)))).digest('hex')});
+for(const dir of ['src/prototypes','src/pages/[locale]/prototypes','scripts'])await cp(projectPath(path.join(projectRoot,dir)),projectPath(path.join(out,dir)),{recursive:true});
+await writeFile(path.join(out,'baseline.json'),JSON.stringify({at:new Date().toISOString(),model:'gpt-6-astra',modelEvidence:'session 01a09f3c-dace-70f3-ae56-3b1cb083de43 turn_context.model, effort high (read-only)',head:git('rev-parse','HEAD'),branch:git('branch','--show-current'),upstream:git('rev-parse','@{upstream}'),status:git('status','--porcelain=v1'),index:git('ls-files','--stage'),stash:git('stash','list'),records},null,2)+'\n');
+await writeFile(path.join(out,'starting.diff'),git('diff','--no-ext-diff'));
+await cp('C:/Users/PUBLIC_USER/Downloads/GAME_VISUAL_LANGUAGE_R5.md',projectPath(path.join(projectRoot,'docs/games/GAME_VISUAL_LANGUAGE_R5.md')),{errorOnExist:true,force:false});
+console.log('R4 source/art preserved; file records:',records.length);

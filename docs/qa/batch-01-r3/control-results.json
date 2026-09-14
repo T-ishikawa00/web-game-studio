@@ -1,0 +1,104 @@
+{
+  "results": [
+    {
+      "id": "light-garden",
+      "status": "PASS",
+      "stablePressedHitArea": true,
+      "colors": [
+        {
+          "action": "undo",
+          "color": "rgb(36, 78, 59)",
+          "background": "rgb(249, 248, 235)",
+          "border": "rgb(105, 130, 115)",
+          "textContrast": 8.821912908248008,
+          "edgeContrast": 3.8987315908650855
+        },
+        {
+          "action": "retry",
+          "color": "rgb(36, 78, 59)",
+          "background": "rgb(249, 248, 235)",
+          "border": "rgb(105, 130, 115)",
+          "textContrast": 8.821912908248008,
+          "edgeContrast": 3.8987315908650855
+        },
+        {
+          "action": "next",
+          "color": "rgb(255, 254, 250)",
+          "background": "rgb(36, 78, 59)",
+          "border": "rgb(36, 78, 59)",
+          "textContrast": 9.340158078482956,
+          "edgeContrast": 1
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "reducedMotion": true
+    },
+    {
+      "id": "two-ways-home",
+      "status": "PASS",
+      "stablePressedHitArea": true,
+      "colors": [
+        {
+          "action": "undo",
+          "color": "rgb(73, 65, 83)",
+          "background": "rgb(250, 245, 238)",
+          "border": "rgb(131, 119, 139)",
+          "textContrast": 8.945249037478384,
+          "edgeContrast": 3.890276633753476
+        },
+        {
+          "action": "retry",
+          "color": "rgb(73, 65, 83)",
+          "background": "rgb(250, 245, 238)",
+          "border": "rgb(131, 119, 139)",
+          "textContrast": 8.945249037478384,
+          "edgeContrast": 3.890276633753476
+        },
+        {
+          "action": "next",
+          "color": "rgb(255, 254, 250)",
+          "background": "rgb(73, 65, 83)",
+          "border": "rgb(73, 65, 83)",
+          "textContrast": 9.614641524444718,
+          "edgeContrast": 1
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "reducedMotion": true
+    },
+    {
+      "id": "tiny-delivery",
+      "status": "PASS",
+      "stablePressedHitArea": true,
+      "colors": [
+        {
+          "action": "next",
+          "color": "rgb(255, 254, 250)",
+          "background": "rgb(37, 83, 90)",
+          "border": "rgb(37, 83, 90)",
+          "textContrast": 8.446634150960561,
+          "edgeContrast": 1
+        },
+        {
+          "action": "retry",
+          "color": "rgb(37, 83, 90)",
+          "background": "rgb(242, 247, 239)",
+          "border": "rgb(108, 137, 138)",
+          "textContrast": 7.8446717715540935,
+          "edgeContrast": 3.4616763254391985
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "reducedMotion": true
+    }
+  ]
+}

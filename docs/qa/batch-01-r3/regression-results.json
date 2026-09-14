@@ -1,0 +1,298 @@
+{
+  "startedAt": "2026-09-13T20:24:48.850Z",
+  "finishedAt": "2026-09-13T20:25:25.462Z",
+  "browser": "Headless Edge Chromium; fresh isolated contexts",
+  "base": "http://127.0.0.1:4324",
+  "scope": "Behavioral regression only; no Human UX or physical-device acceptance",
+  "attemptPolicy": "No automatic retries. Prior runs retained: first run had a highlight selector mismatch and fixture handshake race; second exposed the fixture QA disclosure requirement. Harness corrections only.",
+  "buildBefore": "5c44d3a87972f3d9291fa745589987ab3c5e43e54dc7ebfbc68167ba1b23cc5f",
+  "buildAfter": "5c44d3a87972f3d9291fa745589987ab3c5e43e54dc7ebfbc68167ba1b23cc5f",
+  "results": [
+    {
+      "name": "bridge: wrong origin/source/protocol/game/generation/payload rejected independently",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 1403,
+      "evidence": {
+        "outboundRejected": 7,
+        "inboundRejected": 6
+      }
+    },
+    {
+      "name": "removed iframe rejected with both old and current generations; error closes reset",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 670,
+      "evidence": {
+        "oldAndCurrentGenerationRejected": true
+      }
+    },
+    {
+      "name": "keyboard focus scope, repeat suppression, pointer parity and undo",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 989,
+      "evidence": null
+    },
+    {
+      "name": "delivery: step/play/pause parity, failure locations, retry preserves plan and reload editing only",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 5134,
+      "evidence": {
+        "stepClearBeat": 5,
+        "reloadBeat": 0,
+        "failureBeat": 2
+      }
+    },
+    {
+      "name": "mock pause halts all games; delivery resumes with fresh delay; pressure survives game navigation",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 7806,
+      "evidence": {
+        "pausedDeliveryTicks": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "injected parent and iframe visibility pause: no hidden ticks or catch-up",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 4410,
+      "evidence": {
+        "injectionOnly": true,
+        "hiddenDurationMsPerSurface": 1050,
+        "postResumeNoAdvanceMs": 180
+      }
+    },
+    {
+      "name": "load timeout retry and runtime error during mock recover cleanly",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 9049,
+      "evidence": {
+        "intentionalAbortedAsset": "prototype-assets/game.js",
+        "timeoutObserved": true
+      }
+    },
+    {
+      "name": "all games JA/EN progress and guide separation; old save completion retained",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 1561,
+      "evidence": {
+        "oldSaves": 3,
+        "sharedOriginLocales": true,
+        "guideKeys": [
+          "wgs:guide:light-garden",
+          "wgs:guide:tiny-delivery",
+          "wgs:guide:two-ways-home"
+        ]
+      }
+    },
+    {
+      "name": "malformed/future/invalid-level saves preserved; reset cancel and confirm scoped to one game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 2421,
+      "evidence": {
+        "invalidCases": 9
+      }
+    },
+    {
+      "name": "storage write-denied: honest status and usable game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 329,
+      "evidence": null
+    },
+    {
+      "name": "storage silent-write: honest status and usable game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 363,
+      "evidence": null
+    },
+    {
+      "name": "storage read-denied: honest status and usable game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 427,
+      "evidence": null
+    },
+    {
+      "name": "storage guide-corrupt: honest status and usable game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 487,
+      "evidence": null
+    },
+    {
+      "name": "untouched Connection Lab: pointer, save, locale reload, error retry, prototype isolation",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 911,
+      "evidence": {
+        "fixtureProtocol": "wgs-fixture-v1",
+        "prototypeSaveUnchanged": true
+      }
+    },
+    {
+      "name": "unexpected JavaScript errors and external requests",
+      "status": "PASS",
+      "errors": [],
+      "external": []
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "priorRuns": [
+    {
+      "startedAt": "2026-09-13T20:10:40.097Z",
+      "finishedAt": "2026-09-13T20:11:15.101Z",
+      "buildBefore": "85581c16dd212695b26dd8999429eb26185e168b40e8ab5fb7b45d529237d074",
+      "buildAfter": "85581c16dd212695b26dd8999429eb26185e168b40e8ab5fb7b45d529237d074",
+      "results": [
+        {
+          "name": "bridge: wrong origin/source/protocol/game/generation/payload rejected independently",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 1272,
+          "evidence": {
+            "outboundRejected": 7,
+            "inboundRejected": 6
+          }
+        },
+        {
+          "name": "removed iframe rejected with both old and current generations; error closes reset",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 556,
+          "evidence": {
+            "oldAndCurrentGenerationRejected": true
+          }
+        },
+        {
+          "name": "keyboard focus scope, repeat suppression, pointer parity and undo",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 806,
+          "evidence": null
+        },
+        {
+          "name": "delivery: step/play/pause parity, failure locations, retry preserves plan and reload editing only",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 5022,
+          "evidence": {
+            "stepClearBeat": 5,
+            "reloadBeat": 0,
+            "failureBeat": 2
+          }
+        },
+        {
+          "name": "mock pause halts all games; delivery resumes with fresh delay; pressure survives game navigation",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 7909,
+          "evidence": {
+            "pausedDeliveryTicks": [
+              2
+            ]
+          }
+        },
+        {
+          "name": "injected parent and iframe visibility pause: no hidden ticks or catch-up",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 4519,
+          "evidence": {
+            "injectionOnly": true,
+            "hiddenDurationMsPerSurface": 1050,
+            "postResumeNoAdvanceMs": 180
+          }
+        },
+        {
+          "name": "load timeout retry and runtime error during mock recover cleanly",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 8970,
+          "evidence": {
+            "intentionalAbortedAsset": "prototype-assets/game.js",
+            "timeoutObserved": true
+          }
+        },
+        {
+          "name": "all games JA/EN progress and guide separation; old save completion retained",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 1346,
+          "evidence": {
+            "oldSaves": 3,
+            "sharedOriginLocales": true,
+            "guideKeys": [
+              "wgs:guide:light-garden",
+              "wgs:guide:tiny-delivery",
+              "wgs:guide:two-ways-home"
+            ]
+          }
+        },
+        {
+          "name": "malformed/future/invalid-level saves preserved; reset cancel and confirm scoped to one game",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 2098,
+          "evidence": {
+            "invalidCases": 9
+          }
+        },
+        {
+          "name": "storage write-denied: honest status and usable game",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 306,
+          "evidence": null
+        },
+        {
+          "name": "storage silent-write: honest status and usable game",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 320,
+          "evidence": null
+        },
+        {
+          "name": "storage read-denied: honest status and usable game",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 301,
+          "evidence": null
+        },
+        {
+          "name": "storage guide-corrupt: honest status and usable game",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 404,
+          "evidence": null
+        },
+        {
+          "name": "untouched Connection Lab: pointer, save, locale reload, error retry, prototype isolation",
+          "status": "PASS",
+          "attempt": 1,
+          "durationMs": 675,
+          "evidence": {
+            "fixtureProtocol": "wgs-fixture-v1",
+            "prototypeSaveUnchanged": true
+          }
+        },
+        {
+          "name": "unexpected JavaScript errors and external requests",
+          "status": "PASS",
+          "errors": [],
+          "external": []
+        }
+      ]
+    }
+  ]
+}

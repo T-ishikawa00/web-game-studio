@@ -1,0 +1,433 @@
+{
+  "browser": "Edge Chromium",
+  "results": [
+    {
+      "name": "light-garden: all 5 stages solved through real UI, next and retry",
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home: all 5 stages solved through real UI, next and retry",
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery: all 5 stages solved through real UI, next and retry",
+      "status": "PASS"
+    },
+    {
+      "name": "light: gate latch, undo, clear remains recorded, stable resume and keyboard",
+      "status": "PASS"
+    },
+    {
+      "name": "home: keyboard/pointer equivalent, repeat suppressed, paired undo, outside keys untouched",
+      "status": "PASS"
+    },
+    {
+      "name": "delivery: intermediate ticks, editing lock, pause/step/play parity, reset keeps plan",
+      "status": "PASS"
+    },
+    {
+      "name": "save separation and JA/EN persistence for all three games",
+      "status": "PASS"
+    },
+    {
+      "name": "malformed, unknown version and invalid level preserved; explicit reset recovers",
+      "status": "PASS"
+    },
+    {
+      "name": "storage write denial displayed, gameplay continues without crashing",
+      "status": "PASS"
+    },
+    {
+      "name": "bridge rejects stale generation, wrong game/protocol/schema/source/origin in actual browser",
+      "status": "PASS"
+    },
+    {
+      "name": "mock pause halts three games; delivery resumes without catch-up; portal pressure shared",
+      "status": "PASS"
+    },
+    {
+      "name": "simulated visibility pause stops ticks and resumes with fresh delay",
+      "status": "PASS"
+    },
+    {
+      "name": "loading timeout and retry; runtime error during mock closes modal and recovers",
+      "status": "PASS"
+    },
+    {
+      "name": "JA/EN responsive layout at 320/390/768/1440 incl largest boards, navigation and screenshots",
+      "status": "PASS"
+    },
+    {
+      "name": "touch input and resize retain stable board",
+      "status": "PASS"
+    },
+    {
+      "name": "console and external network",
+      "status": "PASS"
+    }
+  ],
+  "layouts": [
+    {
+      "id": "light-garden",
+      "locale": "ja",
+      "width": 320,
+      "outer": {
+        "scroll": 320,
+        "width": 320
+      },
+      "inner": {
+        "scroll": 290,
+        "width": 290,
+        "height": 668,
+        "viewHeight": 668
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "locale": "ja",
+      "width": 320,
+      "outer": {
+        "scroll": 320,
+        "width": 320
+      },
+      "inner": {
+        "scroll": 290,
+        "width": 290,
+        "height": 937,
+        "viewHeight": 937
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "locale": "ja",
+      "width": 320,
+      "outer": {
+        "scroll": 320,
+        "width": 320
+      },
+      "inner": {
+        "scroll": 290,
+        "width": 290,
+        "height": 801,
+        "viewHeight": 801
+      }
+    },
+    {
+      "id": "light-garden",
+      "locale": "en",
+      "width": 320,
+      "outer": {
+        "scroll": 320,
+        "width": 320
+      },
+      "inner": {
+        "scroll": 290,
+        "width": 290,
+        "height": 683,
+        "viewHeight": 683
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "locale": "en",
+      "width": 320,
+      "outer": {
+        "scroll": 320,
+        "width": 320
+      },
+      "inner": {
+        "scroll": 290,
+        "width": 290,
+        "height": 952,
+        "viewHeight": 952
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "locale": "en",
+      "width": 320,
+      "outer": {
+        "scroll": 320,
+        "width": 320
+      },
+      "inner": {
+        "scroll": 290,
+        "width": 290,
+        "height": 832,
+        "viewHeight": 832
+      }
+    },
+    {
+      "id": "light-garden",
+      "locale": "ja",
+      "width": 390,
+      "outer": {
+        "scroll": 390,
+        "width": 390
+      },
+      "inner": {
+        "scroll": 360,
+        "width": 360,
+        "height": 712,
+        "viewHeight": 712
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "locale": "ja",
+      "width": 390,
+      "outer": {
+        "scroll": 390,
+        "width": 390
+      },
+      "inner": {
+        "scroll": 360,
+        "width": 360,
+        "height": 937,
+        "viewHeight": 937
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "locale": "ja",
+      "width": 390,
+      "outer": {
+        "scroll": 390,
+        "width": 390
+      },
+      "inner": {
+        "scroll": 360,
+        "width": 360,
+        "height": 845,
+        "viewHeight": 845
+      }
+    },
+    {
+      "id": "light-garden",
+      "locale": "en",
+      "width": 390,
+      "outer": {
+        "scroll": 390,
+        "width": 390
+      },
+      "inner": {
+        "scroll": 360,
+        "width": 360,
+        "height": 710,
+        "viewHeight": 710
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "locale": "en",
+      "width": 390,
+      "outer": {
+        "scroll": 390,
+        "width": 390
+      },
+      "inner": {
+        "scroll": 360,
+        "width": 360,
+        "height": 935,
+        "viewHeight": 935
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "locale": "en",
+      "width": 390,
+      "outer": {
+        "scroll": 390,
+        "width": 390
+      },
+      "inner": {
+        "scroll": 360,
+        "width": 360,
+        "height": 842,
+        "viewHeight": 842
+      }
+    },
+    {
+      "id": "light-garden",
+      "locale": "ja",
+      "width": 768,
+      "outer": {
+        "scroll": 768,
+        "width": 768
+      },
+      "inner": {
+        "scroll": 726,
+        "width": 726,
+        "height": 757,
+        "viewHeight": 757
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "locale": "ja",
+      "width": 768,
+      "outer": {
+        "scroll": 768,
+        "width": 768
+      },
+      "inner": {
+        "scroll": 726,
+        "width": 726,
+        "height": 841,
+        "viewHeight": 841
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "locale": "ja",
+      "width": 768,
+      "outer": {
+        "scroll": 768,
+        "width": 768
+      },
+      "inner": {
+        "scroll": 726,
+        "width": 726,
+        "height": 890,
+        "viewHeight": 890
+      }
+    },
+    {
+      "id": "light-garden",
+      "locale": "en",
+      "width": 768,
+      "outer": {
+        "scroll": 768,
+        "width": 768
+      },
+      "inner": {
+        "scroll": 726,
+        "width": 726,
+        "height": 757,
+        "viewHeight": 757
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "locale": "en",
+      "width": 768,
+      "outer": {
+        "scroll": 768,
+        "width": 768
+      },
+      "inner": {
+        "scroll": 726,
+        "width": 726,
+        "height": 841,
+        "viewHeight": 841
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "locale": "en",
+      "width": 768,
+      "outer": {
+        "scroll": 768,
+        "width": 768
+      },
+      "inner": {
+        "scroll": 726,
+        "width": 726,
+        "height": 889,
+        "viewHeight": 889
+      }
+    },
+    {
+      "id": "light-garden",
+      "locale": "ja",
+      "width": 1440,
+      "outer": {
+        "scroll": 1440,
+        "width": 1440
+      },
+      "inner": {
+        "scroll": 1374,
+        "width": 1374,
+        "height": 757,
+        "viewHeight": 757
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "locale": "ja",
+      "width": 1440,
+      "outer": {
+        "scroll": 1440,
+        "width": 1440
+      },
+      "inner": {
+        "scroll": 1374,
+        "width": 1374,
+        "height": 841,
+        "viewHeight": 841
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "locale": "ja",
+      "width": 1440,
+      "outer": {
+        "scroll": 1440,
+        "width": 1440
+      },
+      "inner": {
+        "scroll": 1374,
+        "width": 1374,
+        "height": 890,
+        "viewHeight": 890
+      }
+    },
+    {
+      "id": "light-garden",
+      "locale": "en",
+      "width": 1440,
+      "outer": {
+        "scroll": 1440,
+        "width": 1440
+      },
+      "inner": {
+        "scroll": 1374,
+        "width": 1374,
+        "height": 757,
+        "viewHeight": 757
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "locale": "en",
+      "width": 1440,
+      "outer": {
+        "scroll": 1440,
+        "width": 1440
+      },
+      "inner": {
+        "scroll": 1374,
+        "width": 1374,
+        "height": 841,
+        "viewHeight": 841
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "locale": "en",
+      "width": 1440,
+      "outer": {
+        "scroll": 1440,
+        "width": 1440
+      },
+      "inner": {
+        "scroll": 1374,
+        "width": 1374,
+        "height": 889,
+        "viewHeight": 889
+      }
+    }
+  ],
+  "errors": [],
+  "external": []
+}

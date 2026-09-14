@@ -1,0 +1,1199 @@
+[
+  {
+    "id": "light-garden",
+    "mode": "auto",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 770.9375
+    },
+    "state": {
+      "progress": {
+        "levelId": "L01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false
+          ],
+          "gate": false
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999909,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "light-garden",
+    "mode": "auto",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 770.9375
+    },
+    "state": {
+      "progress": {
+        "levelId": "L18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            false,
+            false
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999909,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "light-garden",
+    "mode": "portrait",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "L01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false
+          ],
+          "gate": false
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.500000000000028,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "light-garden",
+    "mode": "portrait",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "L18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            false,
+            false
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "light-garden",
+    "mode": "landscape",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "L01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false
+          ],
+          "gate": false
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "light-garden",
+    "mode": "landscape",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "L18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "mirrors": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            false,
+            false
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999909,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "auto",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 643.34375
+    },
+    "state": {
+      "progress": {
+        "levelId": "T01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            12,
+            12
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.5,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "auto",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 643.34375
+    },
+    "state": {
+      "progress": {
+        "levelId": "T18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            10,
+            6
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "portrait",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "T01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            12,
+            12
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.5,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "portrait",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "T18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            10,
+            6
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "landscape",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "T01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            12,
+            12
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.5,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "landscape",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "T18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "positions": [
+            10,
+            6
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999909,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "auto",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 795.78125
+    },
+    "state": {
+      "progress": {
+        "levelId": "D01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            0
+          ],
+          "wait": 0
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "auto",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 184,
+      "y": 237.453125,
+      "width": 1072,
+      "height": 849.78125
+    },
+    "state": {
+      "progress": {
+        "levelId": "D18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            0
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "auto",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "portrait",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "D01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            0
+          ],
+          "wait": 0
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "portrait",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 504,
+      "y": 229.453125,
+      "width": 432,
+      "height": 768
+    },
+    "state": {
+      "progress": {
+        "levelId": "D18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            0
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "portrait",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "landscape",
+    "level": 1,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "D01",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            0
+          ],
+          "wait": 0
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "landscape",
+    "level": 18,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "box": {
+      "x": 240,
+      "y": 229.453125,
+      "width": 960,
+      "height": 540
+    },
+    "state": {
+      "progress": {
+        "levelId": "D18",
+        "levelVersion": 1,
+        "cleared": [],
+        "settings": {
+          "reducedMotion": false
+        },
+        "board": {
+          "arrows": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "wait": 0,
+          "waits": [
+            0,
+            0
+          ]
+        }
+      },
+      "history": [],
+      "localPaused": false,
+      "outerPaused": false,
+      "guideOpen": false,
+      "guideDetailed": false,
+      "acted": false,
+      "hint": 0,
+      "menuOpen": false,
+      "notice": "",
+      "won": false,
+      "blocked": [
+        false,
+        false
+      ],
+      "layout": "landscape",
+      "dpad": false
+    },
+    "perf": {
+      "resources": [
+        {
+          "name": "/prototype-assets/game.css",
+          "bytes": 40977
+        },
+        {
+          "name": "/prototype-assets/game.js",
+          "bytes": 116022
+        }
+      ],
+      "images": 0,
+      "rafMedianMs": 5.599999999999966,
+      "dpr": 1
+    },
+    "errors": [],
+    "external": []
+  }
+]

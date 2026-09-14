@@ -1,0 +1,814 @@
+{
+  "results": [
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 320,
+      "status": "PASS",
+      "initial": {
+        "w": 320,
+        "h": 707.25
+      },
+      "final": {
+        "w": 320,
+        "h": 707.25
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 360,
+      "status": "PASS",
+      "initial": {
+        "w": 330,
+        "h": 717.25
+      },
+      "final": {
+        "w": 330,
+        "h": 717.25
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 747.25
+      },
+      "final": {
+        "w": 360,
+        "h": 747.25
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 768,
+      "status": "PASS",
+      "initial": {
+        "w": 678,
+        "h": 860.53125
+      },
+      "final": {
+        "w": 678,
+        "h": 860.53125
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 1280,
+      "status": "PASS",
+      "initial": {
+        "w": 1072,
+        "h": 862.53125
+      },
+      "final": {
+        "w": 1072,
+        "h": 862.53125
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "portrait",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 640
+      },
+      "final": {
+        "w": 360,
+        "h": 640
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "portrait",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 432,
+        "h": 768
+      },
+      "final": {
+        "w": 432,
+        "h": 768
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "landscape",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "ja",
+      "mode": "landscape",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "auto",
+      "width": 320,
+      "status": "PASS",
+      "initial": {
+        "w": 320,
+        "h": 723.25
+      },
+      "final": {
+        "w": 320,
+        "h": 723.25
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "auto",
+      "width": 360,
+      "status": "PASS",
+      "initial": {
+        "w": 330,
+        "h": 733.25
+      },
+      "final": {
+        "w": 330,
+        "h": 733.25
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "auto",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 772.25
+      },
+      "final": {
+        "w": 360,
+        "h": 772.25
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "auto",
+      "width": 768,
+      "status": "PASS",
+      "initial": {
+        "w": 678,
+        "h": 860.53125
+      },
+      "final": {
+        "w": 678,
+        "h": 860.53125
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "auto",
+      "width": 1280,
+      "status": "PASS",
+      "initial": {
+        "w": 1072,
+        "h": 862.53125
+      },
+      "final": {
+        "w": 1072,
+        "h": 862.53125
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "portrait",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 640
+      },
+      "final": {
+        "w": 360,
+        "h": 640
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "portrait",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 432,
+        "h": 768
+      },
+      "final": {
+        "w": 432,
+        "h": 768
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "landscape",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "light-garden",
+      "lang": "en",
+      "mode": "landscape",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 320,
+      "status": "PASS",
+      "initial": {
+        "w": 320,
+        "h": 706.84375
+      },
+      "final": {
+        "w": 320,
+        "h": 706.84375
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 360,
+      "status": "PASS",
+      "initial": {
+        "w": 330,
+        "h": 711.84375
+      },
+      "final": {
+        "w": 330,
+        "h": 711.84375
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 340,
+        "h": 716.84375
+      },
+      "final": {
+        "w": 340,
+        "h": 716.84375
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 768,
+      "status": "PASS",
+      "initial": {
+        "w": 678,
+        "h": 868.28125
+      },
+      "final": {
+        "w": 678,
+        "h": 868.28125
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 1280,
+      "status": "PASS",
+      "initial": {
+        "w": 1072,
+        "h": 867.078125
+      },
+      "final": {
+        "w": 1072,
+        "h": 867.078125
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "portrait",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 640
+      },
+      "final": {
+        "w": 360,
+        "h": 640
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "portrait",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 432,
+        "h": 768
+      },
+      "final": {
+        "w": 432,
+        "h": 768
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "landscape",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "ja",
+      "mode": "landscape",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "auto",
+      "width": 320,
+      "status": "PASS",
+      "initial": {
+        "w": 320,
+        "h": 706.84375
+      },
+      "final": {
+        "w": 320,
+        "h": 706.84375
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "auto",
+      "width": 360,
+      "status": "PASS",
+      "initial": {
+        "w": 330,
+        "h": 711.84375
+      },
+      "final": {
+        "w": 330,
+        "h": 711.84375
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "auto",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 340,
+        "h": 716.84375
+      },
+      "final": {
+        "w": 340,
+        "h": 716.84375
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "auto",
+      "width": 768,
+      "status": "PASS",
+      "initial": {
+        "w": 678,
+        "h": 868.28125
+      },
+      "final": {
+        "w": 678,
+        "h": 868.28125
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "auto",
+      "width": 1280,
+      "status": "PASS",
+      "initial": {
+        "w": 1072,
+        "h": 867.078125
+      },
+      "final": {
+        "w": 1072,
+        "h": 867.078125
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "portrait",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 640
+      },
+      "final": {
+        "w": 360,
+        "h": 640
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "portrait",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 432,
+        "h": 768
+      },
+      "final": {
+        "w": 432,
+        "h": 768
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "landscape",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "lang": "en",
+      "mode": "landscape",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 320,
+      "status": "PASS",
+      "initial": {
+        "w": 320,
+        "h": 801.1875
+      },
+      "final": {
+        "w": 320,
+        "h": 801.1875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 360,
+      "status": "PASS",
+      "initial": {
+        "w": 330,
+        "h": 811.1875
+      },
+      "final": {
+        "w": 330,
+        "h": 811.1875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 841.1875
+      },
+      "final": {
+        "w": 360,
+        "h": 841.1875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 768,
+      "status": "PASS",
+      "initial": {
+        "w": 678,
+        "h": 972.46875
+      },
+      "final": {
+        "w": 678,
+        "h": 972.46875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "auto",
+      "width": 1280,
+      "status": "PASS",
+      "initial": {
+        "w": 1072,
+        "h": 975.96875
+      },
+      "final": {
+        "w": 1072,
+        "h": 975.96875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "portrait",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 640
+      },
+      "final": {
+        "w": 360,
+        "h": 640
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "portrait",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 432,
+        "h": 768
+      },
+      "final": {
+        "w": 432,
+        "h": 768
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "landscape",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "ja",
+      "mode": "landscape",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "auto",
+      "width": 320,
+      "status": "PASS",
+      "initial": {
+        "w": 320,
+        "h": 866.1875
+      },
+      "final": {
+        "w": 320,
+        "h": 866.1875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "auto",
+      "width": 360,
+      "status": "PASS",
+      "initial": {
+        "w": 330,
+        "h": 827.1875
+      },
+      "final": {
+        "w": 330,
+        "h": 827.1875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "auto",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 841.1875
+      },
+      "final": {
+        "w": 360,
+        "h": 841.1875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "auto",
+      "width": 768,
+      "status": "PASS",
+      "initial": {
+        "w": 678,
+        "h": 972.46875
+      },
+      "final": {
+        "w": 678,
+        "h": 972.46875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "auto",
+      "width": 1280,
+      "status": "PASS",
+      "initial": {
+        "w": 1072,
+        "h": 975.96875
+      },
+      "final": {
+        "w": 1072,
+        "h": 975.96875
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "portrait",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 360,
+        "h": 640
+      },
+      "final": {
+        "w": 360,
+        "h": 640
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "portrait",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 432,
+        "h": 768
+      },
+      "final": {
+        "w": 432,
+        "h": 768
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "landscape",
+      "width": 390,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "id": "tiny-delivery",
+      "lang": "en",
+      "mode": "landscape",
+      "width": 1440,
+      "status": "PASS",
+      "initial": {
+        "w": 960,
+        "h": 540
+      },
+      "final": {
+        "w": 960,
+        "h": 540
+      }
+    }
+  ]
+}

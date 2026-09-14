@@ -1,0 +1,52 @@
+{
+  "at": "2026-09-14T22:14:19.999Z",
+  "command": "git diff --cached --check",
+  "rawExit": 2,
+  "rawStatus": "FINDINGS_PRESERVED",
+  "files": [
+    "docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md",
+    "docs/games/GAME_CONTROL_UI_AND_CAPTURE_R3.md",
+    "docs/games/GAME_DIRECT_MANIPULATION_R4.md",
+    "docs/games/GAME_VISUAL_LANGUAGE_R5.md",
+    "docs/games/light-garden/SPEC.md",
+    "docs/games/tiny-delivery/SPEC.md",
+    "docs/games/two-ways-home/SPEC.md"
+  ],
+  "newImplementationFindings": 0,
+  "classification": [
+    {
+      "file": "docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md",
+      "classification": "UNCHANGED_R4_INPUT"
+    },
+    {
+      "file": "docs/games/GAME_CONTROL_UI_AND_CAPTURE_R3.md",
+      "classification": "UNCHANGED_R4_INPUT"
+    },
+    {
+      "file": "docs/games/GAME_DIRECT_MANIPULATION_R4.md",
+      "classification": "UNCHANGED_R4_INPUT"
+    },
+    {
+      "file": "docs/games/GAME_VISUAL_LANGUAGE_R5.md",
+      "classification": "BYTE_EXACT_HUMAN_ATTACHMENT"
+    },
+    {
+      "file": "docs/games/light-garden/SPEC.md",
+      "classification": "UNCHANGED_R4_INPUT"
+    },
+    {
+      "file": "docs/games/tiny-delivery/SPEC.md",
+      "classification": "UNCHANGED_R4_INPUT"
+    },
+    {
+      "file": "docs/games/two-ways-home/SPEC.md",
+      "classification": "UNCHANGED_R4_INPUT"
+    }
+  ],
+  "stagedFiles": 978,
+  "added": 971,
+  "modified": 7,
+  "deletions": 0,
+  "unstaged": "",
+  "notes": "The seven untouched original Markdown source files retain original whitespace; raw staged diff is not labeled PASS."
+}

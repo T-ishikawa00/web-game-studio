@@ -1,0 +1,50 @@
+[
+  {
+    "id": "light-garden",
+    "colors": {
+      "background": "rgb(228, 244, 255)",
+      "ink": "rgb(23, 37, 51)",
+      "floor": "rgb(249, 252, 255)",
+      "wall": "rgb(51, 90, 111)",
+      "actor": "rgb(78, 188, 245)"
+    },
+    "ratios": {
+      "textOnScene": 13.850985572374377,
+      "wallFloor": 7.200066666880257,
+      "actorOutline": 7.291881488863487
+    },
+    "method": "Computed rendered opaque colors; antialiasing/small marks assessed visually. Chromium vision simulation is supplementary, not certification."
+  },
+  {
+    "id": "two-ways-home",
+    "colors": {
+      "background": "rgb(232, 238, 251)",
+      "ink": "rgb(37, 49, 69)",
+      "floor": "rgb(255, 255, 255)",
+      "wall": "rgb(70, 86, 117)",
+      "actor": "rgb(255, 150, 63)"
+    },
+    "ratios": {
+      "textOnScene": 11.256145403111717,
+      "wallFloor": 7.3725483867326425,
+      "actorOutline": 6.039142323093398
+    },
+    "method": "Computed rendered opaque colors; antialiasing/small marks assessed visually. Chromium vision simulation is supplementary, not certification."
+  },
+  {
+    "id": "tiny-delivery",
+    "colors": {
+      "background": "rgb(232, 243, 248)",
+      "ink": "rgb(23, 37, 51)",
+      "floor": "rgb(248, 252, 255)",
+      "wall": "rgb(58, 77, 102)",
+      "actor": "rgb(249, 181, 61)"
+    },
+    "ratios": {
+      "textOnScene": 13.79448647694559,
+      "wallFloor": 8.366941456886586,
+      "actorOutline": 8.677596595332915
+    },
+    "method": "Computed rendered opaque colors; antialiasing/small marks assessed visually. Chromium vision simulation is supplementary, not certification."
+  }
+]

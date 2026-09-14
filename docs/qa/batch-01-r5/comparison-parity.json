@@ -1,0 +1,164 @@
+[
+  {
+    "id": "light-garden",
+    "mode": "auto",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": null
+  },
+  {
+    "id": "light-garden",
+    "mode": "auto",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": null
+  },
+  {
+    "id": "light-garden",
+    "mode": "portrait",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "light-garden",
+    "mode": "portrait",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "light-garden",
+    "mode": "landscape",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "light-garden",
+    "mode": "landscape",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "auto",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": null
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "auto",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": null
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "portrait",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "portrait",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "landscape",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "two-ways-home",
+    "mode": "landscape",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "auto",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": null
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "auto",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": null
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "portrait",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "portrait",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "landscape",
+    "level": 1,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  },
+  {
+    "id": "tiny-delivery",
+    "mode": "landscape",
+    "level": 18,
+    "sameBoard": true,
+    "sameViewport": true,
+    "sameDpr": true,
+    "sameCapture": true
+  }
+]

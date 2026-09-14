@@ -1,0 +1,1503 @@
+[
+  {
+    "key": "L01@1",
+    "gameId": "light-garden",
+    "id": "L01",
+    "version": 1,
+    "solution": [
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          2
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "L02@1",
+    "gameId": "light-garden",
+    "id": "L02",
+    "version": 1,
+    "solution": [
+      0,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          9
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "L03@1",
+    "gameId": "light-garden",
+    "id": "L03",
+    "version": 1,
+    "solution": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "gate": false
+        },
+        "lit": [
+          22
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "gate": false
+        },
+        "lit": [
+          22,
+          27
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "L04@1",
+    "gameId": "light-garden",
+    "id": "L04",
+    "version": 1,
+    "solution": [
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            true
+          ],
+          "gate": true
+        },
+        "lit": [
+          2
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "L05@1",
+    "gameId": "light-garden",
+    "id": "L05",
+    "version": 1,
+    "solution": [
+      0,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "mirrors": [
+            false
+          ],
+          "gate": true
+        },
+        "lit": [],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "mirrors": [
+            true
+          ],
+          "gate": true
+        },
+        "lit": [
+          2
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "T01@1",
+    "gameId": "two-ways-home",
+    "id": "T01",
+    "version": 1,
+    "solution": [
+      1,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            13,
+            13
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            14,
+            14
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "T02@1",
+    "gameId": "two-ways-home",
+    "id": "T02",
+    "version": 1,
+    "solution": [
+      3,
+      1,
+      0,
+      0,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            12,
+            12
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            13,
+            13
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            9,
+            9
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            5,
+            5
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            6,
+            6
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "T03@1",
+    "gameId": "two-ways-home",
+    "id": "T03",
+    "version": 1,
+    "solution": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            13,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            14,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            14,
+            11
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            15,
+            11
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            11,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            7,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            7,
+            2
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            7,
+            1
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            7,
+            0
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            3,
+            0
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "T04@1",
+    "gameId": "two-ways-home",
+    "id": "T04",
+    "version": 1,
+    "solution": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      3,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            13,
+            15
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            9,
+            11
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            9,
+            7
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            9,
+            3
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            13,
+            7
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            12,
+            6
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            12,
+            2
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            12,
+            1
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            13,
+            2
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "T05@1",
+    "gameId": "two-ways-home",
+    "id": "T05",
+    "version": 1,
+    "solution": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      3,
+      3,
+      0,
+      3,
+      2,
+      2,
+      2,
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            8,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            9,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            10,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 4,
+        "state": {
+          "positions": [
+            11,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 5,
+        "state": {
+          "positions": [
+            7,
+            3
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 6,
+        "state": {
+          "positions": [
+            7,
+            2
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 7,
+        "state": {
+          "positions": [
+            7,
+            1
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 8,
+        "state": {
+          "positions": [
+            3,
+            1
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 9,
+        "state": {
+          "positions": [
+            2,
+            0
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 10,
+        "state": {
+          "positions": [
+            2,
+            4
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 11,
+        "state": {
+          "positions": [
+            2,
+            8
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 12,
+        "state": {
+          "positions": [
+            2,
+            12
+          ]
+        },
+        "blocked": [
+          true,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 13,
+        "state": {
+          "positions": [
+            3,
+            13
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "key": "D01@1",
+    "gameId": "tiny-delivery",
+    "id": "D01",
+    "version": 1,
+    "solution": {
+      "arrows": [
+        0,
+        1
+      ],
+      "wait": 0,
+      "ticks": 6
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 11,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 12,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 7,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 2,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 3,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 4,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ]
+  },
+  {
+    "key": "D02@1",
+    "gameId": "tiny-delivery",
+    "id": "D02",
+    "version": 1,
+    "solution": {
+      "arrows": [
+        0,
+        1,
+        2
+      ],
+      "wait": 0,
+      "ticks": 10
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 21,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 17,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 12,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 7,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 8,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 9,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 9,
+        "bots": [
+          {
+            "id": "A",
+            "p": 19,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 10,
+        "bots": [
+          {
+            "id": "A",
+            "p": 24,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ]
+  },
+  {
+    "key": "D03@1",
+    "gameId": "tiny-delivery",
+    "id": "D03",
+    "version": 1,
+    "solution": {
+      "arrows": [
+        1,
+        2
+      ],
+      "wait": 1,
+      "ticks": 5
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 11,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 7,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 11,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 12,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 12,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 17,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 22,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ]
+  },
+  {
+    "key": "D04@1",
+    "gameId": "tiny-delivery",
+    "id": "D04",
+    "version": 1,
+    "solution": {
+      "arrows": [
+        1,
+        0
+      ],
+      "wait": 1,
+      "ticks": 6
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 19,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 19,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 20,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 21,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 27,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 22,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 21,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 23,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 15,
+            "d": 0,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ]
+  },
+  {
+    "key": "D05@1",
+    "gameId": "tiny-delivery",
+    "id": "D05",
+    "version": 1,
+    "solution": {
+      "arrows": [
+        0,
+        1
+      ],
+      "wait": 1,
+      "ticks": 8
+    },
+    "intermediate": [
+      {
+        "after": 1,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 1,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 8,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 2,
+        "bots": [
+          {
+            "id": "A",
+            "p": 13,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 14,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 3,
+        "bots": [
+          {
+            "id": "A",
+            "p": 14,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 20,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 4,
+        "bots": [
+          {
+            "id": "A",
+            "p": 15,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 26,
+            "d": 2,
+            "remaining": 0,
+            "delivered": false
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 5,
+        "bots": [
+          {
+            "id": "A",
+            "p": 9,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 6,
+        "bots": [
+          {
+            "id": "A",
+            "p": 3,
+            "d": 0,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 7,
+        "bots": [
+          {
+            "id": "A",
+            "p": 4,
+            "d": 1,
+            "remaining": 0,
+            "delivered": false
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "running"
+      },
+      {
+        "after": 8,
+        "bots": [
+          {
+            "id": "A",
+            "p": 5,
+            "d": 1,
+            "remaining": 0,
+            "delivered": true
+          },
+          {
+            "id": "B",
+            "p": 32,
+            "d": 2,
+            "remaining": 0,
+            "delivered": true
+          }
+        ],
+        "status": "won"
+      }
+    ]
+  }
+]

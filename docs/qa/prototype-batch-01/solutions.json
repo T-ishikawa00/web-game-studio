@@ -1,0 +1,239 @@
+[
+  {
+    "id": "L01",
+    "solution": [
+      0
+    ],
+    "states": 2
+  },
+  {
+    "id": "L02",
+    "solution": [
+      0,
+      1
+    ],
+    "states": 4
+  },
+  {
+    "id": "L03",
+    "solution": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "states": 16
+  },
+  {
+    "id": "L04",
+    "solution": [
+      0
+    ],
+    "states": 2
+  },
+  {
+    "id": "L05",
+    "solution": [
+      0,
+      0
+    ],
+    "states": 3
+  },
+  {
+    "id": "T01",
+    "solution": [
+      1,
+      1
+    ],
+    "states": 6
+  },
+  {
+    "id": "T02",
+    "solution": [
+      3,
+      1,
+      0,
+      0,
+      1
+    ],
+    "states": 38
+  },
+  {
+    "id": "T03",
+    "solution": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      0
+    ],
+    "states": 144
+  },
+  {
+    "id": "T04",
+    "solution": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      3,
+      1
+    ],
+    "states": 48
+  },
+  {
+    "id": "T05",
+    "solution": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      3,
+      3,
+      0,
+      3,
+      2,
+      2,
+      2,
+      1
+    ],
+    "states": 189
+  },
+  {
+    "id": "D01",
+    "solution": {
+      "arrows": [
+        0,
+        1
+      ],
+      "wait": 0,
+      "ticks": 6
+    },
+    "count": 1,
+    "answers": [
+      {
+        "arrows": [
+          0,
+          1
+        ],
+        "wait": 0,
+        "ticks": 6
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "solution": {
+      "arrows": [
+        0,
+        1,
+        2
+      ],
+      "wait": 0,
+      "ticks": 10
+    },
+    "count": 1,
+    "answers": [
+      {
+        "arrows": [
+          0,
+          1,
+          2
+        ],
+        "wait": 0,
+        "ticks": 10
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "solution": {
+      "arrows": [
+        1,
+        2
+      ],
+      "wait": 1,
+      "ticks": 5
+    },
+    "count": 2,
+    "answers": [
+      {
+        "arrows": [
+          1,
+          2
+        ],
+        "wait": 1,
+        "ticks": 5
+      },
+      {
+        "arrows": [
+          1,
+          2
+        ],
+        "wait": 2,
+        "ticks": 6
+      }
+    ]
+  },
+  {
+    "id": "D04",
+    "solution": {
+      "arrows": [
+        1,
+        0
+      ],
+      "wait": 1,
+      "ticks": 6
+    },
+    "count": 1,
+    "answers": [
+      {
+        "arrows": [
+          1,
+          0
+        ],
+        "wait": 1,
+        "ticks": 6
+      }
+    ]
+  },
+  {
+    "id": "D05",
+    "solution": {
+      "arrows": [
+        0,
+        1
+      ],
+      "wait": 1,
+      "ticks": 8
+    },
+    "count": 2,
+    "answers": [
+      {
+        "arrows": [
+          0,
+          1
+        ],
+        "wait": 1,
+        "ticks": 8
+      },
+      {
+        "arrows": [
+          0,
+          1
+        ],
+        "wait": 2,
+        "ticks": 9
+      }
+    ]
+  }
+]

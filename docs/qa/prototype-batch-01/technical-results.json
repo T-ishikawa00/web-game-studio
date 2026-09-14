@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-13T00:31:16.875Z",
+  "results": [
+    {
+      "name": "typecheck",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "09:30:57 [types] Generated 51ms\n09:30:57 [check] Getting diagnostics for Astro files in C:\\projects\\Web Game Studio...\nResult (47 files): \n- 0 errors\n- 0 warnings\n- 0 hints\n\n",
+      "stderr": ""
+    },
+    {
+      "name": "unit",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "✔ save persists across instances and reset affects only its game (0.9699ms)\n✔ malformed, foreign and future saves stay intact until an explicit reset (0.1675ms)\n✔ legacy schema migrates and can be reopened (0.1007ms)\n✔ storage getter denial, quota error and silent write loss never report saved (0.1292ms)\n✔ reset failure preserves data and migration failure is not success (0.1998ms)\n✔ ad pressure survives a new game adapter and a full-page equivalent reconstruction (0.1829ms)\n✔ disabled, blocked or corrupt ad storage skips without interrupting play (0.1008ms)\n✔ event buffer is bounded and snapshot cannot mutate the stored record (0.1376ms)\n✔ registry has one internal fixture, no released titles, unique identities and local versioned assets (0.1711ms)\n✔ related resolver excludes missing, self, draft and internal; admits a released own title (0.1788ms)\n✔ catalog adapter keeps real identity and searches both languages without creating releases (0.5094ms)\n✔ related games are distinct released games, with at most four entries (0.4714ms)\n✔ L01: valid level, initial unsolved, authored answer clears actual rules (1.3417ms)\n✔ L02: valid level, initial unsolved, authored answer clears actual rules (0.1545ms)\n✔ L03: valid level, initial unsolved, authored answer clears actual rules (0.1131ms)\n✔ L04: valid level, initial unsolved, authored answer clears actual rules (0.0808ms)\n✔ L05: valid level, initial unsolved, authored answer clears actual rules (0.0934ms)\n✔ T01: valid level, initial unsolved, authored answer clears actual rules (0.2201ms)\n✔ T02: valid level, initial unsolved, authored answer clears actual rules (0.1838ms)\n✔ T03: valid level, initial unsolved, authored answer clears actual rules (0.5247ms)\n✔ T04: valid level, initial unsolved, authored answer clears actual rules (0.1797ms)\n✔ T05: valid level, initial unsolved, authored answer clears actual rules (0.4679ms)\n✔ D01: valid level, initial unsolved, authored answer clears actual rules (0.4181ms)\n✔ D02: valid level, initial unsolved, authored answer clears actual rules (0.1237ms)\n✔ D03: valid level, initial unsolved, authored answer clears actual rules (5.4513ms)\n✔ D04: valid level, initial unsolved, authored answer clears actual rules (0.1483ms)\n✔ D05: valid level, initial unsolved, authored answer clears actual rules (0.116ms)\n✔ light: all eight reflections, pass-through sensors, wall and border stops (0.1139ms)\n✔ light: loop terminates by position + direction (0.057ms)\n✔ L04/L05: stable gate reopening, temporal solution, undo snapshot and retry (0.078ms)\n✔ home: both move, one stops, both stop, no-op and simultaneous goal only (0.0547ms)\n✔ T04: forced first step reaches one home, then leaves it before joint completion (0.0528ms)\n✔ delivery: collisions include same cell, stationary occupant, head-on swaps; follow allowed (0.0943ms)\n✔ delivery: collision before removal; own/wrong depot; board and wall failures (0.0665ms)\n✔ delivery: wait 0/1/2 arrival timing, reentry, loop and cap never succeed (0.129ms)\n✔ D03 independent intermediate ticks and deterministic reversed robot order (0.0989ms)\n✔ D04: waiting zero or two fails; one succeeds after second crossing (0.3443ms)\n✔ prototype saves: namespaces, roundtrip, malformed/future data preserved until explicit reset (0.3168ms)\n✔ prototype state validators reject wrong game board, invalid level version/range/settings (0.1026ms)\n✔ save denied, silent write loss and reset failure never claim success (0.0882ms)\n✔ bridge requires source, origin, protocol, game, generation and strict checkpoint schema (0.1686ms)\nℹ tests 41\nℹ suites 0\nℹ pass 41\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 188.8687\n",
+      "stderr": ""
+    },
+    {
+      "name": "routes-and-output",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "✔ normal and design outputs contain no prototype routes, code, artwork or solutions (26.288ms)\n✔ prototype output contains 8 localized routes, runtime and art; no answer dataset or design sample assets (53.8579ms)\n✔ production HTML: 16 locale routes, metadata and every local link/asset resolves (69.3778ms)\n✔ root, unknown path, legal drafts and fixture assets (6.4533ms)\n✔ runtime source includes no external service transport and fixture assets stay small (1.9448ms)\n✔ normal output excludes design routes, sample metadata and temporary artwork (9.2608ms)\n✔ explicit design build has 10 separate samples per locale, with no fabricated runtime (1.3054ms)\nℹ tests 7\nℹ suites 0\nℹ pass 7\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 227.9877\n",
+      "stderr": ""
+    },
+    {
+      "name": "secret-all",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "{\"mode\":\"all\",\"status\":\"PASS\",\"scanner\":\"gitleaks 8.30.1\",\"findings\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "name": "secret-index",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "{\"mode\":\"staged\",\"status\":\"PASS\",\"scanner\":\"gitleaks 8.30.1\",\"findings\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "name": "diff-check",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "",
+      "stderr": "warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'astro.config.mjs', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/records/ASSET_REGISTER_R1.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/astro.mjs', LF will be replaced by CRLF the next time Git touches it\n"
+    },
+    {
+      "name": "new-text-whitespace-and-conflicts",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "name": "protected-baseline-unchanged",
+      "status": "PASS"
+    }
+  ]
+}

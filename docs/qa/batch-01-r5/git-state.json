@@ -1,0 +1,36 @@
+{
+  "at": "2026-09-14T09:57:04.429Z",
+  "actualModel": "gpt-6-astra",
+  "modelEvidence": "session 01a09f3c-dace-70f3-ae56-3b1cb083de43 turn_context.model, effort high (read-only)",
+  "head": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "branch": "main",
+  "headUnchanged": true,
+  "indexUnchanged": true,
+  "stagedCount": 0,
+  "upstreamLocalRef": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "remoteLiveChecked": false,
+  "baselineFiles": 665,
+  "unchanged": 658,
+  "changed": [
+    "scripts/prototype-assets.mjs",
+    "scripts/prototype-covers.mjs",
+    "src/prototypes/art.ts",
+    "src/prototypes/board-view.ts",
+    "src/prototypes/game-r2.ts",
+    "src/prototypes/guides.ts",
+    "docs/records/ASSET_REGISTER_R1.md"
+  ],
+  "missing": [],
+  "unexpectedChanges": [],
+  "attachmentCopyExact": true,
+  "operations": {
+    "stage": 0,
+    "commit": 0,
+    "push": 0,
+    "deploy": 0,
+    "realAds": 0,
+    "purchase": 0,
+    "newExternalServices": 0,
+    "globalConfiguration": 0
+  }
+}

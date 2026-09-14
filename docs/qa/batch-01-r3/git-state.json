@@ -1,0 +1,58 @@
+{
+  "at": "2026-09-13T20:42:15.002Z",
+  "actualModel": "gpt-6-astra",
+  "modelEvidence": "current session 01a09c5a-bc91-7282-8308-2ff837206646 turn_context.model; read-only review agent inherited model, no independent model attestation",
+  "branch": "main",
+  "head": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "headUnchanged": true,
+  "indexEmpty": true,
+  "stash": "",
+  "upstreamLocalRef": "fe5efc08239c1d40d253af07c33f0527bbae0db0",
+  "remoteLiveChecked": false,
+  "startingStatus": "M AGENTS.md\n M README.md\n M astro.config.mjs\n M docs/records/ASSET_REGISTER_R1.md\n M package.json\n M scripts/astro.mjs\n M scripts/design-assets.mjs\n?? docs/games/\n?? docs/qa/batch-01-r2/\n?? docs/qa/prototype-batch-01/\n?? scripts/project-path.mjs\n?? scripts/prototype-assets.mjs\n?? scripts/prototype-covers.mjs\n?? scripts/r3-baseline.mjs\n?? src/pages/[locale]/prototypes/\n?? src/prototypes/\n?? tests/prototype-output.test.ts\n?? tests/prototypes-extra.browser.mjs\n?? tests/prototypes.browser.mjs\n?? tests/r2-browser-regression.mjs\n?? tests/r2-full-run.browser.mjs\n?? tests/unit/delivery-r2.test.ts\n?? tests/unit/home-r2.test.ts\n?? tests/unit/light-r2.test.ts\n?? tests/unit/project-path.test.ts\n?? tests/unit/prototypes.test.ts\n?? tests/unit/r2-state.test.ts",
+  "currentStatus": "M AGENTS.md\n M README.md\n M astro.config.mjs\n M docs/records/ASSET_REGISTER_R1.md\n M package.json\n M scripts/astro.mjs\n M scripts/design-assets.mjs\n?? docs/games/\n?? docs/qa/batch-01-r2/\n?? docs/qa/batch-01-r3/\n?? docs/qa/prototype-batch-01/\n?? scripts/project-path.mjs\n?? scripts/prototype-assets.mjs\n?? scripts/prototype-covers.mjs\n?? scripts/r3-baseline.mjs\n?? scripts/r3-evidence.mjs\n?? scripts/r3-review.mjs\n?? src/pages/[locale]/prototypes/\n?? src/prototypes/\n?? tests/prototype-output.test.ts\n?? tests/prototypes-extra.browser.mjs\n?? tests/prototypes.browser.mjs\n?? tests/r2-browser-regression.mjs\n?? tests/r2-full-run.browser.mjs\n?? tests/r3-before.browser.mjs\n?? tests/r3-browser-regression.mjs\n?? tests/r3-controls.browser.mjs\n?? tests/r3-full-run.browser.mjs\n?? tests/r3-layout.browser.mjs\n?? tests/r3-media.browser.mjs\n?? tests/r3-responsive.browser.mjs\n?? tests/r3-state.browser.mjs\n?? tests/unit/delivery-r2.test.ts\n?? tests/unit/home-r2.test.ts\n?? tests/unit/light-r2.test.ts\n?? tests/unit/project-path.test.ts\n?? tests/unit/prototypes.test.ts\n?? tests/unit/r2-state.test.ts",
+  "baselineFiles": 266,
+  "unchanged": 261,
+  "changedSinceBaseline": [
+    "scripts/prototype-assets.mjs",
+    "src/prototypes/board-view.ts",
+    "src/prototypes/game-r2.ts",
+    "src/prototypes/shell.ts",
+    "README.md"
+  ],
+  "missing": [],
+  "attachmentCopyExact": true,
+  "operations": {
+    "stage": 0,
+    "commit": 0,
+    "push": 0,
+    "deploy": 0,
+    "realAds": 0,
+    "purchase": 0,
+    "newExternalServices": 0,
+    "globalConfiguration": 0
+  },
+  "protected": {
+    "sourceFiles": 126,
+    "modified": []
+  },
+  "ruleArtSaveFiles": [
+    "src/prototypes/art.ts",
+    "src/prototypes/delivery-answers-r2.json",
+    "src/prototypes/delivery-levels-r2.ts",
+    "src/prototypes/delivery-r2.ts",
+    "src/prototypes/game-r2.css",
+    "src/prototypes/guides.ts",
+    "src/prototypes/home-answers-r2.json",
+    "src/prototypes/home-levels-r2.ts",
+    "src/prototypes/level-answers.json",
+    "src/prototypes/levels.ts",
+    "src/prototypes/light-answers-r2.json",
+    "src/prototypes/light-levels-r2.ts",
+    "src/prototypes/light-r2.ts",
+    "src/prototypes/protocol.ts",
+    "src/prototypes/rules.ts",
+    "src/prototypes/state.ts"
+  ],
+  "ruleArtSaveChanged": []
+}
