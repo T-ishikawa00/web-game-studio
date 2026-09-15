@@ -10,7 +10,7 @@ const answers=JSON.parse(readFileSync('src/prototypes/level-answers.json','utf8'
 function simulate(l:DeliveryLevel,edit:DeliveryEdit){let r=startDelivery(l);while(r.status==='running')r=tickDelivery(l,edit,r);return r;}
 // Retained R1 witnesses verify the original five per title unchanged. Full R2
 // witnesses and independent oracles live in light/home/delivery-r2.test.ts.
-for(const id of gameIds)for(const l of levelsByGame[id].slice(0,5))test(`${l.id}: valid level, initial unsolved, authored answer clears actual rules`,()=>{
+for(const id of gameIds)for(const l of levelsByGame[id].filter(l=>Number(l.id.slice(1))<=5))test(`${l.id}: valid level, initial unsolved, authored answer clears actual rules`,()=>{
   assert.equal(l.version,1);assert.ok(l.title.ja&&l.title.en&&l.lesson.ja&&l.lesson.en);
   assert.ok(validProgress(id,{...emptyProgress(id),levelId:l.id,board:initialBoard(l)}));
   const points=l.kind==='light'?[l.source,...l.mirrors,...l.flowers,...(l.gate===undefined?[]:[l.gate,l.switch!])]:l.kind==='home'?[]:[...l.sockets,...l.robots.flatMap(r=>[r.start,r.goal]),...(l.waitCell===undefined?[]:[l.waitCell])];
@@ -60,14 +60,14 @@ test('L04/L05: stable gate reopening, temporal solution, undo snapshot and retry
   assert.equal(turnMirror(l4,{mirrors:l4.initial,gate:false},0).won,true);
 });
 test('home: both move, one stops, both stop, no-op and simultaneous goal only',()=>{
-  const l=homeLevels[0]!;assert.deepEqual(moveHome(l,{positions:[12,12]},1).state.positions,[13,13]);
+  const l=homeLevels.find(l=>l.id==='T01')!;assert.deepEqual(moveHome(l,{positions:[12,12]},1).state.positions,[13,13]);
   assert.deepEqual(moveHome(l,{positions:[12,13]},3).state.positions,[12,12]);
   const noOp=moveHome(l,{positions:[12,12]},2);assert.equal(noOp.changed,false);assert.deepEqual(noOp.blocked,[true,true]);
   assert.equal(homeWon(l,{positions:[14,13]}),false);assert.equal(homeWon(l,{positions:[14,14]}),true);
   assert.deepEqual(moveHome(l,{positions:[14,14]},3).state.positions,[13,13]);
 });
 test('T04: forced first step reaches one home, then leaves it before joint completion',()=>{
-  const l=homeLevels[3]!,s={positions:l.starts};for(const d of [0,2,3] as Dir[])assert.equal(moveHome(l,s,d).changed,false);
+  const l=homeLevels.find(l=>l.id==='T04')!,s={positions:l.starts};for(const d of [0,2,3] as Dir[])assert.equal(moveHome(l,s,d).changed,false);
   const one=moveHome(l,s,1);assert.deepEqual(one.state.positions,[13,15]);assert.equal(one.won,false);
   const leave=moveHome(l,one.state,0);assert.deepEqual(leave.state.positions,[9,11]);assert.equal(leave.won,false);
 });

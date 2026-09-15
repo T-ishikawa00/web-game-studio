@@ -1,0 +1,301 @@
+[
+  {
+    "mode": "C-alt",
+    "id": "D01",
+    "video": "videos/C-alt-D01.webm",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "actions": [
+      {
+        "label": "arrow:0",
+        "seconds": 0.716
+      },
+      {
+        "label": "arrow:0",
+        "seconds": 1.136
+      },
+      {
+        "label": "arrow:0",
+        "seconds": 1.51
+      },
+      {
+        "label": "arrow:1",
+        "seconds": 1.886
+      },
+      {
+        "label": "go",
+        "seconds": 2.2560000000000002
+      }
+    ],
+    "durationSeconds": 7.245,
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 6,
+      "seen": [
+        "[[\"A\",10,1,0,false]]",
+        "[[\"A\",11,1,0,false]]",
+        "[[\"A\",12,1,0,false]]",
+        "[[\"A\",7,0,0,false]]",
+        "[[\"A\",2,0,0,false]]",
+        "[[\"A\",3,1,0,false]]"
+      ],
+      "status": "won"
+    },
+    "audio": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 6,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 4,
+            "start": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "audioOffsetSeconds": 0.7649999999999999,
+    "recording": "Real Edge UI plus simultaneous MediaRecorder tap of the actual Web Audio output graph, muxed using measured wall-clock offset. No recreated/post-dub SFX. Speaker output, perceptual synchronization and listening acceptance NOT VERIFIED."
+  },
+  {
+    "mode": "C-alt",
+    "id": "D12",
+    "video": "videos/C-alt-D12.webm",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "actions": [
+      {
+        "label": "arrow:0",
+        "seconds": 0.72
+      },
+      {
+        "label": "arrow:1",
+        "seconds": 1.113
+      },
+      {
+        "label": "arrow:2",
+        "seconds": 1.49
+      },
+      {
+        "label": "arrow:3",
+        "seconds": 1.8840000000000001
+      },
+      {
+        "label": "wait:0:1",
+        "seconds": 2.267
+      },
+      {
+        "label": "go",
+        "seconds": 2.6719999999999997
+      }
+    ],
+    "durationSeconds": 8.261000000000001,
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 7,
+      "seen": [
+        "[[\"A\",12,1,0,false],[\"B\",11,2,0,false]]",
+        "[[\"A\",13,1,1,false],[\"B\",17,2,0,false]]",
+        "[[\"A\",13,1,0,false],[\"B\",16,3,0,false]]",
+        "[[\"A\",14,1,0,false],[\"B\",15,3,0,false]]",
+        "[[\"A\",20,2,0,false],[\"B\",21,2,0,false]]",
+        "[[\"A\",21,1,0,false],[\"B\",27,2,0,true]]",
+        "[[\"A\",22,1,0,false],[\"B\",27,2,0,true]]"
+      ],
+      "status": "won"
+    },
+    "audio": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 8,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 4,
+            "wait": 1,
+            "start": 1,
+            "arrive": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "audioOffsetSeconds": 0.742,
+    "recording": "Real Edge UI plus simultaneous MediaRecorder tap of the actual Web Audio output graph, muxed using measured wall-clock offset. No recreated/post-dub SFX. Speaker output, perceptual synchronization and listening acceptance NOT VERIFIED."
+  },
+  {
+    "mode": "C-alt",
+    "id": "D18",
+    "video": "videos/C-alt-D18.webm",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "actions": [
+      {
+        "label": "arrow:0",
+        "seconds": 0.714
+      },
+      {
+        "label": "arrow:2",
+        "seconds": 1.109
+      },
+      {
+        "label": "arrow:3",
+        "seconds": 1.5
+      },
+      {
+        "label": "wait:0:2",
+        "seconds": 1.8860000000000001
+      },
+      {
+        "label": "go",
+        "seconds": 2.273
+      }
+    ],
+    "durationSeconds": 9.07,
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 9,
+      "seen": [
+        "[[\"A\",9,2,0,false],[\"B\",21,1,0,false]]",
+        "[[\"A\",16,2,0,false],[\"B\",22,1,2,false]]",
+        "[[\"A\",23,2,0,false],[\"B\",22,1,1,false]]",
+        "[[\"A\",30,2,0,false],[\"B\",22,1,0,false]]",
+        "[[\"A\",37,2,0,false],[\"B\",23,1,0,false]]",
+        "[[\"A\",38,1,0,false],[\"B\",24,1,0,false]]",
+        "[[\"A\",39,1,0,false],[\"B\",25,1,0,false]]",
+        "[[\"A\",32,0,0,false],[\"B\",26,1,0,false]]",
+        "[[\"A\",25,0,0,false],[\"B\",27,1,0,true]]"
+      ],
+      "status": "won"
+    },
+    "audio": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 7,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 3,
+            "wait": 1,
+            "start": 1,
+            "arrive": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "audioOffsetSeconds": 0.7329999999999999,
+    "recording": "Real Edge UI plus simultaneous MediaRecorder tap of the actual Web Audio output graph, muxed using measured wall-clock offset. No recreated/post-dub SFX. Speaker output, perceptual synchronization and listening acceptance NOT VERIFIED."
+  }
+]

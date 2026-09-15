@@ -1,0 +1,36 @@
+{
+  "at": "2026-09-15T01:30:52.614Z",
+  "rawScanner": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "humanDisposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED",
+  "scope": "Exact existing candidate only; raw FAIL is not rewritten as PASS",
+  "approvedRecord": "docs/security/batch-01-r5-disposition.json",
+  "reconfirmed": {
+    "sha256Format": true,
+    "currentFileRehashMatches": true,
+    "exactScannerLineAndField": true,
+    "sourceUseAbsent": true,
+    "originalApprovalAndSourceUnchanged": true
+  },
+  "newFindings": 0,
+  "fullIndex": {
+    "mode": "staged",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "indexScope": "Read-only scan of unchanged existing index; new unstaged files are covered by all mode",
+  "newAllowlistEntries": 0,
+  "providerValidation": false,
+  "secretValuesEmitted": false
+}

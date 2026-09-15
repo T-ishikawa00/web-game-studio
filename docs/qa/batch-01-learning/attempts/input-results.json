@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "name": "mirror mouse click, Enter/Space and touch tap each rotate once; implicit capture click survives",
+      "status": "PASS"
+    },
+    {
+      "name": "mirror drag-off, drift-return, cancel, non-target click and multiple pointers do not edit",
+      "status": "PASS"
+    },
+    {
+      "name": "mirror gate latch and Undo preserved through every display mode",
+      "status": "PASS"
+    },
+    {
+      "name": "swipe both boards, four directions, long/slow release max one move; pointerup click no duplicate",
+      "status": "PASS"
+    },
+    {
+      "name": "touch swipe commits once, multi-touch cancels; browser pinch zoom remains allowed",
+      "status": "PASS"
+    },
+    {
+      "name": "tap, tremor, diagonal, return, outside release, cancel/lost capture/Escape/resize/mode/pagehide reject pending swipes",
+      "status": "PASS"
+    },
+    {
+      "name": "D-pad click-only alternative discoverable, retained across modes; hidden controls absent and focus restored",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('iframe').contentFrame().locator('[data-action=\"dpad\"]')\u001b[22m\n"
+    },
+    {
+      "name": "both-wall, one-wall, one-home and both-home input parity from real pointer sequences",
+      "status": "FAIL",
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    positions: [\n+     8,\n+     8\n-     12,\n-     12\n    ]\n  }\n"
+    },
+    {
+      "name": "keyboard board entry and repeat suppression; menu/help/form keys do not move game",
+      "status": "FAIL",
+      "error": "Expected values to be strictly equal:\n\n'T20' !== 'T02'\n"
+    },
+    {
+      "name": "delivery clocks allowed values, unchanged no fake tutorial, outside/Escape close, resize modal, no click-through",
+      "status": "PASS"
+    },
+    {
+      "name": "delivery shared arrow/clock cells both operable; edit route keeps settings; phase-specific Go/Pause/Resume/Step",
+      "status": "PASS"
+    },
+    {
+      "name": "delivery live mode/menu pause, mock/pagehide overlap, explicit Resume and no timer catch-up",
+      "status": "PASS"
+    },
+    {
+      "name": "Restart confirmation cancel/Escape/accept keeps completed history and restores menu focus",
+      "status": "PASS"
+    },
+    {
+      "name": "storage rejection leaves input and D-pad modes playable, save failure visible, game progress independent",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('iframe').contentFrame().locator('[data-action=\"dpad\"]')\u001b[22m\n"
+    }
+  ],
+  "errors": []
+}

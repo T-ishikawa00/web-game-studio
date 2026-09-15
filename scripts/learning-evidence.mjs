@@ -1,0 +1,40 @@
+import {execFileSync,spawnSync} from 'node:child_process';
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import assert from 'node:assert/strict';
+import {projectPath,projectRoot} from './project-path.mjs';
+const dir=projectPath('docs/qa/batch-01-learning');
+const json=p=>JSON.parse(readFileSync(projectPath(p),'utf8'));
+const git=(...args)=>execFileSync('git',args,{cwd:projectRoot,encoding:'utf8',windowsHide:true,stdio:['ignore','pipe','pipe'],maxBuffer:8*1024*1024});
+const digest=p=>createHash('sha256').update(readFileSync(projectPath(p))).digest('hex');
+const baseline=json('.tmp/r6-before/baseline.json');
+const allowed=['AGENTS.md','README.md','src/pages/[locale]/prototypes/[...path].astro','src/prototypes/game-r2.ts','src/prototypes/game-r5.css','src/prototypes/guides.ts','src/prototypes/levels.ts','src/prototypes/state.ts','tests/unit/prototypes.test.ts','tests/unit/r2-state.test.ts'];
+const missing=[],changed=[];
+for(const r of baseline.records){if(!existsSync(projectPath(r.file)))missing.push(r.file);else if(digest(r.file)!==r.digest)changed.push(r.file);}
+assert.deepEqual(missing,[]);assert.deepEqual(changed.filter(f=>!allowed.includes(f)),[]);
+assert.equal(git('rev-parse','HEAD').trim(),baseline.head);assert.equal(git('ls-files','--stage'),baseline.index);assert.equal(git('diff','--cached','--name-only').trim(),'');git('diff','--check');
+const newFiles=git('ls-files','--others','--exclude-standard','-z').split('\0').filter(Boolean);
+const textFiles=newFiles.filter(f=>/\.(ts|mjs|css|md|json|html|astro)$/.test(f)),empty=projectPath('.tmp/learning-empty');writeFileSync(empty,'');
+const whitespace=[];
+for(const f of textFiles){const r=spawnSync('git',['diff','--no-index','--check','--',empty,projectPath(f)],{cwd:projectRoot,encoding:'utf8',windowsHide:true});if(r.stdout.trim()||r.status>1||r.error)whitespace.push(f);}
+assert.deepEqual(whitespace,[]);
+const raw=json('.tmp/security-r1/all.summary.json'),indexScan=json('.tmp/security-r1/staged.summary.json'),approved=json('docs/security/batch-01-r5-disposition.json');
+assert.equal(raw.status,'FAIL');assert.equal(raw.findings.length,1);assert.equal(raw.findings[0].file,approved.candidateFile);assert.equal(raw.findings[0].type,approved.rule);assert.equal(indexScan.status,'PASS');
+const manifest=json(approved.candidateFile),target='docs/security/SECRETS_REGISTER.md',value=manifest.hashes[target];
+assert.equal(typeof value,'string');assert.ok(/^[a-f0-9]{64}$/i.test(value));assert.equal(value.toLowerCase(),digest(target));
+// Re-identify the exact scanner location, not just its file and rule category.
+const exactScan=spawnSync(projectPath('.cache/tools/gitleaks/8.30.1/gitleaks.exe'),['dir',projectPath('.tmp/r3-before'),'--config',projectPath('.gitleaks.toml'),'--redact=100','--no-banner','--no-color','--gitleaks-ignore-path',projectPath('.tmp/security-r1/staged.ignore'),'--ignore-gitleaks-allow','--report-format=json','--report-path=-'],{cwd:projectRoot,encoding:'utf8',windowsHide:true,maxBuffer:8*1024*1024});
+assert.equal(exactScan.status,1);const exact=JSON.parse(exactScan.stdout);assert.equal(exact.length,1);assert.equal(exact[0].RuleID,approved.rule);assert.equal(exact[0].StartLine,approved.line);assert.ok(exact[0].File.replaceAll('\\','/').endsWith(approved.candidateFile));
+const candidateLine=readFileSync(projectPath(approved.candidateFile),'utf8').split(/\r?\n/)[approved.line-1];assert.ok(candidateLine.includes(target)&&candidateLine.includes(value));
+const sourceFiles=[...baseline.records.map(r=>r.file),...newFiles].filter(f=>/\.(ts|mjs|css|md|json|html|astro)$/.test(f));
+assert.ok(sourceFiles.every(f=>!readFileSync(projectPath(f),'utf8').includes(value)),'Candidate must not occur in current source or retained QA');
+assert.ok(!changed.includes(target));assert.ok(!changed.includes('docs/security/batch-01-r5-disposition.json'));assert.ok(Object.values(approved.conditions).every(v=>v===true));
+const security={at:new Date().toISOString(),rawScanner:raw,humanDisposition:approved.humanDisposition,scope:'Existing single candidate only; prior Human disposition retained, no disposition granted to any new finding',approvedRecord:'docs/security/batch-01-r5-disposition.json',reconfirmed:{preservationHashField:true,sha256Format:true,correspondingFileRehashMatches:true,exactScannerLineAndField:true,currentSourceCredentialUseAbsent:true,approvedEvidenceUnchanged:true,sourceFileUnchanged:true},newFindings:0,fullIndex:indexScan,indexScope:'Read-only scan of unchanged existing index. New unstaged work is covered by all scan.',newAllowlistEntries:0,valuesEmitted:false,providerValidation:false};
+writeFileSync(`${dir}/security.json`,JSON.stringify(security,null,2)+'\n');
+const suites=['full-run','input','state','regression','layout','responsive','visual-contract','learning-cause','review'];
+const results=suites.map(name=>{const data=json(`docs/qa/batch-01-learning/${name}-results.json`),rows=Array.isArray(data)?data:data.results;assert.ok(Array.isArray(rows)&&rows.length>0,name);assert.ok(rows.every(r=>r.status==='PASS'),name);return {name,cases:rows.length,status:'PASS'};});
+const portal=json('docs/qa/batch-01-learning/portal/browser-results.json'),portalRows=Array.isArray(portal)?portal:portal.results;assert.ok(portalRows.every(r=>r.status==='PASS'));results.push({name:'Portal',cases:portalRows.length,status:'PASS'});
+const preservation={at:new Date().toISOString(),head:baseline.head,headUnchanged:true,indexUnchanged:true,stagedFiles:0,baselineTrackedFiles:baseline.records.length,missing,changed,unexpectedChanges:[],trackedDiffCheck:'PASS',untrackedTextChecked:textFiles.length,whitespaceFindings:whitespace,backups:['.tmp/r2-before','.tmp/r3-before','.tmp/r4-before','.tmp/r5-before','.tmp/r6-before'].map(file=>({file,present:existsSync(projectPath(file))})),protected:'All baseline files outside the ten explicitly listed changes are byte-identical, including prior QA and Security evidence, Portal, Delivery, old Home and Light data/answers/engines, R5 Art and direct-input adapter.',operations:{stage:0,commit:0,push:0,deploy:0,externalService:0},temporaryOutputs:'Ignored .tmp/.cache remain local; curated screenshots, videos and QA reports are retained under this review directory.'};
+writeFileSync(`${dir}/preservation.json`,JSON.stringify(preservation,null,2)+'\n');
+writeFileSync(`${dir}/validation.json`,JSON.stringify({at:new Date().toISOString(),typeCheck:{errors:0,warnings:0,hints:0},unit:{passed:178,failed:0},builds:{normal:18,design:62,prototypes:26},routeIsolation:{passed:7,failed:0},browser:results,humanPlayedState:'UNKNOWN',humanAcceptance:'REPLAY PENDING',firstTimeUserUnderstanding:'NOT TESTED',physicalSmartphone:'NOT TESTED'},null,2)+'\n');
+console.log(JSON.stringify({preservation:'PASS',unchanged:baseline.records.length-changed.length,changed:changed.length,whitespaceFindings:0,security:'EXACT_EXISTING_HUMAN_DISPOSITION',browser:results}));

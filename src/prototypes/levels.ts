@@ -1,5 +1,5 @@
 import {lightLevelsR2 as lightLevels} from './light-levels-r2';
-import {homeLevelsR2 as homeLevels} from './home-levels-r2';
+import {homeLevels} from './home-levels-learning';
 import {deliveryLevelsR2 as deliveryLevels} from './delivery-levels-r2';
 export {lightLevels,homeLevels,deliveryLevels};
 export const levelsByGame={'light-garden':lightLevels,'two-ways-home':homeLevels,'tiny-delivery':deliveryLevels};

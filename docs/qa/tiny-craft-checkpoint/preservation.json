@@ -1,0 +1,27 @@
+{
+  "at": "2026-09-15T03:52:08.891Z",
+  "baselineHead": "7815bf03377e1063112406d28e404beffb017c5a",
+  "startingFiles": 1392,
+  "changedSinceAcceptance": [
+    "docs/games/PRODUCTION_CURRENT.md",
+    "tests/craft-audio.browser.mjs",
+    "tests/craft-modes.browser.mjs",
+    "tests/craft-review.browser.mjs",
+    "AGENTS.md",
+    "README.md"
+  ],
+  "missing": [],
+  "unexpectedChanges": [],
+  "acceptedRuntimeByteIdentical": true,
+  "originalComparisonAndQAByteIdentical": true,
+  "attachmentByteIdentical": true,
+  "protected": "All starting source, rules, 57 puzzle definitions and solutions, R5 Art, saves, onboarding, Portal, old QA, START_HERE and security approval records are byte-identical. Only listed current docs and QA output-routing options changed.",
+  "diffCheck": {
+    "tracked": "PASS",
+    "newText": "SOURCE_ATTACHMENT_ONLY",
+    "sourceAttachment": [
+      "docs/planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md"
+    ],
+    "classification": "Original attachment Markdown hard-break whitespace preserved byte-for-byte; zero introduced code/document whitespace defects."
+  }
+}

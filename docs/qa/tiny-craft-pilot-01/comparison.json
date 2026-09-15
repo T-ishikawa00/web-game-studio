@@ -1,0 +1,324 @@
+[
+  {
+    "id": "D01",
+    "identicalInputOrder": true,
+    "identicalResult": true,
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "measuredActionTimes": {
+      "A": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.707
+        },
+        {
+          "label": "arrow:0",
+          "seconds": 1.084
+        },
+        {
+          "label": "arrow:0",
+          "seconds": 1.468
+        },
+        {
+          "label": "arrow:1",
+          "seconds": 1.8479999999999999
+        },
+        {
+          "label": "go",
+          "seconds": 2.2279999999999998
+        }
+      ],
+      "B": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.713
+        },
+        {
+          "label": "arrow:0",
+          "seconds": 1.1
+        },
+        {
+          "label": "arrow:0",
+          "seconds": 1.4769999999999999
+        },
+        {
+          "label": "arrow:1",
+          "seconds": 1.855
+        },
+        {
+          "label": "go",
+          "seconds": 2.2279999999999998
+        }
+      ],
+      "C": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.721
+        },
+        {
+          "label": "arrow:0",
+          "seconds": 1.157
+        },
+        {
+          "label": "arrow:0",
+          "seconds": 1.545
+        },
+        {
+          "label": "arrow:1",
+          "seconds": 1.9210000000000003
+        },
+        {
+          "label": "go",
+          "seconds": 2.311
+        }
+      ],
+      "C-alt": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.716
+        },
+        {
+          "label": "arrow:0",
+          "seconds": 1.136
+        },
+        {
+          "label": "arrow:0",
+          "seconds": 1.51
+        },
+        {
+          "label": "arrow:1",
+          "seconds": 1.886
+        },
+        {
+          "label": "go",
+          "seconds": 2.2560000000000002
+        }
+      ]
+    },
+    "note": "Identical scripted delays and real-time tick. Browser automation adds variable action overhead; no claim of frame-exact wall time."
+  },
+  {
+    "id": "D12",
+    "identicalInputOrder": true,
+    "identicalResult": true,
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "measuredActionTimes": {
+      "A": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.717
+        },
+        {
+          "label": "arrow:1",
+          "seconds": 1.102
+        },
+        {
+          "label": "arrow:2",
+          "seconds": 1.488
+        },
+        {
+          "label": "arrow:3",
+          "seconds": 1.8710000000000002
+        },
+        {
+          "label": "wait:0:1",
+          "seconds": 2.2430000000000003
+        },
+        {
+          "label": "go",
+          "seconds": 2.63
+        }
+      ],
+      "B": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.712
+        },
+        {
+          "label": "arrow:1",
+          "seconds": 1.0950000000000002
+        },
+        {
+          "label": "arrow:2",
+          "seconds": 1.4820000000000002
+        },
+        {
+          "label": "arrow:3",
+          "seconds": 1.863
+        },
+        {
+          "label": "wait:0:1",
+          "seconds": 2.249
+        },
+        {
+          "label": "go",
+          "seconds": 2.652
+        }
+      ],
+      "C": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.715
+        },
+        {
+          "label": "arrow:1",
+          "seconds": 1.108
+        },
+        {
+          "label": "arrow:2",
+          "seconds": 1.4820000000000002
+        },
+        {
+          "label": "arrow:3",
+          "seconds": 1.875
+        },
+        {
+          "label": "wait:0:1",
+          "seconds": 2.257
+        },
+        {
+          "label": "go",
+          "seconds": 2.656
+        }
+      ],
+      "C-alt": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.72
+        },
+        {
+          "label": "arrow:1",
+          "seconds": 1.113
+        },
+        {
+          "label": "arrow:2",
+          "seconds": 1.49
+        },
+        {
+          "label": "arrow:3",
+          "seconds": 1.8840000000000001
+        },
+        {
+          "label": "wait:0:1",
+          "seconds": 2.267
+        },
+        {
+          "label": "go",
+          "seconds": 2.6719999999999997
+        }
+      ]
+    },
+    "note": "Identical scripted delays and real-time tick. Browser automation adds variable action overhead; no claim of frame-exact wall time."
+  },
+  {
+    "id": "D18",
+    "identicalInputOrder": true,
+    "identicalResult": true,
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "measuredActionTimes": {
+      "A": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.715
+        },
+        {
+          "label": "arrow:2",
+          "seconds": 1.098
+        },
+        {
+          "label": "arrow:3",
+          "seconds": 1.488
+        },
+        {
+          "label": "wait:0:2",
+          "seconds": 1.8750000000000002
+        },
+        {
+          "label": "go",
+          "seconds": 2.261
+        }
+      ],
+      "B": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.72
+        },
+        {
+          "label": "arrow:2",
+          "seconds": 1.1
+        },
+        {
+          "label": "arrow:3",
+          "seconds": 1.475
+        },
+        {
+          "label": "wait:0:2",
+          "seconds": 1.85
+        },
+        {
+          "label": "go",
+          "seconds": 2.237
+        }
+      ],
+      "C": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.713
+        },
+        {
+          "label": "arrow:2",
+          "seconds": 1.117
+        },
+        {
+          "label": "arrow:3",
+          "seconds": 1.5150000000000001
+        },
+        {
+          "label": "wait:0:2",
+          "seconds": 1.8979999999999997
+        },
+        {
+          "label": "go",
+          "seconds": 2.298
+        }
+      ],
+      "C-alt": [
+        {
+          "label": "arrow:0",
+          "seconds": 0.714
+        },
+        {
+          "label": "arrow:2",
+          "seconds": 1.109
+        },
+        {
+          "label": "arrow:3",
+          "seconds": 1.5
+        },
+        {
+          "label": "wait:0:2",
+          "seconds": 1.8860000000000001
+        },
+        {
+          "label": "go",
+          "seconds": 2.273
+        }
+      ]
+    },
+    "note": "Identical scripted delays and real-time tick. Browser automation adds variable action overhead; no claim of frame-exact wall time."
+  }
+]

@@ -10,7 +10,7 @@ export function initialBoard(level: Level): Board {
   if (level.kind === 'home') return { positions: [...level.starts] };
   return { arrows: [...level.initial], wait: 0, ...(level.waitCells?{waits:level.waitCells.map(()=>0)}:{}) };
 }
-export function emptyProgress(id: GameId): Progress { const l=levelsByGame[id][0]!; return { levelId:l.id, levelVersion:1, cleared:[], settings:{reducedMotion:false}, board:initialBoard(l) }; }
+export function emptyProgress(id: GameId): Progress { const l=levelsByGame[id][0]!; return { levelId:l.id, levelVersion:l.version, cleared:[], settings:{reducedMotion:false}, board:initialBoard(l) }; }
 export function validBoard(level: Level, v: unknown): v is Board {
   if (!record(v)) return false;
   if (level.kind === 'light') return exact(v,level.gates?['mirrors','gate','gates']:['mirrors','gate']) && Array.isArray(v.mirrors) && v.mirrors.length === level.mirrors.length && Array.from(v.mirrors).every(b=>typeof b==='boolean') && typeof v.gate==='boolean' && (level.gate!==undefined || v.gate===false) && (!level.gates || Array.isArray(v.gates)&&v.gates.length===level.gates.length&&Array.from(v.gates).every(b=>typeof b==='boolean'));

@@ -1,5 +1,7 @@
 # Game Production System R1
 
+Historical bootstrap record. Current operating standard is [Production & Growth Playbook R2](WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md), adopted 2026-09-15. The old “未着手” below describes that time only. Current adopted three-game batch is 57 local puzzles; see current state（参照原本はPrivate保全・候補には非同梱）. Preserve the original A–F authority and Human gates while applying R2's grouped reviews to future work.
+
 最上位Authority: ルートSTART_HERE。現状: 候補3件、実ゲーム未着手。内部fixtureは評価対象ゲームに数えない。
 
 ## A–Fの判断ゲート

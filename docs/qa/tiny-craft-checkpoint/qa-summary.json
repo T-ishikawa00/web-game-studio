@@ -1,0 +1,166 @@
+{
+  "at": "2026-09-15T03:53:06.140Z",
+  "actualModel": "gpt-6-astra",
+  "modelEvidence": "Current session turn_context; primary high, independent read-only reviewer medium",
+  "commands": [
+    {
+      "name": "check",
+      "exitCode": 0,
+      "elapsedMs": 7437
+    },
+    {
+      "name": "unit",
+      "exitCode": 0,
+      "elapsedMs": 263
+    },
+    {
+      "name": "build-normal",
+      "exitCode": 0,
+      "elapsedMs": 1052
+    },
+    {
+      "name": "build-design",
+      "exitCode": 0,
+      "elapsedMs": 1375
+    },
+    {
+      "name": "build-prototypes",
+      "exitCode": 0,
+      "elapsedMs": 1112
+    },
+    {
+      "name": "routes",
+      "exitCode": 0,
+      "elapsedMs": 345
+    },
+    {
+      "name": "craft-audio",
+      "exitCode": 0,
+      "elapsedMs": 60194
+    },
+    {
+      "name": "craft-modes",
+      "exitCode": 0,
+      "elapsedMs": 26267
+    },
+    {
+      "name": "craft-review",
+      "exitCode": 0,
+      "elapsedMs": 1783
+    },
+    {
+      "name": "learning-full-run",
+      "exitCode": 0,
+      "elapsedMs": 15815
+    },
+    {
+      "name": "learning-input",
+      "exitCode": 0,
+      "elapsedMs": 16393
+    },
+    {
+      "name": "learning-state",
+      "exitCode": 0,
+      "elapsedMs": 6211
+    },
+    {
+      "name": "learning-regression",
+      "exitCode": 0,
+      "elapsedMs": 40736
+    },
+    {
+      "name": "learning-layout",
+      "exitCode": 0,
+      "elapsedMs": 11605
+    },
+    {
+      "name": "learning-responsive",
+      "exitCode": 0,
+      "elapsedMs": 22461
+    },
+    {
+      "name": "learning-visual-contract",
+      "exitCode": 0,
+      "elapsedMs": 8285
+    },
+    {
+      "name": "learning-cause",
+      "exitCode": 0,
+      "elapsedMs": 21361
+    },
+    {
+      "name": "portal",
+      "exitCode": 0,
+      "elapsedMs": 25328
+    }
+  ],
+  "results": [
+    {
+      "file": "audio-browser-results.json",
+      "pass": 26,
+      "fail": 0
+    },
+    {
+      "file": "mode-results.json",
+      "pass": 54,
+      "fail": 0
+    },
+    {
+      "file": "review-results.json",
+      "pass": 5,
+      "fail": 0
+    },
+    {
+      "file": "full-run-results.json",
+      "pass": 57,
+      "fail": 0
+    },
+    {
+      "file": "input-results.json",
+      "pass": 14,
+      "fail": 0
+    },
+    {
+      "file": "state-results.json",
+      "pass": 6,
+      "fail": 0
+    },
+    {
+      "file": "regression-results.json",
+      "pass": 15,
+      "fail": 0
+    },
+    {
+      "file": "layout-results.json",
+      "pass": 54,
+      "fail": 0
+    },
+    {
+      "file": "responsive-results.json",
+      "pass": 84,
+      "fail": 0
+    },
+    {
+      "file": "visual-contract-results.json",
+      "pass": 6,
+      "fail": 0
+    },
+    {
+      "file": "learning-cause-results.json",
+      "pass": 32,
+      "fail": 0
+    },
+    {
+      "file": "portal-browser-results.json",
+      "pass": 19,
+      "fail": 0
+    }
+  ],
+  "allAutomatedCasesPass": true,
+  "limits": [
+    "Browser automation and synthetic visibility events, not physical-phone testing.",
+    "Frozen-solution full runs verify rules/state/reload, not Human gameplay acceptance.",
+    "Previously captured graph audio is not speaker output or perceptual synchronization evidence.",
+    "Human Craft Acceptance is the explicit user decision for current Tiny C only."
+  ]
+}

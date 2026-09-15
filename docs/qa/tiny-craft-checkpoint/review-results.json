@@ -1,0 +1,163 @@
+{
+  "results": [
+    {
+      "name": "Review links/media resolve; 12 videos and 11 audio files",
+      "status": "PASS"
+    },
+    {
+      "name": "All videos decode at 432x768; real short run durations",
+      "status": "PASS",
+      "videos": [
+        {
+          "src": "videos/A-D01.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 7.24
+        },
+        {
+          "src": "videos/B-D01.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 7.24
+        },
+        {
+          "src": "videos/C-D01.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 7.28
+        },
+        {
+          "src": "videos/C-alt-D01.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 7.24
+        },
+        {
+          "src": "videos/A-D12.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 8.24
+        },
+        {
+          "src": "videos/B-D12.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 8.24
+        },
+        {
+          "src": "videos/C-D12.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 8.28
+        },
+        {
+          "src": "videos/C-alt-D12.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 8.28
+        },
+        {
+          "src": "videos/A-D18.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 9.08
+        },
+        {
+          "src": "videos/B-D18.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 9.04
+        },
+        {
+          "src": "videos/C-D18.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 9.12
+        },
+        {
+          "src": "videos/C-alt-D18.webm",
+          "width": 432,
+          "height": 768,
+          "duration": 9.08
+        }
+      ]
+    },
+    {
+      "name": "Loopback server rejects traversal/secret paths/write methods; media range works",
+      "status": "PASS"
+    },
+    {
+      "name": "Runtime audio-only capture decodes to nonzero finite signal without numeric clipping",
+      "status": "PASS",
+      "captured": [
+        {
+          "mode": "C",
+          "id": "D01",
+          "channels": 2,
+          "sampleRate": 44100,
+          "duration": 1.0199773242630386,
+          "peak": 0.06622365117073059,
+          "rms": 0.009541739215412438,
+          "activeSamples": 70036
+        },
+        {
+          "mode": "C",
+          "id": "D12",
+          "channels": 2,
+          "sampleRate": 44100,
+          "duration": 1.5,
+          "peak": 0.06622365117073059,
+          "rms": 0.009479281101068757,
+          "activeSamples": 93960
+        },
+        {
+          "mode": "C",
+          "id": "D18",
+          "channels": 2,
+          "sampleRate": 44100,
+          "duration": 1.4399773242630385,
+          "peak": 0.06622365117073059,
+          "rms": 0.009423775770684553,
+          "activeSamples": 89470
+        },
+        {
+          "mode": "C-alt",
+          "id": "D01",
+          "channels": 2,
+          "sampleRate": 44100,
+          "duration": 1.0199773242630386,
+          "peak": 0.08201699703931808,
+          "rms": 0.009609193646741,
+          "activeSamples": 69550
+        },
+        {
+          "mode": "C-alt",
+          "id": "D12",
+          "channels": 2,
+          "sampleRate": 44100,
+          "duration": 1.5,
+          "peak": 0.08329813182353973,
+          "rms": 0.009576208212288228,
+          "activeSamples": 94066
+        },
+        {
+          "mode": "C-alt",
+          "id": "D18",
+          "channels": 2,
+          "sampleRate": 44100,
+          "duration": 1.4399773242630385,
+          "peak": 0.08201699703931808,
+          "rms": 0.009516903581555207,
+          "activeSamples": 89748
+        }
+      ],
+      "limits": "Encoded graph tap only. decodeAudioData returns packed audio samples; decoded duration is not wall-clock duration or a sync measure. No physical output or perceptual sync/listening approval."
+    },
+    {
+      "name": "Desktop/mobile Review layout; no console errors or external requests",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

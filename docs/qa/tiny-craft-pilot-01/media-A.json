@@ -1,0 +1,207 @@
+[
+  {
+    "mode": "A",
+    "id": "D01",
+    "video": "videos/A-D01.webm",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "actions": [
+      {
+        "label": "arrow:0",
+        "seconds": 0.707
+      },
+      {
+        "label": "arrow:0",
+        "seconds": 1.084
+      },
+      {
+        "label": "arrow:0",
+        "seconds": 1.468
+      },
+      {
+        "label": "arrow:1",
+        "seconds": 1.8479999999999999
+      },
+      {
+        "label": "go",
+        "seconds": 2.2279999999999998
+      }
+    ],
+    "durationSeconds": 7.219,
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 6,
+      "seen": [
+        "[[\"A\",10,1,0,false]]",
+        "[[\"A\",11,1,0,false]]",
+        "[[\"A\",12,1,0,false]]",
+        "[[\"A\",7,0,0,false]]",
+        "[[\"A\",2,0,0,false]]",
+        "[[\"A\",3,1,0,false]]"
+      ],
+      "status": "won"
+    },
+    "audio": null,
+    "recording": "Real Edge UI, crop only. Video has no audio track; runtime audio capture NOT VERIFIED. No post-dub."
+  },
+  {
+    "mode": "A",
+    "id": "D12",
+    "video": "videos/A-D12.webm",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "actions": [
+      {
+        "label": "arrow:0",
+        "seconds": 0.717
+      },
+      {
+        "label": "arrow:1",
+        "seconds": 1.102
+      },
+      {
+        "label": "arrow:2",
+        "seconds": 1.488
+      },
+      {
+        "label": "arrow:3",
+        "seconds": 1.8710000000000002
+      },
+      {
+        "label": "wait:0:1",
+        "seconds": 2.2430000000000003
+      },
+      {
+        "label": "go",
+        "seconds": 2.63
+      }
+    ],
+    "durationSeconds": 8.225999999999999,
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 7,
+      "seen": [
+        "[[\"A\",12,1,0,false],[\"B\",11,2,0,false]]",
+        "[[\"A\",13,1,1,false],[\"B\",17,2,0,false]]",
+        "[[\"A\",13,1,0,false],[\"B\",16,3,0,false]]",
+        "[[\"A\",14,1,0,false],[\"B\",15,3,0,false]]",
+        "[[\"A\",20,2,0,false],[\"B\",21,2,0,false]]",
+        "[[\"A\",21,1,0,false],[\"B\",27,2,0,true]]",
+        "[[\"A\",22,1,0,false],[\"B\",27,2,0,true]]"
+      ],
+      "status": "won"
+    },
+    "audio": null,
+    "recording": "Real Edge UI, crop only. Video has no audio track; runtime audio capture NOT VERIFIED. No post-dub."
+  },
+  {
+    "mode": "A",
+    "id": "D18",
+    "video": "videos/A-D18.webm",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "tickMs": 600,
+    "interInputWaitMs": 350,
+    "actions": [
+      {
+        "label": "arrow:0",
+        "seconds": 0.715
+      },
+      {
+        "label": "arrow:2",
+        "seconds": 1.098
+      },
+      {
+        "label": "arrow:3",
+        "seconds": 1.488
+      },
+      {
+        "label": "wait:0:2",
+        "seconds": 1.8750000000000002
+      },
+      {
+        "label": "go",
+        "seconds": 2.261
+      }
+    ],
+    "durationSeconds": 9.06,
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 9,
+      "seen": [
+        "[[\"A\",9,2,0,false],[\"B\",21,1,0,false]]",
+        "[[\"A\",16,2,0,false],[\"B\",22,1,2,false]]",
+        "[[\"A\",23,2,0,false],[\"B\",22,1,1,false]]",
+        "[[\"A\",30,2,0,false],[\"B\",22,1,0,false]]",
+        "[[\"A\",37,2,0,false],[\"B\",23,1,0,false]]",
+        "[[\"A\",38,1,0,false],[\"B\",24,1,0,false]]",
+        "[[\"A\",39,1,0,false],[\"B\",25,1,0,false]]",
+        "[[\"A\",32,0,0,false],[\"B\",26,1,0,false]]",
+        "[[\"A\",25,0,0,false],[\"B\",27,1,0,true]]"
+      ],
+      "status": "won"
+    },
+    "audio": null,
+    "recording": "Real Edge UI, crop only. Video has no audio track; runtime audio capture NOT VERIFIED. No post-dub."
+  }
+]

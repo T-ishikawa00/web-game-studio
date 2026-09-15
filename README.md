@@ -1,6 +1,16 @@
 # Web Game Studio — Portal Core R1
 
-## Current: Batch 01 R5 — Visual Language Human Acceptance PASS
+Current production / validation / growth standard: [Playbook R2](docs/planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md). **Tiny Delivery C: Human Craft Acceptance PASS**, adopted as [Craft Baseline R1](docs/games/CRAFT_BASELINE_R1.md). Current state and acceptance boundaries（参照原本はPrivate保全・候補には非同梱） / [final checkpoint QA](docs/qa/tiny-craft-checkpoint/REPORT.md) / [preserved A/B/C Review](docs/qa/tiny-craft-pilot-01/REPORT.md). Preserve 57 puzzles and onboarding; earlier 54-puzzle reports are historical. This PASS excludes physical phones, first-time users, full gameplay, public/legal/ads and other games' Audio/Motion.
+
+## Previous local review: 導入と光の因果表現
+
+以下は導入改修時点の記録です。局所修正の受入と今回のCraft Pilotは、上記の現在地・Reviewを参照してください。
+
+Human試遊を受け、ふたりの短い導入3問・安定IDによる順序変更と、ひかりの因果反応を改修。[変更理由・保存方針](docs/games/BATCH_01_LEARNING_AND_CAUSE.md) / [統合Review Pack](docs/qa/batch-01-learning/REVIEW.html) / [QA](docs/qa/batch-01-learning/REPORT.md)。R5採用を維持し、今回のHuman受入は再試遊待ち。stage / commit / push / deployは行いません。
+
+ゲームは `npm run preview:prototypes`（4324）、今回のレビューは `node scripts/learning-review-server.mjs`（4326）。保存があれば同じIDの続きから再開し、面一覧から新しい01へ移れます。
+
+## Baseline: Batch 01 R5 — Visual Language Human Acceptance PASS
 
 2026-09-15、HumanがR5の色・形・質感・最小テキスト・盤面中心の設計・R4操作との統合・3表示のVisual方向を正式採用。[現行Baselineと受入範囲](docs/games/GAME_VISUAL_LANGUAGE_BASELINE_R5.md) / [R5 Review Pack](docs/qa/batch-01-r5/REVIEW.html) / [制作レシピ](docs/qa/batch-01-r5/RECIPE.md) / [checkpoint QA](docs/qa/batch-01-checkpoint/REPORT.md)。全54問のHumanゲーム性受入・実機・初見・公開・法務・広告は未完了です。
 

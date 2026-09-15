@@ -28,6 +28,9 @@ function robot(x:number,y:number,id:'A'|'B',heading='→'){return '<g transform=
 function clock(x:number,y:number){return dot(x,y,6,'#fff8df',gold)+path(`M${x} ${y-3}v3l3 1`,gold,1.5);}
 function crossing(x:number,y:number){return Array.from({length:3},(_,row)=>Array.from({length:3},(_,col)=>box(x+col*24,y+row*24,23,23,row===1||col===1?'#e9e4d3':'#dce6d2',row===1||col===1?'#c7c2ae':'#d0dcc5',3)).join('')).join('');}
 
+export function homeInputDiagram(en:boolean){
+ return `<svg class="shared-input-diagram" viewBox="0 0 220 42" role="img" aria-label="${en?'One direction moves both friends. Try it in either garden.':'ひとつの方向で、ふたりが一歩。どちらの庭でも試せます。'}"><path d="M10 21H54M46 13l8 8-8 8M56 21H82M82 21V9H110M82 21V33H110" fill="none" stroke="#253145" stroke-width="2.5"/>${friend(130,10,false)}${friend(130,33,true)}<path d="M150 10h42m-8-6 8 6-8 6M150 33h42m-8-6 8 6-8 6" fill="none" stroke="#253145" stroke-width="2.5"/></svg>`;
+}
 export function guideContent(level:Level,en:boolean,acted:boolean){
  const t=(ja:string,eng:string)=>en?eng:ja;
  let title='',body='',diagram='';
@@ -57,7 +60,7 @@ export function guideContent(level:Level,en:boolean,acted:boolean){
    diagram=svg(t('左から来る光は、回す前の鏡では下へ、回した後の鏡では上の花へ曲がる','Light arriving from the left turns down before the tap, then up toward the flower after the tap'),pair(t('タップ前','Before tap'),t('タップ後','After tap'),turn(2,false),turn(184,true)));
   }
  }else if(level.kind==='home'){
-  const leaving=level.id==='T04'||Number(level.id.slice(1))>=10,wall=level.id==='T02';
+  const leaving=['T04','T10','T13','T14','T15','T16','T17','T18'].includes(level.id),wall=level.id==='T20'||level.id==='T02';
   if(leaving){title=t('家に着いても、また動ける','You can leave home again');body=t('一人の先着では終わりません。家からも次の入力で動きます。最後はふたり同時に家へ。','One arrival is not the finish. A friend at home still moves with the next input. Finish with both home together.');}
   else if(wall){title=t('壁を、待ち合わせに使おう','Let a wall wait for you');body=acted?t('片方だけ止まると、ふたりの位置の差が変わります。次は両方の家を見比べよう。','When one stops and the other moves, their spacing changes. Compare both homes next.'):t('同じ右入力でも、壁に当たる子だけ止まります。動ける子は一マス進みます。','With one right input, only the friend facing a wall stops. The other moves one square.');}
   else{title=acted?t('次の一歩も、ふたりを見て','Watch both for the next step'):t('ひとつの矢印で、ふたり','One arrow moves both');body=acted?t('次の一歩は、両方の家を見比べて。壁に当たる子だけが止まります。','Compare both homes before the next step. Only the friend facing a wall stays still.'):t('どちらかの庭をスワイプ、または方向ドラッグ。ふたりが同じ向きへ一マス動きます。矢印キー／WASD、選択式の方向ボタンも使えます。','Swipe or drag in either garden. Both friends move one square in that direction. Arrow keys / WASD and optional direction buttons work too.');}
@@ -110,4 +113,4 @@ export function guideContent(level:Level,en:boolean,acted:boolean){
  });
  return {title,body:visualText(body),diagram:visualText(diagram)};
 }
-export const introductionLevels=new Set(['L01','L04','L09','T01','T02','T04','D01','D03','D04','D10','D11']);
+export const introductionLevels=new Set(['L01','L04','L09','T19','T20','T04','D01','D03','D04','D10','D11']);

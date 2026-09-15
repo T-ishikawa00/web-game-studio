@@ -1,0 +1,56 @@
+{
+  "at": "2026-09-14T23:48:04.378Z",
+  "head": "7815bf03377e1063112406d28e404beffb017c5a",
+  "headUnchanged": true,
+  "indexUnchanged": true,
+  "stagedFiles": 0,
+  "baselineTrackedFiles": 1089,
+  "missing": [],
+  "changed": [
+    "AGENTS.md",
+    "README.md",
+    "src/pages/[locale]/prototypes/[...path].astro",
+    "src/prototypes/game-r2.ts",
+    "src/prototypes/game-r5.css",
+    "src/prototypes/guides.ts",
+    "src/prototypes/levels.ts",
+    "src/prototypes/state.ts",
+    "tests/unit/prototypes.test.ts",
+    "tests/unit/r2-state.test.ts"
+  ],
+  "unexpectedChanges": [],
+  "trackedDiffCheck": "PASS",
+  "untrackedTextChecked": 42,
+  "whitespaceFindings": [],
+  "backups": [
+    {
+      "file": ".tmp/r2-before",
+      "present": true
+    },
+    {
+      "file": ".tmp/r3-before",
+      "present": true
+    },
+    {
+      "file": ".tmp/r4-before",
+      "present": true
+    },
+    {
+      "file": ".tmp/r5-before",
+      "present": true
+    },
+    {
+      "file": ".tmp/r6-before",
+      "present": true
+    }
+  ],
+  "protected": "All baseline files outside the ten explicitly listed changes are byte-identical, including prior QA and Security evidence, Portal, Delivery, old Home and Light data/answers/engines, R5 Art and direct-input adapter.",
+  "operations": {
+    "stage": 0,
+    "commit": 0,
+    "push": 0,
+    "deploy": 0,
+    "externalService": 0
+  },
+  "temporaryOutputs": "Ignored .tmp/.cache remain local; curated screenshots, videos and QA reports are retained under this review directory."
+}

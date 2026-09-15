@@ -1,0 +1,134 @@
+{
+  "results": [
+    {
+      "name": "Fresh mouse: one actual shared input; next puzzle is independent practice",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh touch: one actual shared input; next puzzle is independent practice",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh keyboard: one actual shared input; next puzzle is independent practice",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh dpad: one actual shared input; next puzzle is independent practice",
+      "status": "PASS"
+    },
+    {
+      "name": "New primers ja/auto: IDs, displayed numbers, initial diagram and bounded layout",
+      "status": "PASS"
+    },
+    {
+      "name": "New primers ja/portrait: IDs, displayed numbers, initial diagram and bounded layout",
+      "status": "PASS"
+    },
+    {
+      "name": "New primers ja/landscape: IDs, displayed numbers, initial diagram and bounded layout",
+      "status": "PASS"
+    },
+    {
+      "name": "New primers en/auto: IDs, displayed numbers, initial diagram and bounded layout",
+      "status": "PASS"
+    },
+    {
+      "name": "New primers en/portrait: IDs, displayed numbers, initial diagram and bounded layout",
+      "status": "PASS"
+    },
+    {
+      "name": "New primers en/landscape: IDs, displayed numbers, initial diagram and bounded layout",
+      "status": "PASS"
+    },
+    {
+      "name": "320px new-player diagram and optional D-pad stay usable",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T01@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T02@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T03@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T04@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T05@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T06@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T07@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T08@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T09@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T10@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T11@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T12@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T13@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T14@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T15@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T16@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T17@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy T18@1: exact mid-board and all 18 clears survive resume, language and mode changes",
+      "status": "PASS"
+    },
+    {
+      "name": "Light cause: switch then gate; immediate Undo, mode, resize and menu remove every old overlay",
+      "status": "PASS"
+    },
+    {
+      "name": "Continuous mirror input has no queue; reduced motion and pagehide cancel display work",
+      "status": "PASS"
+    },
+    {
+      "name": "Splitter evidence includes inlet and both actual output rays",
+      "status": "PASS"
+    }
+  ],
+  "humanPlayedState": "UNKNOWN",
+  "firstTimeHumanUnderstanding": "PENDING"
+}

@@ -1,0 +1,234 @@
+{
+  "runs": [
+    {
+      "cycle": 0,
+      "mode": "A",
+      "wallMs": 4250.7932,
+      "rendererTaskMs": 86.837,
+      "scriptMs": 12.274000000000001,
+      "layoutMs": 6.702,
+      "requestCount": 9,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    },
+    {
+      "cycle": 0,
+      "mode": "B",
+      "wallMs": 4158.7339,
+      "rendererTaskMs": 96.875,
+      "scriptMs": 12.083,
+      "layoutMs": 6.231999999999999,
+      "requestCount": 9,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    },
+    {
+      "cycle": 0,
+      "mode": "C",
+      "wallMs": 4218.234200000001,
+      "rendererTaskMs": 145.961,
+      "scriptMs": 57.537,
+      "layoutMs": 6.7860000000000005,
+      "requestCount": 10,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    },
+    {
+      "cycle": 1,
+      "mode": "C",
+      "wallMs": 4186.465899999999,
+      "rendererTaskMs": 114.517,
+      "scriptMs": 28.203,
+      "layoutMs": 6.5440000000000005,
+      "requestCount": 10,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    },
+    {
+      "cycle": 1,
+      "mode": "A",
+      "wallMs": 4162.7821,
+      "rendererTaskMs": 81.856,
+      "scriptMs": 11.119,
+      "layoutMs": 5.688000000000001,
+      "requestCount": 9,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    },
+    {
+      "cycle": 1,
+      "mode": "B",
+      "wallMs": 4166.3685000000005,
+      "rendererTaskMs": 99.923,
+      "scriptMs": 11.950000000000001,
+      "layoutMs": 6.717,
+      "requestCount": 9,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    },
+    {
+      "cycle": 2,
+      "mode": "B",
+      "wallMs": 4170.2045000000035,
+      "rendererTaskMs": 99.037,
+      "scriptMs": 12.856,
+      "layoutMs": 6.882,
+      "requestCount": 9,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    },
+    {
+      "cycle": 2,
+      "mode": "C",
+      "wallMs": 4181.414499999999,
+      "rendererTaskMs": 116.79299999999999,
+      "scriptMs": 29.232999999999997,
+      "layoutMs": 6.624,
+      "requestCount": 10,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    },
+    {
+      "cycle": 2,
+      "mode": "A",
+      "wallMs": 4163.930699999997,
+      "rendererTaskMs": 96.708,
+      "scriptMs": 10.971,
+      "layoutMs": 5.6979999999999995,
+      "requestCount": 9,
+      "requestedPaths": [
+        "/en/prototypes/play/tiny-delivery/",
+        "/_astro/Layout.DYsCu4Pf.css",
+        "/prototype-assets/shell.js",
+        "/_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+        "/_astro/analytics.BExKe1UN.js",
+        "/prototype-assets/game.html",
+        "/prototype-assets/game.css",
+        "/prototype-assets/game.js",
+        "/favicon.svg"
+      ],
+      "networkAudioRequests": 0
+    }
+  ],
+  "sizes": [
+    {
+      "file": "game.js",
+      "beforeBytes": 123289,
+      "afterBytes": 131985,
+      "addedBytes": 8696
+    },
+    {
+      "file": "game.css",
+      "beforeBytes": 53014,
+      "afterBytes": 53014,
+      "addedBytes": 0
+    },
+    {
+      "file": "shell.js",
+      "beforeBytes": 60399,
+      "afterBytes": 60399,
+      "addedBytes": 0
+    }
+  ],
+  "summary": [
+    {
+      "mode": "A",
+      "medianRendererTaskMs": 86.837,
+      "medianScriptMs": 11.119
+    },
+    {
+      "mode": "B",
+      "medianRendererTaskMs": 99.037,
+      "medianScriptMs": 12.083
+    },
+    {
+      "mode": "C",
+      "medianRendererTaskMs": 116.79299999999999,
+      "medianScriptMs": 29.232999999999997
+    }
+  ],
+  "method": "Three isolated Edge contexts per A/B/C, rotated order; D01, same 4 arrow edits, 600ms tick and 4050ms observation. A uses byte-preserved baseline served by local Playwright route fulfillment. B/C use loopback HTTP. Renderer CDP task/script durations after load; this is a small noisy desktop measurement, not mobile CPU, power, load-time or FPS certification. No audio asset fetch; synthesis data remains in prototype JS."
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "crest text keeps English articles; all authored hints/help use the same mapping",
+    "status": "PASS"
+  },
+  {
+    "name": "Help renders the real character paint, readable English and explicit replay tips after action",
+    "status": "PASS"
+  },
+  {
+    "name": "clock-free delivery lessons show following/swap cues",
+    "status": "PASS"
+  },
+  {
+    "name": "all eight mixed clock/arrow levels: separate art hit regions, touch commits once, popup never changes arrow",
+    "status": "PASS"
+  },
+  {
+    "name": "all 54 scenes expose R5 shared art, expected actor counts and bounded objects",
+    "status": "FAIL",
+    "error": "Expected values to be strictly equal:\n\n8 !== 28\n"
+  },
+  {
+    "name": "320 px combined controls, DPR2.5 and every mode: real target centers remain actionable",
+    "status": "PASS"
+  }
+]

@@ -1,5 +1,14 @@
 # R1 Asset and Rights Register
 
+## Tiny Delivery Craft Pilot 01 — 2026-09-15
+
+- Asset IDs: `tiny-sfx-arrow`, `tiny-sfx-wait`, `tiny-sfx-undo`, `tiny-sfx-start`, `tiny-sfx-arrive`, `tiny-sfx-collision`, `tiny-sfx-clear`, `tiny-sfx-complete`. Arrow/arrival/clear each have variants 0 and 1. Uses and duration/peaks: [audio measurements](../qa/tiny-craft-pilot-01/audio-measurements.json).
+- Original editable synthesis master: `src/prototypes/craft-sound.ts`, AI-assisted local TypeScript authored by actual `gpt-6-astra`. Deterministic filtered noise, nonharmonic resonances, envelopes and a short original note sequence; no third-party recordings, artist imitation, sound libraries or external generation API. Created locally on this date, no paid service/plan/license was purchased or consumed.
+- Reproduction/edit pipeline: `scripts/craft-samples.ts` exports mono PCM16 44.1kHz preview WAVs at the same default gain as the runtime. Variants change representative timbre/pitch; no equal-peak normalization across events. Game synthesizes only needed buffers at device sample rate; WAV masters/previews are not included in normal, Design or prototype delivery. Necessary synthesis code is in the prototype bundle only.
+- Runtime use: accepted route/wait edits, return to editing, departure, delivery arrival, rejected run, puzzle clear and first completion of all 18 stable IDs. Pause/resume are intentionally silent; no motor loop, per-tick SFX or BGM. Final arrival is coalesced with clear/signature to avoid stacking.
+- Review videos are actual local Edge UI recordings. C/C-alt use a simultaneous tap of the real Web Audio output graph and measured wall-clock mux offset; no reconstructed post-dub sound. This is not a speaker/device/listening or perceptual synchronization acceptance. [Review](../qa/tiny-craft-pilot-01/REPORT.md) records limitations.
+- Local project-created material; no third-party attribution requirement identified from imported assets because none were imported. Public/commercial/streaming/ad/external-platform/transfer rights review remains PENDING; AI authorship is not a copyright or legal-clearance guarantee. No Content ID registration or external publishing performed.
+
 2026-09-13 / 内部レビュー用。公開許可未判定。
 
 | Asset | 来歴 | 状態 / 証拠 |

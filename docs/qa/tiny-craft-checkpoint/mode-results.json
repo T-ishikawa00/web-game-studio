@@ -1,0 +1,328 @@
+{
+  "results": [
+    {
+      "mode": "silent",
+      "id": "D01",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "silent",
+      "id": "D02",
+      "status": "PASS",
+      "intermediateStates": 10
+    },
+    {
+      "mode": "silent",
+      "id": "D03",
+      "status": "PASS",
+      "intermediateStates": 5
+    },
+    {
+      "mode": "silent",
+      "id": "D04",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "silent",
+      "id": "D05",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "silent",
+      "id": "D06",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "silent",
+      "id": "D07",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "silent",
+      "id": "D08",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "silent",
+      "id": "D09",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "silent",
+      "id": "D10",
+      "status": "PASS",
+      "intermediateStates": 4
+    },
+    {
+      "mode": "silent",
+      "id": "D11",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "silent",
+      "id": "D12",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "silent",
+      "id": "D13",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "silent",
+      "id": "D14",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "silent",
+      "id": "D15",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "silent",
+      "id": "D16",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "silent",
+      "id": "D17",
+      "status": "PASS",
+      "intermediateStates": 9
+    },
+    {
+      "mode": "silent",
+      "id": "D18",
+      "status": "PASS",
+      "intermediateStates": 9
+    },
+    {
+      "mode": "sound",
+      "id": "D01",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "sound",
+      "id": "D02",
+      "status": "PASS",
+      "intermediateStates": 10
+    },
+    {
+      "mode": "sound",
+      "id": "D03",
+      "status": "PASS",
+      "intermediateStates": 5
+    },
+    {
+      "mode": "sound",
+      "id": "D04",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "sound",
+      "id": "D05",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "sound",
+      "id": "D06",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "sound",
+      "id": "D07",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "sound",
+      "id": "D08",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "sound",
+      "id": "D09",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "sound",
+      "id": "D10",
+      "status": "PASS",
+      "intermediateStates": 4
+    },
+    {
+      "mode": "sound",
+      "id": "D11",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "sound",
+      "id": "D12",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "sound",
+      "id": "D13",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "sound",
+      "id": "D14",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "sound",
+      "id": "D15",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "sound",
+      "id": "D16",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "sound",
+      "id": "D17",
+      "status": "PASS",
+      "intermediateStates": 9
+    },
+    {
+      "mode": "sound",
+      "id": "D18",
+      "status": "PASS",
+      "intermediateStates": 9
+    },
+    {
+      "mode": "reduced",
+      "id": "D01",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "reduced",
+      "id": "D02",
+      "status": "PASS",
+      "intermediateStates": 10
+    },
+    {
+      "mode": "reduced",
+      "id": "D03",
+      "status": "PASS",
+      "intermediateStates": 5
+    },
+    {
+      "mode": "reduced",
+      "id": "D04",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "reduced",
+      "id": "D05",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "reduced",
+      "id": "D06",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "reduced",
+      "id": "D07",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "reduced",
+      "id": "D08",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "reduced",
+      "id": "D09",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "reduced",
+      "id": "D10",
+      "status": "PASS",
+      "intermediateStates": 4
+    },
+    {
+      "mode": "reduced",
+      "id": "D11",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "reduced",
+      "id": "D12",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "reduced",
+      "id": "D13",
+      "status": "PASS",
+      "intermediateStates": 7
+    },
+    {
+      "mode": "reduced",
+      "id": "D14",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "reduced",
+      "id": "D15",
+      "status": "PASS",
+      "intermediateStates": 6
+    },
+    {
+      "mode": "reduced",
+      "id": "D16",
+      "status": "PASS",
+      "intermediateStates": 8
+    },
+    {
+      "mode": "reduced",
+      "id": "D17",
+      "status": "PASS",
+      "intermediateStates": 9
+    },
+    {
+      "mode": "reduced",
+      "id": "D18",
+      "status": "PASS",
+      "intermediateStates": 9
+    }
+  ]
+}

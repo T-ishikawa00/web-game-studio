@@ -71,3 +71,10 @@ body[data-game=tiny-delivery]{--scene:#E8F3F8;--floor:#F8FCFF;--wall:#3A4D66}
 .fixed-tile rect{shape-rendering:crispEdges}
 .move-response{position:absolute;right:4px;bottom:4px;pointer-events:none;line-height:1;border:2px solid var(--ink);background:var(--floor);color:var(--ink);font-size:22px;padding:2px 5px;border-radius:4px}
 /* Help reuses the real SVG masters; legacy diagram CSS must not recolor them. */
+
+/* One shared-input diagram, confined to the first primer. */
+.shared-input-diagram{width:180px;height:36px;flex:none;overflow:visible}
+#game[data-layout] .input-cue:has(.shared-input-diagram){gap:3px}
+#game[data-layout=portrait] .input-cue:has(.shared-input-diagram) .shared-input-diagram{width:140px;height:28px}
+
+.cause-caption{font-size:13px;font-weight:700;white-space:nowrap}

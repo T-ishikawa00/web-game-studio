@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-15T03:52:08.892Z",
+  "rawScanner": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "humanDisposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED",
+  "approvalScope": "Only existing preservation SHA256 field; exact file/rule/line/current rehash and absent source use reconfirmed; approval records unchanged.",
+  "newCandidates": 0,
+  "newExceptions": 0,
+  "providerValidation": false,
+  "valuesEmitted": false,
+  "fullIndex": "Must pass after staging; recorded in local checkpoint receipt.",
+  "history": "Must pass after commit before push; recorded in local checkpoint receipt."
+}

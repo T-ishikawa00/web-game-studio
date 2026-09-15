@@ -1,0 +1,152 @@
+{
+  "startedAt": "2026-09-15T01:07:49.756Z",
+  "finishedAt": "2026-09-15T01:08:24.179Z",
+  "browser": "Headless Edge Chromium; fresh isolated contexts",
+  "base": "http://127.0.0.1:4324",
+  "scope": "Behavioral regression only; no Human UX or physical-device acceptance",
+  "attemptPolicy": "R4 adaptation of R3 regression; existing state assertions retained, menu/clock/D-pad selectors follow approved R4 UI. No automatic retries; prior R4 attempts retained.",
+  "buildBefore": "f6ef6a047f25fea4f6ccf2d1120d8c255fe2d4be5a6359fc04db93d6c1664a1f",
+  "buildAfter": "f6ef6a047f25fea4f6ccf2d1120d8c255fe2d4be5a6359fc04db93d6c1664a1f",
+  "results": [
+    {
+      "name": "bridge: wrong origin/source/protocol/game/generation/payload rejected independently",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 1194,
+      "evidence": {
+        "outboundRejected": 7,
+        "inboundRejected": 6
+      }
+    },
+    {
+      "name": "removed iframe rejected with both old and current generations; error closes reset",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 567,
+      "evidence": {
+        "oldAndCurrentGenerationRejected": true
+      }
+    },
+    {
+      "name": "keyboard focus scope, repeat suppression, pointer parity and undo",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 960,
+      "evidence": null
+    },
+    {
+      "name": "delivery: step/play/pause parity, failure locations, retry preserves plan and reload editing only",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 4974,
+      "evidence": {
+        "stepClearBeat": 5,
+        "reloadBeat": 0,
+        "failureBeat": 2
+      }
+    },
+    {
+      "name": "mock pause halts all games; delivery resumes with fresh delay; pressure survives game navigation",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 7766,
+      "evidence": {
+        "pausedDeliveryTicks": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "injected parent and iframe visibility pause: no hidden ticks or catch-up",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 4356,
+      "evidence": {
+        "injectionOnly": true,
+        "hiddenDurationMsPerSurface": 1050,
+        "postResumeNoAdvanceMs": 180
+      }
+    },
+    {
+      "name": "load timeout retry and runtime error during mock recover cleanly",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 8321,
+      "evidence": {
+        "intentionalAbortedAsset": "prototype-assets/game.js",
+        "timeoutObserved": true
+      }
+    },
+    {
+      "name": "all games JA/EN progress and guide separation; old save completion retained",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 1708,
+      "evidence": {
+        "oldSaves": 3,
+        "sharedOriginLocales": true,
+        "guideKeys": [
+          "wgs:guide:light-garden",
+          "wgs:guide:tiny-delivery",
+          "wgs:guide:two-ways-home"
+        ]
+      }
+    },
+    {
+      "name": "malformed/future/invalid-level saves preserved; reset cancel and confirm scoped to one game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 2431,
+      "evidence": {
+        "invalidCases": 9
+      }
+    },
+    {
+      "name": "storage write-denied: honest status and usable game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 253,
+      "evidence": null
+    },
+    {
+      "name": "storage silent-write: honest status and usable game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 244,
+      "evidence": null
+    },
+    {
+      "name": "storage read-denied: honest status and usable game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 241,
+      "evidence": null
+    },
+    {
+      "name": "storage guide-corrupt: honest status and usable game",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 354,
+      "evidence": null
+    },
+    {
+      "name": "untouched Connection Lab: pointer, save, locale reload, error retry, prototype isolation",
+      "status": "PASS",
+      "attempt": 1,
+      "durationMs": 553,
+      "evidence": {
+        "fixtureProtocol": "wgs-fixture-v1",
+        "prototypeSaveUnchanged": true
+      }
+    },
+    {
+      "name": "unexpected JavaScript errors and external requests",
+      "status": "PASS",
+      "errors": [],
+      "external": []
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "priorRuns": []
+}

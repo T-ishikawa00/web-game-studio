@@ -1,0 +1,77 @@
+{
+  "at": "2026-09-14T23:48:04.380Z",
+  "typeCheck": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 178,
+    "failed": 0
+  },
+  "builds": {
+    "normal": 18,
+    "design": 62,
+    "prototypes": 26
+  },
+  "routeIsolation": {
+    "passed": 7,
+    "failed": 0
+  },
+  "browser": [
+    {
+      "name": "full-run",
+      "cases": 57,
+      "status": "PASS"
+    },
+    {
+      "name": "input",
+      "cases": 14,
+      "status": "PASS"
+    },
+    {
+      "name": "state",
+      "cases": 6,
+      "status": "PASS"
+    },
+    {
+      "name": "regression",
+      "cases": 15,
+      "status": "PASS"
+    },
+    {
+      "name": "layout",
+      "cases": 54,
+      "status": "PASS"
+    },
+    {
+      "name": "responsive",
+      "cases": 84,
+      "status": "PASS"
+    },
+    {
+      "name": "visual-contract",
+      "cases": 6,
+      "status": "PASS"
+    },
+    {
+      "name": "learning-cause",
+      "cases": 32,
+      "status": "PASS"
+    },
+    {
+      "name": "review",
+      "cases": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "Portal",
+      "cases": 19,
+      "status": "PASS"
+    }
+  ],
+  "humanPlayedState": "UNKNOWN",
+  "humanAcceptance": "REPLAY PENDING",
+  "firstTimeUserUnderstanding": "NOT TESTED",
+  "physicalSmartphone": "NOT TESTED"
+}

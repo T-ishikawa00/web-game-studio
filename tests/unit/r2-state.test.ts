@@ -10,7 +10,7 @@ function memory() {
   return {values,getItem:(key:string)=>values.get(key)??null,setItem:(key:string,value:string)=>{values.set(key,value);},removeItem:(key:string)=>{values.delete(key);}};
 }
 function progress(id:GameId,level:Level):Progress {
-  return {levelId:level.id,levelVersion:level.version,cleared:levelsByGame[id].slice(0,5).map(l=>l.id),settings:{reducedMotion:true},board:initialBoard(level)};
+  return {levelId:level.id,levelVersion:level.version,cleared:levelsByGame[id].filter(l=>Number(l.id.slice(1))<=5).map(l=>l.id),settings:{reducedMotion:true},board:initialBoard(level)};
 }
 function message(id:GameId,data:unknown) {
   return structuredClone({protocol:PROTOCOL,gameId:id,generation:'current-r2-frame',type:'checkpoint',data});

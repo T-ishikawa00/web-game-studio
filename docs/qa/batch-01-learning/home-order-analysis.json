@@ -1,0 +1,280 @@
+{
+  "at": "2026-09-14T23:32:17.526Z",
+  "humanPlayedState": "UNKNOWN",
+  "interpretation": "Graph facts support content review; shortest length and branch count do not establish perceived ease or Human understanding.",
+  "rows": [
+    {
+      "display": 1,
+      "id": "T19",
+      "version": 1,
+      "title": {
+        "ja": "ひとつの合図",
+        "en": "One shared signal"
+      },
+      "shortest": 1,
+      "minimumUnilateralAdjustments": 0,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 1
+    },
+    {
+      "display": 2,
+      "id": "T01",
+      "version": 1,
+      "title": {
+        "ja": "いっしょに一歩",
+        "en": "One step together"
+      },
+      "shortest": 2,
+      "minimumUnilateralAdjustments": 0,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 2
+    },
+    {
+      "display": 3,
+      "id": "T20",
+      "version": 1,
+      "title": {
+        "ja": "壁がそろえてくれる",
+        "en": "A wall lines them up"
+      },
+      "shortest": 3,
+      "minimumUnilateralAdjustments": 1,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 1
+    },
+    {
+      "display": 4,
+      "id": "T21",
+      "version": 1,
+      "title": {
+        "ja": "こんどは縦の道",
+        "en": "Try the upright path"
+      },
+      "shortest": 3,
+      "minimumUnilateralAdjustments": 1,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 1
+    },
+    {
+      "display": 5,
+      "id": "T02",
+      "version": 1,
+      "title": {
+        "ja": "壁でひとやすみ",
+        "en": "A wall lends a hand"
+      },
+      "shortest": 5,
+      "minimumUnilateralAdjustments": 1,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 6,
+      "id": "T06",
+      "version": 1,
+      "title": {
+        "ja": "庭を読みなおす",
+        "en": "Read the gardens"
+      },
+      "shortest": 4,
+      "minimumUnilateralAdjustments": 3,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 7,
+      "id": "T07",
+      "version": 1,
+      "title": {
+        "ja": "横の待ち合わせ",
+        "en": "Across the page"
+      },
+      "shortest": 5,
+      "minimumUnilateralAdjustments": 2,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 4
+    },
+    {
+      "display": 8,
+      "id": "T08",
+      "version": 1,
+      "title": {
+        "ja": "縦の待ち合わせ",
+        "en": "A little further down"
+      },
+      "shortest": 6,
+      "minimumUnilateralAdjustments": 3,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 2
+    },
+    {
+      "display": 9,
+      "id": "T09",
+      "version": 1,
+      "title": {
+        "ja": "角で待っていて",
+        "en": "Wait at the corner"
+      },
+      "shortest": 8,
+      "minimumUnilateralAdjustments": 4,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 4
+    },
+    {
+      "display": 10,
+      "id": "T03",
+      "version": 1,
+      "title": {
+        "ja": "近道はどっち？",
+        "en": "Which way is shorter?"
+      },
+      "shortest": 10,
+      "minimumUnilateralAdjustments": 8,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 11,
+      "id": "T04",
+      "version": 1,
+      "title": {
+        "ja": "おかえり、もう一歩",
+        "en": "Home, then one more step"
+      },
+      "shortest": 9,
+      "minimumUnilateralAdjustments": 4,
+      "requiresHomeDeparture": true,
+      "initialEffectiveDirections": 1
+    },
+    {
+      "display": 12,
+      "id": "T05",
+      "version": 1,
+      "title": {
+        "ja": "最後の待ち合わせ",
+        "en": "The last rendezvous"
+      },
+      "shortest": 13,
+      "minimumUnilateralAdjustments": 11,
+      "requiresHomeDeparture": true,
+      "initialEffectiveDirections": 4
+    },
+    {
+      "display": 13,
+      "id": "T10",
+      "version": 1,
+      "title": {
+        "ja": "家は通り道",
+        "en": "Home is on the way"
+      },
+      "shortest": 8,
+      "minimumUnilateralAdjustments": 7,
+      "requiresHomeDeparture": true,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 14,
+      "id": "T11",
+      "version": 1,
+      "title": {
+        "ja": "壁を使う順番",
+        "en": "Walls in order"
+      },
+      "shortest": 8,
+      "minimumUnilateralAdjustments": 5,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 2
+    },
+    {
+      "display": 15,
+      "id": "T12",
+      "version": 1,
+      "title": {
+        "ja": "ふたつの調整",
+        "en": "Two adjustments"
+      },
+      "shortest": 9,
+      "minimumUnilateralAdjustments": 6,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 2
+    },
+    {
+      "display": 16,
+      "id": "T13",
+      "version": 1,
+      "title": {
+        "ja": "最後の一歩から",
+        "en": "Start with the last step"
+      },
+      "shortest": 11,
+      "minimumUnilateralAdjustments": 8,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 17,
+      "id": "T14",
+      "version": 1,
+      "title": {
+        "ja": "遠ざかる一歩",
+        "en": "A step away"
+      },
+      "shortest": 11,
+      "minimumUnilateralAdjustments": 9,
+      "requiresHomeDeparture": true,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 18,
+      "id": "T15",
+      "version": 1,
+      "title": {
+        "ja": "準備の場所",
+        "en": "A place to wait"
+      },
+      "shortest": 11,
+      "minimumUnilateralAdjustments": 6,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 19,
+      "id": "T16",
+      "version": 1,
+      "title": {
+        "ja": "ふたりでひとつの位置",
+        "en": "Think in pairs"
+      },
+      "shortest": 12,
+      "minimumUnilateralAdjustments": 7,
+      "requiresHomeDeparture": false,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 20,
+      "id": "T17",
+      "version": 1,
+      "title": {
+        "ja": "帰る前の寄り道",
+        "en": "One last detour"
+      },
+      "shortest": 13,
+      "minimumUnilateralAdjustments": 7,
+      "requiresHomeDeparture": true,
+      "initialEffectiveDirections": 3
+    },
+    {
+      "display": 21,
+      "id": "T18",
+      "version": 1,
+      "title": {
+        "ja": "おかえり",
+        "en": "Welcome home"
+      },
+      "shortest": 14,
+      "minimumUnilateralAdjustments": 8,
+      "requiresHomeDeparture": true,
+      "initialEffectiveDirections": 3
+    }
+  ]
+}

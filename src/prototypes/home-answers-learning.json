@@ -1,0 +1,134 @@
+[
+  {
+    "id": "T19",
+    "key": "T19@1",
+    "version": 1,
+    "solution": [
+      1
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "id": "T20",
+    "key": "T20@1",
+    "version": 1,
+    "solution": [
+      1,
+      1,
+      0
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            9,
+            10
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            6,
+            6
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ]
+  },
+  {
+    "id": "T21",
+    "key": "T21@1",
+    "version": 1,
+    "solution": [
+      2,
+      2,
+      3
+    ],
+    "intermediate": [
+      {
+        "after": 1,
+        "state": {
+          "positions": [
+            6,
+            10
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": false
+      },
+      {
+        "after": 2,
+        "state": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "blocked": [
+          false,
+          true
+        ],
+        "won": false
+      },
+      {
+        "after": 3,
+        "state": {
+          "positions": [
+            9,
+            9
+          ]
+        },
+        "blocked": [
+          false,
+          false
+        ],
+        "won": true
+      }
+    ]
+  }
+]

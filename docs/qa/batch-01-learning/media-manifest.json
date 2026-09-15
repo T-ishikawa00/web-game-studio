@@ -1,0 +1,122 @@
+[
+  {
+    "name": "shared-input",
+    "id": "two-ways-home",
+    "level": "T19",
+    "video": "videos/shared-input.webm",
+    "durationSeconds": 5.117999999999999,
+    "width": 432,
+    "height": 768,
+    "actions": [
+      {
+        "label": "shared swipe",
+        "seconds": 0.9319999999999999
+      },
+      {
+        "label": "both move",
+        "seconds": 2.5050000000000003
+      },
+      {
+        "label": "only one moves",
+        "seconds": 3.149
+      },
+      {
+        "label": "Undo",
+        "seconds": 4.0409999999999995
+      }
+    ],
+    "source": "Real Edge UI recording; crop only, no scaling or synthetic animation",
+    "errors": [],
+    "external": []
+  },
+  {
+    "name": "switch-latch-undo",
+    "id": "light-garden",
+    "level": "L05",
+    "video": "videos/switch-latch-undo.webm",
+    "durationSeconds": 4.681,
+    "width": 432,
+    "height": 768,
+    "actions": [
+      {
+        "label": "mirror to switch; gate opens",
+        "seconds": 0.9089999999999999
+      },
+      {
+        "label": "reroute; gate stays open",
+        "seconds": 1.936
+      },
+      {
+        "label": "Undo reroute",
+        "seconds": 2.9699999999999998
+      },
+      {
+        "label": "Undo opening",
+        "seconds": 3.598
+      }
+    ],
+    "source": "Real Edge UI recording; crop only, no scaling or synthetic animation",
+    "errors": [],
+    "external": []
+  },
+  {
+    "name": "splitter",
+    "id": "light-garden",
+    "level": "L09",
+    "video": "videos/splitter.webm",
+    "durationSeconds": 3.629,
+    "width": 432,
+    "height": 768,
+    "actions": [
+      {
+        "label": "turn mirror 1",
+        "seconds": 0.9059999999999999
+      },
+      {
+        "label": "Undo",
+        "seconds": 1.9409999999999998
+      },
+      {
+        "label": "repeat final turn",
+        "seconds": 2.569
+      }
+    ],
+    "source": "Real Edge UI recording; crop only, no scaling or synthetic animation",
+    "errors": [],
+    "external": []
+  },
+  {
+    "name": "branch-opens-gate",
+    "id": "light-garden",
+    "level": "L11",
+    "video": "videos/branch-opens-gate.webm",
+    "durationSeconds": 5.704,
+    "width": 432,
+    "height": 768,
+    "actions": [
+      {
+        "label": "turn mirror 1",
+        "seconds": 0.902
+      },
+      {
+        "label": "turn mirror 2",
+        "seconds": 1.9340000000000002
+      },
+      {
+        "label": "turn mirror 2",
+        "seconds": 2.966
+      },
+      {
+        "label": "Undo",
+        "seconds": 4
+      },
+      {
+        "label": "repeat final turn",
+        "seconds": 4.635
+      }
+    ],
+    "source": "Real Edge UI recording; crop only, no scaling or synthetic animation",
+    "errors": [],
+    "external": []
+  }
+]
