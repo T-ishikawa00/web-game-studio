@@ -1,0 +1,165 @@
+{
+  "at": "2026-09-15T07:18:27.566Z",
+  "actualModel": "gpt-6-astra",
+  "effort": "high",
+  "results": [
+    {
+      "name": "lifecycle-results.json",
+      "pass": 19,
+      "source": "fresh final check"
+    },
+    {
+      "name": "edge-results.json",
+      "pass": 4,
+      "source": "fresh final check"
+    },
+    {
+      "name": "full-run-results.json",
+      "pass": 18,
+      "source": "fresh final check"
+    },
+    {
+      "name": "regression-full-run-results.json",
+      "pass": 57,
+      "source": "fresh final check"
+    },
+    {
+      "name": "regression-input-results.json",
+      "pass": 14,
+      "source": "fresh final check"
+    },
+    {
+      "name": "regression-state-results.json",
+      "pass": 6,
+      "source": "fresh final check"
+    },
+    {
+      "name": "regression-regression-results.json",
+      "pass": 15,
+      "source": "fresh final check"
+    },
+    {
+      "name": "regression-audio-browser-results.json",
+      "pass": 26,
+      "source": "fresh final check"
+    },
+    {
+      "name": "regression-portal-browser-results.json",
+      "pass": 19,
+      "source": "fresh final check"
+    }
+  ],
+  "unitTests": 189,
+  "typeCheck": "0 errors/warnings/hints",
+  "builds": [
+    "normal",
+    "design",
+    "prototype"
+  ],
+  "routes": 7,
+  "acceptedBuildExact": true,
+  "acceptedBLoopReused": {
+    "direction": "B",
+    "status": "PASS",
+    "wallSeconds": 330.201,
+    "audioSeconds": 330.1993650793651,
+    "loopSeconds": 96,
+    "loopBoundaries": 3,
+    "singleSource": true,
+    "runtimeRecording": "audio/B-runtime-330s.webm",
+    "samples": [
+      {
+        "wallSeconds": 30.015,
+        "audioSeconds": 30.020498866213153,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 60.03,
+        "audioSeconds": 60.02068027210885,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 90.049,
+        "audioSeconds": 90.041179138322,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 120.071,
+        "audioSeconds": 120.06167800453514,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 150.089,
+        "audioSeconds": 150.07927437641723,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 180.1,
+        "audioSeconds": 180.0997732426304,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 210.112,
+        "audioSeconds": 210.09995464852608,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 240.125,
+        "audioSeconds": 240.1204535147392,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 270.167,
+        "audioSeconds": 270.16126984126987,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 300.179,
+        "audioSeconds": 300.181768707483,
+        "starts": 1
+      },
+      {
+        "wallSeconds": 330.193,
+        "audioSeconds": 330.17904761904765,
+        "starts": 1
+      }
+    ],
+    "limits": "330 seconds actual browser playback clock, not accelerated. No Human listening or physical output verdict; endpoint/seam signal measured separately."
+  },
+  "reusedEvidence": [
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/qa/layout-results.json",
+      "sha256": "bb2122c7bfafab43cc59e59f2f5184ee9ebb1c75020e56b920d4092c8d65d119"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/qa/responsive-results.json",
+      "sha256": "a00826747b0b663cf05c7d003ab39332c8f2f5215e1d12a1435e1314b102e8a9"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/qa/visual-contract-results.json",
+      "sha256": "91b2d9e455f2035684d3d9bff0ed1ad6e3047b527bd661f2fbaea8a5c9f875ca"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/qa/learning-cause-results.json",
+      "sha256": "623680ef97408686c04e1bbcd8fed09808526900c74e7c90ef996fd0dd0e1d18"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/review-results.json",
+      "sha256": "a6f6146b1075ab49eef50c5e6ce286a21fb1621359923498044d088b83bf74af"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/loop-results.json",
+      "sha256": "0336460d319f115f96ef6963ea33e5fd3619acca4aea352a63f8769d4321b42c"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/media.json",
+      "sha256": "d3797f6927bafbb2b0e20358951cccd2a587dcdb24ffca5fb2c8d4f2ba33fdc6"
+    }
+  ],
+  "humanBgm": "PASS: B selected by Human; no further polish",
+  "limits": [
+    "Synthetic visibility, not physical OS background test",
+    "Full57 automated rules/state/save verification, not Human gameplay acceptance",
+    "Remaining device/first-time/other-games/public/legal/ads gates unchanged"
+  ]
+}

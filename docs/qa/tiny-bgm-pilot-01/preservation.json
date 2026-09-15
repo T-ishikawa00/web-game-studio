@@ -1,0 +1,25 @@
+{
+  "at": "2026-09-15T04:31:33.707Z",
+  "head": "51ad2d0fe065f07876bd2bbf0410a578c3575a1f",
+  "tracking": "51ad2d0fe065f07876bd2bbf0410a578c3575a1f",
+  "indexUnchanged": true,
+  "trackedFiles": 1415,
+  "changed": [
+    "AGENTS.md",
+    "README.md",
+    "docs/games/PRODUCTION_CURRENT.md",
+    "docs/records/ASSET_REGISTER_R1.md",
+    "tests/r5-helpers.mjs"
+  ],
+  "protected": "All starting source/runtime/rules/57 puzzles/answers/Art/save/accepted motion and SFX/C baseline/old QA/known security approvals/START_HERE/Playbook byte-identical. Only listed current documentation and test base-URL option differ.",
+  "acceptedCompiledGameCssShellEqual": true,
+  "stage": 0,
+  "commit": 0,
+  "push": 0,
+  "deploy": 0,
+  "purchase": 0,
+  "externalAudioApi": 0,
+  "newContract": 0,
+  "globalSettings": 0,
+  "diffCheck": "PASS including all new text files"
+}

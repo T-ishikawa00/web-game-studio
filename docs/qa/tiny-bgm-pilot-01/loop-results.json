@@ -1,0 +1,140 @@
+{
+  "results": [
+    {
+      "direction": "D1",
+      "status": "PASS",
+      "wallSeconds": 330.149,
+      "audioSeconds": 330.1587301587301,
+      "loopSeconds": 96,
+      "loopBoundaries": 3,
+      "singleSource": true,
+      "runtimeRecording": "audio/D1-runtime-330s.webm",
+      "samples": [
+        {
+          "wallSeconds": 30.018,
+          "audioSeconds": 30.020498866213153,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 60.036,
+          "audioSeconds": 60.03809523809524,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 90.056,
+          "audioSeconds": 90.0585941043084,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 120.063,
+          "audioSeconds": 120.05877551020409,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 150.069,
+          "audioSeconds": 150.07927437641723,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 180.075,
+          "audioSeconds": 180.07945578231292,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 210.088,
+          "audioSeconds": 210.09995464852608,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 240.1,
+          "audioSeconds": 240.10013605442177,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 270.109,
+          "audioSeconds": 270.1206349206349,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 300.13,
+          "audioSeconds": 300.138231292517,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 330.144,
+          "audioSeconds": 330.1384126984127,
+          "starts": 1
+        }
+      ],
+      "limits": "330 seconds actual browser playback clock, not accelerated. No Human listening or physical output verdict; endpoint/seam signal measured separately."
+    },
+    {
+      "direction": "D2",
+      "status": "PASS",
+      "wallSeconds": 330.1,
+      "audioSeconds": 330.09777777777776,
+      "loopSeconds": 120,
+      "loopBoundaries": 2,
+      "singleSource": true,
+      "runtimeRecording": "audio/D2-runtime-330s.webm",
+      "samples": [
+        {
+          "wallSeconds": 30.009,
+          "audioSeconds": 30.020498866213153,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 60.029,
+          "audioSeconds": 60.03809523809524,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 90.033,
+          "audioSeconds": 90.03827664399094,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 120.04,
+          "audioSeconds": 120.03845804988663,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 150.046,
+          "audioSeconds": 150.0589569160998,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 180.052,
+          "audioSeconds": 180.05913832199548,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 210.065,
+          "audioSeconds": 210.07963718820864,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 240.077,
+          "audioSeconds": 240.07981859410432,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 270.086,
+          "audioSeconds": 270.10031746031746,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 300.091,
+          "audioSeconds": 300.1004988662131,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 330.097,
+          "audioSeconds": 330.09777777777776,
+          "starts": 1
+        }
+      ],
+      "limits": "330 seconds actual browser playback clock, not accelerated. No Human listening or physical output verdict; endpoint/seam signal measured separately."
+    }
+  ]
+}

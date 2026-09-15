@@ -1,0 +1,5 @@
+import {mkdir,cp,copyFile,readFile,writeFile} from 'node:fs/promises';
+for(const condition of ['A','B','C']){const root='.cache/rhythm-'+condition;await mkdir(root,{recursive:true});await cp('.tmp/rhythm-before/pilot',root,{recursive:true});await copyFile('docs/qa/tiny-d1-rhythm-01/audio/'+condition+'.wav',root+'/bgm-audio/D1.wav');}
+// Reuse the verified static server implementation, with isolated immutable conditions.
+let server=await readFile('scripts/bgm-server.mjs','utf8');server=server.replace("const review=process.argv.includes('--review'),root=projectPath(review?'docs/qa/tiny-bgm-pilot-01':'.cache/bgm-pilot'),port=review?4329:4328;","const review=process.argv.includes('--review'),condition=process.argv[2];if(!review&&!['A','B','C'].includes(condition))throw Error('Select A/B/C');const root=projectPath(review?'docs/qa/tiny-d1-rhythm-01':'.cache/rhythm-'+condition),port=review?4331:({A:4330,B:4332,C:4334})[condition];");await writeFile('scripts/rhythm-server.mjs',server);
+console.log('A/B/C builds: identical runtime, only D1.wav differs. Ports4330/4332/4334; Review4331.');

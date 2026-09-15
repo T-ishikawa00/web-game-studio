@@ -1,0 +1,22 @@
+[
+  {
+    "name": "full-run",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "input",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "state",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "regression",
+    "status": "PASS",
+    "exitCode": 0
+  }
+]

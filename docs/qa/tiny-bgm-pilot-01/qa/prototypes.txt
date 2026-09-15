@@ -1,0 +1,43 @@
+13:12:41 [types] Generated 55ms
+13:12:41 [build] output: "static"
+13:12:41 [build] mode: "static"
+13:12:41 [build] directory: C:\projects\Web Game Studio\.cache\prototype-dist\
+13:12:41 [build] Collecting build info...
+13:12:41 [build] ✓ Completed in 74ms.
+13:12:41 [build] Building static entrypoints...
+13:12:41 [vite] ✓ built in 158ms
+13:12:41 [vite] ✓ built in 30ms
+13:12:41 [build] Rearranging server assets...
+
+ generating static routes
+13:12:41   ├─ /404.html (+12ms)
+13:12:41   ├─ /ja/prototypes/index.html (+4ms)
+13:12:41   ├─ /ja/prototypes/play/light-garden/index.html (+3ms)
+13:12:41   ├─ /ja/prototypes/play/two-ways-home/index.html (+2ms)
+13:12:41   ├─ /ja/prototypes/play/tiny-delivery/index.html (+2ms)
+13:12:41   ├─ /en/prototypes/index.html (+2ms)
+13:12:41   ├─ /en/prototypes/play/light-garden/index.html (+2ms)
+13:12:41   ├─ /en/prototypes/play/two-ways-home/index.html (+2ms)
+13:12:41   ├─ /en/prototypes/play/tiny-delivery/index.html (+2ms)
+13:12:41   ├─ /ja/index.html (+3ms)
+13:12:41   ├─ /ja/games/index.html (+1ms)
+13:12:41   ├─ /ja/about/index.html (+1ms)
+13:12:41   ├─ /ja/privacy/index.html (+2ms)
+13:12:41   ├─ /ja/terms/index.html (+1ms)
+13:12:41   ├─ /ja/contact/index.html (+1ms)
+13:12:41   ├─ /ja/games/connection-lab/index.html (+1ms)
+13:12:41   ├─ /ja/play/connection-lab/index.html (+2ms)
+13:12:41   ├─ /en/index.html (+1ms)
+13:12:41   ├─ /en/games/index.html (+1ms)
+13:12:41   ├─ /en/about/index.html (+1ms)
+13:12:41   ├─ /en/privacy/index.html (+2ms)
+13:12:41   ├─ /en/terms/index.html (+1ms)
+13:12:41   ├─ /en/contact/index.html (+1ms)
+13:12:41   ├─ /en/games/connection-lab/index.html (+2ms)
+13:12:41   ├─ /en/play/connection-lab/index.html (+2ms)
+13:12:41   ├─ /index.html (+2ms)
+13:12:41 ✓ Completed in 79ms.
+
+13:12:41 [build] ✓ Completed in 300ms.
+13:12:41 [build] 26 page(s) built in 385ms
+13:12:41 [build] Complete!

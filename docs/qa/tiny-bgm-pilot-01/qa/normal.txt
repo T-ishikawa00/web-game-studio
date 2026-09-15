@@ -1,0 +1,35 @@
+13:12:37 [types] Generated 73ms
+13:12:37 [build] output: "static"
+13:12:37 [build] mode: "static"
+13:12:37 [build] directory: C:\projects\Web Game Studio\dist\
+13:12:37 [build] Collecting build info...
+13:12:37 [build] ✓ Completed in 105ms.
+13:12:37 [build] Building static entrypoints...
+13:12:37 [vite] ✓ built in 220ms
+13:12:37 [vite] ✓ built in 36ms
+13:12:37 [build] Rearranging server assets...
+
+ generating static routes
+13:12:37   ├─ /404.html (+15ms)
+13:12:37   ├─ /ja/index.html (+5ms)
+13:12:37   ├─ /ja/games/index.html (+2ms)
+13:12:37   ├─ /ja/about/index.html (+3ms)
+13:12:37   ├─ /ja/privacy/index.html (+2ms)
+13:12:37   ├─ /ja/terms/index.html (+3ms)
+13:12:37   ├─ /ja/contact/index.html (+2ms)
+13:12:37   ├─ /ja/games/connection-lab/index.html (+3ms)
+13:12:37   ├─ /ja/play/connection-lab/index.html (+4ms)
+13:12:37   ├─ /en/index.html (+3ms)
+13:12:37   ├─ /en/games/index.html (+2ms)
+13:12:37   ├─ /en/about/index.html (+2ms)
+13:12:37   ├─ /en/privacy/index.html (+2ms)
+13:12:37   ├─ /en/terms/index.html (+2ms)
+13:12:37   ├─ /en/contact/index.html (+2ms)
+13:12:37   ├─ /en/games/connection-lab/index.html (+2ms)
+13:12:37   ├─ /en/play/connection-lab/index.html (+2ms)
+13:12:37   ├─ /index.html (+3ms)
+13:12:37 ✓ Completed in 81ms.
+
+13:12:37 [build] ✓ Completed in 388ms.
+13:12:37 [build] 18 page(s) built in 505ms
+13:12:37 [build] Complete!

@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-15T07:18:27.565Z",
+  "rawScanner": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "knownCandidateOnly": true,
+  "humanDisposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED",
+  "exactFileLineFieldAndRehash": true,
+  "approvalRecordUnchanged": true,
+  "newCandidates": 0,
+  "newExceptions": 0,
+  "valuesEmitted": false,
+  "fullIndexAndHistory": "Required before commit/push; postflight receipt in .tmp/craft-r2-checkpoint/postflight.json"
+}

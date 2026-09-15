@@ -1,0 +1,3472 @@
+{
+  "results": [
+    {
+      "name": "light-garden ja 1440 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 407,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 1440 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:1",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:2",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:3",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 407,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 1440 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 277,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          },
+          {
+            "x": 697,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 1440 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 277,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          },
+          {
+            "x": 697,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 1440 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 277,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          },
+          {
+            "x": 697,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 1440 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 277,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          },
+          {
+            "x": 697,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 1440 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "arrow:1",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 407,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 1440 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "arrow:1",
+            "w": 69.890625,
+            "h": 43.671875
+          },
+          {
+            "action": "arrow:2",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "arrow:3",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "clock:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "clock:1",
+            "w": 69.890625,
+            "h": 23.828125
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 407,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 1440 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 407,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 1440 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:1",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:2",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:3",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 407,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 1440 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 277,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          },
+          {
+            "x": 697,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 1440 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 277,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          },
+          {
+            "x": 697,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 1440 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 277,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          },
+          {
+            "x": 697,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 1440 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 277,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          },
+          {
+            "x": 697,
+            "y": 74,
+            "w": 400,
+            "h": 400
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 1440 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "arrow:1",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 407,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 1440 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 1374,
+        "scroll": 1374,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "arrow:1",
+            "w": 69.890625,
+            "h": 43.671875
+          },
+          {
+            "action": "arrow:2",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "arrow:3",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "clock:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "clock:1",
+            "w": 69.890625,
+            "h": 23.828125
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 407,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 768 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 83,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 768 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:1",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:2",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:3",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 83,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 768 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 16,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          },
+          {
+            "x": 373,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 768 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 16,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          },
+          {
+            "x": 373,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 768 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 16,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          },
+          {
+            "x": 373,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 768 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 16,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          },
+          {
+            "x": 373,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 768 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "arrow:1",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 83,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 768 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "arrow:1",
+            "w": 69.890625,
+            "h": 43.671875
+          },
+          {
+            "action": "arrow:2",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "arrow:3",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "clock:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "clock:1",
+            "w": 69.890625,
+            "h": 23.828125
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 83,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 768 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 83,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 768 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:1",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:2",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "mirror:3",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 83,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 768 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 16,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          },
+          {
+            "x": 373,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 768 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 16,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          },
+          {
+            "x": 373,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 768 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 16,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          },
+          {
+            "x": 373,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 768 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 16,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          },
+          {
+            "x": 373,
+            "y": 74,
+            "w": 337,
+            "h": 337
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 768 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "arrow:1",
+            "w": 97.84375,
+            "h": 97.84375
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 83,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 768 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 726,
+        "scroll": 726,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "arrow:1",
+            "w": 69.890625,
+            "h": 43.671875
+          },
+          {
+            "action": "arrow:2",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "arrow:3",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "clock:0",
+            "w": 69.890625,
+            "h": 69.890625
+          },
+          {
+            "action": "clock:1",
+            "w": 69.890625,
+            "h": 23.828125
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 83,
+            "y": 74,
+            "w": 560,
+            "h": 560
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 390 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 59.125,
+            "h": 59.125
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 340,
+            "h": 340
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 390 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "mirror:1",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "mirror:2",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "mirror:3",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 360,
+            "h": 360
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 390 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 50,
+            "y": 66,
+            "w": 260,
+            "h": 260
+          },
+          {
+            "x": 50,
+            "y": 338,
+            "w": 260,
+            "h": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 390 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 70,
+            "y": 66,
+            "w": 220,
+            "h": 220
+          },
+          {
+            "x": 70,
+            "y": 298,
+            "w": 220,
+            "h": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 390 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 50,
+            "y": 66,
+            "w": 260,
+            "h": 260
+          },
+          {
+            "x": 50,
+            "y": 338,
+            "w": 260,
+            "h": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 390 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 70,
+            "y": 66,
+            "w": 220,
+            "h": 220
+          },
+          {
+            "x": 70,
+            "y": 298,
+            "w": 220,
+            "h": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 390 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 59.125,
+            "h": 59.125
+          },
+          {
+            "action": "arrow:1",
+            "w": 59.125,
+            "h": 59.125
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 340,
+            "h": 340
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 390 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "arrow:1",
+            "w": 44.75,
+            "h": 27.96875
+          },
+          {
+            "action": "arrow:2",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "arrow:3",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "clock:0",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "clock:1",
+            "w": 44.75,
+            "h": 15.25
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 360,
+            "h": 360
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 390 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 59.125,
+            "h": 59.125
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 340,
+            "h": 340
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 390 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "mirror:1",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "mirror:2",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "mirror:3",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 360,
+            "h": 360
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 390 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 50,
+            "y": 66,
+            "w": 260,
+            "h": 260
+          },
+          {
+            "x": 50,
+            "y": 338,
+            "w": 260,
+            "h": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 390 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 70,
+            "y": 66,
+            "w": 220,
+            "h": 220
+          },
+          {
+            "x": 70,
+            "y": 298,
+            "w": 220,
+            "h": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 390 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 50,
+            "y": 66,
+            "w": 260,
+            "h": 260
+          },
+          {
+            "x": 50,
+            "y": 338,
+            "w": 260,
+            "h": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 390 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 70,
+            "y": 66,
+            "w": 220,
+            "h": 220
+          },
+          {
+            "x": 70,
+            "y": 298,
+            "w": 220,
+            "h": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 390 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 59.125,
+            "h": 59.125
+          },
+          {
+            "action": "arrow:1",
+            "w": 59.125,
+            "h": 59.125
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 340,
+            "h": 340
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 390 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 360,
+        "scroll": 360,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "arrow:1",
+            "w": 44.75,
+            "h": 27.96875
+          },
+          {
+            "action": "arrow:2",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "arrow:3",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "clock:0",
+            "w": 44.75,
+            "h": 44.75
+          },
+          {
+            "action": "clock:1",
+            "w": 44.75,
+            "h": 15.25
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 360,
+            "h": 360
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 360 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 53.84375,
+            "h": 53.84375
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 310,
+            "h": 310
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 360 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "mirror:1",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "mirror:2",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "mirror:3",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 330,
+            "h": 330
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 360 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 50,
+            "y": 66,
+            "w": 230,
+            "h": 230
+          },
+          {
+            "x": 50,
+            "y": 308,
+            "w": 230,
+            "h": 230
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 360 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 65,
+            "y": 66,
+            "w": 200,
+            "h": 200
+          },
+          {
+            "x": 65,
+            "y": 278,
+            "w": 200,
+            "h": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 360 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 50,
+            "y": 66,
+            "w": 230,
+            "h": 230
+          },
+          {
+            "x": 50,
+            "y": 308,
+            "w": 230,
+            "h": 230
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 360 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 65,
+            "y": 66,
+            "w": 200,
+            "h": 200
+          },
+          {
+            "x": 65,
+            "y": 278,
+            "w": 200,
+            "h": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 360 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 53.84375,
+            "h": 53.84375
+          },
+          {
+            "action": "arrow:1",
+            "w": 53.84375,
+            "h": 53.84375
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 310,
+            "h": 310
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 360 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "arrow:1",
+            "w": 40.96875,
+            "h": 25.609375
+          },
+          {
+            "action": "arrow:2",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "arrow:3",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "clock:0",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "clock:1",
+            "w": 40.96875,
+            "h": 13.96875
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 330,
+            "h": 330
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 360 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 53.84375,
+            "h": 53.84375
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 310,
+            "h": 310
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 360 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "mirror:1",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "mirror:2",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "mirror:3",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 330,
+            "h": 330
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 360 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 50,
+            "y": 66,
+            "w": 230,
+            "h": 230
+          },
+          {
+            "x": 50,
+            "y": 308,
+            "w": 230,
+            "h": 230
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 360 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 65,
+            "y": 66,
+            "w": 200,
+            "h": 200
+          },
+          {
+            "x": 65,
+            "y": 278,
+            "w": 200,
+            "h": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 360 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 50,
+            "y": 66,
+            "w": 230,
+            "h": 230
+          },
+          {
+            "x": 50,
+            "y": 308,
+            "w": 230,
+            "h": 230
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 360 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 65,
+            "y": 66,
+            "w": 200,
+            "h": 200
+          },
+          {
+            "x": 65,
+            "y": 278,
+            "w": 200,
+            "h": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 360 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 53.84375,
+            "h": 53.84375
+          },
+          {
+            "action": "arrow:1",
+            "w": 53.84375,
+            "h": 53.84375
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 310,
+            "h": 310
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 360 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 330,
+        "scroll": 330,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "arrow:1",
+            "w": 40.96875,
+            "h": 25.609375
+          },
+          {
+            "action": "arrow:2",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "arrow:3",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "clock:0",
+            "w": 40.96875,
+            "h": 40.96875
+          },
+          {
+            "action": "clock:1",
+            "w": 40.96875,
+            "h": 13.96875
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 330,
+            "h": 330
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 320 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 52.09375,
+            "h": 52.09375
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 300,
+            "h": 300
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden ja 320 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "mirror:1",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "mirror:2",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "mirror:3",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 320,
+            "h": 320
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 320 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 45,
+            "y": 66,
+            "w": 230,
+            "h": 230
+          },
+          {
+            "x": 45,
+            "y": 308,
+            "w": 230,
+            "h": 230
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 320 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 60,
+            "y": 66,
+            "w": 200,
+            "h": 200
+          },
+          {
+            "x": 60,
+            "y": 278,
+            "w": 200,
+            "h": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 320 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 45,
+            "y": 66,
+            "w": 230,
+            "h": 230
+          },
+          {
+            "x": 45,
+            "y": 308,
+            "w": 230,
+            "h": 230
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home ja 320 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 60,
+            "y": 66,
+            "w": 200,
+            "h": 200
+          },
+          {
+            "x": 60,
+            "y": 278,
+            "w": 200,
+            "h": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 320 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 52.09375,
+            "h": 52.09375
+          },
+          {
+            "action": "arrow:1",
+            "w": 52.09375,
+            "h": 52.09375
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 300,
+            "h": 300
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery ja 320 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "arrow:1",
+            "w": 39.71875,
+            "h": 24.828125
+          },
+          {
+            "action": "arrow:2",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "arrow:3",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "clock:0",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "clock:1",
+            "w": 39.71875,
+            "h": 13.53125
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 320,
+            "h": 320
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 320 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 52.09375,
+            "h": 52.09375
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 300,
+            "h": 300
+          }
+        ]
+      }
+    },
+    {
+      "name": "light-garden en 320 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "mirror:0",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "mirror:1",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "mirror:2",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "mirror:3",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 320,
+            "h": 320
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 320 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 45,
+            "y": 66,
+            "w": 230,
+            "h": 230
+          },
+          {
+            "x": 45,
+            "y": 308,
+            "w": 230,
+            "h": 230
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 320 stage1 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 60,
+            "y": 66,
+            "w": 200,
+            "h": 200
+          },
+          {
+            "x": 60,
+            "y": 278,
+            "w": 200,
+            "h": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 320 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 45,
+            "y": 66,
+            "w": 230,
+            "h": 230
+          },
+          {
+            "x": 45,
+            "y": 308,
+            "w": 230,
+            "h": 230
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-ways-home en 320 stage18 buttonstrue",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "move:0",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:3",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:2",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "move:1",
+            "w": 48,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 60,
+            "y": 66,
+            "w": 200,
+            "h": 200
+          },
+          {
+            "x": 60,
+            "y": 278,
+            "w": 200,
+            "h": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 320 stage1 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 52.09375,
+            "h": 52.09375
+          },
+          {
+            "action": "arrow:1",
+            "w": 52.09375,
+            "h": 52.09375
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          },
+          {
+            "action": "close-guide",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 10,
+            "y": 66,
+            "w": 300,
+            "h": 300
+          }
+        ]
+      }
+    },
+    {
+      "name": "tiny-delivery en 320 stage18 buttonsfalse",
+      "status": "PASS",
+      "measure": {
+        "width": 320,
+        "scroll": 320,
+        "targets": [
+          {
+            "action": "arrow:0",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "arrow:1",
+            "w": 39.71875,
+            "h": 24.828125
+          },
+          {
+            "action": "arrow:2",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "arrow:3",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "clock:0",
+            "w": 39.71875,
+            "h": 39.71875
+          },
+          {
+            "action": "clock:1",
+            "w": 39.71875,
+            "h": 13.53125
+          },
+          {
+            "action": "go",
+            "w": 124,
+            "h": 44
+          },
+          {
+            "action": "menu",
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "boards": [
+          {
+            "x": 0,
+            "y": 66,
+            "w": 320,
+            "h": 320
+          }
+        ]
+      }
+    },
+    {
+      "name": "portrait 390 buttonsfalse",
+      "status": "PASS",
+      "m": {
+        "w": 360,
+        "h": 640,
+        "boxes": [
+          {
+            "cls": "board",
+            "x": 83.046875,
+            "y": 58.09375,
+            "w": 193.90625,
+            "h": 193.90625
+          },
+          {
+            "cls": "board",
+            "x": 83.046875,
+            "y": 264,
+            "w": 193.90625,
+            "h": 193.90625
+          },
+          {
+            "cls": "game-controls control-deck",
+            "x": 16,
+            "y": 576,
+            "w": 328,
+            "h": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "portrait 390 buttonstrue",
+      "status": "PASS",
+      "m": {
+        "w": 360,
+        "h": 640,
+        "boxes": [
+          {
+            "cls": "board",
+            "x": 105.546875,
+            "y": 58.09375,
+            "w": 148.90625,
+            "h": 148.90625
+          },
+          {
+            "cls": "board",
+            "x": 105.546875,
+            "y": 219,
+            "w": 148.90625,
+            "h": 148.90625
+          },
+          {
+            "cls": "dpad",
+            "x": 102,
+            "y": 438,
+            "w": 156,
+            "h": 94
+          },
+          {
+            "cls": "game-controls control-deck",
+            "x": 16,
+            "y": 576,
+            "w": 328,
+            "h": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "portrait 1440 buttonsfalse",
+      "status": "PASS",
+      "m": {
+        "w": 432,
+        "h": 768,
+        "boxes": [
+          {
+            "cls": "board",
+            "x": 87,
+            "y": 58,
+            "w": 258,
+            "h": 258
+          },
+          {
+            "cls": "board",
+            "x": 87,
+            "y": 328,
+            "w": 258,
+            "h": 258
+          },
+          {
+            "cls": "game-controls control-deck",
+            "x": 16,
+            "y": 704,
+            "w": 400,
+            "h": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "portrait 1440 buttonstrue",
+      "status": "PASS",
+      "m": {
+        "w": 432,
+        "h": 768,
+        "boxes": [
+          {
+            "cls": "board",
+            "x": 109.5,
+            "y": 58,
+            "w": 213,
+            "h": 213
+          },
+          {
+            "cls": "board",
+            "x": 109.5,
+            "y": 283,
+            "w": 213,
+            "h": 213
+          },
+          {
+            "cls": "dpad",
+            "x": 138,
+            "y": 566,
+            "w": 156,
+            "h": 94
+          },
+          {
+            "cls": "game-controls control-deck",
+            "x": 16,
+            "y": 704,
+            "w": 400,
+            "h": 48
+          }
+        ]
+      }
+    }
+  ]
+}

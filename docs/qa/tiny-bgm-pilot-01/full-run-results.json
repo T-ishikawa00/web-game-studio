@@ -1,0 +1,1150 @@
+{
+  "results": [
+    {
+      "direction": "C",
+      "id": "D01",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D01",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D01",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D02",
+      "status": "PASS",
+      "ticks": 10,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 24,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D02",
+      "status": "PASS",
+      "ticks": 10,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 24,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D02",
+      "status": "PASS",
+      "ticks": 10,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 24,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D03",
+      "status": "PASS",
+      "ticks": 5,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 14,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 22,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D03",
+      "status": "PASS",
+      "ticks": 5,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 14,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 22,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D03",
+      "status": "PASS",
+      "ticks": 5,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 14,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 22,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D04",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 15,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D04",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 15,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D04",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 15,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D05",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 5,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D05",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 5,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D05",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 5,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D06",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D06",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D06",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D07",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 16,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 9,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D07",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 16,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 9,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D07",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 16,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 9,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D08",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 45,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D08",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 45,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D08",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 45,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D09",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 17,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D09",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 17,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D09",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 17,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 32,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D10",
+      "status": "PASS",
+      "ticks": 4,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 3,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 20,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D10",
+      "status": "PASS",
+      "ticks": 4,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 3,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 20,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D10",
+      "status": "PASS",
+      "ticks": 4,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 3,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 20,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D11",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D11",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D11",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D12",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D12",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D12",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D13",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D13",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D13",
+      "status": "PASS",
+      "ticks": 7,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D14",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 10,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D14",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 10,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D14",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 10,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D15",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 15,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D15",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 15,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D15",
+      "status": "PASS",
+      "ticks": 6,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 15,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D16",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 34,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 39,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D16",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 34,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 39,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D16",
+      "status": "PASS",
+      "ticks": 8,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 34,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 39,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D17",
+      "status": "PASS",
+      "ticks": 9,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 20,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D17",
+      "status": "PASS",
+      "ticks": 9,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 20,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D17",
+      "status": "PASS",
+      "ticks": 9,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 20,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "C",
+      "id": "D18",
+      "status": "PASS",
+      "ticks": 9,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D2",
+      "id": "D18",
+      "status": "PASS",
+      "ticks": 9,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "direction": "D1",
+      "id": "D18",
+      "status": "PASS",
+      "ticks": 9,
+      "finalBots": [
+        {
+          "id": "A",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ]
+    }
+  ]
+}

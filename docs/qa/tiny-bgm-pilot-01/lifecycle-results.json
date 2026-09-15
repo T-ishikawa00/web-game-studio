@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "name": "C preserves accepted game.js/CSS bytes and creates no Music AudioContext",
+      "status": "PASS"
+    },
+    {
+      "name": "No music before trusted gesture; synthetic click cannot unlock; repeated input keeps one source",
+      "status": "PASS"
+    },
+    {
+      "name": "Independent gains and music on/off persist on same-condition reload; master mute affects both",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause/resume and repeated restart do not replay old sources; menus and clocks stop music",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic visibility hidden/return stops and requires new trusted gesture",
+      "status": "PASS"
+    },
+    {
+      "name": "Delayed decode cannot start music after pause/cancel or after newer direction selection",
+      "status": "PASS"
+    },
+    {
+      "name": "Music storage corrupt keeps original progress and reports temporary preferences",
+      "status": "PASS"
+    },
+    {
+      "name": "Music storage future keeps original progress and reports temporary preferences",
+      "status": "PASS"
+    },
+    {
+      "name": "Music storage denied keeps original progress and reports temporary preferences",
+      "status": "PASS"
+    },
+    {
+      "name": "Music storage noop keeps original progress and reports temporary preferences",
+      "status": "PASS"
+    },
+    {
+      "name": "Missing music asset gracefully leaves accepted SFX and gameplay usable",
+      "status": "PASS"
+    },
+    {
+      "name": "Music settings and accepted Motion/SFX ja auto",
+      "status": "PASS"
+    },
+    {
+      "name": "Music settings and accepted Motion/SFX ja portrait",
+      "status": "PASS"
+    },
+    {
+      "name": "Music settings and accepted Motion/SFX ja landscape",
+      "status": "PASS"
+    },
+    {
+      "name": "Music settings and accepted Motion/SFX en auto",
+      "status": "PASS"
+    },
+    {
+      "name": "Music settings and accepted Motion/SFX en portrait",
+      "status": "PASS"
+    },
+    {
+      "name": "Music settings and accepted Motion/SFX en landscape",
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden never receives music module or controls",
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home never receives music module or controls",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,3455 @@
+{
+  "results": [
+    {
+      "name": "light-garden-auto-ja-1",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 445.0625,
+          "y": 400.265625,
+          "w": 97.84375,
+          "h": 97.84375
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 214,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 264,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 1072,
+          "h": 770.9375
+        },
+        "r4": {
+          "w": 988,
+          "h": 714
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-ja-12",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 406.890625,
+          "y": 528.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 406.890625,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 592.21875,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 214,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 264,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-ja-18",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 379.609375,
+          "y": 461.90625,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 379.609375,
+          "y": 223.609375,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 617.90625,
+          "y": 223.609375,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "mirror:3",
+          "cls": "cell-control  ",
+          "x": 300.1875,
+          "y": 382.46875,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 214,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 264,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-en-1",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 445.0625,
+          "y": 400.265625,
+          "w": 97.84375,
+          "h": 97.84375
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 214,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 264,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-en-12",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 406.890625,
+          "y": 528.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 406.890625,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 592.21875,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 214,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 264,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-auto-en-18",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 379.609375,
+          "y": 461.90625,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 379.609375,
+          "y": 223.609375,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 617.90625,
+          "y": 223.609375,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "mirror:3",
+          "cls": "cell-control  ",
+          "x": 300.1875,
+          "y": 382.46875,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 214,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 264,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-ja-1",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 181.140625,
+          "y": 342.34375,
+          "w": 69.6875,
+          "h": 69.6875
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 432,
+          "h": 768
+        },
+        "r4": {
+          "w": 432,
+          "h": 768
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-ja-12",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 153.953125,
+          "y": 433.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 153.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 285.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-ja-18",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 134.53125,
+          "y": 386.25,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 134.53125,
+          "y": 216.53125,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 304.25,
+          "y": 216.53125,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "mirror:3",
+          "cls": "cell-control  ",
+          "x": 77.953125,
+          "y": 329.671875,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-en-1",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 181.140625,
+          "y": 342.34375,
+          "w": 69.6875,
+          "h": 69.6875
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-en-12",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 153.953125,
+          "y": 433.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 153.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 285.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-portrait-en-18",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 134.53125,
+          "y": 386.25,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 134.53125,
+          "y": 216.53125,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 304.25,
+          "y": 216.53125,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "mirror:3",
+          "cls": "cell-control  ",
+          "x": 77.953125,
+          "y": 329.671875,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-ja-1",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 331.40625,
+          "y": 324.203125,
+          "w": 85.171875,
+          "h": 85.171875
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 736,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 788,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 960,
+          "h": 540
+        },
+        "r4": {
+          "w": 960,
+          "h": 540
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-ja-12",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 298.171875,
+          "y": 436.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 298.171875,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 459.5,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 736,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 788,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-ja-18",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 274.421875,
+          "y": 377.859375,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 274.421875,
+          "y": 170.421875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 481.859375,
+          "y": 170.421875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "mirror:3",
+          "cls": "cell-control  ",
+          "x": 205.28125,
+          "y": 308.71875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 736,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 788,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-en-1",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 331.40625,
+          "y": 324.203125,
+          "w": 85.171875,
+          "h": 85.171875
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 736,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 788,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-en-12",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 298.171875,
+          "y": 436.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 298.171875,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 459.5,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 736,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 788,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden-landscape-en-18",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board garden",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "mirror:0",
+          "cls": "cell-control  ",
+          "x": 274.421875,
+          "y": 377.859375,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "mirror:1",
+          "cls": "cell-control  ",
+          "x": 274.421875,
+          "y": 170.421875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "mirror:2",
+          "cls": "cell-control  ",
+          "x": 481.859375,
+          "y": 170.421875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "mirror:3",
+          "cls": "cell-control  ",
+          "x": 205.28125,
+          "y": 308.71875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 736,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 788,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-ja-1",
+      "w": 988,
+      "h": 554,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 84,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "board",
+          "x": 504,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 462,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 174,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 224,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 1072,
+          "h": 643.34375
+        },
+        "r4": {
+          "w": 988,
+          "h": 554
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-ja-12",
+      "w": 988,
+      "h": 554,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 84,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "board",
+          "x": 504,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 462,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 174,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 224,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-ja-18",
+      "w": 988,
+      "h": 554,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 84,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "board",
+          "x": 504,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 462,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 174,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 224,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-en-1",
+      "w": 988,
+      "h": 554,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 84,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "board",
+          "x": 504,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 462,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 174,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 224,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-en-12",
+      "w": 988,
+      "h": 554,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 84,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "board",
+          "x": 504,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 462,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 174,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 224,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-auto-en-18",
+      "w": 988,
+      "h": 554,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 84,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "board",
+          "x": 504,
+          "y": 58,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 462,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 174,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 224,
+          "y": 508,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-ja-1",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 58,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 328,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 668,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 432,
+          "h": 768
+        },
+        "r4": {
+          "w": 432,
+          "h": 768
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-ja-12",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 58,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 328,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 668,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-ja-18",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 58,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 328,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 668,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-en-1",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 58,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 328,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 668,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-en-12",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 58,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 328,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 668,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-portrait-en-18",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 58,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "board",
+          "x": 87,
+          "y": 328,
+          "w": 258,
+          "h": 258
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 668,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 16,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 68,
+          "y": 706,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-ja-1",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 24,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "board",
+          "x": 398,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "outcome",
+          "x": 768,
+          "y": 428,
+          "w": 168,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 768,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 820,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 960,
+          "h": 540
+        },
+        "r4": {
+          "w": 960,
+          "h": 540
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-ja-12",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 24,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "board",
+          "x": 398,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "outcome",
+          "x": 768,
+          "y": 428,
+          "w": 168,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 768,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 820,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-ja-18",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 24,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "board",
+          "x": 398,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "outcome",
+          "x": 768,
+          "y": 428,
+          "w": 168,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 768,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 820,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-en-1",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 24,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "board",
+          "x": 398,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "outcome",
+          "x": 768,
+          "y": 428,
+          "w": 168,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 768,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 820,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-en-12",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 24,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "board",
+          "x": 398,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "outcome",
+          "x": 768,
+          "y": 428,
+          "w": 168,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 768,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 820,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home-landscape-en-18",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board",
+          "x": 24,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "board",
+          "x": 398,
+          "y": 91,
+          "w": 358,
+          "h": 358
+        },
+        {
+          "cls": "outcome",
+          "x": 768,
+          "y": 428,
+          "w": 168,
+          "h": 28
+        },
+        {
+          "action": "undo",
+          "cls": "control utility",
+          "x": 768,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 820,
+          "y": 444,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-ja-1",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 445.0625,
+          "y": 289.0625,
+          "w": 97.84375,
+          "h": 97.84375
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 445.0625,
+          "y": 66.671875,
+          "w": 97.84375,
+          "h": 97.84375
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 214,
+          "y": 668,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 730,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 1072,
+          "h": 795.78125
+        },
+        "r4": {
+          "w": 988,
+          "h": 714
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-ja-12",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 406.890625,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 406.890625,
+          "y": 343.546875,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control split-arrow ",
+          "x": 684.890625,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 50.953125
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 499.546875,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 314.21875,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 684.890625,
+          "y": 304.625,
+          "w": 81.53125,
+          "h": 27.796875
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 214,
+          "y": 668,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 730,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-ja-18",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 379.609375,
+          "y": 223.609375,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control split-arrow ",
+          "x": 379.609375,
+          "y": 382.46875,
+          "w": 69.890625,
+          "h": 43.671875
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control  ",
+          "x": 538.46875,
+          "y": 382.46875,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 617.90625,
+          "y": 303.046875,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 300.1875,
+          "y": 303.046875,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 379.609375,
+          "y": 428.546875,
+          "w": 69.890625,
+          "h": 23.828125
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 214,
+          "y": 668,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 730,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-en-1",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 445.0625,
+          "y": 289.0625,
+          "w": 97.84375,
+          "h": 97.84375
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 445.0625,
+          "y": 66.671875,
+          "w": 97.84375,
+          "h": 97.84375
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 214,
+          "y": 668,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 730,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-en-12",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 406.890625,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 406.890625,
+          "y": 343.546875,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control split-arrow ",
+          "x": 684.890625,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 50.953125
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 499.546875,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 314.21875,
+          "y": 250.890625,
+          "w": 81.53125,
+          "h": 81.53125
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 684.890625,
+          "y": 304.625,
+          "w": 81.53125,
+          "h": 27.796875
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 214,
+          "y": 668,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 730,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-auto-en-18",
+      "w": 988,
+      "h": 714,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 214,
+          "y": 58,
+          "w": 560,
+          "h": 560
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 379.609375,
+          "y": 223.609375,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control split-arrow ",
+          "x": 379.609375,
+          "y": 382.46875,
+          "w": 69.890625,
+          "h": 43.671875
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control  ",
+          "x": 538.46875,
+          "y": 382.46875,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 617.90625,
+          "y": 303.046875,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 300.1875,
+          "y": 303.046875,
+          "w": 69.890625,
+          "h": 69.890625
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 379.609375,
+          "y": 428.546875,
+          "w": 69.890625,
+          "h": 23.828125
+        },
+        {
+          "cls": "outcome",
+          "x": 0,
+          "y": 622,
+          "w": 988,
+          "h": 32
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 214,
+          "y": 668,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 730,
+          "y": 668,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-ja-1",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 181.140625,
+          "y": 263.140625,
+          "w": 69.6875,
+          "h": 69.6875
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 181.140625,
+          "y": 104.75,
+          "w": 69.6875,
+          "h": 69.6875
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 16,
+          "y": 682,
+          "w": 78,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 372,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 432,
+          "h": 768
+        },
+        "r4": {
+          "w": 432,
+          "h": 768
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-ja-12",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 153.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 153.953125,
+          "y": 301.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control split-arrow ",
+          "x": 351.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 36.296875
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 219.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 87.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 351.953125,
+          "y": 274.234375,
+          "w": 58.078125,
+          "h": 19.796875
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 16,
+          "y": 682,
+          "w": 78,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 372,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-ja-18",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 134.53125,
+          "y": 216.53125,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control split-arrow ",
+          "x": 134.53125,
+          "y": 329.671875,
+          "w": 49.78125,
+          "h": 31.109375
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control  ",
+          "x": 247.671875,
+          "y": 329.671875,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 304.25,
+          "y": 273.09375,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 77.953125,
+          "y": 273.09375,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 134.53125,
+          "y": 362.484375,
+          "w": 49.78125,
+          "h": 16.96875
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 16,
+          "y": 682,
+          "w": 78,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 372,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-en-1",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 181.140625,
+          "y": 263.140625,
+          "w": 69.6875,
+          "h": 69.6875
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 181.140625,
+          "y": 104.75,
+          "w": 69.6875,
+          "h": 69.6875
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 16,
+          "y": 682,
+          "w": 68.515625,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 372,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-en-12",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 153.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 153.953125,
+          "y": 301.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control split-arrow ",
+          "x": 351.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 36.296875
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 219.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 87.953125,
+          "y": 235.953125,
+          "w": 58.078125,
+          "h": 58.078125
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 351.953125,
+          "y": 274.234375,
+          "w": 58.078125,
+          "h": 19.796875
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 16,
+          "y": 682,
+          "w": 68.515625,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 372,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-portrait-en-18",
+      "w": 432,
+      "h": 768,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 16,
+          "y": 98,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 134.53125,
+          "y": 216.53125,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control split-arrow ",
+          "x": 134.53125,
+          "y": 329.671875,
+          "w": 49.78125,
+          "h": 31.109375
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control  ",
+          "x": 247.671875,
+          "y": 329.671875,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 304.25,
+          "y": 273.09375,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 77.953125,
+          "y": 273.09375,
+          "w": 49.78125,
+          "h": 49.78125
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 134.53125,
+          "y": 362.484375,
+          "w": 49.78125,
+          "h": 16.96875
+        },
+        {
+          "cls": "outcome",
+          "x": 16,
+          "y": 620,
+          "w": 400,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 16,
+          "y": 682,
+          "w": 68.515625,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 372,
+          "y": 682,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-ja-1",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 331.40625,
+          "y": 227.40625,
+          "w": 85.171875,
+          "h": 85.171875
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 331.40625,
+          "y": 33.796875,
+          "w": 85.171875,
+          "h": 85.171875
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 736,
+          "y": 446,
+          "w": 78,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 892,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "comparison": {
+        "sameBoard": true,
+        "sameLevel": true,
+        "r3": {
+          "w": 960,
+          "h": 540
+        },
+        "r4": {
+          "w": 960,
+          "h": 540
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-ja-12",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 298.171875,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 298.171875,
+          "y": 274.828125,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control split-arrow ",
+          "x": 540.171875,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 44.359375
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 378.828125,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 217.5,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 540.171875,
+          "y": 240.953125,
+          "w": 70.984375,
+          "h": 24.1875
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 736,
+          "y": 446,
+          "w": 78,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 892,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-ja-18",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 274.421875,
+          "y": 170.421875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control split-arrow ",
+          "x": 274.421875,
+          "y": 308.71875,
+          "w": 60.84375,
+          "h": 38.015625
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control  ",
+          "x": 412.71875,
+          "y": 308.71875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 481.859375,
+          "y": 239.5625,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 205.28125,
+          "y": 239.5625,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 274.421875,
+          "y": 348.8125,
+          "w": 60.84375,
+          "h": 20.734375
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 736,
+          "y": 446,
+          "w": 78,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 892,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-en-1",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 331.40625,
+          "y": 227.40625,
+          "w": 85.171875,
+          "h": 85.171875
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 331.40625,
+          "y": 33.796875,
+          "w": 85.171875,
+          "h": 85.171875
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 736,
+          "y": 446,
+          "w": 68.515625,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 892,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-en-12",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 298.171875,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control  ",
+          "x": 298.171875,
+          "y": 274.828125,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control split-arrow ",
+          "x": 540.171875,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 44.359375
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 378.828125,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 217.5,
+          "y": 194.171875,
+          "w": 70.984375,
+          "h": 70.984375
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 540.171875,
+          "y": 240.953125,
+          "w": 70.984375,
+          "h": 24.1875
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 736,
+          "y": 446,
+          "w": 68.515625,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 892,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery-landscape-en-18",
+      "w": 960,
+      "h": 540,
+      "boxes": [
+        {
+          "cls": "board town",
+          "x": 130,
+          "y": 26,
+          "w": 488,
+          "h": 488
+        },
+        {
+          "action": "arrow:0",
+          "cls": "cell-control  ",
+          "x": 274.421875,
+          "y": 170.421875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "arrow:1",
+          "cls": "cell-control split-arrow ",
+          "x": 274.421875,
+          "y": 308.71875,
+          "w": 60.84375,
+          "h": 38.015625
+        },
+        {
+          "action": "arrow:2",
+          "cls": "cell-control  ",
+          "x": 412.71875,
+          "y": 308.71875,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "arrow:3",
+          "cls": "cell-control  ",
+          "x": 481.859375,
+          "y": 239.5625,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "clock:0",
+          "cls": "cell-control  ",
+          "x": 205.28125,
+          "y": 239.5625,
+          "w": 60.84375,
+          "h": 60.84375
+        },
+        {
+          "action": "clock:1",
+          "cls": "cell-control split-clock ",
+          "x": 274.421875,
+          "y": 348.8125,
+          "w": 60.84375,
+          "h": 20.734375
+        },
+        {
+          "cls": "outcome",
+          "x": 736,
+          "y": 380,
+          "w": 200,
+          "h": 28
+        },
+        {
+          "action": "go",
+          "cls": "control primary",
+          "x": 736,
+          "y": 446,
+          "w": 68.515625,
+          "h": 44
+        },
+        {
+          "action": "menu",
+          "cls": "control utility",
+          "x": 892,
+          "y": 446,
+          "w": 44,
+          "h": 44
+        }
+      ],
+      "overflow": [],
+      "targets": [],
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

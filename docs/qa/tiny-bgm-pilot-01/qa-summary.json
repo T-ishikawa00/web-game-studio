@@ -1,0 +1,106 @@
+{
+  "at": "2026-09-15T04:31:33.708Z",
+  "actualModel": "gpt-6-astra",
+  "effort": "high",
+  "modelEvidence": "Current session turn_context",
+  "results": [
+    {
+      "suite": "lifecycle-results.json",
+      "pass": 19
+    },
+    {
+      "suite": "edge-results.json",
+      "pass": 4
+    },
+    {
+      "suite": "full-run-results.json",
+      "pass": 54
+    },
+    {
+      "suite": "loop-results.json",
+      "pass": 2
+    },
+    {
+      "suite": "full-run-results.json",
+      "pass": 57
+    },
+    {
+      "suite": "input-results.json",
+      "pass": 14
+    },
+    {
+      "suite": "state-results.json",
+      "pass": 6
+    },
+    {
+      "suite": "regression-results.json",
+      "pass": 15
+    },
+    {
+      "suite": "layout-results.json",
+      "pass": 54
+    },
+    {
+      "suite": "responsive-results.json",
+      "pass": 84
+    },
+    {
+      "suite": "visual-contract-results.json",
+      "pass": 6
+    },
+    {
+      "suite": "learning-cause-results.json",
+      "pass": 32
+    },
+    {
+      "suite": "audio-browser-results.json",
+      "pass": 26
+    },
+    {
+      "suite": "portal-browser-results.json",
+      "pass": 19
+    },
+    {
+      "suite": "review-results.json",
+      "pass": 12
+    }
+  ],
+  "unitTests": 185,
+  "typeCheck": "0 errors/warnings/hints",
+  "builds": {
+    "normal": 18,
+    "design": 62,
+    "prototype": 26
+  },
+  "routes": 7,
+  "comparison": {
+    "samePlans": true,
+    "sameInitialFinalStates": true,
+    "sameSfxCounts": true,
+    "maxDispatchLatenessMs": 16,
+    "changedOnly": "BGM condition",
+    "recording": "Actual simultaneous output graph taps, not speaker measurement"
+  },
+  "cost": {
+    "addonBytes": 8241,
+    "wavBytes": [
+      {
+        "direction": "D1",
+        "bytes": 12288044,
+        "actualDecodedBytes": 33868800
+      },
+      {
+        "direction": "D2",
+        "bytes": 15360044,
+        "actualDecodedBytes": 42336000
+      }
+    ],
+    "oneActiveSource": true
+  },
+  "limitations": [
+    "Human music/listening/fatigue/concentration acceptance PENDING",
+    "Physical device and perceptual synchronization NOT TESTED",
+    "Browser visibility test is synthetic",
+    "PCM review assets are not final compressed delivery assets"
+  ]
+}

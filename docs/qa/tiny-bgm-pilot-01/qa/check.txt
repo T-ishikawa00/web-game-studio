@@ -1,0 +1,11 @@
+13:30:04 [types] Generated 53ms
+13:30:04 [check] Getting diagnostics for Astro files in C:\projects\Web Game Studio...
+[96mscripts/bgm-evidence.mjs[0m:[93m2[0m:[93m36[0m - [93mwarning[0m[90m ts(6133): [0m'existsSync' is declared but its value is never read.
+
+[7m2[0m import {readFileSync,writeFileSync,existsSync,copyFileSync,mkdirSync,statSync} from 'node:fs';
+[7m [0m [93m                                   ~~~~~~~~~~[0m
+
+Result (166 files):
+- 0 errors
+- 0 warnings
+- 1 hint

@@ -1,0 +1,45 @@
+{
+  "measurements": [
+    {
+      "direction": "D1",
+      "seconds": 96,
+      "bpm": 80,
+      "bars": 32,
+      "notes": 128,
+      "sampleRate": 32000,
+      "channels": 2,
+      "decodedBytes": 24576000,
+      "peak": 0.25,
+      "rms": 0.03023225773421313,
+      "silenceFraction": 0.5963408203125,
+      "maxSampleDelta": 0.055589769035577774,
+      "seamDelta": 0,
+      "reverb": false,
+      "musicGain": 0.18,
+      "maxMusicGain": 0.5,
+      "maximumMusicPeak": 0.125,
+      "conservativeCombinedPeak": 0.847
+    },
+    {
+      "direction": "D2",
+      "seconds": 120,
+      "bpm": 64,
+      "bars": 32,
+      "notes": 46,
+      "sampleRate": 32000,
+      "channels": 2,
+      "decodedBytes": 30720000,
+      "peak": 0.25,
+      "rms": 0.0286795149334346,
+      "silenceFraction": 0.4997197916666667,
+      "maxSampleDelta": 0.057045064866542816,
+      "seamDelta": 0,
+      "reverb": false,
+      "musicGain": 0.18,
+      "maxMusicGain": 0.5,
+      "maximumMusicPeak": 0.125,
+      "conservativeCombinedPeak": 0.847
+    }
+  ],
+  "method": "Deterministic authored stereo PCM with equal peak cap; RMS differs by approximately 0.46 dB. This is not perceptual loudness matching. Sound direction and fatigue remain Human PENDING."
+}

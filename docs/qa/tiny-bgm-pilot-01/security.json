@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-15T04:31:33.708Z",
+  "rawScanner": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "humanDisposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED",
+  "exactExistingFileLineFieldAndRehash": true,
+  "approvalRecordUnchanged": true,
+  "newCandidates": 0,
+  "fullIndexScan": {
+    "mode": "staged",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "indexUnchanged": true,
+  "indexScope": "Read-only full existing index scan; new files are covered by all mode. No staging.",
+  "newExceptions": 0,
+  "valuesEmitted": false,
+  "providerValidation": false
+}

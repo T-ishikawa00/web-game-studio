@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "name": "Fixed C rejects music enable in UI and controller; accepted SFX still plays",
+      "status": "PASS"
+    },
+    {
+      "name": "330-second actual music captures decode; Review prevents simultaneous playback",
+      "status": "PASS",
+      "recordings": [
+        {
+          "direction": "D1",
+          "duration": 330.11997732426306,
+          "channels": 2,
+          "peak": 0.045925550162792206
+        },
+        {
+          "direction": "D2",
+          "duration": 330.05997732426306,
+          "channels": 2,
+          "peak": 0.044812001287937164
+        }
+      ],
+      "limits": "Decoded graph recordings, not Human listening or physical speaker capture"
+    }
+  ]
+}

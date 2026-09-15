@@ -1,0 +1,1654 @@
+[
+  {
+    "direction": "C",
+    "id": "D01",
+    "video": "videos/C-D01.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:1"
+      },
+      {
+        "ms": 3300,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 703
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:0",
+        "actualMs": 1357
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:0",
+        "actualMs": 2012
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:1",
+        "actualMs": 2652
+      },
+      {
+        "ms": 3300,
+        "action": "go",
+        "actualMs": 3303
+      }
+    ],
+    "maxDispatchLatenessMs": 12,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        0
+      ],
+      "wait": 0
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 6,
+      "seen": [
+        "[[\"A\",10,1,0,false]]",
+        "[[\"A\",11,1,0,false]]",
+        "[[\"A\",12,1,0,false]]",
+        "[[\"A\",7,0,0,false]]",
+        "[[\"A\",2,0,0,false]]",
+        "[[\"A\",3,1,0,false]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 6,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 4,
+            "start": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": false,
+        "direction": "D1",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "uninitialized",
+      "contextTime": 0,
+      "decodedBytes": 0,
+      "counts": {
+        "starts": 0,
+        "stops": 0,
+        "failures": 0,
+        "maxVoices": 0,
+        "staleStartsDropped": 0
+      },
+      "timeline": [],
+      "condition": "C",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 1,
+    "durationSeconds": 8.3,
+    "offset": 0.7569999999999999,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  },
+  {
+    "direction": "C",
+    "id": "D12",
+    "video": "videos/C-D12.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:1"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:2"
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:3"
+      },
+      {
+        "ms": 3300,
+        "action": "clock:0"
+      },
+      {
+        "ms": 3480,
+        "wait": 1
+      },
+      {
+        "ms": 4150,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 709
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:1",
+        "actualMs": 1365
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:2",
+        "actualMs": 2005
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:3",
+        "actualMs": 2660
+      },
+      {
+        "ms": 3300,
+        "action": "clock:0",
+        "actualMs": 3300
+      },
+      {
+        "ms": 3480,
+        "wait": 1,
+        "actualMs": 3487
+      },
+      {
+        "ms": 4150,
+        "action": "go",
+        "actualMs": 4163
+      }
+    ],
+    "maxDispatchLatenessMs": 15,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        0,
+        0
+      ]
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 7,
+      "seen": [
+        "[[\"A\",12,1,0,false],[\"B\",11,2,0,false]]",
+        "[[\"A\",13,1,1,false],[\"B\",17,2,0,false]]",
+        "[[\"A\",13,1,0,false],[\"B\",16,3,0,false]]",
+        "[[\"A\",14,1,0,false],[\"B\",15,3,0,false]]",
+        "[[\"A\",20,2,0,false],[\"B\",21,2,0,false]]",
+        "[[\"A\",21,1,0,false],[\"B\",27,2,0,true]]",
+        "[[\"A\",22,1,0,false],[\"B\",27,2,0,true]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 8,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 4,
+            "wait": 1,
+            "start": 1,
+            "arrive": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": false,
+        "direction": "D1",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "uninitialized",
+      "contextTime": 0,
+      "decodedBytes": 0,
+      "counts": {
+        "starts": 0,
+        "stops": 0,
+        "failures": 0,
+        "maxVoices": 0,
+        "staleStartsDropped": 0
+      },
+      "timeline": [],
+      "condition": "C",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 1,
+    "durationSeconds": 9.75,
+    "offset": 0.736,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  },
+  {
+    "direction": "C",
+    "id": "D18",
+    "video": "videos/C-D18.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:2"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:3"
+      },
+      {
+        "ms": 2650,
+        "action": "clock:0"
+      },
+      {
+        "ms": 2830,
+        "wait": 2
+      },
+      {
+        "ms": 3500,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 702
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:2",
+        "actualMs": 1359
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:3",
+        "actualMs": 2001
+      },
+      {
+        "ms": 2650,
+        "action": "clock:0",
+        "actualMs": 2661
+      },
+      {
+        "ms": 2830,
+        "wait": 2,
+        "actualMs": 2831
+      },
+      {
+        "ms": 3500,
+        "action": "go",
+        "actualMs": 3507
+      }
+    ],
+    "maxDispatchLatenessMs": 11,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        2,
+        1,
+        0
+      ],
+      "wait": 0,
+      "waits": [
+        0,
+        0
+      ]
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 9,
+      "seen": [
+        "[[\"A\",9,2,0,false],[\"B\",21,1,0,false]]",
+        "[[\"A\",16,2,0,false],[\"B\",22,1,2,false]]",
+        "[[\"A\",23,2,0,false],[\"B\",22,1,1,false]]",
+        "[[\"A\",30,2,0,false],[\"B\",22,1,0,false]]",
+        "[[\"A\",37,2,0,false],[\"B\",23,1,0,false]]",
+        "[[\"A\",38,1,0,false],[\"B\",24,1,0,false]]",
+        "[[\"A\",39,1,0,false],[\"B\",25,1,0,false]]",
+        "[[\"A\",32,0,0,false],[\"B\",26,1,0,false]]",
+        "[[\"A\",25,0,0,false],[\"B\",27,1,0,true]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 7,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 3,
+            "wait": 1,
+            "start": 1,
+            "arrive": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": false,
+        "direction": "D1",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "uninitialized",
+      "contextTime": 0,
+      "decodedBytes": 0,
+      "counts": {
+        "starts": 0,
+        "stops": 0,
+        "failures": 0,
+        "maxVoices": 0,
+        "staleStartsDropped": 0
+      },
+      "timeline": [],
+      "condition": "C",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 1,
+    "durationSeconds": 10.3,
+    "offset": 0.73,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  },
+  {
+    "direction": "D1",
+    "id": "D01",
+    "video": "videos/D1-D01.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:1"
+      },
+      {
+        "ms": 3300,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 708
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:0",
+        "actualMs": 1366
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:0",
+        "actualMs": 2008
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:1",
+        "actualMs": 2664
+      },
+      {
+        "ms": 3300,
+        "action": "go",
+        "actualMs": 3308
+      }
+    ],
+    "maxDispatchLatenessMs": 16,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        0
+      ],
+      "wait": 0
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 6,
+      "seen": [
+        "[[\"A\",10,1,0,false]]",
+        "[[\"A\",11,1,0,false]]",
+        "[[\"A\",12,1,0,false]]",
+        "[[\"A\",7,0,0,false]]",
+        "[[\"A\",2,0,0,false]]",
+        "[[\"A\",3,1,0,false]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 6,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 4,
+            "start": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": true,
+        "direction": "D1",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "running",
+      "contextTime": 7.540680272108844,
+      "decodedBytes": 33868800,
+      "counts": {
+        "starts": 1,
+        "stops": 1,
+        "failures": 0,
+        "maxVoices": 1,
+        "staleStartsDropped": 0
+      },
+      "timeline": [
+        {
+          "startedAt": 0.16253968253968254,
+          "direction": "D1",
+          "duration": 96
+        }
+      ],
+      "condition": "D1",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 2,
+    "durationSeconds": 8.3,
+    "offset": 0.736,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  },
+  {
+    "direction": "D1",
+    "id": "D12",
+    "video": "videos/D1-D12.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:1"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:2"
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:3"
+      },
+      {
+        "ms": 3300,
+        "action": "clock:0"
+      },
+      {
+        "ms": 3480,
+        "wait": 1
+      },
+      {
+        "ms": 4150,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 701
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:1",
+        "actualMs": 1354
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:2",
+        "actualMs": 2007
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:3",
+        "actualMs": 2661
+      },
+      {
+        "ms": 3300,
+        "action": "clock:0",
+        "actualMs": 3305
+      },
+      {
+        "ms": 3480,
+        "wait": 1,
+        "actualMs": 3493
+      },
+      {
+        "ms": 4150,
+        "action": "go",
+        "actualMs": 4163
+      }
+    ],
+    "maxDispatchLatenessMs": 13,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        0,
+        0
+      ]
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 7,
+      "seen": [
+        "[[\"A\",12,1,0,false],[\"B\",11,2,0,false]]",
+        "[[\"A\",13,1,1,false],[\"B\",17,2,0,false]]",
+        "[[\"A\",13,1,0,false],[\"B\",16,3,0,false]]",
+        "[[\"A\",14,1,0,false],[\"B\",15,3,0,false]]",
+        "[[\"A\",20,2,0,false],[\"B\",21,2,0,false]]",
+        "[[\"A\",21,1,0,false],[\"B\",27,2,0,true]]",
+        "[[\"A\",22,1,0,false],[\"B\",27,2,0,true]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 8,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 4,
+            "wait": 1,
+            "start": 1,
+            "arrive": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": true,
+        "direction": "D1",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "running",
+      "contextTime": 9.000634920634921,
+      "decodedBytes": 33868800,
+      "counts": {
+        "starts": 2,
+        "stops": 2,
+        "failures": 0,
+        "maxVoices": 1,
+        "staleStartsDropped": 0
+      },
+      "timeline": [
+        {
+          "startedAt": 0.22058956916099773,
+          "direction": "D1",
+          "duration": 96
+        },
+        {
+          "startedAt": 2.742857142857143,
+          "direction": "D1",
+          "duration": 96
+        }
+      ],
+      "condition": "D1",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 2,
+    "durationSeconds": 9.75,
+    "offset": 0.727,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  },
+  {
+    "direction": "D1",
+    "id": "D18",
+    "video": "videos/D1-D18.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:2"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:3"
+      },
+      {
+        "ms": 2650,
+        "action": "clock:0"
+      },
+      {
+        "ms": 2830,
+        "wait": 2
+      },
+      {
+        "ms": 3500,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 711
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:2",
+        "actualMs": 1364
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:3",
+        "actualMs": 2000
+      },
+      {
+        "ms": 2650,
+        "action": "clock:0",
+        "actualMs": 2656
+      },
+      {
+        "ms": 2830,
+        "wait": 2,
+        "actualMs": 2842
+      },
+      {
+        "ms": 3500,
+        "action": "go",
+        "actualMs": 3510
+      }
+    ],
+    "maxDispatchLatenessMs": 14,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        2,
+        1,
+        0
+      ],
+      "wait": 0,
+      "waits": [
+        0,
+        0
+      ]
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 9,
+      "seen": [
+        "[[\"A\",9,2,0,false],[\"B\",21,1,0,false]]",
+        "[[\"A\",16,2,0,false],[\"B\",22,1,2,false]]",
+        "[[\"A\",23,2,0,false],[\"B\",22,1,1,false]]",
+        "[[\"A\",30,2,0,false],[\"B\",22,1,0,false]]",
+        "[[\"A\",37,2,0,false],[\"B\",23,1,0,false]]",
+        "[[\"A\",38,1,0,false],[\"B\",24,1,0,false]]",
+        "[[\"A\",39,1,0,false],[\"B\",25,1,0,false]]",
+        "[[\"A\",32,0,0,false],[\"B\",26,1,0,false]]",
+        "[[\"A\",25,0,0,false],[\"B\",27,1,0,true]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 7,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 3,
+            "wait": 1,
+            "start": 1,
+            "arrive": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": true,
+        "direction": "D1",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "running",
+      "contextTime": 9.520181405895691,
+      "decodedBytes": 33868800,
+      "counts": {
+        "starts": 2,
+        "stops": 2,
+        "failures": 0,
+        "maxVoices": 1,
+        "staleStartsDropped": 0
+      },
+      "timeline": [
+        {
+          "startedAt": 0.2002721088435374,
+          "direction": "D1",
+          "duration": 96
+        },
+        {
+          "startedAt": 2.0810884353741494,
+          "direction": "D1",
+          "duration": 96
+        }
+      ],
+      "condition": "D1",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 2,
+    "durationSeconds": 10.3,
+    "offset": 0.7389999999999999,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  },
+  {
+    "direction": "D2",
+    "id": "D01",
+    "video": "videos/D2-D01.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:1"
+      },
+      {
+        "ms": 3300,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 706
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:0",
+        "actualMs": 1359
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:0",
+        "actualMs": 2001
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:1",
+        "actualMs": 2653
+      },
+      {
+        "ms": 3300,
+        "action": "go",
+        "actualMs": 3309
+      }
+    ],
+    "maxDispatchLatenessMs": 9,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        0
+      ],
+      "wait": 0
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 4,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 6,
+      "seen": [
+        "[[\"A\",10,1,0,false]]",
+        "[[\"A\",11,1,0,false]]",
+        "[[\"A\",12,1,0,false]]",
+        "[[\"A\",7,0,0,false]]",
+        "[[\"A\",2,0,0,false]]",
+        "[[\"A\",3,1,0,false]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 6,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 4,
+            "start": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": true,
+        "direction": "D2",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "running",
+      "contextTime": 7.540680272108844,
+      "decodedBytes": 42336000,
+      "counts": {
+        "starts": 1,
+        "stops": 1,
+        "failures": 0,
+        "maxVoices": 1,
+        "staleStartsDropped": 0
+      },
+      "timeline": [
+        {
+          "startedAt": 0.24090702947845805,
+          "direction": "D2",
+          "duration": 120
+        }
+      ],
+      "condition": "D2",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 2,
+    "durationSeconds": 8.3,
+    "offset": 0.7319999999999999,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  },
+  {
+    "direction": "D2",
+    "id": "D12",
+    "video": "videos/D2-D12.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:1"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:2"
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:3"
+      },
+      {
+        "ms": 3300,
+        "action": "clock:0"
+      },
+      {
+        "ms": 3480,
+        "wait": 1
+      },
+      {
+        "ms": 4150,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 702
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:1",
+        "actualMs": 1357
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:2",
+        "actualMs": 2013
+      },
+      {
+        "ms": 2650,
+        "action": "arrow:3",
+        "actualMs": 2654
+      },
+      {
+        "ms": 3300,
+        "action": "clock:0",
+        "actualMs": 3312
+      },
+      {
+        "ms": 3480,
+        "wait": 1,
+        "actualMs": 3486
+      },
+      {
+        "ms": 4150,
+        "action": "go",
+        "actualMs": 4160
+      }
+    ],
+    "maxDispatchLatenessMs": 13,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "wait": 0,
+      "waits": [
+        0,
+        0
+      ]
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 23,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 2,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 7,
+      "seen": [
+        "[[\"A\",12,1,0,false],[\"B\",11,2,0,false]]",
+        "[[\"A\",13,1,1,false],[\"B\",17,2,0,false]]",
+        "[[\"A\",13,1,0,false],[\"B\",16,3,0,false]]",
+        "[[\"A\",14,1,0,false],[\"B\",15,3,0,false]]",
+        "[[\"A\",20,2,0,false],[\"B\",21,2,0,false]]",
+        "[[\"A\",21,1,0,false],[\"B\",27,2,0,true]]",
+        "[[\"A\",22,1,0,false],[\"B\",27,2,0,true]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 8,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 4,
+            "wait": 1,
+            "start": 1,
+            "arrive": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": true,
+        "direction": "D2",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "running",
+      "contextTime": 8.98031746031746,
+      "decodedBytes": 42336000,
+      "counts": {
+        "starts": 2,
+        "stops": 2,
+        "failures": 0,
+        "maxVoices": 1,
+        "staleStartsDropped": 0
+      },
+      "timeline": [
+        {
+          "startedAt": 0.301859410430839,
+          "direction": "D2",
+          "duration": 120
+        },
+        {
+          "startedAt": 2.7022222222222223,
+          "direction": "D2",
+          "duration": 120
+        }
+      ],
+      "condition": "D2",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 2,
+    "durationSeconds": 9.75,
+    "offset": 0.732,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  },
+  {
+    "direction": "D2",
+    "id": "D18",
+    "video": "videos/D2-D18.webm",
+    "plan": [
+      {
+        "ms": 700,
+        "action": "arrow:0"
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:2"
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:3"
+      },
+      {
+        "ms": 2650,
+        "action": "clock:0"
+      },
+      {
+        "ms": 2830,
+        "wait": 2
+      },
+      {
+        "ms": 3500,
+        "action": "go"
+      }
+    ],
+    "actions": [
+      {
+        "ms": 700,
+        "action": "arrow:0",
+        "actualMs": 706
+      },
+      {
+        "ms": 1350,
+        "action": "arrow:2",
+        "actualMs": 1357
+      },
+      {
+        "ms": 2000,
+        "action": "arrow:3",
+        "actualMs": 2015
+      },
+      {
+        "ms": 2650,
+        "action": "clock:0",
+        "actualMs": 2654
+      },
+      {
+        "ms": 2830,
+        "wait": 2,
+        "actualMs": 2842
+      },
+      {
+        "ms": 3500,
+        "action": "go",
+        "actualMs": 3504
+      }
+    ],
+    "maxDispatchLatenessMs": 15,
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "capture": {
+      "width": 432,
+      "height": 768
+    },
+    "sfx": {
+      "gain": 0.35,
+      "mute": false
+    },
+    "musicGain": 0.18,
+    "initialBoard": {
+      "arrows": [
+        1,
+        2,
+        1,
+        0
+      ],
+      "wait": 0,
+      "waits": [
+        0,
+        0
+      ]
+    },
+    "result": {
+      "bots": [
+        {
+          "id": "A",
+          "p": 18,
+          "d": 0,
+          "remaining": 0,
+          "delivered": true
+        },
+        {
+          "id": "B",
+          "p": 27,
+          "d": 1,
+          "remaining": 0,
+          "delivered": true
+        }
+      ],
+      "tick": 9,
+      "seen": [
+        "[[\"A\",9,2,0,false],[\"B\",21,1,0,false]]",
+        "[[\"A\",16,2,0,false],[\"B\",22,1,2,false]]",
+        "[[\"A\",23,2,0,false],[\"B\",22,1,1,false]]",
+        "[[\"A\",30,2,0,false],[\"B\",22,1,0,false]]",
+        "[[\"A\",37,2,0,false],[\"B\",23,1,0,false]]",
+        "[[\"A\",38,1,0,false],[\"B\",24,1,0,false]]",
+        "[[\"A\",39,1,0,false],[\"B\",25,1,0,false]]",
+        "[[\"A\",32,0,0,false],[\"B\",26,1,0,false]]",
+        "[[\"A\",25,0,0,false],[\"B\",27,1,0,true]]"
+      ],
+      "status": "won"
+    },
+    "craft": {
+      "audio": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.35
+        },
+        "storageFailed": false,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 3,
+        "counts": {
+          "played": 7,
+          "dropped": 0,
+          "cancelled": 0,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 3,
+            "wait": 1,
+            "start": 1,
+            "arrive": 1,
+            "clear": 1
+          }
+        }
+      },
+      "motion": {
+        "animations": 0,
+        "ghosts": 0
+      }
+    },
+    "music": {
+      "preferences": {
+        "version": 1,
+        "enabled": true,
+        "direction": "D2",
+        "gain": 0.18
+      },
+      "storageFailed": false,
+      "available": true,
+      "pending": false,
+      "playing": false,
+      "activeSources": 0,
+      "context": "running",
+      "contextTime": 9.540498866213152,
+      "decodedBytes": 42336000,
+      "counts": {
+        "starts": 2,
+        "stops": 2,
+        "failures": 0,
+        "maxVoices": 1,
+        "staleStartsDropped": 0
+      },
+      "timeline": [
+        {
+          "startedAt": 0.24090702947845805,
+          "direction": "D2",
+          "duration": 120
+        },
+        {
+          "startedAt": 2.0810884353741494,
+          "direction": "D2",
+          "duration": 120
+        }
+      ],
+      "condition": "D2",
+      "blocked": true,
+      "visibilityVerification": "Actual browser state unless explicitly overridden by QA"
+    },
+    "audioContextsCaptured": 2,
+    "durationSeconds": 10.3,
+    "offset": 0.7330000000000001,
+    "recording": "Actual Edge gameplay + MediaRecorder tap of actual SFX and Music output graphs, merged live through capture-only AudioContext. Wall-clock mux; no reconstructed/post-dub sound. Physical/perceptual sync and listening remain Human PENDING."
+  }
+]

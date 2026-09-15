@@ -1,7 +1,7 @@
 import {chromium} from 'file:///C:/Users/PUBLIC_USER/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
 import {projectPath,projectRoot} from '../scripts/project-path.mjs';
 import path from 'node:path';
-export const base='http://127.0.0.1:4324',ids=['light-garden','two-ways-home','tiny-delivery'];
+export const base=process.env.QA_R5_BASE_URL??'http://127.0.0.1:4324',ids=['light-garden','two-ways-home','tiny-delivery'];
 export const out=projectPath(path.resolve(projectRoot,process.env.QA_R5_OUTPUT_DIR??'docs/qa/batch-01-r5'));
 export const launch=()=>chromium.launch({channel:'msedge',env:{...process.env,TEMP:projectPath(path.join(projectRoot,'.tmp')),TMP:projectPath(path.join(projectRoot,'.tmp'))}});
 export async function setup(browser,options={}){

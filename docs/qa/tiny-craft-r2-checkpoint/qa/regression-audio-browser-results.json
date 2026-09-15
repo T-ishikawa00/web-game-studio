@@ -1,0 +1,591 @@
+{
+  "results": [
+    {
+      "name": "real input unlock; accepted events only; clock same-value silent; voice cap and render silence",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "running",
+          "voices": 0,
+          "epoch": 14,
+          "counts": {
+            "played": 9,
+            "dropped": 11,
+            "cancelled": 0,
+            "failures": 0,
+            "maxVoices": 2,
+            "byEvent": {
+              "arrow": 8,
+              "wait": 1
+            }
+          }
+        },
+        "motion": {
+          "animations": 0,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "mute/gain persist through reload; old progress settings unchanged",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.2
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "running",
+          "voices": 0,
+          "epoch": 4,
+          "counts": {
+            "played": 1,
+            "dropped": 1,
+            "cancelled": 0,
+            "failures": 0,
+            "maxVoices": 1,
+            "byEvent": {
+              "arrow": 1
+            }
+          }
+        },
+        "motion": {
+          "animations": 1,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "audio storage corrupt keeps gameplay and reports honest persistence",
+      "status": "PASS",
+      "evidence": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.25
+        },
+        "storageFailed": true,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 4,
+        "counts": {
+          "played": 1,
+          "dropped": 0,
+          "cancelled": 1,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "audio storage future keeps gameplay and reports honest persistence",
+      "status": "PASS",
+      "evidence": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.25
+        },
+        "storageFailed": true,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 4,
+        "counts": {
+          "played": 1,
+          "dropped": 0,
+          "cancelled": 1,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "audio storage read-denied keeps gameplay and reports honest persistence",
+      "status": "PASS",
+      "evidence": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.25
+        },
+        "storageFailed": true,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 4,
+        "counts": {
+          "played": 1,
+          "dropped": 0,
+          "cancelled": 1,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "audio storage write-denied keeps gameplay and reports honest persistence",
+      "status": "PASS",
+      "evidence": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.25
+        },
+        "storageFailed": true,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 4,
+        "counts": {
+          "played": 1,
+          "dropped": 0,
+          "cancelled": 1,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "audio storage write-noop keeps gameplay and reports honest persistence",
+      "status": "PASS",
+      "evidence": {
+        "preferences": {
+          "version": 1,
+          "mute": false,
+          "gain": 0.25
+        },
+        "storageFailed": true,
+        "available": true,
+        "context": "running",
+        "voices": 0,
+        "epoch": 4,
+        "counts": {
+          "played": 1,
+          "dropped": 0,
+          "cancelled": 1,
+          "failures": 0,
+          "maxVoices": 1,
+          "byEvent": {
+            "arrow": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "audio unsupported falls back without changing result",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": false,
+          "context": "uninitialized",
+          "voices": 0,
+          "epoch": 3,
+          "counts": {
+            "played": 0,
+            "dropped": 6,
+            "cancelled": 0,
+            "failures": 5,
+            "maxVoices": 0,
+            "byEvent": {}
+          }
+        },
+        "motion": {
+          "animations": 1,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "audio resume-reject falls back without changing result",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": false,
+          "context": "suspended",
+          "voices": 0,
+          "epoch": 3,
+          "counts": {
+            "played": 0,
+            "dropped": 6,
+            "cancelled": 0,
+            "failures": 5,
+            "maxVoices": 0,
+            "byEvent": {}
+          }
+        },
+        "motion": {
+          "animations": 1,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "audio buffer-missing falls back without changing result",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": false,
+          "context": "running",
+          "voices": 0,
+          "epoch": 3,
+          "counts": {
+            "played": 0,
+            "dropped": 0,
+            "cancelled": 0,
+            "failures": 6,
+            "maxVoices": 0,
+            "byEvent": {}
+          }
+        },
+        "motion": {
+          "animations": 1,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "pause, resume, edit, level, step and layout cancel audio/motion without stale cues",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "running",
+          "voices": 0,
+          "epoch": 11,
+          "counts": {
+            "played": 4,
+            "dropped": 2,
+            "cancelled": 1,
+            "failures": 0,
+            "maxVoices": 2,
+            "byEvent": {
+              "arrow": 2,
+              "start": 1,
+              "undo": 1
+            }
+          }
+        },
+        "motion": {
+          "animations": 0,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "visibility lifecycle drops sound and resumes only from real gesture; synthetic hide is labelled",
+      "status": "PASS",
+      "evidence": {
+        "method": "Synthetic document.hidden/visibilitychange; physical backgrounding remains NOT TESTED",
+        "state": {
+          "audio": {
+            "preferences": {
+              "version": 1,
+              "mute": false,
+              "gain": 0.35
+            },
+            "storageFailed": false,
+            "available": true,
+            "context": "running",
+            "voices": 0,
+            "epoch": 6,
+            "counts": {
+              "played": 3,
+              "dropped": 2,
+              "cancelled": 2,
+              "failures": 0,
+              "maxVoices": 2,
+              "byEvent": {
+                "arrow": 2,
+                "start": 1
+              }
+            }
+          },
+          "motion": {
+            "animations": 1,
+            "ghosts": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "mock ad pause freezes tick and cancels sources; no startup sound on return",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "suspended",
+          "voices": 0,
+          "epoch": 4,
+          "counts": {
+            "played": 4,
+            "dropped": 1,
+            "cancelled": 0,
+            "failures": 0,
+            "maxVoices": 2,
+            "byEvent": {
+              "arrow": 2,
+              "wait": 1,
+              "start": 1
+            }
+          }
+        },
+        "motion": {
+          "animations": 2,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "terminal cue once; no replay from settings/reload; failure is one quiet bonk",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "uninitialized",
+          "voices": 0,
+          "epoch": 1,
+          "counts": {
+            "played": 0,
+            "dropped": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "maxVoices": 0,
+            "byEvent": {}
+          }
+        },
+        "motion": {
+          "animations": 0,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "all-clear signature on last uncleared stable ID, even D01; final arrival does not stack",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "running",
+          "voices": 1,
+          "epoch": 3,
+          "counts": {
+            "played": 4,
+            "dropped": 2,
+            "cancelled": 0,
+            "failures": 0,
+            "maxVoices": 2,
+            "byEvent": {
+              "arrow": 2,
+              "start": 1,
+              "complete": 1
+            }
+          }
+        },
+        "motion": {
+          "animations": 1,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "light-garden has no audio runtime and settings remain silent",
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home has no audio runtime and settings remain silent",
+      "status": "PASS"
+    },
+    {
+      "name": "identical D12 results in silent",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": true,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "uninitialized",
+          "voices": 0,
+          "epoch": 3,
+          "counts": {
+            "played": 0,
+            "dropped": 8,
+            "cancelled": 0,
+            "failures": 0,
+            "maxVoices": 0,
+            "byEvent": {}
+          }
+        },
+        "motion": {
+          "animations": 1,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "identical D12 results in sound",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "running",
+          "voices": 1,
+          "epoch": 3,
+          "counts": {
+            "played": 6,
+            "dropped": 2,
+            "cancelled": 0,
+            "failures": 0,
+            "maxVoices": 2,
+            "byEvent": {
+              "arrow": 2,
+              "wait": 1,
+              "start": 1,
+              "arrive": 1,
+              "clear": 1
+            }
+          }
+        },
+        "motion": {
+          "animations": 1,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "identical D12 results in reduced",
+      "status": "PASS",
+      "evidence": {
+        "audio": {
+          "preferences": {
+            "version": 1,
+            "mute": false,
+            "gain": 0.35
+          },
+          "storageFailed": false,
+          "available": true,
+          "context": "running",
+          "voices": 1,
+          "epoch": 5,
+          "counts": {
+            "played": 6,
+            "dropped": 2,
+            "cancelled": 0,
+            "failures": 0,
+            "maxVoices": 2,
+            "byEvent": {
+              "arrow": 2,
+              "wait": 1,
+              "start": 1,
+              "arrive": 1,
+              "clear": 1
+            }
+          }
+        },
+        "motion": {
+          "animations": 0,
+          "ghosts": 0
+        }
+      }
+    },
+    {
+      "name": "audio settings fit ja auto",
+      "status": "PASS"
+    },
+    {
+      "name": "audio settings fit ja portrait",
+      "status": "PASS"
+    },
+    {
+      "name": "audio settings fit ja landscape",
+      "status": "PASS"
+    },
+    {
+      "name": "audio settings fit en auto",
+      "status": "PASS"
+    },
+    {
+      "name": "audio settings fit en portrait",
+      "status": "PASS"
+    },
+    {
+      "name": "audio settings fit en landscape",
+      "status": "PASS"
+    }
+  ]
+}

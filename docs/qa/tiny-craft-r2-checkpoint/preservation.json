@@ -1,0 +1,51 @@
+{
+  "at": "2026-09-15T07:18:27.566Z",
+  "startingFiles": 1545,
+  "changed": [
+    "AGENTS.md",
+    "README.md",
+    "docs/games/PRODUCTION_CURRENT.md",
+    "docs/planning/GAME_PRODUCTION_SYSTEM_R1.md",
+    "docs/records/ASSET_REGISTER_R1.md"
+  ],
+  "acceptedSourceAndAllPriorEvidenceExact": true,
+  "frozenRuntimeFiles": 46,
+  "acceptedBExact": true,
+  "R1Unchanged": true,
+  "startingHead": "51ad2d0fe065f07876bd2bbf0410a578c3575a1f",
+  "startingActualRemote": "51ad2d0fe065f07876bd2bbf0410a578c3575a1f",
+  "startingIndexEmpty": true,
+  "reusedEvidence": [
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/qa/layout-results.json",
+      "sha256": "bb2122c7bfafab43cc59e59f2f5184ee9ebb1c75020e56b920d4092c8d65d119"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/qa/responsive-results.json",
+      "sha256": "a00826747b0b663cf05c7d003ab39332c8f2f5215e1d12a1435e1314b102e8a9"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/qa/visual-contract-results.json",
+      "sha256": "91b2d9e455f2035684d3d9bff0ed1ad6e3047b527bd661f2fbaea8a5c9f875ca"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/qa/learning-cause-results.json",
+      "sha256": "623680ef97408686c04e1bbcd8fed09808526900c74e7c90ef996fd0dd0e1d18"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/review-results.json",
+      "sha256": "a6f6146b1075ab49eef50c5e6ce286a21fb1621359923498044d088b83bf74af"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/loop-results.json",
+      "sha256": "0336460d319f115f96ef6963ea33e5fd3619acca4aea352a63f8769d4321b42c"
+    },
+    {
+      "file": "docs/qa/tiny-d1-rhythm-01/media.json",
+      "sha256": "d3797f6927bafbb2b0e20358951cccd2a587dcdb24ffca5fb2c8d4f2ba33fdc6"
+    }
+  ],
+  "noMediaRegenerated": true,
+  "additionalMusicVariants": 0,
+  "scope": "Only current documentation, new acceptance/build/test/evidence files. Source/score/PCM/runtime and all historical comparison evidence unchanged."
+}

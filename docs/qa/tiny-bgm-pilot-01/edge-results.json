@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "name": "Failed run stops music, releases source and preserves exactly one collision SFX",
+      "status": "PASS"
+    },
+    {
+      "name": "Mock ad pause cancels music and return has no automatic replay",
+      "status": "PASS"
+    },
+    {
+      "name": "Missing asset reports unavailable in settings and next accepted action recovers",
+      "status": "PASS"
+    },
+    {
+      "name": "Zero SFX gain keeps music independent; zero music gain keeps accepted SFX",
+      "status": "PASS"
+    }
+  ]
+}

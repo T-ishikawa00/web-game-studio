@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "name": "tabbable board retains keyboard focus after every render; sequential arrows/WASD remain usable",
+      "status": "PASS"
+    },
+    {
+      "name": "light-garden: complete snapshot, raw save/events and iframe persist through mode/menu/preference changes",
+      "status": "PASS"
+    },
+    {
+      "name": "two-ways-home: complete snapshot, raw save/events and iframe persist through mode/menu/preference changes",
+      "status": "PASS"
+    },
+    {
+      "name": "tiny-delivery: complete snapshot, raw save/events and iframe persist through mode/menu/preference changes",
+      "status": "PASS"
+    },
+    {
+      "name": "DPR2.5, CSS scale, actual iframe scroll and mode changes preserve mirror hit coordinates",
+      "status": "PASS"
+    },
+    {
+      "name": "native touch targets after live 3-mode cycle, D-pad state preserved, off-board page scroll and help scroll",
+      "status": "PASS"
+    }
+  ]
+}

@@ -56,3 +56,19 @@ AI生成は法的安全の保証ではない。ライセンス文字列の自動
 - Derived evidence: docs/qa/batch-01-r5/MATERIALS.html, screenshots, three cropped Edge recordings, and RECIPE.md. No added sound or fonts.
 - Old masters/source preserved in ignored .tmp/r5-before/src/prototypes/ and .tmp/r5-before/scripts/. Earlier R1-R4 evidence retained.
 - Rights, similarity, names and publication acceptance remain PENDING. No claim of legal clearance or commercial acceptance.
+
+## Tiny Delivery BGM Pilot 01 — 2026-09-15
+
+- Original locally authored compositions/synthesis: `src/prototypes/music-score.ts`; WAV renderer: `scripts/bgm-samples.ts`. D1 uses toy pluck/pulse/brush at 80 BPM over 96 seconds; D2 uses sparse mallet/pad harmony at 64 BPM over 120 seconds. Different scores and arrangements, not one tune recolored.
+- No external recordings, sampled instruments, copied music, audio API, purchase or service contract. Actual primary model: `gpt-6-astra`. Independent runtime/model evidence and limitations: [BGM Review](../qa/tiny-bgm-pilot-01/REPORT.md).
+- Candidate WAVs, 330-second actual browser graph recordings and nine gameplay/mixed-audio videos are in `docs/qa/tiny-bgm-pilot-01/`. The isolated pilot serves them from `.cache/bgm-pilot`; accepted C/game assets and normal/Design outputs remain unchanged.
+- C remains Human Accepted with no BGM. D1/D2 listening, repeated-listening comfort, concentration, adoption, rights and publication gates remain PENDING. Authorship provenance does not establish legal clearance or Human quality acceptance.
+
+## D1 Rhythm Review 01 — 2026-09-15
+
+- Human D1 Conditional PASS; current first choice with timing concern. New A = original D1 PCM exact, B =20 existing onset shifts, C = B tempo +3%. Original instruments, pitches, velocities, pan, waveform envelopes, normalization and mix retained. No new sampled/generated external assets.
+- Source: src/prototypes/music-rhythm.ts; renderer: scripts/rhythm-samples.ts. Review: D1 Rhythm Review（参照原本はPrivate保全・候補には非同梱）. Old C/D2 evidence untouched. B/C listening and adoption pending. Authorship does not establish rights/publication acceptance.
+
+## Tiny Craft Baseline R2 — BGM B accepted / frozen
+
+Human formally selected B (D1 Rhythm Refine /80 BPM) with accepted Motion + SFX. [Craft R2](../games/CRAFT_BASELINE_R2.md) binds the retained B.wav/score-B.json and frozen runtime; no new sound was authored for this checkpoint. Original D1/A, tempo C, D2 and no-BGM evidence remain unchanged. Earlier pending/conditional reports are historical. No further variants. Reuse process, not this song/timbre/tempo. Physical-device, other-game Audio/Motion, rights, legal/ads and public acceptance remain separate.

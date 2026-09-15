@@ -1,0 +1,129 @@
+{
+  "results": [
+    {
+      "name": "C D01 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 8.32
+    },
+    {
+      "name": "D1 D01 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 8.32
+    },
+    {
+      "name": "D2 D01 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 8.32
+    },
+    {
+      "name": "C D12 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 9.76
+    },
+    {
+      "name": "D1 D12 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 9.76
+    },
+    {
+      "name": "D2 D12 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 9.76
+    },
+    {
+      "name": "C D18 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 10.32
+    },
+    {
+      "name": "D1 D18 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 10.32
+    },
+    {
+      "name": "D2 D18 comparison video loads and switches",
+      "status": "PASS",
+      "duration": 10.32
+    },
+    {
+      "name": "Nine actual mixed output recordings contain finite nonzero unclipped signal",
+      "status": "PASS",
+      "captures": [
+        {
+          "direction": "C",
+          "id": "D01",
+          "peak": 0.06558036804199219,
+          "rms": 0.003365251376883296,
+          "duration": 7.44
+        },
+        {
+          "direction": "C",
+          "id": "D12",
+          "peak": 0.06547313928604126,
+          "rms": 0.0037734589794676757,
+          "duration": 9
+        },
+        {
+          "direction": "C",
+          "id": "D18",
+          "peak": 0.06466291844844818,
+          "rms": 0.0035432028944679624,
+          "duration": 9.54
+        },
+        {
+          "direction": "D1",
+          "id": "D01",
+          "peak": 0.07641225308179855,
+          "rms": 0.006097816822278804,
+          "duration": 7.5
+        },
+        {
+          "direction": "D1",
+          "id": "D12",
+          "peak": 0.07035931944847107,
+          "rms": 0.0067250694631907065,
+          "duration": 9
+        },
+        {
+          "direction": "D1",
+          "id": "D18",
+          "peak": 0.09857268631458282,
+          "rms": 0.006544989502568255,
+          "duration": 9.54
+        },
+        {
+          "direction": "D2",
+          "id": "D01",
+          "peak": 0.07047326862812042,
+          "rms": 0.007473893940429034,
+          "duration": 7.5
+        },
+        {
+          "direction": "D2",
+          "id": "D12",
+          "peak": 0.06648170202970505,
+          "rms": 0.00750639798221462,
+          "duration": 8.94
+        },
+        {
+          "direction": "D2",
+          "id": "D18",
+          "peak": 0.07188750803470612,
+          "rms": 0.007607378411130358,
+          "duration": 9.54
+        }
+      ],
+      "limit": "Graph capture only; decoded packed duration is not a synchronization or listening verdict."
+    },
+    {
+      "name": "Desktop/mobile Review layout and one-media-at-a-time controls",
+      "status": "PASS"
+    },
+    {
+      "name": "Loopback static server denies traversal/secret paths/writes; zero page errors/external requests",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

@@ -1,0 +1,10 @@
+import {createServer} from 'node:http';
+import {readFile,stat} from 'node:fs/promises';
+import path from 'node:path';
+import {projectPath} from './project-path.mjs';
+const review=false,root=projectPath('.cache/craft-r2'),port=4336;
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.wav':'audio/wav','.webm':'video/webm','.md':'text/plain; charset=utf-8','.txt':'text/plain; charset=utf-8'};
+createServer(async(req,res)=>{try{const url=new URL(req.url,'http://127.0.0.1'),pathname=decodeURIComponent(url.pathname);let file=path.resolve(root,'.'+(review&&pathname==='/'?'/REVIEW.html':pathname));if(!file.startsWith(root+path.sep)&&file!==root)throw Error('Outside root');if((await stat(file)).isDirectory())file=path.join(file,'index.html');if(!types[path.extname(file)]||!['GET','HEAD'].includes(req.method))throw Error('Rejected');projectPath(file);let data=await readFile(file);
+ if(!review&&pathname==='/prototype-assets/game.html'&&url.searchParams.get('game')==='tiny-delivery')data=Buffer.from(data.toString().replace('</body>','<script type="module" src="./music-pilot.js"></script></body>'));
+ res.setHeader('Content-Type',types[path.extname(file)]);res.setHeader('Cache-Control','no-store');res.setHeader('X-Content-Type-Options','nosniff');const range=/^bytes=(\d+)-(\d*)$/.exec(req.headers.range??'');if(range){const start=Number(range[1]),end=Math.min(data.length-1,range[2]?Number(range[2]):data.length-1);if(start>end||start>=data.length){res.writeHead(416);res.end();return;}res.writeHead(206,{'Content-Range':`bytes ${start}-${end}/${data.length}`,'Content-Length':end-start+1,'Accept-Ranges':'bytes'});res.end(req.method==='HEAD'?undefined:data.subarray(start,end+1));}else{res.writeHead(200,{'Content-Length':data.length,'Accept-Ranges':'bytes'});res.end(req.method==='HEAD'?undefined:data);}
+ }catch{res.writeHead(404);res.end();}}).listen(port,'127.0.0.1',()=>console.log('BGM '+(review?'Review':'Pilot')+': http://127.0.0.1:'+port+'/'));

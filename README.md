@@ -1,5 +1,7 @@
 # Web Game Studio — Portal Core R1
 
+Current accepted Tiny build: [Craft Baseline R2](docs/games/CRAFT_BASELINE_R2.md) = preserved R1 + Human Accepted BGM B (D1 Rhythm Refine /80 BPM). BGM Pilot 01 Human PASS; further tuning frozen. [Checkpoint](docs/qa/tiny-craft-r2-checkpoint/REPORT.md) / [Studio Craft learning](docs/planning/CRAFT_PIPELINE_LEARNING_R2.md). All original comparison evidence is retained; public release and remaining Human gates are separate.
+
 Current production / validation / growth standard: [Playbook R2](docs/planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md). **Tiny Delivery C: Human Craft Acceptance PASS**, adopted as [Craft Baseline R1](docs/games/CRAFT_BASELINE_R1.md). Current state and acceptance boundaries（参照原本はPrivate保全・候補には非同梱） / [final checkpoint QA](docs/qa/tiny-craft-checkpoint/REPORT.md) / [preserved A/B/C Review](docs/qa/tiny-craft-pilot-01/REPORT.md). Preserve 57 puzzles and onboarding; earlier 54-puzzle reports are historical. This PASS excludes physical phones, first-time users, full gameplay, public/legal/ads and other games' Audio/Motion.
 
 ## Previous local review: 導入と光の因果表現

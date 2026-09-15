@@ -1,0 +1,79 @@
+16:08:45 [types] Generated 45ms
+16:08:45 [build] output: "static"
+16:08:45 [build] mode: "static"
+16:08:45 [build] directory: C:\projects\Web Game Studio\.cache\visual-dist\
+16:08:45 [build] Collecting build info...
+16:08:45 [build] ✓ Completed in 63ms.
+16:08:45 [build] Building static entrypoints...
+16:08:45 [vite] ✓ built in 127ms
+16:08:45 [vite] ✓ built in 28ms
+16:08:45 [build] Rearranging server assets...
+
+ generating static routes
+16:08:45   ├─ /404.html (+9ms)
+16:08:45   ├─ /ja/design-preview/index.html (+3ms)
+16:08:45   ├─ /ja/design-preview/games/index.html (+2ms)
+16:08:45   ├─ /ja/design-preview/games/larva-evolution-lab/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/larva-evolution-lab/index.html (+2ms)
+16:08:45   ├─ /ja/design-preview/games/clockwork-repair-workshop/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/clockwork-repair-workshop/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/games/one-move-chain/index.html (+2ms)
+16:08:45   ├─ /ja/design-preview/play/one-move-chain/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/games/hidden-number-archive/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/hidden-number-archive/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/games/cable-path/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/cable-path/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/games/shape-fill-garden/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/shape-fill-garden/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/games/slime-dungeon-route/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/slime-dungeon-route/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/games/tiny-signal-factory/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/tiny-signal-factory/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/games/mirror-glyph/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/mirror-glyph/index.html (+2ms)
+16:08:45   ├─ /ja/design-preview/games/color-rail/index.html (+1ms)
+16:08:45   ├─ /ja/design-preview/play/color-rail/index.html (+1ms)
+16:08:45   ├─ /ja/index.html (+1ms)
+16:08:45   ├─ /ja/games/index.html (+1ms)
+16:08:45   ├─ /ja/about/index.html (+1ms)
+16:08:45   ├─ /ja/privacy/index.html (+2ms)
+16:08:45   ├─ /ja/terms/index.html (+1ms)
+16:08:45   ├─ /ja/contact/index.html (+1ms)
+16:08:45   ├─ /ja/games/connection-lab/index.html (+1ms)
+16:08:45   ├─ /ja/play/connection-lab/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/index.html (+2ms)
+16:08:45   ├─ /en/design-preview/games/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/larva-evolution-lab/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/larva-evolution-lab/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/clockwork-repair-workshop/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/clockwork-repair-workshop/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/one-move-chain/index.html (+2ms)
+16:08:45   ├─ /en/design-preview/play/one-move-chain/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/hidden-number-archive/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/hidden-number-archive/index.html (+2ms)
+16:08:45   ├─ /en/design-preview/games/cable-path/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/cable-path/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/shape-fill-garden/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/shape-fill-garden/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/slime-dungeon-route/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/slime-dungeon-route/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/tiny-signal-factory/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/tiny-signal-factory/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/mirror-glyph/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/mirror-glyph/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/games/color-rail/index.html (+1ms)
+16:08:45   ├─ /en/design-preview/play/color-rail/index.html (+1ms)
+16:08:45   ├─ /en/index.html (+1ms)
+16:08:45   ├─ /en/games/index.html (+1ms)
+16:08:45   ├─ /en/about/index.html (+1ms)
+16:08:45   ├─ /en/privacy/index.html (+2ms)
+16:08:45   ├─ /en/terms/index.html (+1ms)
+16:08:45   ├─ /en/contact/index.html (+1ms)
+16:08:45   ├─ /en/games/connection-lab/index.html (+1ms)
+16:08:45   ├─ /en/play/connection-lab/index.html (+1ms)
+16:08:45   ├─ /index.html (+2ms)
+16:08:45 ✓ Completed in 95ms.
+
+16:08:45 [build] ✓ Completed in 278ms.
+16:08:45 [build] 62 page(s) built in 356ms
+16:08:45 [build] Complete!

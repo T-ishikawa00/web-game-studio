@@ -1,0 +1,15 @@
+✔ normal and design outputs contain no prototype routes, code, artwork or solutions (62.6818ms)
+✔ prototype output contains 8 localized routes, runtime and art; no answer dataset or design sample assets (85.2606ms)
+✔ production HTML: 16 locale routes, metadata and every local link/asset resolves (123.139ms)
+✔ root, unknown path, legal drafts and fixture assets (11.6735ms)
+✔ runtime source includes no external service transport and fixture assets stay small (2.4837ms)
+✔ normal output excludes design routes, sample metadata and temporary artwork (13.318ms)
+✔ explicit design build has 10 separate samples per locale, with no fabricated runtime (3.6023ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 257.0145
