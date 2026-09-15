@@ -1,0 +1,42 @@
+{
+  "at": "2026-09-15T21:53:40.857Z",
+  "head": "440b1b133a6863cd3d9e8b8f894bc4f581ae89a1",
+  "originMain": "440b1b133a6863cd3d9e8b8f894bc4f581ae89a1",
+  "remoteMain": "440b1b133a6863cd3d9e8b8f894bc4f581ae89a1",
+  "match": true,
+  "commitCount": 1,
+  "push": "normal fast-forward",
+  "files": 141,
+  "raw": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "index": {
+    "mode": "staged",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "history": {
+    "mode": "history",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "secretPathInIndexOrHistory": false,
+  "privateRepoConfirmed": true,
+  "phase2StageCommitPushAllowed": false
+}

@@ -1,0 +1,26 @@
+{
+  "at": "2026-09-15T22:34:25.783Z",
+  "raw": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "knownDispositionsOnly": true,
+  "newCandidates": 0,
+  "index": "Required before commit; hook also runs full index",
+  "history": "Required after commit before push",
+  "identityEvidence": "verification.json",
+  "noScannerChanges": true
+}

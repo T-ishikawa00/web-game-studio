@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-15T22:34:01.985Z",
+  "preservation": {
+    "initialFiles": 1783,
+    "changedExisting": [
+      "AGENTS.md",
+      "docs/games/PRODUCTION_CURRENT.md"
+    ],
+    "othersUnchanged": true
+  },
+  "reproduction": {
+    "at": "2026-09-15T22:32:45.195Z",
+    "status": "PASS",
+    "files": 44,
+    "profile": "TW-C / improved Motion + dedicated SFX / no BGM"
+  },
+  "retainedFrozen": {
+    "tiny": 46,
+    "lightwork": 48,
+    "status": "PASS"
+  },
+  "securityIdentity": {
+    "shaExactLocalAndHistoricalOrigin": true,
+    "shaCredentialUseAbsent": true,
+    "tlsIgnored": true,
+    "tlsIndexAndHistoryPathAbsent": true,
+    "tlsBytesAbsentFromTrackedAndCandidates": true,
+    "noValuesEmitted": true
+  },
+  "qaReuse": {
+    "reason": "Accepted source, dependencies and runtime unchanged; only freeze documentation/reproducer added",
+    "reference": "../twoways-craft-pilot-01/qa.json",
+    "unit": 209,
+    "browser": 17,
+    "edge": 5,
+    "input": 7,
+    "review": 22
+  }
+}

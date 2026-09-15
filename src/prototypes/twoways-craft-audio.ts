@@ -1,0 +1,27 @@
+// Lifecycle mechanics adapted from the accepted scheduler; Two Ways owns sound, cues and preferences.
+import {synthesizeTwSound,TW_SOUND_SPECS,type TwSoundId} from './twoways-craft-sound';
+import type {TwCue} from './twoways-craft-plan';
+export const twAudioKey='wgs:audio:two-ways-home';
+interface Preferences {version:1;mute:boolean;gain:number}
+export const validTwAudio=(v:unknown):v is Preferences=>{if(!v||typeof v!=='object'||Array.isArray(v))return false;const r=v as Record<string,unknown>;return Object.keys(r).sort().join(',')==='gain,mute,version'&&r.version===1&&typeof r.mute==='boolean'&&typeof r.gain==='number'&&Number.isFinite(r.gain)&&r.gain>=0&&r.gain<=1;};
+export function createTwAudio(){
+ let preferences:Preferences={version:1,mute:false,gain:.55},storageFailed=false,writable=true,available=true,context:AudioContext|undefined,ready:Promise<void>|undefined,epoch=0,wantsRunning=false;
+ const counts={scheduled:0,cancelled:0,dropped:0,failures:0,maxConcurrent:0,maxScheduled:0};
+ const log:{id:TwSoundId;at:number;start:number;epoch:number}[]=[],buffers=new Map<TwSoundId,AudioBuffer>();
+ type Voice={source:AudioBufferSourceNode;gain:GainNode;start:number;end:number};const voices=new Set<Voice>();
+ try{const raw=localStorage.getItem(twAudioKey);if(raw!==null){const v:unknown=JSON.parse(raw);if(!validTwAudio(v))throw Error();preferences=v;}}catch{storageFailed=true;writable=false;preferences.gain=.35;}
+ function retire(v:Voice){voices.delete(v);try{v.source.disconnect();}catch{}try{v.gain.disconnect();}catch{}}
+ function cancel(suspend=false){epoch++;if(suspend)wantsRunning=false;const now=context?.currentTime??0;for(const v of voices){counts.cancelled++;try{if(suspend||v.start>now){v.source.stop();retire(v);}else{v.gain.gain.cancelScheduledValues(now);v.gain.gain.setValueAtTime(v.gain.gain.value,now);v.gain.gain.linearRampToValueAtTime(0,now+.008);v.end=Math.min(v.end,now+.009);v.source.stop(v.end);}}catch{retire(v);}}if(suspend&&context&&context.state!=='closed')void context.suspend().catch(()=>{});}
+ function unlock(event:Event){if(!event.isTrusted||document.hidden||preferences.mute||preferences.gain===0)return;wantsRunning=true;try{context??=new AudioContext({latencyHint:'interactive'});if(context.state==='closed'){available=false;return;}if(context.state!=='running')ready=context.resume().then(()=>{if(!wantsRunning||document.hidden){void context?.suspend().catch(()=>{});return;}available=true;}).catch(()=>{available=false;counts.failures++;});else ready=Promise.resolve();}catch{available=false;counts.failures++;}}
+ function schedule(cues:TwCue[],origin:number){const generation=epoch;if(!context||preferences.mute||preferences.gain===0||document.hidden){counts.dropped+=cues.length;return;}
+  const play=()=>{if(generation!==epoch||document.hidden||preferences.mute)return;const elapsed=performance.now()-origin;if(elapsed>90){counts.dropped+=cues.length;return;}if(!context||context.state!=='running'){available=false;counts.dropped+=cues.length;return;}const ctx=context,anchor=ctx.currentTime-elapsed/1000;
+   for(const cue of cues.slice(0,16)){let source:AudioBufferSourceNode|undefined,gain:GainNode|undefined,voice:Voice|undefined;try{const spec=TW_SOUND_SPECS[cue.id],start=Math.max(ctx.currentTime+.010,anchor+cue.at/1000),end=start+spec.durationMs/1000;
+    const overlap=[...voices].filter(v=>v.start<end&&v.end>start);const points=[start,...overlap.map(v=>Math.max(start,v.start))];const concurrent=Math.max(...points.map(t=>1+overlap.filter(v=>v.start<=t&&v.end>t).length));if(concurrent>3){counts.dropped++;continue;}
+    let buffer=buffers.get(cue.id);if(!buffer){const pcm=synthesizeTwSound(cue.id,ctx.sampleRate);buffer=ctx.createBuffer(1,pcm.length,ctx.sampleRate);buffer.copyToChannel(new Float32Array(pcm),0);buffers.set(cue.id,buffer);}
+    source=ctx.createBufferSource();gain=ctx.createGain();source.buffer=buffer;gain.gain.value=preferences.gain*spec.gain;source.connect(gain);gain.connect(ctx.destination);const v={source,gain,start,end};voice=v;voices.add(v);source.onended=()=>retire(v);source.start(start);available=true;counts.scheduled++;counts.maxConcurrent=Math.max(counts.maxConcurrent,concurrent);counts.maxScheduled=Math.max(counts.maxScheduled,voices.size);log.push({id:cue.id,at:cue.at,start,epoch:generation});if(log.length>80)log.shift();
+   }catch{if(voice)voices.delete(voice);try{source?.stop();}catch{}try{source?.disconnect();}catch{}try{gain?.disconnect();}catch{}available=false;counts.failures++;}}
+  };if(context.state==='running')play();else void ready?.then(play);
+ }
+ function set(next:{mute:boolean;gain:number}){const v={version:1 as const,...next};if(!validTwAudio(v))return;cancel(true);preferences=v;if(!writable){storageFailed=true;return;}try{const raw=JSON.stringify(v);localStorage.setItem(twAudioKey,raw);if(localStorage.getItem(twAudioKey)!==raw)throw Error();storageFailed=false;}catch{storageFailed=true;}}
+ return {unlock,schedule,cancel,set,get preferences(){return {...preferences};},get available(){return available;},get storageFailed(){return storageFailed;},snapshot:()=>({preferences:{...preferences},available,storageFailed,context:context?.state??'uninitialized',epoch,voices:voices.size,buffers:buffers.size,counts:{...counts},log:[...log]})};
+}

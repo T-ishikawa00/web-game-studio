@@ -1,0 +1,432 @@
+{
+  "accepted": "TW-C / improved Motion + dedicated SFX / no BGM",
+  "humanAcceptance": "Craft only",
+  "files": [
+    {
+      "file": "404.html",
+      "hash": "1b83f6f3711e4740285d6376cc847553a75c54dd0eb9fac0df293a569fadd8b1"
+    },
+    {
+      "file": "covers/connection-lab.svg",
+      "hash": "101e2e4fbc44a6eb282689319f8f6d6d82967c6374ee2f9c3f0bbe1c7370e09f"
+    },
+    {
+      "file": "en/about/index.html",
+      "hash": "a214383e2489cfc73a322d36899a792c9f08934601ba9bf3d203bafb490bdd96"
+    },
+    {
+      "file": "en/contact/index.html",
+      "hash": "ff797c6631467b23effc959830b5ba2659f2a0311999baf77c80a1123ebebd89"
+    },
+    {
+      "file": "en/games/connection-lab/index.html",
+      "hash": "8f005dc9e6a6ee3ff33aa72a2e7b6f4925621375389b19b13a2ab776ad4f832f"
+    },
+    {
+      "file": "en/games/index.html",
+      "hash": "ef6259726cc339ee45e6a01e2cba8a2ae2ed516b40fb6b32e02a5eb0b4cf376c"
+    },
+    {
+      "file": "en/index.html",
+      "hash": "94864a3259bbcd5a99f93287043a6b686dc33591b8da3725a60e8b202f20f525"
+    },
+    {
+      "file": "en/play/connection-lab/index.html",
+      "hash": "8a429a16c8d9047a4b8462ef11ee533dbe8e223bca0c462ec0e33e5c45852355"
+    },
+    {
+      "file": "en/privacy/index.html",
+      "hash": "552ba03343c6dea7feefe26583db359157efa0686e4d3610126753cc805c8a5e"
+    },
+    {
+      "file": "en/prototypes/index.html",
+      "hash": "1f3205bde68e7e65c810799f8895d09bcebf75246ac2d6b15c5407437c2f4c9e"
+    },
+    {
+      "file": "en/prototypes/play/light-garden/index.html",
+      "hash": "d6fb1717d0825782c08abf1e0d39223d7a640a920cfaecd5820f4db0cfdc1263"
+    },
+    {
+      "file": "en/prototypes/play/tiny-delivery/index.html",
+      "hash": "97db4b7fe98a1b4be8e21aaa81d4bd3969c61fce2968c887c76eb777b81163fd"
+    },
+    {
+      "file": "en/prototypes/play/two-ways-home/index.html",
+      "hash": "8dc80ad6060a8d1d064c17eeed47aa94ccd8d34ddd9eb258932f6686826964d2"
+    },
+    {
+      "file": "en/terms/index.html",
+      "hash": "da5a9ea0d18ab3b78066882f3c0a78b5c12184bc82d8e4a349bcc804f36d82f8"
+    },
+    {
+      "file": "favicon.svg",
+      "hash": "51e6ef1f709fee0ca4087f420c5415054c56796e17dba128368c21503065ef44"
+    },
+    {
+      "file": "games/connection-lab/v0.1.0/fixture.css",
+      "hash": "8b4e4c5fa75a9d86a7472074de8bf1501251c07d6444629899d217bc9ded155b"
+    },
+    {
+      "file": "games/connection-lab/v0.1.0/fixture.js",
+      "hash": "707e61ef439d186eb2ace594b61ef741f3f220dee7a5337002d95cdaed534279"
+    },
+    {
+      "file": "games/connection-lab/v0.1.0/index.html",
+      "hash": "364270aa4c3bf6d8e90f42a2163c632d9f3766ae9935293e5d6d32a4a497b1dc"
+    },
+    {
+      "file": "index.html",
+      "hash": "e17c4772d86525801b2b624b463979122fa04ff736fbd0d7398c2e9853ac6841"
+    },
+    {
+      "file": "ja/about/index.html",
+      "hash": "446f372217c286917aa1a047385e0b05a1b9be27b410e0914310c979e38470db"
+    },
+    {
+      "file": "ja/contact/index.html",
+      "hash": "1235808c1f1014e9d95d2c5275f2a797223e84544e4081c42ee1761dd453b6a6"
+    },
+    {
+      "file": "ja/games/connection-lab/index.html",
+      "hash": "f9df45b9a1237312386500b57cfaf317b38f85f8380fb37b7e7d654b2e2901e3"
+    },
+    {
+      "file": "ja/games/index.html",
+      "hash": "db233102ad050804a2a069e0d12d37a886a63f629d826e46b7641899b4526ff2"
+    },
+    {
+      "file": "ja/index.html",
+      "hash": "e115610c51177e2f887432558ca7ba98360d5a8b3f67474d8c958fbe0ce09c89"
+    },
+    {
+      "file": "ja/play/connection-lab/index.html",
+      "hash": "039d285c3c4be099273374d52af1ae44bb37583914d95a6c5eeb49ec1379c50b"
+    },
+    {
+      "file": "ja/privacy/index.html",
+      "hash": "4dc95326b1d0e466e82789dfe9b26d6a8f9052a50ebc0953f17d3410245ff3d5"
+    },
+    {
+      "file": "ja/prototypes/index.html",
+      "hash": "f4df5f2f1207091ab8d46a96742fbc2d81830f788daea814b366319f0d68e8ea"
+    },
+    {
+      "file": "ja/prototypes/play/light-garden/index.html",
+      "hash": "cb10b863059f58c8ce2aa2dd957384615aa52120105242b461eb170ea3b172dc"
+    },
+    {
+      "file": "ja/prototypes/play/tiny-delivery/index.html",
+      "hash": "272ac82454e9862e018d245818c392beff2e321e6ab26778b57bd3620d2a2b46"
+    },
+    {
+      "file": "ja/prototypes/play/two-ways-home/index.html",
+      "hash": "a3e82cd7d5421fa7b46a6c0c668536a8b9d3ed670c82751ca8948a6604338c1f"
+    },
+    {
+      "file": "ja/terms/index.html",
+      "hash": "9fcf0f230c1862412266701b5946d262347f5b909a09d21ea7f3f76d7cc54f52"
+    },
+    {
+      "file": "prototype-assets/game.css",
+      "hash": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e"
+    },
+    {
+      "file": "prototype-assets/game.html",
+      "hash": "40a1c8f2a1de75cc92b24c9825064141833c4729f7ba6268857fb534a5fa638e"
+    },
+    {
+      "file": "prototype-assets/game.js",
+      "hash": "40e9b8a213ab3c2d5fde75aea3bb2b1de94a9c94542b1f5c87f4cb2a8f1fd7a8"
+    },
+    {
+      "file": "prototype-assets/light-garden.svg",
+      "hash": "62f38dd39b65d1404d8bf9f8004a36fcf9b445db07307572007172c4cca831e8"
+    },
+    {
+      "file": "prototype-assets/shell.js",
+      "hash": "1c317059565c3ff0c591715ec4c150fd740502e2efdf208412422d88d5b84e6f"
+    },
+    {
+      "file": "prototype-assets/tiny-delivery.svg",
+      "hash": "422950d303fa67291956d09b70f4a120187c521afdb0669a23882c281c39f649"
+    },
+    {
+      "file": "prototype-assets/two-ways-home.svg",
+      "hash": "475102227870a51a38084193003008bdc2e03951e266b3995a0936e0781088c0"
+    },
+    {
+      "file": "prototype-assets/twoways.js",
+      "hash": "b0ca54d877007614976db01607880ddb95aa91757b0382affed5ab0819343207"
+    },
+    {
+      "file": "robots.txt",
+      "hash": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "file": "_astro/analytics.BExKe1UN.js",
+      "hash": "c0f68685a76a17f0b0331c481c0da742aadc8ee5c4db855e7df02a0fe7b798a8"
+    },
+    {
+      "file": "_astro/Layout.astro_astro_type_script_index_0_lang.CuWcpAJb.js",
+      "hash": "47ca963c6eda4dff7447ca226bf07cc0867753d70e6b3a441ae302d413cc8418"
+    },
+    {
+      "file": "_astro/Layout.DYsCu4Pf.css",
+      "hash": "e822e54cbe591a379157f6056162987b9f5230b098faab7e0863773ba6f1f802"
+    },
+    {
+      "file": "_astro/PlayShell.astro_astro_type_script_index_0_lang.CYnNif27.js",
+      "hash": "fa2327d9b39034f8b766e3734d6ef8bffe7e308181dbf37d64e8525bff3be59b"
+    }
+  ],
+  "sources": [
+    {
+      "file": "scripts/light-object-build.mjs",
+      "normalizedTextHash": "7019d5ceb8cb4a8287b014223bcc26eb4e9872a45c10b5fd50a7164667c5f28a"
+    },
+    {
+      "file": "scripts/light-polish-build.mjs",
+      "normalizedTextHash": "fd595e5e5505a584e3117ea247945e87868ab213ae4c1295b52e072d887ef336"
+    },
+    {
+      "file": "scripts/light-polish-server.mjs",
+      "normalizedTextHash": "bb411d88ce127b383e7546d3e5231e7a88b0cc12e1982ac6bb7a61e53c6bf44b"
+    },
+    {
+      "file": "scripts/lightwork-build.mjs",
+      "normalizedTextHash": "0984044ae7e71bcdd67b75eb4978ce3588e4d09adebc6e7e0f2cd116eddb3877"
+    },
+    {
+      "file": "scripts/prototype-assets.mjs",
+      "normalizedTextHash": "ce96e566428e89ca2aaa0c69bc3481717a3896001edad21712d90261dfdca596"
+    },
+    {
+      "file": "scripts/twoways-build.mjs",
+      "normalizedTextHash": "3a6f88840eb02f5d9944e6cb70f6f5e4345892e5885a241ec73cb77d956dc6ea"
+    },
+    {
+      "file": "scripts/twoways-server.mjs",
+      "normalizedTextHash": "fe2fd67d474937a879c162614bb2a2165b9b78f27262249928e0afb63a6441bd"
+    },
+    {
+      "file": "src/prototypes/art.ts",
+      "normalizedTextHash": "62c16ecdb5d91dc142838840c0554465209562170a5bc5a5d3714bf1552f56be"
+    },
+    {
+      "file": "src/prototypes/board-view.ts",
+      "normalizedTextHash": "58da1860a17267c757e4e6aba836232123664ea430ee4be9d2cc5e7e2fbfdd47"
+    },
+    {
+      "file": "src/prototypes/catalog.ts",
+      "normalizedTextHash": "89ba9b149749b1696dc46367b3cd60ff9a653490bf47b95886153a97de4d2873"
+    },
+    {
+      "file": "src/prototypes/controls.ts",
+      "normalizedTextHash": "35d6385ee48e62e1d4003d06084c66858de58a98d21a836013b5f2a5efa9f9f1"
+    },
+    {
+      "file": "src/prototypes/craft-audio.ts",
+      "normalizedTextHash": "66af2d400073d0b2851865a4ab148a7d4ef848cd07fe6a9d2410461ddb012eb6"
+    },
+    {
+      "file": "src/prototypes/craft-motion.ts",
+      "normalizedTextHash": "68ad07d13cfa8d15f068f62dd53872ae60b4d0f562e01955a5a4cb709cb39e14"
+    },
+    {
+      "file": "src/prototypes/craft-sound.ts",
+      "normalizedTextHash": "58c519c3f1b4f07960ddba09679a64598e007f5a2c4b55568fe9ffb6e61981e1"
+    },
+    {
+      "file": "src/prototypes/delivery-answers-r2.json",
+      "normalizedTextHash": "6ffd0ffc1a567fd3863c2846ffdf79dbcc5ce7693caad3778f64ba19c0ea7c1f"
+    },
+    {
+      "file": "src/prototypes/delivery-levels-r2.ts",
+      "normalizedTextHash": "cebcdd6629fb8a2c69cb88fcc8faba79047e07e9fb44ddc7eb4393039850bc8f"
+    },
+    {
+      "file": "src/prototypes/delivery-r2.ts",
+      "normalizedTextHash": "2ffb4e04eb86aaeb4eaa9be8d9391e606a6a3a1b2ee782242354c2c99a0f96aa"
+    },
+    {
+      "file": "src/prototypes/direct-input.ts",
+      "normalizedTextHash": "d0f69fcb79e670899acbaeb90ba9c2c209c9bb7919751e9c97cf814114f7454d"
+    },
+    {
+      "file": "src/prototypes/game-r2.css",
+      "normalizedTextHash": "f9413f58916bed53343426a8e292034d7e8db9268ff790b88e1438b4492e47f8"
+    },
+    {
+      "file": "src/prototypes/game-r2.ts",
+      "normalizedTextHash": "01877c577efe669047f8c4348781bc6c4781f3317bf15555cf1ee7da837b4918"
+    },
+    {
+      "file": "src/prototypes/game-r3.css",
+      "normalizedTextHash": "7da3fcdd24f2e2eded4913f8c550f73c02b9a99f648e8f034ede46adf27b5f45"
+    },
+    {
+      "file": "src/prototypes/game-r4.css",
+      "normalizedTextHash": "ac81991e5cab8c3c02bae5cf20e6cb5bf4caee21dde04c6a3421da42ba3d0e6e"
+    },
+    {
+      "file": "src/prototypes/game-r5.css",
+      "normalizedTextHash": "8e18eff6ca28dc5f40356b61d0dc0a41fbb52b8b6309acb4732d0649838f40fa"
+    },
+    {
+      "file": "src/prototypes/game.css",
+      "normalizedTextHash": "b6484f6a70f28af5fe2a244812d6b78e6e8d66db5944f0ead128e22a31ce68d9"
+    },
+    {
+      "file": "src/prototypes/game.ts",
+      "normalizedTextHash": "4fb2db7ca4df691ff795b8c12f2148ad0ae8fb4d69caf87495248f3bf2913060"
+    },
+    {
+      "file": "src/prototypes/guides.ts",
+      "normalizedTextHash": "7e7f8784f3a6a81da52cb95f8e4374cd3f1ac16f9e337a3a26890b6cf8030597"
+    },
+    {
+      "file": "src/prototypes/home-answers-learning.json",
+      "normalizedTextHash": "f6f13baaedb7f7a6c82caea10600cecd388251f9c477c3dbe754ac4484ce2e20"
+    },
+    {
+      "file": "src/prototypes/home-answers-r2.json",
+      "normalizedTextHash": "e2ad5dd4f68240a12bcb4aab15e0a1c952a3f0cafe62760745308b6f8cfbda28"
+    },
+    {
+      "file": "src/prototypes/home-levels-learning.ts",
+      "normalizedTextHash": "8028366d73bf36ef1886d51a38662f0b9deed97683a97a8fcc40431a892edb87"
+    },
+    {
+      "file": "src/prototypes/home-levels-r2.ts",
+      "normalizedTextHash": "7e9ebc2d49e769c38c605151bf12d6a8b086e52a762bba3ff48d0f4772ba39a7"
+    },
+    {
+      "file": "src/prototypes/level-answers.json",
+      "normalizedTextHash": "2fc339ec7e0924c06535b3d18ebe471376bb63005def37d095ec24d1f31482b0"
+    },
+    {
+      "file": "src/prototypes/levels.ts",
+      "normalizedTextHash": "ed7e8981d6f108720925b83bcffb1c64877bfd7a2f0031431e716a47fe821b30"
+    },
+    {
+      "file": "src/prototypes/light-answers-r2.json",
+      "normalizedTextHash": "53717de0c5d5082938308e47da1860e20a3c0eded26c492b9e299e56fe137cb0"
+    },
+    {
+      "file": "src/prototypes/light-cause.ts",
+      "normalizedTextHash": "191d92e464e22488e9c7b486b67e8f96768491037363fbf775cad368f148e4a5"
+    },
+    {
+      "file": "src/prototypes/light-craft-audio.ts",
+      "normalizedTextHash": "3b5a0fe9db77c843907ce9c9f4d9393949c759ebdfad3b2c2b45a1097da4c976"
+    },
+    {
+      "file": "src/prototypes/light-craft-motion.ts",
+      "normalizedTextHash": "fe20d99c91948b83a1fe524cd491ab551a55244eaf2ec0dbbd4e04b3f6ee5528"
+    },
+    {
+      "file": "src/prototypes/light-craft-plan.ts",
+      "normalizedTextHash": "a1d4af1e0505717c29b92260d286f9d36cb276f9500bfa4166836b19df611d1f"
+    },
+    {
+      "file": "src/prototypes/light-craft-runtime.ts",
+      "normalizedTextHash": "cc3abcd55428ded4bd48366856889f721a1607b62cfdaf84d479dbbad547c4f1"
+    },
+    {
+      "file": "src/prototypes/light-craft-sound.ts",
+      "normalizedTextHash": "c4d9dece6a1e1d204946e5816aa9553e825bd32e53d21f2b8603d8bf9da84a71"
+    },
+    {
+      "file": "src/prototypes/light-feedback.ts",
+      "normalizedTextHash": "e8a368153f04c7e1ec3f762ee75adb7784d8daa03d6db00b578f67b82567a075"
+    },
+    {
+      "file": "src/prototypes/light-levels-r2.ts",
+      "normalizedTextHash": "65f8b2a736e3628cf263e44c60802c211617581a519872e0f19d05175a62ad83"
+    },
+    {
+      "file": "src/prototypes/light-object-art.ts",
+      "normalizedTextHash": "5c9ae09b2c8377ccf827cd5edd453d27a5307e7af66fb77bd0269b47018cbb53"
+    },
+    {
+      "file": "src/prototypes/light-object-motion.ts",
+      "normalizedTextHash": "345bbb39e54af0185b09ff5953bb031181e4ec9759de7ced20eaf7cc9fdf9e8c"
+    },
+    {
+      "file": "src/prototypes/light-object-view.ts",
+      "normalizedTextHash": "28071cd8b01013631592b3c98f5728f402895ef2ac71ca4c5abb64f7d19f8baa"
+    },
+    {
+      "file": "src/prototypes/light-object.css",
+      "normalizedTextHash": "6ffebc5a08170cd8fa862cb47bbb215c6afda28a68f3fea89119bce8ed557fbe"
+    },
+    {
+      "file": "src/prototypes/light-polish-art.ts",
+      "normalizedTextHash": "c93bb08509b4d41a64e94101355b080ab4dd6b75d86e65bf85cfbb4071f49956"
+    },
+    {
+      "file": "src/prototypes/light-polish.css",
+      "normalizedTextHash": "22f7215ea964e38669d8afa5ef590d1b4c5d5168bddc9b389018abd592ed635a"
+    },
+    {
+      "file": "src/prototypes/light-r2.ts",
+      "normalizedTextHash": "a46d5dcb78fb4e712f9b94e49b5662ae612bc58699ca78588cfcdf9e8e6d8962"
+    },
+    {
+      "file": "src/prototypes/music-audio.ts",
+      "normalizedTextHash": "99299eecde4b61a49b957523d5f2bb5ae137f2fd2bfdab33bbae1d1607c3362c"
+    },
+    {
+      "file": "src/prototypes/music-pilot.ts",
+      "normalizedTextHash": "1600bf6f5f89f0d039b00abb18c1ee732410e7199637bc7936d3dbc390460039"
+    },
+    {
+      "file": "src/prototypes/music-rhythm.ts",
+      "normalizedTextHash": "3b69f7d44c1cbba325fc8afbf75fcff2ddd399ad84a9bf99e925b3a7d375809d"
+    },
+    {
+      "file": "src/prototypes/music-score.ts",
+      "normalizedTextHash": "dccdde570478b899e9111a69db6c79f36d38acfbf30183321834245692563722"
+    },
+    {
+      "file": "src/prototypes/protocol.ts",
+      "normalizedTextHash": "6672e4e9fc2ea110cb3dba6345ea11b06619174592778b9da77e6e07e03e244e"
+    },
+    {
+      "file": "src/prototypes/rules.ts",
+      "normalizedTextHash": "27089a572d8215adca1c097c9e89ae33c035c2c92def587249e38a0babbc92de"
+    },
+    {
+      "file": "src/prototypes/shell.ts",
+      "normalizedTextHash": "abd0e9a7f99faf4bad4ed74301f13ca0c8de711720363c604b44fa8afbab9103"
+    },
+    {
+      "file": "src/prototypes/state.ts",
+      "normalizedTextHash": "acf1019d5f6b7ccfc654287d00f5f0aed30742dcf59473dc735da7ed85f9236a"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-audio.ts",
+      "normalizedTextHash": "6bfb36670e99de51a2cece3770098ef9c2ea414ba4ef2d941526d6430ddc4e62"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-motion.ts",
+      "normalizedTextHash": "c7bad2a7f21c4f73f0aa550431d7b377cca688a1752d1c83cb821132989081e5"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-plan.ts",
+      "normalizedTextHash": "8508404e44aa24be1abfa5e1c0cc1524462fb191b662a06b8463ad80dfd42c75"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-runtime.ts",
+      "normalizedTextHash": "08e03545dcae1b57c94d335e1e713eb52ad84a161f4706a3956668d32bd86dac"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-sound.ts",
+      "normalizedTextHash": "6fddab32a117d4cf57246331a35685d80a76a538b95af1998507967fc20f420f"
+    },
+    {
+      "file": "src/prototypes/visual-language.ts",
+      "normalizedTextHash": "32a6c4d8c446d3b36164318cac06362908422081157661cb5513a658991e0dd4"
+    }
+  ]
+}

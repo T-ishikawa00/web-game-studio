@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {homeLevels} from '../../src/prototypes/home-levels-learning';
+import {moveHome,type Dir} from '../../src/prototypes/rules';
+import {twCraftPlan} from '../../src/prototypes/twoways-craft-plan';
+import {TW_SOUND_IDS,synthesizeTwSound} from '../../src/prototypes/twoways-craft-sound';
+test('TW unilateral stop, home departure and clear have distinct bounded cues',()=>{const l=homeLevels.find(l=>l.id==='T04')!;let state={positions:l.starts};let arrivals=0,departures=0,clears=0;for(const d of [1,0,0,0,2,3,0,3,1] as Dir[]){const before=structuredClone(state);state=moveHome(l,state,d).state;const p=twCraftPlan(l,before,state,d);assert.deepEqual(before,p.before);assert.ok(p.sounds.length<=2);arrivals+=p.arrived.filter(Boolean).length;departures+=p.departed.filter(Boolean).length;clears+=Number(p.clear);if(p.clear)assert.deepEqual(p.sounds.map(s=>s.id),[p.sounds[0]!.id,'clear']);else assert.ok(!p.sounds.some(s=>s.id==='clear'));}assert.ok(arrivals>=3);assert.ok(departures>=1);assert.equal(clears,1);});
+test('TW blocked input is not a failure or accomplishment',()=>{const l=homeLevels[0]!,s={positions:l.starts};const p=twCraftPlan(l,s,moveHome(l,s,0).state,0);assert.deepEqual(p.moved,[false,false]);assert.equal(p.clear,false);assert.deepEqual(p.sounds,[{id:'rest',at:0,targets:[]}]);});
+test('TW simultaneous clear suppresses separate home cues, all-run requires true clear',()=>{const l=homeLevels[0]!,s={positions:l.starts};assert.equal(twCraftPlan(l,s,moveHome(l,s,1).state,1,true).sounds.at(-1)!.id,'complete');assert.equal(twCraftPlan(l,s,s,0,true).complete,false);});
+for(const id of TW_SOUND_IDS)test('TW deterministic safe PCM '+id,()=>{for(const rate of [44100,48000]){const a=synthesizeTwSound(id,rate),b=synthesizeTwSound(id,rate);assert.deepEqual(a,b);assert.equal(a[0],0);assert.equal(a.at(-1),0);assert.ok(a.every(Number.isFinite));assert.ok(Math.max(...a.map(Math.abs))<.9);assert.ok(Math.abs(a.reduce((s,v)=>s+v,0)/a.length)<.001);assert.ok(a.some(v=>Math.abs(v)>.01));}});

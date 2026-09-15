@@ -1,0 +1,89 @@
+{
+  "source": "src/prototypes/twoways-craft-sound.ts",
+  "method": "Original local deterministic synthesis; no samples or Tiny/Lightwork sound imports; same PCM kernel and gain as runtime; PCM16 export only",
+  "seed": "Deterministic modal resonators",
+  "listening": "NOT TESTED",
+  "records": [
+    {
+      "id": "step_round",
+      "durationMs": 110,
+      "gain": 0.34,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.09083787855505944,
+      "dc": 9.806753514446053e-9,
+      "file": "audio/step_round.wav"
+    },
+    {
+      "id": "step_mimi",
+      "durationMs": 110,
+      "gain": 0.32,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.07594856119155885,
+      "dc": -3.6108549578274924e-9,
+      "file": "audio/step_mimi.wav"
+    },
+    {
+      "id": "step_pair",
+      "durationMs": 120,
+      "gain": 0.3,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.07673273563385011,
+      "dc": 2.9824693445340564e-9,
+      "file": "audio/step_pair.wav"
+    },
+    {
+      "id": "rest",
+      "durationMs": 75,
+      "gain": 0.14,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.01667403618991375,
+      "dc": -9.693240654947446e-9,
+      "file": "audio/rest.wav"
+    },
+    {
+      "id": "home_round",
+      "durationMs": 155,
+      "gain": 0.24,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.06344237852096558,
+      "dc": -6.399998766497729e-10,
+      "file": "audio/home_round.wav"
+    },
+    {
+      "id": "home_mimi",
+      "durationMs": 155,
+      "gain": 0.24,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.05744903647899628,
+      "dc": 5.71381331745185e-10,
+      "file": "audio/home_mimi.wav"
+    },
+    {
+      "id": "clear",
+      "durationMs": 360,
+      "gain": 0.28,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.0768613448739052,
+      "dc": 1.0570566031195644e-10,
+      "file": "audio/clear.wav"
+    },
+    {
+      "id": "complete",
+      "durationMs": 480,
+      "gain": 0.28,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.07686118882894517,
+      "dc": 1.634704738314675e-11,
+      "file": "audio/complete.wav"
+    },
+    {
+      "id": "undo",
+      "durationMs": 90,
+      "gain": 0.19,
+      "runtimeMasterGain": 0.55,
+      "peak": 0.03585836732387543,
+      "dc": 1.993726264336801e-9,
+      "file": "audio/undo.wav"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "at": "2026-09-15T22:11:41.833Z",
+  "status": "PASS",
+  "models": {
+    "primary": "gpt-6-astra",
+    "independentReadOnlyReview": "gpt-6-astra"
+  },
+  "unit": {
+    "command": "npm test",
+    "passed": 209,
+    "new": 12,
+    "reusedExecution": true
+  },
+  "type": {
+    "command": "npm run check",
+    "errors": 0,
+    "warnings": 0,
+    "preexistingHints": 3
+  },
+  "build": {
+    "hooks": [
+      "runtime",
+      "lifecycle",
+      "render",
+      "settings",
+      "snapshot",
+      "direction guard",
+      "presentation",
+      "legacy direction cue"
+    ],
+    "output": ".cache/twoways-craft",
+    "canonicalSourcesEdited": false
+  },
+  "suites": {
+    "browser": {
+      "base": "http://127.0.0.1:4343",
+      "results": [
+        {
+          "name": "All21 preserved order, per-step rules/history and completion in TW-C",
+          "status": "PASS"
+        },
+        {
+          "name": "TW-A T04: home then departure, Undo is not an accomplishment",
+          "status": "PASS"
+        },
+        {
+          "name": "TW-B T04: home then departure, Undo is not an accomplishment",
+          "status": "PASS"
+        },
+        {
+          "name": "TW-C T04: home then departure, Undo is not an accomplishment",
+          "status": "PASS"
+        },
+        {
+          "name": "Same start/duration, correct final state precedes Motion, latest input cancels",
+          "status": "PASS"
+        },
+        {
+          "name": "Both blocked: no history, no clear, no failure sound",
+          "status": "PASS"
+        },
+        {
+          "name": "ja/auto input and state preserved",
+          "status": "PASS"
+        },
+        {
+          "name": "ja/portrait input and state preserved",
+          "status": "PASS"
+        },
+        {
+          "name": "ja/landscape input and state preserved",
+          "status": "PASS"
+        },
+        {
+          "name": "en/auto input and state preserved",
+          "status": "PASS"
+        },
+        {
+          "name": "en/portrait input and state preserved",
+          "status": "PASS"
+        },
+        {
+          "name": "en/landscape input and state preserved",
+          "status": "PASS"
+        },
+        {
+          "name": "320px muted + reduced Motion, independent settings and saved progress",
+          "status": "PASS"
+        },
+        {
+          "name": "Reduced Motion alone keeps C audio; B is silent and switches cancel",
+          "status": "PASS"
+        },
+        {
+          "name": "Hidden/pause/resume cancel without replay",
+          "status": "PASS"
+        },
+        {
+          "name": "Malformed audio data preserved; no false save success",
+          "status": "PASS"
+        },
+        {
+          "name": "Synthetic and repeated keyboard never unlock; trusted swipe and keyboard do",
+          "status": "PASS"
+        }
+      ]
+    },
+    "edge": {
+      "results": [
+        {
+          "name": "Transient source.start failure releases partial voice and healthy playback restores availability",
+          "status": "PASS"
+        },
+        {
+          "name": "Delayed resume followed by hidden never schedules stale cues or keeps context running",
+          "status": "PASS"
+        },
+        {
+          "name": "Rapid accepted input does not exceed three overlapping voices; menus cancel pending effects",
+          "status": "PASS"
+        },
+        {
+          "name": "Real mock respects input cooldown, pauses Two Ways and never replays old cues",
+          "status": "PASS"
+        },
+        {
+          "name": "Synthetic click and repeated held key never unlock audio",
+          "status": "PASS"
+        }
+      ]
+    },
+    "input": {
+      "results": [
+        {
+          "name": "swipe both boards, four directions, long/slow release max one move; pointerup click no duplicate",
+          "status": "PASS"
+        },
+        {
+          "name": "touch swipe commits once, multi-touch cancels; browser pinch zoom remains allowed",
+          "status": "PASS"
+        },
+        {
+          "name": "tap, tremor, diagonal, return, outside release, cancel/lost capture/Escape/resize/mode/pagehide reject pending swipes",
+          "status": "PASS"
+        },
+        {
+          "name": "D-pad click-only alternative discoverable, retained across modes; hidden controls absent and focus restored",
+          "status": "PASS"
+        },
+        {
+          "name": "both-wall, one-wall, one-home and both-home input parity from real pointer sequences",
+          "status": "PASS"
+        },
+        {
+          "name": "keyboard board entry and repeat suppression; menu/help/form keys do not move game",
+          "status": "PASS"
+        },
+        {
+          "name": "storage rejection leaves input and D-pad modes playable, save failure visible, game progress independent",
+          "status": "PASS"
+        }
+      ],
+      "errors": []
+    },
+    "review": {
+      "results": [
+        {
+          "name": "Review links/assets",
+          "status": "PASS",
+          "count": 37
+        },
+        {
+          "name": "/review/videos/TW-A-T19.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.410564,
+          "duration": 1.32,
+          "error": null
+        },
+        {
+          "name": "/review/videos/TW-B-T19.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.404212,
+          "duration": 1.32,
+          "error": null
+        },
+        {
+          "name": "/review/videos/TW-C-T19.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.360544,
+          "duration": 1.36,
+          "error": null
+        },
+        {
+          "name": "/review/videos/TW-A-T20.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.403464,
+          "duration": 3.12,
+          "error": null
+        },
+        {
+          "name": "/review/videos/TW-B-T20.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.371863,
+          "duration": 3.12,
+          "error": null
+        },
+        {
+          "name": "/review/videos/TW-C-T20.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.368629,
+          "duration": 3.12,
+          "error": null
+        },
+        {
+          "name": "/review/videos/TW-A-T04.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.375272,
+          "duration": 8.52,
+          "error": null
+        },
+        {
+          "name": "/review/videos/TW-B-T04.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.375917,
+          "duration": 8.52,
+          "error": null
+        },
+        {
+          "name": "/review/videos/TW-C-T04.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.379403,
+          "duration": 8.52,
+          "error": null
+        },
+        {
+          "name": "Review responsive320/390/1280",
+          "status": "PASS"
+        },
+        {
+          "name": "Forbidden paths / method / Host / range",
+          "status": "PASS"
+        },
+        {
+          "name": "/review/audio/step_round.wav",
+          "status": "PASS",
+          "duration": 0.11,
+          "time": 0.074038,
+          "error": null
+        },
+        {
+          "name": "/review/audio/step_mimi.wav",
+          "status": "PASS",
+          "duration": 0.11,
+          "time": 0.079182,
+          "error": null
+        },
+        {
+          "name": "/review/audio/step_pair.wav",
+          "status": "PASS",
+          "duration": 0.12,
+          "time": 0.075716,
+          "error": null
+        },
+        {
+          "name": "/review/audio/rest.wav",
+          "status": "PASS",
+          "duration": 0.075,
+          "time": 0.07495,
+          "error": null
+        },
+        {
+          "name": "/review/audio/home_round.wav",
+          "status": "PASS",
+          "duration": 0.155,
+          "time": 0.077143,
+          "error": null
+        },
+        {
+          "name": "/review/audio/home_mimi.wav",
+          "status": "PASS",
+          "duration": 0.155,
+          "time": 0.080055,
+          "error": null
+        },
+        {
+          "name": "/review/audio/clear.wav",
+          "status": "PASS",
+          "duration": 0.36,
+          "time": 0.080932,
+          "error": null
+        },
+        {
+          "name": "/review/audio/complete.wav",
+          "status": "PASS",
+          "duration": 0.48,
+          "time": 0.068041,
+          "error": null
+        },
+        {
+          "name": "/review/audio/undo.wav",
+          "status": "PASS",
+          "duration": 0.09,
+          "time": 0.07068,
+          "error": null
+        },
+        {
+          "name": "TW-A/B/C same states, plans, actions",
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "frozenReproduction": {
+    "tiny": {
+      "at": "2026-09-15T22:02:30.300Z",
+      "status": "PASS",
+      "files": 46,
+      "accepted": "B / D1 Rhythm Refine /80 BPM",
+      "codeAndAudioExact": true
+    },
+    "lightwork": {
+      "at": "2026-09-15T22:02:11.498Z",
+      "status": "PASS",
+      "files": 48,
+      "profile": "LG-C + Object Design 01 + Art Polish 01"
+    }
+  },
+  "selfReview": {
+    "browser": "Microsoft Edge automated real-browser QA; Codex in-app Review visual inspection",
+    "visual": [
+      "T04 home and departure",
+      "T12 landscape",
+      "Review Pack"
+    ],
+    "independentReview": "No important blocker; redundant build replacement removed, bundle byte-identical"
+  },
+  "notTested": [
+    "Human Craft acceptance",
+    "Human listening judgement",
+    "Physical device",
+    "External first-use understanding",
+    "Full 57-puzzle Human gameplay acceptance",
+    "Release/legal/advertising"
+  ]
+}
