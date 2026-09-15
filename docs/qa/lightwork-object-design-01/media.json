@@ -1,0 +1,1204 @@
+{
+  "records": [
+    {
+      "variant": "before",
+      "level": "L01",
+      "file": "videos/before-L01.webm",
+      "screenshot": "screens/before-L01.png",
+      "speed": 1,
+      "gain": 0.55,
+      "actions": [
+        {
+          "action": "mirror:0",
+          "targetMs": 700,
+          "actualMs": 768
+        }
+      ],
+      "durationSeconds": 2.109,
+      "outputGraphRecording": true,
+      "offsetSeconds": 0.821,
+      "capture": {
+        "width": 432,
+        "height": 768
+      },
+      "finalBoard": {
+        "mirrors": [
+          true
+        ],
+        "gate": false
+      },
+      "history": [
+        {
+          "mirrors": [
+            false
+          ],
+          "gate": false
+        }
+      ],
+      "plan": {
+        "cause": {
+          "gates": [],
+          "phases": [
+            {
+              "paths": [
+                [
+                  15,
+                  16,
+                  17,
+                  12,
+                  7,
+                  2
+                ]
+              ],
+              "opened": []
+            }
+          ],
+          "retained": [],
+          "previousPaths": [
+            [
+              15,
+              16,
+              17,
+              22
+            ]
+          ],
+          "newFlowers": [
+            2
+          ]
+        },
+        "phases": [
+          {
+            "paths": [
+              [
+                15,
+                16,
+                17,
+                12,
+                7,
+                2
+              ]
+            ],
+            "opened": [],
+            "at": 0,
+            "rays": [
+              {
+                "path": [
+                  15,
+                  16,
+                  17,
+                  12,
+                  7,
+                  2
+                ],
+                "at": 0
+              }
+            ]
+          }
+        ],
+        "flowers": [
+          {
+            "cell": 2,
+            "at": 215
+          }
+        ],
+        "sounds": [
+          {
+            "id": "mirror_turn",
+            "at": 0,
+            "targets": []
+          },
+          {
+            "id": "puzzle_clear",
+            "at": 215,
+            "targets": [
+              2
+            ]
+          }
+        ],
+        "duration": 290
+      },
+      "recording": "Actual Edge UI + simultaneous Web Audio output graph. No dubbed audio. Perceived synchronization and physical output NOT TESTED."
+    },
+    {
+      "variant": "before",
+      "level": "L05",
+      "file": "videos/before-L05.webm",
+      "screenshot": "screens/before-L05.png",
+      "speed": 1,
+      "gain": 0.55,
+      "actions": [
+        {
+          "action": "mirror:0",
+          "targetMs": 700,
+          "actualMs": 722
+        },
+        {
+          "action": "mirror:0",
+          "targetMs": 2100,
+          "actualMs": 2112
+        },
+        {
+          "action": "undo",
+          "targetMs": 3500,
+          "actualMs": 3515
+        },
+        {
+          "action": "undo",
+          "targetMs": 4900,
+          "actualMs": 4906
+        }
+      ],
+      "durationSeconds": 6.199,
+      "outputGraphRecording": true,
+      "offsetSeconds": 0.75,
+      "capture": {
+        "width": 432,
+        "height": 768
+      },
+      "finalBoard": {
+        "mirrors": [
+          true
+        ],
+        "gate": false
+      },
+      "history": [],
+      "plan": {
+        "cause": {
+          "gates": [
+            {
+              "id": "◇",
+              "gate": 7,
+              "switch": 22
+            }
+          ],
+          "phases": [
+            {
+              "paths": [
+                [
+                  10,
+                  11,
+                  12,
+                  7,
+                  2
+                ]
+              ],
+              "opened": []
+            }
+          ],
+          "retained": [
+            0
+          ],
+          "previousPaths": [
+            [
+              10,
+              11,
+              12,
+              17,
+              22
+            ]
+          ],
+          "newFlowers": [
+            2
+          ]
+        },
+        "phases": [
+          {
+            "paths": [
+              [
+                10,
+                11,
+                12,
+                7,
+                2
+              ]
+            ],
+            "opened": [],
+            "at": 0,
+            "rays": [
+              {
+                "path": [
+                  10,
+                  11,
+                  12,
+                  7,
+                  2
+                ],
+                "at": 0
+              }
+            ]
+          }
+        ],
+        "flowers": [
+          {
+            "cell": 2,
+            "at": 215
+          }
+        ],
+        "sounds": [
+          {
+            "id": "mirror_turn",
+            "at": 0,
+            "targets": []
+          },
+          {
+            "id": "puzzle_clear",
+            "at": 215,
+            "targets": [
+              2
+            ]
+          }
+        ],
+        "duration": 650
+      },
+      "recording": "Actual Edge UI + simultaneous Web Audio output graph. No dubbed audio. Perceived synchronization and physical output NOT TESTED."
+    },
+    {
+      "variant": "before",
+      "level": "L16",
+      "file": "videos/before-L16.webm",
+      "screenshot": "screens/before-L16.png",
+      "speed": 1,
+      "gain": 0.55,
+      "actions": [
+        {
+          "action": "mirror:0",
+          "targetMs": 700,
+          "actualMs": 715
+        },
+        {
+          "action": "mirror:1",
+          "targetMs": 2100,
+          "actualMs": 2105
+        },
+        {
+          "action": "mirror:2",
+          "targetMs": 3500,
+          "actualMs": 3511
+        },
+        {
+          "action": "mirror:2",
+          "targetMs": 4900,
+          "actualMs": 4914
+        },
+        {
+          "action": "mirror:3",
+          "targetMs": 6300,
+          "actualMs": 6304
+        },
+        {
+          "action": "mirror:4",
+          "targetMs": 7700,
+          "actualMs": 7708
+        }
+      ],
+      "durationSeconds": 9.005,
+      "outputGraphRecording": true,
+      "offsetSeconds": 0.742,
+      "capture": {
+        "width": 432,
+        "height": 768
+      },
+      "finalBoard": {
+        "mirrors": [
+          true,
+          true,
+          false,
+          false,
+          true
+        ],
+        "gate": false,
+        "gates": [
+          true,
+          true
+        ]
+      },
+      "history": [
+        {
+          "mirrors": [
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            false,
+            false
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        }
+      ],
+      "plan": {
+        "cause": {
+          "gates": [
+            {
+              "id": "A",
+              "gate": 12,
+              "switch": 14
+            },
+            {
+              "id": "B",
+              "gate": 26,
+              "switch": 5
+            }
+          ],
+          "phases": [
+            {
+              "paths": [
+                [
+                  42,
+                  43,
+                  44,
+                  37,
+                  30,
+                  23,
+                  16,
+                  17,
+                  18,
+                  19,
+                  26,
+                  33
+                ],
+                [
+                  33,
+                  32,
+                  31,
+                  30,
+                  29,
+                  22,
+                  15,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                [
+                  33,
+                  34
+                ]
+              ],
+              "opened": []
+            }
+          ],
+          "retained": [
+            0,
+            1
+          ],
+          "previousPaths": [
+            [
+              42,
+              43,
+              44,
+              37,
+              30,
+              23,
+              16,
+              17,
+              18,
+              19,
+              26,
+              33
+            ],
+            [
+              33,
+              32,
+              31,
+              30,
+              29,
+              22,
+              15,
+              8,
+              7
+            ],
+            [
+              33,
+              34
+            ]
+          ],
+          "newFlowers": [
+            13
+          ]
+        },
+        "phases": [
+          {
+            "paths": [
+              [
+                42,
+                43,
+                44,
+                37,
+                30,
+                23,
+                16,
+                17,
+                18,
+                19,
+                26,
+                33
+              ],
+              [
+                33,
+                32,
+                31,
+                30,
+                29,
+                22,
+                15,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              [
+                33,
+                34
+              ]
+            ],
+            "opened": [],
+            "at": 0,
+            "rays": [
+              {
+                "path": [
+                  42,
+                  43,
+                  44,
+                  37,
+                  30,
+                  23,
+                  16,
+                  17,
+                  18,
+                  19,
+                  26,
+                  33
+                ],
+                "at": 0
+              },
+              {
+                "path": [
+                  33,
+                  32,
+                  31,
+                  30,
+                  29,
+                  22,
+                  15,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                "at": 110
+              },
+              {
+                "path": [
+                  33,
+                  34
+                ],
+                "at": 110
+              }
+            ]
+          }
+        ],
+        "flowers": [
+          {
+            "cell": 13,
+            "at": 215
+          }
+        ],
+        "sounds": [
+          {
+            "id": "mirror_turn",
+            "at": 0,
+            "targets": []
+          },
+          {
+            "id": "puzzle_clear",
+            "at": 215,
+            "targets": [
+              13
+            ]
+          }
+        ],
+        "duration": 650
+      },
+      "recording": "Actual Edge UI + simultaneous Web Audio output graph. No dubbed audio. Perceived synchronization and physical output NOT TESTED."
+    },
+    {
+      "variant": "after",
+      "level": "L01",
+      "file": "videos/after-L01.webm",
+      "screenshot": "screens/after-L01.png",
+      "speed": 1,
+      "gain": 0.55,
+      "actions": [
+        {
+          "action": "mirror:0",
+          "targetMs": 700,
+          "actualMs": 747
+        }
+      ],
+      "durationSeconds": 2.061,
+      "outputGraphRecording": true,
+      "offsetSeconds": 0.775,
+      "capture": {
+        "width": 432,
+        "height": 768
+      },
+      "finalBoard": {
+        "mirrors": [
+          true
+        ],
+        "gate": false
+      },
+      "history": [
+        {
+          "mirrors": [
+            false
+          ],
+          "gate": false
+        }
+      ],
+      "plan": {
+        "cause": {
+          "gates": [],
+          "phases": [
+            {
+              "paths": [
+                [
+                  15,
+                  16,
+                  17,
+                  12,
+                  7,
+                  2
+                ]
+              ],
+              "opened": []
+            }
+          ],
+          "retained": [],
+          "previousPaths": [
+            [
+              15,
+              16,
+              17,
+              22
+            ]
+          ],
+          "newFlowers": [
+            2
+          ]
+        },
+        "phases": [
+          {
+            "paths": [
+              [
+                15,
+                16,
+                17,
+                12,
+                7,
+                2
+              ]
+            ],
+            "opened": [],
+            "at": 0,
+            "rays": [
+              {
+                "path": [
+                  15,
+                  16,
+                  17,
+                  12,
+                  7,
+                  2
+                ],
+                "at": 0
+              }
+            ]
+          }
+        ],
+        "flowers": [
+          {
+            "cell": 2,
+            "at": 215
+          }
+        ],
+        "sounds": [
+          {
+            "id": "mirror_turn",
+            "at": 0,
+            "targets": []
+          },
+          {
+            "id": "puzzle_clear",
+            "at": 215,
+            "targets": [
+              2
+            ]
+          }
+        ],
+        "duration": 290
+      },
+      "recording": "Actual Edge UI + simultaneous Web Audio output graph. No dubbed audio. Perceived synchronization and physical output NOT TESTED."
+    },
+    {
+      "variant": "after",
+      "level": "L05",
+      "file": "videos/after-L05.webm",
+      "screenshot": "screens/after-L05.png",
+      "speed": 1,
+      "gain": 0.55,
+      "actions": [
+        {
+          "action": "mirror:0",
+          "targetMs": 700,
+          "actualMs": 724
+        },
+        {
+          "action": "mirror:0",
+          "targetMs": 2100,
+          "actualMs": 2110
+        },
+        {
+          "action": "undo",
+          "targetMs": 3500,
+          "actualMs": 3511
+        },
+        {
+          "action": "undo",
+          "targetMs": 4900,
+          "actualMs": 4905
+        }
+      ],
+      "durationSeconds": 6.194,
+      "outputGraphRecording": true,
+      "offsetSeconds": 0.752,
+      "capture": {
+        "width": 432,
+        "height": 768
+      },
+      "finalBoard": {
+        "mirrors": [
+          true
+        ],
+        "gate": false
+      },
+      "history": [],
+      "plan": {
+        "cause": {
+          "gates": [
+            {
+              "id": "◇",
+              "gate": 7,
+              "switch": 22
+            }
+          ],
+          "phases": [
+            {
+              "paths": [
+                [
+                  10,
+                  11,
+                  12,
+                  7,
+                  2
+                ]
+              ],
+              "opened": []
+            }
+          ],
+          "retained": [
+            0
+          ],
+          "previousPaths": [
+            [
+              10,
+              11,
+              12,
+              17,
+              22
+            ]
+          ],
+          "newFlowers": [
+            2
+          ]
+        },
+        "phases": [
+          {
+            "paths": [
+              [
+                10,
+                11,
+                12,
+                7,
+                2
+              ]
+            ],
+            "opened": [],
+            "at": 0,
+            "rays": [
+              {
+                "path": [
+                  10,
+                  11,
+                  12,
+                  7,
+                  2
+                ],
+                "at": 0
+              }
+            ]
+          }
+        ],
+        "flowers": [
+          {
+            "cell": 2,
+            "at": 215
+          }
+        ],
+        "sounds": [
+          {
+            "id": "mirror_turn",
+            "at": 0,
+            "targets": []
+          },
+          {
+            "id": "puzzle_clear",
+            "at": 215,
+            "targets": [
+              2
+            ]
+          }
+        ],
+        "duration": 650
+      },
+      "recording": "Actual Edge UI + simultaneous Web Audio output graph. No dubbed audio. Perceived synchronization and physical output NOT TESTED."
+    },
+    {
+      "variant": "after",
+      "level": "L16",
+      "file": "videos/after-L16.webm",
+      "screenshot": "screens/after-L16.png",
+      "speed": 1,
+      "gain": 0.55,
+      "actions": [
+        {
+          "action": "mirror:0",
+          "targetMs": 700,
+          "actualMs": 704
+        },
+        {
+          "action": "mirror:1",
+          "targetMs": 2100,
+          "actualMs": 2106
+        },
+        {
+          "action": "mirror:2",
+          "targetMs": 3500,
+          "actualMs": 3516
+        },
+        {
+          "action": "mirror:2",
+          "targetMs": 4900,
+          "actualMs": 4906
+        },
+        {
+          "action": "mirror:3",
+          "targetMs": 6300,
+          "actualMs": 6313
+        },
+        {
+          "action": "mirror:4",
+          "targetMs": 7700,
+          "actualMs": 7700
+        }
+      ],
+      "durationSeconds": 8.996,
+      "outputGraphRecording": true,
+      "offsetSeconds": 0.728,
+      "capture": {
+        "width": 432,
+        "height": 768
+      },
+      "finalBoard": {
+        "mirrors": [
+          true,
+          true,
+          false,
+          false,
+          true
+        ],
+        "gate": false,
+        "gates": [
+          true,
+          true
+        ]
+      },
+      "history": [
+        {
+          "mirrors": [
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            false,
+            false
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            false
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        },
+        {
+          "mirrors": [
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          "gate": false,
+          "gates": [
+            true,
+            true
+          ]
+        }
+      ],
+      "plan": {
+        "cause": {
+          "gates": [
+            {
+              "id": "A",
+              "gate": 12,
+              "switch": 14
+            },
+            {
+              "id": "B",
+              "gate": 26,
+              "switch": 5
+            }
+          ],
+          "phases": [
+            {
+              "paths": [
+                [
+                  42,
+                  43,
+                  44,
+                  37,
+                  30,
+                  23,
+                  16,
+                  17,
+                  18,
+                  19,
+                  26,
+                  33
+                ],
+                [
+                  33,
+                  32,
+                  31,
+                  30,
+                  29,
+                  22,
+                  15,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                [
+                  33,
+                  34
+                ]
+              ],
+              "opened": []
+            }
+          ],
+          "retained": [
+            0,
+            1
+          ],
+          "previousPaths": [
+            [
+              42,
+              43,
+              44,
+              37,
+              30,
+              23,
+              16,
+              17,
+              18,
+              19,
+              26,
+              33
+            ],
+            [
+              33,
+              32,
+              31,
+              30,
+              29,
+              22,
+              15,
+              8,
+              7
+            ],
+            [
+              33,
+              34
+            ]
+          ],
+          "newFlowers": [
+            13
+          ]
+        },
+        "phases": [
+          {
+            "paths": [
+              [
+                42,
+                43,
+                44,
+                37,
+                30,
+                23,
+                16,
+                17,
+                18,
+                19,
+                26,
+                33
+              ],
+              [
+                33,
+                32,
+                31,
+                30,
+                29,
+                22,
+                15,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              [
+                33,
+                34
+              ]
+            ],
+            "opened": [],
+            "at": 0,
+            "rays": [
+              {
+                "path": [
+                  42,
+                  43,
+                  44,
+                  37,
+                  30,
+                  23,
+                  16,
+                  17,
+                  18,
+                  19,
+                  26,
+                  33
+                ],
+                "at": 0
+              },
+              {
+                "path": [
+                  33,
+                  32,
+                  31,
+                  30,
+                  29,
+                  22,
+                  15,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                "at": 110
+              },
+              {
+                "path": [
+                  33,
+                  34
+                ],
+                "at": 110
+              }
+            ]
+          }
+        ],
+        "flowers": [
+          {
+            "cell": 13,
+            "at": 215
+          }
+        ],
+        "sounds": [
+          {
+            "id": "mirror_turn",
+            "at": 0,
+            "targets": []
+          },
+          {
+            "id": "puzzle_clear",
+            "at": 215,
+            "targets": [
+              13
+            ]
+          }
+        ],
+        "duration": 650
+      },
+      "recording": "Actual Edge UI + simultaneous Web Audio output graph. No dubbed audio. Perceived synchronization and physical output NOT TESTED."
+    }
+  ]
+}

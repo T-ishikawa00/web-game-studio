@@ -1,5 +1,7 @@
 # Web Game Studio — Production & Growth Playbook R2
 
+> **参照方法更新（2026-09-15 Human承認）**：現行の許可・採用・未実装・停止点は PRODUCTION_CURRENT（参照原本はPrivate保全・候補には非同梱）、安全境界と読込ルーターは AGENTS（参照原本はPrivate保全・候補には非同梱）。本書の旧「今回」「次」「再開」は作成時点の工程を指す。§0のsnapshot、§1.2・§7の順序、§9のTiny Pilot一括指示は履歴であり、完了済み工程や単発Git許可を再実行しない。運用原則は必要な節を読む。旧Pilot等の全資料読込手順は入口の作業別読込に置き換える。START_HERE原本・事業方針・安全/品質ゲートは保持。現在の外部初見DEFERREDを過去の工程表だけで必須実行へ戻さない。
+
 作成・公開資料確認日：2026-09-15（JST）  
 対象：`C:\projects\Web Game Studio` / `T-ishikawa00/web-game-studio`  
 文書の役割：今後の制作・検証・集客の運用基準と、次の一括作業指示を統合する。
@@ -117,6 +119,24 @@ H2前に、全18面・50面を量産しない。ただし既存のBatch 01をこ
 - Security、保存、権利、互換性の問題がある。
 
 品質改善は、同じ場面のBefore/Afterで評価する。変化が聴き取れない／見分けられない装飾の追加を、作業量で正当化しない。小修正後に全件の撮り直しを繰り返さず、変更したビルドの影響範囲と証拠を一致させる。
+
+<a id="qa-by-change"></a>
+
+### 4.2 変更の影響に応じたQA選択
+
+2026-09-15 Human承認。差分の目的・変更経路・依存先から必要な検査を選び、バッチのReviewに対象、実行結果、再利用した証拠、未実施の理由、残るリスクを短く記す。これは検査を減らすための免除ではなく、変更と証拠を一致させる運用基準。旧バッチの「全57問」や全件撮影を、全タスク共通の実行命令として再利用しない。
+
+| 変更 | 必要な検査・関連回帰 |
+|---|---|
+| 文書・repo-local指示だけ | 開始状態と差分の保全、参照先/節/リンク存在、権限・優先順位・最新Human判断・停止点の整合、移動前後の内容保全、変更manifest、`git diff --check`。新規文書は別途差分確認。コード/build対象に変更がないことを確認できればbuild・ゲーム再生・画像再生成は不要 |
+| 作品固有のコード・Art・UI・音 | 型/buildと対象テスト、変更経路と依存先の関連回帰。表示は代表局面の実ブラウザ・responsive/3表示/日英、操作はpointer/touch/keyboard等の該当入力、音/演出は実発火・取消・無音/reduced motion・停止復帰・設定保存等を選ぶ。見た目の変更は実物を確認し、数値だけで視覚/聴感PASSにしない |
+| ルール・問題・入力・保存 | 対象の解答/決定性/進行/安定ID、既存saveの読込・version/namespace・移行・reset・Undo等、拒否/破損/書込失敗の正直な表示、他作品への不干渉。必要な既存回帰を追加し、未知の原因や予期しない失敗はTier Sへ上げる |
+| 共通Runtime・bridge・保存基盤・registry・共通build/依存 | 全影響作品とPortal/fixture/Preview隔離まで広い回帰。型/build/unit/routes、該当する全57問解答、入力/保存/失敗/mock広告pause-resume/広告圧/network/日英/表示を含む。Tinyの元frozen manifestによる厳密再現を確認。影響が全体か不明なら範囲を狭いと推定しない |
+| commit / push（その操作の明示許可がある場合だけ） | [SECURITY](../../SECURITY.md) の全project（ignored含む）・full index・push前local history、hook、差分/refs、該当QAを適用。missing scanner/実行エラーはblocker。raw検出とHumanの限定判定を別記し、新規候補には拡張しない。文書のみのcheckpointでもSecurityは省略しない |
+
+再実行の根拠は **新しい変更・失敗・未解決リスク**。既存PASSを再利用するときは対象版・条件・依存先の不変を確認し、以前の実行と今回の実行を区別する。新しい差分を古いPASSで覆わない。対象QAが通った後の全問再生、大量画像・動画・長時間音源の再生成は標準にせず、必要になった理由がある場合だけ行う。既存テスト・hook・scanner設定や採用済みfrozen manifestを変更してPASSへ合わせない。
+
+技術QA、AIの視覚確認/出力計測、Human聴感、実機環境、外部初見、全編ゲーム性、公開/法務/広告は別Gate。実機PASSは試験した条件のみ。NOT TESTED / PENDING / DEFERREDはそのまま残す。Humanの明示採用は当該対象だけを更新し、検証していないGateへ連鎖させない。
 
 ## 5. Audio/Motion方針
 

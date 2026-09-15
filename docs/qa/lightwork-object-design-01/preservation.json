@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "baselineFiles": 1658,
+  "preservedFiles": 1656,
+  "changedExisting": [
+    "AGENTS.md",
+    "docs/games/PRODUCTION_CURRENT.md"
+  ],
+  "added": [
+    "docs/games/LIGHTWORK_OBJECT_DESIGN_01.md",
+    "docs/qa/lightwork-object-design-01/REPORT.md",
+    "docs/qa/lightwork-object-design-01/REVIEW.html",
+    "docs/qa/lightwork-object-design-01/media.json",
+    "docs/qa/lightwork-object-design-01/preservation.json",
+    "docs/qa/lightwork-object-design-01/qa.json",
+    "docs/qa/lightwork-object-design-01/screens/after-L01.png",
+    "docs/qa/lightwork-object-design-01/screens/after-L05.png",
+    "docs/qa/lightwork-object-design-01/screens/after-L16.png",
+    "docs/qa/lightwork-object-design-01/screens/after-auto.png",
+    "docs/qa/lightwork-object-design-01/screens/after-landscape.png",
+    "docs/qa/lightwork-object-design-01/screens/before-L01.png",
+    "docs/qa/lightwork-object-design-01/screens/before-L05.png",
+    "docs/qa/lightwork-object-design-01/screens/before-L16.png",
+    "docs/qa/lightwork-object-design-01/security.json",
+    "docs/qa/lightwork-object-design-01/videos/after-L01.webm",
+    "docs/qa/lightwork-object-design-01/videos/after-L05.webm",
+    "docs/qa/lightwork-object-design-01/videos/after-L16.webm",
+    "docs/qa/lightwork-object-design-01/videos/before-L01.webm",
+    "docs/qa/lightwork-object-design-01/videos/before-L05.webm",
+    "docs/qa/lightwork-object-design-01/videos/before-L16.webm",
+    "scripts/light-object-build.mjs",
+    "scripts/light-object-qa.mjs",
+    "scripts/light-object-server.mjs",
+    "src/prototypes/light-object-art.ts",
+    "src/prototypes/light-object-motion.ts",
+    "src/prototypes/light-object-view.ts",
+    "src/prototypes/light-object.css",
+    "tests/light-object-media.mjs",
+    "tests/light-object-review.browser.mjs",
+    "tests/light-object.browser.mjs"
+  ],
+  "priorLightworkOutput": {
+    "files": 44,
+    "byteIdenticalInObjectBuild": true
+  },
+  "headUnchanged": true,
+  "indexEmpty": true,
+  "scope": "Tracked and nonignored untracked files; TLS key was not read/copied/hashed here. Existing ignored snapshots retained without edits."
+}

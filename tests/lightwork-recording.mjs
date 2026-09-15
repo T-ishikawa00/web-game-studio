@@ -1,0 +1,5 @@
+export function tapAudio(){
+ const Native=window.AudioContext,connect=AudioNode.prototype.connect;
+ AudioNode.prototype.connect=function(destination,...args){if(window.__lgTap&&destination===this.context.destination)connect.call(this,window.__lgTap.destination);return connect.call(this,destination,...args);};
+ window.AudioContext=class extends Native{constructor(options){super(options);const destination=this.createMediaStreamDestination(),chunks=[],recorder=new MediaRecorder(destination.stream,{mimeType:'audio/webm;codecs=opus'}),started=Date.now();const silence=this.createConstantSource();silence.offset.value=0;silence.connect(destination);silence.start();recorder.ondataavailable=e=>chunks.push(e.data);recorder.start();window.__lgTap={destination,finish:()=>new Promise(resolve=>{recorder.onstop=async()=>{const data=new Uint8Array(await new Blob(chunks).arrayBuffer());let raw='';for(const byte of data)raw+=String.fromCharCode(byte);resolve({started,base64:btoa(raw)});};recorder.stop();silence.stop();silence.disconnect();})};}};
+}

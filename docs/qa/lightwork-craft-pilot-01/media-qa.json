@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "measurements": [
+    {
+      "file": "videos/LG-C-L01.webm",
+      "samples": 60480,
+      "seconds": 1.26,
+      "peak": 0.04795019328594208,
+      "dc": -7.476943101638196e-8,
+      "rms": 0.007869243768040159,
+      "nonzero": 25500,
+      "invalid": 0
+    },
+    {
+      "file": "videos/LG-C-L05.webm",
+      "samples": 270720,
+      "seconds": 5.64,
+      "peak": 0.04778081551194191,
+      "dc": 1.3037629874183434e-7,
+      "rms": 0.005082909310626498,
+      "nonzero": 56579,
+      "invalid": 0
+    },
+    {
+      "file": "videos/LG-C-L15.webm",
+      "samples": 270720,
+      "seconds": 5.64,
+      "peak": 0.048554010689258575,
+      "dc": 8.474482051378184e-8,
+      "rms": 0.006248440753090423,
+      "nonzero": 80206,
+      "invalid": 0
+    },
+    {
+      "file": ".tmp/lightwork-qa/active-loop.webm",
+      "samples": 14558400,
+      "seconds": 303.3,
+      "peak": 0.04875265061855316,
+      "dc": 1.045253494462939e-7,
+      "rms": 0.009280957881491471,
+      "nonzero": 8194402,
+      "invalid": 0
+    }
+  ],
+  "comparisons": {
+    "sameBoards": true,
+    "sameUndo": true,
+    "sameTargetInputSchedule": true,
+    "maxDispatchLatenessMs": 31
+  },
+  "scope": "Decoded actual browser graph capture. Codec output verified; perception and device speaker output NOT TESTED."
+}

@@ -1,0 +1,112 @@
+{
+  "results": [
+    {
+      "name": "Fresh real input: no autoplay, first mirror and result, dedicated preferences",
+      "status": "PASS"
+    },
+    {
+      "name": "All18 LG-A solution/intermediate/Undo/save equality",
+      "status": "PASS"
+    },
+    {
+      "name": "All18 LG-B solution/intermediate/Undo/save equality",
+      "status": "PASS"
+    },
+    {
+      "name": "All18 LG-C solution/intermediate/Undo/save equality",
+      "status": "PASS"
+    },
+    {
+      "name": "Sequential gate phases, retained silence, comparison and Undo preserve state",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: undo",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: menu",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: reset",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: level",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: layout",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: hidden",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: pagehide",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: resize",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel transition before queued sound: compare",
+      "status": "PASS"
+    },
+    {
+      "name": "Mute, gain zero, reduced motion and max gain independently",
+      "status": "PASS"
+    },
+    {
+      "name": "Graceful unavailable",
+      "status": "PASS"
+    },
+    {
+      "name": "Graceful delayed-resume",
+      "status": "PASS"
+    },
+    {
+      "name": "Graceful corrupt",
+      "status": "PASS"
+    },
+    {
+      "name": "Graceful denied",
+      "status": "PASS"
+    },
+    {
+      "name": "Graceful source-failure",
+      "status": "PASS"
+    },
+    {
+      "name": "Input/layout ja/auto",
+      "status": "PASS"
+    },
+    {
+      "name": "Input/layout ja/portrait",
+      "status": "PASS"
+    },
+    {
+      "name": "Input/layout ja/landscape",
+      "status": "PASS"
+    },
+    {
+      "name": "Input/layout en/auto",
+      "status": "PASS"
+    },
+    {
+      "name": "Input/layout en/portrait",
+      "status": "PASS"
+    },
+    {
+      "name": "Input/layout en/landscape",
+      "status": "PASS"
+    },
+    {
+      "name": "Narrow320, Help/settings and focus remain usable",
+      "status": "PASS"
+    }
+  ]
+}

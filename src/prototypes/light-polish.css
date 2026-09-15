@@ -1,0 +1,9 @@
+@import './light-object.css';
+
+/* No idle animation. Touch never inherits persistent hover arrows. */
+.polish-garden .rotation-cue{opacity:0}
+.polish-garden .rotation-intro:not(:disabled) .rotation-cue,
+.polish-garden .cell-control:focus-visible:not(:disabled) .rotation-cue{opacity:1}
+@media (hover:hover) and (pointer:fine){
+ .polish-garden .cell-control:hover:not(:disabled) .rotation-cue{opacity:1}
+}

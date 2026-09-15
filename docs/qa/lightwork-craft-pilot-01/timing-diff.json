@@ -1,0 +1,10 @@
+{
+  "coreTimingChanged": false,
+  "changes": [],
+  "mirrorMs": 150,
+  "rayMs": 100,
+  "branchDelayMs": 110,
+  "switchMs": 215,
+  "gateMs": 245,
+  "phaseMs": 300
+}

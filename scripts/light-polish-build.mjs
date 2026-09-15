@@ -1,0 +1,16 @@
+import {build} from 'esbuild';
+import {readFile,writeFile,mkdir,cp} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import path from 'node:path';
+import {projectRoot,projectPath} from './project-path.mjs';
+import {transformLightwork} from './lightwork-build.mjs';
+
+const out=projectPath('.cache/lightwork-polish'),hooks=[];
+function exact(source,name,from,to){assert.equal(source.split(from).length-1,1,name);hooks.push(name);return source.replace(from,to);}
+await mkdir(out,{recursive:true});await cp(projectPath('.cache/lightwork-object'),out,{recursive:true});
+await build({absWorkingDir:projectRoot,entryPoints:['src/prototypes/game-r2.ts'],outfile:path.join(out,'prototype-assets/light-polish.js'),bundle:true,format:'esm',target:'es2022',minify:true,plugins:[{name:'isolated-object-view',setup(b){
+ b.onLoad({filter:/[\\/]game-r2\.ts$/},async args=>{let source=transformLightwork(await readFile(args.path,'utf8')).source;source=exact(source,'board renderer',"from './board-view'","from './light-object-view'");source="import './light-polish.css';\n"+source;return {contents:source,loader:'ts',resolveDir:path.dirname(args.path)};});
+ b.onLoad({filter:/[\\/]light-craft-motion\.ts$/},async args=>{let source=await readFile(args.path,'utf8');source=exact(source,'art for covers',"import {gateArt,flower} from './art';","import {flower} from './art';\nimport {gateArt} from './light-polish-art';\nimport {animateShutter,stageReceivers} from './light-object-motion';");source=exact(source,'shutter drawing',"animate(cover,[{opacity:1},{opacity:0}],timing.gateDuration,phase.at+timing.gate);","animateShutter(cover,animate,timing.gateDuration,phase.at+timing.gate);");source=exact(source,'receiver drawing lifecycle','const cleanup=()=>{clearTimeout(timer);','const clearReceivers=stageReceivers(svg,level,plan,animate);\n const cleanup=()=>{clearReceivers();clearTimeout(timer);');return {contents:source,loader:'ts',resolveDir:path.dirname(args.path)};});
+ b.onLoad({filter:/[\\/]light-object-(view|motion)\.ts$/},async args=>{let source=await readFile(args.path,'utf8');source=exact(source,path.basename(args.path)+' art',"from './light-object-art'","from './light-polish-art'");if(args.path.endsWith('motion.ts')){source=exact(source,'shutter endpoint x','dataset.shutterX)*15','dataset.shutterX)*13');source=exact(source,'shutter endpoint y','dataset.shutterY)*15','dataset.shutterY)*13');source=exact(source,'shutter endpoint scale','scale(.23)','scale(.4)');}if(args.path.endsWith('view.ts')){source=exact(source,'polish board marker','garden object-garden','garden object-garden polish-garden');source=exact(source,'initial mirror cue','class="cell-control ','class="cell-control '+"${l.id==='L01'&&i===0&&!v.acted?'rotation-intro':''} ");}return {contents:source,loader:'ts',resolveDir:path.dirname(args.path)};});
+ }}]});
+await mkdir(projectPath('.tmp/lightwork-polish'),{recursive:true});await writeFile(projectPath('.tmp/lightwork-polish/build.json'),JSON.stringify({hooks,canonicalSourcesEdited:false,output:'.cache/lightwork-polish',acceptedLightworkHooks:9},null,2));console.log('Lightwork Art Polish build:',hooks.length,'drawing hooks; original LG-C hooks retained');

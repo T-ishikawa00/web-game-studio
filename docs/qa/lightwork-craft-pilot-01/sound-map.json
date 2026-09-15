@@ -1,0 +1,85 @@
+{
+  "source": "src/prototypes/light-craft-sound.ts",
+  "method": "Original local deterministic synthesis; no samples/Tiny imports; same PCM kernel and gain as runtime; PCM16 export only",
+  "seed": "Fixed per-event integer",
+  "listening": "NOT TESTED",
+  "records": [
+    {
+      "id": "mirror_turn",
+      "durationMs": 96,
+      "gain": 0.24,
+      "priority": 1,
+      "description": "Dry rounded wooden-glass contact",
+      "runtimeMasterGain": 0.55,
+      "peak": 0.042921237587928776,
+      "dc": -5.555270508557754e-12,
+      "file": "audio/mirror_turn.wav"
+    },
+    {
+      "id": "switch_on",
+      "durationMs": 144,
+      "gain": 0.23,
+      "priority": 2,
+      "description": "Soft single mechanism point",
+      "runtimeMasterGain": 0.55,
+      "peak": 0.03861301146447659,
+      "dc": 1.4353466747492442e-12,
+      "file": "audio/switch_on.wav"
+    },
+    {
+      "id": "gate_open",
+      "durationMs": 168,
+      "gain": 0.26,
+      "priority": 2,
+      "description": "Two-part small wooden latch",
+      "runtimeMasterGain": 0.55,
+      "peak": 0.036088168442249303,
+      "dc": 1.7631561563010744e-13,
+      "file": "audio/gate_open.wav"
+    },
+    {
+      "id": "flower_lit",
+      "durationMs": 260,
+      "gain": 0.27,
+      "priority": 3,
+      "description": "Rounded mallet arrival, short warm harmonic tail",
+      "runtimeMasterGain": 0.55,
+      "peak": 0.048393315866589556,
+      "dc": 8.700219844481972e-13,
+      "file": "audio/flower_lit.wav"
+    },
+    {
+      "id": "puzzle_clear",
+      "durationMs": 480,
+      "gain": 0.29,
+      "priority": 4,
+      "description": "Three quiet rising resolution notes",
+      "runtimeMasterGain": 0.55,
+      "peak": 0.047742202699184416,
+      "dc": -4.1100026481986405e-12,
+      "file": "audio/puzzle_clear.wav"
+    },
+    {
+      "id": "run_complete",
+      "durationMs": 720,
+      "gain": 0.3,
+      "priority": 5,
+      "description": "Three-note cadence with a settling final pair",
+      "runtimeMasterGain": 0.55,
+      "peak": 0.059969041943550114,
+      "dc": -1.4828864471497631e-12,
+      "file": "audio/run_complete.wav"
+    },
+    {
+      "id": "undo",
+      "durationMs": 88,
+      "gain": 0.16,
+      "priority": 1,
+      "description": "Weaker descending contact, no result reward",
+      "runtimeMasterGain": 0.55,
+      "peak": 0.021322819948196414,
+      "dc": 1.8549361125720888e-13,
+      "file": "audio/undo.wav"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "name": "All play/report/media/image links resolve",
+      "status": "PASS",
+      "urls": 30
+    },
+    {
+      "name": "All9 embedded videos actually play/decode in Edge",
+      "status": "PASS"
+    },
+    {
+      "name": "Review responsive320/390/1280",
+      "status": "PASS"
+    },
+    {
+      "name": "Server forbidden paths and video range",
+      "status": "PASS"
+    },
+    {
+      "name": "Normal/design/prototype output excludes Pilot and answers",
+      "status": "PASS"
+    },
+    {
+      "name": "Lightwork deterministic rebuild + Tiny original frozen46 exact",
+      "status": "PASS"
+    }
+  ]
+}

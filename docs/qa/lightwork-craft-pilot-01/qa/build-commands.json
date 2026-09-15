@@ -1,0 +1,37 @@
+[
+  {
+    "name": "check",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "unit",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "normal",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "design",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "prototypes",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "tiny-frozen",
+    "status": "PASS",
+    "exitCode": 0
+  },
+  {
+    "name": "lightwork",
+    "status": "PASS",
+    "exitCode": 0
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "rawFullProject": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "indexScan": {
+    "mode": "staged",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "historyScan": {
+    "mode": "history",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "newUnapprovedFindings": 0,
+  "dispositions": [
+    {
+      "file": ".tmp/r3-before/manifest.json",
+      "type": "generic-api-key",
+      "disposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED",
+      "authority": "docs/security/BATCH_01_R5_CANDIDATE_DISPOSITION.md"
+    },
+    {
+      "file": ".tmp/physical-mobile-r2/tls/server.key",
+      "type": "private-key",
+      "disposition": "TRUE SECRET / LOCAL DEV ONLY / APPROVED FOR LOCAL RETENTION",
+      "authority": "docs/security/LIGHTWORK_LOCAL_TLS_DISPOSITION.md"
+    }
+  ],
+  "key": {
+    "ignored": true,
+    "indexAbsent": true,
+    "historyPathAbsent": true,
+    "servedPath404": true
+  },
+  "scannerConfigurationChanged": false,
+  "hookConfigurationChanged": false,
+  "valuesOrKeyHashesEmitted": false,
+  "lanReopened": false,
+  "remoteQueried": false,
+  "limits": "Whole-project scanner findings are separate from Human dispositions. Browser exclusion tested against the dedicated review server. No provider validation, secret copying, rotation or history rewriting."
+}

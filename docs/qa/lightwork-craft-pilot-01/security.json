@@ -1,0 +1,71 @@
+{
+  "at": "2026-09-15T10:53:57.327Z",
+  "rawFullProject": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "dispositions": [
+    {
+      "file": ".tmp/r3-before/manifest.json",
+      "disposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED",
+      "authority": "docs/security/batch-01-r5-disposition.json"
+    },
+    {
+      "file": ".tmp/physical-mobile-r2/tls/server.key",
+      "type": "private-key",
+      "disposition": "TRUE SECRET / LOCAL DEV ONLY / APPROVED FOR LOCAL RETENTION",
+      "authority": "Explicit Human instruction in current task",
+      "conditions": "Local development TLS private key; unchanged ignored retention and continued local work only"
+    }
+  ],
+  "checks": {
+    "underTmp": true,
+    "ignored": true,
+    "untracked": true,
+    "indexAbsent": true,
+    "historyPathAbsent": true,
+    "historyContentAbsent": true,
+    "remoteMainEqualsScannedHead": true,
+    "otherFileContentMatches": 0,
+    "inspectedFiles": 9044,
+    "scannedGitBlobs": 1224,
+    "servedFrozenFileCount": 46,
+    "handlerForbiddenPaths": 4,
+    "handlerScope": "Shared HTTP/HTTPS request handler invoked in memory, no listening socket",
+    "valueOrDigestEmitted": false,
+    "providerValidation": false,
+    "origin": "Existing local OpenSSL generator and prior Tiny physical-mobile report",
+    "runtimeUse": "Only existing LAN HTTPS server TLS configuration",
+    "keyModified": false,
+    "lanReopened": false
+  },
+  "limits": "Repository remote absence supported by scanned local history and exact remote main equality; no claim of auditing unrelated external systems. Binary screenshot contents are not OCR-scanned; no tool output of the key occurred.",
+  "indexScan": {
+    "mode": "staged",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "historyScan": {
+    "mode": "history",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "newUnapprovedFindings": 0,
+  "scannerExceptionsAdded": 0,
+  "futureCheckpoint": "Full index and history must be rescanned; this approval never authorizes Git inclusion."
+}

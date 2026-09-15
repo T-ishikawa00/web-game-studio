@@ -1,0 +1,337 @@
+{
+  "at": "2026-09-15T14:13:53.735Z",
+  "primaryModel": "gpt-6-astra",
+  "independentReadOnlyReviewer": "gpt-6-astra",
+  "typeCheck": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 3
+  },
+  "build": {
+    "hooks": [
+      "board renderer",
+      "light-object-view.ts art",
+      "polish board marker",
+      "initial mirror cue",
+      "art for covers",
+      "shutter drawing",
+      "receiver drawing lifecycle",
+      "light-object-motion.ts art",
+      "shutter endpoint x",
+      "shutter endpoint y",
+      "shutter endpoint scale"
+    ],
+    "canonicalSourcesEdited": false,
+    "output": ".cache/lightwork-polish",
+    "acceptedLightworkHooks": 9
+  },
+  "unit": {
+    "passed": 197,
+    "failed": 0
+  },
+  "tinyFrozen": {
+    "files": 46,
+    "exact": true
+  },
+  "suites": {
+    "pilot": {
+      "results": [
+        {
+          "name": "Fresh real input: no autoplay, first mirror and result, dedicated preferences",
+          "status": "PASS"
+        },
+        {
+          "name": "All18 LG-A solution/intermediate/Undo/save equality",
+          "status": "PASS"
+        },
+        {
+          "name": "All18 LG-B solution/intermediate/Undo/save equality",
+          "status": "PASS"
+        },
+        {
+          "name": "All18 LG-C solution/intermediate/Undo/save equality",
+          "status": "PASS"
+        },
+        {
+          "name": "Sequential gate phases, retained silence, comparison and Undo preserve state",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: undo",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: menu",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: reset",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: level",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: layout",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: hidden",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: pagehide",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: resize",
+          "status": "PASS"
+        },
+        {
+          "name": "Cancel transition before queued sound: compare",
+          "status": "PASS"
+        },
+        {
+          "name": "Mute, gain zero, reduced motion and max gain independently",
+          "status": "PASS"
+        },
+        {
+          "name": "Graceful unavailable",
+          "status": "PASS"
+        },
+        {
+          "name": "Graceful delayed-resume",
+          "status": "PASS"
+        },
+        {
+          "name": "Graceful corrupt",
+          "status": "PASS"
+        },
+        {
+          "name": "Graceful denied",
+          "status": "PASS"
+        },
+        {
+          "name": "Graceful source-failure",
+          "status": "PASS"
+        },
+        {
+          "name": "Input/layout ja/auto",
+          "status": "PASS"
+        },
+        {
+          "name": "Input/layout ja/portrait",
+          "status": "PASS"
+        },
+        {
+          "name": "Input/layout ja/landscape",
+          "status": "PASS"
+        },
+        {
+          "name": "Input/layout en/auto",
+          "status": "PASS"
+        },
+        {
+          "name": "Input/layout en/portrait",
+          "status": "PASS"
+        },
+        {
+          "name": "Input/layout en/landscape",
+          "status": "PASS"
+        },
+        {
+          "name": "Narrow320, Help/settings and focus remain usable",
+          "status": "PASS"
+        }
+      ]
+    },
+    "edge": {
+      "results": [
+        {
+          "name": "Transient source.start failure releases partial voice and healthy playback restores availability",
+          "status": "PASS"
+        },
+        {
+          "name": "Delayed resume followed by hidden never schedules stale cues or keeps context running",
+          "status": "PASS"
+        },
+        {
+          "name": "Rapid accepted input does not exceed three overlapping voices; menus cancel pending effects",
+          "status": "PASS"
+        },
+        {
+          "name": "Real mock respects input cooldown, pauses Lightwork and never replays old cues",
+          "status": "PASS"
+        },
+        {
+          "name": "Synthetic click and repeated held key never unlock audio",
+          "status": "PASS"
+        }
+      ]
+    },
+    "object": {
+      "results": [
+        {
+          "name": "All18 new renderers: same solved state, live detectors and latched gates",
+          "status": "PASS"
+        },
+        {
+          "name": "L05 light now / activated before / Undo both states",
+          "status": "PASS"
+        },
+        {
+          "name": "L13 flowers are live, never latched",
+          "status": "PASS"
+        },
+        {
+          "name": "L15 receiver presentation at accepted cause phases; cancellation restores final view",
+          "status": "PASS"
+        },
+        {
+          "name": "L16 gate leaves clear both axes; splitter points to actual top inlet",
+          "status": "PASS"
+        },
+        {
+          "name": "New objects ja/auto preserve state and hitboxes",
+          "status": "PASS"
+        },
+        {
+          "name": "New objects ja/portrait preserve state and hitboxes",
+          "status": "PASS"
+        },
+        {
+          "name": "New objects ja/landscape preserve state and hitboxes",
+          "status": "PASS"
+        },
+        {
+          "name": "New objects en/auto preserve state and hitboxes",
+          "status": "PASS"
+        },
+        {
+          "name": "New objects en/portrait preserve state and hitboxes",
+          "status": "PASS"
+        },
+        {
+          "name": "New objects en/landscape preserve state and hitboxes",
+          "status": "PASS"
+        },
+        {
+          "name": "Reduced motion: instantaneous final device state, no visual overlays",
+          "status": "PASS"
+        }
+      ]
+    },
+    "polish": {
+      "results": [
+        {
+          "name": "Touch initial cue survives dismissed text; no sticky arrow after input",
+          "status": "PASS"
+        },
+        {
+          "name": "Mouse hover and keyboard focus reveal arrows without changing board",
+          "status": "PASS"
+        },
+        {
+          "name": "Silent reduced motion 320: lens, clasp, gate, Undo and crests",
+          "status": "PASS"
+        },
+        {
+          "name": "Silent reduced motion 390: lens, clasp, gate, Undo and crests",
+          "status": "PASS"
+        },
+        {
+          "name": "Shutter animation endpoint matches static retained plates",
+          "status": "PASS"
+        }
+      ]
+    },
+    "review": {
+      "results": [
+        {
+          "name": "Review links/assets",
+          "status": "PASS",
+          "count": 22
+        },
+        {
+          "name": "/review/videos/before-L01.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.324519,
+          "duration": 2.12,
+          "error": null
+        },
+        {
+          "name": "/review/videos/after-L01.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.364178,
+          "duration": 2.12,
+          "error": null
+        },
+        {
+          "name": "/review/videos/before-L05.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.368832,
+          "duration": 6.08,
+          "error": null
+        },
+        {
+          "name": "/review/videos/after-L05.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.322782,
+          "duration": 6.089,
+          "error": null
+        },
+        {
+          "name": "/review/videos/before-L16.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.369446,
+          "duration": 9.04,
+          "error": null
+        },
+        {
+          "name": "/review/videos/after-L16.webm",
+          "status": "PASS",
+          "width": 432,
+          "height": 768,
+          "time": 0.363162,
+          "duration": 9.04,
+          "error": null
+        },
+        {
+          "name": "Review responsive320/390/1280",
+          "status": "PASS"
+        },
+        {
+          "name": "Forbidden paths / method / Host / range",
+          "status": "PASS"
+        },
+        {
+          "name": "Before/After matching plans/state/actions",
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "media": {
+    "records": 6,
+    "beforeAfterHistoryBoardPlanEqual": true
+  },
+  "visualReview": {
+    "introAndDense": true,
+    "small320": true,
+    "independentBlockers": 0,
+    "humanAcceptance": "PENDING",
+    "physical": "NOT TESTED",
+    "firstTime": "DEFERRED / NOT TESTED"
+  }
+}

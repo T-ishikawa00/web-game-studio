@@ -1,0 +1,24 @@
+{
+  "results": [
+    {
+      "name": "Transient source.start failure releases partial voice and healthy playback restores availability",
+      "status": "PASS"
+    },
+    {
+      "name": "Delayed resume followed by hidden never schedules stale cues or keeps context running",
+      "status": "PASS"
+    },
+    {
+      "name": "Rapid accepted input does not exceed three overlapping voices; menus cancel pending effects",
+      "status": "PASS"
+    },
+    {
+      "name": "Real mock respects input cooldown, pauses Lightwork and never replays old cues",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic click and repeated held key never unlock audio",
+      "status": "PASS"
+    }
+  ]
+}
