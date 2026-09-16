@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-16T02:14:13.698Z",
+  "environment": "Windows / Edge headless / Playwright. Width emulation is not physical-device acceptance.",
+  "results": [
+    {
+      "name": "JA/EN routes, three real cards, details, related games, links, locale and back",
+      "status": "PASS"
+    },
+    {
+      "name": "Fixed adopted settings ignore legacy URL/session modes; Tiny JA music and user music-off",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing same-origin saves, locale sharing, three independent progress/audio keys, controlled reset",
+      "status": "PASS"
+    },
+    {
+      "name": "Corrupt/unknown save versions retain original; denied write/readback/reset never claim success",
+      "status": "PASS"
+    },
+    {
+      "name": "Handshake source/origin/game/generation/shape rejects forgery; loading timeout and reload recover",
+      "status": "PASS"
+    },
+    {
+      "name": "Desktop/mobile widths × JA/EN × three display modes, reduced motion, touch and keyboard",
+      "status": "PASS"
+    }
+  ]
+}

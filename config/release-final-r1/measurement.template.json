@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "recommendedOption": "A",
+  "selectedOption": null,
+  "pagePerformanceProvider": null,
+  "publicBeaconId": null,
+  "eventEndpoint": null,
+  "proposalB": {
+    "events": ["game_start", "first_input", "progress", "related_open", "load_failure"],
+    "gameIds": ["tiny-delivery", "light-garden", "two-ways-home"],
+    "locales": ["ja", "en"],
+    "progressBuckets": ["first_clear", "middle", "complete"],
+    "errorCodes": ["timeout", "load_error"],
+    "allowedFields": ["name", "gameId", "locale", "progressBucket", "errorCode"],
+    "maxBodyBytes": 512,
+    "maxEventsPerPage": 12,
+    "retries": 0,
+    "rawEventRetentionMonths": 3,
+    "manualAggregateRetentionDays": 90,
+    "persistentIdentifier": false,
+    "fingerprint": false,
+    "status": "DESIGN ONLY; no collector, binding, network hook or provider enabled"
+  }
+}

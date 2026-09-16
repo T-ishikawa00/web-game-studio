@@ -1,0 +1,51 @@
+{
+  "at": "2026-09-16T20:11:56.926Z",
+  "status": "PASS",
+  "model": "gpt-6-astra",
+  "initialHead": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+  "initialTrackingRef": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+  "initialActualRemote": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+  "actualRemoteVisibility": "private (GitHub metadata)",
+  "changedExistingFiles": [
+    "docs/games/PRODUCTION_CURRENT.md",
+    "docs/planning/TINLUMO_RELEASE_CHECKLIST_R1.md",
+    "docs/planning/TINLUMO_RELEASE_DECISION_PACK_R1.md",
+    "scripts/rc-evidence.mjs",
+    "src/rc/Operations.astro",
+    "src/rc/readiness.mjs",
+    "src/rc/site.json",
+    "tests/rc-release-final.mjs",
+    "tests/unit/rc-readiness.test.ts"
+  ],
+  "preservedExistingFiles": 1979,
+  "nonHtmlDistributionByteIdentical": 17,
+  "operationPagesChecked": 8,
+  "localLinksChecked": 47,
+  "excludedExistingUntracked": [
+    "docs/qa/tiny-physical-mobile-r2/HUMAN_REVIEW.md",
+    "docs/qa/tiny-physical-mobile-r2/REPORT.md",
+    "docs/qa/tiny-physical-mobile-r2/REVIEW.html",
+    "docs/qa/tiny-physical-mobile-r2/final-verification.json",
+    "docs/qa/tiny-physical-mobile-r2/https-results.json",
+    "docs/qa/tiny-physical-mobile-r2/technical-results.json",
+    "scripts/craft-r2-lan-certificate.mjs",
+    "scripts/craft-r2-lan-https-qa.mjs",
+    "scripts/craft-r2-lan-qa.mjs",
+    "scripts/craft-r2-lan-server.mjs",
+    "scripts/craft-r2-lan-stop.ps1",
+    "scripts/lightwork-preservation.mjs",
+    "scripts/lightwork-security.mjs"
+  ],
+  "qa": {
+    "build": "28 pages, 48 distribution files; frozen game entry byte equivalence PASS",
+    "typecheck": "0 errors / 0 warnings / 3 pre-existing hints",
+    "readinessUnit": "3 PASS",
+    "browser": "JA/EN x 3 games navigation/save/reload/pause-resume; 320/1440 operations copy; 0 external requests",
+    "distribution": "allowlist48, private/internal URLs404 x11, gitleaks0",
+    "release": "BLOCKED; Human RC PASS and first-use deferral retained",
+    "oldFrozen": "1690 existing source/evidence files and original frozen runtime checked by rc-preserve",
+    "reused": "Previous full57, lifecycle, sound and BGM constrained-network/failure evidence; payload byte identity proved",
+    "notRun": "No new all57 replay, physical devices, real network, external-first-use, live hosting/email/analytics tests"
+  },
+  "externalActivation": 0
+}

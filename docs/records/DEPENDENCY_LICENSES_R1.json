@@ -2558,5 +2558,18 @@
       "license": "MIT",
       "dev": false
     }
-  ]
+  ],
+  "rcDistributionReview": {
+    "date": "2026-09-16",
+    "profile": "three-game-soft-launch-rc-r1",
+    "source": "docs/qa/soft-launch-rc-r1/adoption-equivalence.json",
+    "clientNodeModulesInputs": 0,
+    "astroOutput": "_astro contains only CSS; no Astro client runtime emitted",
+    "generator": "astro 7.3.2; full LICENSE including bundled-origin MIT notices inspected and copied verbatim",
+    "noticeSource": "node_modules/astro/LICENSE",
+    "noticeDistributedAs": "licenses/astro.txt",
+    "esbuild": "MIT (Evan Wallace), inspected node_modules/esbuild/LICENSE.md; build tool, no esbuild runtime in client metafile",
+    "fonts": "OS font stack; no distributed font binaries",
+    "scope": "Actual RC output/metafile reviewed; old package list remains build dependency metadata. No blanket legal clearance."
+  }
 }

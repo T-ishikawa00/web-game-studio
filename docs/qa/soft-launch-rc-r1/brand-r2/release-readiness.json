@@ -1,0 +1,80 @@
+{
+  "at": "2026-09-16T05:33:38.557Z",
+  "releaseReady": false,
+  "previewAllowed": true,
+  "deployAuthorized": false,
+  "blockers": [
+    {
+      "code": "domain",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicOperator",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicContact",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "contactHandling",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "markets",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "targetAge",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "hostingAndLogs",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "retentionAndConsent",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "namesAndRights",
+      "reason": "Final rights approval pending; Human name selection alone is not clearance"
+    },
+    {
+      "code": "legalReview",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "rcPhysicalDevices",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "human57Puzzles",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "externalFirstUse",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "release",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "legalDraft",
+      "reason": "Operating pages are legal drafts"
+    },
+    {
+      "code": "rights:tinlumoClearance",
+      "reason": "Human selected Tinlumo / ティンルモ and Tinlumo Studio for the local RC. Trademark and rights clearance remain incomplete; no domain ownership established."
+    },
+    {
+      "code": "rights:hakoriloClearance",
+      "reason": "Human selected Hakorilo / ハコリロ. Trademark and rights clearance remain incomplete. Previous Tiny Delivery research is retained as history."
+    },
+    {
+      "code": "publicCopyDraft",
+      "reason": "Rendered operating-page source still contains draft/provisional content"
+    }
+  ]
+}

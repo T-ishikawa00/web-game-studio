@@ -1,0 +1,53 @@
+---
+import '../styles/global.css';
+import '../styles/baseline.css';
+import site from './site.json';
+import './rc.css';
+import type { Locale } from '../data/games';
+import { ui } from '../i18n/ui';
+interface Props { image?:string; locale: Locale; title: string; description?: string; path?: string; preview?: boolean; catalog?: boolean }
+const { image, locale, title, description = ui[locale].intro, path = '', preview = false, catalog = false } = Astro.props;
+const t = ui[locale];
+const suffix = path ? `${path}/` : '';
+const homePath = preview ? 'design-preview/' : '';
+const brandLabel = locale === 'ja' ? `${site.officialSiteName}（${site.pronunciation.ja}）` : site.officialSiteName;
+const pageTitle = `${title} | ${site.officialSiteName}`;
+const pageDescription = `${site.officialSiteName} — ${description}`;
+---
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={pageDescription} />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#f7f9f8" />
+    <link rel="alternate" hreflang="ja" href={`/ja/${suffix}`} />
+    <link rel="alternate" hreflang="en" href={`/en/${suffix}`} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content={pageTitle} /><meta property="og:description" content={pageDescription} />{image && <meta property="og:image" content={image} />}<title>{pageTitle}</title>
+  </head>
+  <body data-locale={locale} class:list={{ 'is-play': path.includes('play/'), 'is-preview': preview }}>
+    <a class="skip-link" href="#main">{t.skip}</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={`/${locale}/${homePath}`} aria-label={brandLabel}>
+          <svg width="52" height="46" viewBox="0 0 60 52" aria-hidden="true"><path d="M4 16C0 0 21 4 30 12C43 2 60 6 56 25L52 40Q30 57 9 41Z" fill="#d4ff69"/><path d="M20 36V20L39 36V20" fill="none" stroke="#121b2d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25" cy="6" r="3" fill="#121b2d"/><circle cx="36" cy="5" r="3" fill="#121b2d"/></svg><span>{site.officialSiteName}</span>
+        </a>
+        <span class="brand-tagline">{locale === 'ja' ? 'オリジナルのブラウザゲーム。' : 'Play original browser games.'}<br />{locale === 'ja' ? '日本語と英語で。' : 'In Japanese and English.'}</span>
+        <nav aria-label={t.home} class="main-nav">
+          <a href={`/${locale}/${preview ? 'design-preview/games/' : 'games/'}`} data-catalog-nav={catalog ? '' : undefined} aria-current={path === 'games' || path === 'design-preview/games' ? 'page' : undefined}><span aria-hidden="true">✚</span> {t.games}</a>
+        </nav>
+        {catalog && <label class="header-search" data-search-controls hidden><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m16 16 6 6"/></svg><span class="sr-only">{locale === 'ja' ? 'ゲームを検索' : 'Search games'}</span><input id="game-search" type="search" placeholder={locale === 'ja' ? 'ゲームを探す…' : 'Search games…'} autocomplete="off" /></label>}
+        <nav class="language-switch" aria-label={t.language}>{(['ja', 'en'] as const).map(lang => <a href={`/${lang}/${suffix}`} data-locale-link data-event="language_change" lang={lang} aria-current={lang === locale ? 'page' : undefined} aria-label={lang === 'ja' ? '日本語' : 'English'}>{lang.toUpperCase()}</a>)}</nav>
+      </div>
+    </header>
+    <div class="preview-strip"><div class="wrap">{locale==='ja'?'ローカル公開候補 · 3作品 · 未公開':'Local release candidate · 3 games · Unpublished'}</div></div>
+    <main id="main" class="wrap"><slot /></main>
+    <footer class="site-footer wrap">
+      <div><a class="footer-brand" href={`/${locale}/`} aria-label={brandLabel}>{site.officialSiteName}</a><p>{site.creatorBrand}</p><p>{t.footer}</p><span class="muted">{locale==='ja'?'無料・購入なし・広告なし':'Free · No purchases · No ads'}</span></div>
+      <nav aria-label={t.contact}>{(['about', 'privacy', 'terms', 'contact', 'credits'] as const).map(key => <a href={`/${locale}/${key}/`}>{key==='credits'?(locale==='ja'?'クレジット':'Credits'):t[key]}</a>)}</nav>
+    </footer>
+    <script is:inline type="module" src="/assets/portal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,222 @@
+{
+  "at": "2026-09-16T18:12:54.853Z",
+  "status": "PASS",
+  "scope": "Offline template/limits/route projection only; not Wrangler schema/runtime/CDN validation",
+  "files": 48,
+  "maxAssetBytes": 12288044,
+  "deploymentEnabled": false,
+  "externalAnalyticsEnabled": false,
+  "domain": null,
+  "seoPlan": [
+    {
+      "path": "/en/about/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/about/",
+      "ja": "/ja/about/",
+      "en": "/en/about/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/contact/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/contact/",
+      "ja": "/ja/contact/",
+      "en": "/en/contact/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/credits/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/credits/",
+      "ja": "/ja/credits/",
+      "en": "/en/credits/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/games/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/games/",
+      "ja": "/ja/games/",
+      "en": "/en/games/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/games/light-garden/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/games/light-garden/",
+      "ja": "/ja/games/light-garden/",
+      "en": "/en/games/light-garden/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/games/tiny-delivery/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/games/tiny-delivery/",
+      "ja": "/ja/games/tiny-delivery/",
+      "en": "/en/games/tiny-delivery/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/games/two-ways-home/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/games/two-ways-home/",
+      "ja": "/ja/games/two-ways-home/",
+      "en": "/en/games/two-ways-home/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/",
+      "ja": "/ja/",
+      "en": "/en/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/play/light-garden/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/play/light-garden/",
+      "ja": "/ja/play/light-garden/",
+      "en": "/en/play/light-garden/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/play/tiny-delivery/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/play/tiny-delivery/",
+      "ja": "/ja/play/tiny-delivery/",
+      "en": "/en/play/tiny-delivery/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/play/two-ways-home/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/play/two-ways-home/",
+      "ja": "/ja/play/two-ways-home/",
+      "en": "/en/play/two-ways-home/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/privacy/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/privacy/",
+      "ja": "/ja/privacy/",
+      "en": "/en/privacy/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/en/terms/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/en/terms/",
+      "ja": "/ja/terms/",
+      "en": "/en/terms/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/about/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/about/",
+      "ja": "/ja/about/",
+      "en": "/en/about/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/contact/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/contact/",
+      "ja": "/ja/contact/",
+      "en": "/en/contact/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/credits/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/credits/",
+      "ja": "/ja/credits/",
+      "en": "/en/credits/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/games/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/games/",
+      "ja": "/ja/games/",
+      "en": "/en/games/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/games/light-garden/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/games/light-garden/",
+      "ja": "/ja/games/light-garden/",
+      "en": "/en/games/light-garden/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/games/tiny-delivery/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/games/tiny-delivery/",
+      "ja": "/ja/games/tiny-delivery/",
+      "en": "/en/games/tiny-delivery/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/games/two-ways-home/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/games/two-ways-home/",
+      "ja": "/ja/games/two-ways-home/",
+      "en": "/en/games/two-ways-home/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/",
+      "ja": "/ja/",
+      "en": "/en/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/play/light-garden/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/play/light-garden/",
+      "ja": "/ja/play/light-garden/",
+      "en": "/en/play/light-garden/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/play/tiny-delivery/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/play/tiny-delivery/",
+      "ja": "/ja/play/tiny-delivery/",
+      "en": "/en/play/tiny-delivery/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/play/two-ways-home/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/play/two-ways-home/",
+      "ja": "/ja/play/two-ways-home/",
+      "en": "/en/play/two-ways-home/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/privacy/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/privacy/",
+      "ja": "/ja/privacy/",
+      "en": "/en/privacy/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    },
+    {
+      "path": "/ja/terms/",
+      "canonicalAfterDomainDecision": "https://<approved-domain>/ja/terms/",
+      "ja": "/ja/terms/",
+      "en": "/en/terms/",
+      "xDefault": "/",
+      "indexableAfterApproval": true
+    }
+  ],
+  "publicArtifactGenerated": false,
+  "remaining": "Human decisions; approved production-only SEO/copy transition; schema validation with pinned Wrangler; authorized provider setup; HTTPS/header/cache/404 live smoke"
+}

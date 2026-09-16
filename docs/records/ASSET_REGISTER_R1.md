@@ -1,5 +1,90 @@
 # R1 Asset and Rights Register
 
+## Tinlumo Release Readiness Final R1 — 2026-09-17
+
+対象は公開予定RCの48ファイルだけ。[Release Decision Pack](../planning/TINLUMO_RELEASE_DECISION_PACK_R1.md) §2–3に今回の個別結果と未取得範囲を集約。旧台帳本文と素材は履歴として保持。
+
+- 採用BGM B.wavと配布music.wavはbyte一致（12,288,044 B）。作品別SFX、code/SVG/CSS Art、実画面coverを保持。font binaryなし。bundle inputsはrepo src/のみ、Astro LICENSE全文（SvelteKit/Vite由来noticeを含む）と配布noticeを一致確認。追加配布notice不足は今回未検出。
+- 現行markの正本は `src/rc/favicon.svg` / `src/rc/Layout.astro`。既存N形状を保全し、Wという過去記載を最新の現物説明として使わない。新規デザイン・権利承認を意味しない。
+- Tinlumo/Hakorilo採用を維持。J-PlatPat称呼・11C01検索でTIRMO（登録7014427）とHAKONE∞はこジ郎（登録5691985）を取得。指定商品全文・法的類否は未確認。AI支援/ローカル合成も権利確認完了の代用にしない。
+- 公開配布・実況/収益化動画の範囲はHuman判断待ち。外部Portal/広告/事業承継は初回公開で実施しない将来scope。全project Security rawの既知2検出とRC配布scanは別。
+
+## Tinlumo — 2026-09-16 latest brand / Nolippa adoption withdrawn
+
+Humanが追加調査で営業中の既存事業 **NORIPPA（ノリッパ）** を確認したと報告し、**Nolippa / Nolippa Studioの採用を撤回**。最新は **Tinlumo / ティンルモ / Tinlumo Studio**。これはHuman報告と名称選択の記録であり、今回こちらで当該事業・商標・権利範囲を独立確認したものではない。URL/業種/運営者は未提示、推測しない。2014年のジョルダンnorippa記録とは区別する。
+
+Tinlumoも商標/権利クリアランス未完了。domain/candidate未設定、取得済みと扱わない。制作元表記は法人・公開運営者の確定ではない。Hakoriloと他2作品の名称・全素材・保存識別子は不変。[最新決定](../planning/TINLUMO_BRAND_R2.md)、[最新Review](../qa/soft-launch-rc-r1/brand-r2/REPORT.md)。以下のNolippa選択と調査メモは撤回前の履歴として削除せず保持。
+
+## Nolippa / Hakorilo — 2026-09-16 naming correction and selection
+
+最新Human選択：Portal **Nolippa / ノリッパ**、制作元ブランド **Nolippa Studio**（法人名・運営者の確定ではない）、配送ゲーム英語 **Hakorilo / ハコリロ**。日本語 **ちいさな配送パズル**を保持し、RCでは許可済みの併記を使用。他2作品は不変。[決定記録](../planning/NOLIPPA_HAKORILO_NAMING_R1.md)、[最新配布manifest](../qa/soft-launch-rc-r1/naming-r1/distribution-manifest.json)。
+
+**名称選択完了 ≠ 商標・権利確認完了。** [ジョルダン公式2014-04-30発表](https://www.jorudan.co.jp/company/data/press/2014/20140430_norippa.html)を2026-09-16に読み取り確認し、「乗換案内norippa（のりっぱ）」が当時発表されていたことをNolippaの類似名称として訂正・追記する。現在の提供、登録商標、商品役務・地域・権利範囲は未確認。安全/使用不可のいずれも結論にしない。Hakoriloも商標確認済みにしない。商標DB再調査・登録・問い合わせ・購入は未実施。
+
+`nolippa.com`は未照会のdomain候補。所有・取得・使用可能性を推測せず、本番domain/canonical/連絡先は未設定。旧Tiny Delivery同名調査を下に残すが、現在の「名称選択待ち」と混同しない。他2作品・素材・配信許諾の権利残件は継続。
+
+RCのHeader内W文字とfaviconのみNに局所変更。新編集元は `src/rc/Layout.astro` / `src/rc/favicon.svg`。既存色・図形を保つコードSVGで、外部素材/画像生成API/新規fontなし。旧 `public/favicon.svg`、実画面covers、ゲームArt・音楽・Motion・比較画像/動画は不変。ブランド選択はNマークの最終法務判断を含まない。
+
+以下の初回RC・過去調査は改名前の記録として保全。最新の配布内容/名称は上記および名称差分Reviewを参照。
+
+## Three-game Soft Launch RC R1 — 2026-09-16 current distribution review
+
+Local candidate only, actual released inventory **0**. This section supersedes older present-tense claims of 5/54 puzzles or no audio for this RC only; the old records remain historical evidence. [Authorized specification](../planning/THREE_GAME_SOFT_LAUNCH_RC_R1.md), [RC review](../qa/soft-launch-rc-r1/REPORT.md), [actual distribution manifest](../qa/soft-launch-rc-r1/distribution-manifest.json).
+
+| Distributed material | Editable source / provenance and adaptation | Verification / outstanding rights |
+|---|---|---|
+| 57 puzzles: Lightwork 18, Two Ways 21, Tiny 18; game code and guides | `src/prototypes/{levels,rules,state,protocol}.ts`, existing per-game data/rule modules and `guides.ts`. AI-assisted project-authored code/boards. No imported third-party board corpus identified | Stable IDs/order/rules/save version unchanged. RC real UI replay and existing independent solver tests verify behavior, not originality or Human fun |
+| Game SVG/CSS art | `art.ts`, `visual-language.ts`, `game-r2/r3/r4/r5.css`; Lightwork adds `light-object-{view,motion}.ts`, `light-polish-art.ts`, object/polish CSS | Original code-drawn art with AI assistance. No new image API or third-party reference imported in RC. Frozen entry byte parity checked before RC connection changes |
+| Lightwork R1 | `light-craft-{plan,motion,runtime,audio,sound}.ts`, LG-C + Object Design + Art Polish | 7 local synthesized SFX, no BGM. Exact accepted art/motion/PCM representative comparison. Human Craft accepted; public rights review still pending |
+| Two Ways R1 | `twoways-craft-{plan,motion,runtime,audio,sound}.ts` | TW-C, 9 local synthesized SFX, no BGM. D1/D2 comparison music excluded. Human Craft accepted; public rights review pending |
+| Tiny R2 | `craft-sound.ts`, `craft-motion.ts`, `music-score.ts`, `music-rhythm.ts`; accepted master `docs/qa/tiny-d1-rhythm-01/audio/B.wav` | B = D1 Rhythm Refine / 80 BPM. Copied byte-exact to `/games/tiny-delivery/rc-r1/music.wav`; digest in RC manifest. User enabled/gain/mute preserved, comparison direction locked. D2 and comparison controls not distributed |
+| Covers / OG images | Actual RC browser `.play-area` captures, L12/T12/D12; no external input or asset service | [Capture provenance](../qa/soft-launch-rc-r1/covers/provenance.json), per-file digest in manifest. Displayed without cropping away the two boards. Same asset used for cover and relative OG image; production domain/absolute OG resolution pending |
+| Portal, favicon and mark | Accepted Portal R1 CSS and visual grammar; project-authored `public/favicon.svg` and code-drawn W mark; localized RC layout/cards | Working brand only. Final brand/name/mark approval pending. No Design Preview artwork or fixture art in RC |
+| Fonts / OSS | System font stack only; no font binaries. Browser JS metafile inputs are project source only; generated `_astro` output is CSS only | Full installed Astro LICENSE including SvelteKit/Vite-origin notices copied verbatim to `/licenses/astro.txt`. esbuild MIT text inspected, build-tool scope only. [Dependency record](DEPENDENCY_LICENSES_R1.json) now separates build metadata and actual distribution |
+
+Sources are project-local and AI-assisted. No purchased samples, third-party recordings, Suno use, music service plan or external generation API is recorded for these assets. No service was purchased or called. That provenance does **not** establish exclusive copyright, non-infringement, transferable rights or unrestricted streaming rights. Commercial game use, creator video/monetization, advertisements, external portals and business transfer remain separate final rights decisions. No Content ID registration is authorized or performed.
+
+### Provisional name search — 2026-09-16
+
+Read-only general web search used English/Japanese exact names, English names + game, and phonetic variants: ライトワークガーデン / タイニーデリバリー / トゥーウェイズホーム (including spaced forms), ヒカリノシカケニワ / フタリノカエリミチ / チイサナハイソウパズル. Scope: publicly accessible Japanese and English-language results; **not** country-by-country trademark clearance.
+
+| Name | Evidence actually retrieved | Concern / not established |
+|---|---|---|
+| Tiny Delivery / ちいさな配送パズル | [Steam: Tiny Delivery by Sinica](https://store.steampowered.com/app/3812830/Tiny_Delivery/) and [App Store: Tiny Delivery: City Courier](https://apps.apple.com/ca/app/tiny-delivery-city-courier/id6760705999) | **Release blocker:** exact-name game, including a delivery-robot theme. Decide a final name and assess confusion/expression. This is not a finding of infringement |
+| Two Ways Home / ふたりの帰り道 | [UK music duo official site](https://www.twowayshome.com/), [film listing](https://play.google.com/store/movies/details/Two_Ways_Home?hl=en_US&id=HNPpIwViZ9s.P), [Japanese publisher episode title](https://souffle.life/manga/sake-koi-yotte-shikarubeki/20220607-2/) | Existing entertainment uses. Relevant goods/services, registration, similarity and territorial scope unverified |
+| Lightwork Garden / ひかりの仕掛け庭 | No clear exact-name game primary source appeared in this search | Absence from returned results is not legal safety or evidence of exclusive use |
+
+J-PlatPat, USPTO, TMview and WIPO result interfaces could not be read through this search tool; UK IPO search link returned an internal access error. **Japan / US / EU / UK register searches, phonetic similarity, goods/services, ownership and current status remain NOT VERIFIED.** [INPIT search guide](https://faq.inpit.go.jp/FAQ/2024/03/000288.html), [WIPO country/region register guidance](https://www.wipo.int/en/web/madrid-system/how_to/search/index), [UK official search entry](https://www.gov.uk/search-for-trademark).
+
+No particular copied board/art/code was identified from the local provenance review. It was not an exhaustive comparison against existing games. The exact Tiny name and nearby theme warrant targeted Human/professional review of branding and concrete expression; do not infer that all game mechanics or all delivery robots are reserved.
+
+### Data handling and operating drafts — 2026-09-16
+
+JA/EN About / Terms / Privacy / Contact / Credits are implemented in `src/rc/Operations.astro`; the rendered Privacy table is derived from the inspected RC source and browser storage/network QA. Configuration is `src/rc/site.json`; game working names remain in the single shared registry metadata source. No form, fictitious address, age, organization or successful-send state is supplied.
+
+| Data | Actual destination / purpose | Lifetime / deletion / transmission |
+|---|---|---|
+| `wgs:save:<gameId>` | localStorage: board, level ID/version, completed IDs, reducedMotion; schema 1 / version `0.1.0` | No expiry. Per-game progress reset or browser site-data removal. No third-party send |
+| `wgs:audio:<gameId>` | localStorage: mute/gain, version 1 | No expiry. UI changes/site-data removal; progress reset retains it. No third-party send |
+| `wgs:music-pilot:tiny-delivery` | localStorage: enabled/gain/direction, version 1; accepted D1 at runtime | Old enabled/gain respected even if stored comparison direction D2. Original invalid raw data retained. Reset does not erase. No third-party send |
+| `wgs:guide:<gameId>` | localStorage: dismissed guide IDs/version 1 | No expiry. Site-data removal; progress reset retains it. No third-party send |
+| `wgs:capture-layout` | sessionStorage: shared normal/portrait/landscape setting | Tab session/browser restore semantics; UI or site-data removal. No send |
+| `wgs:input:two-ways-home` | sessionStorage: swipe/direction-button preference | Tab session/UI/site-data removal. No send |
+| `wgs:session:v1` | sessionStorage: start-event dedup marker | Tab session. No send |
+| Events | Page memory, at most 50 allowlisted name/gameId/locale/result/sequence records per adapter | Discarded with document; no transport/persistent event log. RC exposes no window QA event accessor |
+| HTTP resources | Same-origin HTML/CSS/JS/art/BGM from loopback-only RC server | No external requests observed. Browser cache and server behavior are separate from localStorage. Production access logs/hosting remain undecided |
+
+Comparison-mode keys and ad-pressure keys are not newly written by RC. Old comparison data is left untouched. Browser data belongs to the exact origin, including port; no cross-port/domain migration is promised. No claim that this avoids every form of personal-data processing.
+
+### Primary-source legal review scope (2026-09-16)
+
+- Japan: [PPC general guidelines](https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/) (page displays June 2026 partial revision). Final inquiry data/log collection, purpose notice, security/processor practices depend on actual operating design. Client-only no-transmission does not settle future personal-information handling.
+- US: [FTC COPPA FAQ](https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions). Intended/actual audience, art, sound and activities matter together. A "13+" line alone does not settle child-directed status; future hosting/ads collection needs separate analysis.
+- EU: [GDPR Articles 3/6/8/13](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng), [ePrivacy Article 5(3)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219). Determine territorial scope, actual processing, basis/notices and each target country's implementation. Article 8 is not a single EU-wide minimum age for all games.
+- UK: [ICO storage/access rules](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-pecr-rules/) and [exception conditions](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/). Assess each purpose and applicable exception, information and objection requirements; do not exempt all localStorage by technology alone.
+
+These are scoped research notes, not legal advice or final clearance. Target markets/age, public operator/contact, inquiry retention, hosting/logs/analytics, retention/consent, names and streaming rights are release blockers. Current streaming text is an **unapproved draft**, not a blanket permission. Confirmed materials can receive a final policy only after explicit rights approval.
+
 ## Tiny Delivery Craft Pilot 01 — 2026-09-15
 
 - Asset IDs: `tiny-sfx-arrow`, `tiny-sfx-wait`, `tiny-sfx-undo`, `tiny-sfx-start`, `tiny-sfx-arrive`, `tiny-sfx-collision`, `tiny-sfx-clear`, `tiny-sfx-complete`. Arrow/arrival/clear each have variants 0 and 1. Uses and duration/peaks: [audio measurements](../qa/tiny-craft-pilot-01/audio-measurements.json).

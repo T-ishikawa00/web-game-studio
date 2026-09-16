@@ -1,0 +1,58 @@
+{
+  "at": "2026-09-16T18:14:34.127Z",
+  "model": "gpt-6-astra",
+  "typecheck": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 3
+  },
+  "rcBuild": {
+    "htmlPages": 28,
+    "files": 48
+  },
+  "readinessUnit": {
+    "passed": 2,
+    "total": 2
+  },
+  "browserGroups": {
+    "passed": 3,
+    "total": 3
+  },
+  "preservation": {
+    "at": "2026-09-16T18:14:09.333Z",
+    "status": "PASS",
+    "model": "gpt-6-astra",
+    "head": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+    "branch": "main",
+    "localUpstreamTrackingRef": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+    "remoteLiveRef": "NOT QUERIED",
+    "indexUnchanged": true,
+    "initialFiles": 1966,
+    "preservedExistingFiles": 1958,
+    "changedExistingFiles": 8,
+    "unchangedNonHtmlPayload": 17,
+    "oldQaAndFrozenEvidence": "All pre-existing docs/qa bytes unchanged",
+    "stableGameplaySaveIdsKeysSchema": true,
+    "localLinksChecked": 21,
+    "fullProjectSecurity": "Not rerun; historical raw FAIL2 and exact SHA/TLS dispositions retained",
+    "externalOperations": "Official public information read queries only; no publication, account changes, purchases or external telemetry"
+  },
+  "distribution": {
+    "at": "2026-09-16T18:12:55.494Z",
+    "distributionAllowlist": "PASS",
+    "files": 48,
+    "internalPaths404": 11,
+    "noExternalFonts": true,
+    "scanner": "gitleaks 8.30.1",
+    "distributionScan": "PASS",
+    "findings": [],
+    "existingFullProjectScan": "Historical raw FAIL (2), separate approved SHA and local-only TLS dispositions retained. Not relabeled PASS."
+  },
+  "release": {
+    "ready": false,
+    "beforeDeployment": 25,
+    "afterAuthorizedDeployment": 1
+  },
+  "reuse": "Historical full57, audio/lifecycle, save failure, old unit/routes with unchanged sources/payload; not rerun",
+  "visual": "Contact 390px and Pack 1440px inspected; two local screenshots; not Human acceptance"
+}

@@ -1,0 +1,157 @@
+{
+  "at": "2026-09-16T20:05:25.855Z",
+  "releaseReady": false,
+  "previewAllowed": true,
+  "deployAuthorized": false,
+  "humanReview": {
+    "rcCandidate": {
+      "status": "PASS",
+      "source": "Human RC Acceptance PASS explicitly confirmed for the latest local RC, 2026-09-17; no inference of physical/full-57 testing or publication approval"
+    },
+    "externalFirstUse": {
+      "status": "DEFERRED / NOT TESTED",
+      "source": "Human decision 2026-09-17"
+    }
+  },
+  "softLaunchPolicy": {
+    "humanDecisionDate": "2026-09-17",
+    "accounts": "none",
+    "requiredLogin": false,
+    "cloudSave": false,
+    "progress": "per-game localStorage autosave; same device/browser/origin",
+    "futureAccounts": "Consider optional accounts and Cloud Save only after actual demand is confirmed; no implementation authorized",
+    "freeGames": 3,
+    "purchases": false,
+    "realAds": false,
+    "locales": [
+      "ja",
+      "en"
+    ],
+    "personalData": "Do not collect unnecessary personal information",
+    "externalAnalytics": "not connected",
+    "operator": "individual; Tinlumo Studio is a brand, not a company",
+    "audience": "general",
+    "dateOfBirthInput": false,
+    "ageInput": false,
+    "ageGate": false,
+    "activelyChildDirected": false,
+    "persistentUserId": false,
+    "fingerprint": false,
+    "initialAnalytics": "Cloudflare Web Analytics only",
+    "gameCustomEvents": false,
+    "hostingCandidate": "Cloudflare Workers Static Assets",
+    "paidPlanRequiresSeparateHumanApproval": true
+  },
+  "evidenceCoverage": {
+    "physicalDevices": "NOT ESTABLISHED by RC candidate PASS",
+    "full57Human": "NOT ESTABLISHED by RC candidate PASS"
+  },
+  "blockers": [
+    {
+      "code": "domain",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicOperator",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicContact",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "contactHandling",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "markets",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "hostingAndLogs",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "retentionAndConsent",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "decision:operatorAddressDisclosure",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:contactReceiptAndReply",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:contactRetentionAndDeletion",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:hostingProcessorAndAccessRetention",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:analyticsAndConsent",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:budgetAndStopOwner",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:assetRightsAndVideoPolicy",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "namesAndRights",
+      "phase": "before-deployment",
+      "reason": "Final distribution-asset rights approval pending; Human Soft Launch name freeze and residual trademark risks are recorded separately"
+    },
+    {
+      "code": "legalReview",
+      "phase": "before-deployment",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "dataPolicyFinal",
+      "phase": "before-deployment",
+      "reason": "Final markets and public data handling decisions pending; general audience, no age gate, account/save and Web Analytics-only policy are fixed"
+    },
+    {
+      "code": "rcPhysicalDevices",
+      "phase": "before-deployment",
+      "reason": "Physical-device evidence/coverage decision remains separate from the accepted local RC candidate"
+    },
+    {
+      "code": "human57Puzzles",
+      "phase": "before-deployment",
+      "reason": "Full-57 Human evidence/coverage decision remains separate from the accepted local RC candidate"
+    },
+    {
+      "code": "release",
+      "phase": "before-deployment",
+      "reason": "Separate authorization for deployment/publication has not been given"
+    },
+    {
+      "code": "deployedUrlSmoke",
+      "phase": "after-authorized-deployment",
+      "reason": "After separately authorized deployment: actual public URL smoke test NOT TESTED; no deployment authorized by this check"
+    },
+    {
+      "code": "legalDraft",
+      "reason": "Operating pages are legal drafts"
+    },
+    {
+      "code": "publicCopyDraft",
+      "reason": "Rendered operating-page source still contains draft/provisional content"
+    }
+  ]
+}

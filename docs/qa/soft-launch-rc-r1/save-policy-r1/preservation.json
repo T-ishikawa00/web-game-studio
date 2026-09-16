@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-16T16:55:51.603Z",
+  "status": "PASS",
+  "unchangedNonHtmlPayload": 17,
+  "protectedSourceAndOldEvidence": 1637,
+  "stableSavesAndGameNames": true,
+  "gameplay57ArtMotionAudioUnchanged": true,
+  "eventBuffers": "50 per instance; up to two instances on Play; nonpersistent",
+  "noNewIdentifiers": true
+}

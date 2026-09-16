@@ -1,0 +1,16 @@
+---
+import type {Game,Locale} from '../data/games';
+import {levelsByGame,type GameId} from '../prototypes/levels';
+import {saveCopy} from './save-copy';
+interface Props{game:Game;locale:Locale}
+const {game,locale}=Astro.props,t=(ja:string,en:string)=>locale==='ja'?ja:en;
+---
+<div class="player-toolbar"><a class="text-link" href={`/${locale}/games/`}>← {t('ゲーム一覧','All games')}</a><div class="player-title"><h1>{game.title[locale]}</h1></div><a class="text-link" href={`/${locale}/games/${game.slug}/`}>{t('遊び方','How to play')}</a></div>
+<section id="rc-shell" data-game={game.id} data-locale={locale} data-title={game.title[locale]} data-build={game.buildPath} data-count={levelsByGame[game.id as GameId].length}>
+ <div id="rc-stage"><p id="rc-loading" role="status">{t('小さな世界を準備中…','Preparing a little world…')}</p><div id="rc-error" role="alert" hidden><p>{t('ゲームを読み込めませんでした。','The game could not load.')}</p><button class="button secondary" id="rc-reload">{t('再読み込み','Reload')}</button></div></div>
+ <noscript>{t('遊ぶにはJavaScriptを有効にしてください。','Enable JavaScript to play.')}<style>#rc-loading{display:none}</style></noscript>
+ <div class="save-bar"><span id="rc-save-status" role="status"></span><button class="text-button" id="rc-reset-save">{t('この作品の進行を消去','Erase this game’s progress')}</button></div>
+ <p class="muted save-explanation">{saveCopy[locale].short}</p>
+ <dialog id="rc-reset-dialog"><h2>{t('この作品の進行を消去しますか？','Erase this game’s progress?')}</h2><p>{t('クリア記録と盤面・動きを控える設定を消去します。音・ガイド・表示設定は残ります。','Removes completions, the board and the reduced-motion preference. Sound, guide and display preferences remain.')}</p><div class="dialog-actions"><button class="button secondary" id="rc-cancel-reset">{t('キャンセル','Cancel')}</button><button class="button primary" id="rc-confirm-reset">{t('進行を消去','Erase progress')}</button></div></dialog>
+</section>
+<script is:inline type="module" src="/assets/shell.js"></script>

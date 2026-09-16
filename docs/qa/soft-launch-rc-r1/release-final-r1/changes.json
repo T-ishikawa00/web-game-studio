@@ -1,0 +1,70 @@
+{
+  "at": "2026-09-16T18:14:35.067Z",
+  "changedExisting": [
+    {
+      "file": "docs/games/PRODUCTION_CURRENT.md",
+      "before": "c3316e404664dcd3b6a290e835925d597a196202a93471bc7867810ef99bc5eb",
+      "after": "16f224ee486a913ad27f06b0bfa49b86d2928df50e3189a9c8a5534d1394d8df"
+    },
+    {
+      "file": "docs/records/ASSET_REGISTER_R1.md",
+      "before": "15b5f25d65335dcd35c906d4d61e482444c27cd7bd765ae959d6e69c9cc6d3a2",
+      "after": "c8af95000402b9e855fff3dc5a8159c985bd8a6897738d543566abdfd63316aa"
+    },
+    {
+      "file": "docs/planning/TINLUMO_RELEASE_CHECKLIST_R1.md",
+      "before": "9dede7ca6978054d85422a76ef3dd93531e06e6d9e7aaed0ed57ef7724844d13",
+      "after": "2a4da527f1d592907b2d942dd25acfce0919efca5c09e557b1028d01be46689d"
+    },
+    {
+      "file": "scripts/rc-evidence.mjs",
+      "before": "06d304a99535532e3c0941fffb6179d1990ca156bf950308e8677beba03f7a5d",
+      "after": "213297cfd7e9fb229868db827705a936c88b360f532e52adfd42034cff0f9ed7"
+    },
+    {
+      "file": "src/rc/Operations.astro",
+      "before": "ce0d69f10e62e9f5c4706ec7cf358f9405a9bbe34c1894037cf0fd60f249abd2",
+      "after": "ac879e36ba0fd1ab77bdc4f038d4c0936eb998ff194e4df54b2b4d4bc6c6341d"
+    },
+    {
+      "file": "src/rc/readiness.mjs",
+      "before": "260bbe4d258b57ca2696c9b215ec6d835e2c5818cb44c0674b10a91d1bd9b1dc",
+      "after": "900362c75e39d236a76bdd31e10b47fcfce23e0203f94c5eebcbf12d4f64a824"
+    },
+    {
+      "file": "src/rc/site.json",
+      "before": "ba16c801c7d9f99d877b919682d79995e6d880903384ac2f1de913524391aac9",
+      "after": "735086d84048568b00b4acba1b27ba274aace44894bfa7225091c34431e27f4e"
+    },
+    {
+      "file": "tests/unit/rc-readiness.test.ts",
+      "before": "8f48381c08240f1f5271c85ff8f5fa74f2945890cccb0a16d24863d51726960a",
+      "after": "dae2eb7dba9a259ba482b4e344f05bc40c8587a2071ebc77958d7c520867e1e9"
+    }
+  ],
+  "added": [
+    "config/release-final-r1/_headers.template",
+    "config/release-final-r1/events-summary.sql",
+    "config/release-final-r1/measurement.template.json",
+    "config/release-final-r1/wrangler.template.json",
+    "docs/planning/TINLUMO_RELEASE_DECISION_PACK_R1.md",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/REPORT.md",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/REVIEW.html",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/adoption-equivalence.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/before.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/browser-results.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/changes.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/distribution-audit.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/distribution-manifest.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/final-verification.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/hosting-validation.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/initial-browser-results.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/release-readiness.json",
+    "docs/qa/soft-launch-rc-r1/release-final-r1/technical-results.json",
+    "scripts/rc-final-review.mjs",
+    "scripts/rc-final-verify.mjs",
+    "scripts/rc-hosting-check.mjs",
+    "tests/rc-release-final.mjs"
+  ],
+  "existingWorkPreserved": true
+}

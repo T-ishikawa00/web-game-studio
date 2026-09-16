@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tiny-delivery",
+    "level": "D12",
+    "source": "RC accepted profile / real UI .play-area screenshot",
+    "viewport": {
+      "width": 1280,
+      "height": 1200
+    },
+    "reducedMotion": true,
+    "generatedAt": "2026-09-16T02:12:31.717Z"
+  },
+  {
+    "id": "light-garden",
+    "level": "L12",
+    "source": "RC accepted profile / real UI .play-area screenshot",
+    "viewport": {
+      "width": 1280,
+      "height": 1200
+    },
+    "reducedMotion": true,
+    "generatedAt": "2026-09-16T02:12:32.074Z"
+  },
+  {
+    "id": "two-ways-home",
+    "level": "T12",
+    "source": "RC accepted profile / real UI .play-area screenshot",
+    "viewport": {
+      "width": 1280,
+      "height": 1200
+    },
+    "reducedMotion": true,
+    "generatedAt": "2026-09-16T02:12:32.387Z"
+  }
+]

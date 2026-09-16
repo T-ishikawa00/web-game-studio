@@ -1,0 +1,113 @@
+{
+  "officialSiteName": "Tinlumo",
+  "pronunciation": {
+    "ja": "ティンルモ",
+    "en": "Tinlumo"
+  },
+  "creatorBrand": "Tinlumo Studio",
+  "nameSelection": {
+    "status": "HUMAN FREEZE — Soft Launch",
+    "date": "2026-09-17",
+    "scope": "Tinlumo / ティンルモ / Tinlumo Studio; Hakorilo / ハコリロ; other two titles retained. Name exploration closed. Not legal safety or publication approval."
+  },
+  "domainCandidate": "tinlumo.com",
+  "domain": null,
+  "publicOperator": null,
+  "publicContact": null,
+  "contactHandling": null,
+  "markets": null,
+  "targetAge": "General audience; no DOB/age entry or age gate; not actively promoted as a child-directed service",
+  "hostingAndLogs": null,
+  "retentionAndConsent": null,
+  "analyticsProvider": "disabled",
+  "ads": "disabled",
+  "legalDraft": true,
+  "releaseDecisions": {
+    "operatorAddressDisclosure": null,
+    "contactReceiptAndReply": null,
+    "contactRetentionAndDeletion": null,
+    "hostingProcessorAndAccessRetention": null,
+    "analyticsAndConsent": null,
+    "budgetAndStopOwner": null,
+    "assetRightsAndVideoPolicy": null
+  },
+  "releaseRecommendations": {
+    "status": "Human-selected initial approach; external activation NOT authorized",
+    "hosting": "Cloudflare Workers Static Assets Free, assets only, no Worker script",
+    "analytics": "Cloudflare Web Analytics only for initial release; currently disabled; game custom events excluded",
+    "contact": "After domain acquisition: support address via Cloudflare Email Routing to an existing inbox; destination, reply and retention remain to be decided",
+    "budget": "Keep Free; Paid plan requires separate Human approval; domain purchase budget remains undecided"
+  },
+  "softLaunchPolicy": {
+    "humanDecisionDate": "2026-09-17",
+    "accounts": "none",
+    "requiredLogin": false,
+    "cloudSave": false,
+    "progress": "per-game localStorage autosave; same device/browser/origin",
+    "futureAccounts": "Consider optional accounts and Cloud Save only after actual demand is confirmed; no implementation authorized",
+    "freeGames": 3,
+    "purchases": false,
+    "realAds": false,
+    "locales": [
+      "ja",
+      "en"
+    ],
+    "personalData": "Do not collect unnecessary personal information",
+    "externalAnalytics": "not connected",
+    "operator": "individual; Tinlumo Studio is a brand, not a company",
+    "audience": "general",
+    "dateOfBirthInput": false,
+    "ageInput": false,
+    "ageGate": false,
+    "activelyChildDirected": false,
+    "persistentUserId": false,
+    "fingerprint": false,
+    "initialAnalytics": "Cloudflare Web Analytics only",
+    "gameCustomEvents": false,
+    "hostingCandidate": "Cloudflare Workers Static Assets",
+    "paidPlanRequiresSeparateHumanApproval": true
+  },
+  "humanReview": {
+    "rcCandidate": {
+      "status": "PASS",
+      "source": "Human RC Acceptance PASS explicitly confirmed for the latest local RC, 2026-09-17; no inference of physical/full-57 testing or publication approval"
+    },
+    "externalFirstUse": {
+      "status": "DEFERRED / NOT TESTED",
+      "source": "Human decision 2026-09-17"
+    }
+  },
+  "unresolvedRights": [],
+  "approvals": {
+    "humanRcCandidate": true,
+    "dataPolicyFinal": false,
+    "deployedUrlSmoke": false,
+    "namesAndRights": false,
+    "legalReview": false,
+    "rcPhysicalDevices": false,
+    "human57Puzzles": false,
+    "externalFirstUse": false,
+    "release": false
+  },
+  "nameRiskDisposition": {
+    "humanDecision": "Freeze for Soft Launch with the following residual uncertainty explicitly recorded",
+    "japanAndUnitedStates": "No major blocker identified within the checked preliminary clearance scope",
+    "tirmo": "unresolved",
+    "wipo": "UNKNOWN",
+    "legalSafetyGuaranteed": false,
+    "source": "Human Decisions — FIX, 2026-09-17; preceding pinpoint register research"
+  },
+  "operatorPolicy": {
+    "type": "individual",
+    "brandIsLegalEntity": false,
+    "publicIdentityConfirmed": false
+  },
+  "contactPlan": {
+    "candidate": "support@tinlumo.com",
+    "condition": "Only after domain acquisition and receiving/reply tests; not a live published address",
+    "providerCandidate": "Cloudflare Email Routing to an existing verified inbox",
+    "destination": null,
+    "replyMethod": null,
+    "retention": null
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "at": "2026-09-16T02:19:45.300Z",
+  "method": "Real RC UI input; no in-game QA port, no injected game state. Light/Home intermediate checkpoints plus all 57 persisted clears.",
+  "results": [
+    {
+      "game": "light-garden",
+      "level": "L01",
+      "status": "PASS",
+      "uiSteps": 1
+    },
+    {
+      "game": "light-garden",
+      "level": "L02",
+      "status": "PASS",
+      "uiSteps": 2
+    },
+    {
+      "game": "light-garden",
+      "level": "L03",
+      "status": "PASS",
+      "uiSteps": 4
+    },
+    {
+      "game": "light-garden",
+      "level": "L04",
+      "status": "PASS",
+      "uiSteps": 1
+    },
+    {
+      "game": "light-garden",
+      "level": "L05",
+      "status": "PASS",
+      "uiSteps": 2
+    },
+    {
+      "game": "light-garden",
+      "level": "L06",
+      "status": "PASS",
+      "uiSteps": 3
+    },
+    {
+      "game": "light-garden",
+      "level": "L07",
+      "status": "PASS",
+      "uiSteps": 4
+    },
+    {
+      "game": "light-garden",
+      "level": "L08",
+      "status": "PASS",
+      "uiSteps": 4
+    },
+    {
+      "game": "light-garden",
+      "level": "L09",
+      "status": "PASS",
+      "uiSteps": 1
+    },
+    {
+      "game": "light-garden",
+      "level": "L10",
+      "status": "PASS",
+      "uiSteps": 3
+    },
+    {
+      "game": "light-garden",
+      "level": "L11",
+      "status": "PASS",
+      "uiSteps": 3
+    },
+    {
+      "game": "light-garden",
+      "level": "L12",
+      "status": "PASS",
+      "uiSteps": 3
+    },
+    {
+      "game": "light-garden",
+      "level": "L13",
+      "status": "PASS",
+      "uiSteps": 3
+    },
+    {
+      "game": "light-garden",
+      "level": "L14",
+      "status": "PASS",
+      "uiSteps": 5
+    },
+    {
+      "game": "light-garden",
+      "level": "L15",
+      "status": "PASS",
+      "uiSteps": 5
+    },
+    {
+      "game": "light-garden",
+      "level": "L16",
+      "status": "PASS",
+      "uiSteps": 6
+    },
+    {
+      "game": "light-garden",
+      "level": "L17",
+      "status": "PASS",
+      "uiSteps": 5
+    },
+    {
+      "game": "light-garden",
+      "level": "L18",
+      "status": "PASS",
+      "uiSteps": 5
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T19",
+      "status": "PASS",
+      "uiSteps": 1
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T01",
+      "status": "PASS",
+      "uiSteps": 2
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T20",
+      "status": "PASS",
+      "uiSteps": 3
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T21",
+      "status": "PASS",
+      "uiSteps": 3
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T02",
+      "status": "PASS",
+      "uiSteps": 5
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T06",
+      "status": "PASS",
+      "uiSteps": 4
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T07",
+      "status": "PASS",
+      "uiSteps": 5
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T08",
+      "status": "PASS",
+      "uiSteps": 6
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T09",
+      "status": "PASS",
+      "uiSteps": 8
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T03",
+      "status": "PASS",
+      "uiSteps": 10
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T04",
+      "status": "PASS",
+      "uiSteps": 9
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T05",
+      "status": "PASS",
+      "uiSteps": 13
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T10",
+      "status": "PASS",
+      "uiSteps": 8
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T11",
+      "status": "PASS",
+      "uiSteps": 8
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T12",
+      "status": "PASS",
+      "uiSteps": 9
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T13",
+      "status": "PASS",
+      "uiSteps": 11
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T14",
+      "status": "PASS",
+      "uiSteps": 11
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T15",
+      "status": "PASS",
+      "uiSteps": 11
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T16",
+      "status": "PASS",
+      "uiSteps": 12
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T17",
+      "status": "PASS",
+      "uiSteps": 13
+    },
+    {
+      "game": "two-ways-home",
+      "level": "T18",
+      "status": "PASS",
+      "uiSteps": 14
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D01",
+      "status": "PASS",
+      "uiSteps": 6
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D02",
+      "status": "PASS",
+      "uiSteps": 10
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D03",
+      "status": "PASS",
+      "uiSteps": 5
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D04",
+      "status": "PASS",
+      "uiSteps": 6
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D05",
+      "status": "PASS",
+      "uiSteps": 8
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D06",
+      "status": "PASS",
+      "uiSteps": 7
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D07",
+      "status": "PASS",
+      "uiSteps": 8
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D08",
+      "status": "PASS",
+      "uiSteps": 7
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D09",
+      "status": "PASS",
+      "uiSteps": 6
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D10",
+      "status": "PASS",
+      "uiSteps": 4
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D11",
+      "status": "PASS",
+      "uiSteps": 6
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D12",
+      "status": "PASS",
+      "uiSteps": 7
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D13",
+      "status": "PASS",
+      "uiSteps": 7
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D14",
+      "status": "PASS",
+      "uiSteps": 8
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D15",
+      "status": "PASS",
+      "uiSteps": 6
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D16",
+      "status": "PASS",
+      "uiSteps": 8
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D17",
+      "status": "PASS",
+      "uiSteps": 9
+    },
+    {
+      "game": "tiny-delivery",
+      "level": "D18",
+      "status": "PASS",
+      "uiSteps": 9
+    }
+  ]
+}

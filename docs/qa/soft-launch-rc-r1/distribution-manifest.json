@@ -1,0 +1,478 @@
+{
+  "at": "2026-09-16T02:28:28.694Z",
+  "head": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+  "workingDiffSha256": "4d7c65444a8e167ca367a59ec52535148d16b34ee18b9f0187e561b6b76f384a",
+  "untrackedSource": [
+    {
+      "file": "astro.rc.config.mjs",
+      "sha256": "bfd3e5e2123fbb11f3a232c08a79784377302a82325437d51ecae0e18d96f7ef"
+    },
+    {
+      "file": "scripts/rc-assets.mjs",
+      "sha256": "fafba4c51fe56cddedd5a17b8ed3bdd159eac8a7cc8dc0ea8ea6cc74a2b6b92c"
+    },
+    {
+      "file": "scripts/rc-audit.mjs",
+      "sha256": "452eb09962889ecb4765930650ab3a3c3446e3d4b4e8857e3cf064f83b053de5"
+    },
+    {
+      "file": "scripts/rc-build.mjs",
+      "sha256": "67bd6dab3d47b765e6583a5d1379cb05e9b7948348f51ab6cc063e9dcb932b63"
+    },
+    {
+      "file": "scripts/rc-game-hooks.mjs",
+      "sha256": "3976b652a210617c449622dc788b9a5d439e5553cfcaba9ee4a24d03f19cd078"
+    },
+    {
+      "file": "scripts/rc-manifest.mjs",
+      "sha256": "a48005e376535e16ce1275747aab14c4e97d3046244c707644c2b876b57ba166"
+    },
+    {
+      "file": "scripts/rc-preserve.mjs",
+      "sha256": "a0b96bf57c8ced20eb302e81fb61e77da15e7a6bcfbfd75fd79f0a7d29e9bf5a"
+    },
+    {
+      "file": "scripts/rc-release-check.mjs",
+      "sha256": "fe049ed9a738644a6494127c6bffbf0bcaa82a886db8b686c9d44cbe632d0389"
+    },
+    {
+      "file": "scripts/rc-review.mjs",
+      "sha256": "cc94549cd51db5bfba483d5441e89f57eddac9eb857273e2cdfd5bddbfa88346"
+    },
+    {
+      "file": "scripts/rc-server.mjs",
+      "sha256": "bc49a206ae24382f38da1594bfa68069d487d2392e38074071178d081b70d248"
+    },
+    {
+      "file": "scripts/rc-stop.ps1",
+      "sha256": "1768b41fde01c7800b09338d19944de8631c4af296a5797c242fa9e65f1af1b7"
+    },
+    {
+      "file": "src/rc/Layout.astro",
+      "sha256": "2ff6cfdd6874ec0123d33e4b55a3d6880de43a1b14d174b94d8db7a9e8bfd74a"
+    },
+    {
+      "file": "src/rc/Operations.astro",
+      "sha256": "21859e736f79b077b8aa9cc805106186194f747f22d068fa12a8efe0ac8e5fe9"
+    },
+    {
+      "file": "src/rc/Play.astro",
+      "sha256": "ee0e20d0c9acc0895137919a238d5a126f9219f268722f14871c7e8707e125c1"
+    },
+    {
+      "file": "src/rc/pages/404.astro",
+      "sha256": "84afaea6bcbec768bad66b9caff75d756ad5b9f9d95167e522d9af88b4aadf22"
+    },
+    {
+      "file": "src/rc/pages/[locale]/[...path].astro",
+      "sha256": "2a94c412170501248ab0fbf8e6f853eb69afa017497810105e8446db6f6ec89a"
+    },
+    {
+      "file": "src/rc/pages/index.astro",
+      "sha256": "237083540c3865bd8e3c2f8daa374503335a5873e24223476a7c77be055e42bc"
+    },
+    {
+      "file": "src/rc/portal.ts",
+      "sha256": "56e283593021ddf6c9af1cddd2af01f150e568532d4340f75a96ef0c0cf699c5"
+    },
+    {
+      "file": "src/rc/profile.ts",
+      "sha256": "48f307689d304bb8ffe02959d3b0d085faf08ba3f845fe7cb4e725242ff60152"
+    },
+    {
+      "file": "src/rc/rc.css",
+      "sha256": "a395a2aa71012c9a1ce10ee8cf25c5b62c18ecd92cc0b3b46f469e06f09b6274"
+    },
+    {
+      "file": "src/rc/readiness.mjs",
+      "sha256": "9e9305d749bda4941b0e906a73ac0ee07ac99a7c0924540f28422d62ef107730"
+    },
+    {
+      "file": "src/rc/runtime-port.ts",
+      "sha256": "3ae30ad9c0c252d12fce4231da14f3b5c07d0841712073b0948dd8763525f017"
+    },
+    {
+      "file": "src/rc/shell.ts",
+      "sha256": "bc3c331dfe48fdc9480adb538c4612f4089c0554d39c5391379f07be24a2f003"
+    },
+    {
+      "file": "src/rc/site.json",
+      "sha256": "7f5b6e5693c7ac42348963aee3546cfa6a7e4b45e46a58feecb30692d8b21aff"
+    },
+    {
+      "file": "tests/rc-browser.mjs",
+      "sha256": "178f3299d9e2014c101170936ed9b908a31c5113d3316db270899eaf7acedcd7"
+    },
+    {
+      "file": "tests/rc-cost-media.mjs",
+      "sha256": "2a7acea616e0d3d6855434edaf14fa07c33f7cef467a60e04725fcc651373a2e"
+    },
+    {
+      "file": "tests/rc-covers.mjs",
+      "sha256": "5fe03028c0892f030887b639889747aa26a54ecd0bbd6e1f75c4624e2988e6d0"
+    },
+    {
+      "file": "tests/rc-equivalence.mjs",
+      "sha256": "f1eedc39d5bedd9b74df7b2e53ea1dfecb7889aa6246895f17d1d822c012a97c"
+    },
+    {
+      "file": "tests/rc-full-run.mjs",
+      "sha256": "889e3d2c1510ce4a7617c9a1211d92211f09dce257802cbee2b88b9335fad4b1"
+    },
+    {
+      "file": "tests/rc-helpers.mjs",
+      "sha256": "497792bf1cb295553c0d068b326e515546f757d0e3ef96c052585cda82fb3f0a"
+    },
+    {
+      "file": "tests/rc-lifecycle.mjs",
+      "sha256": "967c954afa43143ac75022769a507204e774983d2e8179f5819a892e523868cc"
+    }
+  ],
+  "profile": "three-game-soft-launch-rc-r1",
+  "actualReleasedGames": 0,
+  "files": [
+    {
+      "file": "404.html",
+      "sha256": "7e0c52f4225954464b7507578810234c6639bc3df868eefa377e6bdafabf0c89",
+      "bytes": 380,
+      "gzip": 301,
+      "brotli": 179
+    },
+    {
+      "file": "assets/portal.js",
+      "sha256": "176b74d755bed4465b15cda17ee341aedbdfbcfb6c24622475f8a4b85177851f",
+      "bytes": 722,
+      "gzip": 421,
+      "brotli": 364
+    },
+    {
+      "file": "assets/shell.js",
+      "sha256": "b29633fc72ccbbccb5ede216b82410aabff47c39a48fb07e6b457c938b91b96e",
+      "bytes": 59328,
+      "gzip": 15523,
+      "brotli": 13139
+    },
+    {
+      "file": "covers/light-garden.png",
+      "sha256": "0606aefeb26acfff502b4221286b57e4b9809c400ea9b4067fcb0f045ffa81e0",
+      "bytes": 36638,
+      "gzip": 34339,
+      "brotli": 34127
+    },
+    {
+      "file": "covers/tiny-delivery.png",
+      "sha256": "ab9d7e9481f6d5bcf79085329ba650785a29bf4277e8978e2eb2dc9e1ab6fe18",
+      "bytes": 13438,
+      "gzip": 11936,
+      "brotli": 11915
+    },
+    {
+      "file": "covers/two-ways-home.png",
+      "sha256": "d96afb5adee57c516175f45a51a9503916bc9c0edf3364233b9b0d7fc7ead73f",
+      "bytes": 9736,
+      "gzip": 8495,
+      "brotli": 8465
+    },
+    {
+      "file": "en/about/index.html",
+      "sha256": "f4011f2c4310b05cd630e3b46806f938ed7bf397122ecf61e07d3be128c1451a",
+      "bytes": 5007,
+      "gzip": 2167,
+      "brotli": 1647
+    },
+    {
+      "file": "en/contact/index.html",
+      "sha256": "43e2d634176bf35358be0bb7ddcbb69fc35005dd023257c127725c00b71d2ee4",
+      "bytes": 4850,
+      "gzip": 2089,
+      "brotli": 1589
+    },
+    {
+      "file": "en/credits/index.html",
+      "sha256": "a3dbad355a936ecf0943851231ec8baa79befc0c2e34fa4a5db45df10b37954a",
+      "bytes": 5649,
+      "gzip": 2487,
+      "brotli": 1887
+    },
+    {
+      "file": "en/games/index.html",
+      "sha256": "9b865f5728dd9d303f66e259340bd7593c6ab5832a1db8fa73f61fd2bfaa47af",
+      "bytes": 7031,
+      "gzip": 2521,
+      "brotli": 1937
+    },
+    {
+      "file": "en/games/light-garden/index.html",
+      "sha256": "d2f3c2a2c79b5822070128d1d99c30de79d7b29dab5647fff35c1f20027ef161",
+      "bytes": 7007,
+      "gzip": 2692,
+      "brotli": 2070
+    },
+    {
+      "file": "en/games/tiny-delivery/index.html",
+      "sha256": "864b055968d426028764714ab15ea3b75fd9ff99b45f11fac866d9e2b70d674a",
+      "bytes": 7072,
+      "gzip": 2711,
+      "brotli": 2088
+    },
+    {
+      "file": "en/games/two-ways-home/index.html",
+      "sha256": "407e8846dfaead18b5bd114a315d1a0180a5305a840deb2a3ae33b24a1286d04",
+      "bytes": 7075,
+      "gzip": 2697,
+      "brotli": 2081
+    },
+    {
+      "file": "en/index.html",
+      "sha256": "639fb42f233e10c979f489ae089325550741ea01eefbc4972840f8b795ee3f81",
+      "bytes": 6987,
+      "gzip": 2517,
+      "brotli": 1934
+    },
+    {
+      "file": "en/play/light-garden/index.html",
+      "sha256": "bfe9df2f3d185833f2354770c144a9d6aaad00daf1b8df46d9f0904ab1d42884",
+      "bytes": 7263,
+      "gzip": 2710,
+      "brotli": 2091
+    },
+    {
+      "file": "en/play/tiny-delivery/index.html",
+      "sha256": "289bc171a3a5657e8660f1752d7aa4e8f03faef99d560e8addee60951ecf139f",
+      "bytes": 7261,
+      "gzip": 2706,
+      "brotli": 2090
+    },
+    {
+      "file": "en/play/two-ways-home/index.html",
+      "sha256": "67b8cc9e0baa7ecab6215f4fac5999a6da287089188a11f31d0426673a8a0a03",
+      "bytes": 7262,
+      "gzip": 2706,
+      "brotli": 2085
+    },
+    {
+      "file": "en/privacy/index.html",
+      "sha256": "555746ab98b28692b19f364e1df41b1fb24816c0168769577c037b5b5a3b6098",
+      "bytes": 6707,
+      "gzip": 2824,
+      "brotli": 2143
+    },
+    {
+      "file": "en/terms/index.html",
+      "sha256": "9e091eb867b1976722218d3e51e43ee17c8c24daca7fc353d0538a98510f27dc",
+      "bytes": 5485,
+      "gzip": 2404,
+      "brotli": 1817
+    },
+    {
+      "file": "favicon.svg",
+      "sha256": "51e6ef1f709fee0ca4087f420c5415054c56796e17dba128368c21503065ef44",
+      "bytes": 228,
+      "gzip": 186,
+      "brotli": 174
+    },
+    {
+      "file": "games/light-garden/rc-r1/base.css",
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e",
+      "bytes": 53014,
+      "gzip": 11074,
+      "brotli": 9703
+    },
+    {
+      "file": "games/light-garden/rc-r1/game.css",
+      "sha256": "3a1e4e02de7c48f6025f801852dabf927e9d5bab330aa16028497a2f48dc0c1f",
+      "bytes": 1009,
+      "gzip": 370,
+      "brotli": 282
+    },
+    {
+      "file": "games/light-garden/rc-r1/game.js",
+      "sha256": "2f816a8fd23f69c3bbdf403b9979b6c3381a8409ee637f66f1bf5b7b3bf5f8f3",
+      "bytes": 153116,
+      "gzip": 46890,
+      "brotli": 39392
+    },
+    {
+      "file": "games/light-garden/rc-r1/index.html",
+      "sha256": "b47d6fcf022f113972b514e8a115576a903b65c06d27d1817b7fe3c3d76459c3",
+      "bytes": 379,
+      "gzip": 237,
+      "brotli": 143
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/base.css",
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e",
+      "bytes": 53014,
+      "gzip": 11074,
+      "brotli": 9703
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/game.js",
+      "sha256": "69131572ccf0c0aaed8d58711679b31943468d964457ba6041d9cb1921202eff",
+      "bytes": 138984,
+      "gzip": 43177,
+      "brotli": 36383
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/index.html",
+      "sha256": "e1c4d6b10a9cc143a30ef8062a595ea3d70eb99e4339b8b5fe9c24835e64a625",
+      "bytes": 339,
+      "gzip": 234,
+      "brotli": 138
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/music.wav",
+      "sha256": "05b01efe37574c335b5164b92c8c80896e20a452696fd66fd55c1d5336a75945",
+      "bytes": 12288044,
+      "gzip": 3793388,
+      "brotli": 1651350
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/base.css",
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e",
+      "bytes": 53014,
+      "gzip": 11074,
+      "brotli": 9703
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/game.js",
+      "sha256": "5ef510bd5d7afe10d3fd5756640d8363144346531f38bba0abdb0a77e355f861",
+      "bytes": 141875,
+      "gzip": 44105,
+      "brotli": 37069
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/index.html",
+      "sha256": "4726911ed7b740d84e5de2428dd3aa352c4b8baace2cc382b025dc0943b4a34f",
+      "bytes": 339,
+      "gzip": 234,
+      "brotli": 134
+    },
+    {
+      "file": "index.html",
+      "sha256": "e27a8d390ae9d4b1829787a5d1177adc3f0321cd973760f10c24d7c705ec28c4",
+      "bytes": 2415,
+      "gzip": 1186,
+      "brotli": 865
+    },
+    {
+      "file": "ja/about/index.html",
+      "sha256": "8c1c2933fca79e59e244d2b124100d16a3c575a1973bbd686036897aeef3212e",
+      "bytes": 5215,
+      "gzip": 2449,
+      "brotli": 1828
+    },
+    {
+      "file": "ja/contact/index.html",
+      "sha256": "1a3c3c0976e5ae125cd57e055f74b2d8b34663d3b1a25193128411c5b956cea3",
+      "bytes": 5087,
+      "gzip": 2377,
+      "brotli": 1767
+    },
+    {
+      "file": "ja/credits/index.html",
+      "sha256": "ef8602855b5b5b8ca3a021e674ab4214bfef45977799801133495b41b521a85b",
+      "bytes": 5941,
+      "gzip": 2913,
+      "brotli": 2215
+    },
+    {
+      "file": "ja/games/index.html",
+      "sha256": "62b94b2a5bc25bb6adece72ce4681892b3026e01d3318bbbf49fdad241c5545e",
+      "bytes": 7349,
+      "gzip": 2832,
+      "brotli": 2162
+    },
+    {
+      "file": "ja/games/light-garden/index.html",
+      "sha256": "24d9bcb56c324972d7dca41fda1db5452bfa4189cb9c251cfcd7addbdcdab3e1",
+      "bytes": 7288,
+      "gzip": 3058,
+      "brotli": 2345
+    },
+    {
+      "file": "ja/games/tiny-delivery/index.html",
+      "sha256": "87ff30395bbe730b506e73daf50f7a5d54ae7bd1d91f244b570845cc96b9816b",
+      "bytes": 7377,
+      "gzip": 3084,
+      "brotli": 2365
+    },
+    {
+      "file": "ja/games/two-ways-home/index.html",
+      "sha256": "31f1d58d4b518845b78ee89e9cd4a04922ed23d432e33b715b22c11d9f191339",
+      "bytes": 7348,
+      "gzip": 3085,
+      "brotli": 2367
+    },
+    {
+      "file": "ja/index.html",
+      "sha256": "74c38e39f937dcf978a562b9fb21bb73dfa8621681dea7862d32a5be8b00dc69",
+      "bytes": 7305,
+      "gzip": 2830,
+      "brotli": 2152
+    },
+    {
+      "file": "ja/play/light-garden/index.html",
+      "sha256": "fb6573ed179d9e8d4497cdd1ffea9aadf8342f3f466fe1b030debc7288599e5e",
+      "bytes": 7562,
+      "gzip": 3081,
+      "brotli": 2343
+    },
+    {
+      "file": "ja/play/tiny-delivery/index.html",
+      "sha256": "63202555242bce4778d0e5cb8317f87cd7707e24fcd793ec67849d12a7db0f8b",
+      "bytes": 7590,
+      "gzip": 3086,
+      "brotli": 2341
+    },
+    {
+      "file": "ja/play/two-ways-home/index.html",
+      "sha256": "1168fa1057c08b4800b2439f2af84923fcc9f2b1d7104559605ea347b18cbad7",
+      "bytes": 7563,
+      "gzip": 3078,
+      "brotli": 2344
+    },
+    {
+      "file": "ja/privacy/index.html",
+      "sha256": "4a70525860803f3bd12320b5489564f62b7b68735080b53c00acacd480b3aa71",
+      "bytes": 7123,
+      "gzip": 3331,
+      "brotli": 2564
+    },
+    {
+      "file": "ja/terms/index.html",
+      "sha256": "c5a5cfa5b52ace0e65e4e06814022d65ced7e8d2d995f7efc5ccfe7aaa31e206",
+      "bytes": 5805,
+      "gzip": 2807,
+      "brotli": 2118
+    },
+    {
+      "file": "licenses/astro.txt",
+      "sha256": "4aa72be797aad0e5e21827eaae6a1df9e122d7a401f07d2c308a6b9a5f0e1278",
+      "bytes": 3628,
+      "gzip": 908,
+      "brotli": 667
+    },
+    {
+      "file": "robots.txt",
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "bytes": 26,
+      "gzip": 46,
+      "brotli": 30
+    },
+    {
+      "file": "_astro/_..DYsCu4Pf.css",
+      "sha256": "e822e54cbe591a379157f6056162987b9f5230b098faab7e0863773ba6f1f802",
+      "bytes": 22217,
+      "gzip": 5753,
+      "brotli": 5043
+    }
+  ],
+  "totals": {
+    "assets": 48,
+    "bytes": 13205092,
+    "gzip": 4112193,
+    "brotli": 1923338
+  },
+  "validation": "See technical-results.json; release check independently blocked"
+}

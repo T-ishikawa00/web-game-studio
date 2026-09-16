@@ -1,3 +1,5 @@
+import { prototypes } from '../prototypes/catalog';
+import identities from './game-identities.json';
 export const locales = ['ja', 'en'] as const;
 export type Locale = (typeof locales)[number];
 export type Localized = Record<Locale, string>;
@@ -5,6 +7,7 @@ export interface Game {
   id: string;
   slug: string;
   title: Localized;
+  pronunciation?: Localized;
   description: Localized;
   cover: string;
   inputs: ('pointer' | 'touch' | 'keyboard')[];
@@ -42,6 +45,13 @@ export function relatedGames(game: Game, catalog: Game[] = games): Game[] {
     return entry ? [entry] : [];
   }).slice(0, 4);
 }
+
+// Shared metadata authority. Candidate selection does not change release state.
+// Current public identity is separate from frozen prototype metadata and stable IDs.
+// Keep the existing slug so previous RC links and same-origin saves continue to work.
+export const registry: Game[] = [...games, ...prototypes.map(game => ({
+  ...game, ...(identities[game.id as keyof typeof identities] ?? {}),
+}))];
 
 export const themes: { key: string; title: Localized; description: Localized; category: Localized }[] = [
   { key: 'A', title: { ja: '幼体進化ラボ', en: 'Larva Evolution Lab' }, description: { ja: '進化を選ぶ。姿と能力が変わり、行けなかった場所へ。', en: 'Choose an evolution. Change your shape and abilities to reach somewhere new.' }, category: { ja: '成長・探索', en: 'Growth & discovery' } },

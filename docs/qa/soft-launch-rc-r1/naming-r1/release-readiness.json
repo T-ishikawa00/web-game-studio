@@ -1,0 +1,80 @@
+{
+  "at": "2026-09-16T05:16:12.407Z",
+  "releaseReady": false,
+  "previewAllowed": true,
+  "deployAuthorized": false,
+  "blockers": [
+    {
+      "code": "domain",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicOperator",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicContact",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "contactHandling",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "markets",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "targetAge",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "hostingAndLogs",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "retentionAndConsent",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "namesAndRights",
+      "reason": "Final rights approval pending; Human name selection alone is not clearance"
+    },
+    {
+      "code": "legalReview",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "rcPhysicalDevices",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "human57Puzzles",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "externalFirstUse",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "release",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "legalDraft",
+      "reason": "Operating pages are legal drafts"
+    },
+    {
+      "code": "rights:nolippaClearance",
+      "reason": "Human selected Nolippa / ノリッパ and Nolippa Studio. Jorudan announced 乗換案内norippa in 2014: https://www.jorudan.co.jp/company/data/press/2014/20140430_norippa.html . Current service, registered marks and rights scope unverified; no safe or prohibited conclusion."
+    },
+    {
+      "code": "rights:hakoriloClearance",
+      "reason": "Human selected Hakorilo / ハコリロ. Trademark and rights clearance remain incomplete. Previous Tiny Delivery research is retained as history."
+    },
+    {
+      "code": "publicCopyDraft",
+      "reason": "Rendered operating-page source still contains draft/provisional content"
+    }
+  ]
+}

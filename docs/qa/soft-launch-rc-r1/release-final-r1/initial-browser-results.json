@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-16T18:00:58.442Z",
+  "environment": "Windows Edge headless, loopback; network simulation only; isolated browser contexts",
+  "results": [
+    {
+      "name": "JA/EN normal navigation, separate saves, pause/resume, central draft copy",
+      "status": "FAIL",
+      "error": "page.waitForFunction: Timeout 7000ms exceeded."
+    },
+    {
+      "name": "Hakorilo BGM slow: first input and save remain usable",
+      "status": "PASS",
+      "network": "CDP simulation; 1 Mbps down / 0.5 Mbps up / 150 ms latency; cold cache; no CPU throttle",
+      "playableMs": 5709,
+      "firstInputAndSaveMs": 29,
+      "bgmRequests": 1,
+      "bgmCompleted": 0,
+      "bgmFailed": 0,
+      "observedThroughInputMs": 1384,
+      "continuedPlayAndSave": true,
+      "physicalNetwork": "NOT TESTED",
+      "fullBgmDownloadWaited": false
+    },
+    {
+      "name": "Hakorilo BGM abort: first input and save remain usable",
+      "status": "PASS",
+      "network": "CDP simulation; 1 Mbps down / 0.5 Mbps up / 150 ms latency; cold cache; no CPU throttle",
+      "playableMs": 5695,
+      "firstInputAndSaveMs": 29,
+      "bgmRequests": 3,
+      "bgmCompleted": 0,
+      "bgmFailed": 3,
+      "observedThroughInputMs": 1373,
+      "continuedPlayAndSave": true,
+      "physicalNetwork": "NOT TESTED",
+      "fullBgmDownloadWaited": false
+    }
+  ]
+}

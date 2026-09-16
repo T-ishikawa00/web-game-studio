@@ -1,0 +1,152 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Tinlumo — Release Decision Pack R1</title><style>body{margin:0;background:#f6f9f7;color:#172433;font:16px/1.8 system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:32px 22px}h1{font-size:clamp(25px,4vw,38px);line-height:1.35}h2{margin-top:56px;border-top:2px solid #d3ded7;padding-top:20px}h3{margin-top:32px}a{color:#205f42}nav{display:flex;gap:12px;flex-wrap:wrap;padding:18px;background:#e4f1d6;border-radius:14px}nav a{padding:4px 10px}table{border-collapse:collapse;width:100%;font-size:14px;background:white}td{border:1px solid #cdd7d2;padding:10px;vertical-align:top}tr:first-child{font-weight:bold;background:#ecf3ed}.table{overflow-x:auto}code{font-size:.9em;overflow-wrap:anywhere}pre{background:#e8eeeb;padding:16px;overflow:auto}p,li,td{overflow-wrap:anywhere}.status{padding:14px;background:#fff0d2;border-radius:12px}dt{font-weight:bold}@media(max-width:600px){main{padding:20px 14px}td{min-width:140px}}</style></head><body><main><p class="status">ローカル準備完了／Human判断待ち／公開BLOCKED · 外部初見 DEFERRED / NOT TESTED</p><nav><a href="#part-2">1. 判断の入口</a><a href="#part-3">2. 名称・domainの確認結果</a><a href="#part-6">3. 配布権利・運営・データ</a><a href="#part-7">4. 配信・費用・停止</a><a href="#part-8">5. 最小計測 A / B</a><a href="#part-9">6. 公開前後の実行手順とrollback</a><a href="#part-10">7. Blocker一覧・解消条件・担当</a><a href="#part-11">8. Humanへの質問（3群だけ）</a><a href="#part-15">9. QA・変更・試遊</a></nav><h1 id="part-1">Tinlumo Release Readiness Final R1 — Release Decision Pack</h1>
+<p>2026-09-17 JST。<strong>ローカル準備完了／Human判断待ち／公開BLOCKED</strong>。「Final」は工程名。最新RCのHuman候補PASSを維持し、公開許可・商標確認・実機試験と区別する。外部初見は <strong>DEFERRED / NOT TESTED</strong>、必須Gateへ戻さない。</p>
+<p>主担当・統合：<code>gpt-6-astra</code>。独立した名称/domain・配信条件・権利監査はread-onlyで並行実施。名称・権利担当も同モデル、配信担当は親設定継承（独立したruntime ID照会なし）。外部実行は委任せず、公式情報の検索読取のみ。</p>
+<h2 id="part-2">1. 判断の入口</h2>
+<div class="table"><table><tbody>
+<tr><td>区分</td><td>内容</td></tr>
+<tr><td>完了</td><td>最新RC・全57問・保存key/schema・Art/Motion/Audio保全。名称とdomain公式照会、配布権利/notice照合、日英運営草案の補完、静的配信/計測の未接続雛形、対象QA、低速/取得失敗BGM確認、rollback手順</td></tr>
+<tr><td>Human判断待ち</td><td>下記3群。名称類似候補2件の処理、実運営情報、対象/年齢/データ/予算、素材・動画利用・法務、実機/全編の証拠範囲判断、最終公開許可</td></tr>
+<tr><td>接続・実機待ち</td><td>domain最終照会/取得、Cloudflare owner/plan/log条件確認、問い合わせ受信返信試験、任意計測の接続判断、RC実機/実回線の未確認範囲。今回すべて未実施</td></tr>
+<tr><td>公開後確認</td><td>承認deploy後の本番HTTPS/route/header/SEO/保存/音/計測smoke。公開前完了条件との循環を作らない</td></tr>
+</tbody></table></div>
+<p><strong>推奨構成：Workers Static Assets / Free / Worker scriptなし。計測はA（ページ・性能のみ）を推奨し、今回は無効。</strong> 無料3作品、日英、購入・実広告・アカウント・Cloud Saveなしを固定。他2作品名は変更しない。</p>
+<h2 id="part-3">2. 名称・domainの確認結果</h2>
+<p>対象はTinlumo / ティンルモ / Tinlumo StudioとHakorilo / ハコリロ。日本語「ちいさな配送パズル」は維持。旧調査は <span title="TINLUMO_BRAND_R2.md">Brand R2（repo資料）</span>・<span title="NOLIPPA_HAKORILO_NAMING_R1.md">名称R1（repo資料）</span> に保全。他2作品の再調査は今回対象外で、既存の権利残件が消えたとは扱わない。</p>
+<h3 id="part-4">J-PlatPat（取得できた範囲）</h3>
+<p><a href="https://www.j-platpat.inpit.go.jp/t0100">公式検索画面</a> を2026-09-16 <strong>17:56–18:00 UTC / 9月17日02:56–03:00 JST</strong>に照会。検索UIの一覧を取得。公式登録簿の操作にはcomputer-use skillを使用し、検索以外の登録・購入・連絡はしていない。</p>
+<div class="table"><table><tbody>
+<tr><td>条件</td><td>結果</td></tr>
+<tr><td>商標（検索用）Tinlumo / Hakorilo / ティンルモ / ハコリロのOR、区分無制限</td><td>0件。権利問題なしという結論ではない</td></tr>
+<tr><td>称呼（類似検索）ティンルモ、区分無制限</td><td>Chillmo / TIRMOの2件</td></tr>
+<tr><td>称呼（類似検索）ハコリロを含むOR</td><td>発酵理論スキンケア / HAKONE∞はこジ郎 / HATTORI LAW</td></tr>
+<tr><td>各称呼 AND 類似群11C01・24A01・09G53・41K01・41Z99（群内OR）</td><td>ティンルモ→TIRMO、ハコリロ→HAKONE∞はこジ郎、各1件</td></tr>
+<tr><td>各称呼 AND 11C01単独</td><td>同じ2件が各1件</td></tr>
+</tbody></table></div>
+<div class="table"><table><tbody>
+<tr><td>具体的な確認対象</td><td>個別結果・根拠</td><td>未取得／解消条件</td></tr>
+<tr><td>Tinlumo と <strong>TIRMO</strong></td><td><a href="https://www.j-platpat.inpit.go.jp/c1801/TR/JP-2025-074116/40/ja">登録7014427／商願2025-074116</a>。称呼ティルモ,ターモ、09類、11C01一致、存続-登録-継続、権利者表示：細野佑介。出願2025-07-01、登録2026-02-09</td><td>指定商品全文・経過、ティンルモとの名称類否と配信ゲーム/ソフトとの関係を確認。近い読みと関連群が具体的な根拠。使用不可とは断定しない</td></tr>
+<tr><td>Hakorilo と <strong>HAKONE∞はこジ郎</strong></td><td><a href="https://www.j-platpat.inpit.go.jp/c1801/TR/JP-2014-021426/40/ja">登録5691985／商願2014-021426</a>。称呼ハコネハコジロー,ハコジロー、09/39類、11C01一致、存続-登録-継続、権利者表示：神奈川県 他。出願2014-03-20、登録2014-08-08</td><td>指定商品全文・全権利者・複合/図形商標の範囲とハコリロとの類否を確認。観光関連らしいという理由だけで除外しない</td></tr>
+</tbody></table></div>
+<p>その他：Chillmo（登録6544000、11/20/34類、チルモ）、発酵理論スキンケア（登録6976513、03類、ハッコーリロンスキンケア/ハッコーリロン）、HATTORI LAW（商願2026-088468、45類、ハットリロー/ハットリ、審査待ち）。取得範囲で上記ゲーム/ソフト関連群への一致は確認できず、これらだけで改名を推奨しない。</p>
+<p>補助一次資料：<a href="https://play.google.com/store/apps/details?id=com.kids.routine">Google PlayのTirmoタイマー</a>、<a href="https://www.hakone-geopark.jp/hakogero/hakogero-illust.html">箱根ジオパークのはこジ郎使用案内</a>。Google Playの開発者と商標権利者の同一性は未確認。アプリ・マスコットの存在と、本件での名称使用可否は別。</p>
+<p><strong>未取得範囲</strong>：J-PlatPatの詳細/公報画面がこの環境では開かず、指定商品役務全文・全経過を取得できなかった。<a href="https://branddb.wipo.int/">WIPO</a>はchallengeで結果取得不能。米国/EU等の国別登録、全称呼揺れ・図形・未登録周知表示の網羅調査は未実施。一般Webの同一4表記では関連事業結果を取得しなかったが、不存在の根拠にしない。<a href="https://www.jpo.go.jp/support/startup/shohyo_search.html">特許庁の検索案内</a>・<a href="https://www.jpo.go.jp/system/trademark/gaiyo/bunrui/ruijigun_cord_reidai.html">類似群の説明</a>に基づき、市場と指定商品を確定した追加確認が必要。</p>
+<p><strong>推奨：採用名を保全し、上記2登録の指定商品・名称類否を公開前にHumanが判断する。必要なら弁理士等へ対象2件を限定して依頼する。自動改名もクリアランスPASS化もしない。</strong></p>
+<h3 id="part-5">tinlumo.com（購入なし）</h3>
+<div class="table"><table><tbody>
+<tr><td>照会</td><td>確認時刻UTC</td><td>取得結果</td></tr>
+<tr><td><a href="https://www.cloudflare.com/domains/search?q=tinlumo.com">Cloudflare公式公開検索</a></td><td>2026-09-16 17:57:55</td><td>取得ボタン表示、初年度 <strong>$10.46</strong>、更新 <strong>$10.46/年</strong>。Premium表示なし、通常価格相当だが明示tier確定結果は未取得</td></tr>
+<tr><td><a href="https://rdap.verisign.com/com/v1/domain/tinlumo.com">Verisign .com RDAP</a></td><td>2026-09-16 17:58:15.6765237</td><td>HTTP404、登録レコード未取得。予約/確保/購入成功の保証ではない</td></tr>
+</tbody></table></div>
+<p>税、為替、円決済額、購入時の最終availability・通常/プレミアム区分は未確認。<a href="https://developers.cloudflare.com/registrar/get-started/register-domain/">登録手順</a>は最終確認を要求する。公開候補を<code>site.json.domainCandidate</code>へ記録しただけで、<code>domain</code>はnull。canonical/メールに採用済みdomainとして埋め込まない。</p>
+<p>購入許可時には最終価格と更新額を再確認し、Humanが決めた税込上限を超える場合は停止。<a href="https://developers.cloudflare.com/api/resources/registrar/subresources/registrations/methods/create/">登録APIの注意</a>では登録は非返金。Registrar利用にはCloudflare nameserverの前提がある。購入費用をrollbackで取消せるとは約束しない。</p>
+<h2 id="part-6">3. 配布権利・運営・データ</h2>
+<p>独立監査で、変更前配布48/48がsave-policy-r1 manifestとbyte一致。今回build後もゲーム・Art・音・cover・noticeを保全照合する。対象は<a href="/release-final-r1/distribution-manifest.json">最新配布manifest</a>に含むものだけ。</p>
+<div class="table"><table><tbody>
+<tr><td>配布対象</td><td>来歴／最終照合</td><td>残る判断</td></tr>
+<tr><td>code / SVG・CSS Art / 57盤面</td><td>repo内原本。採用3game bundleの凍結元との一致、RCの固定採用変換を再確認</td><td>AI支援は来歴。権利帰属・類似表現・商用配布の法的保証ではない</td></tr>
+<tr><td>SFX</td><td>craft-sound / light-craft-sound / twoways-craft-soundの作品別ローカル合成。外部録音・sample取込の証拠なし</td><td>今回配布の権利判断はHumanに残す</td></tr>
+<tr><td>Hakorilo BGM</td><td>music-score → music-rhythm → rhythm-samples。配布music.wavは採用B.wavとbyte一致、12,288,044 B</td><td>採用・権利・動画利用条件を分離。圧縮/差替えなし</td></tr>
+<tr><td>covers / mark</td><td>cover3点は採用版の実画面。最新markはsrc/rc/favicon.svgとLayout内の既存幾何図形</td><td>旧台帳W記載は過去。現在のN形状を勝手にTへ再設計しない</td></tr>
+<tr><td>fonts</td><td>OS stack、font binary0・外部font request0</td><td>将来webfont追加時のみ別照合</td></tr>
+<tr><td>OSS</td><td>4 bundle metafileのinputsはsrc/のみ、third-party client code0。配布licenses/astro.txtはinstalled LICENSEと一致。Astro/SvelteKit/Vite由来MIT noticeを含み日英Creditsからリンク</td><td>installed全依存を配布物と混同しない。今の出力で追加notice不足は未検出</td></tr>
+</tbody></table></div>
+<p><span title="../records/ASSET_REGISTER_R1.md">素材台帳（repo資料）</span>と<span title="../records/DEPENDENCY_LICENSES_R1.json">依存台帳（repo資料）</span>の旧記録は保持。新たな具体的な素材侵害候補は今回未検出だが、権利確認完了とはしない。実況/収益化動画/切抜きの許諾範囲はHuman決定待ち。第三者Content ID申立てなしを保証しない。外部Portal契約・実広告・事業承継は今回の実施対象外。</p>
+<p>日英About/Contact/Privacy/Termsへ、中央設定による運営情報表と、問い合わせ・hosting・計測・端末保存の区別を追加。未設定は「未確定」、草案を維持。Tinlumo Studioは制作元ブランドであり実運営者・法人名ではない。住所そのものを機械的必須にせず、必要な表示範囲をHumanが法域に照らして決める項目を設けた。</p>
+<div class="table"><table><tbody>
+<tr><td>処理</td><td>現実装／推奨案</td><td>保持・受信・同意の残件</td></tr>
+<tr><td>端末内保存</td><td>同一端末/browser/originで作品別localStorage、自動保存。アカウント/Cloud Saveなし。詳細は日英Privacyの実key表</td><td>自動期限なし。作品の進行消去は音/guide等を残す。全削除はbrowserサイトデータ削除。別domain/portは別保存。目的と対象市場に応じた保存/同意検討</td></tr>
+<tr><td>内部イベント</td><td>現状メモリ各50件、Play最大100件。外部送信・永続化なし。session markerは固定値</td><td>新規永続ID/fingerprintなし。Bの将来仕様とは分離</td></tr>
+<tr><td>問い合わせ</td><td>専用support mailbox＋担当者による返信を推奨。site formなし。provider/宛先未選択</td><td>提案：受信確認はmail providerの実機能確認後、返信目安3営業日（能力確認後にのみ公表）、解決後90日で本文削除、未解決は月次見直し。迷惑メール/バックアップの保持、削除窓口、例外保持を実providerで確認。未承認値は中央の確定欄へ入れない</td></tr>
+<tr><td>hosting</td><td>静的でもCloudflareがIP/HTTP request/traffic routing等を処理し得る</td><td>operatorの閲覧可能項目、providerの用途・保持・削除・処理地域、契約/DPAを確認。固定日数は公開資料だけで確定できずblocker。<a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy</a></td></tr>
+<tr><td>A/B計測</td><td>下記。現在未接続</td><td>IDなしを個人データ処理なし・同意不要としない。受信先、利用目的、対象地域/年齢、保存/防御処理を評価</td></tr>
+</tbody></table></div>
+<p>市場・年齢の推奨：<strong>初期集客は日本中心、日英UI維持、特定の児童向け訴求は決定を待つ</strong>。これは法的対象を日本だけに限定する保証ではない。対象年齢を便宜的に13+/18+と捏造しない。Humanが想定利用者と海外向け提供範囲を決める。日本は<a href="https://www.ppc.go.jp/personalinfo/legal/">個人情報保護委員会の現行法令/ガイドライン</a>、米国の児童利用は<a href="https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions">FTC COPPA案内</a>、英国の児童アクセスは<a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/">ICO Children’s Code</a>を対象に応じて確認。年齢表示だけで適用除外とは判断しない。これは法的適合結論ではない。</p>
+<h2 id="part-7">4. 配信・費用・停止</h2>
+<p>2026-09-17 02:56–03:02 JSTに公式条件を読取確認。料金はUSD、税/domain/mailは別。<strong>推奨はWorkers Static Assets assets-only / Free</strong>。現在のAstro静的出力を使い、<code>main</code>/Worker script/SSR/DB/R2/常駐serverを追加しない。</p>
+<div class="table"><table><tbody>
+<tr><td>比較</td><td>Workers Static Assets</td><td>Pages Direct Upload</td></tr>
+<tr><td>静的request／asset保存</td><td>静的request無料・無制限、asset保存追加料金なし</td><td>Functionsなしの静的request無料・無制限</td></tr>
+<tr><td>配布上限</td><td>Free 20,000 files、1 file 25 MiB</td><td>CLI 20,000 files、drag/drop1,000、1 file25 MiB</td></tr>
+<tr><td>現RC</td><td>48 files、最大12.29 MB、上限内</td><td>同じく上限内</td></tr>
+<tr><td>運用差分</td><td>scriptなしの直接upload可能、直近100 versionsからrollback</td><td>直接upload可能、成功済みproductionへrollback。Direct UploadからGit連携は新projectが必要</td></tr>
+<tr><td>選択理由</td><td>新規サイトで将来も継続する公式投資先</td><td>継続supportされる代替、今回は追加しない</td></tr>
+</tbody></table></div>
+<p>出典：<a href="https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/">assets-only移行/設定</a>、<a href="https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/">静的料金</a>、<a href="https://developers.cloudflare.com/workers/platform/limits/">Workers上限</a>、<a href="https://developers.cloudflare.com/pages/functions/pricing/">Pages料金</a>、<a href="https://developers.cloudflare.com/pages/get-started/direct-upload/">Direct Upload</a>、<a href="https://blog.cloudflare.com/full-stack-development-on-cloudflare-workers/">公式開発方針</a>。</p>
+<p><strong>推奨構成の配信固定費/静的従量費：$0。</strong> 動的event collectorを追加するBは別課金枠。Workers Freeは100,000 request/日、CPU10 ms/invocation。Paidは最低$5/月、10 million requests・30 million CPU ms/月を含み、超過は$0.30/million requests、$0.02/million CPU ms。静的requestはこのdynamic枠と区別する。<a href="https://developers.cloudflare.com/workers/platform/pricing/">Workers現行料金</a>。</p>
+<p><code>run_worker_first</code>、Worker script、別製品Workers Cacheを理由なく追加しない。静的Assets内蔵cacheとWorkers Cacheの課金を混同しない。<code>_headers</code>雛形は可変のrc-r1 URLに長いimmutableを付けず<code>no-cache</code>で再検証する。<a href="https://developers.cloudflare.com/workers/static-assets/headers/">Headers仕様</a>。</p>
+<p>予算推奨：hosting月額$0、有料upgradeは別承認、domain/mailは別上限。将来Paidにする場合も<a href="https://developers.cloudflare.com/billing/manage/budget-alerts/">Budget alerts</a>は通知だけで強制上限ではない。CPU制限も月額上限ではない。通知先と停止担当、50/80/100%等のしきい値を実際のplanで確認する。Free枠到達で動的受付が停止し得る設計でも、static gameはその受付に依存させない。</p>
+<p>停止：clientのBを切るだけで偽造event課金を止められない。collector自体の全公開route停止が必要。サイトは休止版へrollbackまたはcustom domain/routeを無効化し、<a href="https://developers.cloudflare.com/workers/configuration/routing/workers-dev/">workers.dev</a>・preview URLも閉じていることを確認。DNS削除だけを全停止としない。</p>
+<h2 id="part-8">5. 最小計測 A / B</h2>
+<div class="table"><table><tbody>
+<tr><td>案</td><td>得られる指標</td><td>費用／保持／閲覧</td><td>判断</td></tr>
+<tr><td><strong>A 推奨</strong>：ページ/性能だけ</td><td>page views、visits、URL別読込、Core Web Vitals。ゲーム進行は取れない</td><td>Web Analytics無料。UIから過去6か月閲覧。Cloudflare dashboardで週1回、作品Playと日英を比較</td><td>初期の配信品質を低運用負担で見る。今回未接続。有効化には別許可</td></tr>
+<tr><td>B：A＋最小event</td><td>ready、first input、進行節目、関連作品クリック、起動失敗の観測件数/比率</td><td>別Workers collector＋Analytics Engine案。3か月保持、集計CSVは提案90日。定型SQL→週次小表で十分</td><td>初期には運用・同意判断が増える。行動データを使う改善課題が明確になってから</td></tr>
+</tbody></table></div>
+<p><a href="https://developers.cloudflare.com/web-analytics/faq/">Web Analytics FAQ</a>ではcustom event未対応。Aのbeaconへ独自eventを流用しない。<a href="https://www.cloudflare.com/web-analytics/">Providerの説明</a>は計測cookie/localStorage/fingerprintを使わないという説明で、サイト全体の法的結論ではない。6か月の閲覧期間と全処理データの削除保証は別。</p>
+<p>Bの未接続雛形は <code>config/release-final-r1/measurement.template.json</code>。送信許可fieldは <strong>name、gameId、locale、progressBucket、errorCode</strong>だけ。<code>game_start</code>はクリックではなくready受信時、<code>first_input</code>は最初の有効操作、<code>progress</code>はfirst_clear/middle/completeの節目、<code>related_open</code>は移動元作品で関連リンクを選んだ件数、<code>load_failure</code>はtimeout/load_errorだけ。送信先gameIdはこの最小案では取らず、作品間の詳細遷移行列は測れない。日時は受信側で付与。</p>
+<ul>
+<li>送らないもの：full URL/query、メール、save/盤面/操作列、自由文、永続ID、fingerprint、UA/IPのanalytics dimension。既存bridge nonceを計測に転用しない。</li>
+<li>重複：page寿命だけのメモリsetでready/first_input/各節目を各1回、ページ12件上限、再送0、永続queueなし。reload/多tab/偽造を跨ぐ厳密重複排除は保証しない。</li>
+<li>不正送信：POST・Content-Type・512 B上限・固定enum・field拒否・正確なOrigin/Fetch Metadata・rate制限。Originは認証ではない。IPを防御keyに使うなら短期の別処理として説明し、analyticsには保存しない。<a href="https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/">Rate Limiting API</a>は拠点単位のeventual consistencyで、全体会計上限にはならない。</li>
+<li>失敗：非同期、短いtimeout、ゲームに待機画面を出さず、保存/音/入力を止めない。adblock/通信断/JS自体の未読込では欠測する。load_failure送信自体が失敗するケースもあり、失敗率は観測可能範囲だけ。</li>
+<li>保持：<a href="https://developers.cloudflare.com/analytics/analytics-engine/limits/">Analytics Engine上限</a>の3か月。生データ30日削除をこの構成で保証しない。生データexportを常態化せず、集計CSVはHuman決定の90日案。個別削除/processor条件は導入時に確認。</li>
+<li>費用：<a href="https://developers.cloudflare.com/analytics/analytics-engine/pricing/">Analytics Engine pricing</a>は照会時点で未請求と明記。将来価格はFree100,000 points/日・10,000 read queries/日、Paid10 million points/月＋超過$0.25/million、1 million queries/月＋超過$1/million。<strong>恒久無料とはしない</strong>。collector request/CPU費用はこれと別。</li>
+<li>集計：<code>events-summary.sql</code>雛形を<a href="https://developers.cloudflare.com/analytics/analytics-engine/sql-api/">SQL API</a>で実行する将来手順。<code>SUM(_sample_interval)</code>で<a href="https://developers.cloudflare.com/analytics/analytics-engine/sampling/">sampling</a>を考慮し、日/作品/locale/event別の観測推定件数を見る。tokenはbrowserやSQL fileへ入れない。大型dashboardは作らない。</li>
+</ul>
+<p>両案とも、個人単位の再訪率/retention・unique player・cross-device・長期個人funnelは測れない。Bのfirst_input/ready等はイベント比率で、人数の転換率と表示しない。市場・年齢に応じた通知/同意/越境処理の確認後にのみ接続する。</p>
+<h2 id="part-9">6. 公開前後の実行手順とrollback</h2>
+<p>雛形：<code>config/release-final-r1/wrangler.template.json</code>、<code>_headers.template</code>、計測JSON/SQL。今回のvalidatorは<strong>offlineの構造・上限・route投影のみ</strong>。Wrangler実runtime/schema、CDN headers、TLSはまだ未検証。deploy commandを実行していない。</p>
+<p>1. 下記blockerをHumanが決定し、中央<code>src/rc/site.json</code>へ確定情報だけを反映。草案と法務/権利は明示判断、RC候補PASSを再取得したことにしない。</p>
+<p>2. domainを最終照会して承認上限内で取得（別許可）。Cloudflare account owner/MFA/recovery・Free plan・必要権限・契約条件をHuman管理で確定。Git自動deployは使わない。</p>
+<p>3. 本番用の別出力 <code>.cache/tinlumo-approved-dist</code> を将来作成し、manifestに結び付ける。今回このfolderは生成していない。<code>_headers.template</code>をレビュー後に同folder直下の <strong><code>_headers</code></strong> として配置する（雛形のままでは適用されない）。ローカルRC/旧Baselineは保全。本番copyの未確定/草案/local RC帯を、確定情報へ局所変更し、QAしてから公開許可を求める。</p>
+<p>4. SEO：<code>domain</code>の単一HTTPS originを正本にする。日英26ページに自己canonicalと同一pageのja/en絶対hreflang、言語入口 <code>/</code> をx-default、必要なOG URLを設定。<code>sitemap.xml</code>は <code>/</code>＋日英26の<strong>27 URLのみ</strong>、ゲームiframe内部/404/比較/fixtureを含めない。更新日を捏造しない。robotsのDisallowと外向けnoindexは公開承認後の本番出力でのみ切替。iframe内部と404はnoindexを維持。現RCは全noindexを維持。<a href="/release-final-r1/hosting-validation.json">offline投影結果</a></p>
+<p>5. 実operator情報の表示/Privacy/Terms/Contact final照合、配布allowlist・license・secrets scanを<strong>本番出力で</strong>再実行。既存RCのchecker/allowlistはnoindexのRC用なので、本番へ流用してPASSを捏造しない。別本番profileで公開meta・sitemap・headersを許可し、同じ内部除外/秘密検査の強度を維持する。</p>
+<p>6. <code>wrangler.template.json</code>のassets.directoryは上記未生成folderを指す。version固定のWranglerでlocal schema/dry-runを確認後、明示許可の下でassets-only upload。custom domainを追加し、DNSとCloudflare発行HTTPSの有効化を確認。workers.dev/preview URLはfalseを維持。<code>www</code>を使う場合は正規hostへredirect、HTTP→HTTPSも確認。同一origin内の作品保存を維持し、別originのローカル保存の移行は約束しない。</p>
+<p>7. 承認deploy後smoke：JA/EN Home→詳細→3作品、保存→reload→言語→作品往復、音ON/OFF・pause復帰、失敗表示、Contact到達、全重要link、HTTPS/証明書/MIME/404/headers、canonical/hreflang/sitemap、内部11URL拒否、no secret、外部通信が選択案だけ、WAV cold/warm/失敗。iPhone/Androidと実回線を条件付き記録し、desktop simulationと分ける。</p>
+<p>8. manifest SHAとCloudflare version ID、直前正常版、DNS/route設定の変更前値を記録。smoke不合格なら告知/集客を止め、承認済み正常版または休止版へ戻す。</p>
+<p><strong>rollback</strong>：<a href="https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/">Workersの直近100 versions</a>からDashboardのDeployments→対象→Rollback、または別許可後の<code>wrangler rollback &lt;VERSION_ID&gt;</code>。CLIへ実credentialを引数直書きしない。初回は正常な旧productionが存在しないため、事前に休止版/route停止の方法と許可を用意する。復旧後は上記smoke、cache再検証、公開経路を確認。browserのlocalStorageはサーバーrollbackで戻らないため、schema/keyを維持する。公開中のorigin変更や保存削除はrollbackに含めない。</p>
+<div class="table"><table><tbody>
+<tr><td>次回別途許可する外部操作（順序）</td><td>費用</td><td>戻し方・限界</td></tr>
+<tr><td>① 必要な対象市場の商標追加調査／専門家への依頼</td><td>公開読取は無料範囲、専門家費用は見積と上限を先に承認</td><td>問い合わせ送信/契約は今回なし。依頼後費用は取消保証なし</td></tr>
+<tr><td>② tinlumo.com最終照会・購入/登録</td><td>表示$10.46/初年・更新、税込上限未決定</td><td>domain解約/更新停止は別判断。購入費返金を保証しない</td></tr>
+<tr><td>③ Cloudflareとsupport mailboxのowner/契約/設定</td><td>static Free $0、mail未選択/未見積</td><td>有料追加禁止、mail送受信テストも別許可。停止しても既存メール保持は別処理</td></tr>
+<tr><td>④ custom domain/DNS/HTTPS＋承認build upload</td><td>static $0想定、domain別</td><td>旧DNS/route値へ戻すか休止版。公開済みcacheや受信データの回収保証なし</td></tr>
+<tr><td>⑤ Aを有効化（選択された場合だけ）、実URL smoke</td><td>A無料、Bは別見積/別許可</td><td>beacon除去・設定停止、過去データ保持はprovider条件。Bならcollector routeも停止</td></tr>
+</tbody></table></div>
+<p>stage/commit/pushはこの順序への包括許可に含めず、必要時に個別明示許可を求める。現在はどの外部実行も未承認。</p>
+<h2 id="part-10">7. Blocker一覧・解消条件・担当</h2>
+<p>機械結果：<a href="/release-final-r1/release-readiness.json">release-readiness.json</a>。<strong>26件＝公開前25＋承認deploy後smoke1</strong>。同一判断に関する複数のcheckを以下の実務単位へ集約した。未確定を推奨案で埋めてPASSにしない。</p>
+<div class="table"><table><tbody>
+<tr><td>ID / checker code</td><td>根拠</td><td>解消条件</td><td>担当</td></tr>
+<tr><td>N1 rights:tinlumoClearance / rights:hakoriloClearance / namesAndRights</td><td>J-PlatPatの2登録、指定商品全文等未取得、素材権利も最終判断前</td><td>必要市場で具体候補の確認・Humanの名称/配布権利判断を記録</td><td>Human、必要時弁理士/権利担当</td></tr>
+<tr><td>N2 domain</td><td>candidateはあるが所有/最終取得未確認</td><td>最終可否/tier/税込価格/更新/所有を確認、購入別許可</td><td>Human、許可後実行担当</td></tr>
+<tr><td>O1 publicOperator / decision:operatorAddressDisclosure</td><td>brandは実運営者でない</td><td>公開する実体と住所等の表示方針を決定</td><td>Human、必要時法務</td></tr>
+<tr><td>O2 publicContact / contactHandling / decision:contactReceiptAndReply / decision:contactRetentionAndDeletion</td><td>channel/担当/provider/運用なし</td><td>受信・返信・目安・保持・削除を決定し、別許可後送受信試験</td><td>Human、support担当</td></tr>
+<tr><td>D1 markets / targetAge / retentionAndConsent / dataPolicyFinal / decision:analyticsAndConsent</td><td>対象とデータ運用未決定</td><td>対象、実年齢方針、A/無計測/B、通知/同意/保存/越境を決定</td><td>Human、必要時専門家</td></tr>
+<tr><td>D2 hostingAndLogs / decision:hostingProcessorAndAccessRetention</td><td>provider処理/保持/閲覧設定未確定</td><td>plan/契約/設定で確認し記述、未取得をゼロ保持としない</td><td>Human、許可後hosting担当</td></tr>
+<tr><td>D3 decision:budgetAndStopOwner</td><td>月額/domain/mail上限・停止担当なし</td><td>上限、通知先、Free維持、超過/異常時停止手順を承認</td><td>Human</td></tr>
+<tr><td>R1 decision:assetRightsAndVideoPolicy / legalReview / legalDraft / publicCopyDraft</td><td>notice照合済みでも法務・動画範囲未決定</td><td>配布権利/動画利用条件、日英最終文面、法務判断を記録して草案解除</td><td>Human＋実装担当</td></tr>
+<tr><td>Q1 rcPhysicalDevices / human57Puzzles</td><td>候補PASSから未実施試験を推定できない</td><td>既存個別証拠の範囲を確認し、追加試験/受入条件の扱いを明示。flagsは試験実施の代用にしない</td><td>Human、実機担当</td></tr>
+<tr><td>P1 release</td><td>公開許可なし、本番SEO切替は未実施</td><td>判断反映済み本番artifactとsmoke/rollback計画をレビューして個別許可</td><td>Human（実行はその後）</td></tr>
+<tr><td>P2 deployedUrlSmoke</td><td>本番URLなし</td><td>承認deploy後に実URLでsmoke。失敗時rollback</td><td>許可後実行担当、Human確認</td></tr>
+</tbody></table></div>
+<p>外部初見はblockerに含めない。最新候補受入はPASSのまま。一般公開在庫は0本。Q1を一律に全57問再試験の新規要求へ変換しない。</p>
+<h2 id="part-11">8. Humanへの質問（3群だけ）</h2>
+<h3 id="part-12">① 名称 / domain</h3>
+<p>推奨：Tinlumo/Hakoriloを保持。TIRMO・HAKONE∞はこジ郎の指定商品/類否を追加確認後に公開判断。tinlumo.com第一候補。</p>
+<p>決める項目：2件をどう確認/判断するか（専門家依頼なら対象と費用上限）、domain購入時の税込上限・更新管理者・apex/ www方針。取得表示だけで即購入しない。</p>
+<h3 id="part-13">② 運営者 / 問い合わせ</h3>
+<p>推奨：実運営者が管理する専用mail窓口、web formなし。初期は手動返信、対応可能なら目安3営業日、解決後90日保持案。</p>
+<p>決める項目：実運営者の公開表記、住所等の表示範囲、mail provider/宛先/担当、受信確認・返信目安・保持/削除/例外、窓口開通と送受信試験の別許可。ブランドを法人名の代用にしない。</p>
+<h3 id="part-14">③ 市場・年齢・データ / 予算</h3>
+<p>推奨：日本中心の初期集客＋日英、特定の児童向け訴求は未決定として保留。Workers Static Assets Free、Aは方針/同意確認後に別接続、当面無計測も選択可能。Bは初回見送り。</p>
+<p>決める項目：対象市場/海外提供・想定年齢、hosting処理/保持と通知同意の判断、Aの採否、素材/動画利用・日英法務最終文面、月額/メール上限と停止担当。実機/全57問の個別証拠範囲・追加確認の扱いもこの群でまとめる。公開実行の許可はこれらを反映したartifactを確認した後の別判断。</p>
+<h2 id="part-15">9. QA・変更・試遊</h2>
+<p><a href="/release-final-r1/REPORT.md">今回QA</a>に実行/再利用/未実施、変更manifestと保全照合を集約。配布security PASSと全projectの既知raw FAIL2件を分ける。旧SHAの限定FALSE POSITIVEとTLS鍵のTRUE SECRET / LOCAL DEV ONLY保持承認は不変。</p>
+<ul>
+<li><a href="http://127.0.0.1:4350/ja/">日本語Portal</a> / <a href="http://127.0.0.1:4350/en/">English Portal</a></li>
+<li><a href="http://127.0.0.1:4351/release-final-r1/REVIEW.html">このPackのloopback表示</a></li>
+<li><a href="http://127.0.0.1:4350/ja/play/tiny-delivery/">Hakorilo</a> / <a href="http://127.0.0.1:4350/ja/play/light-garden/">Lightwork</a> / <a href="http://127.0.0.1:4350/ja/play/two-ways-home/">Two Ways</a></li>
+</ul>
+<p>repo内から <code>npm run build:rc</code>、停止中のportだけ確認して <code>npm run preview:rc</code>（127.0.0.1:4350）、別terminalで <code>npm run review:rc</code>（127.0.0.1:4351）。既存processは無断停止しない。必要な停止は既存 <code>powershell -NoProfile -File scripts/rc-stop.ps1 -Target both</code> がPID/command/portを確認する。LAN/証明書/Firewallは変更しない。</p>
+<p><strong>完了後はHuman判断待ちで停止。stage・commit・push・deploy・DNS・LAN・購入・契約・登録・問い合わせ送信・外部計測/音源API利用は0。</strong> 公式登録/価格検索の読取照会だけを今回の許可範囲で実施した。</p><p><a href="REPORT.md">今回QA</a> · <a href="final-verification.json">最終保全</a> · <a href="changes.json">変更一覧</a></p></main></body></html>

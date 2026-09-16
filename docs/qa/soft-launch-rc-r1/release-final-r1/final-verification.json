@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-16T18:14:35.067Z",
+  "status": "PASS",
+  "model": "gpt-6-astra",
+  "head": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+  "branch": "main",
+  "localUpstreamTrackingRef": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+  "remoteLiveRef": "NOT QUERIED",
+  "indexUnchanged": true,
+  "initialFiles": 1966,
+  "preservedExistingFiles": 1958,
+  "changedExistingFiles": 8,
+  "unchangedNonHtmlPayload": 17,
+  "oldQaAndFrozenEvidence": "All pre-existing docs/qa bytes unchanged",
+  "stableGameplaySaveIdsKeysSchema": true,
+  "localLinksChecked": 21,
+  "fullProjectSecurity": "Not rerun; historical raw FAIL2 and exact SHA/TLS dispositions retained",
+  "externalOperations": "Official public information read queries only; no publication, account changes, purchases or external telemetry"
+}

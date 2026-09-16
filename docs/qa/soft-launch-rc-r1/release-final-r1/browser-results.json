@@ -1,0 +1,42 @@
+{
+  "at": "2026-09-16T18:13:13.224Z",
+  "environment": "Windows Edge headless, loopback; network simulation only; isolated browser contexts",
+  "results": [
+    {
+      "name": "JA/EN normal navigation, separate saves, pause/resume, central draft copy",
+      "status": "PASS",
+      "games": 3,
+      "locales": 2,
+      "externalRequests": 0,
+      "screenshotCount": 0
+    },
+    {
+      "name": "Hakorilo BGM slow: first input and save remain usable",
+      "status": "PASS",
+      "network": "CDP simulation; 1 Mbps down / 0.5 Mbps up / 150 ms latency; cold cache; no CPU throttle",
+      "playableMs": 5692,
+      "firstInputAndSaveMs": 29,
+      "bgmRequests": 1,
+      "bgmCompleted": 0,
+      "bgmFailed": 0,
+      "observedThroughInputMs": 1385,
+      "continuedPlayAndSave": true,
+      "physicalNetwork": "NOT TESTED",
+      "fullBgmDownloadWaited": false
+    },
+    {
+      "name": "Hakorilo BGM abort: first input and save remain usable",
+      "status": "PASS",
+      "network": "CDP simulation; 1 Mbps down / 0.5 Mbps up / 150 ms latency; cold cache; no CPU throttle",
+      "playableMs": 5706,
+      "firstInputAndSaveMs": 32,
+      "bgmRequests": 3,
+      "bgmCompleted": 0,
+      "bgmFailed": 3,
+      "observedThroughInputMs": 1385,
+      "continuedPlayAndSave": true,
+      "physicalNetwork": "NOT TESTED",
+      "fullBgmDownloadWaited": false
+    }
+  ]
+}

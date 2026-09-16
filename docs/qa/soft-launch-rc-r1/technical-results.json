@@ -1,0 +1,61 @@
+{
+  "at": "2026-09-16T02:27:19.378Z",
+  "model": "gpt-6-astra",
+  "reviewerModel": "gpt-6-astra",
+  "typecheck": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "unit": {
+    "passed": 213,
+    "total": 213
+  },
+  "baselineRoutes": {
+    "passed": 3,
+    "total": 3
+  },
+  "rcPages": 28,
+  "fullRun": {
+    "passed": 57,
+    "total": 57
+  },
+  "browser": {
+    "passed": 6,
+    "total": 6
+  },
+  "lifecycle": {
+    "passed": 3,
+    "total": 3
+  },
+  "representativeEquivalence": {
+    "passed": 3,
+    "total": 3
+  },
+  "distribution": {
+    "at": "2026-09-16T02:27:19.337Z",
+    "distributionAllowlist": "PASS",
+    "files": 48,
+    "internalPaths404": 11,
+    "noExternalFonts": true,
+    "scanner": "gitleaks 8.30.1",
+    "distributionScan": "PASS",
+    "findings": [],
+    "existingFullProjectScan": "Historical raw FAIL (2), separate approved SHA and local-only TLS dispositions retained. Not relabeled PASS."
+  },
+  "frozenReproduction": {
+    "tiny": 46,
+    "lightwork": 48,
+    "twoWays": 44,
+    "allHashesMatch": true
+  },
+  "releaseReady": false,
+  "blockers": 18,
+  "human": {
+    "physicalRC": "NOT TESTED",
+    "listeningRC": "PENDING",
+    "all57Fun": "PENDING",
+    "externalFirstUse": "DEFERRED / NOT TESTED",
+    "legal": "PENDING"
+  },
+  "testMethod": "See linked per-suite receipts; no Human acceptance inferred"
+}

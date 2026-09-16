@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-16T05:13:06.448Z",
+  "environment": "Windows / Edge headless / Playwright; synthetic prior-format saves; viewport emulation, not physical or Human acceptance",
+  "results": [
+    {
+      "name": "JA/EN naming, accessible links, metadata, all existing RC routes and local links",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing save envelopes and sound preferences survive renamed UI, input, reload and locale switch",
+      "status": "PASS"
+    },
+    {
+      "name": "Name widths at 320 / 390 / 1440 px; JA/EN catalog, details and all three game startups",
+      "status": "PASS"
+    },
+    {
+      "name": "All 57 puzzles, fixed profiles, runtime / art / audio / prior evidence remain byte-identical",
+      "status": "PASS"
+    }
+  ]
+}

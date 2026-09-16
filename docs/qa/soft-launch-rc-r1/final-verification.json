@@ -1,0 +1,49 @@
+{
+  "at": "2026-09-16T02:29:54.401Z",
+  "responses": [
+    {
+      "url": "http://127.0.0.1:4350/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4350/ja/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4350/en/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4351/",
+      "status": 200
+    }
+  ],
+  "head": "44ce3ca2e079aa64733be7da3435726e400a54c6",
+  "branch": "main",
+  "indexUnchanged": true,
+  "diffCheck": "PASS",
+  "specByteIdentical": true,
+  "modelVerifiedFromCurrentTurnContext": "gpt-6-astra",
+  "existingUntracked": 13,
+  "existingReviewServersPreserved": [
+    4342,
+    4343,
+    4344
+  ],
+  "ownTemporaryQAServersStopped": [
+    4322,
+    4336
+  ],
+  "rcServersLeftRunning": [
+    4350,
+    4351
+  ],
+  "operations": {
+    "stage": 0,
+    "commit": 0,
+    "push": 0,
+    "deploy": 0,
+    "LAN": 0,
+    "externalAPIConnection": 0
+  }
+}

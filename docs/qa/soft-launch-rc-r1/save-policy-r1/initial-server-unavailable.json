@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-16T16:55:24.865Z",
+  "environment": "Windows Edge headless. Isolated contexts; same-context new tab revisit and synthetic storage clear/denial. No physical/private-mode acceptance.",
+  "results": [
+    {
+      "name": "JA/EN save explanation, account/cloud/ads/analytics copy, draft boundaries and responsive display",
+      "status": "FAIL",
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4350/ja/about/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4350/ja/about/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "name": "All three stable saves: real input, JA/EN, reload, related-game navigation and revisit",
+      "status": "FAIL",
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4350/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4350/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "name": "Unavailable or corrupt storage remains honest and preserves raw data",
+      "status": "FAIL",
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4350/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4350/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "name": "Bounded memory-only events and exact preservation of gameplay, saves, identity, audio and prior evidence",
+      "status": "PASS",
+      "requests": 0,
+      "external": 0,
+      "nonGet": 0
+    }
+  ]
+}

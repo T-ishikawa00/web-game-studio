@@ -1,0 +1,157 @@
+{
+  "at": "2026-09-16T18:12:55.864Z",
+  "releaseReady": false,
+  "previewAllowed": true,
+  "deployAuthorized": false,
+  "humanReview": {
+    "rcCandidate": {
+      "status": "PASS",
+      "source": "Human statement 2026-09-17: latest three-game RC passed as a release candidate; not deployment approval"
+    },
+    "externalFirstUse": {
+      "status": "DEFERRED / NOT TESTED",
+      "source": "Human decision 2026-09-17"
+    }
+  },
+  "softLaunchPolicy": {
+    "humanDecisionDate": "2026-09-17",
+    "accounts": "none",
+    "requiredLogin": false,
+    "cloudSave": false,
+    "progress": "per-game localStorage autosave; same device/browser/origin",
+    "futureAccounts": "Consider optional accounts and Cloud Save only after actual demand is confirmed; no implementation authorized",
+    "freeGames": 3,
+    "purchases": false,
+    "realAds": false,
+    "locales": [
+      "ja",
+      "en"
+    ],
+    "personalData": "Do not collect unnecessary personal information",
+    "externalAnalytics": "not connected"
+  },
+  "evidenceCoverage": {
+    "physicalDevices": "NOT ESTABLISHED by RC candidate PASS",
+    "full57Human": "NOT ESTABLISHED by RC candidate PASS"
+  },
+  "blockers": [
+    {
+      "code": "domain",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicOperator",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicContact",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "contactHandling",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "markets",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "targetAge",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "hostingAndLogs",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "retentionAndConsent",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "decision:operatorAddressDisclosure",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:contactReceiptAndReply",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:contactRetentionAndDeletion",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:hostingProcessorAndAccessRetention",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:analyticsAndConsent",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:budgetAndStopOwner",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:assetRightsAndVideoPolicy",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "namesAndRights",
+      "phase": "before-deployment",
+      "reason": "Final rights approval pending; Human name selection alone is not clearance"
+    },
+    {
+      "code": "legalReview",
+      "phase": "before-deployment",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "dataPolicyFinal",
+      "phase": "before-deployment",
+      "reason": "Final Human decision on markets, age and public data handling is pending; initial account/save policy is decided"
+    },
+    {
+      "code": "rcPhysicalDevices",
+      "phase": "before-deployment",
+      "reason": "Physical-device evidence/coverage decision remains separate from the accepted local RC candidate"
+    },
+    {
+      "code": "human57Puzzles",
+      "phase": "before-deployment",
+      "reason": "Full-57 Human evidence/coverage decision remains separate from the accepted local RC candidate"
+    },
+    {
+      "code": "release",
+      "phase": "before-deployment",
+      "reason": "Separate authorization for deployment/publication has not been given"
+    },
+    {
+      "code": "deployedUrlSmoke",
+      "phase": "after-authorized-deployment",
+      "reason": "After separately authorized deployment: actual public URL smoke test NOT TESTED; no deployment authorized by this check"
+    },
+    {
+      "code": "legalDraft",
+      "reason": "Operating pages are legal drafts"
+    },
+    {
+      "code": "rights:tinlumoClearance",
+      "reason": "Selected name retained. J-PlatPat similar-pronunciation search found TIRMO registration 7014427, class 09, group 11C01. Full designated goods and legal similarity assessment remain unconfirmed. Domain quote is not ownership."
+    },
+    {
+      "code": "rights:hakoriloClearance",
+      "reason": "Selected name retained. J-PlatPat similar-pronunciation search found HAKONE はこジ郎 registration 5691985, classes 09/39, group 11C01. Full designated goods and legal similarity assessment remain unconfirmed; no automatic renaming."
+    },
+    {
+      "code": "publicCopyDraft",
+      "reason": "Rendered operating-page source still contains draft/provisional content"
+    }
+  ]
+}

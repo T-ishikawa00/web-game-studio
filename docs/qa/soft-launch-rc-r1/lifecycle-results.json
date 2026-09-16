@@ -1,0 +1,18 @@
+{
+  "at": "2026-09-16T02:15:53.852Z",
+  "syntheticLifecycle": "pagehide/pageshow dispatched explicitly; navigation and trusted key input are real browser actions. No physical audio acceptance.",
+  "results": [
+    {
+      "name": "Tiny accepted B unlock, gain, mute, pause/layout, pagehide/pageshow and stale activity",
+      "status": "PASS"
+    },
+    {
+      "name": "All three audio preference failures are visible and preserve malformed originals",
+      "status": "PASS"
+    },
+    {
+      "name": "Light/Two Ways rapid input, undo, reduced motion and reset pause safely",
+      "status": "PASS"
+    }
+  ]
+}

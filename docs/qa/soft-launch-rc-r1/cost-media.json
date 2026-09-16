@@ -1,0 +1,123 @@
+{
+  "at": "2026-09-16T02:19:42.349Z",
+  "environment": "Windows, Edge headless, 1280x1000, loopback, no CPU/network throttle, one fresh context per game. Diagnostic sample, not internet/mobile performance prediction. Server sends uncompressed bytes; gzip/Brotli figures are per-file estimates.",
+  "results": [
+    {
+      "id": "light-garden",
+      "playableMs": 165,
+      "initial": {
+        "uniqueRequests": 11,
+        "bytes": 320450,
+        "gzipEstimate": 103595,
+        "brotliEstimate": 90711
+      },
+      "afterInteraction": {
+        "uniqueRequests": 11,
+        "bytes": 320450,
+        "gzipEstimate": 103595,
+        "brotliEstimate": 90711
+      },
+      "resources": [
+        "/en/play/light-garden/",
+        "/_astro/_..DYsCu4Pf.css",
+        "/assets/shell.js",
+        "/covers/tiny-delivery.png",
+        "/covers/two-ways-home.png",
+        "/assets/portal.js",
+        "/games/light-garden/rc-r1/index.html",
+        "/games/light-garden/rc-r1/base.css",
+        "/games/light-garden/rc-r1/game.css",
+        "/games/light-garden/rc-r1/game.js",
+        "/favicon.svg"
+      ],
+      "storage": {
+        "local": [
+          "wgs:save:light-garden"
+        ],
+        "session": [
+          "wgs:session:v1"
+        ]
+      },
+      "clip": "clips/light-garden.webm",
+      "recording": "Silent real browser video; WebAudio separately compared, not audible or physical acceptance"
+    },
+    {
+      "id": "two-ways-home",
+      "playableMs": 150,
+      "initial": {
+        "uniqueRequests": 10,
+        "bytes": 335061,
+        "gzipEstimate": 126277,
+        "brotliEstimate": 113753
+      },
+      "afterInteraction": {
+        "uniqueRequests": 10,
+        "bytes": 335061,
+        "gzipEstimate": 126277,
+        "brotliEstimate": 113753
+      },
+      "resources": [
+        "/en/play/two-ways-home/",
+        "/_astro/_..DYsCu4Pf.css",
+        "/assets/shell.js",
+        "/covers/tiny-delivery.png",
+        "/covers/light-garden.png",
+        "/assets/portal.js",
+        "/games/two-ways-home/rc-r1/index.html",
+        "/games/two-ways-home/rc-r1/base.css",
+        "/games/two-ways-home/rc-r1/game.js",
+        "/favicon.svg"
+      ],
+      "storage": {
+        "local": [
+          "wgs:save:two-ways-home"
+        ],
+        "session": [
+          "wgs:input:two-ways-home",
+          "wgs:session:v1"
+        ]
+      },
+      "clip": "clips/two-ways-home.webm",
+      "recording": "Silent real browser video; WebAudio separately compared, not audible or physical acceptance"
+    },
+    {
+      "id": "tiny-delivery",
+      "playableMs": 139,
+      "initial": {
+        "uniqueRequests": 10,
+        "bytes": 328467,
+        "gzipEstimate": 121908,
+        "brotliEstimate": 109626
+      },
+      "afterInteraction": {
+        "uniqueRequests": 11,
+        "bytes": 12616511,
+        "gzipEstimate": 3915296,
+        "brotliEstimate": 1760976
+      },
+      "resources": [
+        "/en/play/tiny-delivery/",
+        "/_astro/_..DYsCu4Pf.css",
+        "/assets/shell.js",
+        "/covers/light-garden.png",
+        "/covers/two-ways-home.png",
+        "/assets/portal.js",
+        "/games/tiny-delivery/rc-r1/index.html",
+        "/games/tiny-delivery/rc-r1/base.css",
+        "/games/tiny-delivery/rc-r1/game.js",
+        "/favicon.svg",
+        "/games/tiny-delivery/rc-r1/music.wav"
+      ],
+      "storage": {
+        "local": [
+          "wgs:save:tiny-delivery"
+        ],
+        "session": [
+          "wgs:session:v1"
+        ]
+      },
+      "clip": "clips/tiny-delivery.webm",
+      "recording": "Silent real browser video; WebAudio separately compared, not audible or physical acceptance"
+    }
+  ]
+}

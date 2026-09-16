@@ -16,7 +16,11 @@
     "preview:prototypes": "node scripts/astro.mjs preview --prototype-preview --host 127.0.0.1 --port 4324 --ignore-lock",
     "preview:design": "node scripts/astro.mjs preview --design-preview --host 127.0.0.1 --port 4323 --ignore-lock",
     "test": "tsx --test tests/unit/*.test.ts",
-    "test:routes": "tsx --test tests/routes.test.ts"
+    "test:routes": "tsx --test tests/routes.test.ts",
+    "build:rc": "node scripts/rc-build.mjs",
+    "preview:rc": "node scripts/rc-server.mjs",
+    "review:rc": "node scripts/rc-server.mjs --review",
+    "check:release": "node scripts/rc-release-check.mjs"
   },
   "dependencies": {
     "astro": "7.3.2"

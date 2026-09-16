@@ -1,0 +1,66 @@
+{
+  "at": "2026-09-16T02:17:42.471Z",
+  "results": [
+    {
+      "id": "tiny-delivery",
+      "status": "PASS",
+      "comparison": "real fixed baseline vs RC, first representative input",
+      "artBeforeAndAfter": "identical DOM",
+      "motion": {
+        "calls": 1,
+        "sha256": "a29ae258b70435fb9bf324ff8ebdbc06247585d7ccb3181efdf629a9226968db"
+      },
+      "sounds": [
+        {
+          "rate": 44100,
+          "length": 3308,
+          "sha256": "abf6030d73b8081ee347768b0b111c74e0bc50b2add96f9ac42c4f536045c47d"
+        }
+      ]
+    },
+    {
+      "id": "light-garden",
+      "status": "PASS",
+      "comparison": "real fixed baseline vs RC, first representative input",
+      "artBeforeAndAfter": "identical DOM",
+      "motion": {
+        "calls": 6,
+        "sha256": "f1082e304a7b0a869fa507d1e566695db031891f16ff1465dcf97662fe3c510b"
+      },
+      "sounds": [
+        {
+          "rate": 44100,
+          "length": 4234,
+          "sha256": "732c8810501615fa4c88f8d32bafbfe0313cba7959af944510cdda2bd59e580a"
+        },
+        {
+          "rate": 44100,
+          "length": 21168,
+          "sha256": "f872b3a0c7b73996ce5eb5b61a2f4b4d5ef7550b73c04937ed7ea5c9f0ab1d34"
+        }
+      ]
+    },
+    {
+      "id": "two-ways-home",
+      "status": "PASS",
+      "comparison": "real fixed baseline vs RC, first representative input",
+      "artBeforeAndAfter": "identical DOM",
+      "motion": {
+        "calls": 4,
+        "sha256": "6a43ae0e4a5bd94a480a54a14db053a83891c5d085c589954b2f78e511e443d4"
+      },
+      "sounds": [
+        {
+          "rate": 44100,
+          "length": 5292,
+          "sha256": "81b7330864148066a182792b8addb768b40b5ba0aa75e15eb1bffdaa5f274402"
+        },
+        {
+          "rate": 44100,
+          "length": 15876,
+          "sha256": "37daeb3e51764181f71207dc5a589d4792a25ca68834727f21c52b9f9d5f277e"
+        }
+      ]
+    }
+  ]
+}

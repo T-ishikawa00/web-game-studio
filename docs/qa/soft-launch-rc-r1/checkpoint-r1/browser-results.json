@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-16T20:05:25.196Z",
+  "environment": "Windows Edge headless, loopback; network simulation only; isolated browser contexts",
+  "results": [
+    {
+      "name": "JA/EN normal navigation, separate saves, pause/resume, central draft copy",
+      "status": "PASS",
+      "games": 3,
+      "locales": 2,
+      "externalRequests": 0,
+      "screenshotCount": 0
+    }
+  ]
+}

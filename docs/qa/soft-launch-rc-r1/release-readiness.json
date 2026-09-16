@@ -1,0 +1,80 @@
+{
+  "at": "2026-09-16T02:19:33.779Z",
+  "releaseReady": false,
+  "previewAllowed": true,
+  "deployAuthorized": false,
+  "blockers": [
+    {
+      "code": "officialSiteName",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "domain",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicOperator",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicContact",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "contactHandling",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "markets",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "targetAge",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "hostingAndLogs",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "retentionAndConsent",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "namesAndRights",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "legalReview",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "rcPhysicalDevices",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "human57Puzzles",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "externalFirstUse",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "release",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "legalDraft",
+      "reason": "Operating pages are legal drafts"
+    },
+    {
+      "code": "rights:tinyNameConflict",
+      "reason": "Existing exact-name delivery-robot game at https://store.steampowered.com/app/3812830/Tiny_Delivery/; final name decision and clearance required"
+    },
+    {
+      "code": "publicCopyDraft",
+      "reason": "Rendered operating-page source still contains draft/provisional content"
+    }
+  ]
+}
