@@ -1,0 +1,12 @@
+import {build} from 'esbuild';
+import {mkdir,cp,readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import assert from 'node:assert/strict';
+import {projectRoot,projectPath} from './project-path.mjs';
+const frozen=JSON.parse(await readFile('docs/qa/twoways-craft-baseline-r1/frozen-runtime.json','utf8'));
+for(const r of frozen.sources)assert.equal(createHash('sha256').update((await readFile(r.file,'utf8')).replaceAll('\r\n','\n')).digest('hex'),r.normalizedTextHash,r.file);
+for(const r of frozen.files)assert.equal(createHash('sha256').update(await readFile('.cache/twoways-craft/'+r.file)).digest('hex'),r.hash,r.file);
+const out=projectPath('.cache/twoways-bgm');await mkdir(out,{recursive:true});await cp(projectPath('.cache/twoways-craft'),out,{recursive:true});
+await mkdir(out+'/tw-bgm-audio',{recursive:true});for(const d of ['D1','D2'])await cp(projectPath('docs/qa/twoways-bgm-pilot-01/audio/'+d+'.wav'),out+'/tw-bgm-audio/'+d+'.wav');
+await build({absWorkingDir:projectRoot,entryPoints:['src/prototypes/twoways-bgm-pilot.ts'],outfile:out+'/prototype-assets/twoways-bgm.js',bundle:true,format:'esm',target:'es2022',minify:true});
+await writeFile(projectPath('.tmp/twoways-bgm/build.json'),JSON.stringify({at:new Date().toISOString(),acceptedFilesExact:frozen.files.length,acceptedSourcesExact:true,newEntry:'prototype-assets/twoways-bgm.js',noGameplayTimingChanges:true},null,2));console.log('BGM isolated output; accepted 44 files exact');

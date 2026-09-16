@@ -1,0 +1,140 @@
+{
+  "results": [
+    {
+      "direction": "D1",
+      "status": "PASS",
+      "wallSeconds": 330.163,
+      "audioSeconds": 330.16163265306125,
+      "loopSeconds": 39.999977324263035,
+      "loopBoundaries": 8,
+      "singleSource": true,
+      "runtimeRecording": "audio/D1-runtime-330s.webm",
+      "samples": [
+        {
+          "wallSeconds": 30.012,
+          "audioSeconds": 30.00018140589569,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 60.023,
+          "audioSeconds": 60.02068027210884,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 90.039,
+          "audioSeconds": 90.02086167800454,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 120.055,
+          "audioSeconds": 120.04136054421768,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 150.067,
+          "audioSeconds": 150.06185941043083,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 180.085,
+          "audioSeconds": 180.082358276644,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 210.107,
+          "audioSeconds": 210.10285714285715,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 240.115,
+          "audioSeconds": 240.10013605442177,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 270.131,
+          "audioSeconds": 270.1206349206349,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 300.147,
+          "audioSeconds": 300.14113378684806,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 330.158,
+          "audioSeconds": 330.1413151927438,
+          "starts": 1
+        }
+      ],
+      "limits": "330 seconds actual browser clock/playback, not accelerated; no Human listening or physical-device PASS"
+    },
+    {
+      "direction": "D2",
+      "status": "PASS",
+      "wallSeconds": 330.164,
+      "audioSeconds": 330.16163265306125,
+      "loopSeconds": 48,
+      "loopBoundaries": 6,
+      "singleSource": true,
+      "runtimeRecording": "audio/D2-runtime-330s.webm",
+      "samples": [
+        {
+          "wallSeconds": 30.012,
+          "audioSeconds": 30.020498866213153,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 60.024,
+          "audioSeconds": 60.02068027210884,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 90.04,
+          "audioSeconds": 90.041179138322,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 120.055,
+          "audioSeconds": 120.06167800453515,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 150.069,
+          "audioSeconds": 150.06185941043083,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 180.085,
+          "audioSeconds": 180.082358276644,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 210.108,
+          "audioSeconds": 210.10285714285715,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 240.117,
+          "audioSeconds": 240.12045351473924,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 270.132,
+          "audioSeconds": 270.1206349206349,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 300.148,
+          "audioSeconds": 300.14113378684806,
+          "starts": 1
+        },
+        {
+          "wallSeconds": 330.159,
+          "audioSeconds": 330.16163265306125,
+          "starts": 1
+        }
+      ],
+      "limits": "330 seconds actual browser clock/playback, not accelerated; no Human listening or physical-device PASS"
+    }
+  ]
+}

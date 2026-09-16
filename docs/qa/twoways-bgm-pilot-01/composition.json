@@ -1,0 +1,42 @@
+{
+  "method": "Original local score and deterministic modal/sine synthesis; no external sources, no reverb/drums, no gameplay clock coupling",
+  "source": "src/prototypes/twoways-bgm-score.ts",
+  "records": [
+    {
+      "direction": "D1",
+      "seconds": 40,
+      "title": "Two little detours",
+      "gain": 0.18,
+      "file": "audio/D1.wav",
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.15129876136779785,
+      "rms": 0.026755344059242386,
+      "dc": -5.18698468658189e-11,
+      "seamDelta": 0,
+      "maxAdjacentDelta": 0.008442993042990565,
+      "runtimePeakAtDefault": 0.02723377704620361,
+      "duckFactor": 0.28,
+      "listenAtRuntimeGain": 0.18
+    },
+    {
+      "direction": "D2",
+      "seconds": 48,
+      "title": "Windows at dusk",
+      "gain": 0.18,
+      "file": "audio/D2.wav",
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.18694429099559784,
+      "rms": 0.04679532540806531,
+      "dc": 4.3462746176519007e-10,
+      "seamDelta": 0.0003031832166016102,
+      "maxAdjacentDelta": 0.011605532839894295,
+      "runtimePeakAtDefault": 0.03364997237920761,
+      "duckFactor": 0.28,
+      "listenAtRuntimeGain": 0.18
+    }
+  ],
+  "humanListening": "PENDING",
+  "physicalOutput": "NOT TESTED"
+}

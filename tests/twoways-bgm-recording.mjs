@@ -1,0 +1,6 @@
+// QA only: combine actual Web Audio outputs from independent SFX/BGM contexts; no microphone.
+export function tapTwMix(){
+ const Native=window.AudioContext,connect=AudioNode.prototype.connect,taps=new Map();let mix,destination,recorder,started,chunks=[];const bridges=[];
+ AudioNode.prototype.connect=function(target,...args){const tap=taps.get(this.context);if(tap&&target===this.context.destination)connect.call(this,tap);return connect.call(this,target,...args);};
+ window.AudioContext=class extends Native{constructor(options){super(options);if(!mix){mix=new Native();destination=mix.createMediaStreamDestination();const silence=mix.createConstantSource();silence.offset.value=0;silence.connect(destination);silence.start();started=Date.now();recorder=new MediaRecorder(destination.stream,{mimeType:'audio/webm;codecs=opus'});recorder.ondataavailable=e=>chunks.push(e.data);recorder.start();void mix.resume();window.__twTap={finish:()=>new Promise(resolve=>{recorder.onstop=async()=>{const data=new Uint8Array(await new Blob(chunks).arrayBuffer());let raw='';for(const byte of data)raw+=String.fromCharCode(byte);resolve({started,base64:btoa(raw)});};recorder.stop();silence.stop();})};}const tap=this.createMediaStreamDestination();taps.set(this,tap);const bridge=mix.createMediaStreamSource(tap.stream);bridge.connect(destination);bridges.push(bridge);}};
+}

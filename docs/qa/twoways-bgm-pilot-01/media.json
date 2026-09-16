@@ -1,0 +1,1091 @@
+{
+  "records": [
+    {
+      "variant": "C",
+      "id": "T19",
+      "file": "videos/C-T19.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 601
+        }
+      ],
+      "durationSeconds": 1.284,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          10,
+          10
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            9,
+            9
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 1,
+        "before": {
+          "positions": [
+            9,
+            9
+          ]
+        },
+        "after": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 2
+    },
+    {
+      "variant": "C",
+      "id": "T20",
+      "file": "videos/C-T20.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 606
+        },
+        {
+          "direction": 1,
+          "targetMs": 1500,
+          "actualMs": 1515
+        },
+        {
+          "direction": 0,
+          "targetMs": 2400,
+          "actualMs": 2410
+        }
+      ],
+      "durationSeconds": 3.094,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          6,
+          6
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            8,
+            9
+          ]
+        },
+        {
+          "positions": [
+            9,
+            10
+          ]
+        },
+        {
+          "positions": [
+            10,
+            10
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 0,
+        "before": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "after": {
+          "positions": [
+            6,
+            6
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 4
+    },
+    {
+      "variant": "C",
+      "id": "T04",
+      "file": "videos/C-T04.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 607
+        },
+        {
+          "direction": 0,
+          "targetMs": 1500,
+          "actualMs": 1502
+        },
+        {
+          "direction": 0,
+          "targetMs": 2400,
+          "actualMs": 2409
+        },
+        {
+          "direction": 0,
+          "targetMs": 3300,
+          "actualMs": 3300
+        },
+        {
+          "direction": 2,
+          "targetMs": 4200,
+          "actualMs": 4207
+        },
+        {
+          "direction": 3,
+          "targetMs": 5100,
+          "actualMs": 5112
+        },
+        {
+          "direction": 0,
+          "targetMs": 6000,
+          "actualMs": 6014
+        },
+        {
+          "direction": 3,
+          "targetMs": 6900,
+          "actualMs": 6905
+        },
+        {
+          "direction": 1,
+          "targetMs": 7800,
+          "actualMs": 7814
+        }
+      ],
+      "durationSeconds": 8.498,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          13,
+          2
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            12,
+            14
+          ]
+        },
+        {
+          "positions": [
+            13,
+            15
+          ]
+        },
+        {
+          "positions": [
+            9,
+            11
+          ]
+        },
+        {
+          "positions": [
+            9,
+            7
+          ]
+        },
+        {
+          "positions": [
+            9,
+            3
+          ]
+        },
+        {
+          "positions": [
+            13,
+            7
+          ]
+        },
+        {
+          "positions": [
+            12,
+            6
+          ]
+        },
+        {
+          "positions": [
+            12,
+            2
+          ]
+        },
+        {
+          "positions": [
+            12,
+            1
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 1,
+        "before": {
+          "positions": [
+            12,
+            1
+          ]
+        },
+        "after": {
+          "positions": [
+            13,
+            2
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 13
+    },
+    {
+      "variant": "D1",
+      "id": "T19",
+      "file": "videos/D1-T19.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 606
+        }
+      ],
+      "durationSeconds": 1.292,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          10,
+          10
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            9,
+            9
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 1,
+        "before": {
+          "positions": [
+            9,
+            9
+          ]
+        },
+        "after": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 2
+    },
+    {
+      "variant": "D1",
+      "id": "T20",
+      "file": "videos/D1-T20.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 606
+        },
+        {
+          "direction": 1,
+          "targetMs": 1500,
+          "actualMs": 1510
+        },
+        {
+          "direction": 0,
+          "targetMs": 2400,
+          "actualMs": 2414
+        }
+      ],
+      "durationSeconds": 3.094,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          6,
+          6
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            8,
+            9
+          ]
+        },
+        {
+          "positions": [
+            9,
+            10
+          ]
+        },
+        {
+          "positions": [
+            10,
+            10
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 0,
+        "before": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "after": {
+          "positions": [
+            6,
+            6
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 4
+    },
+    {
+      "variant": "D1",
+      "id": "T04",
+      "file": "videos/D1-T04.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 605
+        },
+        {
+          "direction": 0,
+          "targetMs": 1500,
+          "actualMs": 1501
+        },
+        {
+          "direction": 0,
+          "targetMs": 2400,
+          "actualMs": 2410
+        },
+        {
+          "direction": 0,
+          "targetMs": 3300,
+          "actualMs": 3301
+        },
+        {
+          "direction": 2,
+          "targetMs": 4200,
+          "actualMs": 4204
+        },
+        {
+          "direction": 3,
+          "targetMs": 5100,
+          "actualMs": 5110
+        },
+        {
+          "direction": 0,
+          "targetMs": 6000,
+          "actualMs": 6014
+        },
+        {
+          "direction": 3,
+          "targetMs": 6900,
+          "actualMs": 6905
+        },
+        {
+          "direction": 1,
+          "targetMs": 7800,
+          "actualMs": 7813
+        }
+      ],
+      "durationSeconds": 8.493,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          13,
+          2
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            12,
+            14
+          ]
+        },
+        {
+          "positions": [
+            13,
+            15
+          ]
+        },
+        {
+          "positions": [
+            9,
+            11
+          ]
+        },
+        {
+          "positions": [
+            9,
+            7
+          ]
+        },
+        {
+          "positions": [
+            9,
+            3
+          ]
+        },
+        {
+          "positions": [
+            13,
+            7
+          ]
+        },
+        {
+          "positions": [
+            12,
+            6
+          ]
+        },
+        {
+          "positions": [
+            12,
+            2
+          ]
+        },
+        {
+          "positions": [
+            12,
+            1
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 1,
+        "before": {
+          "positions": [
+            12,
+            1
+          ]
+        },
+        "after": {
+          "positions": [
+            13,
+            2
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 13
+    },
+    {
+      "variant": "D2",
+      "id": "T19",
+      "file": "videos/D2-T19.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 604
+        }
+      ],
+      "durationSeconds": 1.286,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          10,
+          10
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            9,
+            9
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 1,
+        "before": {
+          "positions": [
+            9,
+            9
+          ]
+        },
+        "after": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 2
+    },
+    {
+      "variant": "D2",
+      "id": "T20",
+      "file": "videos/D2-T20.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 600
+        },
+        {
+          "direction": 1,
+          "targetMs": 1500,
+          "actualMs": 1506
+        },
+        {
+          "direction": 0,
+          "targetMs": 2400,
+          "actualMs": 2411
+        }
+      ],
+      "durationSeconds": 3.093,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          6,
+          6
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            8,
+            9
+          ]
+        },
+        {
+          "positions": [
+            9,
+            10
+          ]
+        },
+        {
+          "positions": [
+            10,
+            10
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 0,
+        "before": {
+          "positions": [
+            10,
+            10
+          ]
+        },
+        "after": {
+          "positions": [
+            6,
+            6
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 4
+    },
+    {
+      "variant": "D2",
+      "id": "T04",
+      "file": "videos/D2-T04.webm",
+      "speed": 1,
+      "actions": [
+        {
+          "direction": 1,
+          "targetMs": 600,
+          "actualMs": 609
+        },
+        {
+          "direction": 0,
+          "targetMs": 1500,
+          "actualMs": 1503
+        },
+        {
+          "direction": 0,
+          "targetMs": 2400,
+          "actualMs": 2413
+        },
+        {
+          "direction": 0,
+          "targetMs": 3300,
+          "actualMs": 3307
+        },
+        {
+          "direction": 2,
+          "targetMs": 4200,
+          "actualMs": 4215
+        },
+        {
+          "direction": 3,
+          "targetMs": 5100,
+          "actualMs": 5104
+        },
+        {
+          "direction": 0,
+          "targetMs": 6000,
+          "actualMs": 6011
+        },
+        {
+          "direction": 3,
+          "targetMs": 6900,
+          "actualMs": 6915
+        },
+        {
+          "direction": 1,
+          "targetMs": 7800,
+          "actualMs": 7806
+        }
+      ],
+      "durationSeconds": 8.485,
+      "width": 432,
+      "height": 768,
+      "board": {
+        "positions": [
+          13,
+          2
+        ]
+      },
+      "history": [
+        {
+          "positions": [
+            12,
+            14
+          ]
+        },
+        {
+          "positions": [
+            13,
+            15
+          ]
+        },
+        {
+          "positions": [
+            9,
+            11
+          ]
+        },
+        {
+          "positions": [
+            9,
+            7
+          ]
+        },
+        {
+          "positions": [
+            9,
+            3
+          ]
+        },
+        {
+          "positions": [
+            13,
+            7
+          ]
+        },
+        {
+          "positions": [
+            12,
+            6
+          ]
+        },
+        {
+          "positions": [
+            12,
+            2
+          ]
+        },
+        {
+          "positions": [
+            12,
+            1
+          ]
+        }
+      ],
+      "plan": {
+        "duration": 180,
+        "direction": 1,
+        "before": {
+          "positions": [
+            12,
+            1
+          ]
+        },
+        "after": {
+          "positions": [
+            13,
+            2
+          ]
+        },
+        "moved": [
+          true,
+          true
+        ],
+        "blocked": [
+          false,
+          false
+        ],
+        "arrived": [
+          true,
+          true
+        ],
+        "departed": [
+          false,
+          false
+        ],
+        "clear": true,
+        "complete": false,
+        "sounds": [
+          {
+            "id": "step_pair",
+            "at": 0,
+            "targets": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "clear",
+            "at": 180,
+            "targets": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "sound": "Simultaneous SFX and music Web Audio outputs; C SFX only; no dubbed audio",
+      "scheduled": 13
+    }
+  ],
+  "physicalOutputAndPerceivedSync": "NOT TESTED"
+}

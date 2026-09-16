@@ -1,0 +1,43 @@
+{
+  "at": "2026-09-15T22:36:58.297Z",
+  "start": "440b1b133a6863cd3d9e8b8f894bc4f581ae89a1",
+  "head": "bed130a8a0874eead6fdbfd72743488293e35ac0",
+  "originMain": "bed130a8a0874eead6fdbfd72743488293e35ac0",
+  "actualRemoteMain": "bed130a8a0874eead6fdbfd72743488293e35ac0",
+  "match": true,
+  "privateRepoConfirmed": true,
+  "commits": 1,
+  "push": "normal fast-forward; one push",
+  "files": 61,
+  "index": {
+    "mode": "staged",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "history": {
+    "mode": "history",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "raw": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "keyPathInIndexOrHistory": false,
+  "phase2GitPermission": false
+}

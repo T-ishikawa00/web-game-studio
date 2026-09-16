@@ -1,0 +1,164 @@
+{
+  "at": "2026-09-15T22:54:06.653Z",
+  "head": "bed130a8a0874eead6fdbfd72743488293e35ac0",
+  "originMain": "bed130a8a0874eead6fdbfd72743488293e35ac0",
+  "phase1ActualRemoteEvidence": "phase1-postflight.json",
+  "phase2": {
+    "stage": 0,
+    "commit": 0,
+    "push": 0,
+    "indexUnchanged": true,
+    "initialFiles": 1791,
+    "unchangedExistingFiles": 1789,
+    "changedExistingFiles": [
+      "AGENTS.md",
+      "docs/games/PRODUCTION_CURRENT.md"
+    ],
+    "addedFiles": [
+      "docs/games/TWO_WAYS_BGM_PILOT_01.md",
+      "docs/qa/twoways-bgm-pilot-01/REPORT.md",
+      "docs/qa/twoways-bgm-pilot-01/REVIEW.html",
+      "docs/qa/twoways-bgm-pilot-01/audio/D1-runtime-330s.webm",
+      "docs/qa/twoways-bgm-pilot-01/audio/D1.wav",
+      "docs/qa/twoways-bgm-pilot-01/audio/D2-runtime-330s.webm",
+      "docs/qa/twoways-bgm-pilot-01/audio/D2.wav",
+      "docs/qa/twoways-bgm-pilot-01/composition.json",
+      "docs/qa/twoways-bgm-pilot-01/loop-results.json",
+      "docs/qa/twoways-bgm-pilot-01/media.json",
+      "docs/qa/twoways-bgm-pilot-01/preservation-security.json",
+      "docs/qa/twoways-bgm-pilot-01/qa.json",
+      "docs/qa/twoways-bgm-pilot-01/screens/C-T04.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/C-T19.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/C-T20.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/D1-T04.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/D1-T19.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/D1-T20.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/D2-T04.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/D2-T19.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/D2-T20.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/T04-departed.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/T04-home.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/T12-auto.png",
+      "docs/qa/twoways-bgm-pilot-01/screens/T12-landscape.png",
+      "docs/qa/twoways-bgm-pilot-01/videos/C-T04.webm",
+      "docs/qa/twoways-bgm-pilot-01/videos/C-T19.webm",
+      "docs/qa/twoways-bgm-pilot-01/videos/C-T20.webm",
+      "docs/qa/twoways-bgm-pilot-01/videos/D1-T04.webm",
+      "docs/qa/twoways-bgm-pilot-01/videos/D1-T19.webm",
+      "docs/qa/twoways-bgm-pilot-01/videos/D1-T20.webm",
+      "docs/qa/twoways-bgm-pilot-01/videos/D2-T04.webm",
+      "docs/qa/twoways-bgm-pilot-01/videos/D2-T19.webm",
+      "docs/qa/twoways-bgm-pilot-01/videos/D2-T20.webm",
+      "scripts/twoways-bgm-build.mjs",
+      "scripts/twoways-bgm-samples.ts",
+      "scripts/twoways-bgm-server.mjs",
+      "src/prototypes/twoways-bgm-audio.ts",
+      "src/prototypes/twoways-bgm-pilot.ts",
+      "src/prototypes/twoways-bgm-score.ts",
+      "tests/twoways-bgm-edge.browser.mjs",
+      "tests/twoways-bgm-helpers.mjs",
+      "tests/twoways-bgm-lifecycle.browser.mjs",
+      "tests/twoways-bgm-loop.browser.mjs",
+      "tests/twoways-bgm-media.mjs",
+      "tests/twoways-bgm-recording.mjs",
+      "tests/twoways-bgm-review.browser.mjs",
+      "tests/unit/twoways-bgm.test.ts"
+    ],
+    "preexistingLocalOnlyFilesPreserved": 13
+  },
+  "frozen": [
+    {
+      "name": "Tiny R2",
+      "files": 46,
+      "status": "PASS"
+    },
+    {
+      "name": "Lightwork R1",
+      "files": 48,
+      "status": "PASS"
+    },
+    {
+      "name": "Two Ways R1",
+      "files": 44,
+      "status": "PASS"
+    }
+  ],
+  "whitespace": {
+    "status": "PASS",
+    "newTextFiles": 22
+  },
+  "localDocumentLinks": {
+    "status": "PASS",
+    "count": 59
+  },
+  "security": {
+    "raw": {
+      "mode": "all",
+      "status": "FAIL",
+      "scanner": "gitleaks 8.30.1",
+      "findings": [
+        {
+          "file": ".tmp/physical-mobile-r2/tls/server.key",
+          "type": "private-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": ".tmp/r3-before/manifest.json",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        }
+      ]
+    },
+    "newCandidates": 0,
+    "shaDisposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED",
+    "tlsDisposition": "TRUE SECRET / LOCAL DEV ONLY / APPROVED FOR LOCAL RETENTION",
+    "phase1IndexAndHistory": "PASS",
+    "phase2IndexUnchanged": true,
+    "scannerHooksExceptionsUnchanged": true,
+    "keyNotAddedCopiedOrDistributed": true
+  },
+  "localServer": {
+    "bind": "127.0.0.1",
+    "port": 4344,
+    "responses": [
+      {
+        "url": "http://127.0.0.1:4344/",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4344/ja/prototypes/play/two-ways-home/?tw=TW-C&bgm=C&layout=auto",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4344/en/prototypes/play/two-ways-home/?tw=TW-C&bgm=C&layout=auto",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4344/ja/prototypes/play/two-ways-home/?tw=TW-C&bgm=D1&layout=auto",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4344/en/prototypes/play/two-ways-home/?tw=TW-C&bgm=D1&layout=auto",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4344/ja/prototypes/play/two-ways-home/?tw=TW-C&bgm=D2&layout=auto",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4344/en/prototypes/play/two-ways-home/?tw=TW-C&bgm=D2&layout=auto",
+        "status": 200
+      }
+    ],
+    "restart": "node scripts/twoways-bgm-server.mjs"
+  },
+  "externalOperations": {
+    "deploy": 0,
+    "lanRepublish": 0,
+    "purchase": 0,
+    "contracts": 0,
+    "externalSoundApi": 0,
+    "publicRelease": 0
+  },
+  "stop": "Human BGM Review PENDING"
+}

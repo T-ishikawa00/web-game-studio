@@ -1,0 +1,453 @@
+{
+  "at": "2026-09-15T22:51:23.111Z",
+  "unit": {
+    "passed": 212
+  },
+  "type": {
+    "errors": 0,
+    "warnings": 0,
+    "preexistingHints": 3,
+    "files": 260
+  },
+  "suites": {
+    "lifecycle": {
+      "results": [
+        {
+          "name": "C keeps accepted bundle and no music context/request",
+          "status": "PASS"
+        },
+        {
+          "name": "No autoplay/synthetic/repeat unlock; trusted input and rapid input keep one source",
+          "status": "PASS"
+        },
+        {
+          "name": "Home and departure retain music; simultaneous clear stops before clear SFX; Undo does not replay achievement",
+          "status": "PASS"
+        },
+        {
+          "name": "Menus/settings/layout stop; resume requires new interaction",
+          "status": "PASS"
+        },
+        {
+          "name": "Master mute, independent volumes, music off and same-condition reload persist",
+          "status": "PASS"
+        },
+        {
+          "name": "hidden stops, return never auto-starts",
+          "status": "PASS"
+        },
+        {
+          "name": "blur stops, return never auto-starts",
+          "status": "PASS"
+        },
+        {
+          "name": "pagehide stops, return never auto-starts",
+          "status": "PASS"
+        },
+        {
+          "name": "Delayed fetch canceled by settings/direction change; no stale start",
+          "status": "PASS"
+        },
+        {
+          "name": "Storage corrupt preserves original and progress",
+          "status": "PASS"
+        },
+        {
+          "name": "Storage future preserves original and progress",
+          "status": "PASS"
+        },
+        {
+          "name": "Storage denied preserves original and progress",
+          "status": "PASS"
+        },
+        {
+          "name": "Storage noop preserves original and progress",
+          "status": "PASS"
+        },
+        {
+          "name": "Missing asset leaves SFX/input usable, next interaction retries",
+          "status": "PASS"
+        },
+        {
+          "name": "Real mock ad pauses music and does not auto-resume",
+          "status": "PASS"
+        },
+        {
+          "name": "Settings/reduced motion ja/auto",
+          "status": "PASS"
+        },
+        {
+          "name": "Settings/reduced motion ja/portrait",
+          "status": "PASS"
+        },
+        {
+          "name": "Settings/reduced motion ja/landscape",
+          "status": "PASS"
+        },
+        {
+          "name": "Settings/reduced motion en/auto",
+          "status": "PASS"
+        },
+        {
+          "name": "Settings/reduced motion en/portrait",
+          "status": "PASS"
+        },
+        {
+          "name": "Settings/reduced motion en/landscape",
+          "status": "PASS"
+        },
+        {
+          "name": "tiny-delivery has no added module or requests",
+          "status": "PASS"
+        },
+        {
+          "name": "light-garden has no added module or requests",
+          "status": "PASS"
+        }
+      ]
+    },
+    "edge": {
+      "results": [
+        {
+          "name": "Delayed resume cannot start after menu or suspend newer work",
+          "status": "PASS"
+        },
+        {
+          "name": "Delayed decode cannot start after menu or suspend newer work",
+          "status": "PASS"
+        },
+        {
+          "name": "Source start failure cleans partial graph and retries without affecting SFX",
+          "status": "PASS"
+        },
+        {
+          "name": "Decode failure and rapid menu/restart have no overlap",
+          "status": "PASS"
+        },
+        {
+          "name": "Old TW-A/B session is redirected to accepted TW-C before BGM comparison",
+          "status": "PASS"
+        },
+        {
+          "name": "Mock ad completion does not auto-start or change progress",
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "loop": {
+    "results": [
+      {
+        "direction": "D1",
+        "status": "PASS",
+        "wallSeconds": 330.163,
+        "audioSeconds": 330.16163265306125,
+        "loopSeconds": 39.999977324263035,
+        "loopBoundaries": 8,
+        "singleSource": true,
+        "runtimeRecording": "audio/D1-runtime-330s.webm",
+        "samples": [
+          {
+            "wallSeconds": 30.012,
+            "audioSeconds": 30.00018140589569,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 60.023,
+            "audioSeconds": 60.02068027210884,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 90.039,
+            "audioSeconds": 90.02086167800454,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 120.055,
+            "audioSeconds": 120.04136054421768,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 150.067,
+            "audioSeconds": 150.06185941043083,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 180.085,
+            "audioSeconds": 180.082358276644,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 210.107,
+            "audioSeconds": 210.10285714285715,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 240.115,
+            "audioSeconds": 240.10013605442177,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 270.131,
+            "audioSeconds": 270.1206349206349,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 300.147,
+            "audioSeconds": 300.14113378684806,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 330.158,
+            "audioSeconds": 330.1413151927438,
+            "starts": 1
+          }
+        ],
+        "limits": "330 seconds actual browser clock/playback, not accelerated; no Human listening or physical-device PASS"
+      },
+      {
+        "direction": "D2",
+        "status": "PASS",
+        "wallSeconds": 330.164,
+        "audioSeconds": 330.16163265306125,
+        "loopSeconds": 48,
+        "loopBoundaries": 6,
+        "singleSource": true,
+        "runtimeRecording": "audio/D2-runtime-330s.webm",
+        "samples": [
+          {
+            "wallSeconds": 30.012,
+            "audioSeconds": 30.020498866213153,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 60.024,
+            "audioSeconds": 60.02068027210884,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 90.04,
+            "audioSeconds": 90.041179138322,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 120.055,
+            "audioSeconds": 120.06167800453515,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 150.069,
+            "audioSeconds": 150.06185941043083,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 180.085,
+            "audioSeconds": 180.082358276644,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 210.108,
+            "audioSeconds": 210.10285714285715,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 240.117,
+            "audioSeconds": 240.12045351473924,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 270.132,
+            "audioSeconds": 270.1206349206349,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 300.148,
+            "audioSeconds": 300.14113378684806,
+            "starts": 1
+          },
+          {
+            "wallSeconds": 330.159,
+            "audioSeconds": 330.16163265306125,
+            "starts": 1
+          }
+        ],
+        "limits": "330 seconds actual browser clock/playback, not accelerated; no Human listening or physical-device PASS"
+      }
+    ]
+  },
+  "review": {
+    "results": [
+      {
+        "name": "Review links/assets",
+        "status": "PASS",
+        "count": 34
+      },
+      {
+        "name": "/review/videos/C-T19.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.278592,
+        "duration": 3.137,
+        "error": null
+      },
+      {
+        "name": "/review/videos/D1-T19.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.311036,
+        "duration": 3.139,
+        "error": null
+      },
+      {
+        "name": "/review/videos/D2-T19.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.309045,
+        "duration": 3.13,
+        "error": null
+      },
+      {
+        "name": "/review/videos/C-T20.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.305935,
+        "duration": 4.926,
+        "error": null
+      },
+      {
+        "name": "/review/videos/D1-T20.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.309739,
+        "duration": 4.932,
+        "error": null
+      },
+      {
+        "name": "/review/videos/D2-T20.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.299082,
+        "duration": 4.927,
+        "error": null
+      },
+      {
+        "name": "/review/videos/C-T04.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.309247,
+        "duration": 10.33,
+        "error": null
+      },
+      {
+        "name": "/review/videos/D1-T04.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.309799,
+        "duration": 10.341,
+        "error": null
+      },
+      {
+        "name": "/review/videos/D2-T04.webm",
+        "status": "PASS",
+        "width": 432,
+        "height": 768,
+        "time": 0.30608,
+        "duration": 10.343,
+        "error": null
+      },
+      {
+        "name": "Review responsive320/390/1280",
+        "status": "PASS"
+      },
+      {
+        "name": "Forbidden paths / method / Host / range",
+        "status": "PASS"
+      },
+      {
+        "name": "/review/audio/D1.wav",
+        "status": "PASS",
+        "duration": 40,
+        "time": 0.063087,
+        "error": null
+      },
+      {
+        "name": "/review/audio/D1-runtime-330s.webm",
+        "status": "PASS",
+        "duration": 330.060125,
+        "time": 0.062023,
+        "error": null
+      },
+      {
+        "name": "/review/audio/D2.wav",
+        "status": "PASS",
+        "duration": 48,
+        "time": 0.062755,
+        "error": null
+      },
+      {
+        "name": "/review/audio/D2-runtime-330s.webm",
+        "status": "PASS",
+        "duration": 330.059593,
+        "time": 0.045616,
+        "error": null
+      },
+      {
+        "name": "C/D1/D2 same states, plans, actions",
+        "status": "PASS"
+      }
+    ]
+  },
+  "build": {
+    "at": "2026-09-15T22:43:22.500Z",
+    "acceptedFilesExact": 44,
+    "acceptedSourcesExact": true,
+    "newEntry": "prototype-assets/twoways-bgm.js",
+    "noGameplayTimingChanges": true
+  },
+  "frozen": [
+    {
+      "name": "Tiny R2",
+      "files": 46,
+      "status": "PASS"
+    },
+    {
+      "name": "Lightwork R1",
+      "files": 48,
+      "status": "PASS"
+    },
+    {
+      "name": "Two Ways R1",
+      "files": 44,
+      "status": "PASS"
+    }
+  ],
+  "currentBundleMatchesSource": true,
+  "reused": {
+    "reference": "../twoways-craft-pilot-01/qa.json",
+    "reason": "Accepted game/SFX/Motion/rules/input/save source and runtime are exact; new BGM paths covered by current suites",
+    "craftBrowser": 17,
+    "craftEdge": 5,
+    "homeInput": 7
+  },
+  "models": {
+    "primary": "gpt-6-astra",
+    "independentReadOnlyReview": "gpt-6-astra"
+  },
+  "humanBgmAcceptance": "PENDING",
+  "physicalDevice": "NOT TESTED",
+  "externalFirstUse": "DEFERRED / NOT TESTED",
+  "currentScoreReproducesBothWavsExactly": true,
+  "visualSelfReview": {
+    "reviewPage": "Codex in-app browser, desktop screenshot checked",
+    "gameScene": "D1 T20 screenshot; unchanged R5 board/character art",
+    "humanBgmListening": "PENDING"
+  }
+}

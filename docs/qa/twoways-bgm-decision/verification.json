@@ -1,0 +1,97 @@
+{
+  "at": "2026-09-16T00:16:50.917Z",
+  "start": "bed130a8a0874eead6fdbfd72743488293e35ac0",
+  "privateRepoConfirmed": true,
+  "decision": "C / Accepted Motion + dedicated SFX / no BGM / Human selected and frozen",
+  "rejectedButRetained": [
+    "D1",
+    "D2"
+  ],
+  "activeRuntimeChanged": false,
+  "preservation": {
+    "initialFiles": 1839,
+    "changedExistingFiles": [
+      "AGENTS.md",
+      "docs/games/PRODUCTION_CURRENT.md",
+      "docs/games/TWO_WAYS_CRAFT_BASELINE_R1.md"
+    ],
+    "unchangedExistingFiles": 1836,
+    "comparisonEvidenceUnchanged": true
+  },
+  "frozen": [
+    {
+      "name": "Tiny R2",
+      "files": 46,
+      "status": "PASS",
+      "mode": "read-only hash check; no rebuild"
+    },
+    {
+      "name": "Lightwork Craft R1",
+      "files": 48,
+      "status": "PASS",
+      "mode": "read-only hash check; no rebuild"
+    },
+    {
+      "name": "Two Ways Craft R1",
+      "files": 44,
+      "status": "PASS",
+      "mode": "read-only hash check; no rebuild"
+    }
+  ],
+  "qa": {
+    "selection": "Documentation/checkpoint only; no new implementation",
+    "reuse": "../twoways-bgm-pilot-01/qa.json",
+    "unit": 212,
+    "lifecycle": 23,
+    "edge": 6,
+    "review": 17,
+    "loop": "D1/D2 each330s; previous execution reused unchanged",
+    "noNewBuildGameReplayOrMediaGeneration": true
+  },
+  "security": {
+    "shaExactLocalAndHistoricalOrigin": true,
+    "shaCredentialUseAbsent": true,
+    "tlsIgnored": true,
+    "tlsIndexHistoryPathAbsent": true,
+    "tlsBytesAbsentFromTrackedAndCandidates": true,
+    "raw": {
+      "mode": "all",
+      "status": "FAIL",
+      "scanner": "gitleaks 8.30.1",
+      "findings": [
+        {
+          "file": ".tmp/physical-mobile-r2/tls/server.key",
+          "type": "private-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": ".tmp/r3-before/manifest.json",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        }
+      ]
+    },
+    "fullIndex": "Enforced by existing pre-commit hook",
+    "history": "Required before push",
+    "noValuesEmitted": true,
+    "noNewExceptions": true,
+    "newCandidates": 0
+  },
+  "models": {
+    "primary": "gpt-6-astra"
+  },
+  "scope": {
+    "stageCommitPush": "This checkpoint only",
+    "deploy": 0,
+    "publicRelease": 0,
+    "purchase": 0,
+    "newProduction": 0
+  },
+  "stop": "After one checkpoint/push and HEAD/origin/main/actual remote equality",
+  "documentation": {
+    "whitespace": "PASS",
+    "checkedTextFiles": 29,
+    "localLinks": 62,
+    "status": "PASS"
+  }
+}
