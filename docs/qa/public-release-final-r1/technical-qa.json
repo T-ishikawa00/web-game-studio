@@ -1,0 +1,107 @@
+{
+  "at": "2026-09-17T07:26:40.562Z",
+  "status": "LOCAL_TECHNICAL_PASS",
+  "manifestFilesVerified": 52,
+  "portalPages": 27,
+  "gameFrames": 3,
+  "acceptedRcFilesUnchanged": 48,
+  "preservedExistingFiles": 19,
+  "localHttp": [
+    {
+      "path": "/",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/ja/",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/en/",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/ja/contact/",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/en/privacy/",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/games/tiny-delivery/rc-r1/",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/missing/",
+      "status": 404,
+      "noindex": true
+    },
+    {
+      "path": "/docs/qa/production-deploy-r1/POSTFLIGHT.md",
+      "status": 404,
+      "noindex": true
+    },
+    {
+      "path": "/src/rc/site.json",
+      "status": 404,
+      "noindex": true
+    },
+    {
+      "path": "/.tmp/physical-mobile-r2/tls/server.key",
+      "status": 404,
+      "noindex": true
+    },
+    {
+      "path": "/config/release-production/measurement.json",
+      "status": 404,
+      "noindex": true
+    },
+    {
+      "path": "/games/tiny-delivery/rc-r1/D2.wav",
+      "status": 404,
+      "noindex": true
+    }
+  ],
+  "protectedPreviewAnonymous": [
+    {
+      "path": "/ja/",
+      "status": 302,
+      "accessRedirect": true
+    },
+    {
+      "path": "/en/",
+      "status": 302,
+      "accessRedirect": true
+    },
+    {
+      "path": "/assets/portal.js",
+      "status": 302,
+      "accessRedirect": true
+    },
+    {
+      "path": "/covers/tiny-delivery.png",
+      "status": 302,
+      "accessRedirect": true
+    },
+    {
+      "path": "/games/tiny-delivery/rc-r1/",
+      "status": 302,
+      "accessRedirect": true
+    },
+    {
+      "path": "/games/tiny-delivery/rc-r1/music.wav",
+      "status": 302,
+      "accessRedirect": true
+    }
+  ],
+  "analyticsRequestsTriggered": false,
+  "physicalDevices": "NOT TESTED",
+  "productionSmoke": "NOT TESTED",
+  "productionConnection": false
+}

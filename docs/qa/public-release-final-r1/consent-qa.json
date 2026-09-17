@@ -1,0 +1,91 @@
+{
+  "at": "2026-09-17T06:57:46.862Z",
+  "model": "gpt-6-astra",
+  "status": "LOCAL_CONSENT_PRIVACY_TERMS_QA_PASS",
+  "unitTests": 11,
+  "independentReview": "Withdrawal write-failure issue corrected and independently verified; no remaining P1/P2",
+  "humanMailGate": "CLOSED",
+  "receiveTest": "PASS",
+  "otherMailTests": "NOT TESTED, superseded as release gates by explicit Human closure",
+  "ui": {
+    "labels": [
+      "Allow analytics",
+      "Continue without analytics"
+    ],
+    "initial": "OFF",
+    "deny": "No beacon loaded",
+    "allow": "One provider script in synthetic in-memory production fixture; local browser remains disconnected",
+    "changeChoice": "Footer and Privacy, keyboard-focusable",
+    "withdrawal": "Persist deny and reload; write failure removes old value if possible and uses fixed deny fragment; restored/read-only stale permission cannot restart",
+    "crossTab": "Withdrawal observed; restored page rechecks denial",
+    "privacy": "Required saves, necessary settings, provider processing, voluntary inquiry data, retention and no global compliance guarantee",
+    "terms": "Free service, no purchases/accounts/paid items, no availability/persistence guarantee, license-aware copying/redistribution restrictions"
+  },
+  "browser": {
+    "engine": "Edge desktop",
+    "localOrigin": "http://127.0.0.1:4352",
+    "noChoiceAndDenyBeaconElements": 0,
+    "allowWhileDisconnectedBeaconElements": 0,
+    "choicePersistence": "PASS",
+    "reopenChoice": "PASS",
+    "gamesAfterDeny": [
+      "Hakorilo 02 resumed; arrow input and start",
+      "Lightwork L01 saved completion restored",
+      "Two Ways 02 saved completion restored"
+    ],
+    "responsive": [
+      {
+        "width": 390,
+        "height": 844,
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "buttonHeight": 49.96875
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "clientWidth": 829,
+        "scrollWidth": 829
+      }
+    ],
+    "englishBrowserTranslation": "Browser may translate portal; source and initial English labels verified; user settings unchanged"
+  },
+  "externalAnalyticsRequestsPerformed": 0,
+  "actualProviderTrafficCapture": "NOT TESTED; browser performance-resource API unavailable in automation scope",
+  "productionConnection": "NOT TESTED",
+  "physicalDevices": "NOT TESTED",
+  "gamePayloadsChanged": 0,
+  "stageCommitPushDeploy": 0,
+  "finalVerification": {
+    "at": "2026-09-17T06:59:48.801Z",
+    "testsPassed": 11,
+    "typeCheck": {
+      "files": 314,
+      "errors": 0,
+      "warnings": 0,
+      "preExistingHints": 3
+    },
+    "distribution": {
+      "files": 52,
+      "findings": 0
+    },
+    "preservation": {
+      "previousFiles": 1690,
+      "acceptedRcFiles": 48,
+      "retainedPayloads": 18
+    },
+    "rawFullProject": {
+      "status": "FAIL",
+      "knownFindings": 2,
+      "newUnapprovedFindings": 0,
+      "dispositions": "Unchanged SHA false positive and local TLS true secret; prior exact disposition evidence retained"
+    },
+    "indexEmpty": true,
+    "gitDiffCheck": "PASS",
+    "remainingGateCodes": [
+      "deployment:humanFinalGate",
+      "analytics:productionConnectionPending",
+      "analytics:automaticInsertionControl"
+    ]
+  }
+}

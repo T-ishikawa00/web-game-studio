@@ -1,5 +1,14 @@
 # Tinlumo Release Readiness Final R1 — Release Decision Pack
 
+2026-09-17 最新 manual Analytics差分：Cloudflareのmanual snippetとauto_install=falseを確認。default OFF、許可後のみmoduleを1個読み込む。未同意/拒否/拒否再読込のJS・beacon送信処理0、許可後JS HTTP200・XHR送信試行1、応答status0につき配送/集計未確認。Preview保護/計測OFF維持。本番deploy/公開接続0、最終Human承認待ち。今回許可された1checkpoint/通常pushの詳細と残Gateは [最新Final Gate](TINLUMO_PUBLIC_DEPLOY_FINAL_GATE_R1.md) を正本とする。以下の接続未設定・stage/commit/push0等は過去時点の記録。
+
+
+2026-09-17 最新：Human Final Decision Public Data / Analytics / Legal R1を反映。メールGate CLOSED、必要保存・日英Privacy/Terms・default-OFF opt-in UIの実装/QA完了。動画方針・独自domain送信は初回必須Gateではない。**PUBLIC_RELEASE_BLOCKED / FINAL_DEPLOY_GATE_PENDING**。[本番Deploy直前の最終Gate](TINLUMO_PUBLIC_DEPLOY_FINAL_GATE_R1.md)が現在の正本。以下の旧blocker/未確定表示は過去時点の記録で、最新承認へ再適用しない。
+
+
+最新の公開準備・Human判断・blockerは [Public Release Final R1](TINLUMO_PUBLIC_RELEASE_FINAL_R1.md) を参照。Global/English-first、専用受信箱返信を採用済み。旧資料の「domain未取得」「support名義SMTP必須」「日本中心」の案を現状へ流用しない。旧 `release-prepare.mjs --prepare` は書込み廃止・常にBLOCKED。現行入口は `public-release-build.mjs`。以下は当時の証拠として保全。
+
+
 2026-09-17 JST。**Human決定反映済みRC checkpoint／公開BLOCKED**。「Final」は工程名。最新RCのHuman候補PASSを維持し、公開許可・商標確認・実機試験と区別する。外部初見は **DEFERRED / NOT TESTED**、必須Gateへ戻さない。
 
 主担当・統合：`gpt-6-astra`。独立した名称/domain・配信条件・権利監査はread-onlyで並行実施。名称・権利担当も同モデル、配信担当は親設定継承（独立したruntime ID照会なし）。外部実行は委任せず、公式情報の検索読取のみ。

@@ -1,0 +1,14 @@
+{
+  "recordedAt": "2026-09-17T06:42:22.936Z",
+  "source": "Human report 2026-09-17",
+  "route": "support@tinlumo.com via Cloudflare Email Routing to the verified destination",
+  "delivery": "PASS",
+  "firstPlacement": "spam-folder",
+  "testSourceDifferentFromDestination": "NOT REPORTED",
+  "authenticationHeaders": "NOT REPORTED",
+  "reply": "NOT TESTED",
+  "messageOrPrivateAddressStored": false,
+  "operationalNote": "The first successful test arrived in Spam. Human should check the spam folder during regular inquiry review. Routing delivery is confirmed; Inbox placement and future delivery are not guaranteed. No filter, allowlist or spam-protection setting changed by Codex.",
+  "supportDomainSendingImplemented": false,
+  "externalOperationsThisUpdate": 0
+}

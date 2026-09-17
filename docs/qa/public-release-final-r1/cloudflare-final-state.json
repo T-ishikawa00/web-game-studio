@@ -1,0 +1,26 @@
+{
+  "at": "2026-09-17T06:10:08.073Z",
+  "zoneActive": true,
+  "freePlan": "Free Website",
+  "productionWorkerExists": false,
+  "previewWorkerExists": true,
+  "apexOrWwwWebDns": [],
+  "mail": {
+    "enabled": true,
+    "status": "ready",
+    "verifiedDestinationCount": 1,
+    "supportRuleCount": 1,
+    "exactSingleVerifiedForward": true,
+    "catchAllEnabled": false,
+    "mxCount": 3,
+    "spfCount": 1,
+    "dkimCount": 1,
+    "spfCheck": "Provider returned quoted TXT; normalized for classification, no DNS change"
+  },
+  "previewAlternateUrls": {
+    "enabled": false,
+    "previews_enabled": false
+  },
+  "readOnly": true,
+  "privateValuesStored": false
+}

@@ -11,32 +11,32 @@
     "scope": "Tinlumo / ティンルモ / Tinlumo Studio; Hakorilo / ハコリロ; other two titles retained. Name exploration closed. Not legal safety or publication approval."
   },
   "domainCandidate": "tinlumo.com",
-  "domain": null,
-  "publicOperator": null,
-  "publicContact": null,
-  "contactHandling": null,
-  "markets": null,
+  "domain": "https://tinlumo.com",
+  "publicOperator": "Tinlumo Studio（個人運営）",
+  "publicContact": "support@tinlumo.com",
+  "contactHandling": "内容確認後、必要に応じてHumanが返信。固定期限なし。法令上の請求への対応は別。",
+  "markets": "Global, led by overseas English-speaking audiences; Japan is an important second market with first-class Japanese support; no geoblocking; country-specific active advertising is a separate decision",
   "targetAge": "General audience; no DOB/age entry or age gate; not actively promoted as a child-directed service",
-  "hostingAndLogs": null,
-  "retentionAndConsent": null,
+  "hostingAndLogs": "Cloudflare Workers Static Assets, no operator-added access-log storage; provider processing and retention disclosed separately",
+  "retentionAndConsent": "Human-approved necessary game/settings storage; optional page analytics requires visitor opt-in; inquiry deletion around 90 days after resolution with monthly unresolved review and documented exceptions",
   "analyticsProvider": "disabled",
   "ads": "disabled",
-  "legalDraft": true,
+  "legalDraft": false,
   "releaseDecisions": {
-    "operatorAddressDisclosure": null,
-    "contactReceiptAndReply": null,
-    "contactRetentionAndDeletion": null,
-    "hostingProcessorAndAccessRetention": null,
-    "analyticsAndConsent": null,
-    "budgetAndStopOwner": null,
-    "assetRightsAndVideoPolicy": null
+    "operatorAddressDisclosure": "Human approved on-request provision after appropriate identity verification, without undue delay; brand only on public pages; actual identity/address retained by Human outside repository",
+    "contactReceiptAndReply": "Human approved Cloudflare Email Routing to one Human-selected dedicated Tinlumo inbox, with Human replies from that inbox address; support-domain sending deferred; actual send/receive tests remain required",
+    "contactRetentionAndDeletion": "Human policy: around 90 days after resolution, monthly unresolved review, reasonable legal/security/abuse/dispute exceptions. Published Gmail trash and Google backup/processing limits verified; no account-specific deletion guarantee.",
+    "hostingProcessorAndAccessRetention": "Human Final Decision R1: Cloudflare Hosting/Email Routing and optional Web Analytics with published provider processing and retention disclosures",
+    "analyticsAndConsent": "Human Final Decision R1: default off; explicit Allow analytics or Continue without analytics; no game restriction; necessary game localStorage retained",
+    "budgetAndStopOwner": "Human owns operation and stopping; Free-only; no paid SMTP or additional purchase; production-only rollback must preserve preview and email",
+    "assetRightsAndVideoPolicy": "Human Final Decision R1: current accepted games and assets, rights per project authority and individual OSS licenses; no new video permission granted; video policy excluded from initial release scope"
   },
   "releaseRecommendations": {
-    "status": "Human-selected initial approach; external activation NOT authorized",
+    "status": "Human data/legal/email decisions closed; local consent implementation verified; final production connection and deploy gate pending",
     "hosting": "Cloudflare Workers Static Assets Free, assets only, no Worker script",
     "analytics": "Cloudflare Web Analytics only for initial release; currently disabled; game custom events excluded",
-    "contact": "After domain acquisition: support address via Cloudflare Email Routing to an existing inbox; destination, reply and retention remain to be decided",
-    "budget": "Keep Free; Paid plan requires separate Human approval; domain purchase budget remains undecided"
+    "contact": "Cloudflare Email Routing ready for support to one Human-selected dedicated Tinlumo inbox; dedicated-inbox Human replies selected; live mail tests pending",
+    "budget": "Free-only; no paid SMTP or additional purchase; existing domain registration is outside this task"
   },
   "softLaunchPolicy": {
     "humanDecisionDate": "2026-09-17",
@@ -53,7 +53,7 @@
       "en"
     ],
     "personalData": "Do not collect unnecessary personal information",
-    "externalAnalytics": "not connected",
+    "externalAnalytics": "disabled for protected preview after edge-insertion correction; pre-correction QA transmissions UNKNOWN (production-deploy-r1/POSTFLIGHT.md)",
     "operator": "individual; Tinlumo Studio is a brand, not a company",
     "audience": "general",
     "dateOfBirthInput": false,
@@ -75,15 +75,19 @@
     "externalFirstUse": {
       "status": "DEFERRED / NOT TESTED",
       "source": "Human decision 2026-09-17"
+    },
+    "protectedPreview": {
+      "status": "PASS",
+      "source": "Human: Tinlumo Public Release Final R1, 2026-09-17. Device models, OS and full-57 coverage were not reported; no inference."
     }
   },
   "unresolvedRights": [],
   "approvals": {
     "humanRcCandidate": true,
-    "dataPolicyFinal": false,
+    "dataPolicyFinal": true,
     "deployedUrlSmoke": false,
-    "namesAndRights": false,
-    "legalReview": false,
+    "namesAndRights": true,
+    "legalReview": true,
     "rcPhysicalDevices": false,
     "human57Puzzles": false,
     "externalFirstUse": false,
@@ -100,14 +104,152 @@
   "operatorPolicy": {
     "type": "individual",
     "brandIsLegalEntity": false,
-    "publicIdentityConfirmed": false
+    "publicIdentityConfirmed": false,
+    "publicBrandDisplayConfirmed": true
   },
   "contactPlan": {
     "candidate": "support@tinlumo.com",
-    "condition": "Only after domain acquisition and receiving/reply tests; not a live published address",
-    "providerCandidate": "Cloudflare Email Routing to an existing verified inbox",
+    "condition": "Human confirmed actual forwarding delivery PASS; dedicated-inbox reply/authentication and other unreported evidence remain separate",
+    "providerCandidate": "Cloudflare Email Routing to the Human-verified dedicated Gmail inbox",
     "destination": null,
-    "replyMethod": null,
-    "retention": null
+    "replyMethod": "Human replies from the explicitly selected dedicated Tinlumo inbox; support-domain SMTP is absent and deferred; no personal everyday From",
+    "retention": "Human policy: around 90 days after resolution, monthly unresolved review, reasonable legal/security/abuse/dispute exceptions. Published Gmail trash and Google backup/processing limits verified; no account-specific deletion guarantee."
+  },
+  "publicLaunch": {
+    "status": "PUBLIC_RELEASE_BLOCKED",
+    "humanRequest": "Tinlumo Public Release Final R1",
+    "conditionalOneCheckpointAndPublicConnection": true,
+    "productionWorker": "tinlumo-production",
+    "operatorDisplay": {
+      "ja": "Tinlumo Studio（個人運営）",
+      "en": "Tinlumo Studio (individually operated)"
+    },
+    "normalReply": {
+      "ja": "内容を確認し、必要に応じてHumanが返信します。通常のお問い合わせには固定の返信期限を設けていません。",
+      "en": "The human operator reviews inquiries and replies when needed. General inquiries have no fixed response deadline."
+    },
+    "operatorInformation": {
+      "ja": "Tinlumo Studioは個人運営のブランドで、法人名ではありません。法令上必要な事業者情報等のお求めは窓口で受け付け、適切な本人確認等を行ったうえで遅滞なく回答します。",
+      "en": "Tinlumo Studio is an individually operated brand, not a corporation. Requests for legally required operator information are accepted through the contact channel and answered without undue delay after appropriate identity verification and other necessary checks."
+    },
+    "markets": {
+      "ja": "海外・英語圏を中心とするGlobal向けのサービスです。日本は重要な第二市場として、日本語でも同等に対応します。英語・日本語の両方を正式に提供し、海外からのアクセスを地域で遮断しません。",
+      "en": "Tinlumo serves a global audience, with overseas English-speaking audiences as the primary market. Japan is an important second market with first-class Japanese support. English and Japanese are both official versions; access is not geographically blocked."
+    },
+    "contactMethod": {
+      "ja": "support@tinlumo.com宛のメールはCloudflare Email RoutingでTinlumo専用受信箱へ転送します。必要な返信はHumanがその専用受信箱のアドレスから行います。support@tinlumo.com名義の送信は初回Soft Launchでは行いません。",
+      "en": "Email to support@tinlumo.com is forwarded by Cloudflare Email Routing to a dedicated Tinlumo inbox. When needed, the human operator replies from that dedicated inbox address. Messages are not sent under the support@tinlumo.com From address at the initial Soft Launch."
+    },
+    "contactRetention": {
+      "ja": "問い合わせ本文は対応終了後90日を目安に削除し、未解決案件は月1回確認します。法令対応、Security incident、不正利用、紛争等で合理的な保持が必要な場合は例外とします。メール事業者のごみ箱・バックアップ等による保持は別で、即時完全削除を保証しません。",
+      "en": "Inquiry messages are normally deleted around 90 days after resolution. Unresolved cases are reviewed monthly. Reasonable retention for legal obligations, security incidents, abuse or disputes is an exception. Provider trash and backup retention are separate; immediate complete deletion is not guaranteed."
+    },
+    "dataRequests": {
+      "ja": "法令に基づく開示・訂正・削除等の請求はお問い合わせ窓口で受け付けます。Humanが適切な本人確認等を行い、法令に従い遅滞なく対応します。通常のお問い合わせに関する任意返信の方針は、これらの法定請求には適用しません。",
+      "en": "Contact us to request disclosure, correction, deletion or other rights provided by applicable law. The human operator performs appropriate identity verification and responds without undue delay as required by law. The discretionary policy for normal support replies does not apply to statutory requests."
+    },
+    "hostingDisclosure": {
+      "ja": "Cloudflareは配信・保護に必要な要求情報等を処理し、世界各地でアクセス・転送する場合があります。CloudflareのPrivacy Policyは主な保管地域として米国・EEAを挙げています。保持は処理目的、必要性、法令上の義務等によって異なり、全アクセス処理に共通する固定日数は確認できていません。Tinlumoは追加のアクセスログ保管を設けませんが、Cloudflare側の処理・保持がなくなるわけではありません。",
+      "en": "Cloudflare processes request information for delivery and protection and may transfer or access it worldwide. Its Privacy Policy identifies the United States and EEA as primary storage locations. Retention varies with purpose, necessity and legal obligations; a single fixed duration for all access processing has not been established. Tinlumo adds no access-log storage, but this does not eliminate Cloudflare processing or retention."
+    },
+    "consentDisclosure": {
+      "ja": "ゲームの進捗・設定を保つlocalStorageは機能上必要な保存として使用します。端末・ブラウザごとの保存で、削除すると進捗等が失われます。任意の計測は初期OFFです。「計測を許可する」を選んだ場合だけCloudflare Web Analyticsを利用し、「計測せずに続ける」または未選択でもゲーム機能は制限しません。計測の選択はこのブラウザにallow/denyだけを保存し、個人識別子を作りません。自動期限はなく、計測の設定またはサイトデータ削除で変更できます。",
+      "en": "localStorage is used as functionally necessary storage for game progress and settings. It is specific to your device and browser; deleting it removes saved progress and settings. Optional analytics is off by default. Cloudflare Web Analytics is used only after you choose “Allow analytics.” Choosing “Continue without analytics,” or making no choice, never limits game features. Only allow/deny is saved as the analytics preference in this browser, without a personal identifier. It has no automatic expiry and can be changed through Analytics settings or cleared with site data."
+    },
+    "analyticsDisclosure": {
+      "ja": "許可した場合、本番のPortalページでCloudflare Web Analyticsがページ閲覧と読み込み性能を計測します。ページのURL・参照元、ブラウザ/端末情報、表示速度等の性能情報がCloudflareへ送られます。ゲーム内の独自イベントは送信せず、Cookie・fingerprint・永続ユーザーIDを追加しません。ゲームiframeとProtected Previewは計測しません。ページ下部またはこのページから選択を変更できます。許可を取り消すとページを再読み込みし、以後の計測を止めます。すでに開始した通信が完了する場合があります。Cloudflare側の保持・処理は同社Privacy Policyに従い、Tinlumoが固定期間や即時消去を保証するものではありません。",
+      "en": "If you allow it, Cloudflare Web Analytics measures production portal page views and loading performance. Page URLs, referrers, browser/device information and performance information such as loading speed are sent to Cloudflare. We send no custom game events and add no cookies, fingerprints or persistent user IDs. Game iframes and Protected Preview are excluded. You can change your choice in the footer or on this page. Withdrawing permission reloads the page to stop subsequent measurement; requests already started may finish. Cloudflare processing and retention follow its Privacy Policy; Tinlumo does not guarantee a fixed retention period or immediate deletion by the provider."
+    },
+    "termsDisclosure": {
+      "ja": "Tinlumoは無料のブラウザゲームサービスです。アカウント、購入、有料アイテムはありません。サービスの継続提供・可用性や保存データの継続・復元は保証しません。内容・提供を変更または停止する場合があります。同じ端末・ブラウザでも設定、更新、容量、サイトデータ削除等により保存が失われる場合があります。これらは適用法令で制限できない利用者の権利を制限するものではありません。",
+      "en": "Tinlumo is a free browser game service, with no accounts, purchases or paid items. Continued service availability, saved-data persistence and recovery are not guaranteed. The service may change or be discontinued. Even on the same device and browser, settings, updates, storage limits or clearing site data may remove saves. These terms do not limit rights that cannot be restricted under applicable law."
+    },
+    "videoPolicy": {
+      "ja": null,
+      "en": null
+    },
+    "analyticsActive": false,
+    "mail": {
+      "destinationHumanConfirmed": true,
+      "verifiedDestinationCount": 1,
+      "routingEnabled": true,
+      "replyProvider": "Gmail (dedicated Tinlumo inbox)",
+      "receiveTest": "PASS",
+      "replyTest": "NOT TESTED",
+      "authenticationTest": "NOT TESTED",
+      "privateAddressExposureTest": "NOT TESTED",
+      "testSourceDifferentFromDestination": false,
+      "replyIdentityMode": "dedicated-tinlumo-inbox",
+      "dedicatedInboxReplyHumanApproved": true,
+      "supportAddressOutbound": false,
+      "providerRetentionVerified": true,
+      "providerDisclosure": {
+        "ja": "受信とHumanによる返信にはGoogleのGmailを使用します。Gmailで削除したメールはごみ箱に移り、通常30日後に完全削除されます。Googleの一般的な削除処理は通常約2か月で、暗号化バックアップには最長6か月残る場合があります。法令等による例外や遅延があり、個々のメールの削除完了日時を保証するものではありません。Googleは世界各地のサーバーを使用し、居住国外で情報を処理する場合があります。",
+        "en": "Google Gmail is used for receiving inquiries and human replies. Deleted Gmail messages move to Trash and are normally permanently deleted after 30 days. Google describes a general deletion process of around two months, with encrypted backups potentially retaining data for up to six months. Legal exceptions and delays can apply; this does not guarantee a deletion date for any individual message. Google operates servers worldwide and may process information outside your country of residence."
+      },
+      "providerEvidenceScope": "Published Gmail/Google documentation verified 2026-09-17; no private mailbox contents or account-specific backup settings inspected",
+      "providerSources": [
+        "https://support.google.com/mail/answer/7401?hl=en",
+        "https://policies.google.com/technologies/retention?hl=en",
+        "https://policies.google.com/privacy?hl=en"
+      ],
+      "infrastructureMode": "inbound-forwarding-only",
+      "domainSendingServiceExists": false,
+      "supportDomainSendingRequiredForLaunch": false,
+      "setupHumanReconfirmed": "2026-09-17: one verified destination and Cloudflare Email Routing already operational; no independent domain sending service to be added",
+      "receiveEvidence": {
+        "source": "Human report 2026-09-17",
+        "route": "support@tinlumo.com via Cloudflare Email Routing to the verified destination",
+        "delivery": "PASS",
+        "firstPlacement": "spam-folder",
+        "testSourceDifferentFromDestination": "NOT REPORTED",
+        "authenticationHeaders": "NOT REPORTED",
+        "reply": "NOT TESTED",
+        "messageOrPrivateAddressStored": false
+      },
+      "operationsNote": "The first successful test arrived in Spam. Human should check the spam folder during regular inquiry review. Routing delivery is confirmed; Inbox placement and future delivery are not guaranteed. No filter, allowlist or spam-protection setting changed by Codex.",
+      "gateStatus": "CLOSED",
+      "gateAuthority": "Human Final Decision — Public Data / Analytics / Legal R1; receipt PASS; domain sending not required; other mail tests remain historical untested evidence, not launch gates"
+    },
+    "evidence": {
+      "protectedPreviewHuman": "PASS",
+      "physicalDeviceDetails": "NOT REPORTED",
+      "full57Human": "NOT ESTABLISHED",
+      "externalFirstUse": "DEFERRED / NOT TESTED",
+      "productionSmoke": "NOT TESTED"
+    },
+    "budget": {
+      "paidAllowed": false,
+      "additionalPurchasesAllowed": false,
+      "owner": "Human"
+    },
+    "conditionalAuthorization": "Only after email, operator/data decisions, distribution inspection and targeted QA; no false approval flags or anonymous preview fallback",
+    "targetMarketDecision": {
+      "humanConfirmed": true,
+      "englishFirstMarketing": true,
+      "japanFirstClass": true,
+      "geoBlock": false,
+      "countrySpecificAdvertising": "Separate Human decision",
+      "worldwideLegalComplianceClaim": false,
+      "primary": "Global / overseas English-speaking audiences",
+      "secondary": "Japan",
+      "officialLanguages": [
+        "en",
+        "ja"
+      ]
+    },
+    "analyticsDataDecision": "Human Final Decision R1: necessary progress/settings storage and default-off explicit visitor opt-in approved; local QA passed; provider connection and final deploy gate remain pending",
+    "deploymentHold": true,
+    "deploymentHoldReason": "Human explicitly requires final pre-deploy gate; no production deploy at this stage",
+    "finalPolicyDecision": {
+      "status": "HUMAN APPROVED",
+      "source": "Human Final Decision — Public Data / Analytics / Legal R1",
+      "scope": "Initial Global release policy and bilingual implementation; not worldwide legal compliance guarantee or permission to deploy this turn"
+    },
+    "rightsDisclosure": {
+      "ja": "Tinlumo Studioが制作・提供するゲーム・盤面・Art・音源と、使用するOSS等には、それぞれ適用される権利とライセンスがあります。クレジットと同梱ライセンス表示を参照してください。通常のプレイ、適用法令または個別ライセンスで認められる場合を除き、ゲームや素材の無断複製・再配布を認めません。不正アクセス、なりすまし、サービス妨害、他者の権利を侵害する利用を禁止します。OSSの個別ライセンスによる許諾を制限するものではありません。",
+      "en": "Games, puzzles, art and audio created and provided by Tinlumo Studio, and the open-source software used, are subject to their applicable rights and licenses. See Credits and the included license notices. Except for normal play or as permitted by applicable law or an individual license, unauthorized copying or redistribution of games or assets is prohibited. Unauthorized access, impersonation, disruption and uses that infringe others’ rights are prohibited. Permissions granted by individual open-source licenses are unaffected."
+    },
+    "approvalScope": "Human policy approval implemented, subject to targeted QA. Not a certification of every jurisdiction, new trademark clearance or deploy authorization."
   }
 }

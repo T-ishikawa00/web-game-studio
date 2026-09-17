@@ -1,0 +1,141 @@
+{
+  "at": "2026-09-17T04:29:20.220Z",
+  "status": "PROTECTED_PREVIEW_DEPLOYED / PUBLIC_RELEASE_PENDING",
+  "primaryModel": "gpt-6-astra",
+  "worker": "tinlumo-preview",
+  "version": "590239ba-da9d-43b4-835a-57c165fb6e65",
+  "deployment": "a75b3b1b-71fe-4abd-93e8-699343c428f2",
+  "checkpoint": "f43c4cdfb4d3bad792e681d6eee5a9af212e942d",
+  "manifest": "docs/qa/production-deploy-r1/distribution-manifest.json",
+  "staticRoot": ".cache/tinlumo-protected-preview-r1",
+  "files": 49,
+  "acceptedRcFilesByteIdentical": 48,
+  "urls": {
+    "ja": "https://preview.tinlumo.com/ja/",
+    "en": "https://preview.tinlumo.com/en/"
+  },
+  "refs": {
+    "head": "f43c4cdfb4d3bad792e681d6eee5a9af212e942d",
+    "originMain": "f43c4cdfb4d3bad792e681d6eee5a9af212e942d",
+    "actualRemoteMain": "f43c4cdfb4d3bad792e681d6eee5a9af212e942d"
+  },
+  "checkpointCommits": 1,
+  "normalFastForwardPushes": 1,
+  "rcUploads": 1,
+  "assetUpload": {
+    "newOrModified": 46,
+    "alreadyPresent": 2,
+    "headersConfiguration": 1
+  },
+  "protection": {
+    "wholeHostAccess": true,
+    "allowExactlyOneConfirmedOwner": true,
+    "httpOnly": true,
+    "workersDev": false,
+    "versionPreview": false,
+    "anonymousRequests": 59,
+    "anonymousResult": "PASS",
+    "bypassResult": "PASS",
+    "publicApproval": "BLOCKED"
+  },
+  "cloudflare": {
+    "plans": "Workers Free / Zero Trust Free / Free Website",
+    "additionalFixedFeeUsd": 0,
+    "paidChanges": 0,
+    "bindings": 0,
+    "ssr": false,
+    "database": false,
+    "r2": false,
+    "dnsRecords": [
+      {
+        "name": "preview.tinlumo.com",
+        "type": "AAAA",
+        "proxied": true
+      }
+    ],
+    "apexWwwMailRegistrarChanges": 0
+  },
+  "qa": {
+    "normalNavigationAndStartup": "PASS: JA/EN all three games, authenticated iframes",
+    "firstInputAndClear": "PASS: Hakorilo 01/18, Lightwork 01/18, Two Ways 01/21 and 02/21",
+    "reloadAndResume": "PASS: each game independently resumes, both languages, return from another game",
+    "muteControls": "PASS: checked state and restored original unmuted state for all three",
+    "hakoriloMusicControl": "PASS: off/on UI; original music retained",
+    "menuPauseAndResume": "PASS: input disabled while menu/settings open, normal operation after close",
+    "responsive": "PASS: actual viewport 390x844 for all three, document375px and iframe357px; 844x390 landscape, document829px; temporary override reset",
+    "captureLayouts": "PASS: Two Ways portrait/landscape controls; Normal restored",
+    "console": "No browser warn/error entries in inspected game-page logs",
+    "authenticated404": "PASS: missing route, internal report, source configuration and unadopted D2 audio return localized404 body",
+    "directIframe": "PASS: authenticated game HTML, markup and local game script",
+    "noindex": "PASS: parent pages and game frames",
+    "analyticsAfterRepair": "PASS: JA/EN six Play pages and all frames have zero Cloudflare Insights scripts; English Home also zero",
+    "https": "PASS: certificate validation enabled in all59 anonymous requests; no insecure override",
+    "headers": "Committed _headers inspected; authenticated raw HTTP response headers not independently captured",
+    "distribution": "49-file actual-tree/hash/allowlist and secret scan PASS; manifest agrees with checkpoint; all original48 RC files identical; 1690 preservation files unchanged"
+  },
+  "reusedEvidence": {
+    "hakoriloAudioSlowAndFailure": {
+      "path": "docs/qa/soft-launch-rc-r1/release-final-r1/browser-results.json",
+      "basis": "Unchanged game/audio bytes",
+      "simulation": "1Mbps down / 0.5Mbps up / 150ms; abort audio requests",
+      "result": "First input and save completed before BGM finished; failed audio requests did not block gameplay/save",
+      "liveNetworkFaultInjection": "NOT TESTED",
+      "physicalNetwork": "NOT TESTED"
+    }
+  },
+  "localRepair": {
+    "finding": "Edge-injected Cloudflare Insights beacon detected during authenticated QA, absent from RC package",
+    "rumSiteListCount": 0,
+    "sourceOfDefaultActivation": "UNKNOWN; no Web Analytics site was enabled by this task",
+    "rule": "Tinlumo preview - disable RUM",
+    "expression": "(http.host eq \"preview.tinlumo.com\")",
+    "action": "set_config",
+    "actionParameters": {
+      "disable_rum": true
+    },
+    "scope": "Only preview host; no apex/www or security setting change",
+    "freeConfigurationRuleUsage": "1 of 10 Free rules",
+    "appliedThrough": "Dashboard; API attempt rejected with Authentication error and read-back confirmed no creation before UI",
+    "readBack": "PASS: exactly one enabled config rule with only disable_rum",
+    "beforeRepairCollection": "Possible during prior QA page visits; actual transmissions/count/payload/retention UNKNOWN. Do not claim zero analytics for the whole run.",
+    "gameAssetsChanged": false,
+    "checkpointChanged": false
+  },
+  "security": {
+    "humanDisposition": "security-disposition.json; exact prior two report findings only",
+    "historicalRaw": "FAIL4 retained in security-blocker.json",
+    "currentRawAll": "FAIL2 exact approved SHA and local-only TLS",
+    "fullIndex": "PASS including actual pre-commit hook",
+    "historyAfterCommit": "PASS",
+    "scannerOrHookChanges": 0,
+    "approvedIdentifierValuesOmitted": true
+  },
+  "notTested": [
+    "Human subjective BGM/SFX listening",
+    "iPhone/Android physical devices and real mobile networks",
+    "Live CDN BGM throttling/abort injection",
+    "OS/app background audio behavior on physical devices",
+    "Authenticated raw HTTP header/cache status capture"
+  ],
+  "acceptance": {
+    "humanRc": "PASS retained",
+    "externalFirstUse": "DEFERRED / NOT TESTED",
+    "humanRealEnvironmentReview": "PENDING",
+    "publicRelease": "PENDING / BLOCKED"
+  },
+  "rollback": {
+    "emptyVersion": "291b1c29-5047-43ed-aab5-3d5901055ad1",
+    "scope": "Same Worker only; keep Access, both bypass flags false and disable-RUM rule",
+    "fallback": "Disconnect only preview.tinlumo.com Custom Domain to close route; do not disable Access or modify other DNS/save data"
+  },
+  "postCheckpointFiles": [
+    "docs/games/PRODUCTION_CURRENT.md",
+    "docs/planning/TINLUMO_PROTECTED_PREVIEW_DEPLOY_R1.md",
+    "docs/qa/production-deploy-r1/anonymous-postflight.json",
+    "docs/qa/production-deploy-r1/bypass-postflight.json",
+    "docs/qa/production-deploy-r1/postflight.json",
+    "docs/qa/production-deploy-r1/POSTFLIGHT.md",
+    "config/release-preview/disable-rum-rule.json"
+  ],
+  "unrelatedUntrackedPreserved": 13
+}

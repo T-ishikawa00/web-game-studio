@@ -1,0 +1,62 @@
+{
+  "at": "2026-09-17T05:59:20.215Z",
+  "dnsRecords": [
+    {
+      "name": "tinlumo.com",
+      "type": "MX",
+      "spf": false,
+      "dkim": false
+    },
+    {
+      "name": "tinlumo.com",
+      "type": "MX",
+      "spf": false,
+      "dkim": false
+    },
+    {
+      "name": "tinlumo.com",
+      "type": "MX",
+      "spf": false,
+      "dkim": false
+    },
+    {
+      "name": "cf2024-1._domainkey.tinlumo.com",
+      "type": "TXT",
+      "spf": false,
+      "dkim": true
+    },
+    {
+      "name": "tinlumo.com",
+      "type": "TXT",
+      "spf": true,
+      "dkim": false
+    },
+    {
+      "name": "preview.tinlumo.com",
+      "type": "AAAA",
+      "spf": false,
+      "dkim": false
+    }
+  ],
+  "mail": {
+    "enabled": true,
+    "status": "ready"
+  },
+  "supportRules": [
+    {
+      "enabled": true,
+      "exactRecipientOnly": true,
+      "singleVerifiedDestination": true
+    }
+  ],
+  "verifiedDestinationCount": 1,
+  "catchAllEnabled": false,
+  "externalAction": "Dashboard Add missing records: three MX, one SPF TXT, one DKIM TXT",
+  "existingSupportRule": "Human-created exact rule verified and preserved; not overwritten",
+  "failedApiAttempt": {
+    "code": 10000,
+    "readbackChanged": false
+  },
+  "sendReceiveTests": "NOT TESTED",
+  "supportOutboundAdded": false
+}

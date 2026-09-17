@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../styles/baseline.css';
 import site from './site.json';
 import './rc.css';
+import AnalyticsConsent from './AnalyticsConsent.astro';
 import type { Locale } from '../data/games';
 import { ui } from '../i18n/ui';
 interface Props { image?:string; locale: Locale; title: string; description?: string; path?: string; preview?: boolean; catalog?: boolean }
@@ -13,6 +14,7 @@ const homePath = preview ? 'design-preview/' : '';
 const brandLabel = locale === 'ja' ? `${site.officialSiteName}（${site.pronunciation.ja}）` : site.officialSiteName;
 const pageTitle = `${title} | ${site.officialSiteName}`;
 const pageDescription = `${site.officialSiteName} — ${description}`;
+const publicCandidate = import.meta.env.TINLUMO_PUBLIC_CANDIDATE === '1';
 ---
 <!doctype html>
 <html lang={locale}>
@@ -42,12 +44,15 @@ const pageDescription = `${site.officialSiteName} — ${description}`;
         <nav class="language-switch" aria-label={t.language}>{(['ja', 'en'] as const).map(lang => <a href={`/${lang}/${suffix}`} data-locale-link data-event="language_change" lang={lang} aria-current={lang === locale ? 'page' : undefined} aria-label={lang === 'ja' ? '日本語' : 'English'}>{lang.toUpperCase()}</a>)}</nav>
       </div>
     </header>
-    <div class="preview-strip"><div class="wrap">{locale==='ja'?'ローカル公開候補 · 3作品 · 未公開':'Local release candidate · 3 games · Unpublished'}</div></div>
+    {!publicCandidate && <div class="preview-strip"><div class="wrap">{locale==='ja'?'ローカル公開候補 · 3作品 · 未公開':'Local release candidate · 3 games · Unpublished'}</div></div>}
     <main id="main" class="wrap"><slot /></main>
     <footer class="site-footer wrap">
-      <div><a class="footer-brand" href={`/${locale}/`} aria-label={brandLabel}>{site.officialSiteName}</a><p>{site.creatorBrand}</p><p>{t.footer}</p><span class="muted">{locale==='ja'?'無料・購入なし・広告なし':'Free · No purchases · No ads'}</span></div>
+      <div><a class="footer-brand" href={`/${locale}/`} aria-label={brandLabel}>{site.officialSiteName}</a><p>{site.creatorBrand}</p><p>{publicCandidate?(locale==='ja'?'自作のブラウザゲーム。日本語と英語で。':'Original browser games. In Japanese and English.'):t.footer}</p><span class="muted">{locale==='ja'?'無料・購入なし・広告なし':'Free · No purchases · No ads'}</span></div>
       <nav aria-label={t.contact}>{(['about', 'privacy', 'terms', 'contact', 'credits'] as const).map(key => <a href={`/${locale}/${key}/`}>{key==='credits'?(locale==='ja'?'クレジット':'Credits'):t[key]}</a>)}</nav>
+      {publicCandidate && <button type="button" data-open-analytics>{locale==='ja'?'計測の設定':'Analytics settings'}</button>}
     </footer>
+    {publicCandidate && <div class="wrap"><AnalyticsConsent locale={locale}/></div>}
     <script is:inline type="module" src="/assets/portal.js"></script>
+    {publicCandidate && <script is:inline type="module" src="/assets/public-language.js"></script>}
   </body>
 </html>

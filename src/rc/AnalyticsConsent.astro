@@ -1,0 +1,26 @@
+---
+import type {Locale} from '../data/games';
+interface Props {locale:Locale}
+const {locale}=Astro.props;
+const t=(ja:string,en:string)=>locale==='ja'?ja:en;
+---
+<section class="analytics-consent" data-analytics-consent data-enabled="false" data-beacon-id="" hidden
+ data-initial-text={t('計測はOFFです。ページの利用状況と表示性能の計測を許可しますか？','Analytics is off. Allow measurement of page usage and performance?')}
+ data-allowed-text={t('このブラウザで計測を許可しました。いつでも選択を変更できます。','Analytics is allowed in this browser. You can change your choice at any time.')}
+ data-denied-text={t('計測せずに続けます。すべてのゲーム機能を利用できます。','Continuing without analytics. All game features remain available.')}>
+ <h2>{t('任意のアクセス計測','Optional analytics')}</h2>
+ <p data-analytics-status aria-live="polite"></p>
+ <p>{t('Cloudflare Web Analyticsを使用します。選択しない場合もゲームを遊べます。','Uses Cloudflare Web Analytics. You can play without making a choice.')} <a href={`/${locale}/privacy/#analytics`}>{t('データの取扱い','How data is handled')}</a></p>
+ <div class="analytics-actions" data-analytics-choices>
+  <button type="button" data-analytics-choice="allow">{t('計測を許可する','Allow analytics')}</button>
+  <button type="button" data-analytics-choice="deny">{t('計測せずに続ける','Continue without analytics')}</button>
+ </div>
+</section>
+<script is:inline type="module" src="/assets/analytics-consent.js"></script>
+<style>
+.analytics-consent{margin:1rem auto;padding:1rem;border:1px solid #a5b0ad;border-radius:12px;max-width:72rem;background:#f7f9f8;color:#17241e}
+.analytics-consent[hidden],.analytics-actions[hidden]{display:none}
+.analytics-consent h2{font-size:1.1rem;margin:0 0 .5rem}.analytics-consent p{margin:.5rem 0}
+.analytics-actions{display:flex;flex-wrap:wrap;gap:.75rem}.analytics-actions button{font:inherit;background:white;color:#17241e;border:1px solid #677970;border-radius:8px;padding:.7rem 1rem;cursor:pointer;min-height:44px}
+.analytics-actions button:focus-visible{outline:3px solid #315bc6;outline-offset:3px}
+</style>

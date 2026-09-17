@@ -1,5 +1,8 @@
 # Tinlumo — domain購入直前 / Cloudflare Release Plan R1
 
+最新の公開準備・Human判断・blockerは [Public Release Final R1](TINLUMO_PUBLIC_RELEASE_FINAL_R1.md) を参照。Global/English-first、専用受信箱返信を採用済み。旧資料の「domain未取得」「support名義SMTP必須」「日本中心」の案を現状へ流用しない。旧 `release-prepare.mjs --prepare` は書込み廃止・常にBLOCKED。現行入口は `public-release-build.mjs`。以下は当時の証拠として保全。
+
+
 2026-09-17 JST。Phase1 checkpoint完了後の**ローカル追補、未commit/未push**。Phase1の権限は消費済み。購入・予約・cart追加・account変更・Cloudflare resource作成・deploy・DNS・Analytics・Email Routing・契約・外部連絡は未実施。
 
 ## 1. Checkpoint receipt

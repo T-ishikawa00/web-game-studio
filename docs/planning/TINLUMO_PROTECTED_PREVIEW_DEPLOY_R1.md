@@ -1,5 +1,7 @@
 # Tinlumo Production Deploy R1 — protected preview
 
+最新結果: **PROTECTED_PREVIEW_DEPLOYED / PUBLIC_RELEASE_PENDING**。[postflight](../qa/production-deploy-r1/POSTFLIGHT.md)を参照。checkpoint後にpreview限定RUM停止ruleを追加し、実ページbeacon0を確認。以下はcheckpoint時点の準備・履歴。
+
 2026-09-17。主担当 `gpt-6-astra`。**HUMAN_DISPOSITION_APPROVED / ACCESS_PROTECTION_VERIFIED / PUBLIC_RELEASE_PENDING**。今回のpreflight-status内2件はHumanがFALSE POSITIVE / NON-CREDENTIAL / APPROVEDと確定。識別子値は保存用レポートから省略し、scanner/hookを変更せず再検査する。検出時のraw FAIL4は[停止履歴](../qa/production-deploy-r1/security-blocker.json)、限定承認は[判定記録](../qa/production-deploy-r1/security-disposition.json)へ分離。checkpoint/push/RC配信はこれから実施する。
 
 ## 現在の確定状態

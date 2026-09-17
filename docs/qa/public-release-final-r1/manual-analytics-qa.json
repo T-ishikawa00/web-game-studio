@@ -1,0 +1,94 @@
+{
+  "at": "2026-09-17T07:24:38.745Z",
+  "model": "gpt-6-astra",
+  "status": "LOCAL_CONSENT_PASS_PROVIDER_DELIVERY_UNCONFIRMED",
+  "scope": "Real browser at loopback, actual Cloudflare module; fixture-only production-location adapter. No production origin spoofing, deployment, DNS or TLS changes.",
+  "providerConfiguration": {
+    "source": "Cloudflare read-only GET rum/site_info/list",
+    "manualSnippetVerified": true,
+    "scriptType": "module",
+    "scriptUrl": "https://static.cloudflareinsights.com/beacon.min.js",
+    "publicIdentifierMatchedSnippet": true,
+    "identifierPrinted": false,
+    "auto_install": false,
+    "automaticInjectionCount": 0,
+    "automaticInjectionEvidence": "Configuration verification only; production response inspection is NOT TESTED because production is not connected",
+    "rulesetEnabled": false
+  },
+  "beforeConsent": {
+    "scriptRequests": 0,
+    "beaconTransportCalls": 0
+  },
+  "afterReject": {
+    "scriptRequests": 0,
+    "beaconTransportCalls": 0
+  },
+  "afterRejectReload": {
+    "scriptRequests": 0,
+    "beaconTransportCalls": 0
+  },
+  "afterAllow": {
+    "scriptElements": 1,
+    "scriptLoads": 1,
+    "scriptHttpStatus": 200,
+    "xhrSendCalls": 1,
+    "xhrResponseStatus": 0,
+    "rumResourceStatus": 0,
+    "sendBeaconCalls": 0,
+    "fetchCalls": 0,
+    "providerDelivery": "UNCONFIRMED",
+    "providerAggregation": "NOT TESTED",
+    "cause": "UNKNOWN; status 0 does not establish an HTTP response or delivery, and may represent browser transport/CORS failure"
+  },
+  "repeatAllow": {
+    "scriptElements": 1,
+    "xhrSendCalls": 1
+  },
+  "afterWithdrawalReload": {
+    "scriptRequests": 0,
+    "beaconTransportCalls": 0,
+    "priorInflightMayFinish": true
+  },
+  "normalLoopbackCandidateAfterAllow": {
+    "beaconScriptElements": 0,
+    "guardUnchanged": true
+  },
+  "console": {
+    "capturedErrorEntries": 0,
+    "absenceOfAllErrors": "NOT ESTABLISHED"
+  },
+  "fixture": {
+    "script": "scripts/analytics-manual-qa-server.mjs",
+    "address": "http://127.0.0.1:4353/en/analytics-qa/",
+    "includedInDistribution": false,
+    "requestBodiesStored": false,
+    "originHeadersSpoofed": false
+  },
+  "cloudflareReadOnly": {
+    "allReadsSucceeded": true,
+    "previewSubdomain": {
+      "enabled": false,
+      "previews_enabled": false
+    },
+    "previewAccessApps": [
+      {
+        "name": "Tinlumo Human Preview",
+        "domain": "preview.tinlumo.com",
+        "type": "self_hosted"
+      }
+    ],
+    "previewRUMRules": [
+      {
+        "expression": "(http.host eq \"preview.tinlumo.com\")",
+        "enabled": true,
+        "disable_rum": true
+      }
+    ],
+    "productionWorkerPresent": false,
+    "publicWebDnsCount": 0
+  },
+  "externalWrites": 0,
+  "productionDeployments": 0,
+  "productionConnections": 0,
+  "remainingAfterApproval": "Actual production-host transport/receipt, aggregation and duplicate-injection smoke; not promoted from localhost QA"
+}

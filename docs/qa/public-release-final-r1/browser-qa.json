@@ -1,0 +1,54 @@
+{
+  "at": "2026-09-17T06:07:39.595Z",
+  "browser": "Microsoft Edge desktop, browser-controlled local candidate",
+  "origin": "http://127.0.0.1:4352",
+  "status": "TARGETED_LOCAL_BROWSER_PASS",
+  "rootLocale": {
+    "browserJapanese": "PASS: /ja/",
+    "explicitEnglishThenRoot": "PASS: /en/",
+    "directJapaneseWithEnglishPreference": "PASS: no redirect",
+    "backFromRootRedirect": "PASS: returned to /ja/contact/ without loop",
+    "noJsAndBlockedStorage": "Unit fallback verified; browser JavaScript-disabled test NOT TESTED"
+  },
+  "games": {
+    "hakorilo": "D01 arrow inputs and clear 1/1; revisit and saved plan replay cleared; Next 02/18 persisted across reload and later page revisit",
+    "lightworkGarden": "L01 mirror input and flower 1/1 clear; reload and English navigation retained completion",
+    "twoWaysHome": "Intro01 and next T01 clear; reload retained completed 02 and both home"
+  },
+  "portalNavigation": "All three games reached through normal links; JA/EN links preserve direct paths",
+  "responsive": [
+    {
+      "page": "/ja/privacy/",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 375,
+      "scrollWidth": 375,
+      "result": "No horizontal overflow; visually checked"
+    },
+    {
+      "page": "/en/contact/",
+      "width": 844,
+      "height": 390,
+      "documentWidth": 829,
+      "scrollWidth": 829,
+      "result": "No horizontal overflow"
+    }
+  ],
+  "console": {
+    "observedErrors": 0,
+    "observedWarnings": 0,
+    "scope": "Inspected local candidate tab; not all browser processes"
+  },
+  "limitations": [
+    "Edge auto-translated English portal text; English source checked separately. Browser translation settings unchanged.",
+    "Physical devices, hearing and real network NOT TESTED",
+    "Production HTTPS origin/save continuity and live analytics smoke NOT TESTED"
+  ],
+  "reusedEvidence": {
+    "acceptedPayloadsByteIdentical": 18,
+    "bgm": "docs/qa/soft-launch-rc-r1/release-final-r1/browser-results.json",
+    "bgmScope": "Hakorilo 1 Mbps / 150 ms simulation and WAV abort: initial input and save continued; no audio substitution; not real-line testing",
+    "preview": "docs/qa/production-deploy-r1/POSTFLIGHT.md"
+  },
+  "humanAcceptance": "Explicit Protected Preview Human PASS; no inferred device/OS/full-57 coverage"
+}

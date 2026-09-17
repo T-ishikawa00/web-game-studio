@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-17T07:26:40.107Z",
+  "status": "PUBLIC_RELEASE_BLOCKED",
+  "releaseReady": false,
+  "beforeDeploymentReady": false,
+  "afterDeployment": "Production smoke NOT TESTED",
+  "deployAuthorized": false,
+  "humanReview": {
+    "rcCandidate": {
+      "status": "PASS",
+      "source": "Human RC Acceptance PASS explicitly confirmed for the latest local RC, 2026-09-17; no inference of physical/full-57 testing or publication approval"
+    },
+    "externalFirstUse": {
+      "status": "DEFERRED / NOT TESTED",
+      "source": "Human decision 2026-09-17"
+    },
+    "protectedPreview": {
+      "status": "PASS",
+      "source": "Human: Tinlumo Public Release Final R1, 2026-09-17. Device models, OS and full-57 coverage were not reported; no inference."
+    }
+  },
+  "evidenceCoverage": {
+    "protectedPreviewHuman": "PASS",
+    "physicalDeviceDetails": "NOT REPORTED",
+    "full57Human": "NOT ESTABLISHED",
+    "externalFirstUse": "DEFERRED / NOT TESTED",
+    "productionSmoke": "NOT TESTED"
+  },
+  "blockers": [
+    {
+      "code": "deployment:humanFinalGate",
+      "phase": "before-deployment"
+    }
+  ]
+}

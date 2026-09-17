@@ -1,10 +1,25 @@
 {
   "selectedOption": "A",
   "provider": "Cloudflare Web Analytics",
-  "enabled": false,
-  "publicBeaconId": null,
   "customEvents": false,
   "persistentUserId": false,
   "fingerprint": false,
-  "activationApproval": null
+  "installation": "manual-production-portal-only",
+  "allowedHost": "tinlumo.com",
+  "excludePreviewAndGameFrames": true,
+  "consentMode": "explicit-opt-in",
+  "consentImplementationVerified": true,
+  "defaultConsent": "off",
+  "consentPolicyApproval": "Human Final Decision — Public Data / Analytics / Legal R1",
+  "publicBeaconId": "5ce8ae1b7bd549fab7ecc7b800dfeef3",
+  "automaticInsertionConfirmedDisabled": true,
+  "manualSnippet": {
+    "source": "Cloudflare read-only Web Analytics site_info/list",
+    "scriptType": "module",
+    "scriptUrl": "https://static.cloudflareinsights.com/beacon.min.js",
+    "verifiedAt": "2026-09-17T07:17:10.416Z"
+  },
+  "enabled": true,
+  "activationApproval": "Human manual snippet opt-in integration approval 2026-09-17; production deployment remains prohibited",
+  "consentImplementationEvidence": "tests/analytics-consent.mjs and docs/qa/public-release-final-r1/manual-analytics-qa.json; real module HTTP200 and XHR send attempt; provider delivery unconfirmed; production NOT TESTED"
 }

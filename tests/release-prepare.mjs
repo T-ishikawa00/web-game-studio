@@ -5,9 +5,9 @@ import {publicHtml,prepare,localPackagingBlockers} from '../scripts/release-prep
 import {releaseBlockers,requiredFields,requiredApprovals,requiredDecisionFields} from '../src/rc/readiness.mjs';
 const publicId='0'.repeat(32); // synthetic public beacon identifier; never transmitted
 test('Production projection changes outer SEO only and creates paired absolute language links',async()=>{
- for(const locale of ['ja','en']){const html=await readFile(`.cache/rc-dist/${locale}/play/tiny-delivery/index.html`,'utf8');const out=publicHtml(html,`/${locale}/play/tiny-delivery/`,'https://release.invalid',publicId);
+ for(const locale of ['ja','en']){const html=await readFile(`.cache/rc-dist/${locale}/play/tiny-delivery/index.html`,'utf8');const out=publicHtml(html.replace('</body>','<section data-enabled="false" data-beacon-id=""></section></body>'),`/${locale}/play/tiny-delivery/`,'https://release.invalid',publicId);
   assert.match(out,/hreflang="ja" href="https:\/\/release\.invalid\/ja\/play\/tiny-delivery\/"/);assert.match(out,/hreflang="en" href="https:\/\/release\.invalid\/en\/play\/tiny-delivery\/"/);
-  assert.equal((out.match(/beacon\.min\.js/g)||[]).length,1);assert.equal((out.match(/rel="canonical"/g)||[]).length,1);assert.ok(!out.includes('noindex'));assert.equal(out.match(/<iframe[^>]*>/)?.[0],html.match(/<iframe[^>]*>/)?.[0]);
+  assert.ok(out.includes('data-enabled="true"'));assert.equal((out.match(/beacon\.min\.js/g)||[]).length,0);assert.equal((out.match(/rel="canonical"/g)||[]).length,1);assert.ok(!out.includes('noindex'));assert.equal(out.match(/<iframe[^>]*>/)?.[0],html.match(/<iframe[^>]*>/)?.[0]);
  }
  assert.throws(()=>publicHtml('<html></html>','/','http://release.invalid',publicId));
  assert.throws(()=>publicHtml('<html></html>','/','https://release.invalid','invalid'));

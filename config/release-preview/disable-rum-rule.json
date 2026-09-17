@@ -1,0 +1,9 @@
+{
+  "description": "Tinlumo preview - disable RUM",
+  "expression": "(http.host eq \"preview.tinlumo.com\")",
+  "action": "set_config",
+  "action_parameters": {
+    "disable_rum": true
+  },
+  "enabled": true
+}

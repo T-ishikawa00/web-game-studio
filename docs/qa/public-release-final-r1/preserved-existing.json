@@ -1,0 +1,82 @@
+{
+  "at": "2026-09-17T05:36:37.035Z",
+  "head": "f43c4cdfb4d3bad792e681d6eee5a9af212e942d",
+  "files": [
+    {
+      "file": "config/release-preview/disable-rum-rule.json",
+      "sha256": "433a9a1ed319a3a4c0ea5033445c9169deabc9ec3773e777403df993254eb3a6"
+    },
+    {
+      "file": "docs/qa/production-deploy-r1/POSTFLIGHT.md",
+      "sha256": "c8449be4a7c1f3f7617ae310b69a83e69fbea82420dbbbc224eb7d798b358d63"
+    },
+    {
+      "file": "docs/qa/production-deploy-r1/anonymous-postflight.json",
+      "sha256": "aaadd08dc820c5f545c2ecfb2a55b033fd59b25233b7aa297282aef1c24e8b7d"
+    },
+    {
+      "file": "docs/qa/production-deploy-r1/bypass-postflight.json",
+      "sha256": "fc6a87c227d6663fd0c430f2b72ad8082eb888b3f940a044b07c7032d35f4372"
+    },
+    {
+      "file": "docs/qa/production-deploy-r1/postflight.json",
+      "sha256": "d933217773deb04524995114c9c5d6a08f4474c4d6e61874bdb4cba63fcf0f29"
+    },
+    {
+      "file": "docs/qa/tiny-physical-mobile-r2/HUMAN_REVIEW.md",
+      "sha256": "63f4c41c7c7ebdd83b8838587bd37b8bf6582c6c420c71421961ba09659fae01"
+    },
+    {
+      "file": "docs/qa/tiny-physical-mobile-r2/REPORT.md",
+      "sha256": "94ce5b9e53372f2b472e4aa28477a50c205fe5e077a99643f90da4a426b399f6"
+    },
+    {
+      "file": "docs/qa/tiny-physical-mobile-r2/REVIEW.html",
+      "sha256": "f3aac44e2d727b357c0f7f14c9d36dbfae1b8938466bca9e01be1e84cb665c10"
+    },
+    {
+      "file": "docs/qa/tiny-physical-mobile-r2/final-verification.json",
+      "sha256": "a32826e0c8339ffe428702880794cb28d818c3fab27d0234b3b46a1a5aa4deff"
+    },
+    {
+      "file": "docs/qa/tiny-physical-mobile-r2/https-results.json",
+      "sha256": "15191b7c9d95b83f50259b713c37061ece6a22c1d077304019d8c4ab86e9b4f1"
+    },
+    {
+      "file": "docs/qa/tiny-physical-mobile-r2/technical-results.json",
+      "sha256": "82fa1bd772c7befa1dff78a93d83326194c9d6c5b27fa07459382fa0cbe0bd60"
+    },
+    {
+      "file": "scripts/craft-r2-lan-certificate.mjs",
+      "sha256": "b4d4c0afced99413d4064b63cfa9c1e03700094d5ef1c2a14ec6cc2358ec2562"
+    },
+    {
+      "file": "scripts/craft-r2-lan-https-qa.mjs",
+      "sha256": "213b6da79981e0b1dfcedbebd07cc01aa1e3bd4fa32ddf92e85ebbf6dd274edd"
+    },
+    {
+      "file": "scripts/craft-r2-lan-qa.mjs",
+      "sha256": "a5eabcde6b3046e6efe6342fd88dbe9e57550b3a5cbdc98c30f4c5b0fdbfcd1b"
+    },
+    {
+      "file": "scripts/craft-r2-lan-server.mjs",
+      "sha256": "c87dce5ba7eb449dd671a699f1e2b3f5ff9a615da0a870361b361e125c2bc339"
+    },
+    {
+      "file": "scripts/craft-r2-lan-stop.ps1",
+      "sha256": "6ac789a9d4df090eaf63af4aa95a6746f405490d0ed863dbd52b98a16c3a4076"
+    },
+    {
+      "file": "scripts/lightwork-preservation.mjs",
+      "sha256": "7792cb2e6759791736e2aedfbea0acc011229bf0094ed4bfbb0abd3929f736ce"
+    },
+    {
+      "file": "scripts/lightwork-security.mjs",
+      "sha256": "93757b4cfa5b33ee80e34e3bfd45e6f82d79d515da4ba060539f98881136cb98"
+    },
+    {
+      "file": "docs/planning/TINLUMO_PROTECTED_PREVIEW_DEPLOY_R1.md",
+      "sha256": "57e512d3461ae82afe2ccb8d7f92c751cbdf46e7cfc07ba3fedc2c1c4daa691f"
+    }
+  ]
+}
