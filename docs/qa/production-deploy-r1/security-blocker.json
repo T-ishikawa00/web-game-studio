@@ -1,0 +1,74 @@
+{
+  "at": "2026-09-17T03:49:16.808Z",
+  "status": "SECURITY_HUMAN_REVIEW_PENDING",
+  "latestFullProject": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": "docs/qa/production-deploy-r1/preflight-status.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": "docs/qa/production-deploy-r1/preflight-status.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "newFindings": [
+    {
+      "file": "docs/qa/production-deploy-r1/preflight-status.json",
+      "type": "generic-api-key",
+      "action": "HUMAN REVIEW REQUIRED"
+    },
+    {
+      "file": "docs/qa/production-deploy-r1/preflight-status.json",
+      "type": "generic-api-key",
+      "action": "HUMAN REVIEW REQUIRED"
+    }
+  ],
+  "existingDispositionsUnchanged": true,
+  "priorSecurityReceipt": "security.json is historical, not current checkpoint clearance",
+  "checkpointCommits": 0,
+  "pushes": 0,
+  "rcGameUploads": 0,
+  "hostState": "Access-protected non-sensitive empty page only",
+  "stagedFilesPreserved": 24,
+  "noAutomaticDisposition": true,
+  "noScannerChanges": true,
+  "noSecretValuesEmitted": true,
+  "humanAction": "Classify the two new candidates locally. Do not paste values into chat. Resume checkpoint only after explicit disposition and repeat Security gates.",
+  "latestFullIndex": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "file": "docs/qa/production-deploy-r1/preflight-status.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": "docs/qa/production-deploy-r1/preflight-status.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "refs": {
+    "HEAD": "14cb803243eceba9138f35dd4d6b7c46bd46c490",
+    "originMain": "14cb803243eceba9138f35dd4d6b7c46bd46c490",
+    "actualRemoteMain": "14cb803243eceba9138f35dd4d6b7c46bd46c490"
+  }
+}

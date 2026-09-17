@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-17T04:10:40.997Z",
+  "allowlist": "PASS",
+  "files": 49,
+  "scanner": "gitleaks 8.30.1",
+  "distributionScan": "PASS",
+  "findings": [],
+  "maximumAssetBytes": 12288044,
+  "workersFreeAssetLimits": "PASS",
+  "analytics": "disabled",
+  "allHtmlNoindex": true,
+  "publicRelease": "BLOCKED",
+  "externalAccessTests": "PENDING"
+}

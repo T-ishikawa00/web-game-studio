@@ -1,0 +1,42 @@
+{
+  "at": "2026-09-16T20:25:54.943Z",
+  "status": "PASS",
+  "refs": {
+    "head": "14cb803243eceba9138f35dd4d6b7c46bd46c490",
+    "tracking": "14cb803243eceba9138f35dd4d6b7c46bd46c490",
+    "actualRemote": "14cb803243eceba9138f35dd4d6b7c46bd46c490"
+  },
+  "checkpointCommits": 1,
+  "normalPushes": 1,
+  "postCheckpointStageCommitPush": 0,
+  "checkpointProductSourceUnchanged": true,
+  "rcDistribution48FilesUnchanged": true,
+  "excludedUntrackedPreserved": 13,
+  "linksChecked": 5,
+  "wranglerConfig": "Offline structure/path checks PASS; Wrangler 4.132.0 not installed/run",
+  "productionTests": "3 PASS, pure SEO transformation, unresolved gate and separate deployment permission; real public package NOT GENERATED",
+  "typecheck": "0 errors / 0 warnings / 3 pre-existing hints",
+  "externalOperations": {
+    "domainPurchase": 0,
+    "reservation": 0,
+    "cart": 0,
+    "cloudflareResources": 0,
+    "deploy": 0,
+    "dns": 0,
+    "analyticsActivation": 0,
+    "emailRoutingActivation": 0,
+    "contracts": 0,
+    "externalMessages": 0
+  },
+  "postCheckpointFiles": [
+    "docs/games/PRODUCTION_CURRENT.md",
+    "docs/planning/TINLUMO_DOMAIN_AND_DEPLOY_READINESS_R1.md",
+    "config/release-production/wrangler.json",
+    "config/release-production/measurement.json",
+    "scripts/release-prepare.mjs",
+    "tests/release-prepare.mjs",
+    "docs/qa/soft-launch-rc-r1/purchase-readiness-r1/verification.json"
+  ],
+  "remaining": "Human domain purchase budget/approval and final check; operating/legal/data/physical-evidence decisions; real production packaging/schema/CDN/email/analytics/smoke",
+  "model": "gpt-6-astra"
+}

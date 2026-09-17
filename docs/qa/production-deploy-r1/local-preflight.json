@@ -1,0 +1,116 @@
+{
+  "at": "2026-09-17T03:44:17.884Z",
+  "status": "LOCAL_PACKAGE_VERIFIED",
+  "sourceCheckpoint": "14cb803243eceba9138f35dd4d6b7c46bd46c490",
+  "files": 49,
+  "rcFilesByteIdentical": 48,
+  "frames": "SAMEORIGIN; frame-ancestors self",
+  "publicRelease": "BLOCKED",
+  "publicBlockers": [
+    {
+      "code": "domain",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicOperator",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "publicContact",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "contactHandling",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "markets",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "hostingAndLogs",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "retentionAndConsent",
+      "reason": "Required public configuration is missing, invalid or provisional"
+    },
+    {
+      "code": "decision:operatorAddressDisclosure",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:contactReceiptAndReply",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:contactRetentionAndDeletion",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:hostingProcessorAndAccessRetention",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:analyticsAndConsent",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:budgetAndStopOwner",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "decision:assetRightsAndVideoPolicy",
+      "phase": "before-deployment",
+      "reason": "Explicit operating/data/rights decision missing; recommendations do not count as approval"
+    },
+    {
+      "code": "namesAndRights",
+      "phase": "before-deployment",
+      "reason": "Final distribution-asset rights approval pending; Human Soft Launch name freeze and residual trademark risks are recorded separately"
+    },
+    {
+      "code": "legalReview",
+      "phase": "before-deployment",
+      "reason": "Explicit Human review/decision pending"
+    },
+    {
+      "code": "dataPolicyFinal",
+      "phase": "before-deployment",
+      "reason": "Final markets and public data handling decisions pending; general audience, no age gate, account/save and Web Analytics-only policy are fixed"
+    },
+    {
+      "code": "rcPhysicalDevices",
+      "phase": "before-deployment",
+      "reason": "Physical-device evidence/coverage decision remains separate from the accepted local RC candidate"
+    },
+    {
+      "code": "human57Puzzles",
+      "phase": "before-deployment",
+      "reason": "Full-57 Human evidence/coverage decision remains separate from the accepted local RC candidate"
+    },
+    {
+      "code": "release",
+      "phase": "before-deployment",
+      "reason": "Separate authorization for deployment/publication has not been given"
+    },
+    {
+      "code": "deployedUrlSmoke",
+      "phase": "after-authorized-deployment",
+      "reason": "After separately authorized deployment: actual public URL smoke test NOT TESTED; no deployment authorized by this check"
+    },
+    {
+      "code": "legalDraft",
+      "reason": "Operating pages are legal drafts"
+    }
+  ],
+  "gameSourceChanges": 0,
+  "externalWritesByThisScript": 0,
+  "liveAccessGate": "See separate preflight-status and anonymous check receipts"
+}

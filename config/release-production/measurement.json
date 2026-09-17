@@ -1,0 +1,10 @@
+{
+  "selectedOption": "A",
+  "provider": "Cloudflare Web Analytics",
+  "enabled": false,
+  "publicBeaconId": null,
+  "customEvents": false,
+  "persistentUserId": false,
+  "fingerprint": false,
+  "activationApproval": null
+}
