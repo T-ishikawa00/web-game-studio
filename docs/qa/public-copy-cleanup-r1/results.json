@@ -1,0 +1,71 @@
+{
+  "at": "2026-09-17T08:19:47.035Z",
+  "status": "LOCAL_COPY_REVIEW_READY",
+  "build": {
+    "profile": "isolated public candidate",
+    "pages": 28,
+    "files": 52,
+    "pass": true
+  },
+  "typecheck": {
+    "errors": 0,
+    "warnings": 0,
+    "existingHints": 3
+  },
+  "tests": {
+    "unit": {
+      "passed": 214,
+      "total": 215,
+      "failed": 1
+    },
+    "releaseAndConsent": {
+      "passed": 10,
+      "total": 11,
+      "failed": 1
+    },
+    "staleFailures": [
+      {
+        "path": "tests/unit/rc-readiness.test.ts:20",
+        "expected": "publicContact null",
+        "actual": "public support address configured in authority",
+        "baselineReproduced": true
+      },
+      {
+        "path": "tests/release-prepare.mjs:18",
+        "expected": "approved artifact folder absent",
+        "actual": "preserved artifact from prior successful public deploy",
+        "testAndFunctionUnchanged": true
+      }
+    ],
+    "testsModified": false
+  },
+  "browser": {
+    "contactMobile": {
+      "width": 375,
+      "scrollWidth": 375,
+      "pass": true
+    },
+    "englishAboutDesktop": {
+      "width": 1425,
+      "scrollWidth": 1425,
+      "pass": true
+    },
+    "privacyAnchorAndConsentSettings": true,
+    "declinedAnalyticsResources": 0,
+    "languageSwitch": true,
+    "physicalDevices": "NOT TESTED"
+  },
+  "independentReview": {
+    "model": "gpt-6-astra",
+    "status": "PASS after copy corrections",
+    "writes": false
+  },
+  "security": {
+    "distribution": "PASS 0",
+    "allProjectRaw": "FAIL known 2; new 0; individual dispositions preserved"
+  },
+  "externalOperations": 0,
+  "gitMutations": 0,
+  "productionDeploys": 0,
+  "productionUnchanged": true
+}

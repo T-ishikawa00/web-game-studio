@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-17",
+  "scope": "Loopback candidate only; CUA browser UI and read-only DOM/asset inventory",
+  "status": "TARGETED_BROWSER_PASS",
+  "desktop": ["JA 1440x1000", "EN 1200x1000"],
+  "mobileViewport": ["390x844", "320x740"],
+  "physicalDevice": "NOT TESTED",
+  "games": [
+    {"game":"Hakorilo","jaEnLaunch":true,"representativeClear":"D01","reloadRestore":"Level list 01 completed checkmark"},
+    {"game":"Lightwork Garden","jaEnLaunch":true,"representativeClear":"L01","reloadRestore":"1/1 flower, won state and level-list checkmark"},
+    {"game":"Two Ways Home","jaEnLaunch":true,"representativeClear":"First displayed puzzle (T19)","reloadRestore":"Both friends home; won state in JA and EN"}
+  ],
+  "consentUI": {"initialVisible":true,"denyHidden":true,"denyRevisitHidden":true,"allowHidden":true,"allowRevisitHidden":true,"footerReopen":true,"keyboardEnterOpens":true,"focusAllowOnOpen":true,"changeToDeny":true},
+  "localAnalyticsObservedResources": {"initial":0,"denied":0,"allow":"Production-only host guard; no external request expected on loopback"},
+  "productionAnalytics": "Not re-run; exact unchanged module unit tests and prior public-deploy-go-r1 evidence reused",
+  "footerOverlapFix320": {"footerBottom":407.5625,"bannerTop":532.75,"documentClientWidth":305,"documentScrollWidth":305},
+  "inspectedFinalConsoleWarningsErrors": 0,
+  "screenReader": "NOT TESTED",
+  "full57Replay": "NOT TESTED; unchanged accepted game artifacts reused",
+  "externalChanges": 0
+}

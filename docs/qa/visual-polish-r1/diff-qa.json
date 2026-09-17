@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-17T09:35:28.140Z",
+  "status": "VISUAL_DIFF_QA_PASS",
+  "manifestFiles": 52,
+  "copyArticlesByteIdentical": 10,
+  "unchangedPayloads": 23,
+  "publishedArtifactFilesUnchanged": 52,
+  "preservedExistingFiles": 2082,
+  "preexistingUntrackedPreserved": 37,
+  "analyticsLogicUnchanged": true,
+  "gameInternalsUnchanged": true,
+  "cloudflareConfigUnchanged": true,
+  "head": "cce29ca91f9dd9c5f81c120e94eb2fc872e145cb",
+  "indexEmpty": true,
+  "externalMutations": 0,
+  "commit": 0,
+  "push": 0,
+  "deploy": 0
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-17T10:40:01.752Z",
+  "mode": "DRY_RUN",
+  "exitCode": 0,
+  "worker": "tinlumo-production",
+  "version": null,
+  "checkpoint": "cce29ca91f9dd9c5f81c120e94eb2fc872e145cb",
+  "assetRoot": ".cache/tinlumo-mvp-portal-baseline-r1",
+  "onlyStaticAssets": true,
+  "workersDev": false,
+  "versionPreview": false,
+  "rawOutputRetained": false,
+  "errorCodes": [],
+  "authenticationActionNeeded": false
+}

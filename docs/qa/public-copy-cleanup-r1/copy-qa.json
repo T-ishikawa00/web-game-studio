@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-17T08:19:08.193Z",
+  "status": "COPY_DIFF_QA_PASS",
+  "files": 52,
+  "copyChanges": [
+    "en/about/index.html",
+    "en/contact/index.html",
+    "en/credits/index.html",
+    "en/privacy/index.html",
+    "en/terms/index.html",
+    "ja/about/index.html",
+    "ja/contact/index.html",
+    "ja/credits/index.html",
+    "ja/privacy/index.html",
+    "ja/terms/index.html"
+  ],
+  "otherChanges": [
+    {
+      "file": "_headers",
+      "reason": "Local review noindex versus published package; not a requested production change"
+    },
+    {
+      "file": "robots.txt",
+      "reason": "Local review noindex versus published package; not a requested production change"
+    }
+  ],
+  "oldArtifactMatches": 52,
+  "consentComponentsEqual": 26,
+  "unchangedOtherRepoFiles": 2072,
+  "preexistingUntrackedPreserved": 27,
+  "head": "cce29ca91f9dd9c5f81c120e94eb2fc872e145cb",
+  "indexEmpty": true,
+  "externalOperations": 0,
+  "deploys": 0
+}

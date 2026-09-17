@@ -1,0 +1,88 @@
+/* Public Portal only. Game iframes, frozen Preview and legacy baseline stay isolated. */
+.portal-polish { background: #f7f9f0; color: #17251e; }
+.portal-polish > .site-header { background: transparent; border: 0; }
+.portal-polish .header-inner { min-height: 92px; gap: 24px; }
+.portal-polish .brand { font-size: 1.7rem; gap: 9px; }
+.portal-polish .main-nav a { border: 0; padding: 8px 4px; font-size: .95rem; }
+.portal-polish .main-nav a[aria-current=page] { text-decoration: underline; text-decoration-color: #8da63b; text-underline-offset: 8px; }
+.portal-polish .language-switch { border: 0; border-radius: 0; padding: 0; gap: 2px; }
+.portal-polish .language-switch a { border-radius: 0; color: #53604e; }
+.portal-polish .language-switch a[aria-current=page] { background: transparent; color: #17251e; text-decoration: underline; text-decoration-color: #8da63b; text-decoration-thickness: 3px; text-underline-offset: 7px; }
+.portal-polish .wrap { width: min(1440px, calc(100% - 64px)); }
+.portal-catalog .hero { background: none; margin: 0; padding: 20px 0 32px; min-height: 0; border-radius: 0; }
+.portal-catalog .hero-copy { max-width: 100%; }
+.portal-catalog .hero h1 { font-size: clamp(1.75rem, 3vw, 2.65rem); margin-bottom: 12px; letter-spacing: -.035em; }
+.portal-catalog .hero p { font-size: 1rem; color: #53604e; max-width: none; }
+.portal-catalog .hero-landscape { display: none; }
+.portal-catalog main > .section { margin: 0 0 26px; }
+.portal-catalog main > .section:has(.rc-cards) { margin-bottom: 64px; }
+.portal-catalog .section-heading { margin: 0; align-items: center; }
+.portal-catalog .section-heading:empty { display: none; }
+.portal-catalog .section-heading h2 { font-size: 1.12rem; letter-spacing: -.02em; }
+.portal-catalog .section-heading > span { font-size: .8rem; color: #606c58; }
+.portal-catalog .rc-cards { gap: 28px; }
+.portal-catalog .game-card { background: transparent; border: 0; border-radius: 0; box-shadow: none; overflow: visible; transition: none; }
+.portal-catalog .game-card:hover { transform: none; box-shadow: none; }
+.portal-catalog .game-cover { aspect-ratio: 1.5; border-radius: 24px; background: #e9effb; overflow: hidden; }
+.portal-catalog .game-cover img { object-fit: contain; }
+.portal-catalog .game-card > a:focus-visible { border-radius: 24px; }
+.portal-catalog .card-body { padding: 20px 2px 0; gap: 10px; }
+.portal-catalog .card-body h3 { font-size: clamp(1.1rem, 1.65vw, 1.45rem); line-height: 1.35; letter-spacing: -.025em; min-height: 2.7em; }
+.portal-catalog .card-body p { font-size: .98rem; line-height: 1.65; color: #465443; }
+.portal-catalog .card-bottom { margin-top: 10px; align-items: center; gap: 12px; }
+.portal-catalog .card-bottom .button { min-height: 48px; min-width: 118px; padding: 10px 22px; border-radius: 999px; font-size: .95rem; }
+.portal-catalog .card-bottom .text-link { font-size: .86rem; font-weight: 500; color: #4a5947; text-decoration: underline; text-underline-offset: 4px; }
+.portal-polish .site-footer { display: grid; grid-template-columns: 1fr auto; column-gap: 36px; row-gap: 0; padding: 30px 0 36px; border-top: 1px solid #dce3cf; font-size: .82rem; }
+.portal-polish .site-footer > div:first-child { grid-row: span 2; }
+.portal-polish .footer-brand { display: inline-block; font-size: 1.22rem; margin-bottom: 6px; }
+.portal-polish .site-footer p, .portal-polish .site-footer .muted { color: #586550; }
+.portal-polish .site-footer nav { gap: 4px 24px; max-width: none; }
+.portal-polish .site-footer nav a { font-size: .84rem; }
+.portal-polish .site-footer [data-open-analytics] { justify-self: end; align-self: start; width: auto; min-height: 44px; border: 0; padding: 4px 0; background: transparent; color: #586550; font-size: .78rem; text-decoration: underline; text-underline-offset: 4px; }
+.portal-polish .prose-page { max-width: 68ch; margin: 38px auto 80px; min-height: 45vh; }
+.portal-polish .prose-page h1 { font-size: clamp(1.85rem, 3vw, 2.5rem); line-height: 1.3; margin: 0 0 30px; }
+.portal-polish .prose-page h2 { font-size: 1.23rem; line-height: 1.45; margin: 40px 0 14px; padding-top: 14px; border-top: 1px solid #dce3cf; }
+.portal-polish .prose-page p { color: #394b3e; font-size: 1rem; line-height: 1.85; margin: 0 0 18px; overflow-wrap: anywhere; }
+.portal-polish .prose-page .lead { font-size: 1.12rem; color: #263e2c; }
+.portal-polish .prose-page a { color: #2a5732; text-decoration: underline; text-underline-offset: 4px; }
+.portal-polish .prose-page [data-open-analytics] { border: 1px solid #687b5e; background: transparent; color: #24442b; border-radius: 999px; min-height: 44px; padding: 9px 18px; margin: 0 0 8px; }
+@media (max-width: 900px) {
+ .portal-polish .wrap { width: calc(100% - 40px); }
+ .portal-catalog .rc-cards { gap: 20px; }
+ .portal-polish .site-footer { grid-template-columns: 1fr; gap: 14px; }
+ .portal-polish .site-footer > div:first-child { grid-row: auto; }
+ .portal-polish .site-footer [data-open-analytics] { justify-self: start; }
+}
+@media (max-width: 700px) {
+ .portal-polish .wrap { width: calc(100% - 32px); }
+ .portal-polish .header-inner { min-height: 76px; flex-wrap: nowrap; gap: 12px; padding-block: 8px; }
+ .portal-polish .brand { font-size: 1.25rem; gap: 4px; margin-right: auto; }
+ .portal-polish .brand svg { width: 36px; height: 38px; }
+ .portal-polish .main-nav { display: flex; margin-left: 0; }
+ .portal-polish .main-nav a { min-height: 44px; font-size: .84rem; white-space: nowrap; }
+ .portal-polish .language-switch { gap: 0; }
+ .portal-polish .language-switch a { min-width: 44px; min-height: 44px; font-size: .78rem; }
+ .portal-catalog .hero { padding: 16px 0 28px; }
+ .portal-catalog .hero h1 { font-size: 1.85rem; line-height: 1.25; max-width: none; }
+ .portal-catalog .hero p { font-size: .94rem; line-height: 1.7; }
+ .portal-catalog .section-heading { gap: 6px; align-items: start; }
+ .portal-catalog .section-heading > span { font-size: .73rem; }
+ .portal-catalog .rc-cards { gap: 36px; max-width: 520px; }
+ .portal-catalog .game-cover { border-radius: 20px; }
+ .portal-catalog .card-body { padding: 16px 0 0; gap: 8px; }
+ .portal-catalog .card-body h3 { font-size: 1.23rem; min-height: 0; }
+ .portal-catalog .card-body p { font-size: .95rem; }
+ .portal-catalog .card-bottom { margin-top: 6px; }
+ .portal-polish .site-footer { padding: 26px 0 28px; }
+ .portal-polish .site-footer nav { gap: 0 20px; }
+ .portal-polish .prose-page { margin: 24px auto 56px; }
+ .portal-polish .prose-page h1 { margin-bottom: 24px; }
+ .portal-polish .prose-page h2 { margin-top: 32px; }
+ .portal-polish.is-play .wrap { width: calc(100% - 16px); }
+}
+@media (max-width: 360px) {
+ .portal-polish .header-inner { gap: 6px; }
+ .portal-polish .brand { font-size: 1.1rem; }
+ .portal-polish .brand svg { width: 30px; }
+ .portal-polish .language-switch a { min-width: 44px; }
+}

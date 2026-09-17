@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-17T09:25:51.939Z",
+  "status": "PUBLIC_RELEASE_BLOCKED",
+  "blockers": [
+    {
+      "code": "deployment:humanFinalGate",
+      "phase": "before-deployment"
+    }
+  ],
+  "evidence": {
+    "protectedPreviewHuman": "PASS",
+    "physicalDeviceDetails": "NOT REPORTED",
+    "full57Human": "NOT ESTABLISHED",
+    "externalFirstUse": "DEFERRED / NOT TESTED",
+    "productionSmoke": "NOT TESTED"
+  },
+  "afterDeployment": "Actual anonymous production smoke NOT TESTED",
+  "externalOperations": 0
+}

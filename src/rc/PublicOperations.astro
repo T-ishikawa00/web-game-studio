@@ -1,63 +1,64 @@
 ---
 import type { Locale } from '../data/games';
 import site from './site.json';
-import { saveCopy } from './save-copy';
 interface Props { locale: Locale; page: string }
 const {locale,page}=Astro.props;
 const t=(ja:string,en:string)=>locale==='ja'?ja:en;
 const p=site.publicLaunch;
 const pending=t('未確定（公開前に決定）','Undecided (required before publication)');
-const title:Record<string,string>={about:t('スタジオについて','About the studio'),contact:t('お問い合わせ','Contact'),privacy:t('プライバシー','Privacy'),terms:t('利用規約','Terms'),credits:t('クレジット','Credits')};
-const facts=[
- [t('運営','Operator'),p.operatorDisplay[locale]],
- [t('運営者情報の提供','Operator information'),p.operatorInformation[locale]],
- [t('対象市場','Markets'),p.markets[locale]],
- [t('受信・返信方法','Receiving and replying'),p.contactMethod[locale]],
- [t('問い合わせの保持・削除','Contact retention and deletion'),p.contactRetention[locale]],
- [t('個人情報に関する請求','Personal-data requests'),p.dataRequests[locale]],
- [t('配信・処理地域・保持','Hosting, processing locations and retention'),p.hostingDisclosure[locale]],
- [t('保存・計測の同意方針','Storage and measurement consent'),p.consentDisclosure[locale]]
-];
+const title:Record<string,string>={about:t('スタジオについて','About the studio'),contact:t('お問い合わせ・運営者情報','Contact & operator'),privacy:t('プライバシー','Privacy'),terms:t('利用規約','Terms'),credits:t('クレジット','Credits')};
 ---
 <article class="prose-page">
  {site.legalDraft && <p class="draft-note" data-public-unresolved>{t('公開前確認用。未確定の運営・データ方針があり、まだ公開できません。','Pre-publication review. Operating and data decisions remain unresolved; publication is blocked.')}</p>}
  <h1>{title[page]}</h1>
- {page==='about' && <><p class="lead">{t('光をつなぐ。歩幅をそろえる。道をゆずる。3つの自作パズルを、日本語と英語で。','Bend the light. Find your step. Make a little room. Three original puzzles in Japanese and English.')}</p><p>{t('Tinlumo Studioは個人運営の制作ブランドです。法人名ではありません。無料3作品を提供し、ログイン・課金・広告はありません。','Tinlumo Studio is an individually operated creator brand, not a corporation. Three free games, with no login, purchases or ads.')}</p><p>{saveCopy[locale].detail}</p></>}
+ {page==='about' && <>
+  <p class="lead">{t('光をつなぐ。ふたりの歩幅をそろえる。荷物を届ける。Tinlumoは、ブラウザですぐに遊べる3つの小さなパズルゲームを集めたサイトです。','Bend the light, guide two friends home, and deliver a parcel. Tinlumo brings together three small puzzle games you can play right in your browser.')}</p>
+  <p>{t('すべて無料で、日本語と英語に対応しています。アカウント登録や購入は不要で、広告もありません。','All three games are free and available in Japanese and English. There are no accounts, purchases or ads.')}</p>
+  <p>{t('進み具合は、お使いのブラウザに自動保存されます。クラウド保存はありません。','Your progress saves automatically in your browser. There is no cloud save.')}</p>
+  <p>{p.operatorDisplay[locale]}</p>
+  <p><a href={`/${locale}/contact/`}>{t('お問い合わせ・運営者情報','Contact & operator information')}</a></p>
+ </>}
  {page==='contact' && <>
-  <h2>{t('通常のお問い合わせ','General inquiries')}</h2>
-  <p>{p.normalReply[locale]}</p>
+  <p>{p.operatorDisplay[locale]}</p>
   {p.mail.receiveTest==='PASS' && p.mail.gateStatus==='CLOSED' ? <p><a href={`mailto:${site.publicContact}`}>{site.publicContact}</a></p> : <p data-public-unresolved>{site.publicContact} — {t('窓口の確認待ちです。','Contact verification is pending.')}</p>}
-  <p>{t('問い合わせはHumanが確認します。AIによる自動返信やお問い合わせフォームはありません。秘密情報やゲームの全保存データを送る必要はありません。','Inquiries are reviewed by the human operator. There is no AI auto-reply or submission form. Do not send secrets or complete game saves.')}</p>
-  <h2>{t('個人情報・法令上の請求','Personal-data and statutory requests')}</h2>
-  <p>{p.dataRequests[locale] ?? pending}</p>
-  <p>{t('通常のお問い合わせの返信方針と、法令に基づく開示・訂正・削除等への対応は別に扱います。','The normal support reply policy is separate from responses to statutory disclosure, correction and deletion requests.')}</p>
+  <p>{p.normalReply[locale]}</p>
+  <p>{t('パスワードなどの秘密情報や、ゲームの保存データ一式は送らないでください。','Please do not send passwords, other confidential credentials or complete game-save files.')}</p>
+  <h2>{t('運営者情報','Operator information')}</h2><p>{p.operatorInformation[locale]}</p>
+  <p>{t('個人情報に関する請求も、上記の窓口で受け付けます。データの取扱いと請求方法はプライバシーページをご覧ください。','You can also use this address for personal-data requests. See Privacy for how we handle your information and respond to requests.')}</p>
+  <a href={`/${locale}/privacy/#requests`}>{t('プライバシー・個人情報に関する請求','Privacy & personal-data requests')}</a>
  </>}
  {page==='privacy' && <>
-  <p>{t('ゲーム用のアカウント、必須ログイン、Cloud Saveはありません。永続ユーザーIDやfingerprintを作成せず、ゲームの独自操作イベントを外部送信しません。','There are no game accounts, required login or Cloud Save. We do not create persistent user IDs or fingerprints, or send custom game interaction events externally.')}</p>
-  <h2>{t('端末内保存','Storage on your device')}</h2><p>{saveCopy[locale].detail}</p><p>{saveCopy[locale].limits}</p>
-  <p>{t('作品別の進行・クリア記録・動きを控える設定、消音・音量、HakoriloのBGM設定、閉じた案内をlocalStorageに保存します。言語を明示的に選ぶと、日本語または英語の選択も保存します。自動期限はありません。言語選択は個人識別子ではありません。','localStorage keeps per-game progress, completions, reduced motion, mute and volume, Hakorilo music settings and dismissed guides. An explicit language choice also saves Japanese or English as a preference, not a personal identifier. There is no automatic expiry.')}</p>
-  <p>{t('表示・方向ボタン設定と、固定値による開始の重複抑制はsessionStorageを使用します。ブラウザによるタブ復元で残る場合があります。操作ログはメモリ内だけで、ログごとに最大50件、Playページは最大100件。ページ破棄で消えます。','Display and direction-button settings and a fixed session-start marker use sessionStorage, which browser tab restoration may retain. Interaction logs exist only in memory: up to 50 entries per log and 100 per Play page, discarded with the page.')}</p>
-  <p>{t('進行消去はその作品の進行・クリア・動きを控える設定を消し、音・案内・言語設定等は残します。すべて消すにはブラウザのサイトデータを削除します。Previewと本番は別の保存領域で、自動移行はありません。','Erase progress removes that game’s progress, completions and reduced-motion setting while retaining sound, guides, language and other preferences. Clear browser site data to remove everything. Preview and production have separate storage; saves do not migrate automatically.')}</p>
-  <h2>{t('ホスティング','Hosting')}</h2>
-  <p>{t('Cloudflare Workers Static Assetsでページ・ゲーム・画像・音源を配信します。配信・保護のためにCloudflareがIPアドレスやHTTP要求情報を処理する場合があります。運営者側では追加のアクセスログ保管や常駐サーバーを設けません。','Cloudflare Workers Static Assets delivers pages, games, images and audio. Cloudflare may process IP addresses and HTTP request information for delivery and protection. The operator does not add access-log storage or an always-on server.')}</p>
+  <p>{t('Tinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り扱います。','Tinlumo Studio is individually operated. This page explains how information is used to provide the games and respond to inquiries.')}</p>
+  <p>{t('アカウント登録、購入、広告、クラウド保存はありません。生年月日など年齢情報の入力も求めません。利用者を追跡する固有のIDや、端末の特徴を組み合わせた識別情報は作成しません。','There are no accounts, purchases, ads or cloud saves. We do not ask you to enter your age or date of birth. We do not create persistent identifiers to track visitors or use device fingerprinting.')}</p>
+  <h2>{t('端末内の保存','Storage on your device')}</h2>
+  <p>{t('ゲームごとの進捗・クリア記録、動きを控える設定、消音・音量、Hakoriloの音楽設定、閉じた案内、選択した言語を、ブラウザのlocalStorageに保存します。続きから遊び、選んだ設定を保つために使います。自動的な有効期限はありません。','Your browser’s localStorage keeps each game’s progress and completions, reduced-motion setting, mute and volume, Hakorilo music settings, dismissed guides and chosen language. These let you continue playing and keep your preferences. They have no automatic expiry.')}</p>
+  <p>{t('保存は同じ端末・ブラウザ・サイトでの利用を前提とします。別の端末やブラウザには引き継がれません。サイトデータの削除、プライベートブラウズ、保存領域の制限などにより、進捗や設定が失われる場合があります。','Saves are specific to the same device, browser and site. They do not transfer to another device or browser. Clearing site data, private browsing or storage restrictions may cause you to lose progress and preferences.')}</p>
+  <p>{t('「この作品の進行を消去」は、その作品の進捗・クリア記録・動きを控える設定を消去します。音・案内・言語などの設定は残ります。すべて削除する場合は、ブラウザの設定からこのサイトのデータを削除してください。','“Erase this game’s progress” removes that game’s progress, completions and reduced-motion setting. Sound, guide and language preferences remain. To remove all stored data, clear this site’s data in your browser settings.')}</p>
+  <p>{t('表示や方向ボタンの設定、同じ利用開始を重複して記録しないための一時的な情報にはsessionStorageを使います。タブを復元すると残る場合があります。プレイ中の操作情報は端末のメモリに一時的に保持し、ページが破棄されると消えます。この操作情報を外部へ送信することはありません。','sessionStorage holds temporary display and direction-button preferences and information that avoids recording the same session start twice. This may remain when a browser restores a tab. In-game interaction information is held temporarily in device memory, discarded when the page is unloaded and not sent externally.')}</p>
+  <h2>{t('サイトの配信','Hosting')}</h2>
+  <p>{t('サイトの配信と保護にCloudflareを利用しています。Cloudflareは、これらの目的でIPアドレスやページの要求に伴う通信情報を処理する場合があります。','Cloudflare delivers and protects the site. For these purposes, it may process IP addresses and connection information associated with page requests.')}</p>
   <p>{p.hostingDisclosure[locale] ?? pending}</p><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>
-  <h2 id="analytics">{t('ページ・性能計測','Page and performance measurement')}</h2>
-  <p>{p.analyticsDisclosure[locale]}</p>
+  <h2 id="analytics">{t('任意のアクセス計測','Optional analytics')}</h2>
+  <p>{p.consentDisclosure[locale] ?? pending}</p><p>{p.analyticsDisclosure[locale]}</p>
   <button type="button" data-open-analytics>{t('計測の選択を変更する','Change analytics choice')}</button>
-  <p>{t('計測の拒否・ブロック・障害によってゲームが遊べなくなることはありません。Cookieを使わないことだけで、通信データの処理や法令上の検討が不要になるとは扱いません。','Declining, blocking or failing measurement does not prevent play. The absence of cookies does not by itself resolve the processing of request data or legal obligations.')}</p>
-  <h2>{t('お問い合わせ','Contact information')}</h2>
-  <p>{t('送信者が自発的に提供するメールアドレス・本文・添付等と返信履歴は、お問い合わせの受付、内容確認、必要な返信、法令上の請求への対応に使用します。ゲームの保存とは別の処理です。広告やAI学習に利用する目的は追加しません。','Email addresses, messages, attachments and other information voluntarily provided by senders, together with reply records, are used to receive and review inquiries, reply when needed and handle statutory requests. This is separate from game saves. Advertising and AI training are not added purposes.')}</p>
-  <p>{p.contactMethod[locale] ?? pending}</p><p>{p.contactRetention[locale] ?? pending}</p><p data-public-unresolved={!p.mail.providerRetentionVerified ? '' : undefined}>{p.mail.providerDisclosure[locale] ?? pending}</p><p><a href="https://support.google.com/mail/answer/7401">Gmail</a> · <a href="https://policies.google.com/technologies/retention">Google data retention</a> · <a href="https://policies.google.com/privacy">Google Privacy Policy</a></p>
+  <h2>{t('お問い合わせの情報','Information you send us')}</h2>
+  <p>{t('お問い合わせでお送りいただくメールアドレス・本文・添付ファイルなどと返信履歴は、内容の確認、必要な返信、法令に基づく請求への対応に使用します。広告やAIの学習には利用しません。','We use the email address, message, attachments and other information you send, together with our reply history, to review your inquiry, respond when needed and handle requests under applicable law. We do not use this information for advertising or AI training.')}</p>
+  <p>{p.contactMethod[locale] ?? pending}</p><p>{p.contactRetention[locale] ?? pending}</p>
+  <p data-public-unresolved={!p.mail.providerRetentionVerified ? '' : undefined}>{p.mail.providerDisclosure[locale] ?? pending}</p>
+  <p><a href="https://support.google.com/mail/answer/7401">Gmail</a> · <a href="https://policies.google.com/technologies/retention">Google data retention</a> · <a href="https://policies.google.com/privacy">Google Privacy Policy</a></p>
+  <h2 id="requests">{t('個人情報に関する請求','Personal-data requests')}</h2><p>{p.dataRequests[locale] ?? pending}</p>
+  <p><a href={`mailto:${site.publicContact}`}>{site.publicContact}</a> · <a href={`/${locale}/contact/`}>{t('運営者情報','Operator information')}</a></p>
  </>}
  {page==='terms' && <>
-  <h2>{t('利用と保存','Play and saves')}</h2><p>{t('日本語・英語の無料3作品です。ログイン・課金・実広告・Cloud Saveはありません。','Three free games in Japanese and English, with no login, purchases, real ads or Cloud Save.')}</p><p>{saveCopy[locale].detail}</p><p>{saveCopy[locale].limits}</p><p>{t('ブラウザの保存領域削除等で進行が失われる場合があり、復元は保証できません。','Clearing browser storage and similar actions can remove progress. Recovery is not guaranteed.')}</p>
+  <h2>{t('サービスの利用','Using the service')}</h2>
+  <p>{t('Tinlumoは、日本語と英語で遊べる3つの無料ブラウザゲームを提供します。アカウント登録、購入、有料アイテム、広告、クラウド保存はありません。','Tinlumo provides three free browser games in Japanese and English. There are no accounts, purchases, paid items, ads or cloud saves.')}</p>
+  <h2>{t('保存とサービスの提供','Saves and service availability')}</h2><p>{p.termsDisclosure[locale] ?? pending}</p>
   <h2>{t('権利と利用上のお願い','Rights and acceptable use')}</h2><p>{p.rightsDisclosure[locale]}</p>
-  <p>{p.termsDisclosure[locale] ?? pending}</p><a href={`/${locale}/credits/`}>{t('クレジット','Credits')}</a>
+  <p><a href={`/${locale}/credits/`}>{t('クレジット','Credits')}</a> · <a href={`/${locale}/contact/`}>{t('お問い合わせ・運営者情報','Contact & operator information')}</a></p>
  </>}
  {page==='credits' && <>
-  <p>{site.creatorBrand}</p><h2>{t('制作と素材','Production and assets')}</h2><p>{t('コード・SVG/CSS Art・盤面はAI支援を用いた自作です。効果音は作品別のローカル合成です。Hakoriloには採用BGMがあり、Lightwork GardenとTwo Ways HomeにはBGMはありません。カバーは実際のゲーム画面から作成しています。','Code, SVG/CSS art and puzzles are made with AI assistance. Sound effects are synthesized locally for each game. Hakorilo has music; Lightwork Garden and Two Ways Home do not. Covers are taken from the actual game screens.')}</p>
-  <p>{t('外部フォントファイルは配布せず、端末のシステムフォントを使用します。サイト生成にはAstroを使用します。','No external font files are distributed; system fonts are used. Astro generates the site.')}</p><a href="/licenses/astro.txt">Astro / MIT notices</a>
+  <p>{site.creatorBrand}</p><h2>{t('制作と素材','Production and assets')}</h2><p>{t('ゲームのプログラム・画像・盤面は、AIの支援を用いて制作しています。効果音は作品ごとに合成しています。HakoriloにはBGMがあり、Lightwork GardenとTwo Ways HomeにはBGMはありません。カバーは実際のゲーム画面から作成しています。','The game code, artwork and puzzles are made with AI assistance. Sound effects are synthesized for each game. Hakorilo has music; Lightwork Garden and Two Ways Home do not. Covers are taken from the actual game screens.')}</p>
+  <p>{t('表示には端末のシステムフォントを使用します。サイト生成にはAstroを使用しています。','The site uses your device’s system fonts and is built with Astro.')}</p><a href="/licenses/astro.txt">Astro / MIT notices</a>
   <p>{p.rightsDisclosure[locale]}</p>
  </>}
- {page!=='credits' && <><p>{t('一般向け。生年月日・年齢入力や年齢Gateは設けず、子ども向けサービスとして積極的に訴求しません。','For a general audience. No date-of-birth or age input or age gate; the service is not actively promoted as child-directed.')}</p><h2>{t('運営情報','Operating information')}</h2><dl>{facts.map(([label,value])=><><dt><strong>{label}</strong></dt><dd data-public-unresolved={!value ? '' : undefined}>{value ?? pending}</dd></>)}</dl></>}
 </article>
