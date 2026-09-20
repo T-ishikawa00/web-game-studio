@@ -1,0 +1,16 @@
+{
+  "baselineFiles": 2684,
+  "changed": [
+    "docs/games/PRODUCTION_CURRENT.md",
+    "docs/records/ASSET_REGISTER_R1.md"
+  ],
+  "unexpected": [],
+  "headUnchanged": true,
+  "indexUnchanged": true,
+  "protected": [
+    "production source + existing tracked/untracked",
+    "Nurture source + evidence + built output",
+    "approved production distributions"
+  ],
+  "remoteRead": false
+}

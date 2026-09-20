@@ -1,0 +1,32 @@
+{
+  "sourceUnchanged": true,
+  "build": {
+    "status": "PASS",
+    "command": "node scripts/astro.mjs build --outDir .cache/magnet-full-production-regression",
+    "pages": 18,
+    "originalDistributionsOverwritten": false
+  },
+  "unit": {
+    "tests": 215,
+    "pass": 214,
+    "fail": 1,
+    "existingFailure": "tests/unit/rc-readiness.test.ts:13: frozen unacquired-domain/contact expectation; actual approved support@tinlumo.com",
+    "changedByThisTask": false
+  },
+  "check": {
+    "errors": 12,
+    "existingFiles": [
+      "game004-magnet/core.ts",
+      "game004-magnet-progression/core.ts",
+      "game004-magnet-vertical/core.ts"
+    ],
+    "error": "TS18048 x/y possibly undefined in original spot arrays",
+    "candidateErrors": 0,
+    "changedByThisTask": false
+  },
+  "routes": {
+    "execution": "REUSED / NOT rerun",
+    "reason": "isolated candidate; production sources and approved built artifacts byte-unchanged; legacy fixture/noindex route assertions predate accepted public release"
+  },
+  "evidence": "preservation.json; repo-local logs .tmp/magnet-full-r1/production-*.log"
+}

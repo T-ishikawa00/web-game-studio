@@ -1,0 +1,634 @@
+{
+  "humanAccepted": [
+    "R2.1",
+    "Expansion Slice A"
+  ],
+  "frozenAt": "Full Game Production R1 start",
+  "head": "f84671f1957da73b99a173e4c7a88d33ece3f141",
+  "records": [
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/REVIEW.md",
+      "digest": "b2d6f3bf2b085cafedc1fb9010ed1cedd654a65453f595defb4ad3dcab43d112"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/choice-desktop.png",
+      "digest": "d22da6e65808ce9dfee13b10a1203a97bc1311b906b9687bc34c1bc56f89fb2e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/choice-landscape.png",
+      "digest": "7a8936e35aebc708c219b24e7ce3a6c056aa331a02c2bed843ff0255fecd32c1"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/choice-portrait.png",
+      "digest": "6c7c95ba0f8fa9c0366674b2e038c596aeb451f609628e78d34efcbddc15be3a"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/cyclone-fast.json",
+      "digest": "663f1fc8d4de8c208d8f5628e500e644b1353d708fade712fac09a2579aae51e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/cyclone-result.png",
+      "digest": "494cd6e07e760fdeab3a7d5b511572abd63090441c3dc5b955bb94267d5ea899"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/cyclone-stage0.png",
+      "digest": "87bb89ccc6d200537cd69cb5c0f580a90c21f36de98e1053d09ccd835525162f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/cyclone-stage1.png",
+      "digest": "c65cd20e6503dae202fc1956ac2ff34c1d146ed1dda81980d641468ffb5a69b2"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/cyclone-stage2.png",
+      "digest": "09347c26f38833990fd5eed7b7db733924f1274072420ffb8b907e3decac7204"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/delivery.json",
+      "digest": "34b360012c062ab4c92b1b07eba509dcb028e74d5d68ababe82d397af6be85b7"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/distribution.json",
+      "digest": "590623e7ec0277b5e477c9e041e9561966d42df8654997ee3e303e036fbc64cc"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-fast.json",
+      "digest": "16f9ede03ef6cd0f38f3f68519533a31763f8d74828e0fd0bef564375ced702b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-mobile-fast.json",
+      "digest": "2b5815c11dce9d165e73c0d4fe45605b0e8435d3170b363f14f05df0aa13c651"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-mobile-result.png",
+      "digest": "d5c55794ee1df4b8b5d6fcf15ac11d742775366f477861f265a8f6dc5fba739c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-mobile-stage0.png",
+      "digest": "30e159fa17e3e1bfbbf2b57b138880bda15dc90347fc65f6798ad1b5852d4f66"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-mobile-stage1.png",
+      "digest": "7d91c58d0dce668d82de43a9f1809e4b9299b86ef120d49de1bfa50d7e369c25"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-mobile-stage2.png",
+      "digest": "9c8a23ed345b890cb62a42b82d3fdbea87037e40650ca60ca16eed479fa13476"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-realtime.json",
+      "digest": "8caa50782c486becacafbd998fcade5243b4c2cfcca57d6dac9010be2bb92157"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-result.png",
+      "digest": "ab1490ac38d479177dd97c72bac7be25ec9ada6a57b9de7247b21b169856eae7"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-stage0.png",
+      "digest": "2ef0f5dd3acdcbbf4f986f9f2dbe1bbf457b4f645af5ad5b3403d704da1fddf1"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-stage1.png",
+      "digest": "db58e877936c3dd0bb1d216f7330f63c23a942dcef5e3fc18f7cf3056e75264f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/foundry-stage2.png",
+      "digest": "05a9725cf41f4a679ec179b4813fb95de3a6f42ae293d09143362f3e5e07ea36"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/full-run-21.png",
+      "digest": "5192dde42d5c247840c3b46a1de9ddb7ef7ceffb794e3a7d6069e302b49e2b89"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/full-run-31.png",
+      "digest": "370dc46cbcf06f2620205dce9d3388c7667b3ac2874946eeabc53350292d8790"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/full-run-9.png",
+      "digest": "00794c0ec8c60fec4f20a590c5ec6aab744fd631faf7c755e03b18465a91ded5"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/full-run.webm",
+      "digest": "dd62040c1a356fd4bb83f998dec81c4349b90806d4addcc686df04e1c6da4f37"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/highlight-5.png",
+      "digest": "bf6646fbf905b5627761f7a09dca80c6f71d874c1ec9b3958c810fb71e51dcad"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/highlight.webm",
+      "digest": "e22e17ff5e6b7aa84ac7d7585bec2a676b300aa9f8a8a1d4e6656d25db0f8f57"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/media.json",
+      "digest": "6b8106828d2407dfc5365ca2caf170a8607149f90aa9f0cc39e0727a38b15082"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/preservation.json",
+      "digest": "b343a93c29f098fd4bbdffc98255bfcbcf83b1fe0001afc7a491954eb8fa9dce"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/qa-results.json",
+      "digest": "4f1e67f5ad247d12fed27183acb2f819a8e34616ca1586d352f8699a75a88c02"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/return-fast.json",
+      "digest": "61fef8e75b527dced227de9bf00b9d7cc0db31ca77977a701198223398a18908"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/return-result.png",
+      "digest": "92df660a9b474335d954c23503fc64fd8b534214eb744085ffe5e7265a3b0236"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/return-stage0.png",
+      "digest": "a0a7a33cce0d83ce1e001a51672d9da9613ead1ce356aba5e2c1fde039156e36"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/return-stage1.png",
+      "digest": "9f643eb3799c1f5b65924edccc29ee5852915dbab2a71a7f6e82c944683115ca"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/return-stage2.png",
+      "digest": "aee72dea454b61315dd6a9e73dde16ef24e0e2fc1dd00d513ea47084a6a29a11"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/review.png",
+      "digest": "98dac533b82691bc45dd5422cd727eaf2b2a68f1171948914fa8b8642896a29b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/satellite-fast.json",
+      "digest": "03e598567a201c5b91e894f2dc58acac106b26cc94ae084c5fb0a6487d958cf5"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/satellite-result.png",
+      "digest": "8568b4b1b2e60c434ea445bf6b240f0442be3a78e7aa914e58a72c53ea7b9dc1"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/satellite-stage0.png",
+      "digest": "e10d15478116dc7833a89229a080b95b4c2f5a804dfa4c4c0ca6200aafc7b8d3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/satellite-stage1.png",
+      "digest": "8b8bc761241b3de3915ac486cfef5046b58e595eab452df09d054f8aa4f8ff4d"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/satellite-stage2.png",
+      "digest": "7d6be16d3253e0a2a736a2b6bf715e62bcb0f9516ab38d3e264206234943074d"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/security.json",
+      "digest": "c69072d3f5563d2be48f36e9dc089642d5789538417801f0aa35c33c552e1847"
+    },
+    {
+      "file": "docs/qa/game004-magnet-expansion-a-r1/terminal-qa.json",
+      "digest": "5cf8c73eb23aaa8108d20190516686b615d86d76dd22ed3bf0aede915f83ff5e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/choice-1.png",
+      "digest": "fc36b81030ef156d25a7c5bafeac56d9bf6bde57ea50a3533a1e23d35b46ccc6"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/desktop.png",
+      "digest": "bcfc11f2f687237209cf22ccad7e9ca0853bf0aed2c77c7eb7d1aa0f4175713f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/destruction.png",
+      "digest": "b18e80e6149919cd069ab17b43b1cb9775a3ec8a6cda30a6a688aa0b175a6000"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/highlight.webm",
+      "digest": "baab66fd0e8d00d9013c1537c60edd6e366ecf3ee50a51e355a2b36c3646aca9"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/impact.png",
+      "digest": "b18e80e6149919cd069ab17b43b1cb9775a3ec8a6cda30a6a688aa0b175a6000"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/launch.png",
+      "digest": "c30b3a522f24bc6290f816f853095656a0cca55b3b4d9a4dbc25d4e95b3bd7d6"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/orbit.png",
+      "digest": "8a144a38e849d62256fbd9c499427ff813a3588c9363d12119055471b6db2cfb"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/pull.png",
+      "digest": "75a00babc24fca2dbdfd4f40fae4442795008faf5d3ae5ce71430ab5b8cef55e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/result.png",
+      "digest": "2a10eeb93f8361c2f2e4ae99fa9a84c9c69442f15d425840af31d2cd93c970cb"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/upgrade.png",
+      "digest": "61a74b85c0297b28b3101d4a8d77d07eeba4564b07d47ad3ab88c74d9f08ba13"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/choice-1.png",
+      "digest": "cebeb6b97f11ed5539576c6735d696592b5016e3798744e74dd4e97805f2b5f7"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/desktop.png",
+      "digest": "bc4424b3f28d83077e89937339b30c9ee50a61953fc403abf197d1b17263304a"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/destruction.png",
+      "digest": "38e23ee8b73bef1c25992dad3719e1121e519ab2deb03e32326a8c743797e03b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/highlight.webm",
+      "digest": "2cb22c45de9e9bc89cc97751ef01ac655810db7b53bc1a0a010279c17a56bd7c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/impact.png",
+      "digest": "38e23ee8b73bef1c25992dad3719e1121e519ab2deb03e32326a8c743797e03b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/launch.png",
+      "digest": "117ef5e5d537b7feb591b3c3dd2be188806113a309e88aaf6d4a70717494f005"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/orbit.png",
+      "digest": "efe2e545fabcf13b3a9d727999e0b9f44df4eda474e89faf4ebf393040370624"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/pull.png",
+      "digest": "1805e8018f590f4edcefd3a207fea996aff1b0ce3b228eef35c499fce294d362"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/result.png",
+      "digest": "0a8e39e3f0b5e4b7dabd1509f5a4e3dca3bab94b0aed089859cd6b9ba58144f8"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/upgrade.png",
+      "digest": "3bba478b601919901654ff4351eb85ed2328e83ed40c4c37ad0a6326b77ea92d"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/charger.png",
+      "digest": "2e9b1d00cc38df9af68cea457c8ebc513b4543eb8d511912e2be1dc186f1b52f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/choice-1.png",
+      "digest": "75159cde83a5cf7a822ec231bb4579a68ea7137088e81f4c68587504a8508bf8"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/choice-2.png",
+      "digest": "af452812cd01f3acafca892ae0283fd9f3be2c9385c9b7b0c3c653f2dacf37fc"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/choice-3.png",
+      "digest": "8a3bcceb07a37e2ea53ba29f940b75426a4e22e08822fdec5fe8fd1c9c56f6dc"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/choice-ui-1.png",
+      "digest": "8afa22b20aa79293e8cefad834f435a029c13f7a259218b6f3f34f2a51c8385f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/choice-ui-2.png",
+      "digest": "251dcdcb2f67afde98540eca3886427b2ab7b6c2581c461cce364301c9b800e0"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/choice-ui-3.png",
+      "digest": "1e064a493c0e6b1702761608c41aa384d729f6c7262d7b1ef8d47a07cc59928e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/climax.png",
+      "digest": "fd887e07d8cabef1d643ca1e6ccd95f861c55bca2ce6d1e39ac1f5d9f00e3ac2"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/desktop.png",
+      "digest": "4fe9f848a142f3d96ed7b1c64d47c03ee557d9832e83045b6b00ed4fa4287c4e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/destruction.png",
+      "digest": "19be54441823606edb14adca6a76835c1dd7a5a8f32fba7413c88c5d67b984f3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/full-run.webm",
+      "digest": "abb5513eb5745e30f430e46374351eef2e85035f135026eea10855acb3572785"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/highlight.webm",
+      "digest": "1cb0fc14db832789bc8734ed53295b576e36399b49ab16a976778bbb0799be07"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/impact.png",
+      "digest": "19be54441823606edb14adca6a76835c1dd7a5a8f32fba7413c88c5d67b984f3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/lance-1.png",
+      "digest": "48b735af31d94fb7d4dbd14c5853f32a5c637713c21626c355763f4cba8b1470"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/lance-2.png",
+      "digest": "4249a67d8d7e881109501f5354a430eef678f7e290c5dc02e47726c1202c1ce3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/launch.png",
+      "digest": "1af6e868c79f568aa098b4696d821da3076df6252454365230946c0298d7592e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile.png",
+      "digest": "ceeb4c57843ce6fe9e8fb84add83f9a01cc13cfa86fcb340447f1b24d260b054"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/orbit.png",
+      "digest": "bfe629faf636ea778e992aa718bdb0e7b60bf0032ddfff6e1542970d2628df67"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/pull.png",
+      "digest": "e6dc047bf4bef10ec46143ada4783d366a24ea87dc1198566f36c0d0b441927e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/reactor.png",
+      "digest": "995f121ea39b9ae5c0e390a48d3a80702b6796f4f20e504a1eb3f2a89f88e017"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/shield.png",
+      "digest": "cb7c5649b3564ae3e4a5a80a9ba6be3eaf916d2eb7d38abfe02cad4ca33c8d75"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/swarm-1.png",
+      "digest": "807f7ff3819a278145e5f5e7d1ac45d8a6aca6e50593e17b3a3c49f4bdac486f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/swarm-2.png",
+      "digest": "13a4203348c62f8d9b411d0966019051ba89fe21ad6df1d46bd97c9b617c28a8"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/upgrade-after.png",
+      "digest": "5fca21da114ba31ee624dc30cc6fb14bb5a9be6b83d88738ccc80b90aa61248e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/upgrade-before.png",
+      "digest": "3fae9fac730b60ce32ee92a69317bc911389f5d0381e66813bc15536f4bbfdae"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/upgrade.png",
+      "digest": "23061f3e073118561d44b19bbfe351119d6cf03eccc082e22671323d3b177870"
+    },
+    {
+      "file": "game004-magnet-expansion/art.ts",
+      "digest": "fe96dfa9aa47e0bf0dd6ade84401249e376502ebb6e8aaa2e7f55fb7a0dc7b04"
+    },
+    {
+      "file": "game004-magnet-expansion/audio.ts",
+      "digest": "3dd6a771756ce86a1c4d9fdfcf04f0f0a22781369d69c109098a5fc480e4f2d2"
+    },
+    {
+      "file": "game004-magnet-expansion/base-core.ts",
+      "digest": "d2215805561c875f72c77dfb1db1733a118ce45f3c8a808f0e3c596594eca68e"
+    },
+    {
+      "file": "game004-magnet-expansion/core.ts",
+      "digest": "7ed1ab170450f6802fb317e0b1d056e845cc6e0368525d453f920d7eeebefde7"
+    },
+    {
+      "file": "game004-magnet-expansion/encounters.ts",
+      "digest": "fdc4f3161b1369ec40d03492e52df016dc14fda8fbfe28cdaca5e67978526ae2"
+    },
+    {
+      "file": "game004-magnet-expansion/env.d.ts",
+      "digest": "da5bf71d48cf909584a01c80b445f730507068f5b34c920f352e2bfcf0315e4c"
+    },
+    {
+      "file": "game004-magnet-expansion/expansion-art.ts",
+      "digest": "e29e12a2f0532227e2c21ca80e996e0237f6179cec3277d3a722a2a61a4f6197"
+    },
+    {
+      "file": "game004-magnet-expansion/expansion-progression.ts",
+      "digest": "4c3d116c49e898150c32a3b030b040d3a90d678e28ae7981023a58dd58e3aa73"
+    },
+    {
+      "file": "game004-magnet-expansion/index.html",
+      "digest": "35984e9d4b260919923e2de6bd05c7a7d6a3583c0be944582c0054d1922ecd04"
+    },
+    {
+      "file": "game004-magnet-expansion/main.ts",
+      "digest": "0e79f3a0958eb56610d64e7c3ca05ff118d32a4f1634819b525b5b1cb744d547"
+    },
+    {
+      "file": "game004-magnet-expansion/progression.ts",
+      "digest": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51"
+    },
+    {
+      "file": "game004-magnet-expansion/review.html",
+      "digest": "edaec18a7e4a6d7dfddf7b53d2afc5b680057f8630443f30ef76d06b72bb629e"
+    },
+    {
+      "file": "game004-magnet-expansion/style.css",
+      "digest": "ed01874940a426671b1874b1493e6bf7340a6d79d5f1bfcf67eb178db5914bc0"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/REVIEW.md",
+      "digest": "2af9a809419e4814fa7c42c3e1372a8e26920be5b1c893273826e3f135a5f3b3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/full-run.webm",
+      "digest": "741a0c2a5d4581d9015c87e318af63519b864a8ced855582d723f5b8af65da0a"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/play-results.json",
+      "digest": "c4ecdf3ddfd1f1fe50968ed029b46f866326562e5f944425c8fffacdb59496f3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/full-run.webm",
+      "digest": "13d1b68abd8a3d5c9336d5031785e33aa05ce8d09e53c4802fee03ad495c2c1f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/play-results.json",
+      "digest": "d6bc0838672ed0c53c35de7ed21292a4c371a0fba714b30f96b40c438dcf51fe"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/build.json",
+      "digest": "9d3fccd23830cccd2cbcc5768746f296bc5d8103d35b72a842762feb66cfa687"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/choice-recorded.png",
+      "digest": "efdc5bea05272f8c60f23a6c13019950e51e9ccefadbd9c4d0ba7c02e40b78a7"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/clear-connect.png",
+      "digest": "4294c553e1212827e95af8afdd531221c8258fdded7a9d5f84cd644738c3590a"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/clear-secured.png",
+      "digest": "89abe91771565ea0e9aa5482d1038394b058849fa506bce5b50cc7c54458b4b3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/comparison-media.json",
+      "digest": "ec16d7ebb83a2c067942cb5619fea75acd93f9607138588a54ccb30864363bc6"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/comparison.json",
+      "digest": "70ef2eb43ae3839855fcde94e8bb2d8e8068d222801a84d3de9ea10a7890d90e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/distribution.json",
+      "digest": "72edced7427161de4307587fae33d7b5423eff557ee7ff08a0a4f6852a66feca"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/equip-muted-reduced.png",
+      "digest": "23166551b882887c6377b35a816a9b2fd4ede6e5f27ca3bf3442610f616c5fae"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/feedback-choice.json",
+      "digest": "c80c73f4926c5ed02f0599155a9691fd9adc66a27919929caa8e16d76c1bcff2"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/feedback-interrupt.json",
+      "digest": "61a76c49a7b7f1943a84fcec0aa5c6030cda29a598d0f701d799f84a563b4a48"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/full-run.webm.part1",
+      "digest": "bc0a03396f2cf75b4c81b99d85a882adf3effdee565ad117230e515d89090258"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/full-run.webm.part2",
+      "digest": "5cd9d19304b88d0b938de19bb5e82f9ba9d9f3275e7308e92f76dd78e68e7c08"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/media-index.json",
+      "digest": "53d46120bd88b278d2550fd785a075d5fd2f8437a0cccc634d3e781cb0e815ae"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/media-results.json",
+      "digest": "f6317d66d6bd6d7c007ba40cb92c8f8e3e6c6c7c319aa0d35e241f610ab2f145"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-choice-ui-1.png",
+      "digest": "b119a64b66ad4eb41e0656163a03b6af24246a10cb479f2bbe4f54f24c8ded19"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-choice-ui-2.png",
+      "digest": "3e744e2ff79d919cc218a588d4008d0476aed3d6a207452fb77b53c944c0ea6e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-choice-ui-3.png",
+      "digest": "4dc8ff11a0f7e70630fa3b91b383cf443c6ec172dd236a14712ae5294e4d7f17"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-first-attempt.json",
+      "digest": "9bac654f70b3c3cb6649a60336b2de0dff40e759b48eed034c6ff1bb7a89aef5"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-first-failure.png",
+      "digest": "035d0cf06fc3759744cab7559d198f4cd55f9c1d7187114a72bc00c9523e936d"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-result.png",
+      "digest": "7c639da9923fd641cb1b25462a722d889880472a7f119505bc7e7ee3fac87986"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-run.json",
+      "digest": "162a1c8b8d0365c463fdb0466345b551b4ca27163f025f132ac100b9215baa0b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/play-results.json",
+      "digest": "17df3ad70c2be119d9337f1061bcde8565d54d07f14043a2d1afbb1d68106fee"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/preservation.json",
+      "digest": "eca74a19ede14278bbe5b390133a6f4d1512b07ccaa3e04637c6420a46ce9806"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/qa-results.json",
+      "digest": "3ea2b697e43f6b8ff33cec0968def1d81b6f790fe731289bdc831cbd9a576184"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/result.png",
+      "digest": "4db314db3300d54a545be0cb3645745919a852687bd8adc17620a8e7f6e744c3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/review.png",
+      "digest": "3c2e256c7f726f07b1bd9dc22f1a29dad641061213ddcfcd0d350179693d8424"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/security.json",
+      "digest": "f798b64604a28c3ec6af8c296675327a986037ca5b5deb9e07abc7762f7d055c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/terminal-qa.json",
+      "digest": "3cfb60236027623470e4203f8e4c21cbb600478093162afbeb0e83a4d19d592b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/typecheck.txt",
+      "digest": "93d7ced5a75c4f30b13e6e039dde108a27bdcea0222d03bac5b6310080f56f64"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/unit-tests.txt",
+      "digest": "71b441041b737609558597a28c4bc7b583797a629258d566dd11528bb0a61280"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/verification-scope.json",
+      "digest": "d4132be16764735042753b4390327d238e15060be49afda8275466976624443b"
+    },
+    {
+      "file": "game004-magnet-tempo/art.ts",
+      "digest": "fe96dfa9aa47e0bf0dd6ade84401249e376502ebb6e8aaa2e7f55fb7a0dc7b04"
+    },
+    {
+      "file": "game004-magnet-tempo/audio.ts",
+      "digest": "5facdc4ebdca9fea150fc487c55960d57431f462580a3865a6e5a231edd239c3"
+    },
+    {
+      "file": "game004-magnet-tempo/core.ts",
+      "digest": "65124a473dad1e4480bac8ae839e5e0d8eb0971cdbb3cf0f43f2d251676a694b"
+    },
+    {
+      "file": "game004-magnet-tempo/env.d.ts",
+      "digest": "da5bf71d48cf909584a01c80b445f730507068f5b34c920f352e2bfcf0315e4c"
+    },
+    {
+      "file": "game004-magnet-tempo/index.html",
+      "digest": "4d52970977aa8a2aebd1d5fae03f704f577189889ac220190adcff89d3d19db7"
+    },
+    {
+      "file": "game004-magnet-tempo/main.ts",
+      "digest": "0a6169c55ac266417618afe9e482f8d8417071ae25209ecef9e8b7c02ef6c761"
+    },
+    {
+      "file": "game004-magnet-tempo/progression.ts",
+      "digest": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51"
+    },
+    {
+      "file": "game004-magnet-tempo/review.html",
+      "digest": "137100047bc81ac409afadcff53c2ca2be2e84307e18b607e4a0b8cacd85d4ff"
+    },
+    {
+      "file": "game004-magnet-tempo/style.css",
+      "digest": "124c836c3f68c3734dd711623aa156a329b489eea944e444493773d6ef8e4f48"
+    },
+    {
+      "file": ".cache/magnet-expansion-a-r1-dist/assets/game-CkHB7uGy.css",
+      "digest": "f32a8c21e1cd30731cc9639a3c7d31863b7604e10030493af2045c2b1e39dc82"
+    },
+    {
+      "file": ".cache/magnet-expansion-a-r1-dist/assets/game-mnIaZjr2.js",
+      "digest": "1067f6f8692ea9f023ea9fccdefefddecd974fe75b7eb4aee66decc7387da619"
+    },
+    {
+      "file": ".cache/magnet-expansion-a-r1-dist/index.html",
+      "digest": "250bd2fb95bde9f3af56c302db01b79c1b0e0ce634d408a3dd64b60374cea18c"
+    },
+    {
+      "file": ".cache/magnet-expansion-a-r1-dist/review.html",
+      "digest": "b22b483c41d9cbbc77e15cccb896c954371180e88cb18ead348d6a27583eca3c"
+    },
+    {
+      "file": ".cache/magnet-tempo-r2-1-dist/assets/game-BgrqV_LX.js",
+      "digest": "fb9c96ee6160b6831e7f524cb124ea367ade599921a8a715616f04124481f5b4"
+    },
+    {
+      "file": ".cache/magnet-tempo-r2-1-dist/assets/game-Cs3eyWl5.css",
+      "digest": "a9d2c91d744b619de0737b8bb1997efa6e9771f3e9ad7acd5243c3fbaa3e655b"
+    },
+    {
+      "file": ".cache/magnet-tempo-r2-1-dist/index.html",
+      "digest": "b817d37c2e19bc885a38c77e9ae2358f93e71194a4546ff9ab02e5b724bf3580"
+    },
+    {
+      "file": ".cache/magnet-tempo-r2-1-dist/review.html",
+      "digest": "42cb6e36ad005aa59088a25f0b5fbb19e9a5b04de6f169f8ed276599f289cb60"
+    }
+  ]
+}

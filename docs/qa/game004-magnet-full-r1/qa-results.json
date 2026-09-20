@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "count": 87,
+  "groups": [
+    {
+      "name": "desktop fresh A only, B/C locked",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop hub no horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop initial checkpoint created",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop keyboard gather",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop pause cancels input and time",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop no stale shot",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop background path paused",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop checkpoint not overwritten mid-sector",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop settings persisted",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop saved locale load (query explicitly remains JA)",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop saved locale default EN",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop saved sound and motion loaded",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop hub header retry cannot replace checkpoint",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop new start asks before replacement",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop confirmation dismissed safely",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop resume zone start paused until input",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop resize clears hold",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop hub Escape returns without hidden pause",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop active retry clean",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop zero runtime/external errors",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait fresh A only, B/C locked",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait hub no horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait initial checkpoint created",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait keyboard gather",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait pause cancels input and time",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait no stale shot",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait background path paused",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait checkpoint not overwritten mid-sector",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait settings persisted",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait saved locale load (query explicitly remains JA)",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait saved locale default EN",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait saved sound and motion loaded",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait hub header retry cannot replace checkpoint",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait new start asks before replacement",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait confirmation dismissed safely",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait resume zone start paused until input",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait resize clears hold",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait hub Escape returns without hidden pause",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait active retry clean",
+      "status": "PASS"
+    },
+    {
+      "name": "portrait zero runtime/external errors",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape fresh A only, B/C locked",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape hub no horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape initial checkpoint created",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape keyboard gather",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape pause cancels input and time",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape no stale shot",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape background path paused",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape checkpoint not overwritten mid-sector",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape settings persisted",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape saved locale load (query explicitly remains JA)",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape saved locale default EN",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape saved sound and motion loaded",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape hub header retry cannot replace checkpoint",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape new start asks before replacement",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape confirmation dismissed safely",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape resume zone start paused until input",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape resize clears hold",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape hub Escape returns without hidden pause",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape active retry clean",
+      "status": "PASS"
+    },
+    {
+      "name": "landscape zero runtime/external errors",
+      "status": "PASS"
+    },
+    {
+      "name": "two-finger movement/hold",
+      "status": "PASS"
+    },
+    {
+      "name": "touch release launches",
+      "status": "PASS"
+    },
+    {
+      "name": "touch cancellation safe",
+      "status": "PASS"
+    },
+    {
+      "name": "touch no runtime error",
+      "status": "PASS"
+    },
+    {
+      "name": "B4 checkpoint restores build/modules/time/enemies",
+      "status": "PASS"
+    },
+    {
+      "name": "reset requires confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "reset abandoned B safely",
+      "status": "PASS"
+    },
+    {
+      "name": "reset allows fresh A without error",
+      "status": "PASS"
+    },
+    {
+      "name": "corrupt truthful save warning",
+      "status": "PASS"
+    },
+    {
+      "name": "corrupt gameplay still works",
+      "status": "PASS"
+    },
+    {
+      "name": "corrupt original bytes retained",
+      "status": "PASS"
+    },
+    {
+      "name": "corrupt no crash",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown truthful save warning",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown gameplay still works",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown original bytes retained",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown no crash",
+      "status": "PASS"
+    },
+    {
+      "name": "denied truthful save warning",
+      "status": "PASS"
+    },
+    {
+      "name": "denied gameplay still works",
+      "status": "PASS"
+    },
+    {
+      "name": "denied no crash",
+      "status": "PASS"
+    },
+    {
+      "name": "quota truthful save warning",
+      "status": "PASS"
+    },
+    {
+      "name": "quota gameplay still works",
+      "status": "PASS"
+    },
+    {
+      "name": "quota no crash",
+      "status": "PASS"
+    },
+    {
+      "name": "unavailable audio fails closed",
+      "status": "PASS"
+    },
+    {
+      "name": "ordinary input death",
+      "status": "PASS"
+    },
+    {
+      "name": "death clears checkpoint",
+      "status": "PASS"
+    },
+    {
+      "name": "death retry clean",
+      "status": "PASS"
+    },
+    {
+      "name": "audio unavailable no page error",
+      "status": "PASS"
+    }
+  ],
+  "mode": "Edge emulation; accelerated clock; trusted input except explicit blur/focus and fault injections; checkpoint fixtures labeled",
+  "physical": "NOT TESTED",
+  "listening": "NOT TESTED",
+  "human": "PENDING"
+}

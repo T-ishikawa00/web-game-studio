@@ -1,0 +1,21 @@
+{
+  "model": "gpt-5.6-sol",
+  "scope": "read-only save, checkpoint, reset, unlock, hub focus/mobile layout",
+  "initialFindings": [
+    "repairKills limit could reject fast checkpoints",
+    "reset retained incompatible active run",
+    "hub header retry could replace checkpoint",
+    "Escape bubbling and return focus",
+    "LANCE overcapacity after selection",
+    "SATELLITE reserved state persistence"
+  ],
+  "primaryResolution": "All fixed by gpt-6-astra and covered by targeted tests",
+  "final": "No remaining blocker in reviewed scope",
+  "typescript": "PASS",
+  "layouts": [
+    "320x568",
+    "844x390"
+  ],
+  "fullPlayClaim": false,
+  "primaryBrowserChecks": 87
+}

@@ -157,3 +157,53 @@ AI生成は法的安全の保証ではない。ライセンス文字列の自動
 ## Tiny Craft Baseline R2 — BGM B accepted / frozen
 
 Human formally selected B (D1 Rhythm Refine /80 BPM) with accepted Motion + SFX. [Craft R2](../games/CRAFT_BASELINE_R2.md) binds the retained B.wav/score-B.json and frozen runtime; no new sound was authored for this checkpoint. Original D1/A, tempo C, D2 and no-BGM evidence remain unchanged. Earlier pending/conditional reports are historical. No further variants. Reuse process, not this song/timbre/tempo. Physical-device, other-game Audio/Motion, rights, legal/ads and public acceptance remain separate.
+
+## Game004 Nurture MVP R1 — 2026-09-19
+
+- Original local AI-assisted vector/code artwork: `game004/art.ts` (egg, baby, Springstep/Roly/Glimmer silhouettes, sleeping pose, fruits, ball, nest, plant, garden), motion/materials: `game004/style.css`. Authoring/integration model `gpt-6-astra`. No external image generation, downloads, third-party sprites, emoji character art, font files, purchased assets or existing three-game art reuse.
+- Original procedural SFX master/runtime: `game004/audio.ts`; seven event roles (hatch, eat, play, sleep, grow, pick, pet), sine/triangle plucked/airy voices, short envelopes, conservative summed gains. No samples, external API, recordings, BGM or existing three-game sound reuse. No separate upstream provider/license purchase; local code authorship, Human listening pending.
+- Distribution only `.cache/game004-dist`; no Production registry/public assets. Actual Edge screenshots and 432x768 WebM under `docs/qa/game004-nurture-r1/`. Short clips are local extracts of real-time natural play, no generated frames, no recorded audio. Specification and Review contain exact use/limits.
+- H1 provisional assets. Formal naming, similarity/legal clearance, commercial/publication rights acceptance, Human visual/aural/fun acceptance are not established by this provenance entry. No new external attribution obligation asserted, no Content ID registration.
+
+
+## Game004 PROJECT MAGNET Gold Micro Slice R1 — 2026-09-19
+
+- Original local Canvas/code art: `game004-magnet/art.ts` (robot, salvage-yard floor, enemy variants, plate/coil/nut scrap, fracture, magnetic field/trails/particles). Mechanics/camera timing: `core.ts` / `main.ts`. Primary actual model `gpt-6-astra`. No imported commercial artwork, fonts, image generation API, purchased assets or reuse of accepted game artwork. System font stack only.
+- Original local Web Audio synthesis: `game004-magnet/audio.ts`, authored by actual model `gpt-5.6-sol`, integrated/reviewed by `gpt-6-astra`. Motor/magnetic hum, metallic snap, launch, hit, shatter/rattle, short transformation; no BGM or sampled recordings. Editable code is the master.
+- Reference titles and attribution in `docs/games/GAME004_MAGNET_RESEARCH_R1.md`; reference media was viewed for analysis only, never shipped or copied into the pack. Derived actual-runtime screenshots and 25-second audiovisual capture: `docs/qa/game004-magnet-r1/`.
+- Dedicated local candidate only; no production registry/distribution/Cloudflare changes. Human Craft, actual listening, physical-device suitability, rights/name/publication clearance remain PENDING; original authorship is not legal clearance. Nurture H1 rejected source and evidence remain archived in place.
+
+## 2026-09-19 — PROJECT MAGNET Vertical Slice R1
+
+- Gold Micro Slice R1のHuman Craft Gate PASSを受け、専用 `game004-magnet-vertical/` へ拡張。原本のArt/音/source/build/captureは保全。
+- 新しいshield/charger/elite、coil/rail upgrade、開閉/突進予告/破壊描画はoriginal Canvas code。外部画像・音声素材の取込、素材購入、生成API利用なし。
+- SFXはGoldのoriginal Web Audio synthesisを引継ぎ、30秒後だけ音の密集制御と短いblock/warning/damage/complete cueを追加。BGMなし。
+- 実利用モデル：主担当・統合・最終Craft/QA `gpt-6-astra`、限定Art/SFX/テスト・独立レビュー `gpt-5.6-sol`。制作物の権利・商標・公開承認の法的保証ではない。ローカルHuman Vertical Slice Gate待ち。
+
+
+## 2026-09-20 — PROJECT MAGNET Progression Slice R2
+
+- Isolated `game004-magnet-progression/`: original relay machinery/circuit links/current telegraphs, SWARM coils/crown, LANCE rail/spine and trails are local Canvas code. Gold/Vertical R1 originals and evidence preserved. No imported/purchased/generated external bitmap/audio assets.
+- Audio master remains the original same-game Web Audio synthesis; relay and evolution cues reuse that original vocabulary, no BGM or other-game sound transplant. Native runtime video/screenshots; video container seek metadata added with lossless stream copy, no reencoding/speed change.
+- Actual models: primary research synthesis/architecture/integration/finalQA `gpt-6-astra`; bounded research/art/review page/unit tests `gpt-5.6-sol`. Human Craft/Core PASS inherited; Progression Human Gate, physical devices/listening and legal/public release remain separate pending gates.
+
+
+## 2026-09-20 — PROJECT MAGNET Tempo & Clear Feedback R2.1
+
+- Isolated game004-magnet-tempo. R2 art.ts/audio.ts byte-identical. Original same-game Canvas charge links and completion/equip text; existing complete/upgrade cues reused. No new external image/audio/font/BGM, purchase or asset generation.
+- Native continuous Before/After and SWARM full-run capture; container stream-copy metadata only. LANCE ordinary real-time touch trace. Source/evidence of R2 and all older prototypes preserved.
+- Actual primary model gpt-6-astra; bounded read-only research/review gpt-5.6-sol. Human Progression replay, physical devices/listening/first-use and legal/public-release gates remain pending.
+
+## Game004 Expansion Slice A — local candidate / 2026-09-20
+
+- Source: game004-magnet-expansion/. Accepted R2.1 source copied locally with provenance in GAME004_MAGNET_BASELINE_R2_1; original source/evidence unchanged.
+- New original Canvas art: rail gunner (twin rails), repair support (three arms/link), armored carrier (tracks/front plate/side vents), satellite reservation arcs, foundry rail/bundled-shot markers. Original procedural WebAudio cues in candidate audio.ts; no external image/audio/generation service or paid asset.
+- New source/QA/videos remain local and unpublished. Continuous 37.279s native canvas/WebAudio footage and 34.279s stream-copy excerpt derive from actual automated input, not generated imagery. See docs/qa/game004-magnet-expansion-a-r1/REVIEW.md and media.json.
+- Public competitor pages/reviews are cited links/paraphrases only; competitor artwork/music/video is not incorporated. Formal naming/trademark/rights release acceptance remains pending. Primary/reviewer model: gpt-6-astra; additional cash spend/contract 0.
+
+## Game004 Full Game Production R1 — isolated candidate / 2026-09-20
+
+- R2.1 and Human Accepted Expansion Slice A source/build/evidence retained unchanged. New source is game004-magnet-full/. Original same-game Canvas assets and procedural WebAudio inherited locally.
+- Added original six-coil Magnet Core boss, pulse/warning/recovery rings and procedural pulse/core-open cues. Hub is original HTML/CSS. No external media/font/BGM, asset purchase or image generation service.
+- Native full browser flow 449.640s (silent UI), Canvas/WebAudio full 447.229s and 73.851s continuous B/C excerpt derive from actual automated input; no generated frames or speed changes. Canvas container indexed and excerpted by stream copy; original raw capture retained in repo-local ignored output.
+- gpt-6-astra: primary/code/art/audio/integration/QA. gpt-5.6-sol: bounded Hub UI and read-only review. Source/provenance, frozen hashes and NOT TESTED listening/physical-device/release gates are in docs/qa/game004-magnet-full-r1/REVIEW.md. External writes/cost/contracts 0.

@@ -1,0 +1,499 @@
+{
+  "humanGate": "GAME004_FULL_GAME_GATE_PASS",
+  "date": "2026-09-20",
+  "artifacts": [
+    {
+      "file": "docs/games/GAME004_FULL_GAME_DESIGN_R1.md",
+      "bytes": 9262,
+      "sha256": "440d1627c1e8b4d89f69619cb73ed709e69a3c3ac4b03e314eb44508b770b35d",
+      "canonicalSha256": "440d1627c1e8b4d89f69619cb73ed709e69a3c3ac4b03e314eb44508b770b35d"
+    },
+    {
+      "file": "docs/games/GAME004_FULL_GAME_PRODUCTION_R1.md",
+      "bytes": 9972,
+      "sha256": "54f02fcb47c9bc4ef2d29a870f4ee9cb964b8175b0b2b344482790e57f8f26d7",
+      "canonicalSha256": "54f02fcb47c9bc4ef2d29a870f4ee9cb964b8175b0b2b344482790e57f8f26d7"
+    },
+    {
+      "file": "docs/games/GAME004_INDEPENDENT_VALIDATION_R1.md",
+      "bytes": 10120,
+      "sha256": "af3f51c3cb7ffc6f2e1d108fcf0a9e66289bcdc40d10d09f94e8e53528616eb2",
+      "canonicalSha256": "af3f51c3cb7ffc6f2e1d108fcf0a9e66289bcdc40d10d09f94e8e53528616eb2"
+    },
+    {
+      "file": "game004-magnet-full/accepted-core-reference.ts",
+      "bytes": 28461,
+      "sha256": "65124a473dad1e4480bac8ae839e5e0d8eb0971cdbb3cf0f43f2d251676a694b",
+      "canonicalSha256": "f75ba9f3a2cba18e6088861dfa084510a60cea26a499c2f29221ff3eb81a6152"
+    },
+    {
+      "file": "game004-magnet-full/accepted-progression.ts",
+      "bytes": 1981,
+      "sha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51",
+      "canonicalSha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51"
+    },
+    {
+      "file": "game004-magnet-full/art.ts",
+      "bytes": 23093,
+      "sha256": "fe96dfa9aa47e0bf0dd6ade84401249e376502ebb6e8aaa2e7f55fb7a0dc7b04",
+      "canonicalSha256": "fe96dfa9aa47e0bf0dd6ade84401249e376502ebb6e8aaa2e7f55fb7a0dc7b04"
+    },
+    {
+      "file": "game004-magnet-full/audio.ts",
+      "bytes": 16874,
+      "sha256": "fdcf68d3114095608f1dac62e14dfb67977bf7eb3fd36294343551e32722d411",
+      "canonicalSha256": "fdcf68d3114095608f1dac62e14dfb67977bf7eb3fd36294343551e32722d411"
+    },
+    {
+      "file": "game004-magnet-full/base-core.ts",
+      "bytes": 28865,
+      "sha256": "1bd0e2d1a8d96c64ef08b4a38123c3919d5458457e4ac0f5aadf18dde5fbe2e0",
+      "canonicalSha256": "b85e344fb66b518bb52b8af2f4eb470f83f6dc6b4c3ed7d7572a84c062799925"
+    },
+    {
+      "file": "game004-magnet-full/core.ts",
+      "bytes": 12012,
+      "sha256": "884a309579ea07edd951c845fed69b0f748a428f12cb0d164906a0b3ba640395",
+      "canonicalSha256": "491ab5530d14ba1c355c0a18134b2fbb1310d3bf06b1a5f43b1a29df9792f0bb"
+    },
+    {
+      "file": "game004-magnet-full/encounters.ts",
+      "bytes": 471,
+      "sha256": "fdc4f3161b1369ec40d03492e52df016dc14fda8fbfe28cdaca5e67978526ae2",
+      "canonicalSha256": "fdc4f3161b1369ec40d03492e52df016dc14fda8fbfe28cdaca5e67978526ae2"
+    },
+    {
+      "file": "game004-magnet-full/env.d.ts",
+      "bytes": 24,
+      "sha256": "da5bf71d48cf909584a01c80b445f730507068f5b34c920f352e2bfcf0315e4c",
+      "canonicalSha256": "da5bf71d48cf909584a01c80b445f730507068f5b34c920f352e2bfcf0315e4c"
+    },
+    {
+      "file": "game004-magnet-full/expansion-art.ts",
+      "bytes": 5245,
+      "sha256": "a86b05fc260d68b1ba94756f0090632696e5275c71c816ae3ca53ff2a5c2f7ff",
+      "canonicalSha256": "e09df108d4ce0bceff15d5e65b3e158004b34f15227d28099d10865f323cad25"
+    },
+    {
+      "file": "game004-magnet-full/expansion-progression.ts",
+      "bytes": 2058,
+      "sha256": "4c3d116c49e898150c32a3b030b040d3a90d678e28ae7981023a58dd58e3aa73",
+      "canonicalSha256": "bcd662f3307ea507819d86a4ce0c6891686cc982b52a4dd3c18317192e2dcb48"
+    },
+    {
+      "file": "game004-magnet-full/hub.css",
+      "bytes": 10485,
+      "sha256": "5be29dce56913e716ef964739461d3b5adab7ed7ef185dbb8e3d16d56af1f295",
+      "canonicalSha256": "5be29dce56913e716ef964739461d3b5adab7ed7ef185dbb8e3d16d56af1f295"
+    },
+    {
+      "file": "game004-magnet-full/hub.ts",
+      "bytes": 18053,
+      "sha256": "45a2346db4ede3b889c922eac1d1144db2713ef13ab405207d371f892052fee4",
+      "canonicalSha256": "45a2346db4ede3b889c922eac1d1144db2713ef13ab405207d371f892052fee4"
+    },
+    {
+      "file": "game004-magnet-full/index.html",
+      "bytes": 2440,
+      "sha256": "5ef2a87431c4d46ed056800bc2598bdcd0c77fa664ceaffd7c54708b172bac67",
+      "canonicalSha256": "8f2bcd92b9b93229a02482569890250f2f28d04e304c06d874fa48c07d2c760b"
+    },
+    {
+      "file": "game004-magnet-full/main.ts",
+      "bytes": 22417,
+      "sha256": "38441ab4f6cc295605bc15a54e0ec9363f1628306309682d481d9522b6f99f79",
+      "canonicalSha256": "668f840d084ae09380de770d06bc022ec5dc58d4c1c8dad110fb10e56e021452"
+    },
+    {
+      "file": "game004-magnet-full/missions.ts",
+      "bytes": 3712,
+      "sha256": "ad5afedb99ff39c1240c49b2d1dd8e8f77af220d9a6491147c885f4c0d8f2b2e",
+      "canonicalSha256": "ad5afedb99ff39c1240c49b2d1dd8e8f77af220d9a6491147c885f4c0d8f2b2e"
+    },
+    {
+      "file": "game004-magnet-full/progression.ts",
+      "bytes": 1981,
+      "sha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51",
+      "canonicalSha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51"
+    },
+    {
+      "file": "game004-magnet-full/review.html",
+      "bytes": 8173,
+      "sha256": "b8b8f78c466efed74bf19c93f9f505cf20b023b004bef9c2e363ecc08301b5ad",
+      "canonicalSha256": "b8b8f78c466efed74bf19c93f9f505cf20b023b004bef9c2e363ecc08301b5ad"
+    },
+    {
+      "file": "game004-magnet-full/save.ts",
+      "bytes": 5936,
+      "sha256": "8fa931ac410b65b16b512459d3cdfec38f63d73ecf7394e08f78ecd4ba3ab821",
+      "canonicalSha256": "8fa931ac410b65b16b512459d3cdfec38f63d73ecf7394e08f78ecd4ba3ab821"
+    },
+    {
+      "file": "game004-magnet-full/style.css",
+      "bytes": 8270,
+      "sha256": "4b50597bf1b20bef1d334e4832756d56db42e594b2499478506ebadf29b832ab",
+      "canonicalSha256": "fc20030f24ef49b9bc72eaf628fb578bd6e68c1981c07c62f7c7b026ed9e4881"
+    },
+    {
+      "file": "scripts/magnet-full-build.mjs",
+      "bytes": 1149,
+      "sha256": "4e988efad0af17112c90f70384ad0d19d744536fa27a7936867d549769e71915",
+      "canonicalSha256": "290265b8e3b0522fbaab89ccf2f85cb05d9b7112c7bce1cfa5198d929925ae58"
+    },
+    {
+      "file": "scripts/magnet-full-local.ps1",
+      "bytes": 1250,
+      "sha256": "ce51db9a0d362c9bed2464dbd12953fd99e7c450325a938967783ceecc43d491",
+      "canonicalSha256": "ce51db9a0d362c9bed2464dbd12953fd99e7c450325a938967783ceecc43d491"
+    },
+    {
+      "file": "scripts/magnet-full-server.mjs",
+      "bytes": 3348,
+      "sha256": "d50a66dce35280869e388d9f6550cdc55ce0722bfd63769e014e2038e0b9428c",
+      "canonicalSha256": "a505233cba872050074df28806ab169aa8469d0e2de0b9fbbf684e3f8fb6d8da"
+    },
+    {
+      "file": "tests/magnet-full-core.test.ts",
+      "bytes": 9573,
+      "sha256": "b31c68cd27e05adde338ab27a572dfcf1dabedf0aa823057ca68554da2c15fdf",
+      "canonicalSha256": "b31c68cd27e05adde338ab27a572dfcf1dabedf0aa823057ca68554da2c15fdf"
+    },
+    {
+      "file": "tests/magnet-full-delivery.browser.mjs",
+      "bytes": 2545,
+      "sha256": "afd7f876a29ef5d2e65f36e669b3bc1c015bbc77690ca8dadd88cbcc26c9f611",
+      "canonicalSha256": "afd7f876a29ef5d2e65f36e669b3bc1c015bbc77690ca8dadd88cbcc26c9f611"
+    },
+    {
+      "file": "tests/magnet-full-flow.browser.mjs",
+      "bytes": 8379,
+      "sha256": "648726cfe5d920272fde680567e4c5ffdafc791e75df356f0d8023fa98028b66",
+      "canonicalSha256": "d80293a9a967cfa4f94442c0097a2f9401aac338a59f8f70de8180f3852552ec"
+    },
+    {
+      "file": "tests/magnet-full-mechanics.test.ts",
+      "bytes": 5353,
+      "sha256": "7efc65db9bdfb63d5fc377bf710a3922c6120341fb73caf53e8a31224cfe8c99",
+      "canonicalSha256": "7efc65db9bdfb63d5fc377bf710a3922c6120341fb73caf53e8a31224cfe8c99"
+    },
+    {
+      "file": "tests/magnet-full-play.browser.mjs",
+      "bytes": 7993,
+      "sha256": "f6319c5ffe883c726e625fccf3289b9572f0c7ce31a661ce64b9c7d7fbe66ab7",
+      "canonicalSha256": "d02de94e2c1a4fb4adce9cb30eec30edf48317fc32db6565684f5b4809f5a58c"
+    },
+    {
+      "file": "tests/magnet-full-qa.browser.mjs",
+      "bytes": 10190,
+      "sha256": "0ff320f01580db21551433477c5e23a9cd3077226f0b47aafd041acfb5538b62",
+      "canonicalSha256": "0ff320f01580db21551433477c5e23a9cd3077226f0b47aafd041acfb5538b62"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/A-cyclone-stage5.png",
+      "bytes": 446686,
+      "sha256": "a59448bcf742d9ba82cd116ae874a5bd44eef4fdc9814331cd34e41d7b819394",
+      "canonicalSha256": "a59448bcf742d9ba82cd116ae874a5bd44eef4fdc9814331cd34e41d7b819394"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/A-satellite-stage5.png",
+      "bytes": 457956,
+      "sha256": "78c93d9da85677b4439ec0b30807a1322c08ecacda7f92860e070d972d860259",
+      "canonicalSha256": "78c93d9da85677b4439ec0b30807a1322c08ecacda7f92860e070d972d860259"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/accepted-baselines.json",
+      "bytes": 25635,
+      "sha256": "8baaf6f04b25a9bf545e48f2e5824706bfefb9d8e230aa52496a1a992419af36",
+      "canonicalSha256": "8baaf6f04b25a9bf545e48f2e5824706bfefb9d8e230aa52496a1a992419af36"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/B-foundry-stage5.png",
+      "bytes": 432926,
+      "sha256": "46a3f92c5c4eee39139a1422322a4127f07118a0ad3a2fdab0ac00dbe4199610",
+      "canonicalSha256": "46a3f92c5c4eee39139a1422322a4127f07118a0ad3a2fdab0ac00dbe4199610"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/B-satellite-stage5.png",
+      "bytes": 440336,
+      "sha256": "11c3a79b5b81e1aa5cab3c4953e3ea2b50660c36f92db34b9ce5c4a8f1c77253",
+      "canonicalSha256": "11c3a79b5b81e1aa5cab3c4953e3ea2b50660c36f92db34b9ce5c4a8f1c77253"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/build.json",
+      "bytes": 2398,
+      "sha256": "ea3e78f734ac9c164bf48e298c558c10278c03d628b47b2fb1790f1d533ed995",
+      "canonicalSha256": "ea3e78f734ac9c164bf48e298c558c10278c03d628b47b2fb1790f1d533ed995"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/C-foundry-mobile-stage5.png",
+      "bytes": 180508,
+      "sha256": "f887764ff9eaeff0d265cafcc3b9250b99c1555622d1dfd304718da60123d8e4",
+      "canonicalSha256": "f887764ff9eaeff0d265cafcc3b9250b99c1555622d1dfd304718da60123d8e4"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/C-return-stage5.png",
+      "bytes": 434750,
+      "sha256": "9e3a860331e0575b21235dca2d32a3749353dc68bccecbef993172013af8716a",
+      "canonicalSha256": "9e3a860331e0575b21235dca2d32a3749353dc68bccecbef993172013af8716a"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/cyclone-fast.json",
+      "bytes": 74136,
+      "sha256": "84fe7f17e7856cab9e1119d7515607da3dbd48c01cafd3597cc17b0a62fbcedd",
+      "canonicalSha256": "84fe7f17e7856cab9e1119d7515607da3dbd48c01cafd3597cc17b0a62fbcedd"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/delivery.json",
+      "bytes": 1974,
+      "sha256": "41d4f9de41d2ca0d9095affe968cbefb010065512eb75454aa2a36e7a38506bb",
+      "canonicalSha256": "41d4f9de41d2ca0d9095affe968cbefb010065512eb75454aa2a36e7a38506bb"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/distribution.json",
+      "bytes": 573,
+      "sha256": "7fc9a8fd8ffe00826d9e71f9baac6552c6cd328a9891e1045240acef1f104ce6",
+      "canonicalSha256": "7fc9a8fd8ffe00826d9e71f9baac6552c6cd328a9891e1045240acef1f104ce6"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/flow-A-clear.png",
+      "bytes": 49848,
+      "sha256": "0898ddcd8a152256133ca83ce73a78efeba5cfa9a85ed0c5c7dc8b859bf0f9be",
+      "canonicalSha256": "0898ddcd8a152256133ca83ce73a78efeba5cfa9a85ed0c5c7dc8b859bf0f9be"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/flow-B-clear.png",
+      "bytes": 45946,
+      "sha256": "1a796293093315603669c1a387904d20f62ed09df0d847f75b0f0e425cd0000f",
+      "canonicalSha256": "1a796293093315603669c1a387904d20f62ed09df0d847f75b0f0e425cd0000f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/flow-C-clear.png",
+      "bytes": 46733,
+      "sha256": "af33c601dd016c960c1a2eac671dcea00462213997efc825cd512e9f34224f1d",
+      "canonicalSha256": "af33c601dd016c960c1a2eac671dcea00462213997efc825cd512e9f34224f1d"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/flow-start.png",
+      "bytes": 406153,
+      "sha256": "8f078fd0cc57e44cc0ac7b894177c8e6419d15305b673d1e2c710e365a962807",
+      "canonicalSha256": "8f078fd0cc57e44cc0ac7b894177c8e6419d15305b673d1e2c710e365a962807"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/foundry-fast.json",
+      "bytes": 76818,
+      "sha256": "afc7de351928b47ef749c83faf7b3aab57a414ebd4f9ff69282d2697a01994a7",
+      "canonicalSha256": "afc7de351928b47ef749c83faf7b3aab57a414ebd4f9ff69282d2697a01994a7"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/foundry-mobile-fast.json",
+      "bytes": 76641,
+      "sha256": "5b2f14cf37c281ddaa129b4f86a8cf8a77749fa873765798477ef5a1ca547e90",
+      "canonicalSha256": "5b2f14cf37c281ddaa129b4f86a8cf8a77749fa873765798477ef5a1ca547e90"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/full-canvas-audio.webm",
+      "bytes": 96141108,
+      "sha256": "688d90963602de6c39383ebd155065d83fda26743cf2ada9a51ffda7ca6d287e",
+      "canonicalSha256": "688d90963602de6c39383ebd155065d83fda26743cf2ada9a51ffda7ca6d287e",
+      "parts": [
+        {
+          "file": "docs/qa/game004-magnet-full-baseline-r1/media/full-canvas-audio.webm.part1",
+          "bytes": 33554432,
+          "sha256": "ee7e8dbca0c4cdc71c21b004efd785104ae03e38e925965aab4b8ed94f4d5c66"
+        },
+        {
+          "file": "docs/qa/game004-magnet-full-baseline-r1/media/full-canvas-audio.webm.part2",
+          "bytes": 33554432,
+          "sha256": "78dae2d33b7f666a4a85b9102366667f5f7429ba0a51c9725013313591421471"
+        },
+        {
+          "file": "docs/qa/game004-magnet-full-baseline-r1/media/full-canvas-audio.webm.part3",
+          "bytes": 29032244,
+          "sha256": "5e2c1b328238cbe2f922ce21d149b1fff68d1b3790aaedf388b7bb20630cd4d3"
+        }
+      ]
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/full-flow-fast.json",
+      "bytes": 269132,
+      "sha256": "95644c503e62dc57babd1f09291d788854424fa8c29b2e5dc8b2ad777f2e7249",
+      "canonicalSha256": "95644c503e62dc57babd1f09291d788854424fa8c29b2e5dc8b2ad777f2e7249"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/full-flow-realtime.json",
+      "bytes": 271210,
+      "sha256": "8924e02ef164b7899dd9cc95b067d5ea24d11f0273ea9581e865dc660c82942c",
+      "canonicalSha256": "8924e02ef164b7899dd9cc95b067d5ea24d11f0273ea9581e865dc660c82942c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/full-flow.webm",
+      "bytes": 55865757,
+      "sha256": "04ad68fbc29f8413bcaba2262b98bfee3eb2a82ecaa917a834c9f91f5929dd5f",
+      "canonicalSha256": "04ad68fbc29f8413bcaba2262b98bfee3eb2a82ecaa917a834c9f91f5929dd5f",
+      "parts": [
+        {
+          "file": "docs/qa/game004-magnet-full-baseline-r1/media/full-flow.webm.part1",
+          "bytes": 33554432,
+          "sha256": "473faef892fbb5b22af33b028281bf2b5a7eb07dd5ae1ff0c07d930ac412495d"
+        },
+        {
+          "file": "docs/qa/game004-magnet-full-baseline-r1/media/full-flow.webm.part2",
+          "bytes": 22311325,
+          "sha256": "47a6da8aa302df5c71986eee0c802cbc59a2c7274ecce225efc6e2aba0a4a096"
+        }
+      ]
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/highlight.webm",
+      "bytes": 16248283,
+      "sha256": "670c0c505da20c573dfab448a3761eef3883cdbce980b9215a9dce973008e2d2",
+      "canonicalSha256": "670c0c505da20c573dfab448a3761eef3883cdbce980b9215a9dce973008e2d2"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/hub-desktop.png",
+      "bytes": 413110,
+      "sha256": "3507a3bba744ffa52c93d5fe4fd8a433f3c0cdea98991e13776026ffc5accbd9",
+      "canonicalSha256": "3507a3bba744ffa52c93d5fe4fd8a433f3c0cdea98991e13776026ffc5accbd9"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/hub-landscape.png",
+      "bytes": 180505,
+      "sha256": "1af542001863a9f629fac14e1f37e8b1f3b47b78ce8a0ea7ffb29352c6b32c83",
+      "canonicalSha256": "1af542001863a9f629fac14e1f37e8b1f3b47b78ce8a0ea7ffb29352c6b32c83"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/hub-portrait.png",
+      "bytes": 152760,
+      "sha256": "ade50bcfd348c63bea7ed6e52ba88e4941570ec966da51c2dfa9e28a968f3f27",
+      "canonicalSha256": "ade50bcfd348c63bea7ed6e52ba88e4941570ec966da51c2dfa9e28a968f3f27"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/independent-review.json",
+      "bytes": 675,
+      "sha256": "66f62f488c5e83512dbccd2e2b84047bcbdc630fb7002c748abbfb927572978c",
+      "canonicalSha256": "66f62f488c5e83512dbccd2e2b84047bcbdc630fb7002c748abbfb927572978c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/media-timestamps.json",
+      "bytes": 1516,
+      "sha256": "47c85dfbc34257ea50f4d4e65289c2a4d4517f88255320b795b1e59cd739a60c",
+      "canonicalSha256": "47c85dfbc34257ea50f4d4e65289c2a4d4517f88255320b795b1e59cd739a60c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/media.json",
+      "bytes": 981,
+      "sha256": "6531ee65489862f2ce8399210a1d127cd74547844bd02b18a265330089750698",
+      "canonicalSha256": "6531ee65489862f2ce8399210a1d127cd74547844bd02b18a265330089750698"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/normal-end.png",
+      "bytes": 399218,
+      "sha256": "b2683ab4c30186a3a5b2d5096bf5b1195a9617586f93b9b2ba04a67098ce041d",
+      "canonicalSha256": "b2683ab4c30186a3a5b2d5096bf5b1195a9617586f93b9b2ba04a67098ce041d"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/performance-audio.json",
+      "bytes": 4363,
+      "sha256": "674ce6f177ac8b8ed88aef6e8e51b97122daf4da3902f5e17a6f635ca560db16",
+      "canonicalSha256": "674ce6f177ac8b8ed88aef6e8e51b97122daf4da3902f5e17a6f635ca560db16"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/preservation.json",
+      "bytes": 385,
+      "sha256": "cfeb6abb4f2e8dbccbde2fde57116495be5c7964c1bf12b36c0afc032089cafc",
+      "canonicalSha256": "cfeb6abb4f2e8dbccbde2fde57116495be5c7964c1bf12b36c0afc032089cafc"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/production-regression.json",
+      "bytes": 1100,
+      "sha256": "bed937d36532b8e6f8a31c1eabe1bd6f228c670bf6393e73ce828603cf08401c",
+      "canonicalSha256": "bed937d36532b8e6f8a31c1eabe1bd6f228c670bf6393e73ce828603cf08401c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/qa-results.json",
+      "bytes": 7855,
+      "sha256": "23155a34e6a193761d648b935444e6ee97207aafefb92807fbed1da69a6fef0b",
+      "canonicalSha256": "23155a34e6a193761d648b935444e6ee97207aafefb92807fbed1da69a6fef0b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/resume-B4.png",
+      "bytes": 376732,
+      "sha256": "ce7181629fecd5e59b543339137e35d682f832c831ad25a4c2e004d8d1ab471c",
+      "canonicalSha256": "ce7181629fecd5e59b543339137e35d682f832c831ad25a4c2e004d8d1ab471c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/return-fast.json",
+      "bytes": 76265,
+      "sha256": "bd1e69fe4b00d048fa3b3835ab9659b2641b97bcb0fbff68723e7ffafc37b4b0",
+      "canonicalSha256": "bd1e69fe4b00d048fa3b3835ab9659b2641b97bcb0fbff68723e7ffafc37b4b0"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/REVIEW.md",
+      "bytes": 10846,
+      "sha256": "acb6bcc613f557df03a96e40752816c3e6696f27d2fbd6089661c874037795e8",
+      "canonicalSha256": "acb6bcc613f557df03a96e40752816c3e6696f27d2fbd6089661c874037795e8"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/satellite-fast.json",
+      "bytes": 73532,
+      "sha256": "2fd43fb147dd1b32d9e99f42abfd49997e353f13899677522977c75572ad3ddf",
+      "canonicalSha256": "2fd43fb147dd1b32d9e99f42abfd49997e353f13899677522977c75572ad3ddf"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/security.json",
+      "bytes": 851,
+      "sha256": "6f2395d9ec7a5cc1a3f43c73a3af5049cee4e48f2cbc975d8115a91f7060dd71",
+      "canonicalSha256": "6f2395d9ec7a5cc1a3f43c73a3af5049cee4e48f2cbc975d8115a91f7060dd71"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/touched-files.json",
+      "bytes": 7595,
+      "sha256": "3753f3ac091a3f61a12120727a8cad4a196a5ccab5e787c330914ff1f906782b",
+      "canonicalSha256": "3753f3ac091a3f61a12120727a8cad4a196a5ccab5e787c330914ff1f906782b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/unit.json",
+      "bytes": 2756,
+      "sha256": "13f109a8f5fea93f0421f6f79aa989c8983d378a405beca8f590e23bd137f0eb",
+      "canonicalSha256": "13f109a8f5fea93f0421f6f79aa989c8983d378a405beca8f590e23bd137f0eb"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/unlocked-B.png",
+      "bytes": 402721,
+      "sha256": "780f69bb437143e60d8012b365cbbbd89064e741c337731752479d1131814026",
+      "canonicalSha256": "780f69bb437143e60d8012b365cbbbd89064e741c337731752479d1131814026"
+    },
+    {
+      "file": "docs/qa/game004-magnet-full-r1/unlocked-C.png",
+      "bytes": 398963,
+      "sha256": "187abbc4f87cb84eecd66b73925efb29a392eee2b5a8ea9be99f545dea78fa07",
+      "canonicalSha256": "187abbc4f87cb84eecd66b73925efb29a392eee2b5a8ea9be99f545dea78fa07"
+    }
+  ],
+  "derivedDistribution": [
+    {
+      "file": ".cache/magnet-full-r1-dist/assets/game-C0u_7NaW.js",
+      "bytes": 129424,
+      "sha256": "709b073c12cc535947e102691f69e99bd3d6cc7535579edc685f7a3dbe57c129",
+      "canonicalSha256": "709b073c12cc535947e102691f69e99bd3d6cc7535579edc685f7a3dbe57c129"
+    },
+    {
+      "file": ".cache/magnet-full-r1-dist/assets/game-Cn9VhVmP.css",
+      "bytes": 16455,
+      "sha256": "cb36920cd0f2b5f88c68851d9e05f22f11d76fb8d68ebd1c293d636dbac473a8",
+      "canonicalSha256": "cb36920cd0f2b5f88c68851d9e05f22f11d76fb8d68ebd1c293d636dbac473a8"
+    },
+    {
+      "file": ".cache/magnet-full-r1-dist/index.html",
+      "bytes": 2541,
+      "sha256": "b5470541ae983d7de7e67b023dea8fccf2287b887fb5bfc3b274f9db6f1fbe5c",
+      "canonicalSha256": "31784c2a15b08c2661c1e6853661adaa2254f5ac7d89c4e936b170b50e23d0ed"
+    },
+    {
+      "file": ".cache/magnet-full-r1-dist/review.html",
+      "bytes": 8169,
+      "sha256": "b7fa1fcb7f3a7ffc95a5a30294a12e0f520177d02f602260ec1940343f1fa421",
+      "canonicalSha256": "b7fa1fcb7f3a7ffc95a5a30294a12e0f520177d02f602260ec1940343f1fa421"
+    }
+  ]
+}

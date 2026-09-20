@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/?lang=en",
+      "status": 200
+    },
+    {
+      "path": "/review/",
+      "status": 200
+    },
+    {
+      "path": "/notes/production",
+      "status": 200
+    },
+    {
+      "path": "/notes/review",
+      "status": 200
+    },
+    {
+      "path": "/evidence/full-flow.webm",
+      "status": 200
+    },
+    {
+      "path": "/evidence/full-canvas-audio.webm",
+      "status": 200
+    },
+    {
+      "path": "/evidence/highlight.webm",
+      "status": 200
+    },
+    {
+      "path": "/evidence/B-satellite-stage5.png",
+      "status": 200
+    },
+    {
+      "path": "/evidence/A-cyclone-stage5.png",
+      "status": 200
+    },
+    {
+      "path": "/evidence/B-foundry-stage5.png",
+      "status": 200
+    },
+    {
+      "path": "/evidence/C-return-stage5.png",
+      "status": 200
+    },
+    {
+      "path": "/evidence/C-foundry-mobile-stage5.png",
+      "status": 200
+    },
+    {
+      "path": "/evidence/normal-end.png",
+      "status": 200
+    },
+    {
+      "path": "/.env",
+      "status": 404
+    },
+    {
+      "path": "/.tmp/physical-mobile-r2/tls/server.key",
+      "status": 404
+    },
+    {
+      "path": "/game004-magnet-tempo/core.ts",
+      "status": 404
+    },
+    {
+      "path": "/src/data/games.ts",
+      "status": 404
+    },
+    {
+      "path": "/api/collect",
+      "status": 404
+    },
+    {
+      "path": "/../SECURITY.md",
+      "status": 404
+    }
+  ],
+  "media": [
+    {
+      "name": "full-flow",
+      "duration": 449.64,
+      "decodedAndSeeked": true
+    },
+    {
+      "name": "full-canvas-audio",
+      "duration": 447.229,
+      "decodedAndSeeked": true
+    },
+    {
+      "name": "highlight",
+      "duration": 73.851,
+      "decodedAndSeeked": true
+    }
+  ],
+  "errors": [],
+  "productionSource": "preservation.json",
+  "scope": "loopback allowlist, CSP, media decode and seek; no external write",
+  "listening": "NOT TESTED"
+}

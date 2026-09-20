@@ -1,0 +1,36 @@
+{
+  "rawFullProject": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "approvedExistingFindings": 2,
+  "newFindings": 0,
+  "distribution": {
+    "status": "PASS",
+    "findings": [],
+    "files": 4,
+    "bytes": 156589
+  },
+  "checks": {
+    "tlsIgnored": true,
+    "tlsAbsentIndex": true,
+    "tlsAbsentHistoryPath": true,
+    "indexEmpty": true
+  },
+  "scannerExceptionsAdded": 0,
+  "externalWrites": 0,
+  "limits": "Raw known FAIL retained. No absolute absence claim; no external provider checks."
+}

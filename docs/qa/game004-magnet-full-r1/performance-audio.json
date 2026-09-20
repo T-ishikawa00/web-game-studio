@@ -1,0 +1,172 @@
+{
+  "mode": "Edge desktop 1280x800 realtime automated input, 6000-frame rolling sample; not mobile hardware or listening validation",
+  "operations": [
+    {
+      "mission": "A",
+      "time": 321.0333333332057,
+      "hp": 6,
+      "medianMs": 16.699999999982538,
+      "p95Ms": 16.79999999998836,
+      "rollingFrames": 6000,
+      "peak": {
+        "scraps": 70,
+        "particles": 138,
+        "enemies": 4
+      },
+      "audio": {
+        "expansionEvents": {},
+        "unlockAttempts": 1463,
+        "unlocks": 1463,
+        "failures": 0,
+        "events": {
+          "snap": 3731,
+          "launch": 272,
+          "hit": 188,
+          "break": 49,
+          "upgrade": 18,
+          "bump": 0,
+          "block": 482,
+          "warning": 72,
+          "damage": 0,
+          "complete": 6
+        },
+        "suppressed": {
+          "snap": 5673,
+          "hit": 132,
+          "warning": 5
+        },
+        "voicesStarted": 5822,
+        "voicesDropped": 247,
+        "voicesStopped": 276,
+        "pullStarts": 276,
+        "available": true,
+        "contextState": "running",
+        "contextTime": 333.83038548752836,
+        "muted": false,
+        "paused": false,
+        "activeVoices": 0,
+        "pullActive": false,
+        "extended": true
+      }
+    },
+    {
+      "mission": "B",
+      "time": 44.408333333331456,
+      "hp": 6,
+      "medianMs": 16.699999999953434,
+      "p95Ms": 16.79999999998836,
+      "rollingFrames": 6000,
+      "peak": {
+        "scraps": 70,
+        "particles": 160,
+        "enemies": 5
+      },
+      "audio": {
+        "expansionEvents": {
+          "rail-fire": 4,
+          "support-break": 5,
+          "foundry": 9,
+          "armor-impact": 3,
+          "carrier-charge": 1
+        },
+        "unlockAttempts": 1643,
+        "unlocks": 1643,
+        "failures": 0,
+        "events": {
+          "snap": 4054,
+          "launch": 308,
+          "hit": 338,
+          "break": 77,
+          "upgrade": 27,
+          "bump": 1,
+          "block": 521,
+          "warning": 83,
+          "damage": 1,
+          "complete": 12
+        },
+        "suppressed": {
+          "snap": 6093,
+          "hit": 248,
+          "warning": 6
+        },
+        "voicesStarted": 6716,
+        "voicesDropped": 255,
+        "voicesStopped": 317,
+        "pullStarts": 317,
+        "available": true,
+        "contextState": "running",
+        "contextTime": 392.93097505668936,
+        "muted": false,
+        "paused": false,
+        "activeVoices": 0,
+        "pullActive": false,
+        "extended": true
+      }
+    },
+    {
+      "mission": "C",
+      "time": 38.46666666666513,
+      "hp": 6,
+      "medianMs": 16.70000000001164,
+      "p95Ms": 16.79999999998836,
+      "rollingFrames": 6000,
+      "peak": {
+        "scraps": 70,
+        "particles": 150,
+        "enemies": 4
+      },
+      "audio": {
+        "expansionEvents": {
+          "rail-fire": 5,
+          "support-break": 7,
+          "foundry": 9,
+          "armor-impact": 3,
+          "carrier-charge": 1,
+          "magnet-pulse": 1,
+          "core-open": 1
+        },
+        "unlockAttempts": 1811,
+        "unlocks": 1811,
+        "failures": 0,
+        "events": {
+          "snap": 4352,
+          "launch": 339,
+          "hit": 504,
+          "break": 100,
+          "upgrade": 36,
+          "bump": 1,
+          "block": 537,
+          "warning": 99,
+          "damage": 1,
+          "complete": 18
+        },
+        "suppressed": {
+          "snap": 6513,
+          "hit": 385,
+          "warning": 8
+        },
+        "voicesStarted": 7462,
+        "voicesDropped": 263,
+        "voicesStopped": 350,
+        "pullStarts": 350,
+        "available": true,
+        "contextState": "running",
+        "contextTime": 445.9305215419501,
+        "muted": false,
+        "paused": false,
+        "activeVoices": 0,
+        "pullActive": false,
+        "extended": true
+      }
+    }
+  ],
+  "caps": {
+    "scraps": 70,
+    "particles": 220,
+    "voices": 18,
+    "eventRing": 180,
+    "frameSamples": 6000
+  },
+  "cleanup": "At each operation result activeVoices=0. Retry purges gameplay effects. Bound/object evidence, not an exhaustive long-duration heap leak proof.",
+  "audioDrops": "263 cumulative layered voice requests dropped at configured 18-voice cap; no audio initialization failure. Perceptual mix needs listening."
+}

@@ -1,0 +1,27 @@
+{
+  "capture": "Realtime trusted input. UI capture silent; Canvas capture VP9/Opus. No state manipulation or synthetic imagery. No speed changes.",
+  "highlight": "Continuous stream-copy excerpt requested at 374s for 73s; packet/keyframe boundary output 73.851s, includes B end and C full. No concatenation.",
+  "raw": ".tmp/magnet-full-r1/full-canvas-raw.webm",
+  "files": [
+    {
+      "file": "full-flow.webm",
+      "seconds": 449.64,
+      "bytes": 55865757,
+      "sha256": "04ad68fbc29f8413bcaba2262b98bfee3eb2a82ecaa917a834c9f91f5929dd5f"
+    },
+    {
+      "file": "full-canvas-audio.webm",
+      "seconds": 447.229,
+      "bytes": 96141108,
+      "sha256": "688d90963602de6c39383ebd155065d83fda26743cf2ada9a51ffda7ca6d287e"
+    },
+    {
+      "file": "highlight.webm",
+      "seconds": 73.851,
+      "bytes": 16248283,
+      "sha256": "670c0c505da20c573dfab448a3761eef3883cdbce980b9215a9dce973008e2d2"
+    }
+  ],
+  "decode": "delivery.json",
+  "listening": "NOT TESTED"
+}

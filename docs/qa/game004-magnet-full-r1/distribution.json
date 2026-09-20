@@ -1,0 +1,22 @@
+[
+  {
+    "file": "assets/game-C0u_7NaW.js",
+    "bytes": 129424,
+    "sha256": "709b073c12cc535947e102691f69e99bd3d6cc7535579edc685f7a3dbe57c129"
+  },
+  {
+    "file": "assets/game-Cn9VhVmP.css",
+    "bytes": 16455,
+    "sha256": "cb36920cd0f2b5f88c68851d9e05f22f11d76fb8d68ebd1c293d636dbac473a8"
+  },
+  {
+    "file": "index.html",
+    "bytes": 2541,
+    "sha256": "b5470541ae983d7de7e67b023dea8fccf2287b887fb5bfc3b274f9db6f1fbe5c"
+  },
+  {
+    "file": "review.html",
+    "bytes": 8169,
+    "sha256": "b7fa1fcb7f3a7ffc95a5a30294a12e0f520177d02f602260ec1940343f1fa421"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "timecodeScaleNs": 1000000,
+  "clusters": 681,
+  "tracks": {
+    "1": {
+      "blocks": 25040,
+      "firstPtsMs": 0,
+      "lastPtsMs": 447213,
+      "gaps": [
+        {
+          "fromMs": 166,
+          "toMs": 301,
+          "gapMs": 135
+        }
+      ]
+    },
+    "2": {
+      "blocks": 7323,
+      "firstPtsMs": 21,
+      "lastPtsMs": 445540,
+      "gaps": [
+        {
+          "fromMs": 8840,
+          "toMs": 9070,
+          "gapMs": 230
+        },
+        {
+          "fromMs": 38530,
+          "toMs": 38691,
+          "gapMs": 161
+        },
+        {
+          "fromMs": 70550,
+          "toMs": 71100,
+          "gapMs": 550
+        },
+        {
+          "fromMs": 179461,
+          "toMs": 179630,
+          "gapMs": 169
+        },
+        {
+          "fromMs": 334130,
+          "toMs": 336269,
+          "gapMs": 2139
+        },
+        {
+          "fromMs": 355371,
+          "toMs": 355540,
+          "gapMs": 169
+        },
+        {
+          "fromMs": 366160,
+          "toMs": 366459,
+          "gapMs": 299
+        },
+        {
+          "fromMs": 379831,
+          "toMs": 380011,
+          "gapMs": 180
+        },
+        {
+          "fromMs": 392791,
+          "toMs": 395370,
+          "gapMs": 2579
+        },
+        {
+          "fromMs": 418541,
+          "toMs": 418810,
+          "gapMs": 269
+        }
+      ]
+    }
+  },
+  "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+}

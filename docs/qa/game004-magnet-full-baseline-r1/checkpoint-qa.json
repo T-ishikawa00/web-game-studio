@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "pass": 28,
+    "fail": 0
+  },
+  "worktreeRebuild": "4 byte-identical files",
+  "indexRebuild": "4 canonical-identical files; HTML line endings only",
+  "diffCheck": {
+    "exit": 2,
+    "findings": [
+      "game004-magnet-full/accepted-core-reference.ts:163: new blank line at EOF.",
+      "game004-magnet-full/base-core.ts:163: new blank line at EOF.",
+      "game004-magnet-full/core.ts:56: new blank line at EOF.",
+      "game004-magnet-full/expansion-art.ts:26: new blank line at EOF.",
+      "game004-magnet-full/expansion-progression.ts:18: new blank line at EOF.",
+      "game004-magnet-full/index.html:10: new blank line at EOF.",
+      "game004-magnet-full/main.ts:50: trailing whitespace.",
+      "game004-magnet-full/main.ts:106: new blank line at EOF.",
+      "scripts/magnet-full-build.mjs:10: new blank line at EOF.",
+      "scripts/magnet-full-server.mjs:15: new blank line at EOF.",
+      "tests/magnet-full-flow.browser.mjs:43: new blank line at EOF.",
+      "tests/magnet-full-play.browser.mjs:44: new blank line at EOF."
+    ],
+    "disposition": "Pre-existing accepted frozen content; no normalization of originals and no check suppression."
+  },
+  "priorQA": {
+    "browserPass": 87,
+    "reused": true
+  }
+}
