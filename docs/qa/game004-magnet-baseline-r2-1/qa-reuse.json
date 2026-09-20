@@ -1,0 +1,141 @@
+{
+  "at": "2026-09-20T00:17:43.668Z",
+  "sourceAndDistributionHashesVerified": true,
+  "changeScope": "Acceptance/provenance/scope documentation and checkpoint only. Frozen game code/art/audio/UI unchanged.",
+  "reused": [
+    {
+      "evidence": "docs/qa/game004-magnet-tempo-r2-1/unit-tests.txt",
+      "result": "22 PASS",
+      "scope": "latest tuple-annotated source; no runtime change"
+    },
+    {
+      "evidence": "docs/qa/game004-magnet-tempo-r2-1/typecheck.txt",
+      "result": "strict + noUncheckedIndexedAccess PASS"
+    },
+    {
+      "evidence": "docs/qa/game004-magnet-tempo-r2-1/qa-results.json",
+      "result": "15 groups PASS"
+    },
+    {
+      "evidence": "docs/qa/game004-magnet-tempo-r2-1/terminal-qa.json",
+      "result": "4 groups PASS"
+    },
+    {
+      "evidence": "docs/qa/game004-magnet-tempo-r2-1/feedback-choice.json",
+      "result": "PASS"
+    },
+    {
+      "evidence": "docs/qa/game004-magnet-tempo-r2-1/feedback-interrupt.json",
+      "result": "PASS"
+    },
+    {
+      "evidence": "docs/qa/game004-magnet-tempo-r2-1/media-results.json",
+      "result": "PASS; final After capture/wording"
+    },
+    {
+      "evidence": "docs/qa/game004-magnet-tempo-r2-1/verification-scope.json",
+      "result": "Preserve full-run reuse qualifications: full runs predate final HUD text and SWARM choice CSS fix; core/input unchanged, strict tuple-only fix compiled identically"
+    },
+    {
+      "evidence": "docs/qa/game004-magnet-progression-r2/production-regression.json",
+      "result": "Reused; protected production hashes unchanged"
+    }
+  ],
+  "notRerun": [
+    "full game captures",
+    "all57puzzles",
+    "global suites"
+  ],
+  "reason": "No game/runtime/portal changes; unaffected passes reused per Playbook4.2. Two known stale global-test assumptions are not repaired or relabeled as this regression.",
+  "notAccepted": [
+    "both builds full Human run",
+    "physical smartphone",
+    "individual listening",
+    "external first-use",
+    "market viability",
+    "public release"
+  ],
+  "diffCheck": {
+    "rawStatus": "FAIL (11 inherited whitespace findings in newly tracked existing files)",
+    "findings": [
+      {
+        "file": "game004-magnet-tempo/core.ts",
+        "line": 163,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "game004-magnet-tempo/main.ts",
+        "line": 36,
+        "type": "trailing whitespace.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "game004-magnet-tempo/main.ts",
+        "line": 89,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "game004-magnet-tempo/style.css",
+        "line": 13,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "scripts/magnet-tempo-build.mjs",
+        "line": 10,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "scripts/magnet-tempo-server.mjs",
+        "line": 15,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-art.test.ts",
+        "line": 96,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-core.test.ts",
+        "line": 436,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-play.browser.mjs",
+        "line": 82,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-qa.browser.mjs",
+        "line": 30,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-terminal.browser.mjs",
+        "line": 17,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      }
+    ],
+    "newAdoptionDiff": "PASS",
+    "scannerOrGitWhitespacePolicyWeakened": false
+  },
+  "newArchiveHelper": {
+    "status": "PASS",
+    "checks": [
+      "missing output restored byte-exact",
+      "existing exact output verified without overwrite",
+      "existing different output refused and unchanged",
+      "corrupt part refused"
+    ],
+    "fixtureOnlyMutations": true
+  }
+}

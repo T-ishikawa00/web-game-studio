@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "No-input run remains at zero",
+    "Pause after phase boundary stops actual simulation",
+    "Mid-run orientation retains progression",
+    "Actual failure panel immediate Retry resets run and hides result"
+  ],
+  "errors": [],
+  "method": "Browser clock simulation for edge cases; not performance evidence or the real-time full-run capture"
+}

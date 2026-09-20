@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "syntheticClickRejected": true,
+      "releaseWithoutNewPressRejected": true,
+      "heldKeyReleaseRejected": true,
+      "choicePauseSafe": true,
+      "freshKeyboardAccepted": true,
+      "duplicateRejected": true,
+      "equipRetryClean": true,
+      "mutedReducedReadable": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "mode": "accelerated browser clock; actual DOM input, no world mutation"
+}

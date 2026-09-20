@@ -1,0 +1,30 @@
+✔ x-axis collision coordinate renders a vertical lane with the same half-width bounds (1.04ms)
+✔ y-axis collision coordinate renders a horizontal lane with the same half-width bounds (0.1438ms)
+✔ lane stays amber during telegraph and changes to coral only once active (0.1023ms)
+✔ progression preserves the Gold opening layout and first volley (7.3113ms)
+✔ relays progress in order and choices pause safely until a valid selection (3.4592ms)
+✔ choice branches change radius, capacity, pierce count, and evolution tier (1.4853ms)
+✔ cleared combat stages confirm immediately and present clear without padding combat time (0.206ms)
+✔ lane hazards use the rendered half-width edge and respect invulnerability (0.1788ms)
+✔ reactor locks split the final elite into three exposed damage cycles (1.3167ms)
+✔ failure and reset clear run progression without leaking build or encounter state (0.7546ms)
+✔ LANCE expels blank orbit scrap so nearby salvaged plating cannot be capacity-starved (1.6287ms)
+✔ an eight-minute active run has no artificial cutoff and preserves object caps (66.748ms)
+✔ clearing guards accelerates replenishment instead of imposing nine seconds of idle time (2.0199ms)
+✔ switching a loaded SWARM to final LANCE releases excess metal instead of exceeding the new rack (0.1592ms)
+✔ fatal current ends the step before a queued projectile can turn failure into a clear (0.106ms)
+✔ automatic delivery uses exactly the current quota, preserves old charge, surplus, metal and reward (1.5662ms)
+✔ no automatic spending during combat or reactor locks; manual power window remains tactical (0.5402ms)
+✔ insufficient energy never borrows old stock and allows the unchanged reinforcement path (5.8091ms)
+✔ last break survives a 650ms clear, exact one choice, no hostile simulation, no run-time padding (0.8944ms)
+✔ pause and Retry cancel every delayed stage, choice and equipment event (2.0294ms)
+✔ multi-relay auto delivery is ordered and leaves excess for the next sector (0.4104ms)
+✔ reduced motion and mute-independent simulation retain completion and recover pickup credit (1.1008ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 259.9725

@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "videos": {
+    "before": {
+      "meta": {
+        "duration": 16.08,
+        "position": 0.320065,
+        "width": 1280,
+        "height": 800,
+        "error": null
+      },
+      "packets": {
+        "timecodeScaleNs": 1000000,
+        "clusters": 9,
+        "tracks": {
+          "1": {
+            "blocks": 268,
+            "firstPtsMs": 0,
+            "lastPtsMs": 16018,
+            "gaps": []
+          },
+          "2": {
+            "blocks": 892,
+            "firstPtsMs": 57,
+            "lastPtsMs": 16079,
+            "gaps": []
+          }
+        },
+        "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+      },
+      "signal": {
+        "peak": 0.4923294186592102,
+        "invalid": 0,
+        "nonzero": 1439191,
+        "seconds": 16.08
+      }
+    },
+    "after": {
+      "meta": {
+        "duration": 9.651,
+        "position": 0.360856,
+        "width": 1280,
+        "height": 800,
+        "error": null
+      },
+      "packets": {
+        "timecodeScaleNs": 1000000,
+        "clusters": 6,
+        "tracks": {
+          "1": {
+            "blocks": 552,
+            "firstPtsMs": 0,
+            "lastPtsMs": 9650,
+            "gaps": [
+              {
+                "fromMs": 0,
+                "toMs": 101,
+                "gapMs": 101
+              }
+            ]
+          },
+          "2": {
+            "blocks": 161,
+            "firstPtsMs": 32,
+            "lastPtsMs": 9631,
+            "gaps": []
+          }
+        },
+        "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+      },
+      "signal": {
+        "peak": 0.42057913541793823,
+        "invalid": 0,
+        "nonzero": 796349,
+        "seconds": 9.66
+      }
+    },
+    "full-run": {
+      "meta": {
+        "duration": 253.412,
+        "position": 0.320116,
+        "width": 1280,
+        "height": 800,
+        "error": null
+      },
+      "packets": {
+        "timecodeScaleNs": 1000000,
+        "clusters": 147,
+        "tracks": {
+          "1": {
+            "blocks": 14796,
+            "firstPtsMs": 0,
+            "lastPtsMs": 253411,
+            "gaps": [
+              {
+                "fromMs": 249,
+                "toMs": 421,
+                "gapMs": 172
+              }
+            ]
+          },
+          "2": {
+            "blocks": 4188,
+            "firstPtsMs": 21,
+            "lastPtsMs": 252732,
+            "gaps": [
+              {
+                "fromMs": 13401,
+                "toMs": 13930,
+                "gapMs": 529
+              },
+              {
+                "fromMs": 15730,
+                "toMs": 15849,
+                "gapMs": 119
+              },
+              {
+                "fromMs": 37210,
+                "toMs": 37812,
+                "gapMs": 602
+              },
+              {
+                "fromMs": 211692,
+                "toMs": 212172,
+                "gapMs": 480
+              }
+            ]
+          }
+        },
+        "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+      },
+      "signal": {
+        "peak": 0.5348295569419861,
+        "invalid": 0,
+        "nonzero": 22139234,
+        "seconds": 251.28
+      }
+    }
+  },
+  "external": [],
+  "limits": "Native canvas/WebAudio recordings, continuous before/after + SWARM full run. LANCE ordinary real-time touch trace, not video. Stream-copy metadata only. Audio finite signal is not listening review. Physical devices, first-time comprehension, Human achievement/fun PENDING."
+}

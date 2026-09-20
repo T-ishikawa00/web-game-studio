@@ -1,0 +1,48 @@
+{
+  "at": "2026-09-19T16:06:01.679Z",
+  "status": "PASS",
+  "scope": "local frozen Production regression; not Human or physical-device acceptance",
+  "artifact": {
+    "root": ".cache/tinlumo-mvp-portal-baseline-r1",
+    "authority": null,
+    "manifest": "docs/qa/mvp-portal-release-r1/distribution-manifest.json",
+    "manifestAt": "2026-09-17T10:39:08.825Z",
+    "expectedFiles": 52,
+    "actualFiles": 52,
+    "allBytesAndSha256Match": true,
+    "rebuild": false,
+    "distributionWrites": false
+  },
+  "environment": "Windows / Edge headless / Playwright / self-contained 127.0.0.1:4367 server",
+  "checks": [
+    "portal-ja",
+    "portal-en",
+    "tiny-delivery-launch-input-save-reload",
+    "light-garden-launch-input-save-reload",
+    "two-ways-home-launch-input-save-reload"
+  ],
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "games": [
+    "tiny-delivery",
+    "light-garden",
+    "two-ways-home"
+  ],
+  "consent": {
+    "default": "OFF",
+    "storedChoiceInitially": null,
+    "providerRequests": 0
+  },
+  "network": {
+    "externalRequests": 0,
+    "allExternalBlocked": true,
+    "productionDomainCalls": 0
+  },
+  "isolation": {
+    "progressionSliceLinked": false,
+    "progressionSliceDistributed": false
+  },
+  "pageErrors": 0
+}

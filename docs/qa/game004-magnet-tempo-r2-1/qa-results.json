@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "No audio graph before real input",
+      "status": "PASS"
+    },
+    {
+      "name": "WASD moves actual player",
+      "status": "PASS"
+    },
+    {
+      "name": "Pointer gather and release launches collision-tested material",
+      "status": "PASS"
+    },
+    {
+      "name": "Restart returns to clean finite slice",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause cancels held action/audio and does not shoot on resume",
+      "status": "PASS"
+    },
+    {
+      "name": "Mute stops and suppresses sound while play continues",
+      "status": "PASS"
+    },
+    {
+      "name": "Motion reduction selectable",
+      "status": "PASS"
+    },
+    {
+      "name": "320 / 390 / landscape / desktop resizing with world adaptation",
+      "status": "PASS"
+    },
+    {
+      "name": "Real browser multi-touch: simultaneous movement and magnetic gather",
+      "status": "PASS"
+    },
+    {
+      "name": "Aim drag / release fires while other touch continues moving",
+      "status": "PASS"
+    },
+    {
+      "name": "Touch cancellation clears hold/movement; no scroll conflict",
+      "status": "PASS"
+    },
+    {
+      "name": "OS reduced motion respected on entry",
+      "status": "PASS"
+    },
+    {
+      "name": "Audio construction failure preserves gameplay",
+      "status": "PASS"
+    },
+    {
+      "name": "Server allowlist blocks repo / secret paths and writes",
+      "status": "PASS"
+    },
+    {
+      "name": "No runtime exceptions, storage writes, or external requests",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "physicalDevices": "NOT TESTED",
+  "firstTimeHuman": "PENDING",
+  "browser": "Playwright / local installed Edge"
+}

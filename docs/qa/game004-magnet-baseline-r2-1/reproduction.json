@@ -1,0 +1,75 @@
+{
+  "mode": "working-tree inputs",
+  "artifacts": 70,
+  "outputs": [
+    {
+      "file": "assets/game-BgrqV_LX.js",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "file": "assets/game-Cs3eyWl5.css",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "file": "index.html",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "file": "review.html",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    }
+  ],
+  "status": "PASS",
+  "normalization": "Only CRLF/LF in text. Original byte hashes retained. Binary evidence is exact.",
+  "originalSourceOrDistributionWrites": 0,
+  "stagedIndex": {
+    "mode": "full-index inputs",
+    "artifacts": 70,
+    "outputs": [
+      {
+        "file": "assets/game-BgrqV_LX.js",
+        "byteIdentical": true,
+        "canonicalIdentical": true
+      },
+      {
+        "file": "assets/game-Cs3eyWl5.css",
+        "byteIdentical": true,
+        "canonicalIdentical": true
+      },
+      {
+        "file": "index.html",
+        "byteIdentical": true,
+        "canonicalIdentical": true
+      },
+      {
+        "file": "review.html",
+        "byteIdentical": true,
+        "canonicalIdentical": true
+      }
+    ],
+    "status": "PASS",
+    "normalization": "Only CRLF/LF in text. Original byte hashes retained. Binary evidence is exact.",
+    "originalSourceOrDistributionWrites": 0
+  },
+  "mediaArchive": {
+    "status": "PASS",
+    "parts": 2,
+    "bytes": 104523012,
+    "originalPreserved": true,
+    "fullIndexUsesPartsOnly": true,
+    "helperTests": {
+      "status": "PASS",
+      "checks": [
+        "missing output restored byte-exact",
+        "existing exact output verified without overwrite",
+        "existing different output refused and unchanged",
+        "corrupt part refused"
+      ],
+      "fixtureOnlyMutations": true
+    }
+  }
+}

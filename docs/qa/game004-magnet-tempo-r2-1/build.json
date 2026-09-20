@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-19T23:41:46.068Z",
+  "root": "game004-magnet-tempo",
+  "out": ".cache/magnet-tempo-r2-1-dist",
+  "sources": [
+    {
+      "file": "core.ts",
+      "sha256": "65124a473dad1e4480bac8ae839e5e0d8eb0971cdbb3cf0f43f2d251676a694b"
+    },
+    {
+      "file": "progression.ts",
+      "sha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51"
+    },
+    {
+      "file": "art.ts",
+      "sha256": "fe96dfa9aa47e0bf0dd6ade84401249e376502ebb6e8aaa2e7f55fb7a0dc7b04"
+    },
+    {
+      "file": "main.ts",
+      "sha256": "0a6169c55ac266417618afe9e482f8d8417071ae25209ecef9e8b7c02ef6c761"
+    },
+    {
+      "file": "audio.ts",
+      "sha256": "5facdc4ebdca9fea150fc487c55960d57431f462580a3865a6e5a231edd239c3"
+    },
+    {
+      "file": "style.css",
+      "sha256": "124c836c3f68c3734dd711623aa156a329b489eea944e444493773d6ef8e4f48"
+    },
+    {
+      "file": "index.html",
+      "sha256": "4d52970977aa8a2aebd1d5fae03f704f577189889ac220190adcff89d3d19db7"
+    },
+    {
+      "file": "review.html",
+      "sha256": "137100047bc81ac409afadcff53c2ca2be2e84307e18b607e4a0b8cacd85d4ff"
+    }
+  ]
+}

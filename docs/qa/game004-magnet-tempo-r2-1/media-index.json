@@ -1,0 +1,186 @@
+[
+  {
+    "name": "full-run",
+    "mode": "stream copy; add seekable WebM container metadata, no encoding/speed/filter changes",
+    "rawBytes": 104524405,
+    "indexedBytes": 104523012,
+    "before": {
+      "timecodeScaleNs": 1000000,
+      "clusters": 394,
+      "tracks": {
+        "1": {
+          "blocks": 14796,
+          "firstPtsMs": 0,
+          "lastPtsMs": 253411,
+          "gaps": [
+            {
+              "fromMs": 249,
+              "toMs": 421,
+              "gapMs": 172
+            }
+          ]
+        },
+        "2": {
+          "blocks": 4188,
+          "firstPtsMs": 21,
+          "lastPtsMs": 252732,
+          "gaps": [
+            {
+              "fromMs": 13401,
+              "toMs": 13930,
+              "gapMs": 529
+            },
+            {
+              "fromMs": 15730,
+              "toMs": 15849,
+              "gapMs": 119
+            },
+            {
+              "fromMs": 37210,
+              "toMs": 37812,
+              "gapMs": 602
+            },
+            {
+              "fromMs": 211692,
+              "toMs": 212172,
+              "gapMs": 480
+            }
+          ]
+        }
+      },
+      "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+    },
+    "after": {
+      "timecodeScaleNs": 1000000,
+      "clusters": 147,
+      "tracks": {
+        "1": {
+          "blocks": 14796,
+          "firstPtsMs": 0,
+          "lastPtsMs": 253411,
+          "gaps": [
+            {
+              "fromMs": 249,
+              "toMs": 421,
+              "gapMs": 172
+            }
+          ]
+        },
+        "2": {
+          "blocks": 4188,
+          "firstPtsMs": 21,
+          "lastPtsMs": 252732,
+          "gaps": [
+            {
+              "fromMs": 13401,
+              "toMs": 13930,
+              "gapMs": 529
+            },
+            {
+              "fromMs": 15730,
+              "toMs": 15849,
+              "gapMs": 119
+            },
+            {
+              "fromMs": 37210,
+              "toMs": 37812,
+              "gapMs": 602
+            },
+            {
+              "fromMs": 211692,
+              "toMs": 212172,
+              "gapMs": 480
+            }
+          ]
+        }
+      },
+      "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+    }
+  },
+  {
+    "name": "highlight",
+    "mode": "stream copy; add seekable WebM container metadata, no encoding/speed/filter changes",
+    "rawBytes": 16749331,
+    "indexedBytes": 16749435,
+    "before": {
+      "timecodeScaleNs": 1000000,
+      "clusters": 66,
+      "tracks": {
+        "1": {
+          "blocks": 2499,
+          "firstPtsMs": 0,
+          "lastPtsMs": 43575,
+          "gaps": []
+        },
+        "2": {
+          "blocks": 691,
+          "firstPtsMs": 33,
+          "lastPtsMs": 42919,
+          "gaps": [
+            {
+              "fromMs": 9390,
+              "toMs": 9917,
+              "gapMs": 527
+            },
+            {
+              "fromMs": 11475,
+              "toMs": 11597,
+              "gapMs": 122
+            },
+            {
+              "fromMs": 14300,
+              "toMs": 14903,
+              "gapMs": 603
+            },
+            {
+              "fromMs": 25460,
+              "toMs": 25942,
+              "gapMs": 482
+            }
+          ]
+        }
+      },
+      "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+    },
+    "after": {
+      "timecodeScaleNs": 1000000,
+      "clusters": 25,
+      "tracks": {
+        "1": {
+          "blocks": 2499,
+          "firstPtsMs": 0,
+          "lastPtsMs": 43575,
+          "gaps": []
+        },
+        "2": {
+          "blocks": 691,
+          "firstPtsMs": 33,
+          "lastPtsMs": 42919,
+          "gaps": [
+            {
+              "fromMs": 9390,
+              "toMs": 9917,
+              "gapMs": 527
+            },
+            {
+              "fromMs": 11475,
+              "toMs": 11597,
+              "gapMs": 122
+            },
+            {
+              "fromMs": 14300,
+              "toMs": 14903,
+              "gapMs": 603
+            },
+            {
+              "fromMs": 25460,
+              "toMs": 25942,
+              "gapMs": 482
+            }
+          ]
+        }
+      },
+      "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+    }
+  }
+]

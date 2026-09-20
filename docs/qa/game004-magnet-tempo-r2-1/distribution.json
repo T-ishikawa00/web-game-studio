@@ -1,0 +1,22 @@
+[
+  {
+    "file": "assets/game-BgrqV_LX.js",
+    "bytes": 66829,
+    "sha256": "fb9c96ee6160b6831e7f524cb124ea367ade599921a8a715616f04124481f5b4"
+  },
+  {
+    "file": "assets/game-Cs3eyWl5.css",
+    "bytes": 6569,
+    "sha256": "a9d2c91d744b619de0737b8bb1997efa6e9771f3e9ad7acd5243c3fbaa3e655b"
+  },
+  {
+    "file": "index.html",
+    "bytes": 2406,
+    "sha256": "b817d37c2e19bc885a38c77e9ae2358f93e71194a4546ff9ab02e5b724bf3580"
+  },
+  {
+    "file": "review.html",
+    "bytes": 4823,
+    "sha256": "42cb6e36ad005aa59088a25f0b5fbb19e9a5b04de6f169f8ed276599f289cb60"
+  }
+]

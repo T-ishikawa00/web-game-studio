@@ -1,0 +1,21 @@
+{
+  "finalSource": {
+    "core.ts": "65124a473dad1e4480bac8ae839e5e0d8eb0971cdbb3cf0f43f2d251676a694b",
+    "art.ts": "fe96dfa9aa47e0bf0dd6ade84401249e376502ebb6e8aaa2e7f55fb7a0dc7b04",
+    "audio.ts": "5facdc4ebdca9fea150fc487c55960d57431f462580a3865a6e5a231edd239c3",
+    "main.ts": "0a6169c55ac266417618afe9e482f8d8417071ae25209ecef9e8b7c02ef6c761",
+    "progression.ts": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51"
+  },
+  "artByteIdenticalToR2": true,
+  "audioByteIdenticalToR2": true,
+  "productionReuse": {
+    "evidence": "../game004-magnet-progression-r2/production-regression.json",
+    "reason": "No shared source/runtime/save/portal/distribution changes; all baseline hashes verified by preservation.json"
+  },
+  "fullRunReuse": "SWARM and LANCE real-time runs precede final HUD-only text correction. Core/physics/transition/input identical; fresh After video validates corrected copy. SWARM DOM choice stylesheet pre-fix; recorded canvas unchanged by CSS fix. Final strict typecheck adds tuple annotation only; compiled JS remains game-BgrqV_LX.js byte-identical.",
+  "models": {
+    "primary": "gpt-6-astra",
+    "boundedReadOnlyResearchAndReview": "gpt-5.6-sol"
+  },
+  "humanGate": "PENDING"
+}

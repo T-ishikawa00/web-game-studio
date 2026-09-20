@@ -1,0 +1,5338 @@
+{
+  "errors": [],
+  "external": [],
+  "transitions": [
+    {
+      "wall": 466.89999997615814,
+      "time": 0.21666666666666665,
+      "runTime": 0,
+      "stage": 0,
+      "encounter": "combat",
+      "alive": 4,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 7740.299999952316,
+      "time": 7.491666666666829,
+      "runTime": 7.258333333333484,
+      "stage": 0,
+      "encounter": "combat",
+      "alive": 3,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 11056.5,
+      "time": 10.80833333333336,
+      "runTime": 10.57500000000004,
+      "stage": 0,
+      "encounter": "combat",
+      "alive": 4,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 11573.599999964237,
+      "time": 11.324999999999998,
+      "runTime": 11.091666666666677,
+      "stage": 0,
+      "encounter": "combat",
+      "alive": 3,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 13458.799999952316,
+      "time": 13.208333333333224,
+      "runTime": 12.974999999999904,
+      "stage": 0,
+      "encounter": "combat",
+      "alive": 3,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 15256.799999952316,
+      "time": 15.008333333333121,
+      "runTime": 14.774999999999801,
+      "stage": 0,
+      "encounter": "combat",
+      "alive": 2,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 17306.899999976158,
+      "time": 17.058333333333007,
+      "runTime": 16.824999999999687,
+      "stage": 0,
+      "encounter": "combat",
+      "alive": 1,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 19407.899999976158,
+      "time": 19.158333333332887,
+      "runTime": 18.924999999999567,
+      "stage": 0,
+      "encounter": "combat",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 19425.399999976158,
+      "time": 19.174999999999553,
+      "runTime": 18.9333333333329,
+      "stage": 0,
+      "encounter": "settle",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 20081.799999952316,
+      "time": 19.816666666666183,
+      "runTime": 18.9333333333329,
+      "stage": 0,
+      "encounter": "choice",
+      "alive": 0,
+      "all": true,
+      "selectable": true,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 21847.5,
+      "time": 19.816666666666183,
+      "runTime": 18.9333333333329,
+      "stage": 0,
+      "encounter": "equip",
+      "alive": 0,
+      "all": true,
+      "selectable": true,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 21857.899999976158,
+      "time": 19.83333333333285,
+      "runTime": 18.9333333333329,
+      "stage": 0,
+      "encounter": "equip",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 22025.5,
+      "time": 19.999999999999506,
+      "runTime": 18.9333333333329,
+      "stage": 1,
+      "encounter": "combat",
+      "alive": 3,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 27108.19999998808,
+      "time": 25.08333333333255,
+      "runTime": 24.016666666665945,
+      "stage": 1,
+      "encounter": "combat",
+      "alive": 2,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 27224.299999952316,
+      "time": 25.19999999999921,
+      "runTime": 24.133333333332605,
+      "stage": 1,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 30007.399999976158,
+      "time": 27.983333333332386,
+      "runTime": 26.91666666666578,
+      "stage": 1,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 30039.899999976158,
+      "time": 28.016666666665717,
+      "runTime": 26.94999999999911,
+      "stage": 1,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 32907,
+      "time": 30.88333333333222,
+      "runTime": 29.816666666665615,
+      "stage": 1,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 0
+    },
+    {
+      "wall": 35123.09999996424,
+      "time": 33.099999999998765,
+      "runTime": 32.03333333333216,
+      "stage": 1,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 5
+    },
+    {
+      "wall": 36908,
+      "time": 34.883333333332,
+      "runTime": 33.81666666666539,
+      "stage": 1,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 5
+    },
+    {
+      "wall": 37173.39999997616,
+      "time": 35.14999999999865,
+      "runTime": 34.08333333333204,
+      "stage": 1,
+      "encounter": "settle",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 9
+    },
+    {
+      "wall": 37826.59999996424,
+      "time": 35.79999999999861,
+      "runTime": 34.08333333333204,
+      "stage": 1,
+      "encounter": "choice",
+      "alive": 0,
+      "all": true,
+      "selectable": true,
+      "hp": 6,
+      "auto": 9
+    },
+    {
+      "wall": 39652.59999996424,
+      "time": 35.79999999999861,
+      "runTime": 34.08333333333204,
+      "stage": 1,
+      "encounter": "equip",
+      "alive": 0,
+      "all": true,
+      "selectable": true,
+      "hp": 6,
+      "auto": 9
+    },
+    {
+      "wall": 39658,
+      "time": 35.81666666666528,
+      "runTime": 34.08333333333204,
+      "stage": 1,
+      "encounter": "equip",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 9
+    },
+    {
+      "wall": 39824.09999996424,
+      "time": 35.983333333331935,
+      "runTime": 34.08333333333204,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 3,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 9
+    },
+    {
+      "wall": 42006.799999952316,
+      "time": 38.166666666665144,
+      "runTime": 36.26666666666525,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 2,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 9
+    },
+    {
+      "wall": 43423.59999996424,
+      "time": 39.58333333333173,
+      "runTime": 37.68333333333184,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 9
+    },
+    {
+      "wall": 44640.69999998808,
+      "time": 40.79999999999833,
+      "runTime": 38.899999999998435,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 9
+    },
+    {
+      "wall": 46856,
+      "time": 43.01666666666487,
+      "runTime": 41.116666666664976,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 19
+    },
+    {
+      "wall": 48856.799999952316,
+      "time": 45.016666666664754,
+      "runTime": 43.11666666666486,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 19
+    },
+    {
+      "wall": 51072.89999997616,
+      "time": 47.233333333331295,
+      "runTime": 45.3333333333314,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 24
+    },
+    {
+      "wall": 52973.59999996424,
+      "time": 49.13333333333119,
+      "runTime": 47.233333333331295,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 24
+    },
+    {
+      "wall": 55190.39999997616,
+      "time": 51.34999999999773,
+      "runTime": 49.449999999997836,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 29
+    },
+    {
+      "wall": 56808.299999952316,
+      "time": 52.9666666666643,
+      "runTime": 51.06666666666441,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 29
+    },
+    {
+      "wall": 59022.89999997616,
+      "time": 55.18333333333084,
+      "runTime": 53.28333333333095,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 34
+    },
+    {
+      "wall": 68039.5,
+      "time": 64.19999999999716,
+      "runTime": 62.299999999997105,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 2,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 34
+    },
+    {
+      "wall": 73073.89999997616,
+      "time": 69.2333333333345,
+      "runTime": 67.33333333333299,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 34
+    },
+    {
+      "wall": 74457.09999996424,
+      "time": 70.61666666666893,
+      "runTime": 68.71666666666742,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 34
+    },
+    {
+      "wall": 76656.19999998808,
+      "time": 72.81666666667068,
+      "runTime": 70.91666666666917,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 39
+    },
+    {
+      "wall": 78706.79999995232,
+      "time": 74.86666666667232,
+      "runTime": 72.9666666666708,
+      "stage": 2,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 39
+    },
+    {
+      "wall": 78956.69999998808,
+      "time": 75.11666666667251,
+      "runTime": 73.216666666671,
+      "stage": 2,
+      "encounter": "settle",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 42
+    },
+    {
+      "wall": 79607.69999998808,
+      "time": 75.76666666667303,
+      "runTime": 73.216666666671,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 3,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 42
+    },
+    {
+      "wall": 82607.19999998808,
+      "time": 78.76666666667542,
+      "runTime": 76.21666666667339,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 2,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 42
+    },
+    {
+      "wall": 83923.69999998808,
+      "time": 80.08333333334313,
+      "runTime": 77.5333333333411,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 42
+    },
+    {
+      "wall": 86740.19999998808,
+      "time": 82.90000000001204,
+      "runTime": 80.35000000001001,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 42
+    },
+    {
+      "wall": 87606.29999995232,
+      "time": 83.7666666666794,
+      "runTime": 81.21666666667737,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 52
+    },
+    {
+      "wall": 89323.5,
+      "time": 85.48333333334743,
+      "runTime": 82.9333333333454,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 52
+    },
+    {
+      "wall": 91523.19999998808,
+      "time": 87.68333333334918,
+      "runTime": 85.13333333334715,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 57
+    },
+    {
+      "wall": 93590.89999997616,
+      "time": 89.7500000000175,
+      "runTime": 87.20000000001546,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 57
+    },
+    {
+      "wall": 95792.39999997616,
+      "time": 91.95000000001924,
+      "runTime": 89.40000000001722,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 62
+    },
+    {
+      "wall": 101607,
+      "time": 97.76666666669054,
+      "runTime": 95.21666666668851,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 62
+    },
+    {
+      "wall": 103823.39999997616,
+      "time": 99.98333333335897,
+      "runTime": 97.43333333335694,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 67
+    },
+    {
+      "wall": 105756.89999997616,
+      "time": 101.91666666669384,
+      "runTime": 99.36666666669181,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 67
+    },
+    {
+      "wall": 107973.09999996424,
+      "time": 104.13333333336227,
+      "runTime": 101.58333333336024,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 72
+    },
+    {
+      "wall": 109891.5,
+      "time": 106.05000000003047,
+      "runTime": 103.50000000002844,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 72
+    },
+    {
+      "wall": 112106.5,
+      "time": 108.2666666666989,
+      "runTime": 105.71666666669687,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 77
+    },
+    {
+      "wall": 115190.19999998808,
+      "time": 111.35000000003468,
+      "runTime": 108.80000000003265,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 77
+    },
+    {
+      "wall": 117390.59999996424,
+      "time": 113.55000000003643,
+      "runTime": 111.0000000000344,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 82
+    },
+    {
+      "wall": 119313.19999998808,
+      "time": 115.47500000003797,
+      "runTime": 112.92500000003594,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 82
+    },
+    {
+      "wall": 121528.89999997616,
+      "time": 117.6916666667064,
+      "runTime": 115.14166666670437,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 87
+    },
+    {
+      "wall": 123363.79999995232,
+      "time": 119.52500000004119,
+      "runTime": 116.97500000003916,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 87
+    },
+    {
+      "wall": 125562.39999997616,
+      "time": 121.72500000004294,
+      "runTime": 119.17500000004091,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 92
+    },
+    {
+      "wall": 128662.59999996424,
+      "time": 124.8250000000454,
+      "runTime": 122.27500000004338,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 92
+    },
+    {
+      "wall": 130862.29999995232,
+      "time": 127.02500000004716,
+      "runTime": 124.47500000004513,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 139879,
+      "time": 136.04166666670727,
+      "runTime": 133.4916666667096,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 2,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 142279.39999997616,
+      "time": 138.4416666667051,
+      "runTime": 135.8916666667074,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 148878.79999995232,
+      "time": 145.0416666666991,
+      "runTime": 142.4916666667014,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 2,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 151895.89999997616,
+      "time": 148.058333333363,
+      "runTime": 145.50833333336533,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 155863.59999996424,
+      "time": 152.02500000002607,
+      "runTime": 149.4750000000284,
+      "stage": 3,
+      "encounter": "combat",
+      "alive": 1,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 155980.59999996424,
+      "time": 152.14166666669263,
+      "runTime": 149.59166666669495,
+      "stage": 3,
+      "encounter": "settle",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 156630.19999998808,
+      "time": 152.79166666669204,
+      "runTime": 149.59166666669495,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 3,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 161262.79999995232,
+      "time": 157.42500000002116,
+      "runTime": 154.22500000002407,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 2,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 97
+    },
+    {
+      "wall": 164646.09999996424,
+      "time": 160.8083333333514,
+      "runTime": 157.60833333335432,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 3,
+      "all": false,
+      "selectable": false,
+      "hp": 5,
+      "auto": 97
+    },
+    {
+      "wall": 168080.79999995232,
+      "time": 164.24166666668162,
+      "runTime": 161.04166666668453,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 2,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 97
+    },
+    {
+      "wall": 169446.79999995232,
+      "time": 165.60833333334705,
+      "runTime": 162.40833333334996,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 97
+    },
+    {
+      "wall": 170816.09999996424,
+      "time": 166.97500000001247,
+      "runTime": 163.77500000001538,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 97
+    },
+    {
+      "wall": 173029.29999995232,
+      "time": 169.19166666667712,
+      "runTime": 165.99166666668003,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 114
+    },
+    {
+      "wall": 175230.19999998808,
+      "time": 171.39166666667512,
+      "runTime": 168.19166666667803,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 114
+    },
+    {
+      "wall": 177445.5,
+      "time": 173.60833333333977,
+      "runTime": 170.40833333334268,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 119
+    },
+    {
+      "wall": 180563,
+      "time": 176.7250000000036,
+      "runTime": 173.52500000000651,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 119
+    },
+    {
+      "wall": 182779.19999998808,
+      "time": 178.94166666666825,
+      "runTime": 175.74166666667116,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 124
+    },
+    {
+      "wall": 184679.5,
+      "time": 180.84166666666653,
+      "runTime": 177.64166666666944,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 124
+    },
+    {
+      "wall": 186895.39999997616,
+      "time": 183.05833333333118,
+      "runTime": 179.8583333333341,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 3,
+      "auto": 129
+    },
+    {
+      "wall": 188813.39999997616,
+      "time": 184.9749999999961,
+      "runTime": 181.774999999999,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 129
+    },
+    {
+      "wall": 191029.5,
+      "time": 187.19166666666075,
+      "runTime": 183.99166666666366,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 134
+    },
+    {
+      "wall": 194179.69999998808,
+      "time": 190.3416666666579,
+      "runTime": 187.1416666666608,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 134
+    },
+    {
+      "wall": 196395.89999997616,
+      "time": 192.55833333332254,
+      "runTime": 189.35833333332545,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 139
+    },
+    {
+      "wall": 198447.39999997616,
+      "time": 194.60833333332067,
+      "runTime": 191.40833333332358,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 139
+    },
+    {
+      "wall": 200662.69999998808,
+      "time": 196.82499999998532,
+      "runTime": 193.62499999998823,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 144
+    },
+    {
+      "wall": 202447.59999996424,
+      "time": 198.60833333331703,
+      "runTime": 195.40833333331994,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 144
+    },
+    {
+      "wall": 204662.39999997616,
+      "time": 200.82499999998169,
+      "runTime": 197.6249999999846,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 149
+    },
+    {
+      "wall": 207929.39999997616,
+      "time": 204.09166666664538,
+      "runTime": 200.8916666666483,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 149
+    },
+    {
+      "wall": 210146.29999995232,
+      "time": 206.30833333331003,
+      "runTime": 203.10833333331294,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 154
+    },
+    {
+      "wall": 212180.79999995232,
+      "time": 208.34166666664152,
+      "runTime": 205.14166666664443,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 154
+    },
+    {
+      "wall": 214396.09999996424,
+      "time": 210.55833333330617,
+      "runTime": 207.35833333330908,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 159
+    },
+    {
+      "wall": 216096.39999997616,
+      "time": 212.25833333330462,
+      "runTime": 209.05833333330753,
+      "stage": 4,
+      "encounter": "combat",
+      "alive": 0,
+      "all": false,
+      "selectable": false,
+      "hp": 4,
+      "auto": 159
+    },
+    {
+      "wall": 216363.5,
+      "time": 212.52499999997104,
+      "runTime": 209.32499999997395,
+      "stage": 4,
+      "encounter": "settle",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 4,
+      "auto": 162
+    },
+    {
+      "wall": 217015.19999998808,
+      "time": 213.17499999997045,
+      "runTime": 209.32499999997395,
+      "stage": 4,
+      "encounter": "choice",
+      "alive": 0,
+      "all": true,
+      "selectable": true,
+      "hp": 4,
+      "auto": 162
+    },
+    {
+      "wall": 218806.29999995232,
+      "time": 213.17499999997045,
+      "runTime": 209.32499999997395,
+      "stage": 4,
+      "encounter": "equip",
+      "alive": 0,
+      "all": true,
+      "selectable": true,
+      "hp": 6,
+      "auto": 162
+    },
+    {
+      "wall": 218812.59999996424,
+      "time": 213.1916666666371,
+      "runTime": 209.32499999997395,
+      "stage": 4,
+      "encounter": "equip",
+      "alive": 0,
+      "all": true,
+      "selectable": false,
+      "hp": 6,
+      "auto": 162
+    },
+    {
+      "wall": 218981.79999995232,
+      "time": 213.35833333330362,
+      "runTime": 209.32499999997395,
+      "stage": 5,
+      "encounter": "combat",
+      "alive": 1,
+      "all": false,
+      "selectable": false,
+      "hp": 6,
+      "auto": 162
+    }
+  ],
+  "state": {
+    "clearElapsed": 0.18333333333333332,
+    "transition": -0.0033333333333333045,
+    "links": [],
+    "stage": 5,
+    "encounter": "combat",
+    "choice": 0,
+    "optionIds": [
+      "return",
+      "swarm"
+    ],
+    "build": "lance",
+    "evolution": 2,
+    "module": "recycler",
+    "relays": [
+      {
+        "id": 0,
+        "x": 135,
+        "y": 295.2,
+        "charge": 10,
+        "max": 10,
+        "done": true,
+        "flash": 0
+      },
+      {
+        "id": 1,
+        "x": 410.4,
+        "y": 393.59999999999997,
+        "charge": 10,
+        "max": 10,
+        "done": true,
+        "flash": 0
+      },
+      {
+        "id": 2,
+        "x": 248.4,
+        "y": 590.4,
+        "charge": 0,
+        "max": 10,
+        "done": false,
+        "flash": 0
+      }
+    ],
+    "activeRelay": 2,
+    "bossLocked": true,
+    "lane": null,
+    "choices": [
+      {
+        "stage": 0,
+        "id": "recycler",
+        "t": 18.9333333333329
+      },
+      {
+        "stage": 1,
+        "id": "lance",
+        "t": 34.08333333333204
+      },
+      {
+        "stage": 4,
+        "id": "return",
+        "t": 209.32499999997395
+      }
+    ],
+    "stageTimes": [
+      18.9333333333329,
+      34.08333333333204,
+      73.216666666671,
+      149.59166666669495,
+      209.32499999997395
+    ],
+    "capacity": 12,
+    "pullRadius": 340,
+    "runTime": 228.7583333332896,
+    "phase": 5,
+    "over": true,
+    "hurt": 1.8,
+    "upgrades": [
+      7.991666666666854,
+      34.08333333333204,
+      209.32499999997395
+    ],
+    "milestones": [
+      {
+        "kind": "relay-0-0",
+        "t": 12.96666666666657
+      },
+      {
+        "kind": "power-window",
+        "t": 12.96666666666657
+      },
+      {
+        "kind": "stage-clear-0",
+        "t": 18.9333333333329
+      },
+      {
+        "kind": "choice-open-1",
+        "t": 18.9333333333329
+      },
+      {
+        "kind": "choose-recycler",
+        "t": 18.9333333333329
+      },
+      {
+        "kind": "stage-start-1",
+        "t": 18.9333333333329
+      },
+      {
+        "kind": "relay-1-0",
+        "t": 25.483333333332528
+      },
+      {
+        "kind": "power-window",
+        "t": 25.483333333332528
+      },
+      {
+        "kind": "relay-1-1",
+        "t": 34.08333333333204
+      },
+      {
+        "kind": "power-window",
+        "t": 34.08333333333204
+      },
+      {
+        "kind": "stage-clear-1",
+        "t": 34.08333333333204
+      },
+      {
+        "kind": "choice-open-2",
+        "t": 34.08333333333204
+      },
+      {
+        "kind": "choose-lance",
+        "t": 34.08333333333204
+      },
+      {
+        "kind": "stage-start-2",
+        "t": 34.08333333333204
+      },
+      {
+        "kind": "relay-2-0",
+        "t": 47.49999999999795
+      },
+      {
+        "kind": "power-window",
+        "t": 47.49999999999795
+      },
+      {
+        "kind": "relay-2-1",
+        "t": 73.216666666671
+      },
+      {
+        "kind": "power-window",
+        "t": 73.216666666671
+      },
+      {
+        "kind": "stage-clear-2",
+        "t": 73.216666666671
+      },
+      {
+        "kind": "stage-start-3",
+        "t": 73.216666666671
+      },
+      {
+        "kind": "relay-3-0",
+        "t": 87.45000000001566
+      },
+      {
+        "kind": "power-window",
+        "t": 87.45000000001566
+      },
+      {
+        "kind": "relay-3-1",
+        "t": 113.18333333336948
+      },
+      {
+        "kind": "power-window",
+        "t": 113.18333333336948
+      },
+      {
+        "kind": "relay-3-2",
+        "t": 149.46666666669506
+      },
+      {
+        "kind": "power-window",
+        "t": 149.46666666669506
+      },
+      {
+        "kind": "stage-clear-3",
+        "t": 149.59166666669495
+      },
+      {
+        "kind": "stage-start-4",
+        "t": 149.59166666669495
+      },
+      {
+        "kind": "relay-4-0",
+        "t": 164.0416666666818
+      },
+      {
+        "kind": "power-window",
+        "t": 164.0416666666818
+      },
+      {
+        "kind": "relay-4-1",
+        "t": 187.40833333332722
+      },
+      {
+        "kind": "power-window",
+        "t": 187.40833333332722
+      },
+      {
+        "kind": "relay-4-2",
+        "t": 209.32499999997395
+      },
+      {
+        "kind": "power-window",
+        "t": 209.32499999997395
+      },
+      {
+        "kind": "stage-clear-4",
+        "t": 209.32499999997395
+      },
+      {
+        "kind": "choice-open-3",
+        "t": 209.32499999997395
+      },
+      {
+        "kind": "choose-return",
+        "t": 209.32499999997395
+      },
+      {
+        "kind": "stage-start-5",
+        "t": 209.32499999997395
+      },
+      {
+        "kind": "elite-arrival",
+        "t": 209.32499999997395
+      },
+      {
+        "kind": "relay-5-0",
+        "t": 212.216666666638
+      },
+      {
+        "kind": "reactor-counter",
+        "t": 212.216666666638
+      },
+      {
+        "kind": "reactor-lock",
+        "t": 214.68333333330241
+      },
+      {
+        "kind": "relay-5-1",
+        "t": 217.6249999999664
+      },
+      {
+        "kind": "reactor-counter",
+        "t": 217.6249999999664
+      },
+      {
+        "kind": "reactor-lock",
+        "t": 222.92499999996159
+      },
+      {
+        "kind": "failed",
+        "t": 228.7583333332896
+      }
+    ],
+    "counters": {
+      "pull": 161,
+      "snap": 3676,
+      "anticipation": 159,
+      "launch": 159,
+      "hit": 193,
+      "break": 49,
+      "spawn-basic": 18,
+      "relay-empty": 993,
+      "relay-hit": 264,
+      "enemy-windup": 50,
+      "upgrade": 3,
+      "relay-0-0": 1,
+      "relay-complete": 13,
+      "power-window": 11,
+      "stage-clear-0": 1,
+      "circuit-secured": 5,
+      "choice-open-1": 1,
+      "choose-recycler": 1,
+      "equip": 3,
+      "stage-start-1": 1,
+      "spawn-shield": 11,
+      "dash": 19,
+      "exposed": 10,
+      "relay-1-0": 1,
+      "block": 250,
+      "shield-open": 12,
+      "auto-charge": 162,
+      "repair": 5,
+      "relay-1-1": 1,
+      "stage-clear-1": 1,
+      "choice-open-2": 1,
+      "choose-lance": 1,
+      "stage-start-2": 1,
+      "spawn-charger": 15,
+      "damage": 10,
+      "bump": 34,
+      "relay-2-0": 1,
+      "relay-2-1": 1,
+      "stage-clear-2": 1,
+      "stage-start-3": 1,
+      "relay-3-0": 1,
+      "relay-3-1": 1,
+      "relay-3-2": 1,
+      "stage-clear-3": 1,
+      "stage-start-4": 1,
+      "spawn-elite": 2,
+      "shell-counter": 7,
+      "relay-4-0": 1,
+      "relay-4-1": 1,
+      "relay-4-2": 1,
+      "stage-clear-4": 1,
+      "choice-open-3": 1,
+      "choose-return": 1,
+      "stage-start-5": 1,
+      "elite-arrival": 1,
+      "relay-5-0": 1,
+      "reactor-counter": 2,
+      "reactor-lock": 2,
+      "relay-5-1": 1,
+      "failed": 1
+    },
+    "peak": {
+      "scraps": 70,
+      "particles": 168,
+      "enemies": 4
+    },
+    "recycled": 228,
+    "runEndedAt": 228.7583333332896,
+    "time": 234.94166666661732,
+    "player": {
+      "x": 52,
+      "y": 743.9489244424501,
+      "vx": -187.77393434257425,
+      "vy": -259.12247374448395,
+      "angle": -0.6637159976032312,
+      "kick": 0,
+      "upgrade": 3,
+      "transform": 0,
+      "bump": 0.6,
+      "hp": 0,
+      "maxHp": 6
+    },
+    "holding": false,
+    "paused": false,
+    "releaseIn": 0,
+    "armor": 287,
+    "kills": 49,
+    "shots": 159,
+    "won": false,
+    "scraps": [
+      {
+        "id": 37,
+        "x": 73.9585743323809,
+        "y": 692.0788604709387,
+        "vx": -0.5684528481383733,
+        "vy": 1.489531079533872,
+        "kind": 1,
+        "angle": 2311.12831855649,
+        "spin": 93.4696996880047,
+        "mode": "loose",
+        "age": 22.25833333333271,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 0,
+        "returnAt": null,
+        "orbit": 272.08999999996615,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 91,
+        "x": 48.72709778545597,
+        "y": 764.937570799965,
+        "vx": 0.2754090880110579,
+        "vy": -0.41557948926310184,
+        "kind": 0,
+        "angle": 1366.3708364305046,
+        "spin": 71.13345959211242,
+        "mode": "loose",
+        "age": 15.249999999999774,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 2,
+        "returnAt": null,
+        "orbit": 282.4466666666234,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 92,
+        "x": 84.61912996009205,
+        "y": 701.2334135719334,
+        "vx": -0.9034799534980857,
+        "vy": 1.3392502545819032,
+        "kind": 1,
+        "angle": 1230.3877740491337,
+        "spin": 60.69897243392876,
+        "mode": "loose",
+        "age": 15.249999999999774,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 2,
+        "returnAt": null,
+        "orbit": 577.0049999999025,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 228.62499999995748
+      },
+      {
+        "id": 110,
+        "x": 75.8663363422111,
+        "y": 691.8695062062061,
+        "vx": -0.6068129426070822,
+        "vy": 1.4683215868395325,
+        "kind": 1,
+        "angle": 1496.6580178581833,
+        "spin": 85.68756850485771,
+        "mode": "loose",
+        "age": 20.874999999999456,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 2,
+        "returnAt": null,
+        "orbit": 577.6333185306204,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 111,
+        "x": 71.75496251038527,
+        "y": 692.3661098925381,
+        "vx": -0.5221386225076466,
+        "vy": 1.513133974011487,
+        "kind": 0,
+        "angle": 1438.8118727074211,
+        "spin": 80.38529277170498,
+        "mode": "loose",
+        "age": 20.88333333333279,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 2,
+        "returnAt": null,
+        "orbit": 577.0266666665691,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 114,
+        "x": 91.85335296498954,
+        "y": 704.1098909102438,
+        "vx": -1.0544500212163062,
+        "vy": 1.2046576640634317,
+        "kind": 0,
+        "angle": 1388.5562500905387,
+        "spin": 75.73401577013061,
+        "mode": "loose",
+        "age": 20.88333333333279,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 2,
+        "returnAt": null,
+        "orbit": 577.654985197287,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 141,
+        "x": 100.7187613348954,
+        "y": 689.0981325393338,
+        "vx": -0.9430613356915188,
+        "vy": 1.1712136739171037,
+        "kind": 0,
+        "angle": 1183.923684601172,
+        "spin": 56.65412203098272,
+        "mode": "loose",
+        "age": 15.249999999999774,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 3,
+        "returnAt": null,
+        "orbit": 577.0483333332357,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 228.70833333329074
+      },
+      {
+        "id": 147,
+        "x": 97.8507379989841,
+        "y": 699.5880063914248,
+        "vx": -1.0525348136808566,
+        "vy": 1.1481769325708377,
+        "kind": 1,
+        "angle": 1149.409413246243,
+        "spin": 53.23132564239158,
+        "mode": "loose",
+        "age": 15.249999999999774,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 3,
+        "returnAt": null,
+        "orbit": 577.6766518639537,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 228.62499999995748
+      },
+      {
+        "id": 220,
+        "x": 54.96773041563717,
+        "y": 676.0904142627776,
+        "vx": -0.06157698156286007,
+        "vy": 1.5245625199382382,
+        "kind": 1,
+        "angle": 820.2937666396283,
+        "spin": 25.815095823134428,
+        "mode": "loose",
+        "age": 15.258333333333107,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 580.5583333332326,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 228.6333333332908
+      },
+      {
+        "id": 222,
+        "x": 99.65290874074289,
+        "y": 705.7634990876593,
+        "vx": -1.159556960963372,
+        "vy": 1.0670003428069452,
+        "kind": 1,
+        "angle": 787.2749999805729,
+        "spin": 19.805535475413148,
+        "mode": "loose",
+        "age": 15.258333333333107,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.6983185306203,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 228.68333333329076
+      },
+      {
+        "id": 223,
+        "x": 60.16108501809932,
+        "y": 648.6769512412454,
+        "vx": 0.08894785578092856,
+        "vy": -1.1043222694396921,
+        "kind": 2,
+        "angle": 864.9150927309788,
+        "spin": 27.141456306850426,
+        "mode": "loose",
+        "age": 15.258333333333107,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.091666666569,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 225,
+        "x": 49.4720188440281,
+        "y": 767.2633873100189,
+        "vx": 0.30913038017403477,
+        "vy": -0.39114560678693516,
+        "kind": 1,
+        "angle": 828.1857616524911,
+        "spin": 35.854798588281405,
+        "mode": "loose",
+        "age": 15.258333333333107,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 587.708333333226,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 226,
+        "x": 91.30714924208037,
+        "y": 674.8064775883495,
+        "vx": -0.6836564364497635,
+        "vy": 1.300720701322291,
+        "kind": 0,
+        "angle": 757.1831710465237,
+        "spin": 25.27499926947099,
+        "mode": "loose",
+        "age": 15.258333333333107,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 588.4937314966235,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 228.64166666662413
+      },
+      {
+        "id": 227,
+        "x": 47.55510985743245,
+        "y": 667.6208440280776,
+        "vx": 0.08022978642574524,
+        "vy": 1.4791743742638128,
+        "kind": 1,
+        "angle": 868.6358003911384,
+        "spin": 26.190594786406024,
+        "mode": "loose",
+        "age": 15.258333333333107,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 575.4016666665706,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 228.64166666662413
+      },
+      {
+        "id": 234,
+        "x": 68.10168364724935,
+        "y": 695.1799830257021,
+        "vx": -0.46095327517664036,
+        "vy": 1.5581949052386834,
+        "kind": 0,
+        "angle": 847.2246248585184,
+        "spin": 25.59122040197296,
+        "mode": "loose",
+        "age": 22.266666666666044,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.7633185306203,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 235,
+        "x": 75.71449976114101,
+        "y": 699.6566076337635,
+        "vx": -0.7008927570338983,
+        "vy": 1.4765940582661412,
+        "kind": 1,
+        "angle": 851.0414145073843,
+        "spin": 26.030753736819282,
+        "mode": "loose",
+        "age": 22.266666666666044,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.156666666569,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 236,
+        "x": 48.61831185510334,
+        "y": 675.2306676731321,
+        "vx": 0.06912764041273996,
+        "vy": 1.519482617399613,
+        "kind": 0,
+        "angle": 730.8921688422881,
+        "spin": 14.79751771551863,
+        "mode": "loose",
+        "age": 22.266666666666044,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.7849851972869,
+        "hit": [],
+        "pickupAfter": 228.64166666662413
+      },
+      {
+        "id": 237,
+        "x": 76.43025991679637,
+        "y": 698.5345873780075,
+        "vx": -0.7014413226078857,
+        "vy": 1.4667067429586116,
+        "kind": 1,
+        "angle": 756.9514158668431,
+        "spin": 17.22132033904395,
+        "mode": "loose",
+        "age": 22.266666666666044,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.1783333332356,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 242,
+        "x": 71.22300779966393,
+        "y": 699.7131016218523,
+        "vx": -0.5920024728347935,
+        "vy": 1.5366686364640836,
+        "kind": 1,
+        "angle": 793.2468660240927,
+        "spin": 20.648724577824456,
+        "mode": "loose",
+        "age": 19.474999999999536,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.2216666665689,
+        "hit": [
+          48
+        ],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 243,
+        "x": 65.54818946559428,
+        "y": 705.8739703676506,
+        "vx": -0.5043625311812007,
+        "vy": 1.6257060201520221,
+        "kind": 2,
+        "angle": 689.2367698871908,
+        "spin": 23.168208697314377,
+        "mode": "loose",
+        "age": 20.874999999999456,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 276.2608333332957,
+        "hit": [],
+        "pickupAfter": 228.64999999995746
+      },
+      {
+        "id": 244,
+        "x": 98.30182202958792,
+        "y": 662.2123850575919,
+        "vx": -0.6328247441774916,
+        "vy": 1.2038824385378246,
+        "kind": 0,
+        "angle": 773.5366124125383,
+        "spin": 27.624378173798856,
+        "mode": "loose",
+        "age": 20.874999999999456,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 277.15843123432137,
+        "hit": [],
+        "pickupAfter": 231.34166666662168
+      },
+      {
+        "id": 245,
+        "x": 53.21209864510091,
+        "y": 669.7053529964227,
+        "vx": -0.02264902778261634,
+        "vy": 1.4922977856550605,
+        "kind": 1,
+        "angle": 786.0566156142879,
+        "spin": 18.91310032121847,
+        "mode": "loose",
+        "age": 20.874999999999456,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 575.4233333332372,
+        "hit": [],
+        "pickupAfter": 227.29166666662536
+      },
+      {
+        "id": 246,
+        "x": 50.7961580821572,
+        "y": 695.3769325610828,
+        "vx": 0.03650398725238267,
+        "vy": 1.642352534618797,
+        "kind": 0,
+        "angle": 709.3738689293049,
+        "spin": 18.337605983639826,
+        "mode": "loose",
+        "age": 20.874999999999456,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 587.7299999998927,
+        "hit": [],
+        "pickupAfter": 227.25833333329206
+      },
+      {
+        "id": 247,
+        "x": 73.62240394235806,
+        "y": 712.3770294507935,
+        "vx": -0.8644665315968875,
+        "vy": 1.4886398489908224,
+        "kind": 1,
+        "angle": 711.011148546965,
+        "spin": 12.959761595725976,
+        "mode": "loose",
+        "age": 19.474999999999536,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.8499851972869,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 248,
+        "x": 103.7683824060627,
+        "y": 665.4562156204139,
+        "vx": -0.7086987427296815,
+        "vy": 1.1614230949560478,
+        "kind": 2,
+        "angle": 746.2965246927987,
+        "spin": 13.107203734790248,
+        "mode": "loose",
+        "age": 19.48333333333287,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 566.1499999999123,
+        "hit": [],
+        "pickupAfter": 231.34166666662168
+      },
+      {
+        "id": 249,
+        "x": 72.4273851911172,
+        "y": 708.3531755885954,
+        "vx": -0.753964078340579,
+        "vy": 1.5227337790072129,
+        "kind": 0,
+        "angle": 772.8638709347401,
+        "spin": 18.779252405216386,
+        "mode": "loose",
+        "age": 19.48333333333287,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.2433333332356,
+        "hit": [],
+        "pickupAfter": 229.97499999995625
+      },
+      {
+        "id": 250,
+        "x": 108.23506804924176,
+        "y": 661.9000365245968,
+        "vx": 0.5960966455397944,
+        "vy": -0.933867327303329,
+        "kind": 1,
+        "angle": 748.7840255131363,
+        "spin": 16.414398440842803,
+        "mode": "loose",
+        "age": 19.48333333333287,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.2649999999022,
+        "hit": [],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 251,
+        "x": 42.3595261067781,
+        "y": 764.3693628489308,
+        "vx": 0.16730853676577467,
+        "vy": -0.46964276975224295,
+        "kind": 0,
+        "angle": 618.832611100951,
+        "spin": 4.5166647261629445,
+        "mode": "loose",
+        "age": 19.48333333333287,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 588.3583185306106,
+        "hit": [],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 252,
+        "x": 78.88313941286965,
+        "y": 675.3570280584665,
+        "vx": -0.5092113963158373,
+        "vy": 1.4068301689476526,
+        "kind": 1,
+        "angle": 640.5169169140153,
+        "spin": 8.006978424390141,
+        "mode": "loose",
+        "age": 19.48333333333287,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 587.7516666665593,
+        "hit": [
+          48
+        ],
+        "pickupAfter": 229.98333333328958
+      },
+      {
+        "id": 253,
+        "x": 65.96274263969819,
+        "y": 686.1468554365349,
+        "vx": -0.3385708984902408,
+        "vy": 1.5378110894283263,
+        "kind": 2,
+        "angle": 625.9484413043693,
+        "spin": 5.4696759192893785,
+        "mode": "loose",
+        "age": 20.891666666666122,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 584.154999999896,
+        "hit": [],
+        "pickupAfter": 227.44166666662522
+      },
+      {
+        "id": 254,
+        "x": 107.02927807556044,
+        "y": 759.0943672347888,
+        "vx": -1.5712847505792304,
+        "vy": -0.27150292760276157,
+        "kind": 0,
+        "angle": 648.7094891227762,
+        "spin": 9.043483546624557,
+        "mode": "loose",
+        "age": 19.48333333333287,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 588.3799851972773,
+        "hit": [
+          48
+        ],
+        "pickupAfter": 231.34166666662168
+      },
+      {
+        "id": 255,
+        "x": 48.48934458183032,
+        "y": 766.366924586138,
+        "vx": 0.2865285549730163,
+        "vy": -0.4079924813527056,
+        "kind": 1,
+        "angle": 638.2125032489928,
+        "spin": 7.5186438492188685,
+        "mode": "loose",
+        "age": 19.48333333333287,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 587.773333333226,
+        "hit": [
+          48
+        ],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 257,
+        "x": 114.36678629835151,
+        "y": 720.0035478505379,
+        "vx": -1.3995471252206668,
+        "vy": 0.6658671738886502,
+        "kind": 1,
+        "angle": 638.906261989911,
+        "spin": 7.622912877798064,
+        "mode": "loose",
+        "age": 11.308333333333332,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 588.4016518639439,
+        "hit": [],
+        "pickupAfter": 229.98333333328958
+      },
+      {
+        "id": 261,
+        "x": 113.28571675849206,
+        "y": 740.4529564978252,
+        "vx": -1.5741365756397743,
+        "vy": 0.23751968418136263,
+        "kind": 0,
+        "angle": 624.6915461691858,
+        "spin": 4.811595641200732,
+        "mode": "loose",
+        "age": 19.533333333332866,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 578.4999851972863,
+        "hit": [],
+        "pickupAfter": 229.98333333328958
+      },
+      {
+        "id": 262,
+        "x": 92.68061525821288,
+        "y": 739.2602321546855,
+        "vx": -1.6754059294734398,
+        "vy": 0.4298222450108476,
+        "kind": 1,
+        "angle": 579.400037355064,
+        "spin": 0.49019184509913244,
+        "mode": "loose",
+        "age": 19.533333333332866,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 577.893333333235,
+        "hit": [],
+        "pickupAfter": 229.98333333328958
+      },
+      {
+        "id": 263,
+        "x": 43.376116730949384,
+        "y": 764.9023401389375,
+        "vx": 0.18888723723776946,
+        "vy": -0.46138713599746695,
+        "kind": 2,
+        "angle": 636.3868702436678,
+        "spin": 7.250822203233824,
+        "mode": "loose",
+        "age": 11.083333333333345,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 587.7949999998926,
+        "hit": [],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 264,
+        "x": 127.90072497348665,
+        "y": 688.9127732069185,
+        "vx": -1.0636809053376945,
+        "vy": 0.8600250236180484,
+        "kind": 0,
+        "angle": 650.4357083554752,
+        "spin": 7.311214668800416,
+        "mode": "loose",
+        "age": 13.966666666666514,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 578.0449999999015,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 231.34166666662168
+      },
+      {
+        "id": 265,
+        "x": 48.023375320361865,
+        "y": 755.5854909212424,
+        "vx": 36.92174985425353,
+        "vy": 66.1114256557595,
+        "kind": 1,
+        "angle": 306.07678919420715,
+        "spin": 8.626993406936506,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 4,
+        "returnAt": null,
+        "orbit": 302.1416666666055,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 266,
+        "x": 45.949704339130534,
+        "y": 762.0275606385522,
+        "vx": 37.304015710054486,
+        "vy": 66.25078047459975,
+        "kind": 0,
+        "angle": 306.648767481144,
+        "spin": 8.75600543717541,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 302.6652654422038,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 267,
+        "x": 95.13626367027732,
+        "y": 756.7743465050766,
+        "vx": -1.6945294753733284,
+        "vy": -0.2766410542364401,
+        "kind": 1,
+        "angle": 637.9746089713767,
+        "spin": 7.300698006898149,
+        "mode": "loose",
+        "age": 13.966666666666514,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 589.6799555920466,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 229.98333333328958
+      },
+      {
+        "id": 268,
+        "x": 154.05333182376333,
+        "y": 762.5245927027568,
+        "vx": 1.0996483247137927,
+        "vy": 0.13495539182486893,
+        "kind": 2,
+        "angle": 620.0785003691705,
+        "spin": 4.336607941488416,
+        "mode": "loose",
+        "age": 13.966666666666514,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 578.0883333332348,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 269,
+        "x": 128.8811797234549,
+        "y": 771.44881055593,
+        "vx": 1.0671468773380097,
+        "vy": 0.29771956270321626,
+        "kind": 0,
+        "angle": 663.37330507241,
+        "spin": 8.49483823205032,
+        "mode": "loose",
+        "age": 13.966666666666514,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 578.1099999999014,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 270,
+        "x": 58.7729779978959,
+        "y": 680.205376172522,
+        "vx": -0.1503439805496299,
+        "vy": 1.539708304233905,
+        "kind": 1,
+        "angle": 635.908928006764,
+        "spin": 7.144440859556184,
+        "mode": "loose",
+        "age": 9.916666666666744,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 589.0733037279952,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 227.29166666662536
+      },
+      {
+        "id": 271,
+        "x": 46.02275792877434,
+        "y": 763.4756562115956,
+        "vx": 0.22485253254310214,
+        "vy": -0.4449694554283654,
+        "kind": 2,
+        "angle": 703.0214671818604,
+        "spin": 14.64245646769798,
+        "mode": "loose",
+        "age": 11.083333333333345,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 585.4549703946651,
+        "hit": [],
+        "pickupAfter": 232.7416666666204
+      },
+      {
+        "id": 272,
+        "x": 59.466602673578564,
+        "y": 661.4825462829496,
+        "vx": -0.08511416468126108,
+        "vy": 1.0021051344989282,
+        "kind": 0,
+        "angle": 655.2981254365442,
+        "spin": 10.02499407480158,
+        "mode": "loose",
+        "age": 9.916666666666744,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 589.0949703946618,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 227.2999999999587
+      },
+      {
+        "id": 273,
+        "x": 65.47015289394803,
+        "y": 669.5944862482636,
+        "vx": -0.1717874931831663,
+        "vy": 1.0175956983681633,
+        "kind": 1,
+        "angle": 652.2739313287129,
+        "spin": 9.475744053969757,
+        "mode": "loose",
+        "age": 9.916666666666744,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 589.7232889253798,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 227.2999999999587
+      },
+      {
+        "id": 274,
+        "x": 60.695297625958105,
+        "y": 641.2366301682455,
+        "vx": -0.07549908459556498,
+        "vy": 0.9392344935607219,
+        "kind": 2,
+        "angle": 665.1637053280723,
+        "spin": 11.689046777288087,
+        "mode": "loose",
+        "age": 9.916666666666744,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 589.3057306618038,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 227.42499999995857
+      },
+      {
+        "id": 275,
+        "x": 78.00255439382272,
+        "y": 650.6576840356915,
+        "vx": -0.24467841850820143,
+        "vy": 0.9292329517791705,
+        "kind": 0,
+        "angle": 680.7554869357676,
+        "spin": 14.121201819926458,
+        "mode": "loose",
+        "age": 9.916666666666744,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 589.3707306618037,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 227.44999999995855
+      },
+      {
+        "id": 276,
+        "x": 54.4263902261161,
+        "y": 764.1138732787225,
+        "vx": 0.3849166559220765,
+        "vy": -0.29045737899925966,
+        "kind": 1,
+        "angle": 324.4524840277096,
+        "spin": 15.496098453303135,
+        "mode": "loose",
+        "age": 5.7833333333334105,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 304.12409265352966,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.73333333328708
+      },
+      {
+        "id": 277,
+        "x": 51.00024758953834,
+        "y": 665.0498620368398,
+        "vx": 0.2935022864427204,
+        "vy": -0.8502221318297246,
+        "kind": 2,
+        "angle": 324.92978247852756,
+        "spin": 14.632810656477966,
+        "mode": "loose",
+        "age": 5.7833333333334105,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 305.69488898032455,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.73333333328708
+      },
+      {
+        "id": 278,
+        "x": 44.890391517539896,
+        "y": 763.1994819149477,
+        "vx": 0.20889155143118446,
+        "vy": -0.47122824479563485,
+        "kind": 0,
+        "angle": 341.26111822947763,
+        "spin": 7.566916582981727,
+        "mode": "loose",
+        "age": 5.775000000000077,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 297.1293951023385,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.74999999995373
+      },
+      {
+        "id": 279,
+        "x": 47.201905252409276,
+        "y": 763.7311586679093,
+        "vx": 0.25138525584347515,
+        "vy": -0.44999688009697597,
+        "kind": 1,
+        "angle": 341.32230421545535,
+        "spin": 7.487008511771739,
+        "mode": "loose",
+        "age": 5.775000000000077,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 297.65299387793675,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.74999999995373
+      },
+      {
+        "id": 280,
+        "x": 45.29637241494089,
+        "y": 763.3119310104977,
+        "vx": 0.21874079304235322,
+        "vy": -0.46673783263380725,
+        "kind": 2,
+        "angle": 350.35641538393503,
+        "spin": 8.95861488133667,
+        "mode": "loose",
+        "age": 5.775000000000077,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 298.17659265353507,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.74999999995373
+      },
+      {
+        "id": 281,
+        "x": 43.39898602721172,
+        "y": 762.4690094723255,
+        "vx": 0.17774462481667877,
+        "vy": -0.4838373562482333,
+        "kind": 0,
+        "angle": 345.6800128374938,
+        "spin": 8.059479206055382,
+        "mode": "loose",
+        "age": 5.775000000000077,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 298.7001914291334,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.74999999995373
+      },
+      {
+        "id": 282,
+        "x": 44.10392777444088,
+        "y": 768.5060850759065,
+        "vx": 37.68736977210538,
+        "vy": 66.38438976631724,
+        "kind": 1,
+        "angle": 307.33330399292703,
+        "spin": 9.185172733664487,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 303.18886421780206,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 283,
+        "x": 45.49801402382014,
+        "y": 763.3214651840997,
+        "vx": 0.21955133491878862,
+        "vy": -0.46635710596910607,
+        "kind": 2,
+        "angle": 327.6233323601004,
+        "spin": 4.756263024359936,
+        "mode": "loose",
+        "age": 5.775000000000077,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 299.74738898032996,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.74999999995373
+      },
+      {
+        "id": 284,
+        "x": 41.84555298532306,
+        "y": 761.7500964637758,
+        "vx": 0.1448926219506625,
+        "vy": -0.49466945231817633,
+        "kind": 0,
+        "angle": 312.96298859225624,
+        "spin": 2.1308454856276495,
+        "mode": "loose",
+        "age": 5.775000000000077,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 300.2709877559283,
+        "hit": [
+          49
+        ],
+        "pickupAfter": 232.74999999995373
+      },
+      {
+        "id": 285,
+        "x": 48.87097841844932,
+        "y": 756.15319185438,
+        "vx": 38.071797459362486,
+        "vy": 66.51223645229277,
+        "kind": 1,
+        "angle": 307.23686840288934,
+        "spin": 7.531747758636856,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 303.7124629934004,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 286,
+        "x": 53.24270553542825,
+        "y": 657.3444911974927,
+        "vx": -0.013264788059728604,
+        "vy": 0.9844499330716594,
+        "kind": 2,
+        "angle": 328.2076160043523,
+        "spin": 3.7617793520291625,
+        "mode": "loose",
+        "age": 8.525000000000157,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 296.6959877559315,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 287,
+        "x": 54.9987991369533,
+        "y": 661.3758230501574,
+        "vx": -0.03391590746213417,
+        "vy": 0.9974488469496586,
+        "kind": 0,
+        "angle": 343.05454619535385,
+        "spin": 5.440294752269974,
+        "mode": "loose",
+        "age": 8.525000000000157,
+        "reward": false,
+        "salvaged": false,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 297.21958653152984,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 288,
+        "x": 46.66201966105127,
+        "y": 762.6445018814068,
+        "vx": 38.457284146778136,
+        "vy": 66.63430362131588,
+        "kind": 0,
+        "angle": 304.30533122925306,
+        "spin": -1.681948105990887,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 304.2360617689987,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 289,
+        "x": 44.69692768581485,
+        "y": 769.1716238315079,
+        "vx": 38.84381516567038,
+        "vy": 66.75057453009346,
+        "kind": 1,
+        "angle": 304.47929434783345,
+        "spin": -2.614309858034055,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 304.75966054459695,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 290,
+        "x": 49.1411677753241,
+        "y": 756.6900505926919,
+        "vx": 39.231375804093666,
+        "vy": 66.86103260375393,
+        "kind": 2,
+        "angle": 305.55411562056497,
+        "spin": -1.1443831990162527,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 305.28325932019527,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 291,
+        "x": 47.42623345275505,
+        "y": 763.2295762926501,
+        "vx": 39.6199513072106,
+        "vy": 66.96566143634838,
+        "kind": 0,
+        "angle": 305.6746645597619,
+        "spin": -2.219182762751977,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 305.8068580957936,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 292,
+        "x": 45.3352768881712,
+        "y": 769.8042664218763,
+        "vx": 40.00952687766505,
+        "vy": 67.06444479134674,
+        "kind": 1,
+        "angle": 307.6187678978237,
+        "spin": 1.5688294038176553,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 306.3304568713919,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 293,
+        "x": 50.06922385413644,
+        "y": 757.1957215128534,
+        "vx": 40.40008767595605,
+        "vy": 67.1573666021309,
+        "kind": 2,
+        "angle": 309.3174698258728,
+        "spin": 4.702437810351448,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 306.85405564699016,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 294,
+        "x": 48.244933968019595,
+        "y": 763.7824326903202,
+        "vx": 40.791618820812964,
+        "vy": 67.24441097248346,
+        "kind": 0,
+        "angle": 308.9356529501743,
+        "spin": 2.2879960735638942,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 307.3776544225885,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 295,
+        "x": 46.02125681652658,
+        "y": 770.4036562039153,
+        "vx": 41.18410538957175,
+        "vy": 67.32556217707267,
+        "kind": 1,
+        "angle": 308.95674555227885,
+        "spin": 0.9479796109100183,
+        "mode": "loose",
+        "age": 0.366666666666667,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 307.9012531981868,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 296,
+        "x": 62.77460674604391,
+        "y": 764.3113749459418,
+        "vx": 0.8249930370664651,
+        "vy": -0.6420078209643487,
+        "kind": 2,
+        "angle": 306.93396609642394,
+        "spin": 0.363432539999485,
+        "mode": "loose",
+        "age": 1.7333333333333296,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 305.6009877559234,
+        "hit": [
+          49
+        ]
+      },
+      {
+        "id": 297,
+        "x": 60.73374369757147,
+        "y": 761.546562307477,
+        "vx": 0.8330517574279478,
+        "vy": -0.6429455091843422,
+        "kind": 0,
+        "angle": 312.4389105928932,
+        "spin": 3.223535346239805,
+        "mode": "loose",
+        "age": 1.7333333333333296,
+        "reward": false,
+        "salvaged": true,
+        "earnedStage": 5,
+        "returnAt": null,
+        "orbit": 306.12458653152174,
+        "hit": [
+          49
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "id": 49,
+        "x": 60,
+        "y": 755,
+        "home": {
+          "x": 140.4,
+          "y": 205
+        },
+        "vx": -0.02063748013509194,
+        "vy": 0.10769278978414307,
+        "hp": 8,
+        "max": 24,
+        "heavy": true,
+        "r": 43,
+        "angle": 1.7601337931429955,
+        "flash": 0,
+        "recoil": 0,
+        "charge": 0,
+        "cool": 3.5,
+        "dead": false,
+        "deathAt": 0,
+        "kind": "elite",
+        "shield": 0,
+        "facing": 1.7601337931429955,
+        "windup": -0.008333333333332504,
+        "dash": 0,
+        "recover": 0.10833333333333547,
+        "spawnIn": 0,
+        "guardStress": 0,
+        "locked": 1.7601337931429955,
+        "shellGate": 0
+      }
+    ],
+    "events": [
+      {
+        "kind": "snap",
+        "t": 227.49999999995742,
+        "x": 48.427500919922394,
+        "y": 730.2268260798583,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 227.49999999995742,
+        "x": 43.24930847027863,
+        "y": 726.8846655681463,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 227.50833333329075,
+        "x": 40,
+        "y": 730.0182844007077,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 227.50833333329075,
+        "x": 47.24221609382149,
+        "y": 732.5355287471423,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 227.51666666662408,
+        "x": 62.48949707102044,
+        "y": 639.8609347435254,
+        "value": 2
+      },
+      {
+        "kind": "dash",
+        "t": 227.95833333329034,
+        "x": 65.07804855529446,
+        "y": 609.9536890635007,
+        "value": 1
+      },
+      {
+        "kind": "damage",
+        "t": 227.99166666662364,
+        "x": 52,
+        "y": 687.4408225255738,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 227.99166666662364,
+        "x": 52,
+        "y": 687.4408225255738,
+        "value": 1
+      },
+      {
+        "kind": "anticipation",
+        "t": 228.25833333329007,
+        "x": 52,
+        "y": 704.3516184203096,
+        "value": 1
+      },
+      {
+        "kind": "launch",
+        "t": 228.32499999995667,
+        "x": 52,
+        "y": 704.4625720847874,
+        "value": 12
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 228.32499999995667,
+        "x": 60,
+        "y": 698.8439576623182,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 228.5916666666231,
+        "x": 52,
+        "y": 707.0535408793106,
+        "value": 1
+      },
+      {
+        "kind": "pull",
+        "t": 228.7583333332896,
+        "x": 52,
+        "y": 709.6875658577421,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 67.25698454806857,
+        "y": 687.462642227883,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 40.4736551246937,
+        "y": 764.0694737737415,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 68.9285304428794,
+        "y": 686.9750427839306,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 65.38016178481088,
+        "y": 688.0792554011721,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 84.81845845553993,
+        "y": 693.2472160739218,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 46.937977662153585,
+        "y": 729.2330937897615,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 62.17005816665409,
+        "y": 690.8337442694026,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 68.2286442998137,
+        "y": 692.1624380731099,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 68.96497016713248,
+        "y": 691.3152346903722,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 64.19708094338027,
+        "y": 693.2038764188331,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 65.80728690891222,
+        "y": 699.6251699445205,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.76666666662294,
+        "x": 64.59649098698256,
+        "y": 697.9456561316829,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 51.55797745987405,
+        "y": 725.9125420408144,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 72.7441185344552,
+        "y": 674.2126417372613,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 73.54893404829262,
+        "y": 740.1357102905708,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 44.73182822522943,
+        "y": 749.6205602549117,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 110.71680248326389,
+        "y": 707.4802218686253,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 114.23880984851614,
+        "y": 727.1029799307929,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 96.52641637221804,
+        "y": 722.3264769613072,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 51.11144583509036,
+        "y": 748.5723565595297,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 102.77817599656909,
+        "y": 744.8103215507734,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 98.03503010222478,
+        "y": 741.6466777729232,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 79.95898177482894,
+        "y": 742.3149493039109,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.77499999995626,
+        "x": 41.84725206157854,
+        "y": 767.2965199657299,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 43.61161657116556,
+        "y": 765.1085635032308,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 47.04543554134626,
+        "y": 769.3866512856166,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 43.19859656699707,
+        "y": 765.1009775369716,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 44.31461479865131,
+        "y": 767.1969648340836,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 51.680915312380414,
+        "y": 718.4596171063097,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 42.52963443189173,
+        "y": 767.4398708267254,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 44.90262179048739,
+        "y": 769.9935688159916,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 49.98302681083294,
+        "y": 725.4659329588994,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 48.424934997909894,
+        "y": 732.5007781269242,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 52.67187506887792,
+        "y": 718.8373481085291,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 50.86625135419114,
+        "y": 725.8799904117126,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.7833333332896,
+        "x": 49.21002943191167,
+        "y": 732.9504657995811,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.79166666662292,
+        "x": 53.286795039832676,
+        "y": 719.5068138582866,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.79166666662292,
+        "x": 52.067892400661705,
+        "y": 726.5845968065041,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.79166666662292,
+        "x": 50.310706901550674,
+        "y": 733.6894762426913,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.79166666662292,
+        "x": 54.367128003665954,
+        "y": 719.8102368725176,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.79166666662292,
+        "x": 53.07215485131597,
+        "y": 726.9220419368077,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 228.79166666662292,
+        "x": 51.20620047995656,
+        "y": 734.0602402580395,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 229.19166666662255,
+        "x": 52,
+        "y": 709.8471412386903,
+        "value": 1
+      },
+      {
+        "kind": "anticipation",
+        "t": 229.60833333328884,
+        "x": 52,
+        "y": 715.647079579755,
+        "value": 1
+      },
+      {
+        "kind": "launch",
+        "t": 229.67499999995545,
+        "x": 52,
+        "y": 715.6499477030713,
+        "value": 12
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 229.67499999995545,
+        "x": 60,
+        "y": 707.0250431460001,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 229.791666666622,
+        "x": 52,
+        "y": 718.0942020836168,
+        "value": 1
+      },
+      {
+        "kind": "pull",
+        "t": 230.12499999995504,
+        "x": 52,
+        "y": 732.4186780571453,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 43.63375878016605,
+        "y": 761.8971292143526,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 41.55199215557498,
+        "y": 769.5118730517249,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 84.59446986859349,
+        "y": 681.0311531568631,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 88.5800213221509,
+        "y": 683.1270620542884,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 50.420986404826614,
+        "y": 767.503832405547,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 97.61399727726089,
+        "y": 774.076849261569,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 41.22542591009178,
+        "y": 768.045904478063,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 50.15957513856311,
+        "y": 768.3944276564038,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 106.81030876609984,
+        "y": 698.9440384044436,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 42.405793707719745,
+        "y": 760.4162511164552,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 41.17144475266623,
+        "y": 761.3108083947694,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.13333333328836,
+        "x": 43.60076120649429,
+        "y": 759.2215533776023,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 41.45355082220598,
+        "y": 761.3234443122079,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 40.52704071287586,
+        "y": 760.3218291827825,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 51.54265737474831,
+        "y": 731.8649016099322,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 41.834411675583496,
+        "y": 760.3866693414876,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 40.033948458547826,
+        "y": 758.7371222040008,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 49.9016279693116,
+        "y": 738.6887732525753,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 48.39527414977708,
+        "y": 745.5438910048715,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 52.519796542236215,
+        "y": 732.3223065093565,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 50.77310700494695,
+        "y": 739.1866654772616,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 49.17048188904746,
+        "y": 746.0815903914606,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 52.88048778997486,
+        "y": 732.743348461509,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.1416666666217,
+        "x": 51.69996142792816,
+        "y": 739.6471180471194,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.149999999955,
+        "x": 50.241073352927756,
+        "y": 746.9205021209191,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.149999999955,
+        "x": 54.18742077195144,
+        "y": 733.4675265430825,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.149999999955,
+        "x": 52.27684757051793,
+        "y": 740.4096814098734,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 230.149999999955,
+        "x": 51.125827025860815,
+        "y": 747.380995499638,
+        "value": 1
+      },
+      {
+        "kind": "damage",
+        "t": 230.39166666662146,
+        "x": 52,
+        "y": 732.4651406352386,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 230.39166666662146,
+        "x": 52,
+        "y": 732.4651406352386,
+        "value": 1
+      },
+      {
+        "kind": "enemy-windup",
+        "t": 230.64166666662123,
+        "x": 60,
+        "y": 707.0280786995107,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 230.99166666662092,
+        "x": 52,
+        "y": 748.999943736941,
+        "value": 1
+      },
+      {
+        "kind": "anticipation",
+        "t": 230.99166666662092,
+        "x": 52,
+        "y": 748.999943736941,
+        "value": 1
+      },
+      {
+        "kind": "launch",
+        "t": 231.05833333328752,
+        "x": 52,
+        "y": 750,
+        "value": 12
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 231.05833333328752,
+        "x": 60,
+        "y": 707.0281009024013,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.31666666662062,
+        "x": 60.915874784082334,
+        "y": 687.5732097982168,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.32499999995395,
+        "x": 61.704935143210534,
+        "y": 688.6148299574451,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.32499999995395,
+        "x": 61.787174159016544,
+        "y": 685.7921990205145,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.3416666666206,
+        "x": 63.092095279939635,
+        "y": 686.8043366135945,
+        "value": 1
+      },
+      {
+        "kind": "pull",
+        "t": 231.52499999995376,
+        "x": 52,
+        "y": 750,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 43.423768057732225,
+        "y": 762.9411346448612,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 56.82738548203209,
+        "y": 690.0661292599599,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 44.298155146848686,
+        "y": 759.7452174605702,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 85.89380874354732,
+        "y": 696.9006899798873,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 48.54843192652889,
+        "y": 759.6887105783653,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 44.74548140172022,
+        "y": 760.3298222552731,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 48.03168894501942,
+        "y": 759.6932312589221,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 112.83932978009075,
+        "y": 757.4665649047131,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 88.88530777507152,
+        "y": 760.2905025860742,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.5333333332871,
+        "x": 44.97041041903834,
+        "y": 763.9111292736977,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 45.95030537816747,
+        "y": 763.6472105198322,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 43.87855152765658,
+        "y": 764.5379507726517,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 45.62019265637594,
+        "y": 763.6129041628179,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 46.66705953282327,
+        "y": 764.5167586323876,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 51.00727510391005,
+        "y": 771.1697752899114,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 45.4168537101509,
+        "y": 763.9835043728652,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 47.503416988865,
+        "y": 765.3515218751357,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 49.006533981283376,
+        "y": 773.9151379784632,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 47.22892811101245,
+        "y": 771.2624406580405,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54166666662042,
+        "x": 51.94205668438224,
+        "y": 771.8086232727428,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54999999995374,
+        "x": 50.01161117631973,
+        "y": 773.5379399623407,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54999999995374,
+        "x": 48.11848213965544,
+        "y": 770.7778862976594,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54999999995374,
+        "x": 52.51915512800939,
+        "y": 772.7839788117901,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54999999995374,
+        "x": 50.87170326811082,
+        "y": 773.098871943191,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54999999995374,
+        "x": 48.85446077780316,
+        "y": 770.4488330680962,
+        "value": 1
+      },
+      {
+        "kind": "snap",
+        "t": 231.54999999995374,
+        "x": 53.54207398582188,
+        "y": 773.3545903273834,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 231.59166666662037,
+        "x": 52,
+        "y": 750,
+        "value": 1
+      },
+      {
+        "kind": "dash",
+        "t": 231.5999999999537,
+        "x": 60,
+        "y": 707.0281010527917,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 232.19166666661982,
+        "x": 52,
+        "y": 750,
+        "value": 1
+      },
+      {
+        "kind": "anticipation",
+        "t": 232.35833333328634,
+        "x": 52,
+        "y": 741.3389382803523,
+        "value": 1
+      },
+      {
+        "kind": "launch",
+        "t": 232.42499999995295,
+        "x": 52,
+        "y": 741.0067361238785,
+        "value": 12
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "block",
+        "t": 232.42499999995295,
+        "x": 60,
+        "y": 755,
+        "value": 1
+      },
+      {
+        "kind": "damage",
+        "t": 232.79166666661928,
+        "x": 52,
+        "y": 743.9489244424501,
+        "value": 1
+      },
+      {
+        "kind": "failed",
+        "t": 232.79166666661928,
+        "x": 52,
+        "y": 743.9489244424501,
+        "value": 1
+      },
+      {
+        "kind": "bump",
+        "t": 232.79166666661928,
+        "x": 52,
+        "y": 743.9489244424501,
+        "value": 1
+      }
+    ],
+    "particles": 30
+  },
+  "metrics": {
+    "frames": 6000,
+    "medianMs": 16.699999999982538,
+    "p95Ms": 16.79999999998836,
+    "audio": {
+      "unlockAttempts": 167,
+      "unlocks": 167,
+      "failures": 0,
+      "events": {
+        "snap": 1585,
+        "launch": 159,
+        "hit": 193,
+        "break": 49,
+        "upgrade": 17,
+        "bump": 34,
+        "block": 242,
+        "warning": 32,
+        "damage": 10,
+        "complete": 5
+      },
+      "suppressed": {
+        "snap": 2355,
+        "hit": 111,
+        "warning": 9
+      },
+      "voicesStarted": 3016,
+      "voicesDropped": 118,
+      "voicesStopped": 161,
+      "pullStarts": 161,
+      "available": true,
+      "contextState": "running",
+      "contextTime": 240.15238095238095,
+      "muted": false,
+      "paused": false,
+      "activeVoices": 0,
+      "pullActive": false,
+      "extended": true
+    },
+    "width": 540,
+    "height": 820,
+    "scale": 0.7222222222222222,
+    "reduced": false
+  },
+  "samples": [
+    {
+      "t": 0,
+      "stage": 0,
+      "relays": [
+        {
+          "id": 0,
+          "x": 388.8,
+          "y": 451.00000000000006,
+          "charge": 0,
+          "max": 14,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "base",
+      "hp": 6,
+      "kills": 0,
+      "upgrade": 0,
+      "objects": {
+        "scraps": 11,
+        "particles": 0,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 9,
+        "medianMs": 16.80000000000001,
+        "p95Ms": 205.49999999999997,
+        "audio": {
+          "unlockAttempts": 2,
+          "unlocks": 2,
+          "failures": 0,
+          "events": {
+            "snap": 0,
+            "launch": 0,
+            "hit": 0,
+            "break": 0,
+            "upgrade": 0,
+            "bump": 0,
+            "block": 0,
+            "warning": 0,
+            "damage": 0,
+            "complete": 0
+          },
+          "suppressed": {
+            "snap": 0,
+            "hit": 0,
+            "warning": 0
+          },
+          "voicesStarted": 0,
+          "voicesDropped": 0,
+          "voicesStopped": 0,
+          "pullStarts": 0,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 0.040634920634920635,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 0,
+          "pullActive": false,
+          "extended": false
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 20.016666666666172,
+      "stage": 1,
+      "relays": [
+        {
+          "id": 0,
+          "x": 129.6,
+          "y": 303.4,
+          "charge": 0,
+          "max": 18,
+          "done": false,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 421.2,
+          "y": 549.4,
+          "charge": 0,
+          "max": 18,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "base",
+      "hp": 6,
+      "kills": 6,
+      "upgrade": 1,
+      "objects": {
+        "scraps": 46,
+        "particles": 94,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 1364,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.799999999999272,
+        "audio": {
+          "unlockAttempts": 14,
+          "unlocks": 14,
+          "failures": 0,
+          "events": {
+            "snap": 98,
+            "launch": 10,
+            "hit": 26,
+            "break": 6,
+            "upgrade": 3,
+            "bump": 0,
+            "block": 0,
+            "warning": 0,
+            "damage": 0,
+            "complete": 1
+          },
+          "suppressed": {
+            "snap": 0,
+            "hit": 0,
+            "warning": 0
+          },
+          "voicesStarted": 216,
+          "voicesDropped": 0,
+          "voicesStopped": 10,
+          "pullStarts": 10,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 22.680090702947847,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 0,
+          "pullActive": false,
+          "extended": false
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 40.01666666666504,
+      "stage": 2,
+      "relays": [
+        {
+          "id": 0,
+          "x": 388.8,
+          "y": 229.60000000000002,
+          "charge": 16,
+          "max": 22,
+          "done": false,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 156.6,
+          "y": 565.8,
+          "charge": 0,
+          "max": 22,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 5,
+      "kills": 14,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 132,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 2723,
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.799999999999272,
+        "audio": {
+          "unlockAttempts": 29,
+          "unlocks": 29,
+          "failures": 0,
+          "events": {
+            "snap": 289,
+            "launch": 22,
+            "hit": 52,
+            "break": 14,
+            "upgrade": 6,
+            "bump": 2,
+            "block": 0,
+            "warning": 1,
+            "damage": 1,
+            "complete": 2
+          },
+          "suppressed": {
+            "snap": 103,
+            "hit": 8,
+            "warning": 1
+          },
+          "voicesStarted": 538,
+          "voicesDropped": 0,
+          "voicesStopped": 23,
+          "pullStarts": 24,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 45.331156462585035,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 1,
+          "pullActive": true,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 60.0166666666639,
+      "stage": 2,
+      "relays": [
+        {
+          "id": 0,
+          "x": 388.8,
+          "y": 229.60000000000002,
+          "charge": 22,
+          "max": 22,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 156.6,
+          "y": 565.8,
+          "charge": 9,
+          "max": 22,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 5,
+      "kills": 17,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 132,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 3923,
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.799999999999272,
+        "audio": {
+          "unlockAttempts": 44,
+          "unlocks": 44,
+          "failures": 0,
+          "events": {
+            "snap": 406,
+            "launch": 37,
+            "hit": 62,
+            "break": 17,
+            "upgrade": 7,
+            "bump": 2,
+            "block": 0,
+            "warning": 2,
+            "damage": 1,
+            "complete": 2
+          },
+          "suppressed": {
+            "snap": 300,
+            "hit": 15,
+            "warning": 1
+          },
+          "voicesStarted": 729,
+          "voicesDropped": 0,
+          "voicesStopped": 38,
+          "pullStarts": 39,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 65.33224489795919,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 1,
+          "pullActive": true,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 80.00000000000973,
+      "stage": 3,
+      "relays": [
+        {
+          "id": 0,
+          "x": 145.8,
+          "y": 246,
+          "charge": 4,
+          "max": 24,
+          "done": false,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 405,
+          "y": 533,
+          "charge": 0,
+          "max": 24,
+          "done": false,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "x": 248.4,
+          "y": 385.4,
+          "charge": 0,
+          "max": 24,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 6,
+      "kills": 22,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 132,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 5161,
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.799999999999727,
+        "audio": {
+          "unlockAttempts": 59,
+          "unlocks": 59,
+          "failures": 0,
+          "events": {
+            "snap": 529,
+            "launch": 51,
+            "hit": 80,
+            "break": 22,
+            "upgrade": 8,
+            "bump": 2,
+            "block": 8,
+            "warning": 6,
+            "damage": 1,
+            "complete": 3
+          },
+          "suppressed": {
+            "snap": 524,
+            "hit": 28,
+            "warning": 3
+          },
+          "voicesStarted": 960,
+          "voicesDropped": 0,
+          "voicesStopped": 53,
+          "pullStarts": 54,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 85.9718820861678,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 3,
+          "pullActive": true,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 100.00000000002565,
+      "stage": 3,
+      "relays": [
+        {
+          "id": 0,
+          "x": 145.8,
+          "y": 246,
+          "charge": 24,
+          "max": 24,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 405,
+          "y": 533,
+          "charge": 13,
+          "max": 24,
+          "done": false,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "x": 248.4,
+          "y": 385.4,
+          "charge": 0,
+          "max": 24,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 6,
+      "kills": 27,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 132,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 6000,
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.800000000000182,
+        "audio": {
+          "unlockAttempts": 74,
+          "unlocks": 74,
+          "failures": 0,
+          "events": {
+            "snap": 699,
+            "launch": 66,
+            "hit": 94,
+            "break": 27,
+            "upgrade": 9,
+            "bump": 2,
+            "block": 24,
+            "warning": 9,
+            "damage": 1,
+            "complete": 3
+          },
+          "suppressed": {
+            "snap": 796,
+            "hit": 37,
+            "warning": 4
+          },
+          "voicesStarted": 1248,
+          "voicesDropped": 0,
+          "voicesStopped": 68,
+          "pullStarts": 69,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 105.97006802721089,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 1,
+          "pullActive": true,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 120.0083333333749,
+      "stage": 3,
+      "relays": [
+        {
+          "id": 0,
+          "x": 145.8,
+          "y": 246,
+          "charge": 24,
+          "max": 24,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 405,
+          "y": 533,
+          "charge": 24,
+          "max": 24,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "x": 248.4,
+          "y": 385.4,
+          "charge": 9,
+          "max": 24,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 6,
+      "kills": 31,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 132,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 6000,
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.80000000000291,
+        "audio": {
+          "unlockAttempts": 89,
+          "unlocks": 89,
+          "failures": 0,
+          "events": {
+            "snap": 861,
+            "launch": 81,
+            "hit": 109,
+            "break": 31,
+            "upgrade": 10,
+            "bump": 2,
+            "block": 32,
+            "warning": 10,
+            "damage": 1,
+            "complete": 3
+          },
+          "suppressed": {
+            "snap": 1057,
+            "hit": 48,
+            "warning": 4
+          },
+          "voicesStarted": 1505,
+          "voicesDropped": 1,
+          "voicesStopped": 83,
+          "pullStarts": 84,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 125.97115646258503,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 2,
+          "pullActive": true,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 140.00833333337033,
+      "stage": 3,
+      "relays": [
+        {
+          "id": 0,
+          "x": 145.8,
+          "y": 246,
+          "charge": 24,
+          "max": 24,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 405,
+          "y": 533,
+          "charge": 24,
+          "max": 24,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "x": 248.4,
+          "y": 385.4,
+          "charge": 19,
+          "max": 24,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 6,
+      "kills": 33,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 132,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 6000,
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.80000000000291,
+        "audio": {
+          "unlockAttempts": 103,
+          "unlocks": 103,
+          "failures": 0,
+          "events": {
+            "snap": 964,
+            "launch": 96,
+            "hit": 118,
+            "break": 33,
+            "upgrade": 10,
+            "bump": 2,
+            "block": 40,
+            "warning": 13,
+            "damage": 1,
+            "complete": 3
+          },
+          "suppressed": {
+            "snap": 1234,
+            "hit": 55,
+            "warning": 4
+          },
+          "voicesStarted": 1686,
+          "voicesDropped": 1,
+          "voicesStopped": 98,
+          "pullStarts": 98,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 145.97224489795917,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 0,
+          "pullActive": false,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 160.00833333335214,
+      "stage": 4,
+      "relays": [
+        {
+          "id": 0,
+          "x": 140.4,
+          "y": 541.2,
+          "charge": 10,
+          "max": 26,
+          "done": false,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 394.2,
+          "y": 237.79999999999998,
+          "charge": 0,
+          "max": 26,
+          "done": false,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "x": 378,
+          "y": 557.6,
+          "charge": 0,
+          "max": 26,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 4,
+      "kills": 36,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 132,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 6000,
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.80000000000291,
+        "audio": {
+          "unlockAttempts": 117,
+          "unlocks": 117,
+          "failures": 0,
+          "events": {
+            "snap": 1054,
+            "launch": 110,
+            "hit": 141,
+            "break": 36,
+            "upgrade": 11,
+            "bump": 8,
+            "block": 88,
+            "warning": 19,
+            "damage": 3,
+            "complete": 4
+          },
+          "suppressed": {
+            "snap": 1415,
+            "hit": 73,
+            "warning": 7
+          },
+          "voicesStarted": 1941,
+          "voicesDropped": 28,
+          "voicesStopped": 112,
+          "pullStarts": 112,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 166.62058956916098,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 1,
+          "pullActive": false,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 180.00833333333395,
+      "stage": 4,
+      "relays": [
+        {
+          "id": 0,
+          "x": 140.4,
+          "y": 541.2,
+          "charge": 26,
+          "max": 26,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 394.2,
+          "y": 237.79999999999998,
+          "charge": 19,
+          "max": 26,
+          "done": false,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "x": 378,
+          "y": 557.6,
+          "charge": 0,
+          "max": 26,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 3,
+      "kills": 42,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 168,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 6000,
+        "medianMs": 16.699999999982538,
+        "p95Ms": 16.79999999998836,
+        "audio": {
+          "unlockAttempts": 132,
+          "unlocks": 132,
+          "failures": 0,
+          "events": {
+            "snap": 1191,
+            "launch": 124,
+            "hit": 159,
+            "break": 42,
+            "upgrade": 12,
+            "bump": 13,
+            "block": 104,
+            "warning": 22,
+            "damage": 4,
+            "complete": 4
+          },
+          "suppressed": {
+            "snap": 1657,
+            "hit": 86,
+            "warning": 8
+          },
+          "voicesStarted": 2204,
+          "voicesDropped": 32,
+          "voicesStopped": 126,
+          "pullStarts": 127,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 186.62167800453514,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 1,
+          "pullActive": true,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 200.00833333331576,
+      "stage": 4,
+      "relays": [
+        {
+          "id": 0,
+          "x": 140.4,
+          "y": 541.2,
+          "charge": 26,
+          "max": 26,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 394.2,
+          "y": 237.79999999999998,
+          "charge": 26,
+          "max": 26,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "x": 378,
+          "y": 557.6,
+          "charge": 13,
+          "max": 26,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 4,
+      "kills": 46,
+      "upgrade": 2,
+      "objects": {
+        "scraps": 70,
+        "particles": 168,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 6000,
+        "medianMs": 16.699999999982538,
+        "p95Ms": 16.79999999998836,
+        "audio": {
+          "unlockAttempts": 147,
+          "unlocks": 147,
+          "failures": 0,
+          "events": {
+            "snap": 1332,
+            "launch": 139,
+            "hit": 178,
+            "break": 46,
+            "upgrade": 13,
+            "bump": 13,
+            "block": 120,
+            "warning": 24,
+            "damage": 4,
+            "complete": 4
+          },
+          "suppressed": {
+            "snap": 1889,
+            "hit": 101,
+            "warning": 8
+          },
+          "voicesStarted": 2454,
+          "voicesDropped": 36,
+          "voicesStopped": 141,
+          "pullStarts": 142,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 206.6227664399093,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 1,
+          "pullActive": true,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    },
+    {
+      "t": 220.00833333329757,
+      "stage": 5,
+      "relays": [
+        {
+          "id": 0,
+          "x": 135,
+          "y": 295.2,
+          "charge": 10,
+          "max": 10,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 1,
+          "x": 410.4,
+          "y": 393.59999999999997,
+          "charge": 10,
+          "max": 10,
+          "done": true,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "x": 248.4,
+          "y": 590.4,
+          "charge": 0,
+          "max": 10,
+          "done": false,
+          "flash": 0
+        }
+      ],
+      "build": "lance",
+      "hp": 4,
+      "kills": 49,
+      "upgrade": 3,
+      "objects": {
+        "scraps": 70,
+        "particles": 168,
+        "enemies": 4
+      },
+      "metrics": {
+        "frames": 6000,
+        "medianMs": 16.699999999982538,
+        "p95Ms": 16.79999999998836,
+        "audio": {
+          "unlockAttempts": 161,
+          "unlocks": 161,
+          "failures": 0,
+          "events": {
+            "snap": 1515,
+            "launch": 152,
+            "hit": 189,
+            "break": 49,
+            "upgrade": 17,
+            "bump": 20,
+            "block": 162,
+            "warning": 29,
+            "damage": 6,
+            "complete": 5
+          },
+          "suppressed": {
+            "snap": 2207,
+            "hit": 108,
+            "warning": 9
+          },
+          "voicesStarted": 2795,
+          "voicesDropped": 59,
+          "voicesStopped": 154,
+          "pullStarts": 155,
+          "available": true,
+          "contextState": "running",
+          "contextTime": 229.24190476190475,
+          "muted": false,
+          "paused": false,
+          "activeVoices": 1,
+          "pullActive": true,
+          "extended": true
+        },
+        "width": 540,
+        "height": 820,
+        "scale": 0.7222222222222222,
+        "reduced": false
+      }
+    }
+  ],
+  "retryAfterResult": {
+    "stage": 0,
+    "runTime": 0,
+    "build": "base",
+    "choiceCount": 0,
+    "over": false
+  },
+  "testMode": "realtime ordinary input",
+  "branch": "lance",
+  "choiceChecks": [
+    {
+      "choice": 1,
+      "selected": "recycler",
+      "pausedClock": true,
+      "audioPaused": true,
+      "overflow": false,
+      "evolutionCue": "not applicable"
+    },
+    {
+      "choice": 2,
+      "selected": "lance",
+      "pausedClock": true,
+      "audioPaused": true,
+      "overflow": false,
+      "evolutionCue": "played"
+    },
+    {
+      "choice": 3,
+      "selected": "return",
+      "pausedClock": true,
+      "audioPaused": true,
+      "overflow": false,
+      "evolutionCue": "played"
+    }
+  ]
+}

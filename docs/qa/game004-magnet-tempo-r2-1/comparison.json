@@ -1,0 +1,25 @@
+{
+  "method": "Same stage 1, seeded initial state, viewport 1280x800, enemy-first ordinary input policy. Separate live runs, not lockstep input. Sum intervals with no living enemy and incomplete relay. Combat/reinforcements excluded. rAF observations ±1 frame (~16.7ms); 0ms means same observed frame. Different reinforcement counts are disclosed; not an average or Human measure.",
+  "before": {
+    "nonCombatChargeMs": 4189.099999964237,
+    "clearToSelectableMs": 0,
+    "clearGameTime": 14.941666666666459,
+    "kills": 6,
+    "autoCharge": 0,
+    "relayCharge": [
+      14
+    ],
+    "recording": "continuous native capture from initial arena through first choice; no cut, retiming, or generated frames"
+  },
+  "after": {
+    "nonCombatChargeMs": 255.20000004768372,
+    "clearToSelectableMs": 654.0999999642372,
+    "clearGameTime": 7.908333333333516,
+    "kills": 5,
+    "autoCharge": 13,
+    "relayCharge": [
+      14
+    ],
+    "recording": "continuous native capture from initial arena through first choice; no cut, retiming, or generated frames"
+  }
+}

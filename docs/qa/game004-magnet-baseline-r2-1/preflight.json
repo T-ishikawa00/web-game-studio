@@ -1,0 +1,169 @@
+{
+  "at": "2026-09-20T00:24:06.007Z",
+  "baseHead": "bc31be2043e32cec573e0e54521e14a733056b2a",
+  "privateOriginVerified": {
+    "source": "GitHub get_repo connector, live this adoption turn",
+    "repository": "T-ishikawa00/web-game-studio",
+    "visibility": "private",
+    "defaultBranch": "main"
+  },
+  "realRemoteMatched": true,
+  "initialIndexChanges": 0,
+  "preservedFiles": 2597,
+  "changed": [
+    "docs/games/PRODUCTION_CURRENT.md"
+  ],
+  "unexpectedExistingChanges": 0,
+  "security": {
+    "rawFullProject": {
+      "mode": "all",
+      "status": "FAIL",
+      "scanner": "gitleaks 8.30.1",
+      "findings": [
+        {
+          "file": ".tmp/physical-mobile-r2/tls/server.key",
+          "type": "private-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": ".tmp/r3-before/manifest.json",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        }
+      ]
+    },
+    "disposition": "Exact existing SHA false-positive approved; exact TLS true-secret approved for local retention only",
+    "checks": {
+      "sha256Format": true,
+      "registerMatches": true,
+      "originalBlobMatches": true,
+      "generatorLocalSha256": true,
+      "noCredentialUse": true,
+      "tlsIgnored": true,
+      "tlsAbsentIndex": true,
+      "tlsAbsentHistoryPath": true,
+      "hookUnchanged": true
+    },
+    "newCandidates": 0,
+    "scannerOrHookChanges": 0,
+    "valuesEmitted": false,
+    "preexistingNonfindingMetadata": [
+      {
+        "file": "docs/qa/mvp-portal-release-r1/preservation.json",
+        "type": "preexisting integrity metadata",
+        "action": "verify unchanged HEAD metadata, no scanner exception"
+      },
+      {
+        "file": "docs/qa/public-copy-cleanup-r1/preservation.json",
+        "type": "preexisting integrity metadata",
+        "action": "verify unchanged HEAD metadata, no scanner exception"
+      },
+      {
+        "file": "docs/qa/soft-launch-rc-r1/brand-r2/before.json",
+        "type": "preexisting integrity metadata",
+        "action": "verify unchanged HEAD metadata, no scanner exception"
+      },
+      {
+        "file": "docs/qa/soft-launch-rc-r1/naming-r1/before.json",
+        "type": "preexisting integrity metadata",
+        "action": "verify unchanged HEAD metadata, no scanner exception"
+      },
+      {
+        "file": "docs/qa/soft-launch-rc-r1/release-final-r1/before.json",
+        "type": "preexisting integrity metadata",
+        "action": "verify unchanged HEAD metadata, no scanner exception"
+      },
+      {
+        "file": "docs/qa/soft-launch-rc-r1/save-policy-r1/before.json",
+        "type": "preexisting integrity metadata",
+        "action": "verify unchanged HEAD metadata, no scanner exception"
+      },
+      {
+        "file": "docs/qa/visual-polish-r1/preservation.json",
+        "type": "preexisting integrity metadata",
+        "action": "verify unchanged HEAD metadata, no scanner exception"
+      }
+    ],
+    "fullIndexAndPostCommitHistory": "Required before commit/push; results in postflight",
+    "initialFullIndexAttempt": {
+      "status": "ERROR",
+      "reason": "Existing scanner git cat-file stdout maxBuffer 64 MiB exceeded by 104523012 byte video",
+      "resolution": "Same media bytes archived as two parts below limit, full scan rerun required; no scanner/hook/policy modification"
+    }
+  },
+  "scopedStage": "Explicit path list; CURRENT contains only adoption paragraph over HEAD, inherited working-tree history retained",
+  "externalOperationsAuthorized": "One normal checkpoint commit/push only; no deploy or external settings",
+  "diffCheck": {
+    "rawStatus": "FAIL (11 inherited whitespace findings in newly tracked existing files)",
+    "findings": [
+      {
+        "file": "game004-magnet-tempo/core.ts",
+        "line": 163,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "game004-magnet-tempo/main.ts",
+        "line": 36,
+        "type": "trailing whitespace.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "game004-magnet-tempo/main.ts",
+        "line": 89,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "game004-magnet-tempo/style.css",
+        "line": 13,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "scripts/magnet-tempo-build.mjs",
+        "line": 10,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "scripts/magnet-tempo-server.mjs",
+        "line": 15,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-art.test.ts",
+        "line": 96,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-core.test.ts",
+        "line": 436,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-play.browser.mjs",
+        "line": 82,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-qa.browser.mjs",
+        "line": 30,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      },
+      {
+        "file": "tests/magnet-tempo-terminal.browser.mjs",
+        "line": 17,
+        "type": "new blank line at EOF.",
+        "classification": "Inherited accepted/preexisting bytes; unchanged from start; no cleanup permitted or performed"
+      }
+    ],
+    "newAdoptionDiff": "PASS",
+    "scannerOrGitWhitespacePolicyWeakened": false
+  }
+}

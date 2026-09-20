@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "pauseSettle": true,
+      "retryNoStaleEffect": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "mode": "accelerated browser clock; actual DOM input, no world mutation"
+}

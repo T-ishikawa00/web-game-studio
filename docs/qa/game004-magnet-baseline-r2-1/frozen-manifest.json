@@ -1,0 +1,540 @@
+{
+  "baseline": "PROJECT MAGNET R2.1",
+  "humanGate": "HUMAN_PROGRESSION_GATE_PASS",
+  "scope": "Only the experience actually played by Human; no inferred complete-build/physical/listening/first-use/market/release acceptance",
+  "at": "2026-09-20T00:17:43.665Z",
+  "baseHead": "bc31be2043e32cec573e0e54521e14a733056b2a",
+  "artifacts": [
+    {
+      "file": "game004-magnet-tempo/art.ts",
+      "bytes": 23093,
+      "sha256": "fe96dfa9aa47e0bf0dd6ade84401249e376502ebb6e8aaa2e7f55fb7a0dc7b04",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "fe96dfa9aa47e0bf0dd6ade84401249e376502ebb6e8aaa2e7f55fb7a0dc7b04"
+    },
+    {
+      "file": "game004-magnet-tempo/audio.ts",
+      "bytes": 15677,
+      "sha256": "5facdc4ebdca9fea150fc487c55960d57431f462580a3865a6e5a231edd239c3",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "5facdc4ebdca9fea150fc487c55960d57431f462580a3865a6e5a231edd239c3"
+    },
+    {
+      "file": "game004-magnet-tempo/core.ts",
+      "bytes": 28461,
+      "sha256": "65124a473dad1e4480bac8ae839e5e0d8eb0971cdbb3cf0f43f2d251676a694b",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "f75ba9f3a2cba18e6088861dfa084510a60cea26a499c2f29221ff3eb81a6152"
+    },
+    {
+      "file": "game004-magnet-tempo/env.d.ts",
+      "bytes": 24,
+      "sha256": "da5bf71d48cf909584a01c80b445f730507068f5b34c920f352e2bfcf0315e4c",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "da5bf71d48cf909584a01c80b445f730507068f5b34c920f352e2bfcf0315e4c"
+    },
+    {
+      "file": "game004-magnet-tempo/index.html",
+      "bytes": 2305,
+      "sha256": "4d52970977aa8a2aebd1d5fae03f704f577189889ac220190adcff89d3d19db7",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "4d52970977aa8a2aebd1d5fae03f704f577189889ac220190adcff89d3d19db7"
+    },
+    {
+      "file": "game004-magnet-tempo/main.ts",
+      "bytes": 17491,
+      "sha256": "0a6169c55ac266417618afe9e482f8d8417071ae25209ecef9e8b7c02ef6c761",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "bddd05c86a8e9cbd3d13a5f4875deb616462070a9f1defc5816eb7bf961d8e01"
+    },
+    {
+      "file": "game004-magnet-tempo/progression.ts",
+      "bytes": 1981,
+      "sha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51"
+    },
+    {
+      "file": "game004-magnet-tempo/review.html",
+      "bytes": 4826,
+      "sha256": "137100047bc81ac409afadcff53c2ca2be2e84307e18b607e4a0b8cacd85d4ff",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "137100047bc81ac409afadcff53c2ca2be2e84307e18b607e4a0b8cacd85d4ff"
+    },
+    {
+      "file": "game004-magnet-tempo/style.css",
+      "bytes": 6807,
+      "sha256": "124c836c3f68c3734dd711623aa156a329b489eea944e444493773d6ef8e4f48",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "8fbca38e985e0074bd006ff73134c2871241124a3cda42ee988bc335da45b211"
+    },
+    {
+      "file": "scripts/magnet-tempo-build.mjs",
+      "bytes": 984,
+      "sha256": "5f5c25d925579ff5ae3cfc07c0e7f6407377e85c423dd618cf18c116614ad01f",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "4739259c65e144a83cd5911f2e18f952a70ef6adfd4d300f9455597e8ccb248f"
+    },
+    {
+      "file": "scripts/magnet-tempo-server.mjs",
+      "bytes": 3247,
+      "sha256": "ad019e92efd6a9b06423ded5dfa1ea2da52c68b8f448a406a69e50a6f325fdf1",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "b9340a022c01e9d40fd3f175529e1ea10197f21a9b595e652ed50b1b2d4f5231"
+    },
+    {
+      "file": "tests/magnet-tempo-core.test.ts",
+      "bytes": 16408,
+      "sha256": "7a757d61e54476f11702f67b1eb87c247b08241353aed95f7b5660af34ce22cc",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "57278f4cda7a793959cc233d82143ed6fe2a1d2482f67acfd9ce7bbc2e773fef"
+    },
+    {
+      "file": "tests/magnet-tempo-art.test.ts",
+      "bytes": 3102,
+      "sha256": "6e7dd245a15647eb43a8565e91b817f443aa698bd3186511c9acbaa117349913",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "28534aa4925dc7a51a4e15abac418f1557ae9bd6c1f02d0238e1561cc800c1f0"
+    },
+    {
+      "file": "tests/magnet-tempo-safety.test.ts",
+      "bytes": 4559,
+      "sha256": "27f33983107e9baf6e645a8979b87f0cf2abb513df369b1be95935c3a2cbd043",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "27f33983107e9baf6e645a8979b87f0cf2abb513df369b1be95935c3a2cbd043"
+    },
+    {
+      "file": "tests/magnet-tempo-qa.browser.mjs",
+      "bytes": 6330,
+      "sha256": "b65a46ca324eb4514232262fd450e930490ec0f6ea556a596aaaf90820d031e4",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "b8d43650e9ec6c794399082646252ef8d60411062412cabcb31385f35e0b3644"
+    },
+    {
+      "file": "tests/magnet-tempo-terminal.browser.mjs",
+      "bytes": 2556,
+      "sha256": "d84a068b4f8ca2a369e5083e46c7049bf77501430d296134be8c8809b7da8d31",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "ff6ec944f904844ba3a6edcc0808d8c918c3fb4b3939531de691ac3384fed164"
+    },
+    {
+      "file": "tests/magnet-tempo-play.browser.mjs",
+      "bytes": 16234,
+      "sha256": "2bc9c493ef2cb2564912f6f3bb7e1c2bf046b82af6c7cf8dbd9ed7cd65d727b9",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "e158f755855b31cfcf1bdb0cea9db2e51865b0ddcabdfccb087e2ca28f6cee9e"
+    },
+    {
+      "file": "tests/magnet-tempo-media.browser.mjs",
+      "bytes": 4441,
+      "sha256": "bac3ff8d1499159f73cfc3c24b69391b3257661dd4038e4bd27b91fdbb4fbc27",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "bac3ff8d1499159f73cfc3c24b69391b3257661dd4038e4bd27b91fdbb4fbc27"
+    },
+    {
+      "file": "tests/magnet-webm.mjs",
+      "bytes": 2208,
+      "sha256": "0a5089dd08ef9acc392ef5fb24f9d3cd3175b84e898b6f5e4976a588e90ce38e",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "0a5089dd08ef9acc392ef5fb24f9d3cd3175b84e898b6f5e4976a588e90ce38e"
+    },
+    {
+      "file": "game004-magnet/core.ts",
+      "bytes": 10262,
+      "sha256": "ad56d738197fb7a90e9118432ec0b1cefa2efd40815a127c7a0952e9f67db8fb",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "ad56d738197fb7a90e9118432ec0b1cefa2efd40815a127c7a0952e9f67db8fb"
+    },
+    {
+      "file": "docs/games/GAME004_MAGNET_RESEARCH_R1.md",
+      "bytes": 15442,
+      "sha256": "08445525744715c03f1c562d4a0c97722b85815d83f0e540f9affdf846f6d9d1",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "08445525744715c03f1c562d4a0c97722b85815d83f0e540f9affdf846f6d9d1"
+    },
+    {
+      "file": "docs/games/GAME004_MAGNET_PROGRESSION_RESEARCH_R1.md",
+      "bytes": 18523,
+      "sha256": "c9e27f022c1d9eeda70fa458dfd58d9fa820ea0b11a3e7ed839627fec0e61a64",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "c9e27f022c1d9eeda70fa458dfd58d9fa820ea0b11a3e7ed839627fec0e61a64"
+    },
+    {
+      "file": "docs/games/GAME004_MAGNET_PROGRESSION_SLICE_R2.md",
+      "bytes": 6102,
+      "sha256": "ebb9b42ba8ef1c9d45957e944b66e2acc95336d029265e471b0e826f32eaa2cf",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "ebb9b42ba8ef1c9d45957e944b66e2acc95336d029265e471b0e826f32eaa2cf"
+    },
+    {
+      "file": "docs/games/GAME004_MAGNET_TEMPO_R2_1.md",
+      "bytes": 2841,
+      "sha256": "98184263b3ca2b2e71759094e5215608c953efba39523dbeaea657d786807f17",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "98184263b3ca2b2e71759094e5215608c953efba39523dbeaea657d786807f17"
+    },
+    {
+      "file": "docs/qa/game004-magnet-progression-r2/production-regression.json",
+      "bytes": 1241,
+      "sha256": "3b67eb85ce67465bc3de7beeda9da9e43886b9721c7934190307d4731dbd2ccc",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "3b67eb85ce67465bc3de7beeda9da9e43886b9721c7934190307d4731dbd2ccc"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/REVIEW.md",
+      "bytes": 7555,
+      "sha256": "2af9a809419e4814fa7c42c3e1372a8e26920be5b1c893273826e3f135a5f3b3",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "2af9a809419e4814fa7c42c3e1372a8e26920be5b1c893273826e3f135a5f3b3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/build.json",
+      "bytes": 1117,
+      "sha256": "9d3fccd23830cccd2cbcc5768746f296bc5d8103d35b72a842762feb66cfa687",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "9d3fccd23830cccd2cbcc5768746f296bc5d8103d35b72a842762feb66cfa687"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/distribution.json",
+      "bytes": 571,
+      "sha256": "72edced7427161de4307587fae33d7b5423eff557ee7ff08a0a4f6852a66feca",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "72edced7427161de4307587fae33d7b5423eff557ee7ff08a0a4f6852a66feca"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/verification-scope.json",
+      "bytes": 1252,
+      "sha256": "d4132be16764735042753b4390327d238e15060be49afda8275466976624443b",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "45ba37f06b699031ff5e1c0bbd1c60cc4fd61914f32cf82413b5a0b596e3f56a"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/comparison.json",
+      "bytes": 1064,
+      "sha256": "70ef2eb43ae3839855fcde94e8bb2d8e8068d222801a84d3de9ea10a7890d90e",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "70ef2eb43ae3839855fcde94e8bb2d8e8068d222801a84d3de9ea10a7890d90e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/comparison-media.json",
+      "bytes": 2629,
+      "sha256": "ec16d7ebb83a2c067942cb5619fea75acd93f9607138588a54ccb30864363bc6",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "ec16d7ebb83a2c067942cb5619fea75acd93f9607138588a54ccb30864363bc6"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/media-index.json",
+      "bytes": 4611,
+      "sha256": "53d46120bd88b278d2550fd785a075d5fd2f8437a0cccc634d3e781cb0e815ae",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "53d46120bd88b278d2550fd785a075d5fd2f8437a0cccc634d3e781cb0e815ae"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/media-results.json",
+      "bytes": 3743,
+      "sha256": "f6317d66d6bd6d7c007ba40cb92c8f8e3e6c6c7c319aa0d35e241f610ab2f145",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "f6317d66d6bd6d7c007ba40cb92c8f8e3e6c6c7c319aa0d35e241f610ab2f145"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/play-results.json",
+      "bytes": 120147,
+      "sha256": "17df3ad70c2be119d9337f1061bcde8565d54d07f14043a2d1afbb1d68106fee",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "17df3ad70c2be119d9337f1061bcde8565d54d07f14043a2d1afbb1d68106fee"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-run.json",
+      "bytes": 119885,
+      "sha256": "162a1c8b8d0365c463fdb0466345b551b4ca27163f025f132ac100b9215baa0b",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "162a1c8b8d0365c463fdb0466345b551b4ca27163f025f132ac100b9215baa0b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-first-attempt.json",
+      "bytes": 121615,
+      "sha256": "9bac654f70b3c3cb6649a60336b2de0dff40e759b48eed034c6ff1bb7a89aef5",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "9bac654f70b3c3cb6649a60336b2de0dff40e759b48eed034c6ff1bb7a89aef5"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-first-failure.png",
+      "bytes": 23058,
+      "sha256": "035d0cf06fc3759744cab7559d198f4cd55f9c1d7187114a72bc00c9523e936d",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "035d0cf06fc3759744cab7559d198f4cd55f9c1d7187114a72bc00c9523e936d"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/qa-results.json",
+      "bytes": 1734,
+      "sha256": "3ea2b697e43f6b8ff33cec0968def1d81b6f790fe731289bdc831cbd9a576184",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "3ea2b697e43f6b8ff33cec0968def1d81b6f790fe731289bdc831cbd9a576184"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/terminal-qa.json",
+      "bytes": 384,
+      "sha256": "3cfb60236027623470e4203f8e4c21cbb600478093162afbeb0e83a4d19d592b",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "3cfb60236027623470e4203f8e4c21cbb600478093162afbeb0e83a4d19d592b"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/feedback-choice.json",
+      "bytes": 452,
+      "sha256": "c80c73f4926c5ed02f0599155a9691fd9adc66a27919929caa8e16d76c1bcff2",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "c80c73f4926c5ed02f0599155a9691fd9adc66a27919929caa8e16d76c1bcff2"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/feedback-interrupt.json",
+      "bytes": 223,
+      "sha256": "61a76c49a7b7f1943a84fcec0aa5c6030cda29a598d0f701d799f84a563b4a48",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "61a76c49a7b7f1943a84fcec0aa5c6030cda29a598d0f701d799f84a563b4a48"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/unit-tests.txt",
+      "bytes": 2249,
+      "sha256": "71b441041b737609558597a28c4bc7b583797a629258d566dd11528bb0a61280",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "71b441041b737609558597a28c4bc7b583797a629258d566dd11528bb0a61280"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/typecheck.txt",
+      "bytes": 187,
+      "sha256": "93d7ced5a75c4f30b13e6e039dde108a27bdcea0222d03bac5b6310080f56f64",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "3d35f3f5f30e4dcb9067bc6f553e42e4e1d0be59baa6f10ed986221a3e0b80fa"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/preservation.json",
+      "bytes": 385,
+      "sha256": "eca74a19ede14278bbe5b390133a6f4d1512b07ccaa3e04637c6420a46ce9806",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "eca74a19ede14278bbe5b390133a6f4d1512b07ccaa3e04637c6420a46ce9806"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/security.json",
+      "bytes": 850,
+      "sha256": "f798b64604a28c3ec6af8c296675327a986037ca5b5deb9e07abc7762f7d055c",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "f798b64604a28c3ec6af8c296675327a986037ca5b5deb9e07abc7762f7d055c"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/clear-connect.png",
+      "bytes": 348489,
+      "sha256": "4294c553e1212827e95af8afdd531221c8258fdded7a9d5f84cd644738c3590a",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "4294c553e1212827e95af8afdd531221c8258fdded7a9d5f84cd644738c3590a"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/clear-secured.png",
+      "bytes": 330662,
+      "sha256": "89abe91771565ea0e9aa5482d1038394b058849fa506bce5b50cc7c54458b4b3",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "89abe91771565ea0e9aa5482d1038394b058849fa506bce5b50cc7c54458b4b3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/choice-recorded.png",
+      "bytes": 201707,
+      "sha256": "efdc5bea05272f8c60f23a6c13019950e51e9ccefadbd9c4d0ba7c02e40b78a7",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "efdc5bea05272f8c60f23a6c13019950e51e9ccefadbd9c4d0ba7c02e40b78a7"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/equip-muted-reduced.png",
+      "bytes": 359729,
+      "sha256": "23166551b882887c6377b35a816a9b2fd4ede6e5f27ca3bf3442610f616c5fae",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "23166551b882887c6377b35a816a9b2fd4ede6e5f27ca3bf3442610f616c5fae"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-choice-ui-1.png",
+      "bytes": 50704,
+      "sha256": "b119a64b66ad4eb41e0656163a03b6af24246a10cb479f2bbe4f54f24c8ded19",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "b119a64b66ad4eb41e0656163a03b6af24246a10cb479f2bbe4f54f24c8ded19"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-choice-ui-2.png",
+      "bytes": 41403,
+      "sha256": "3e744e2ff79d919cc218a588d4008d0476aed3d6a207452fb77b53c944c0ea6e",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "3e744e2ff79d919cc218a588d4008d0476aed3d6a207452fb77b53c944c0ea6e"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-choice-ui-3.png",
+      "bytes": 43928,
+      "sha256": "4dc8ff11a0f7e70630fa3b91b383cf443c6ec172dd236a14712ae5294e4d7f17",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "4dc8ff11a0f7e70630fa3b91b383cf443c6ec172dd236a14712ae5294e4d7f17"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/result.png",
+      "bytes": 32633,
+      "sha256": "4db314db3300d54a545be0cb3645745919a852687bd8adc17620a8e7f6e744c3",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "4db314db3300d54a545be0cb3645745919a852687bd8adc17620a8e7f6e744c3"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/mobile-result.png",
+      "bytes": 24283,
+      "sha256": "7c639da9923fd641cb1b25462a722d889880472a7f119505bc7e7ee3fac87986",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "7c639da9923fd641cb1b25462a722d889880472a7f119505bc7e7ee3fac87986"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/review.png",
+      "bytes": 695427,
+      "sha256": "3c2e256c7f726f07b1bd9dc22f1a29dad641061213ddcfcd0d350179693d8424",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "3c2e256c7f726f07b1bd9dc22f1a29dad641061213ddcfcd0d350179693d8424"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/full-run.webm",
+      "bytes": 104523012,
+      "sha256": "abb5513eb5745e30f430e46374351eef2e85035f135026eea10855acb3572785",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "abb5513eb5745e30f430e46374351eef2e85035f135026eea10855acb3572785",
+      "parts": [
+        {
+          "file": "docs/qa/game004-magnet-tempo-r2-1/full-run.webm.part1",
+          "bytes": 52261506,
+          "sha256": "bc0a03396f2cf75b4c81b99d85a882adf3effdee565ad117230e515d89090258"
+        },
+        {
+          "file": "docs/qa/game004-magnet-tempo-r2-1/full-run.webm.part2",
+          "bytes": 52261506,
+          "sha256": "5cd9d19304b88d0b938de19bb5e82f9ba9d9f3275e7308e92f76dd78e68e7c08"
+        }
+      ],
+      "storage": "Two ordered binary parts; exact concatenation, no re-encoding. Original local video retained unchanged."
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/full-run.webm",
+      "bytes": 5831582,
+      "sha256": "13d1b68abd8a3d5c9336d5031785e33aa05ce8d09e53c4802fee03ad495c2c1f",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "13d1b68abd8a3d5c9336d5031785e33aa05ce8d09e53c4802fee03ad495c2c1f"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/full-run.webm",
+      "bytes": 3583613,
+      "sha256": "741a0c2a5d4581d9015c87e318af63519b864a8ced855582d723f5b8af65da0a",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "741a0c2a5d4581d9015c87e318af63519b864a8ced855582d723f5b8af65da0a"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/before/play-results.json",
+      "bytes": 53592,
+      "sha256": "d6bc0838672ed0c53c35de7ed21292a4c371a0fba714b30f96b40c438dcf51fe",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "d6bc0838672ed0c53c35de7ed21292a4c371a0fba714b30f96b40c438dcf51fe"
+    },
+    {
+      "file": "docs/qa/game004-magnet-tempo-r2-1/after/play-results.json",
+      "bytes": 47974,
+      "sha256": "c4ecdf3ddfd1f1fe50968ed029b46f866326562e5f944425c8fffacdb59496f3",
+      "role": "selected checkpoint artifact",
+      "canonicalSha256": "c4ecdf3ddfd1f1fe50968ed029b46f866326562e5f944425c8fffacdb59496f3"
+    },
+    {
+      "file": "package.json",
+      "bytes": 1246,
+      "sha256": "259c9233b6b7a14957d7c44e7618cc23566f41fa1b5615f9a5cdd35d00359717",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "259c9233b6b7a14957d7c44e7618cc23566f41fa1b5615f9a5cdd35d00359717"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 181287,
+      "sha256": "35ca6f7c7223479340bd9565f88f5daca26a5c1bff1843d161d73dec8eba47c5",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "35ca6f7c7223479340bd9565f88f5daca26a5c1bff1843d161d73dec8eba47c5"
+    },
+    {
+      "file": "tsconfig.json",
+      "bytes": 194,
+      "sha256": "6ec46b67a829fb0ce85e6eb919e248cd0fb5afc778eb48ea17a2280a1625f551",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "6ec46b67a829fb0ce85e6eb919e248cd0fb5afc778eb48ea17a2280a1625f551"
+    },
+    {
+      "file": "scripts/project-path.mjs",
+      "bytes": 1047,
+      "sha256": "e95e4fe7227f7dd447eaa8c5bc4233b845d625e36e3fced9527b60c5706be0f5",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "e95e4fe7227f7dd447eaa8c5bc4233b845d625e36e3fced9527b60c5706be0f5"
+    },
+    {
+      "file": "tests/r5-helpers.mjs",
+      "bytes": 2330,
+      "sha256": "9664172be29d28528d5af1be3bda7d9c9b27de1198155cbbfd5b2fb9ccc21b6c",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "9664172be29d28528d5af1be3bda7d9c9b27de1198155cbbfd5b2fb9ccc21b6c"
+    },
+    {
+      "file": "SECURITY.md",
+      "bytes": 5595,
+      "sha256": "e021fee32446ccfdafb7193338adb0ac3dabe3609ee0d96146f9e5c52f8fad1b",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "e021fee32446ccfdafb7193338adb0ac3dabe3609ee0d96146f9e5c52f8fad1b"
+    },
+    {
+      "file": ".gitleaks.toml",
+      "bytes": 71,
+      "sha256": "e8133c23d82c71c5d006fd6009ed5b7ae693ed165c0131155428dad545e2a7a7",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "e8133c23d82c71c5d006fd6009ed5b7ae693ed165c0131155428dad545e2a7a7"
+    },
+    {
+      "file": ".githooks/pre-commit",
+      "bytes": 56,
+      "sha256": "7469d17ccf3116778d420f4563c92dc028d9c7a88cda489899d9e50cc68e79bd",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "7469d17ccf3116778d420f4563c92dc028d9c7a88cda489899d9e50cc68e79bd"
+    },
+    {
+      "file": "scripts/security-scan.mjs",
+      "bytes": 6555,
+      "sha256": "a50464d1cfc5bf36a7ca4ff1e91f733bc9d962142aafd650bae9ae5d287c56bc",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "a50464d1cfc5bf36a7ca4ff1e91f733bc9d962142aafd650bae9ae5d287c56bc"
+    },
+    {
+      "file": "scripts/security-public-exceptions.json",
+      "bytes": 1500,
+      "sha256": "91c48caf4e24d374c63df315fc9d185ac7858a059352ffbbe18701e7124d9bc4",
+      "role": "existing tracked dependency",
+      "canonicalSha256": "91c48caf4e24d374c63df315fc9d185ac7858a059352ffbbe18701e7124d9bc4"
+    }
+  ],
+  "derivedDistribution": [
+    {
+      "file": ".cache/magnet-tempo-r2-1-dist/assets/game-BgrqV_LX.js",
+      "bytes": 66829,
+      "sha256": "fb9c96ee6160b6831e7f524cb124ea367ade599921a8a715616f04124481f5b4",
+      "canonicalSha256": "fb9c96ee6160b6831e7f524cb124ea367ade599921a8a715616f04124481f5b4"
+    },
+    {
+      "file": ".cache/magnet-tempo-r2-1-dist/assets/game-Cs3eyWl5.css",
+      "bytes": 6569,
+      "sha256": "a9d2c91d744b619de0737b8bb1997efa6e9771f3e9ad7acd5243c3fbaa3e655b",
+      "canonicalSha256": "a9d2c91d744b619de0737b8bb1997efa6e9771f3e9ad7acd5243c3fbaa3e655b"
+    },
+    {
+      "file": ".cache/magnet-tempo-r2-1-dist/index.html",
+      "bytes": 2406,
+      "sha256": "b817d37c2e19bc885a38c77e9ae2358f93e71194a4546ff9ab02e5b724bf3580",
+      "canonicalSha256": "b817d37c2e19bc885a38c77e9ae2358f93e71194a4546ff9ab02e5b724bf3580"
+    },
+    {
+      "file": ".cache/magnet-tempo-r2-1-dist/review.html",
+      "bytes": 4823,
+      "sha256": "42cb6e36ad005aa59088a25f0b5fbb19e9a5b04de6f169f8ed276599f289cb60",
+      "canonicalSha256": "42cb6e36ad005aa59088a25f0b5fbb19e9a5b04de6f169f8ed276599f289cb60"
+    }
+  ],
+  "excluded": "Other prototype source/evidence except Gold core unit-test fixture and one unchanged Production QA record; unrelated prior production/LAN outputs; caches/temp/dependencies; redundant screenshots/highlights. All kept locally without deletion.",
+  "runtimeMutation": 0
+}

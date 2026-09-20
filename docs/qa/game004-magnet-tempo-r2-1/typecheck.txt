@@ -1,0 +1,1 @@
+PASS: TypeScript 6 / --strict --noUncheckedIndexedAccess --noEmit / isolated R2.1 sources / ES2022 DOM bundler. Inherited initial-position arrays annotated as tuples; runtime unchanged.

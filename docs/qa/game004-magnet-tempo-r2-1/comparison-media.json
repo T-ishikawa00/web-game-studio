@@ -1,0 +1,98 @@
+[
+  {
+    "name": "before",
+    "method": "Native continuous canvas/WebAudio capture. Stream copy only to add seekable container; no cut/reencode/retime.",
+    "before": {
+      "timecodeScaleNs": 1000000,
+      "clusters": 24,
+      "tracks": {
+        "1": {
+          "blocks": 268,
+          "firstPtsMs": 0,
+          "lastPtsMs": 16018,
+          "gaps": []
+        },
+        "2": {
+          "blocks": 892,
+          "firstPtsMs": 57,
+          "lastPtsMs": 16079,
+          "gaps": []
+        }
+      },
+      "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+    },
+    "after": {
+      "timecodeScaleNs": 1000000,
+      "clusters": 9,
+      "tracks": {
+        "1": {
+          "blocks": 268,
+          "firstPtsMs": 0,
+          "lastPtsMs": 16018,
+          "gaps": []
+        },
+        "2": {
+          "blocks": 892,
+          "firstPtsMs": 57,
+          "lastPtsMs": 16079,
+          "gaps": []
+        }
+      },
+      "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+    }
+  },
+  {
+    "name": "after",
+    "method": "Native continuous canvas/WebAudio capture. Stream copy only to add seekable container; no cut/reencode/retime.",
+    "before": {
+      "timecodeScaleNs": 1000000,
+      "clusters": 15,
+      "tracks": {
+        "1": {
+          "blocks": 552,
+          "firstPtsMs": 0,
+          "lastPtsMs": 9650,
+          "gaps": [
+            {
+              "fromMs": 0,
+              "toMs": 101,
+              "gapMs": 101
+            }
+          ]
+        },
+        "2": {
+          "blocks": 161,
+          "firstPtsMs": 32,
+          "lastPtsMs": 9631,
+          "gaps": []
+        }
+      },
+      "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+    },
+    "after": {
+      "timecodeScaleNs": 1000000,
+      "clusters": 6,
+      "tracks": {
+        "1": {
+          "blocks": 552,
+          "firstPtsMs": 0,
+          "lastPtsMs": 9650,
+          "gaps": [
+            {
+              "fromMs": 0,
+              "toMs": 101,
+              "gapMs": 101
+            }
+          ]
+        },
+        "2": {
+          "blocks": 161,
+          "firstPtsMs": 32,
+          "lastPtsMs": 9631,
+          "gaps": []
+        }
+      },
+      "scope": "Chrome MediaRecorder SimpleBlock timestamp inspection; codec ordering verified by recorder and ffmpeg input metadata; no payload rewriting"
+    }
+  }
+]
