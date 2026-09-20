@@ -1,0 +1,28 @@
+{
+  "baselineFiles": 2820,
+  "preExistingFiles": 2817,
+  "excludedTaskCreatedHelpers": [
+    "scripts/magnet-full-baseline-verify.mjs",
+    "scripts/magnet-full-baseline-media.mjs",
+    "scripts/magnet-public-preserve.mjs"
+  ],
+  "changed": [
+    "docs/games/PRODUCTION_CURRENT.md"
+  ],
+  "unexpected": [],
+  "headUnchanged": false,
+  "indexUnchanged": false,
+  "protected": [
+    "production source + existing tracked/untracked",
+    "Nurture source + evidence + built output",
+    "approved production distributions"
+  ],
+  "remoteRead": true,
+  "authorizedCheckpoint": "8589025926c2ca34d87548521e28d7277e668f66",
+  "baselineIncludesEarlyNewHelpers": true,
+  "helperDelta": "magnet-full-baseline-verify.mjs was created in this task before snapshot; ps1 line-ending support added before checkpoint, not a pre-existing accepted file",
+  "gitChanges": "One explicitly authorized checkpoint commit/push; index empty afterward",
+  "checkpointMatches": true,
+  "indexEmpty": true,
+  "status": "PASS"
+}

@@ -1,0 +1,33 @@
+{
+  "unit": {
+    "pass": 215,
+    "fail": 0
+  },
+  "magnetUnit": {
+    "pass": 28,
+    "fail": 0
+  },
+  "globalTypecheck": {
+    "status": "FAIL",
+    "count": 12,
+    "code": "TS18048",
+    "files": [
+      "game004-magnet/core.ts",
+      "game004-magnet-progression/core.ts",
+      "game004-magnet-vertical/core.ts"
+    ],
+    "relation": "Pre-existing isolated prototypes; not in distribution"
+  },
+  "publicAdapter": {
+    "status": "PASS",
+    "byteIdenticalBuild": true
+  },
+  "independentReview": {
+    "model": "gpt-5.6-sol",
+    "status": "No remaining artifact blocker; robots and stale-QA issues addressed"
+  },
+  "runtimeModels": [
+    "gpt-6-astra",
+    "gpt-5.6-sol"
+  ]
+}

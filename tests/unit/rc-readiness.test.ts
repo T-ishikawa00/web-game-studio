@@ -10,16 +10,21 @@ test('RC readiness rejects missing fields, false approvals and placeholders',()=
  for(const key of requiredDecisionFields)for(const value of [undefined,null,'','TBD',false])assert.ok(releaseBlockers({...good,releaseDecisions:{...good.releaseDecisions,[key]:value}}).some((b:any)=>b.code==='decision:'+key));
  assert.ok(releaseBlockers({...good,unresolvedRights:[{code:'name',reason:'unresolved'}]}).some((b:any)=>b.code==='rights:name'));
 });
-test('Frozen Soft Launch names and analytics policy do not publish an unacquired domain or contact',()=>{
+test('Explicit release approval retains unverified device, full-puzzle and live-smoke boundaries',()=>{
  const blockers=releaseBlockers(currentSite);
  assert.equal(currentSite.humanReview.rcCandidate.status,'PASS');
  assert.equal(currentSite.nameRiskDisposition.tirmo,'unresolved');
  assert.equal(currentSite.nameRiskDisposition.wipo,'UNKNOWN');
  assert.equal(currentSite.analyticsProvider,'disabled');
  assert.equal(currentSite.softLaunchPolicy.gameCustomEvents,false);
- assert.equal(currentSite.publicContact,null);
- assert.equal(currentSite.domain,null);
- for(const key of ['domain','publicContact','publicOperator','release','legalReview','dataPolicyFinal','deployedUrlSmoke'])assert.ok(blockers.some(b=>b.code===key));
+ assert.equal(currentSite.publicContact,'support@tinlumo.com');
+ assert.equal(currentSite.domain,'https://tinlumo.com');
+ assert.equal(currentSite.approvals.release,true);
+ assert.equal(currentSite.humanReview.game004Public.status,'PASS');
+ assert.equal(currentSite.humanReview.game004Public.deviceDetails,'NOT REPORTED');
+ assert.equal(currentSite.humanReview.game004Public.externalFirstUse,'NOT TESTED');
+ for(const key of ['rcPhysicalDevices','human57Puzzles','deployedUrlSmoke'])assert.ok(blockers.some(b=>b.code===key));
+ assert.ok(!blockers.some(b=>['domain','publicContact','publicOperator','release','legalReview','dataPolicyFinal'].includes(b.code)));
  assert.ok(!blockers.some(b=>['humanRcCandidate','externalFirstUse','targetAge','rights:tinlumoClearance','rights:hakoriloClearance'].includes(b.code)));
 });
 test('Human candidate PASS and explicit first-use deferral do not imply rights, physical/full-run or live deployment PASS',()=>{

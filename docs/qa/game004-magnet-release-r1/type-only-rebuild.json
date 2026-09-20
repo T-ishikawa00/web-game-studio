@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "change": "Public adapter tuple readonly type annotation only",
+  "byteIdenticalToAccepted": [
+    "index.html",
+    "assets/index-D2vtvqvm.js",
+    "assets/index-Cn9VhVmP.css"
+  ],
+  "acceptedFullSourceChanges": 0
+}

@@ -1,0 +1,66 @@
+{
+  "rawFullProject": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "approvedExistingFindings": 2,
+  "newCandidates": 0,
+  "distributionScans": [
+    {
+      "root": ".cache/game004-public-candidate",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "root": ".cache/game004-public-game",
+      "status": "PASS",
+      "findings": []
+    }
+  ],
+  "tlsChecks": {
+    "ignored": true,
+    "absentIndex": true,
+    "absentHistory": true
+  },
+  "productionFilesVerified": 52,
+  "retainedPayloads": [
+    "_astro/_..DxFJWC1F.css",
+    "assets/analytics-consent.js",
+    "assets/portal.js",
+    "assets/public-language.js",
+    "assets/shell.js",
+    "covers/light-garden.png",
+    "covers/tiny-delivery.png",
+    "covers/two-ways-home.png",
+    "games/light-garden/rc-r1/base.css",
+    "games/light-garden/rc-r1/game.css",
+    "games/light-garden/rc-r1/game.js",
+    "games/light-garden/rc-r1/index.html",
+    "games/tiny-delivery/rc-r1/base.css",
+    "games/tiny-delivery/rc-r1/game.js",
+    "games/tiny-delivery/rc-r1/index.html",
+    "games/tiny-delivery/rc-r1/music.wav",
+    "games/two-ways-home/rc-r1/base.css",
+    "games/two-ways-home/rc-r1/game.js",
+    "games/two-ways-home/rc-r1/index.html",
+    "licenses/astro.txt"
+  ],
+  "fullAcceptedArtifactsVerified": 73,
+  "indexEmpty": true,
+  "scannerExceptionsAdded": 0,
+  "externalProviderCalls": 0,
+  "deploy": 0
+}

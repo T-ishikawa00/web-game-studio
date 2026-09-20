@@ -1,0 +1,2 @@
+PROJECT MAGNET — Tinlumo Studio
+Original AI-assisted Canvas artwork, code and synthesized Web Audio. No third-party media, samples, music or font files. System fonts only. No public source license is granted. Vite tool notice: licenses/vite.txt.

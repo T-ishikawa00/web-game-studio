@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    "switch updates route and survives reload",
+    "EN reset retains EN UI",
+    " inventory consistent",
+    "en/about/ inventory consistent",
+    "ja/about/ inventory consistent",
+    "en/terms/ inventory consistent",
+    "ja/terms/ inventory consistent",
+    "local disabled analytics UI hidden with stored allow",
+    "Review all images decode",
+    "Review accepted highlight metadata loads"
+  ]
+}

@@ -1,2 +1,4 @@
 # Shell hooks must remain executable with LF endings on Windows/macOS/Linux.
 .githooks/* text eol=lf
+# Manifest-bound release bytes must not be changed by Git line-ending conversion.
+release-artifacts/game004-production-r1/** -text -diff

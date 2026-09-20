@@ -45,7 +45,7 @@
     "cloudSave": false,
     "progress": "per-game localStorage autosave; same device/browser/origin",
     "futureAccounts": "Consider optional accounts and Cloud Save only after actual demand is confirmed; no implementation authorized",
-    "freeGames": 3,
+    "freeGames": 4,
     "purchases": false,
     "realAds": false,
     "locales": [
@@ -79,6 +79,23 @@
     "protectedPreview": {
       "status": "PASS",
       "source": "Human: Tinlumo Public Release Final R1, 2026-09-17. Device models, OS and full-57 coverage were not reported; no inference."
+    },
+    "game004Public": {
+      "status": "PASS",
+      "source": "Human Release Gate PASS 2026-09-20",
+      "scope": [
+        "Desktop JA/EN",
+        "Mission A/B/C",
+        "Clear/Retry",
+        "save/reload/zone resume",
+        "Portal integration",
+        "Physical mobile",
+        "Touch controls",
+        "Actual audio/mute"
+      ],
+      "deviceDetails": "NOT REPORTED",
+      "externalFirstUse": "NOT TESTED",
+      "marketability": "UNKNOWN"
     }
   },
   "unresolvedRights": [],
@@ -91,7 +108,7 @@
     "rcPhysicalDevices": false,
     "human57Puzzles": false,
     "externalFirstUse": false,
-    "release": false
+    "release": true
   },
   "nameRiskDisposition": {
     "humanDecision": "Freeze for Soft Launch with the following residual uncertainty explicitly recorded",
@@ -116,7 +133,7 @@
     "retention": "Human policy: around 90 days after resolution, monthly unresolved review, reasonable legal/security/abuse/dispute exceptions. Published Gmail trash and Google backup/processing limits verified; no account-specific deletion guarantee."
   },
   "publicLaunch": {
-    "status": "PUBLIC_RELEASE_BLOCKED",
+    "status": "GAME004_RELEASE_APPROVED_SMOKE_PENDING",
     "humanRequest": "Tinlumo Public Release Final R1",
     "conditionalOneCheckpointAndPublicConnection": true,
     "productionWorker": "tinlumo-production",
@@ -239,8 +256,8 @@
       ]
     },
     "analyticsDataDecision": "Human Final Decision R1: necessary progress/settings storage and default-off explicit visitor opt-in approved; local QA passed; provider connection and final deploy gate remain pending",
-    "deploymentHold": true,
-    "deploymentHoldReason": "Human explicitly requires final pre-deploy gate; no production deploy at this stage",
+    "deploymentHold": false,
+    "deploymentHoldReason": "Human Game004 Release Gate PASS, 2026-09-20; production deployment explicitly authorized, live smoke required.",
     "finalPolicyDecision": {
       "status": "HUMAN APPROVED",
       "source": "Human Final Decision — Public Data / Analytics / Legal R1",

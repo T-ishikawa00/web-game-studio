@@ -1,0 +1,32 @@
+{
+  "parent": "8589025926c2ca34d87548521e28d7277e668f66",
+  "paths": [
+    ".gitattributes",
+    "tsconfig.json",
+    "src/data/games.ts",
+    "src/data/game004-release.json",
+    "src/rc/site.json",
+    "tests/unit/rc-readiness.test.ts",
+    "docs/games/PRODUCTION_CURRENT.md",
+    "game004-public",
+    "docs/qa/game004-magnet-public-r1",
+    "docs/qa/game004-magnet-release-r1",
+    "release-artifacts/game004-production-r1",
+    "scripts/magnet-public-build.mjs",
+    "scripts/magnet-public-server.mjs",
+    "scripts/magnet-public-preserve.mjs",
+    "scripts/magnet-public-security.mjs",
+    "scripts/magnet-release-build.mjs",
+    "scripts/magnet-release-server.mjs",
+    "scripts/magnet-release-security.mjs",
+    "scripts/magnet-release-wrangler.mjs",
+    "tests/magnet-public.browser.mjs",
+    "tests/magnet-release.browser.mjs",
+    "tests/magnet-release-replay.browser.mjs",
+    "tests/magnet-release-distribution.mjs",
+    "tests/magnet-release-consent.browser.mjs",
+    "docs/qa/game004-magnet-full-r1/B-foundry-stage5.png"
+  ],
+  "gitOperationsAuthorized": "One normal checkpoint and private origin/main fast-forward push for this release",
+  "excluded": "All unrelated old untracked work, .tmp/.cache/TLS and full historical evidence outside listed required assets"
+}

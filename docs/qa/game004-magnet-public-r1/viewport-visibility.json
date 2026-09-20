@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "name": "desktop",
+      "overflow": false
+    },
+    {
+      "name": "desktop",
+      "simulatedVisibilityPaused": true
+    },
+    {
+      "name": "portrait",
+      "overflow": false
+    },
+    {
+      "name": "portrait",
+      "simulatedVisibilityPaused": true
+    },
+    {
+      "name": "landscape",
+      "overflow": false
+    },
+    {
+      "name": "landscape",
+      "simulatedVisibilityPaused": true
+    }
+  ],
+  "physical": "NOT TESTED",
+  "visibilityMethod": "Injected document.hidden and visibilitychange; not an OS background test"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "GAME004_PUBLIC_CANDIDATE_READY / HUMAN_RELEASE_GATE_PENDING",
+  "head": "8589025926c2ca34d87548521e28d7277e668f66",
+  "originMain": "8589025926c2ca34d87548521e28d7277e668f66",
+  "actualRemote": "8589025926c2ca34d87548521e28d7277e668f66",
+  "indexEmpty": true,
+  "commitCount": 1,
+  "pushCount": 1,
+  "otherExternalWrites": 0,
+  "deploy": 0,
+  "productionRegistryWrites": 0,
+  "cloudflareChanges": 0,
+  "lanPublication": 0,
+  "models": [
+    "gpt-6-astra",
+    "gpt-5.6-sol"
+  ],
+  "phase2": "UNSTAGED / UNCOMMITTED",
+  "newContent": 0,
+  "additionalPolish": 0,
+  "physicalMobile": "NOT TESTED",
+  "listening": "NOT TESTED",
+  "outsideFirstUse": "NOT TESTED",
+  "market": "UNKNOWN"
+}

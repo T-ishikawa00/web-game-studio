@@ -1,0 +1,22 @@
+{
+  "id": "project-magnet",
+  "slug": "project-magnet",
+  "title": {"ja": "PROJECT MAGNET", "en": "PROJECT MAGNET"},
+  "description": {
+    "ja": "金属を吸い寄せ、狙って一斉射出。壊した装甲を次の力に変える、3作戦の磁力アクション。",
+    "en": "Gather metal. Aim and launch it all. Turn broken armor into your next upgrade across three magnetic combat missions."
+  },
+  "cover": "/covers/project-magnet.png",
+  "inputs": ["pointer", "touch", "keyboard"],
+  "devices": {"desktop": true, "mobile": true},
+  "orientation": "any",
+  "buildPath": "/games/project-magnet/full-r1/index.html",
+  "version": "full-r1",
+  "state": "released",
+  "category": {"ja": "磁力アクション", "en": "Magnetic action"},
+  "tags": [],
+  "related": ["tiny-delivery", "light-garden", "two-ways-home"],
+  "save": {"strategy": "local", "schema": 1},
+  "ads": {"mode": "disabled", "formats": []},
+  "legal": {"status": "reviewed", "evidence": "docs/qa/game004-magnet-release-r1/ACCEPTANCE.md"}
+}

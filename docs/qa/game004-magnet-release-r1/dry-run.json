@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-20T04:57:03.321Z",
+  "mode": "DRY_RUN",
+  "exitCode": 0,
+  "worker": "tinlumo-production",
+  "version": null,
+  "checkpoint": "8589025926c2ca34d87548521e28d7277e668f66",
+  "assetRoot": "release-artifacts/game004-production-r1",
+  "onlyStaticAssets": true,
+  "workersDev": false,
+  "versionPreview": false,
+  "rawOutputRetained": false,
+  "errorCodes": [],
+  "authenticationActionNeeded": false
+}
