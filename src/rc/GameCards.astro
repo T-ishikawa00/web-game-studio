@@ -1,0 +1,16 @@
+---
+import type {Game,Locale} from '../data/games';
+import {publicSelection} from './public-catalog';
+const {games,locale,related=false}=Astro.props as {games:Game[];locale:Locale;related?:boolean};
+const t=(ja:string,en:string)=>locale==='ja'?ja:en;
+---
+<section class="section" id={related?'related-games':undefined} aria-label={t(related?'ほかの作品':'ゲーム一覧',related?'Other games':'Games')}>
+ {related&&<div class="section-heading"><h2>{t('ほかの作品で遊ぶ','Try another game')}</h2></div>}
+ <div class="card-grid rc-cards trust-cards">{games.map(game=><article class="game-card">
+  <a class="card-play-link" href={`/${locale}/play/${game.slug}/`} data-event={related?'related_game_open':'game_card_open'} data-game={game.id} aria-label={`${game.title[locale]} — ${t('遊ぶ','Play')}`}>
+   <div class="game-cover"><img src={game.cover} width="960" height="600" alt="" loading={related?'lazy':'eager'}/></div>
+   <div class="card-body"><h3>{game.title[locale]}</h3><p>{publicSelection.find(g=>g.id===game.id)?.summary[locale]??game.description[locale]}</p><span class="button primary" aria-hidden="true">{t('遊ぶ','Play')} →</span></div>
+  </a>
+  <a class="card-details text-link" href={`/${locale}/games/${game.slug}/`} aria-label={`${game.title[locale]} — ${t('遊び方・詳細','Details')}`}>{t('遊び方・詳細','Details')}</a>
+ </article>)}</div>
+</section>

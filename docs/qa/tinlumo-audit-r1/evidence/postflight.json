@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-20T06:07:31.948Z",
+  "status": "PRESERVATION_AND_REVIEW_CHECKS_PASS",
+  "models": {
+    "primary": "gpt-6-astra",
+    "independentReadOnlyResearchAndReview": "gpt-6-astra"
+  },
+  "protectedFiles": 2828,
+  "protectedDistribution": 62,
+  "changed": [],
+  "authorizedDocumentationChanges": [
+    {
+      "file": "docs/games/PRODUCTION_CURRENT.md",
+      "existingContentUnchanged": true,
+      "change": "Add audit index and stopping condition only"
+    }
+  ],
+  "newOutside": [],
+  "missingLinks": [],
+  "headUnchanged": true,
+  "indexUnchanged": true,
+  "reviewResponsiveChecks": 8,
+  "adStateChecks": 14,
+  "consentTests": {
+    "pass": 6,
+    "fail": 1,
+    "failure": "Existing pre-release humanFinalGate expectation, tests/analytics-consent.mjs:60; unchanged HEAD sources"
+  },
+  "productionSourceWrites": 0,
+  "externalConfigurationWrites": 0,
+  "stageCommitPushDeploy": 0,
+  "newVideos": 0,
+  "temporaryProcesses": {
+    "created": 1,
+    "purpose": "Deliverable loopback review",
+    "port": 4380,
+    "retained": true,
+    "existingProcessesStopped": 0
+  },
+  "limits": [
+    "Physical device/audio/200% zoom not tested this audit",
+    "Real-user outcomes and legal/provider applicability pending",
+    "No new full-project secrets scan; prior raw two findings unchanged"
+  ],
+  "stop": "TINLUMO_AUDIT_AND_CHANGE_PLAN_READY / HUMAN_SCOPE_DECISION_PENDING"
+}

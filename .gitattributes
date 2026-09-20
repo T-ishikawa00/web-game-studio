@@ -2,3 +2,4 @@
 .githooks/* text eol=lf
 # Manifest-bound release bytes must not be changed by Git line-ending conversion.
 release-artifacts/game004-production-r1/** -text -diff
+release-artifacts/tinlumo-trust-ux-r2/** -text -diff

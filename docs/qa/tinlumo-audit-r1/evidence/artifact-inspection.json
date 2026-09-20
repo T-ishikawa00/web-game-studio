@@ -1,0 +1,328 @@
+{
+  "at": "2026-09-20T05:43:40.365Z",
+  "artifactManifestHash": "39d940d4c251ba78ee80822c034c89cc08c94d71757b732ff941620a6cb3bbf6",
+  "verifiedFiles": 62,
+  "mismatches": [],
+  "routes": [
+    {
+      "route": "/ja/games/project-magnet/",
+      "gameLinks": [
+        "/ja/games/project-magnet/",
+        "/en/games/project-magnet/",
+        "/ja/play/project-magnet/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/ja/play/project-magnet/",
+      "gameLinks": [
+        "/en/games/project-magnet/"
+      ],
+      "iframes": [],
+      "analytics": false
+    },
+    {
+      "route": "/ja/games/tiny-delivery/",
+      "gameLinks": [
+        "/ja/games/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/ja/play/tiny-delivery/",
+        "/ja/play/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/play/light-garden/",
+        "/ja/play/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/play/two-ways-home/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/ja/play/tiny-delivery/",
+      "gameLinks": [
+        "/ja/play/tiny-delivery/",
+        "/en/play/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/play/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/play/light-garden/",
+        "/ja/play/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/play/two-ways-home/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/ja/games/light-garden/",
+      "gameLinks": [
+        "/ja/games/light-garden/",
+        "/en/games/light-garden/",
+        "/ja/play/light-garden/",
+        "/ja/play/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/play/tiny-delivery/",
+        "/ja/play/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/play/two-ways-home/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/ja/play/light-garden/",
+      "gameLinks": [
+        "/ja/play/light-garden/",
+        "/en/play/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/play/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/play/tiny-delivery/",
+        "/ja/play/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/play/two-ways-home/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/ja/games/two-ways-home/",
+      "gameLinks": [
+        "/ja/games/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/ja/play/two-ways-home/",
+        "/ja/play/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/play/tiny-delivery/",
+        "/ja/play/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/play/light-garden/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/ja/play/two-ways-home/",
+      "gameLinks": [
+        "/ja/play/two-ways-home/",
+        "/en/play/two-ways-home/",
+        "/ja/games/two-ways-home/",
+        "/ja/play/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/games/tiny-delivery/",
+        "/ja/play/tiny-delivery/",
+        "/ja/play/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/games/light-garden/",
+        "/ja/play/light-garden/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/en/games/project-magnet/",
+      "gameLinks": [
+        "/ja/games/project-magnet/",
+        "/en/games/project-magnet/",
+        "/en/play/project-magnet/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/en/play/project-magnet/",
+      "gameLinks": [
+        "/en/games/project-magnet/"
+      ],
+      "iframes": [],
+      "analytics": false
+    },
+    {
+      "route": "/en/games/tiny-delivery/",
+      "gameLinks": [
+        "/ja/games/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/play/tiny-delivery/",
+        "/en/play/light-garden/",
+        "/en/games/light-garden/",
+        "/en/games/light-garden/",
+        "/en/play/light-garden/",
+        "/en/play/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/play/two-ways-home/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/en/play/tiny-delivery/",
+      "gameLinks": [
+        "/ja/play/tiny-delivery/",
+        "/en/play/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/play/light-garden/",
+        "/en/games/light-garden/",
+        "/en/games/light-garden/",
+        "/en/play/light-garden/",
+        "/en/play/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/play/two-ways-home/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/en/games/light-garden/",
+      "gameLinks": [
+        "/ja/games/light-garden/",
+        "/en/games/light-garden/",
+        "/en/play/light-garden/",
+        "/en/play/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/play/tiny-delivery/",
+        "/en/play/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/play/two-ways-home/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/en/play/light-garden/",
+      "gameLinks": [
+        "/ja/play/light-garden/",
+        "/en/play/light-garden/",
+        "/en/games/light-garden/",
+        "/en/play/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/play/tiny-delivery/",
+        "/en/play/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/play/two-ways-home/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/en/games/two-ways-home/",
+      "gameLinks": [
+        "/ja/games/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/play/two-ways-home/",
+        "/en/play/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/play/tiny-delivery/",
+        "/en/play/light-garden/",
+        "/en/games/light-garden/",
+        "/en/games/light-garden/",
+        "/en/play/light-garden/"
+      ],
+      "iframes": [],
+      "analytics": true
+    },
+    {
+      "route": "/en/play/two-ways-home/",
+      "gameLinks": [
+        "/ja/play/two-ways-home/",
+        "/en/play/two-ways-home/",
+        "/en/games/two-ways-home/",
+        "/en/play/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/games/tiny-delivery/",
+        "/en/play/tiny-delivery/",
+        "/en/play/light-garden/",
+        "/en/games/light-garden/",
+        "/en/games/light-garden/",
+        "/en/play/light-garden/"
+      ],
+      "iframes": [],
+      "analytics": true
+    }
+  ],
+  "live": [
+    {
+      "route": "/en/",
+      "status": 200,
+      "bytes": 9428,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/ja/",
+      "status": 200,
+      "bytes": 10099,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/en/play/project-magnet/",
+      "status": 200,
+      "bytes": 2851,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/en/play/tiny-delivery/",
+      "status": 200,
+      "bytes": 9092,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/en/terms/",
+      "status": 200,
+      "bytes": 7662,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/ja/terms/",
+      "status": 200,
+      "bytes": 8394,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/en/privacy/",
+      "status": 200,
+      "bytes": 11477,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/ja/privacy/",
+      "status": 200,
+      "bytes": 13018,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/en/contact/",
+      "status": 200,
+      "bytes": 6760,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/en/credits/",
+      "status": 200,
+      "bytes": 7270,
+      "exactLocalMatch": true
+    },
+    {
+      "route": "/assets/analytics-consent.js",
+      "status": 200,
+      "bytes": 4185,
+      "exactLocalMatch": true
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2026-09-20T06:03:32.314Z",
+  "browser": "Codex IAB Chromium",
+  "responsive": [
+    {
+      "width": 1366,
+      "variant": "A",
+      "page": "home",
+      "brokenImages": 0,
+      "cardCount": 4,
+      "overflow": false,
+      "visibleAds": 0
+    },
+    {
+      "width": 1366,
+      "variant": "A",
+      "page": "play",
+      "brokenImages": 0,
+      "cardCount": 0,
+      "overflow": false,
+      "visibleAds": 0
+    },
+    {
+      "width": 1366,
+      "variant": "B",
+      "page": "home",
+      "brokenImages": 0,
+      "cardCount": 3,
+      "overflow": false,
+      "visibleAds": 1
+    },
+    {
+      "width": 1366,
+      "variant": "B",
+      "page": "play",
+      "brokenImages": 0,
+      "cardCount": 0,
+      "overflow": false,
+      "visibleAds": 1
+    },
+    {
+      "width": 390,
+      "variant": "A",
+      "page": "home",
+      "brokenImages": 0,
+      "cardCount": 4,
+      "overflow": false,
+      "visibleAds": 0
+    },
+    {
+      "width": 390,
+      "variant": "A",
+      "page": "play",
+      "brokenImages": 0,
+      "cardCount": 0,
+      "overflow": false,
+      "visibleAds": 0
+    },
+    {
+      "width": 390,
+      "variant": "B",
+      "page": "home",
+      "brokenImages": 0,
+      "cardCount": 3,
+      "overflow": false,
+      "visibleAds": 1
+    },
+    {
+      "width": 390,
+      "variant": "B",
+      "page": "play",
+      "brokenImages": 0,
+      "cardCount": 0,
+      "overflow": false,
+      "visibleAds": 0
+    }
+  ],
+  "adStates": [
+    {
+      "width": 1366,
+      "ad": "none",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "ad": "waiting",
+      "ads": 1,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "ad": "shown",
+      "ads": 1,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "ad": "no-fill",
+      "ads": 1,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "ad": "error",
+      "ads": 1,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "ad": "unset",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "ad": "denied",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "ad": "none",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "ad": "waiting",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "ad": "shown",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "ad": "no-fill",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "ad": "error",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "ad": "unset",
+      "ads": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "ad": "denied",
+      "ads": 0,
+      "overflow": false
+    }
+  ],
+  "inPlaceAdTransitions": [
+    {
+      "ad": "Waiting…",
+      "adHeight": 250,
+      "gameDocumentY": 972.65625,
+      "gameWidth": 865,
+      "gameX": 53,
+      "gap": 160
+    },
+    {
+      "ad": "Example display placement",
+      "adHeight": 250,
+      "gameDocumentY": 972.65625,
+      "gameWidth": 865,
+      "gameX": 53,
+      "gap": 160
+    },
+    {
+      "ad": "No ad available",
+      "adHeight": 250,
+      "gameDocumentY": 972.65625,
+      "gameWidth": 865,
+      "gameX": 53,
+      "gap": 160
+    },
+    {
+      "ad": "Unavailable",
+      "adHeight": 250,
+      "gameDocumentY": 972.65625,
+      "gameWidth": 865,
+      "gameX": 53,
+      "gap": 160
+    }
+  ],
+  "keyboardMockSettings": {
+    "opened": true,
+    "closed": true
+  },
+  "additionalWidths": [
+    {
+      "width": 360,
+      "mainButtons": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "mainButtons": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "overflow": false
+    }
+  ],
+  "productionConsentKeyboardReject": true,
+  "zoom200": "NOT TESTED",
+  "physicalDevices": "NOT TESTED",
+  "audioListening": "NOT TESTED",
+  "newVideos": 0,
+  "productionChanges": 0
+}

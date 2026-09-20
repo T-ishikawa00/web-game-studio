@@ -45,7 +45,6 @@
     "cloudSave": false,
     "progress": "per-game localStorage autosave; same device/browser/origin",
     "futureAccounts": "Consider optional accounts and Cloud Save only after actual demand is confirmed; no implementation authorized",
-    "freeGames": 4,
     "purchases": false,
     "realAds": false,
     "locales": [
@@ -146,8 +145,8 @@
       "en": "We review inquiries and reply when needed. We do not set a fixed response time for general inquiries."
     },
     "operatorInformation": {
-      "ja": "Tinlumo Studioは個人が運営するブランドです。法令上必要な運営者情報のお求めは、上記の窓口で受け付けます。必要な本人確認等を行ったうえで、遅滞なく回答します。",
-      "en": "Tinlumo Studio is an individually operated brand, not a corporation. You can request legally required operator information at the address above. We respond without undue delay after any necessary identity checks."
+      "ja": "Tinlumo Studioは、個人が運営するブランドです。法令上必要な運営者情報は、上記の窓口へのお求めに応じて遅滞なくお知らせします。運営者情報だけの照会では、本人確認書類の提出は原則として求めません。",
+      "en": "Tinlumo Studio is an individually operated brand. Legally required operator information is available on request at the address above without undue delay. We do not normally ask for identity documents when you only request operator information."
     },
     "markets": {
       "ja": "海外・英語圏を中心とするGlobal向けのサービスです。日本は重要な第二市場として、日本語でも同等に対応します。英語・日本語の両方を正式に提供し、海外からのアクセスを地域で遮断しません。",
@@ -162,8 +161,8 @@
       "en": "Inquiry messages are normally deleted around 90 days after resolution. We review unresolved inquiries monthly. We may retain information longer when reasonably needed for legal obligations, security incidents, abuse or disputes. Copies may remain in the email provider’s trash or backups, so immediate complete deletion is not guaranteed."
     },
     "dataRequests": {
-      "ja": "法令に基づく個人情報の開示・訂正・削除などの請求は、下記の窓口で受け付けます。必要な本人確認等を行い、適用される法令に従って遅滞なく対応します。通常のお問い合わせについて「必要に応じて返信する」という方針は、これらの請求には適用しません。",
-      "en": "Use the contact address below to request access, correction, deletion or other rights under applicable law. We carry out necessary identity checks and respond without undue delay as required by law. Our policy of replying to general inquiries when needed does not apply to these requests."
+      "ja": "ご自身の個人情報の開示・訂正・削除など、法令に基づく請求は、この窓口で受け付けます。必要な範囲で本人確認をお願いする場合があります。適用される法令とその期限に従って対応し、一般のお問い合わせの返信方針は適用しません。",
+      "en": "Use this address to request access, correction, deletion or other rights concerning your personal information under applicable law. We may ask for the minimum information needed to verify your identity. We respond in accordance with applicable law and its deadlines. Our reply policy for general inquiries does not apply to these requests."
     },
     "hostingDisclosure": {
       "ja": "Cloudflareは世界各地で情報を処理・転送する場合があり、同社のプライバシーポリシーでは主な保管地域として米国と欧州経済領域（EEA）が示されています。保持期間は利用目的、必要性、法令上の義務などによって異なります。Tinlumoでは別途アクセスログを保管しませんが、Cloudflareによる処理・保持は行われる場合があります。",
@@ -180,10 +179,6 @@
     "termsDisclosure": {
       "ja": "進捗はお使いの端末のブラウザに自動保存されます。同じサイト・端末・ブラウザでの利用を前提とし、他の端末やブラウザには引き継がれません。設定変更、ブラウザの更新、容量不足、サイトデータの削除などで保存が失われる場合があります。サービスの継続・可用性や、保存データの保持・復元は保証できません。サービスの内容を変更したり、提供を停止したりする場合があります。これらの条件は、適用される法令によって制限できない利用者の権利を制限するものではありません。",
       "en": "Progress saves automatically in your browser on your device. Saves depend on using the same site, device and browser and do not transfer to another device or browser. Changes to settings, browser updates, limited storage or clearing site data may cause saves to be lost. We do not guarantee continued service availability or the retention or recovery of saved data. The service may change or be discontinued. These terms do not limit any rights that cannot be limited under applicable law."
-    },
-    "videoPolicy": {
-      "ja": null,
-      "en": null
     },
     "analyticsActive": false,
     "mail": {
@@ -264,8 +259,8 @@
       "scope": "Initial Global release policy and bilingual implementation; not worldwide legal compliance guarantee or permission to deploy this turn"
     },
     "rightsDisclosure": {
-      "ja": "Tinlumoのゲーム、パズル、画像、音声と、使用するオープンソースソフトウェアには、それぞれ適用される権利とライセンスがあります。詳しくはクレジットと同梱のライセンス表示をご覧ください。通常のプレイ、適用法令または個別のライセンスで認められる場合を除き、ゲームや素材の無断複製・再配布を禁止します。不正アクセス、なりすまし、サービスの妨害、他者の権利を侵害する利用も禁止します。個別のオープンソースライセンスによる許諾は制限しません。",
-      "en": "Tinlumo’s games, puzzles, artwork and audio, and the open-source software used, are covered by their respective rights and licenses. See Credits and the included license notices for details. Apart from normal play and uses permitted by law or an individual license, unauthorized copying or redistribution of games or assets is prohibited. Unauthorized access, impersonation, service disruption and infringement of others’ rights are also prohibited. Permissions granted by individual open-source licenses are unaffected."
+      "ja": "Tinlumoのゲーム、パズル、画像、音声と、使用するオープンソースソフトウェアには、それぞれ適用される権利とライセンスがあります。詳しくはクレジットと同梱のライセンス表示をご覧ください。通常のプレイ、本サイトの動画利用方針、適用法令または個別のライセンスで認められる場合を除き、ゲームや素材の無断複製・再配布を禁止します。不正アクセス、なりすまし、サービスの妨害、他者の権利を侵害する利用も禁止します。個別のオープンソースライセンスによる許諾は制限しません。",
+      "en": "Tinlumo’s games, puzzles, artwork and audio, and the open-source software used, are covered by their respective rights and licenses. See Credits and the included license notices for details. Apart from normal play and uses permitted by our video policy, law or an individual license, unauthorized copying or redistribution of games or assets is prohibited. Unauthorized access, impersonation, service disruption and infringement of others’ rights are also prohibited. Permissions granted by individual open-source licenses are unaffected."
     },
     "approvalScope": "Human policy approval implemented, subject to targeted QA. Not a certification of every jurisdiction, new trademark clearance or deploy authorization."
   }

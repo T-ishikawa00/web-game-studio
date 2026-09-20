@@ -1,0 +1,12 @@
+✔ Public distribution contains only selected games and complete JA/EN routes, references and anchors (33.0932ms)
+✔ Home primary links and all cross-game recommendations agree with the public selection (8.6255ms)
+✔ Accepted game payloads, save adapters, consent and notices retain exact baseline bytes (27.7245ms)
+✔ Public copy has consistent counts, separated inquiry types, rights exceptions and explicit editorial dates (7.6211ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 195.4384

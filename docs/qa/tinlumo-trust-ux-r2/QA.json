@@ -1,0 +1,165 @@
+{
+  "model": "gpt-6-astra",
+  "modelEvidence": "Current session turn_context, reasoning effort high",
+  "unit": {
+    "pass": 215,
+    "fail": 0
+  },
+  "r2Integration": {
+    "pass": 4,
+    "fail": 0
+  },
+  "build": {
+    "htmlPages": 34,
+    "files": 64,
+    "retainedPayloads": 26
+  },
+  "typeCheck": {
+    "errors": 12,
+    "newErrors": 0,
+    "classification": "pre-existing isolated prototypes"
+  },
+  "consent": {
+    "behaviorPass": 6,
+    "legacyReleaseGateFail": 1,
+    "externalCalls": 0
+  },
+  "browser": "browser.json",
+  "reviewLinks": [
+    {
+      "url": "http://127.0.0.1:4381/review/review.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/ja/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/en/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/before-home-desktop.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/after-home-desktop.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/before-home-mobile.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/after-home-mobile.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/before-detail-desktop.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/after-detail-desktop.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/before-detail-mobile.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/after-detail-mobile.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/PUBLIC_COPY.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/ja/about/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/ja/contact/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/ja/privacy/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/ja/terms/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/ja/credits/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/ja/video-policy/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/en/about/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/en/contact/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/en/privacy/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/en/terms/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/en/credits/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/en/video-policy/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/distribution.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/REVIEW.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/ja/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/en/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4380/docs/qa/tinlumo-audit-r1/AUDIT.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/SOURCE_OF_TRUTH.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/browser.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/security.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4381/review/postflight.json",
+      "status": 200
+    }
+  ],
+  "reviewBrokenLinks": 0,
+  "knownIssues": "REVIEW.md",
+  "security": "security.json"
+}

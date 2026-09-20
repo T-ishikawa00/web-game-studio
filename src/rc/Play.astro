@@ -5,7 +5,7 @@ import {saveCopy} from './save-copy';
 interface Props{game:Game;locale:Locale}
 const {game,locale}=Astro.props,t=(ja:string,en:string)=>locale==='ja'?ja:en;
 ---
-<div class="player-toolbar"><a class="text-link" href={`/${locale}/games/`}>← {t('ゲーム一覧','All games')}</a><div class="player-title"><h1>{game.title[locale]}</h1></div><a class="text-link" href={`/${locale}/games/${game.slug}/`}>{t('遊び方','How to play')}</a></div>
+<div class="player-toolbar"><a class="text-link" href={`/${locale}/games/`}>← {t('ゲーム一覧','All games')}</a><div class="player-title"><h1>{game.title[locale]}</h1></div><a class="text-link" href={`/${locale}/games/${game.slug}/`}>{t('遊び方','How to play')}</a>{import.meta.env.TINLUMO_TRUST_UX_R2==='1'&&<a class="text-link related-shortcut" href="#related-games">{t('ほかの作品','Other games')} ↓</a>}</div>
 <section id="rc-shell" data-game={game.id} data-locale={locale} data-title={game.title[locale]} data-build={game.buildPath} data-count={levelsByGame[game.id as GameId].length}>
  <div id="rc-stage"><p id="rc-loading" role="status">{t('小さな世界を準備中…','Preparing a little world…')}</p><div id="rc-error" role="alert" hidden><p>{t('ゲームを読み込めませんでした。','The game could not load.')}</p><button class="button secondary" id="rc-reload">{t('再読み込み','Reload')}</button></div></div>
  <noscript>{t('遊ぶにはJavaScriptを有効にしてください。','Enable JavaScript to play.')}<style>#rc-loading{display:none}</style></noscript>

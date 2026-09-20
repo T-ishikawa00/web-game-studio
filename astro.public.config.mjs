@@ -1,4 +1,6 @@
 import { defineConfig } from 'astro/config';
+import {retiredPublicBuild} from './scripts/retired-public-build.mjs';
+retiredPublicBuild();
 export default defineConfig({
   srcDir: './src/rc', publicDir: './.cache/tinlumo-public-assets',
   outDir: './.cache/tinlumo-public-candidate', cacheDir: './.cache/astro-public',

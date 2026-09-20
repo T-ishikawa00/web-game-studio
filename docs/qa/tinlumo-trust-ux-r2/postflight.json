@@ -1,0 +1,114 @@
+{
+  "at": "2026-09-20T07:06:05.701Z",
+  "status": "PRESERVED_WITH_SCOPED_CHANGES",
+  "head": "77835d4474b877dec235bd3cc5cf0fb95fa03cc7",
+  "indexUnchanged": true,
+  "upstreamUnchanged": true,
+  "baselineExistingFiles": 2858,
+  "existingChanged": [
+    {
+      "file": "astro.public.config.mjs",
+      "before": "12b624d004954af15ffa6878238f6a6eb4381ff6a53a7d53dc53941eb23a9e74",
+      "after": "f147acd2a3a3cbb7b207063d66b3af16558167ddec1bf5d4d64ee9a9470771eb"
+    },
+    {
+      "file": "docs/games/PRODUCTION_CURRENT.md",
+      "before": "2c58ef22ce25ee1c01d6fef32a598e0884559585eed7c2d4a721a1b455a7991f",
+      "after": "440bc8799083828daebe9fed9f7a88515bf3ac1236147f7845b28f3e40d4413a"
+    },
+    {
+      "file": "scripts/magnet-public-build.mjs",
+      "before": "ce05408fde4085303f6f443bf0eefbd7903b58c8f4074d4e2c0be6a33f7aac9b",
+      "after": "ed50d473adf807aafaef681fa4712c4f3e68d17adda5f35ad4d71ede818726c4"
+    },
+    {
+      "file": "scripts/magnet-release-build.mjs",
+      "before": "5f22bf6056d9656574af730424fe4496a9904ed8206f222020cd6dc4255b761b",
+      "after": "3fd09bb4275a1b0fa1444e1ac8d0f10928a08480e6ee943b277150c5e39708ae"
+    },
+    {
+      "file": "scripts/public-release-build.mjs",
+      "before": "3d0731d6cd8baf56e148817c830f8f4746299b67e2a0474d05da9c778246f689",
+      "after": "5b3a39ee2a45c2e0acd9c6617e3cb4d8630050492825b97bcbbce3ee35d68c5b"
+    },
+    {
+      "file": "src/rc/Layout.astro",
+      "before": "d8d92e14fdf0e254b85db9ffd224cdea56f26626d38cf525995d6fcdf6c59825",
+      "after": "605b73b282d5b211dfc76f5b0a495d277204d8b58bdd22845c40e3e2c2691369"
+    },
+    {
+      "file": "src/rc/Play.astro",
+      "before": "1ce9d737c07ede292fa32c1545fa0e7c9d5ab82cfe419f2a07b8060f8d07eb42",
+      "after": "4d98adaae8ba0926c272f539e97603e2808a76309a6ac0c182b5f964a5542ebb"
+    },
+    {
+      "file": "src/rc/PublicOperations.astro",
+      "before": "ea98b732e58d69286174801946b2735fda68a79b1c12c63c50f3eb3fb497998b",
+      "after": "6205bc5eecd1a4e0d54fae8da01ec8929a459ed038fc6242ce2a732f5176e4a1"
+    },
+    {
+      "file": "src/rc/pages/[locale]/[...path].astro",
+      "before": "14f503655f1be428d1b1b2606cd30fd898e586dd48913a64dd41e000e7074e2f",
+      "after": "ed7e07c6b2bf03d3708975d8af0c959d9d3e5bb555d544320cd29478ef579b4c"
+    },
+    {
+      "file": "src/rc/pages/index.astro",
+      "before": "b592646a778d9f74d17c2de5a1042f793e762fe12d358e25bf88ecb9f0ae3f2c",
+      "after": "13af3db9ec80187bbf5b326feffadaaab76d18140a1186cbb35ed3e8e1bab068"
+    },
+    {
+      "file": "src/rc/site.json",
+      "before": "71f7ead737c3c2cb2a7dd93f6277c554fdda33d3a95518992fb049f0c3be8246",
+      "after": "10f0d28fe25aa53bc90b54444d949fc17172f3ede3a9c397e876f2ebe30da965"
+    }
+  ],
+  "newFiles": [
+    "astro.trust.config.mjs",
+    "docs/qa/tinlumo-trust-ux-r2/PUBLIC_COPY.md",
+    "docs/qa/tinlumo-trust-ux-r2/QA.json",
+    "docs/qa/tinlumo-trust-ux-r2/REVIEW.html",
+    "docs/qa/tinlumo-trust-ux-r2/REVIEW.md",
+    "docs/qa/tinlumo-trust-ux-r2/SOURCE_OF_TRUTH.md",
+    "docs/qa/tinlumo-trust-ux-r2/after-detail-desktop.png",
+    "docs/qa/tinlumo-trust-ux-r2/after-detail-mobile.png",
+    "docs/qa/tinlumo-trust-ux-r2/after-detail-reflow.png",
+    "docs/qa/tinlumo-trust-ux-r2/after-home-desktop.png",
+    "docs/qa/tinlumo-trust-ux-r2/after-home-mobile.png",
+    "docs/qa/tinlumo-trust-ux-r2/before-detail-desktop.png",
+    "docs/qa/tinlumo-trust-ux-r2/before-detail-mobile.png",
+    "docs/qa/tinlumo-trust-ux-r2/before-home-desktop.png",
+    "docs/qa/tinlumo-trust-ux-r2/before-home-mobile.png",
+    "docs/qa/tinlumo-trust-ux-r2/browser.json",
+    "docs/qa/tinlumo-trust-ux-r2/distribution.json",
+    "docs/qa/tinlumo-trust-ux-r2/postflight.json",
+    "docs/qa/tinlumo-trust-ux-r2/postflight.mjs",
+    "docs/qa/tinlumo-trust-ux-r2/preflight.json",
+    "docs/qa/tinlumo-trust-ux-r2/preflight.mjs",
+    "docs/qa/tinlumo-trust-ux-r2/public-copy.json",
+    "docs/qa/tinlumo-trust-ux-r2/render-review.mjs",
+    "docs/qa/tinlumo-trust-ux-r2/restart.ps1",
+    "docs/qa/tinlumo-trust-ux-r2/result-layout-fixture.html",
+    "docs/qa/tinlumo-trust-ux-r2/review.css",
+    "docs/qa/tinlumo-trust-ux-r2/security.json",
+    "docs/qa/tinlumo-trust-ux-r2/security.mjs",
+    "docs/qa/tinlumo-trust-ux-r2/server.json",
+    "docs/qa/tinlumo-trust-ux-r2/server.mjs",
+    "scripts/retired-public-build.mjs",
+    "scripts/trust-ux-build.mjs",
+    "src/rc/DocumentRevision.astro",
+    "src/rc/GameCards.astro",
+    "src/rc/MagnetPlay.astro",
+    "src/rc/public-catalog.ts",
+    "src/rc/public-documents.ts",
+    "src/rc/trust-ux.css",
+    "tests/trust-ux-r2.test.ts"
+  ],
+  "productionArtifactPreserved": 62,
+  "newCandidateFilesVerified": 64,
+  "sourceFilesVerified": 102,
+  "legacyBuildEntrypointsFailClosed": 4,
+  "externalOperations": 0,
+  "models": [
+    "gpt-6-astra"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "workers": {
+    "tinlumo-production": {
+      "id": "3ee9bdab-47cd-49d4-9017-d19b204b926e",
+      "created_on": "2026-09-20T04:59:51.279644Z",
+      "versions": [
+        {
+          "version_id": "30b9e1e5-691b-4528-9904-d2f1e1e59068",
+          "percentage": 100
+        }
+      ]
+    },
+    "tinlumo-preview": {
+      "id": "a75b3b1b-71fe-4abd-93e8-699343c428f2",
+      "created_on": "2026-09-17T04:14:54.009583Z",
+      "versions": [
+        {
+          "version_id": "590239ba-da9d-43b4-835a-57c165fb6e65",
+          "percentage": 100
+        }
+      ]
+    }
+  },
+  "subdomain": {
+    "enabled": false,
+    "previews_enabled": false
+  },
+  "analytics": [
+    {
+      "host": "tinlumo.com",
+      "auto_install": false,
+      "hasSnippet": true
+    }
+  ],
+  "verifiedAt": "2026-09-20T18:26:40.263Z",
+  "verification": "Fresh read-only Cloudflare API this task matched the previous state"
+}

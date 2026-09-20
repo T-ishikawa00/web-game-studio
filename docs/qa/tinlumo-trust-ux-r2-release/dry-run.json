@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-20T18:26:43.539Z",
+  "mode": "DRY_RUN",
+  "exitCode": 0,
+  "worker": "tinlumo-production",
+  "version": null,
+  "checkpoint": "77835d4474b877dec235bd3cc5cf0fb95fa03cc7",
+  "assetRoot": "release-artifacts/tinlumo-trust-ux-r2",
+  "onlyStaticAssets": true,
+  "workersDev": false,
+  "versionPreview": false,
+  "rawOutputRetained": false,
+  "errorCodes": [],
+  "authenticationActionNeeded": false
+}

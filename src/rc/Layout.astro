@@ -4,6 +4,7 @@ import '../styles/baseline.css';
 import site from './site.json';
 import './rc.css';
 import './portal-polish.css';
+import './trust-ux.css';
 import AnalyticsConsent from './AnalyticsConsent.astro';
 import type { Locale } from '../data/games';
 import { ui } from '../i18n/ui';
@@ -16,6 +17,7 @@ const brandLabel = locale === 'ja' ? `${site.officialSiteName}（${site.pronunci
 const pageTitle = `${title} | ${site.officialSiteName}`;
 const pageDescription = `${site.officialSiteName} — ${description}`;
 const publicCandidate = import.meta.env.TINLUMO_PUBLIC_CANDIDATE === '1';
+const trustR2 = import.meta.env.TINLUMO_TRUST_UX_R2 === '1';
 ---
 <!doctype html>
 <html lang={locale}>
@@ -30,7 +32,7 @@ const publicCandidate = import.meta.env.TINLUMO_PUBLIC_CANDIDATE === '1';
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:title" content={pageTitle} /><meta property="og:description" content={pageDescription} />{image && <meta property="og:image" content={image} />}<title>{pageTitle}</title>
   </head>
-  <body data-locale={locale} class:list={{ 'is-play': path.includes('play/'), 'is-preview': preview, 'portal-polish': publicCandidate, 'portal-catalog': publicCandidate && (path === '' || path === 'games') }}>
+  <body data-locale={locale} class:list={{ 'is-play': path.includes('play/'), 'is-preview': preview, 'trust-ux':trustR2, 'portal-polish': publicCandidate, 'portal-catalog': publicCandidate && (path === '' || path === 'games') }}>
     <a class="skip-link" href="#main">{t.skip}</a>
     <header class="site-header">
       <div class="wrap header-inner">
@@ -49,7 +51,7 @@ const publicCandidate = import.meta.env.TINLUMO_PUBLIC_CANDIDATE === '1';
     <main id="main" class="wrap"><slot /></main>
     <footer class="site-footer wrap">
       <div><a class="footer-brand" href={`/${locale}/`} aria-label={brandLabel}>{site.officialSiteName}</a><p>{site.creatorBrand}</p><p>{publicCandidate?(locale==='ja'?'自作のブラウザゲーム。日本語と英語で。':'Original browser games. In Japanese and English.'):t.footer}</p><span class="muted">{locale==='ja'?'無料・購入なし・広告なし':'Free · No purchases · No ads'}</span></div>
-      <nav aria-label={t.contact}>{(['about', 'privacy', 'terms', 'contact', 'credits'] as const).map(key => <a href={`/${locale}/${key}/`}>{key==='credits'?(locale==='ja'?'クレジット':'Credits'):t[key]}</a>)}</nav>
+      <nav aria-label={t.contact}>{(['about', 'privacy', 'terms', 'contact', 'credits'] as const).map(key => <a href={`/${locale}/${key}/`}>{key==='credits'?(locale==='ja'?'クレジット':'Credits'):t[key]}</a>)}{trustR2&&<a href={`/${locale}/video-policy/`}>{locale==='ja'?'実況・動画利用方針':'Gameplay & video policy'}</a>}</nav>
       {publicCandidate && <button type="button" data-open-analytics>{locale==='ja'?'計測の設定':'Analytics settings'}</button>}
     </footer>
     {publicCandidate && <div class="wrap"><AnalyticsConsent locale={locale}/></div>}

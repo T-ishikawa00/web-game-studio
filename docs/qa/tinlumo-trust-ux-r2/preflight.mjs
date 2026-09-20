@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import assert from 'node:assert/strict';
+assert.equal(process.cwd().replaceAll('\\','/').toLowerCase(),'c:/projects/web game studio');
+const git=(...a)=>execFileSync('git',a,{encoding:'utf8',windowsHide:true}).trim();
+const hash=async p=>createHash('sha256').update(await fs.readFile(p)).digest('hex');
+const files=[];
+for(const file of git('ls-files','--cached','--others','--exclude-standard','-z').split('\0').filter(Boolean).filter(f=>!f.startsWith('docs/qa/tinlumo-trust-ux-r2/')))files.push({file,sha256:await hash(file)});
+const distribution=JSON.parse(await fs.readFile('docs/qa/game004-magnet-release-r1/distribution.json'));
+for(const f of distribution.files)assert.equal(await hash(distribution.root+'/'+f.file),f.sha256);
+await fs.writeFile('docs/qa/tinlumo-trust-ux-r2/preflight.json',JSON.stringify({at:new Date().toISOString(),head:git('rev-parse','HEAD'),upstream:git('rev-parse','@{u}'),index:git('ls-files','--stage'),files,distribution},null,2)+'\n',{flag:'wx'});
+console.log({files:files.length,distribution:distribution.files.length});

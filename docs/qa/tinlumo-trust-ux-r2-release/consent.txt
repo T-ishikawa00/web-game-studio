@@ -1,0 +1,34 @@
+✔ Default OFF and rejection load nothing; explicit allow loads once; failure does not touch games (1.4948ms)
+✔ Stored rejection, invalid consent, Preview, game frames and nonproduction hosts cannot start measurement (0.3779ms)
+✔ Withdrawal persists deny and reloads; other-tab withdrawal and restored pages remove the active document (0.1986ms)
+✔ Blocked storage keeps defaults off, permits only this-page explicit consent and safely reloads on withdrawal (0.1655ms)
+✔ Readable old allow plus write failure cannot re-enable analytics after withdrawal (0.1963ms)
+✔ Production projection configures consent only; there is no eager beacon loader (0.9309ms)
+✖ Human email closure preserves untested evidence while accepted policy no longer blocks release (7.3843ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79.8961
+
+✖ failing tests:
+
+test at tests\analytics-consent.mjs:54:1
+✖ Human email closure preserves untested evidence while accepted policy no longer blocks release (7.3843ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+    assert.ok(codes.includes('deployment:humanFinalGate'))
+
+      at TestContext.<anonymous> (file:///C:/projects/Web%20Game%20Studio/tests/analytics-consent.mjs:60:9)
+      at async Test.run (node:internal/test_runner/test:1125:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

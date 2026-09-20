@@ -1,0 +1,40 @@
+import {registry, type Game, type Localized} from '../data/games';
+import {instructions} from './profile';
+import {levelsByGame, type GameId} from '../prototypes/levels';
+
+// Public selection authority. Registry remains the authority for identity/copy.
+// A new game is registered there and selected here after acceptance; page counts,
+// routes and related games are derived, never patched into generated HTML.
+export const publicSelection = [
+  {id:'project-magnet', delivery:'fullscreen', version:'full-r1',summary:{ja:'金属を集め、狙って一斉射出。',en:'Gather metal. Aim. Release.'}},
+  {id:'tiny-delivery', delivery:'shell', version:'rc-r1',summary:{ja:'道と待ち時間を決め、2台で届けよう。',en:'Plan two routes. Deliver together.'}},
+  {id:'light-garden', delivery:'shell', version:'rc-r1',summary:{ja:'鏡で光をつなぎ、花を咲かせよう。',en:'Bend the light. Let the garden bloom.'}},
+  {id:'two-ways-home', delivery:'shell', version:'rc-r1',summary:{ja:'ふたりを同時に動かし、家へ帰そう。',en:'Move as one. Bring both friends home.'}},
+] as const;
+export const publicGames: Game[] = publicSelection.map(entry => {
+  const game=registry.find(g=>g.id===entry.id);
+  if(!game || game.id.startsWith('internal-'))throw Error('Invalid public selection');
+  return {...game, state:'released', version:entry.version,
+    cover:`/covers/${entry.id}.png`,buildPath:`/games/${entry.id}/${entry.version}/index.html`,
+    related:publicSelection.filter(g=>g.id!==entry.id).map(g=>g.id),ads:{mode:'disabled',formats:[]}};
+});
+export const fullscreenGame = (id:string) => publicSelection.find(g=>g.id===id)?.delivery==='fullscreen';
+export const publicCopy = {
+  heading:{ja:`${publicGames.length}つの、小さな冒険。`,en:`${publicGames.length} little adventures.`},
+  description:{ja:`日本語と英語で遊ぶ${publicGames.length}つの無料ブラウザゲーム。`,en:`${publicGames.length} free browser games in Japanese and English.`},
+  about:{ja:`Tinlumoは、ブラウザですぐに遊べる${publicGames.length}つの自作ゲームを集めたサイトです。`,en:`Tinlumo brings together ${publicGames.length} original games you can play right in your browser.`},
+  terms:{ja:`Tinlumoは、日本語と英語で遊べる${publicGames.length}つの無料ブラウザゲームを提供します。`,en:`Tinlumo provides ${publicGames.length} free browser games in Japanese and English.`},
+};
+export const magnetSave:Localized={
+  ja:'作戦の解放、記録、言語・消音・動きの設定、区画開始時点の再開データを、このブラウザに保存します。作戦画面のデータ消去では、PROJECT MAGNETの設定も含めてすべて消去します。他の作品の保存は変更しません。保存できない場合は画面に表示し、そのタブ内でのみ続行します。',
+  en:'Mission unlocks, records, language, mute, motion preferences and a sector-start checkpoint are saved in this browser. Resetting PROJECT MAGNET deletes its settings as well as its progress. Other games are unaffected. If saving is unavailable, the game tells you and lets you continue in this tab only.',
+};
+export function gameFacts(game:Game) {
+  if(fullscreenGame(game.id))return {
+    count:{ja:'3作戦 · 18区画',en:'3 missions · 18 sectors'},
+    controls:{ja:'マウス・キーボード / 2本指タッチ',en:'Mouse + keyboard / two-finger touch'},
+    instructions:{ja:'WASDまたは矢印で移動。金属の近くで押し続け、敵を狙って離すと一斉射出。タッチは左指で移動、右指で吸引・照準し、右指を離して射出します。壊した装甲を回収して設備へ送電。区画をクリアして進化を選び、作戦Aを完了するとB、Bを完了するとCが開きます。',en:'Move with WASD or arrow keys. Hold near metal, aim at an enemy, then release to launch. On touch screens, move with your left thumb; gather and aim with your right thumb, then release it. Gather broken armor to power the relays. Clear sectors and choose upgrades. Complete Mission A to unlock B, then B to unlock C.'},
+  };
+  const count=levelsByGame[game.id as GameId].length;
+  return {count:{ja:`${count}問`,en:`${count} puzzles`},controls:{ja:'タッチ・マウス・キーボード',en:'Touch · Mouse · Keyboard'},instructions:instructions[game.id as keyof typeof instructions]};
+}

@@ -1,0 +1,930 @@
+[
+  {
+    "check": "allow-deny-change",
+    "status": "Continuing without analytics. All game features remain available.",
+    "beaconScripts": 0,
+    "scope": "loopback hostname guard; no external measurement"
+  },
+  {
+    "route": "ja/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 4,
+    "headings": [
+      "小さなゲーム。大きなワクワク。"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "小さなゲーム。大きなワクワク。 | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/games/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 4,
+    "headings": [
+      "小さなゲーム。大きなワクワク。"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "小さなゲーム。大きなワクワク。 | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/about/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "スタジオについて"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "スタジオについて | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/contact/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "お問い合わせ・運営者情報"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/privacy/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "プライバシー"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "プライバシー | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/terms/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "利用規約"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "利用規約 | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/credits/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "クレジット"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "クレジット | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/video-policy/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "実況・動画利用方針"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/games/project-magnet/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "PROJECT MAGNET"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/games/tiny-delivery/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "Hakorilo — ちいさな配送パズル"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "Hakorilo — ちいさな配送パズル | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/games/light-garden/",
+    "beaconScripts": 0,
+    "brokenImages": 1,
+    "cards": 3,
+    "headings": [
+      "ひかりの仕掛け庭"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/games/two-ways-home/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "ふたりの帰り道"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 4,
+    "headings": [
+      "Small Games. Big Play."
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Small Games. Big Play. | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/games/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 4,
+    "headings": [
+      "Small Games. Big Play."
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Small Games. Big Play. | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/about/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "About the studio"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "About | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/contact/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Contact & operator"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Contact | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/privacy/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Privacy"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Privacy | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/terms/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Terms"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Terms | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/credits/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Credits"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Credits | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/video-policy/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Gameplay & video usage policy"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/games/project-magnet/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "PROJECT MAGNET"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/games/tiny-delivery/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "Hakorilo"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/games/light-garden/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "Lightwork Garden"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "en/games/two-ways-home/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "Two Ways Home"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 1366
+  },
+  {
+    "route": "ja/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 4,
+    "headings": [
+      "小さなゲーム。大きなワクワク。"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "小さなゲーム。大きなワクワク。 | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/games/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 4,
+    "headings": [
+      "小さなゲーム。大きなワクワク。"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "小さなゲーム。大きなワクワク。 | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/about/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "スタジオについて"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "スタジオについて | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/contact/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "お問い合わせ・運営者情報"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/privacy/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "プライバシー"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "プライバシー | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/terms/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "利用規約"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "利用規約 | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/credits/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "クレジット"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "クレジット | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/video-policy/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "実況・動画利用方針"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/games/project-magnet/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "PROJECT MAGNET"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/games/tiny-delivery/",
+    "beaconScripts": 0,
+    "brokenImages": 1,
+    "cards": 3,
+    "headings": [
+      "Hakorilo — ちいさな配送パズル"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "Hakorilo — ちいさな配送パズル | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/games/light-garden/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "ひかりの仕掛け庭"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "ja/games/two-ways-home/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "ふたりの帰り道"
+    ],
+    "lang": "ja",
+    "overflow": false,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 4,
+    "headings": [
+      "Small Games. Big Play."
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Small Games. Big Play. | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/games/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 4,
+    "headings": [
+      "Small Games. Big Play."
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Small Games. Big Play. | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/about/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "About the studio"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "About | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/contact/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Contact & operator"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Contact | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/privacy/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Privacy"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Privacy | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/terms/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Terms"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Terms | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/credits/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Credits"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Credits | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/video-policy/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 0,
+    "headings": [
+      "Gameplay & video usage policy"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/games/project-magnet/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "PROJECT MAGNET"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/games/tiny-delivery/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "Hakorilo"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Hakorilo | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/games/light-garden/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "Lightwork Garden"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 390
+  },
+  {
+    "route": "en/games/two-ways-home/",
+    "beaconScripts": 0,
+    "brokenImages": 0,
+    "cards": 3,
+    "headings": [
+      "Two Ways Home"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 390
+  },
+  {
+    "check": "image follow-up",
+    "route": "ja/games/light-garden/",
+    "width": 1366,
+    "images": [
+      {
+        "complete": true,
+        "loading": "auto",
+        "src": "/covers/light-garden.png",
+        "width": 960
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "src": "/covers/project-magnet.png",
+        "width": 1280
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "src": "/covers/tiny-delivery.png",
+        "width": 960
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "src": "/covers/two-ways-home.png",
+        "width": 960
+      }
+    ]
+  },
+  {
+    "check": "image follow-up",
+    "route": "ja/games/tiny-delivery/",
+    "width": 390,
+    "images": [
+      {
+        "complete": true,
+        "loading": "auto",
+        "src": "/covers/tiny-delivery.png",
+        "width": 960
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "src": "/covers/project-magnet.png",
+        "width": 1280
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "src": "/covers/light-garden.png",
+        "width": 960
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "src": "/covers/two-ways-home.png",
+        "width": 960
+      }
+    ]
+  },
+  {
+    "check": "Hakorilo edit saved",
+    "status": "Saved in this browser"
+  },
+  {
+    "check": "Hakorilo reload",
+    "status": "Saved in this browser"
+  },
+  {
+    "check": "Lightwork clear -> related Two Ways",
+    "result": "PASS; mirror click cleared first puzzle; Saved in this browser; related link launched Two Ways"
+  },
+  {
+    "check": "Two Ways keyboard Enter direction",
+    "status": "Saved in this browser"
+  },
+  {
+    "check": "Magnet launch/pause",
+    "result": "Mission A active; pause overlay visible"
+  },
+  {
+    "check": "Magnet return to detail",
+    "url": "http://127.0.0.1:4381/en/games/project-magnet/",
+    "related": 3
+  },
+  {
+    "check": "launch",
+    "route": "ja/play/project-magnet/",
+    "iframeReady": null,
+    "lang": "ja",
+    "loadingHidden": null,
+    "magnetHub": true,
+    "overflow": false,
+    "related": 0,
+    "save": "この端末に保存済み / 区画のはじめから再開",
+    "width": 1366
+  },
+  {
+    "check": "launch",
+    "route": "ja/play/tiny-delivery/",
+    "iframeReady": null,
+    "lang": "ja",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "このブラウザに保存済み",
+    "width": 1366
+  },
+  {
+    "check": "launch",
+    "route": "ja/play/light-garden/",
+    "iframeReady": null,
+    "lang": "ja",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "このブラウザに保存済み",
+    "width": 1366
+  },
+  {
+    "check": "launch",
+    "route": "ja/play/two-ways-home/",
+    "iframeReady": null,
+    "lang": "ja",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "このブラウザに保存済み",
+    "width": 1366
+  },
+  {
+    "check": "launch",
+    "route": "en/play/project-magnet/",
+    "iframeReady": null,
+    "lang": "en",
+    "loadingHidden": null,
+    "magnetHub": true,
+    "overflow": false,
+    "related": 0,
+    "save": "Saved on this device · resume from the start of the sector",
+    "width": 1366
+  },
+  {
+    "check": "launch",
+    "route": "en/play/tiny-delivery/",
+    "iframeReady": null,
+    "lang": "en",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "Saved in this browser",
+    "width": 1366
+  },
+  {
+    "check": "launch",
+    "route": "en/play/light-garden/",
+    "iframeReady": null,
+    "lang": "en",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "Saved in this browser",
+    "width": 1366
+  },
+  {
+    "check": "launch",
+    "route": "en/play/two-ways-home/",
+    "iframeReady": null,
+    "lang": "en",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "Saved in this browser",
+    "width": 1366
+  },
+  {
+    "check": "launch",
+    "route": "ja/play/project-magnet/",
+    "iframeReady": null,
+    "lang": "ja",
+    "loadingHidden": null,
+    "magnetHub": true,
+    "overflow": false,
+    "related": 0,
+    "save": "この端末に保存済み / 区画のはじめから再開",
+    "width": 390
+  },
+  {
+    "check": "launch",
+    "route": "ja/play/tiny-delivery/",
+    "iframeReady": null,
+    "lang": "ja",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "このブラウザに保存済み",
+    "width": 390
+  },
+  {
+    "check": "launch",
+    "route": "ja/play/light-garden/",
+    "iframeReady": null,
+    "lang": "ja",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "このブラウザに保存済み",
+    "width": 390
+  },
+  {
+    "check": "launch",
+    "route": "ja/play/two-ways-home/",
+    "iframeReady": null,
+    "lang": "ja",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "このブラウザに保存済み",
+    "width": 390
+  },
+  {
+    "check": "launch",
+    "route": "en/play/project-magnet/",
+    "iframeReady": null,
+    "lang": "en",
+    "loadingHidden": null,
+    "magnetHub": true,
+    "overflow": false,
+    "related": 0,
+    "save": "Saved on this device · resume from the start of the sector",
+    "width": 390
+  },
+  {
+    "check": "launch",
+    "route": "en/play/tiny-delivery/",
+    "iframeReady": null,
+    "lang": "en",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "Saved in this browser",
+    "width": 390
+  },
+  {
+    "check": "launch",
+    "route": "en/play/light-garden/",
+    "iframeReady": null,
+    "lang": "en",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "Saved in this browser",
+    "width": 390
+  },
+  {
+    "check": "launch",
+    "route": "en/play/two-ways-home/",
+    "iframeReady": null,
+    "lang": "en",
+    "loadingHidden": true,
+    "magnetHub": false,
+    "overflow": false,
+    "related": 3,
+    "save": "Saved in this browser",
+    "width": 390
+  },
+  {
+    "check": "keyboard next link and 200%-equivalent reflow (native zoom unavailable)",
+    "href": "/en/games/project-magnet/",
+    "name": "PROJECT MAGNET — Details",
+    "outline": "solid",
+    "overflow": false,
+    "width": 683
+  },
+  {
+    "check": "keyboard Enter details",
+    "url": "http://127.0.0.1:4381/en/games/project-magnet/"
+  },
+  {
+    "check": "Magnet result static layout fixture",
+    "width": 390,
+    "result": "visible new link reached detail#related-games with Enter",
+    "url": "http://127.0.0.1:4381/en/games/project-magnet/#related-games",
+    "limit": "HTML/CSS fixture without runtime; natural run-completion path not re-played"
+  }
+]

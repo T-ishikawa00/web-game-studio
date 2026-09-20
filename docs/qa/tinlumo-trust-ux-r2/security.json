@@ -1,0 +1,34 @@
+{
+  "rawFullProject": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "knownHumanDispositions": [
+    "TRUE SECRET / LOCAL DEV ONLY / APPROVED FOR LOCAL RETENTION",
+    "FALSE POSITIVE / NON-CREDENTIAL / APPROVED"
+  ],
+  "newFindings": [],
+  "distribution": "PASS",
+  "checks": {
+    "tlsIgnored": true,
+    "tlsAbsentIndex": true,
+    "tlsAbsentHistoryPath": true,
+    "indexEmpty": true
+  },
+  "scannerRulesChanged": false,
+  "externalOperations": 0,
+  "limits": "No absolute absence claim; existing local TLS key not read, copied or served."
+}

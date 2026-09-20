@@ -1,3 +1,6 @@
+// Retired by Trust & UX R2: retained as historical implementation, not an active build entry.
+import {retiredPublicBuild} from './retired-public-build.mjs';
+retiredPublicBuild();
 // Local-only candidate and gated production packaging. No provider calls.
 import {readFile,writeFile,mkdir,readdir,access} from 'node:fs/promises';
 import {spawnSync,execFileSync} from 'node:child_process';

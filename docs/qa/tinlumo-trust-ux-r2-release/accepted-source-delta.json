@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "changedSinceHumanReview": [
+    "astro.trust.config.mjs",
+    "scripts/trust-ux-build.mjs",
+    "src/rc/public-documents.ts"
+  ],
+  "scope": "Only explicit dates/video permissions and separate production packaging",
+  "unchangedSources": 98,
+  "formatOnly": [
+    "src/rc/MagnetPlay.astro: removed trailing blank line; distribution unchanged"
+  ]
+}

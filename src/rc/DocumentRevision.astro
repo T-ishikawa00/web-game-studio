@@ -1,0 +1,10 @@
+---
+import {documentRevision as revision} from './public-documents';
+import type {Locale} from '../data/games';
+const {locale}=Astro.props as {locale:Locale};
+const t=(ja:string,en:string)=>locale==='ja'?ja:en;
+---
+<section class="document-revision" aria-label={t('文書の版と変更','Document version and changes')}>
+ {revision.effective && revision.lastUpdated ? <p>{t('適用日','Effective date')}: <time>{revision.effective}</time> · {t('最終更新','Last updated')}: <time>{revision.lastUpdated}</time></p> : <p data-public-unresolved>{t('改定案・未適用','Proposed revision · Not yet effective')} · {t('案の作成日','Draft prepared')}: <time>{revision.prepared}</time><br/>{t('適用日・公開文書の最終更新日は、公開時に確定します。','The effective date and public document’s last-updated date will be set at publication.')}</p>}
+ <p>{revision.changes[locale]}</p><p>{revision.notice[locale]}</p>
+</section>

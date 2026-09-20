@@ -1,3 +1,6 @@
+// Retired by Trust & UX R2: retained as historical implementation, not an active build entry.
+import {retiredPublicBuild} from './retired-public-build.mjs';
+retiredPublicBuild();
 // One-shot production projection from the Human-accepted local artifact.
 import fs from 'node:fs/promises';
 import path from 'node:path';

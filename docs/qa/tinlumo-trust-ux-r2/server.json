@@ -1,0 +1,13 @@
+{
+  "pid": 49468,
+  "startedAt": "2026-09-20T06:56:31.177Z",
+  "ports": [
+    4381,
+    4382
+  ],
+  "roots": [
+    ".cache/tinlumo-trust-ux-r2",
+    "release-artifacts/game004-production-r1"
+  ],
+  "loopbackOnly": true
+}

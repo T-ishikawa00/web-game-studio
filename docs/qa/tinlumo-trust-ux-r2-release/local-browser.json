@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "artifactSha256": "cac1210aeca574328aed20bbaa1a36a4968f9377ad1edc3ae97fb7f7d1febdae",
+  "at": "2026-09-20T18:28:33.753Z",
+  "checks": [
+    {
+      "action": "Keyboard Home primary -> Hakorilo; related link -> Lightwork",
+      "status": "PASS"
+    },
+    {
+      "locale": "ja",
+      "page": "privacy",
+      "dates": [
+        "2026-09-21",
+        "2026-09-21"
+      ],
+      "heads": [
+        "端末内の保存",
+        "PROJECT MAGNETの保存",
+        "サイトの配信",
+        "任意のアクセス計測",
+        "お問い合わせの情報",
+        "個人情報に関する請求"
+      ],
+      "overflow": false,
+      "title": "プライバシー | Tinlumo",
+      "unresolved": false,
+      "width": 390
+    },
+    {
+      "locale": "ja",
+      "page": "terms",
+      "dates": [
+        "2026-09-21",
+        "2026-09-21"
+      ],
+      "heads": [
+        "サービスの利用",
+        "保存とサービスの提供",
+        "PROJECT MAGNETの保存",
+        "権利と利用上のお願い"
+      ],
+      "overflow": false,
+      "title": "利用規約 | Tinlumo",
+      "unresolved": false,
+      "width": 390
+    },
+    {
+      "locale": "ja",
+      "page": "video-policy",
+      "dates": [
+        "2026-09-21",
+        "2026-09-21"
+      ],
+      "heads": [],
+      "overflow": false,
+      "title": "実況・動画利用方針 | Tinlumo",
+      "unresolved": false,
+      "width": 390
+    },
+    {
+      "locale": "ja",
+      "page": "contact",
+      "dates": [],
+      "heads": [
+        "一般のお問い合わせ",
+        "運営者情報の照会",
+        "個人情報に関する請求"
+      ],
+      "overflow": false,
+      "title": "お問い合わせ | Tinlumo",
+      "unresolved": false,
+      "width": 390
+    },
+    {
+      "locale": "en",
+      "page": "privacy",
+      "dates": [
+        "2026-09-21",
+        "2026-09-21"
+      ],
+      "heads": [
+        "Storage on your device",
+        "PROJECT MAGNET saves",
+        "Hosting",
+        "Optional analytics",
+        "Information you send us",
+        "Personal-data requests"
+      ],
+      "overflow": false,
+      "title": "Privacy | Tinlumo",
+      "unresolved": false,
+      "width": 390
+    },
+    {
+      "locale": "en",
+      "page": "terms",
+      "dates": [
+        "2026-09-21",
+        "2026-09-21"
+      ],
+      "heads": [
+        "Using the service",
+        "Saves and service availability",
+        "PROJECT MAGNET saves",
+        "Rights and acceptable use"
+      ],
+      "overflow": false,
+      "title": "Terms | Tinlumo",
+      "unresolved": false,
+      "width": 390
+    },
+    {
+      "locale": "en",
+      "page": "video-policy",
+      "dates": [
+        "2026-09-21",
+        "2026-09-21"
+      ],
+      "heads": [],
+      "overflow": false,
+      "title": "Gameplay & video policy | Tinlumo",
+      "unresolved": false,
+      "width": 390
+    },
+    {
+      "locale": "en",
+      "page": "contact",
+      "dates": [],
+      "heads": [
+        "General inquiries",
+        "Operator-information requests",
+        "Personal-data requests"
+      ],
+      "overflow": false,
+      "title": "Contact | Tinlumo",
+      "unresolved": false,
+      "width": 390
+    },
+    {
+      "action": "English Home secondary Details -> Magnet detail with three related games",
+      "status": "PASS"
+    }
+  ],
+  "reused": "../tinlumo-trust-ux-r2/browser.json: 48 portal viewport checks, 16 launches, save and consent scenarios. Game/runtime/consent assets unchanged.",
+  "notTested": [
+    "Native 200% zoom",
+    "Physical devices"
+  ],
+  "screenshots": [
+    "local-home-desktop.png",
+    "local-video-mobile.png"
+  ],
+  "manifestRebound": "Only trailing source blank line normalized; all 64 distribution records byte-identical to browser-tested artifact"
+}

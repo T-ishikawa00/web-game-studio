@@ -1,0 +1,48 @@
+{
+  "at": "2026-09-20T18:31:03.631Z",
+  "rawFullProject": {
+    "mode": "all",
+    "status": "FAIL",
+    "scanner": "gitleaks 8.30.1",
+    "findings": [
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "newCandidates": 0,
+  "distribution": {
+    "status": "PASS",
+    "root": "release-artifacts/tinlumo-trust-ux-r2",
+    "files": 64,
+    "findings": []
+  },
+  "tlsChecks": {
+    "ignored": true,
+    "absentIndex": true,
+    "absentHistory": true
+  },
+  "preservedPriorFiles": 2846,
+  "allowedModifiedPriorFiles": [
+    ".gitattributes",
+    "astro.public.config.mjs",
+    "docs/games/PRODUCTION_CURRENT.md",
+    "scripts/magnet-public-build.mjs",
+    "scripts/magnet-release-build.mjs",
+    "scripts/public-release-build.mjs",
+    "src/rc/Layout.astro",
+    "src/rc/Play.astro",
+    "src/rc/PublicOperations.astro",
+    "src/rc/pages/[locale]/[...path].astro",
+    "src/rc/pages/index.astro",
+    "src/rc/site.json"
+  ],
+  "scannerExceptionsAdded": 0
+}
