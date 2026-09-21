@@ -1,0 +1,876 @@
+{
+  "status": "PRODUCTION_ARTIFACT_PENDING_QA",
+  "deployAllowed": false,
+  "root": "release-artifacts/tinlumo-trust-ux-r2",
+  "files": [
+    {
+      "file": "404.html",
+      "bytes": 401,
+      "sha256": "86b7742709758d13f88be8e6aec6e4a675d08f1af89e2445ae7de958b141d7a0"
+    },
+    {
+      "file": "_astro/_..cUxqZV0X.css",
+      "bytes": 32629,
+      "sha256": "d5ca42c2ff3255d7bf401aa73357bc57601166da3e8348706f9a6fd1c1f19ad7"
+    },
+    {
+      "file": "_headers",
+      "bytes": 296,
+      "sha256": "e454b917ed063f861df5771aad5683d66a0d4b73925c8a41b7c0439e164295a3"
+    },
+    {
+      "file": "assets/analytics-consent.js",
+      "bytes": 4185,
+      "sha256": "3d1a0c5f810e8b1ce5860ae5ecc91bcc5b4e8db1dff215c93c157e5813e6cc3b"
+    },
+    {
+      "file": "assets/portal.js",
+      "bytes": 722,
+      "sha256": "176b74d755bed4465b15cda17ee341aedbdfbcfb6c24622475f8a4b85177851f"
+    },
+    {
+      "file": "assets/public-language.js",
+      "bytes": 1345,
+      "sha256": "195690dafaeeec6842b5c8b40efd03aef813cc6f7b7e177d01c742292f1fadd5"
+    },
+    {
+      "file": "assets/shell.js",
+      "bytes": 59328,
+      "sha256": "b29633fc72ccbbccb5ede216b82410aabff47c39a48fb07e6b457c938b91b96e"
+    },
+    {
+      "file": "covers/light-garden.png",
+      "bytes": 36638,
+      "sha256": "0606aefeb26acfff502b4221286b57e4b9809c400ea9b4067fcb0f045ffa81e0"
+    },
+    {
+      "file": "covers/project-magnet.png",
+      "bytes": 432926,
+      "sha256": "46a3f92c5c4eee39139a1422322a4127f07118a0ad3a2fdab0ac00dbe4199610"
+    },
+    {
+      "file": "covers/tiny-delivery.png",
+      "bytes": 13438,
+      "sha256": "ab9d7e9481f6d5bcf79085329ba650785a29bf4277e8978e2eb2dc9e1ab6fe18"
+    },
+    {
+      "file": "covers/two-ways-home.png",
+      "bytes": 9736,
+      "sha256": "d96afb5adee57c516175f45a51a9503916bc9c0edf3364233b9b0d7fc7ead73f"
+    },
+    {
+      "file": "en/about/index.html",
+      "bytes": 6405,
+      "sha256": "9e24e7d9efbc23f08b991cead9c819a62f060ba68a4812ff16112c7303b70080"
+    },
+    {
+      "file": "en/contact/index.html",
+      "bytes": 7305,
+      "sha256": "6573a261162b3d2d25dbb9bfa711acbf4ef10392d061815fcd43e0aae3c1537d"
+    },
+    {
+      "file": "en/credits/index.html",
+      "bytes": 7398,
+      "sha256": "c06173a36c778a8af97d990b34487182b3669540679b52074e42ae4474ddb895"
+    },
+    {
+      "file": "en/games/index.html",
+      "bytes": 8904,
+      "sha256": "dcbaa8c18242a4e574b4870a01d76aad9218c05400e33f0750097a97a65258ff"
+    },
+    {
+      "file": "en/games/light-garden/index.html",
+      "bytes": 9366,
+      "sha256": "87db95082696df762cf0e526a2520e316232c331e8ecf6ef14b0a390c8285c24"
+    },
+    {
+      "file": "en/games/project-magnet/index.html",
+      "bytes": 9926,
+      "sha256": "fff342f904cb12e2f6a490bb2f019cc62abb102e52f5c17e91133dca4789fc03"
+    },
+    {
+      "file": "en/games/tiny-delivery/index.html",
+      "bytes": 9435,
+      "sha256": "959ce7489b8a52022f628e86381149b8332b296e9f153decbe4271a578996c1a"
+    },
+    {
+      "file": "en/games/two-ways-home/index.html",
+      "bytes": 9446,
+      "sha256": "b5e6973aa82ed702bd2bb032509cc7752a563ca66c3870b7ba29608854477eb6"
+    },
+    {
+      "file": "en/index.html",
+      "bytes": 8848,
+      "sha256": "8485e5e79d88e41e3e0ebf17ce7b539ba5991d8661cdb4d68ef5a75875ce147a"
+    },
+    {
+      "file": "en/play/light-garden/index.html",
+      "bytes": 9611,
+      "sha256": "1d19e5ba86e2566640b797a8b77bb2e58c6ed3fb1038a337eadce65004ccb083"
+    },
+    {
+      "file": "en/play/project-magnet/index.html",
+      "bytes": 5414,
+      "sha256": "dcfe4d53069d6535e6b5691eac284dc43b85230df99aa1d092854aee6b09f5ab"
+    },
+    {
+      "file": "en/play/tiny-delivery/index.html",
+      "bytes": 9608,
+      "sha256": "46ab1adfe1ffce8d8f79956f011beb38567463bc321319a7236b996ef13a3313"
+    },
+    {
+      "file": "en/play/two-ways-home/index.html",
+      "bytes": 9622,
+      "sha256": "525263bc6cab59c9ad0890ff313e169d6717929ef75ae065deef84b7b58c4bf4"
+    },
+    {
+      "file": "en/privacy/index.html",
+      "bytes": 12110,
+      "sha256": "276c6677a35280bf11410334b0f8b337fb4f177ea9387bccc1dec6a67827f173"
+    },
+    {
+      "file": "en/terms/index.html",
+      "bytes": 8219,
+      "sha256": "260f1190a426f3d204700e213a9321b6a82203e44b037e5e7a3c2719c76c81c2"
+    },
+    {
+      "file": "en/video-policy/index.html",
+      "bytes": 7817,
+      "sha256": "565a4c9e29da429ed4b22f29c4af7c6214b3a056d3a6a1f77b3069b5688f2b56"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 243,
+      "sha256": "db98c074909c265849b79a1443c81db6f21a1ad38fff437204b18ae809dbb774"
+    },
+    {
+      "file": "games/light-garden/rc-r1/base.css",
+      "bytes": 53014,
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e"
+    },
+    {
+      "file": "games/light-garden/rc-r1/game.css",
+      "bytes": 1009,
+      "sha256": "3a1e4e02de7c48f6025f801852dabf927e9d5bab330aa16028497a2f48dc0c1f"
+    },
+    {
+      "file": "games/light-garden/rc-r1/game.js",
+      "bytes": 153116,
+      "sha256": "2f816a8fd23f69c3bbdf403b9979b6c3381a8409ee637f66f1bf5b7b3bf5f8f3"
+    },
+    {
+      "file": "games/light-garden/rc-r1/index.html",
+      "bytes": 383,
+      "sha256": "c9dd0a8554f12419455e21180cf91b941f6b2b53031538d0abf26a6d2e6d7983"
+    },
+    {
+      "file": "games/project-magnet/full-r1/assets/index-Cn9VhVmP.css",
+      "bytes": 16455,
+      "sha256": "cb36920cd0f2b5f88c68851d9e05f22f11d76fb8d68ebd1c293d636dbac473a8"
+    },
+    {
+      "file": "games/project-magnet/full-r1/assets/index-D2vtvqvm.js",
+      "bytes": 131287,
+      "sha256": "9912d102db70ea6cac802c320c00c64fe2be5299b362e3731a980a0bca78c427"
+    },
+    {
+      "file": "games/project-magnet/full-r1/credits.txt",
+      "bytes": 248,
+      "sha256": "e356d581394503ab37708bd77f1e654df863e6948e5aad5f69c0966e16c7b6c3"
+    },
+    {
+      "file": "games/project-magnet/full-r1/index.html",
+      "bytes": 2607,
+      "sha256": "8cad1f70a3e6892277a48ab00010c9f02ecf3ca371c75c03ccdb43f456ddee60"
+    },
+    {
+      "file": "games/project-magnet/full-r1/licenses/vite.txt",
+      "bytes": 112425,
+      "sha256": "387dd7baa307083401a27c58c362c30832f5ba1dba84f10cc22c33401523f45c"
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/base.css",
+      "bytes": 53014,
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e"
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/game.js",
+      "bytes": 138984,
+      "sha256": "69131572ccf0c0aaed8d58711679b31943468d964457ba6041d9cb1921202eff"
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/index.html",
+      "bytes": 334,
+      "sha256": "8419af9ddd306d385535c44a2105c52cef76368bc4e38846de744e4d87bac6d4"
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/music.wav",
+      "bytes": 12288044,
+      "sha256": "05b01efe37574c335b5164b92c8c80896e20a452696fd66fd55c1d5336a75945"
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/base.css",
+      "bytes": 53014,
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e"
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/game.js",
+      "bytes": 141875,
+      "sha256": "5ef510bd5d7afe10d3fd5756640d8363144346531f38bba0abdb0a77e355f861"
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/index.html",
+      "bytes": 339,
+      "sha256": "3e507a8d73a8b26d47c553c4d56415fbba2cdb66d4022406ed2f15cbb76b6a56"
+    },
+    {
+      "file": "index.html",
+      "bytes": 3075,
+      "sha256": "e9038f82d5f62a2514c6790bd3c67306d5f3bb88faf528045cc68664e902fe72"
+    },
+    {
+      "file": "ja/about/index.html",
+      "bytes": 6791,
+      "sha256": "ba136d218da5b4e32fc96e6613b499db136aaca7a7cbd0b0c1ccda58fdae0f3f"
+    },
+    {
+      "file": "ja/contact/index.html",
+      "bytes": 7744,
+      "sha256": "343d226a79b3171806e77a22ce57368159dc3a40cb7157c434b36c4e233aab48"
+    },
+    {
+      "file": "ja/credits/index.html",
+      "bytes": 8010,
+      "sha256": "94e4d1c4f4b756cf24b56754fb6d4a1f4c1a1e362084d3223d9d776f18fa9a3f"
+    },
+    {
+      "file": "ja/games/index.html",
+      "bytes": 9593,
+      "sha256": "dd902f7899057439dbfcb9f9fb2fdc3367ea4dd28947d9e52542304c5553d5ff"
+    },
+    {
+      "file": "ja/games/light-garden/index.html",
+      "bytes": 10063,
+      "sha256": "e0e7318fb13d575f4e1d16ab61770c401de03579994ac80416ef3804a3c434b8"
+    },
+    {
+      "file": "ja/games/project-magnet/index.html",
+      "bytes": 10634,
+      "sha256": "f6c9b843e3ab8a75d3365433fd2bcc4a041e03593935cb4ab8c952068dfc042d"
+    },
+    {
+      "file": "ja/games/tiny-delivery/index.html",
+      "bytes": 10216,
+      "sha256": "569802753fb18e6052020c51237e7b73156554ce563a0f23bcf47d07c8fb0b87"
+    },
+    {
+      "file": "ja/games/two-ways-home/index.html",
+      "bytes": 10134,
+      "sha256": "a4ea312274f603f45e03d49a5fe54b9610e2ae18dfcc3f1f9a5cafa3ba21e25e"
+    },
+    {
+      "file": "ja/index.html",
+      "bytes": 9537,
+      "sha256": "69150e4e0c36076e4f8a066a0b8f8858052392db331069cbe9563c5e354b92e0"
+    },
+    {
+      "file": "ja/play/light-garden/index.html",
+      "bytes": 10278,
+      "sha256": "9943758364e0886d5ef738ad568d7855c8c27fa383526f1dd55590f1faa2c3c8"
+    },
+    {
+      "file": "ja/play/project-magnet/index.html",
+      "bytes": 5414,
+      "sha256": "e0b5b0374649bdabbaf5e4e0609cb606026823e9ba17a27ae04d1bbb7ca36ba9"
+    },
+    {
+      "file": "ja/play/tiny-delivery/index.html",
+      "bytes": 10364,
+      "sha256": "8aaeebc3e0965a497bd600f59a30e7161eb466852dd66306d246a602e70573ce"
+    },
+    {
+      "file": "ja/play/two-ways-home/index.html",
+      "bytes": 10290,
+      "sha256": "87aa2986a624036a45fb0c43a37a74ea5797e519b9546f3c40a5e4dddf57a30d"
+    },
+    {
+      "file": "ja/privacy/index.html",
+      "bytes": 13612,
+      "sha256": "c049f1e9c208386f4478f61fa49989aa4358ab748a908af5148c6a463723c8d7"
+    },
+    {
+      "file": "ja/terms/index.html",
+      "bytes": 8981,
+      "sha256": "c67a29694d08f50b037bc22cf70cb55f14c901f7cf139c5c225f4101937290fe"
+    },
+    {
+      "file": "ja/video-policy/index.html",
+      "bytes": 8434,
+      "sha256": "2c2fb5b38890dad10c0694c66351ddfcdda5bbed448d55a4d8d05eccc371c0e3"
+    },
+    {
+      "file": "licenses/astro.txt",
+      "bytes": 3628,
+      "sha256": "4aa72be797aad0e5e21827eaae6a1df9e122d7a401f07d2c308a6b9a5f0e1278"
+    },
+    {
+      "file": "robots.txt",
+      "bytes": 64,
+      "sha256": "a356e90ecf45972d8600915d2140d6189a3feb33fb581a9a48e4f57cb0c8ab74"
+    },
+    {
+      "file": "sitemap.xml",
+      "bytes": 2011,
+      "sha256": "77fca9f977dd280ad1d7b477eee806f590006661fc335f7e1981a786b6143300"
+    }
+  ],
+  "sources": [
+    {
+      "file": "astro.trust.config.mjs",
+      "sha256": "1119f93da97ac372c0c0c553e4dd1377cda703a96e21378440547d9caf2d25c9"
+    },
+    {
+      "file": "config/release-production/measurement.json",
+      "sha256": "bde1d5765dee8e3db878cf12784f86297cfbed87a9bc9064d9ec473576954db1"
+    },
+    {
+      "file": "scripts/release-prepare.mjs",
+      "sha256": "07300de38246b96de8b659e50197434ad0b67313492ae21a04861f73468d6f53"
+    },
+    {
+      "file": "scripts/trust-ux-build.mjs",
+      "sha256": "5eb7216c63264e8bea7e582c29a42861473f0c1f25e5d83353a3c3448492f79a"
+    },
+    {
+      "file": "src/components/Catalog.astro",
+      "sha256": "5c6bbc2fc4f1b021f211856db623fdae533e192b57317865d7c1e266c59de9b7"
+    },
+    {
+      "file": "src/components/GameCard.astro",
+      "sha256": "97829c0779f00f3684a60b4e20fbd93d6fe1af16be0f7daf956fc267495a505c"
+    },
+    {
+      "file": "src/components/Hero.astro",
+      "sha256": "854fea208f6bc5445b2421daac089ba79813dbdb5671f036dca50b6763b4c698"
+    },
+    {
+      "file": "src/components/PlayFrame.astro",
+      "sha256": "8945646cfb5a87fb15a92bbf10f902c61194470a73289223fbbd7b8e1600ceb5"
+    },
+    {
+      "file": "src/components/PlayShell.astro",
+      "sha256": "70a51b77cf59069a6545765b2ca5778072f8b1ba362f2695b048053d485dd3d1"
+    },
+    {
+      "file": "src/components/Related.astro",
+      "sha256": "138bda1ed3b35c20c10de3e6226d22e3599d267e316594ad673a0a92357ecc4f"
+    },
+    {
+      "file": "src/components/StudioFooter.astro",
+      "sha256": "6b12e82d827af9a2dacdd3d72df962c66344147b4d9165c08767edfbbf3add8e"
+    },
+    {
+      "file": "src/data/game-identities.json",
+      "sha256": "0ec4bfe7e0799758b1247d389e25ac641a0f2705e39a39b8e4d7cf8b0e65df1a"
+    },
+    {
+      "file": "src/data/game004-release.json",
+      "sha256": "b5520d8b202e44ab494c7fc491e40cf5360b5d9ff2ecd4aeb2fed87742e1623e"
+    },
+    {
+      "file": "src/data/games.ts",
+      "sha256": "55277f7c54ae1cc05a6b62c5c4a00e67a176e58e1407ae28060dfdfad9a77e4c"
+    },
+    {
+      "file": "src/i18n/ui.ts",
+      "sha256": "2abd86faa723203804d75dd11423e50d4893e9dd05536a70e028b1de26d9f781"
+    },
+    {
+      "file": "src/prototypes/art.ts",
+      "sha256": "62c16ecdb5d91dc142838840c0554465209562170a5bc5a5d3714bf1552f56be"
+    },
+    {
+      "file": "src/prototypes/board-view.ts",
+      "sha256": "58da1860a17267c757e4e6aba836232123664ea430ee4be9d2cc5e7e2fbfdd47"
+    },
+    {
+      "file": "src/prototypes/catalog.ts",
+      "sha256": "89ba9b149749b1696dc46367b3cd60ff9a653490bf47b95886153a97de4d2873"
+    },
+    {
+      "file": "src/prototypes/controls.ts",
+      "sha256": "35d6385ee48e62e1d4003d06084c66858de58a98d21a836013b5f2a5efa9f9f1"
+    },
+    {
+      "file": "src/prototypes/craft-audio.ts",
+      "sha256": "66af2d400073d0b2851865a4ab148a7d4ef848cd07fe6a9d2410461ddb012eb6"
+    },
+    {
+      "file": "src/prototypes/craft-motion.ts",
+      "sha256": "68ad07d13cfa8d15f068f62dd53872ae60b4d0f562e01955a5a4cb709cb39e14"
+    },
+    {
+      "file": "src/prototypes/craft-sound.ts",
+      "sha256": "58c519c3f1b4f07960ddba09679a64598e007f5a2c4b55568fe9ffb6e61981e1"
+    },
+    {
+      "file": "src/prototypes/delivery-answers-r2.json",
+      "sha256": "6ffd0ffc1a567fd3863c2846ffdf79dbcc5ce7693caad3778f64ba19c0ea7c1f"
+    },
+    {
+      "file": "src/prototypes/delivery-levels-r2.ts",
+      "sha256": "b167492358d2512408ae3f6c0a05c5e47c680a72355e3fa3ebea0d41fbb9b41b"
+    },
+    {
+      "file": "src/prototypes/delivery-r2.ts",
+      "sha256": "2ffb4e04eb86aaeb4eaa9be8d9391e606a6a3a1b2ee782242354c2c99a0f96aa"
+    },
+    {
+      "file": "src/prototypes/direct-input.ts",
+      "sha256": "d0f69fcb79e670899acbaeb90ba9c2c209c9bb7919751e9c97cf814114f7454d"
+    },
+    {
+      "file": "src/prototypes/game-r2.css",
+      "sha256": "34218be86bc7692ae97fb6a83847d5ab7d966ce412fe4939e858abbd1734ae1b"
+    },
+    {
+      "file": "src/prototypes/game-r2.ts",
+      "sha256": "01877c577efe669047f8c4348781bc6c4781f3317bf15555cf1ee7da837b4918"
+    },
+    {
+      "file": "src/prototypes/game-r3.css",
+      "sha256": "7da3fcdd24f2e2eded4913f8c550f73c02b9a99f648e8f034ede46adf27b5f45"
+    },
+    {
+      "file": "src/prototypes/game-r4.css",
+      "sha256": "ac81991e5cab8c3c02bae5cf20e6cb5bf4caee21dde04c6a3421da42ba3d0e6e"
+    },
+    {
+      "file": "src/prototypes/game-r5.css",
+      "sha256": "8e18eff6ca28dc5f40356b61d0dc0a41fbb52b8b6309acb4732d0649838f40fa"
+    },
+    {
+      "file": "src/prototypes/game.css",
+      "sha256": "b6484f6a70f28af5fe2a244812d6b78e6e8d66db5944f0ead128e22a31ce68d9"
+    },
+    {
+      "file": "src/prototypes/game.ts",
+      "sha256": "4fb2db7ca4df691ff795b8c12f2148ad0ae8fb4d69caf87495248f3bf2913060"
+    },
+    {
+      "file": "src/prototypes/guides.ts",
+      "sha256": "011f5ba1637a86401e83fa1c756847602d8053ba331d3b16b059080a6ca044a4"
+    },
+    {
+      "file": "src/prototypes/home-answers-learning.json",
+      "sha256": "f6f13baaedb7f7a6c82caea10600cecd388251f9c477c3dbe754ac4484ce2e20"
+    },
+    {
+      "file": "src/prototypes/home-answers-r2.json",
+      "sha256": "e2ad5dd4f68240a12bcb4aab15e0a1c952a3f0cafe62760745308b6f8cfbda28"
+    },
+    {
+      "file": "src/prototypes/home-levels-learning.ts",
+      "sha256": "8028366d73bf36ef1886d51a38662f0b9deed97683a97a8fcc40431a892edb87"
+    },
+    {
+      "file": "src/prototypes/home-levels-r2.ts",
+      "sha256": "7e9ebc2d49e769c38c605151bf12d6a8b086e52a762bba3ff48d0f4772ba39a7"
+    },
+    {
+      "file": "src/prototypes/level-answers.json",
+      "sha256": "2fc339ec7e0924c06535b3d18ebe471376bb63005def37d095ec24d1f31482b0"
+    },
+    {
+      "file": "src/prototypes/levels.ts",
+      "sha256": "ed7e8981d6f108720925b83bcffb1c64877bfd7a2f0031431e716a47fe821b30"
+    },
+    {
+      "file": "src/prototypes/light-answers-r2.json",
+      "sha256": "53717de0c5d5082938308e47da1860e20a3c0eded26c492b9e299e56fe137cb0"
+    },
+    {
+      "file": "src/prototypes/light-cause.ts",
+      "sha256": "191d92e464e22488e9c7b486b67e8f96768491037363fbf775cad368f148e4a5"
+    },
+    {
+      "file": "src/prototypes/light-craft-audio.ts",
+      "sha256": "3b5a0fe9db77c843907ce9c9f4d9393949c759ebdfad3b2c2b45a1097da4c976"
+    },
+    {
+      "file": "src/prototypes/light-craft-motion.ts",
+      "sha256": "fe20d99c91948b83a1fe524cd491ab551a55244eaf2ec0dbbd4e04b3f6ee5528"
+    },
+    {
+      "file": "src/prototypes/light-craft-plan.ts",
+      "sha256": "a1d4af1e0505717c29b92260d286f9d36cb276f9500bfa4166836b19df611d1f"
+    },
+    {
+      "file": "src/prototypes/light-craft-runtime.ts",
+      "sha256": "cc3abcd55428ded4bd48366856889f721a1607b62cfdaf84d479dbbad547c4f1"
+    },
+    {
+      "file": "src/prototypes/light-craft-sound.ts",
+      "sha256": "c4d9dece6a1e1d204946e5816aa9553e825bd32e53d21f2b8603d8bf9da84a71"
+    },
+    {
+      "file": "src/prototypes/light-feedback.ts",
+      "sha256": "e8a368153f04c7e1ec3f762ee75adb7784d8daa03d6db00b578f67b82567a075"
+    },
+    {
+      "file": "src/prototypes/light-levels-r2.ts",
+      "sha256": "65f8b2a736e3628cf263e44c60802c211617581a519872e0f19d05175a62ad83"
+    },
+    {
+      "file": "src/prototypes/light-object-art.ts",
+      "sha256": "5c9ae09b2c8377ccf827cd5edd453d27a5307e7af66fb77bd0269b47018cbb53"
+    },
+    {
+      "file": "src/prototypes/light-object-motion.ts",
+      "sha256": "345bbb39e54af0185b09ff5953bb031181e4ec9759de7ced20eaf7cc9fdf9e8c"
+    },
+    {
+      "file": "src/prototypes/light-object-view.ts",
+      "sha256": "28071cd8b01013631592b3c98f5728f402895ef2ac71ca4c5abb64f7d19f8baa"
+    },
+    {
+      "file": "src/prototypes/light-object.css",
+      "sha256": "6ffebc5a08170cd8fa862cb47bbb215c6afda28a68f3fea89119bce8ed557fbe"
+    },
+    {
+      "file": "src/prototypes/light-polish-art.ts",
+      "sha256": "c93bb08509b4d41a64e94101355b080ab4dd6b75d86e65bf85cfbb4071f49956"
+    },
+    {
+      "file": "src/prototypes/light-polish.css",
+      "sha256": "22f7215ea964e38669d8afa5ef590d1b4c5d5168bddc9b389018abd592ed635a"
+    },
+    {
+      "file": "src/prototypes/light-r2.ts",
+      "sha256": "a46d5dcb78fb4e712f9b94e49b5662ae612bc58699ca78588cfcdf9e8e6d8962"
+    },
+    {
+      "file": "src/prototypes/music-audio.ts",
+      "sha256": "99299eecde4b61a49b957523d5f2bb5ae137f2fd2bfdab33bbae1d1607c3362c"
+    },
+    {
+      "file": "src/prototypes/music-pilot.ts",
+      "sha256": "1600bf6f5f89f0d039b00abb18c1ee732410e7199637bc7936d3dbc390460039"
+    },
+    {
+      "file": "src/prototypes/music-rhythm.ts",
+      "sha256": "3b69f7d44c1cbba325fc8afbf75fcff2ddd399ad84a9bf99e925b3a7d375809d"
+    },
+    {
+      "file": "src/prototypes/music-score.ts",
+      "sha256": "dccdde570478b899e9111a69db6c79f36d38acfbf30183321834245692563722"
+    },
+    {
+      "file": "src/prototypes/protocol.ts",
+      "sha256": "6672e4e9fc2ea110cb3dba6345ea11b06619174592778b9da77e6e07e03e244e"
+    },
+    {
+      "file": "src/prototypes/rules.ts",
+      "sha256": "27089a572d8215adca1c097c9e89ae33c035c2c92def587249e38a0babbc92de"
+    },
+    {
+      "file": "src/prototypes/shell.ts",
+      "sha256": "abd0e9a7f99faf4bad4ed74301f13ca0c8de711720363c604b44fa8afbab9103"
+    },
+    {
+      "file": "src/prototypes/state.ts",
+      "sha256": "acf1019d5f6b7ccfc654287d00f5f0aed30742dcf59473dc735da7ed85f9236a"
+    },
+    {
+      "file": "src/prototypes/twoways-bgm-audio.ts",
+      "sha256": "d0bc664aa7304e1528e23eb53cfa3572afccc307187813694407eb2658d845cb"
+    },
+    {
+      "file": "src/prototypes/twoways-bgm-pilot.ts",
+      "sha256": "0b1e04205a71fff4ec0b5f33c04b24ab2e99857fa3651a7f0d825152b22d2d1b"
+    },
+    {
+      "file": "src/prototypes/twoways-bgm-score.ts",
+      "sha256": "c7c174359ae5234bf1b8b14fc4bbe4d3e25a7f4bc2c162f7a8850b61c1888ab9"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-audio.ts",
+      "sha256": "6bfb36670e99de51a2cece3770098ef9c2ea414ba4ef2d941526d6430ddc4e62"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-motion.ts",
+      "sha256": "c7bad2a7f21c4f73f0aa550431d7b377cca688a1752d1c83cb821132989081e5"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-plan.ts",
+      "sha256": "8508404e44aa24be1abfa5e1c0cc1524462fb191b662a06b8463ad80dfd42c75"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-runtime.ts",
+      "sha256": "08e03545dcae1b57c94d335e1e713eb52ad84a161f4706a3956668d32bd86dac"
+    },
+    {
+      "file": "src/prototypes/twoways-craft-sound.ts",
+      "sha256": "6fddab32a117d4cf57246331a35685d80a76a538b95af1998507967fc20f420f"
+    },
+    {
+      "file": "src/prototypes/visual-language.ts",
+      "sha256": "32a6c4d8c446d3b36164318cac06362908422081157661cb5513a658991e0dd4"
+    },
+    {
+      "file": "src/rc/AnalyticsConsent.astro",
+      "sha256": "35202a1f3bcf64acd09185f3461908b26f3e12b3feca76d24ab08e8a8830cf1e"
+    },
+    {
+      "file": "src/rc/DocumentRevision.astro",
+      "sha256": "29c918927c8bb968b522cfe02fd594d5a5032188bc5283e75ecdddfdc125d8b7"
+    },
+    {
+      "file": "src/rc/GameCards.astro",
+      "sha256": "5cf0f665e505d03422504480069ec4054d5a9fe8a02c1d54dedc08ba6092b13c"
+    },
+    {
+      "file": "src/rc/Layout.astro",
+      "sha256": "605b73b282d5b211dfc76f5b0a495d277204d8b58bdd22845c40e3e2c2691369"
+    },
+    {
+      "file": "src/rc/MagnetPlay.astro",
+      "sha256": "8ff935c977112b5eb63d3376adcdae3d7847f284f7a10a27378d2ef4cee3e4ca"
+    },
+    {
+      "file": "src/rc/Operations.astro",
+      "sha256": "ee1dfc18fd77b33608161d6f0592748774e1df1f22e4a83c5892ac1e0c427424"
+    },
+    {
+      "file": "src/rc/Play.astro",
+      "sha256": "4d98adaae8ba0926c272f539e97603e2808a76309a6ac0c182b5f964a5542ebb"
+    },
+    {
+      "file": "src/rc/PublicOperations.astro",
+      "sha256": "6205bc5eecd1a4e0d54fae8da01ec8929a459ed038fc6242ce2a732f5176e4a1"
+    },
+    {
+      "file": "src/rc/analytics-consent.js",
+      "sha256": "3d1a0c5f810e8b1ce5860ae5ecc91bcc5b4e8db1dff215c93c157e5813e6cc3b"
+    },
+    {
+      "file": "src/rc/favicon.svg",
+      "sha256": "db98c074909c265849b79a1443c81db6f21a1ad38fff437204b18ae809dbb774"
+    },
+    {
+      "file": "src/rc/pages/404.astro",
+      "sha256": "5e6135f1048d43c58c54a94a38be0948e8031ea7ad9545d1e4cfb73902c598b7"
+    },
+    {
+      "file": "src/rc/pages/[locale]/[...path].astro",
+      "sha256": "ed7e07c6b2bf03d3708975d8af0c959d9d3e5bb555d544320cd29478ef579b4c"
+    },
+    {
+      "file": "src/rc/pages/index.astro",
+      "sha256": "13af3db9ec80187bbf5b326feffadaaab76d18140a1186cbb35ed3e8e1bab068"
+    },
+    {
+      "file": "src/rc/portal-polish.css",
+      "sha256": "aad54fad307d69e3e223110f642e32a5de845d95216545bdf4a9afdcbba7311f"
+    },
+    {
+      "file": "src/rc/portal.ts",
+      "sha256": "56e283593021ddf6c9af1cddd2af01f150e568532d4340f75a96ef0c0cf699c5"
+    },
+    {
+      "file": "src/rc/profile.ts",
+      "sha256": "48f307689d304bb8ffe02959d3b0d085faf08ba3f845fe7cb4e725242ff60152"
+    },
+    {
+      "file": "src/rc/public-catalog.ts",
+      "sha256": "c11ebb6b18937dfaf31661202bb5b278a0d54a9dd42f06a2c6008c9c85007b6d"
+    },
+    {
+      "file": "src/rc/public-documents.ts",
+      "sha256": "8e487897d934414a818bd3065d0afe4a4d0ce692f47d32ddf2187a4814d44de2"
+    },
+    {
+      "file": "src/rc/public-language.js",
+      "sha256": "195690dafaeeec6842b5c8b40efd03aef813cc6f7b7e177d01c742292f1fadd5"
+    },
+    {
+      "file": "src/rc/rc.css",
+      "sha256": "a395a2aa71012c9a1ce10ee8cf25c5b62c18ecd92cc0b3b46f469e06f09b6274"
+    },
+    {
+      "file": "src/rc/readiness.mjs",
+      "sha256": "07a4295e5835a68cffb789a285b5fc9c01911db97c7173b9d5701204de5aab92"
+    },
+    {
+      "file": "src/rc/runtime-port.ts",
+      "sha256": "3ae30ad9c0c252d12fce4231da14f3b5c07d0841712073b0948dd8763525f017"
+    },
+    {
+      "file": "src/rc/save-copy.ts",
+      "sha256": "053a7520597476eec05cef506e0274c7f14762690b38edae621013f6f2b60a11"
+    },
+    {
+      "file": "src/rc/shell.ts",
+      "sha256": "bc3c331dfe48fdc9480adb538c4612f4089c0554d39c5391379f07be24a2f003"
+    },
+    {
+      "file": "src/rc/site.json",
+      "sha256": "10f0d28fe25aa53bc90b54444d949fc17172f3ede3a9c397e876f2ebe30da965"
+    },
+    {
+      "file": "src/rc/trust-ux.css",
+      "sha256": "45f1c426d321bcf0295460a59974f92539ea0f009715497db4f968161c443f23"
+    },
+    {
+      "file": "src/styles/baseline.css",
+      "sha256": "1f94f50b39853524aab6237dc016034e61f441b1ecbd0c7c428f3de61f13cdf1"
+    },
+    {
+      "file": "src/styles/global.css",
+      "sha256": "f90b54aacad3bab36021aed3027a78226fd521e4d0e112546fea2b0c7cc99f5d"
+    },
+    {
+      "file": "src/styles/player.css",
+      "sha256": "aa5de04d370e09bbf296db07100e2558570a0cd8b6b1e6dad288152259d43b54"
+    }
+  ],
+  "retained": [
+    {
+      "file": "assets/analytics-consent.js",
+      "bytes": 4185,
+      "sha256": "3d1a0c5f810e8b1ce5860ae5ecc91bcc5b4e8db1dff215c93c157e5813e6cc3b"
+    },
+    {
+      "file": "assets/portal.js",
+      "bytes": 722,
+      "sha256": "176b74d755bed4465b15cda17ee341aedbdfbcfb6c24622475f8a4b85177851f"
+    },
+    {
+      "file": "assets/public-language.js",
+      "bytes": 1345,
+      "sha256": "195690dafaeeec6842b5c8b40efd03aef813cc6f7b7e177d01c742292f1fadd5"
+    },
+    {
+      "file": "assets/shell.js",
+      "bytes": 59328,
+      "sha256": "b29633fc72ccbbccb5ede216b82410aabff47c39a48fb07e6b457c938b91b96e"
+    },
+    {
+      "file": "covers/light-garden.png",
+      "bytes": 36638,
+      "sha256": "0606aefeb26acfff502b4221286b57e4b9809c400ea9b4067fcb0f045ffa81e0"
+    },
+    {
+      "file": "covers/project-magnet.png",
+      "bytes": 432926,
+      "sha256": "46a3f92c5c4eee39139a1422322a4127f07118a0ad3a2fdab0ac00dbe4199610"
+    },
+    {
+      "file": "covers/tiny-delivery.png",
+      "bytes": 13438,
+      "sha256": "ab9d7e9481f6d5bcf79085329ba650785a29bf4277e8978e2eb2dc9e1ab6fe18"
+    },
+    {
+      "file": "covers/two-ways-home.png",
+      "bytes": 9736,
+      "sha256": "d96afb5adee57c516175f45a51a9503916bc9c0edf3364233b9b0d7fc7ead73f"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 243,
+      "sha256": "db98c074909c265849b79a1443c81db6f21a1ad38fff437204b18ae809dbb774"
+    },
+    {
+      "file": "games/light-garden/rc-r1/base.css",
+      "bytes": 53014,
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e"
+    },
+    {
+      "file": "games/light-garden/rc-r1/game.css",
+      "bytes": 1009,
+      "sha256": "3a1e4e02de7c48f6025f801852dabf927e9d5bab330aa16028497a2f48dc0c1f"
+    },
+    {
+      "file": "games/light-garden/rc-r1/game.js",
+      "bytes": 153116,
+      "sha256": "2f816a8fd23f69c3bbdf403b9979b6c3381a8409ee637f66f1bf5b7b3bf5f8f3"
+    },
+    {
+      "file": "games/light-garden/rc-r1/index.html",
+      "bytes": 383,
+      "sha256": "c9dd0a8554f12419455e21180cf91b941f6b2b53031538d0abf26a6d2e6d7983"
+    },
+    {
+      "file": "games/project-magnet/full-r1/assets/index-Cn9VhVmP.css",
+      "bytes": 16455,
+      "sha256": "cb36920cd0f2b5f88c68851d9e05f22f11d76fb8d68ebd1c293d636dbac473a8"
+    },
+    {
+      "file": "games/project-magnet/full-r1/assets/index-D2vtvqvm.js",
+      "bytes": 131287,
+      "sha256": "9912d102db70ea6cac802c320c00c64fe2be5299b362e3731a980a0bca78c427"
+    },
+    {
+      "file": "games/project-magnet/full-r1/credits.txt",
+      "bytes": 248,
+      "sha256": "e356d581394503ab37708bd77f1e654df863e6948e5aad5f69c0966e16c7b6c3"
+    },
+    {
+      "file": "games/project-magnet/full-r1/index.html",
+      "bytes": 2607,
+      "sha256": "8cad1f70a3e6892277a48ab00010c9f02ecf3ca371c75c03ccdb43f456ddee60"
+    },
+    {
+      "file": "games/project-magnet/full-r1/licenses/vite.txt",
+      "bytes": 112425,
+      "sha256": "387dd7baa307083401a27c58c362c30832f5ba1dba84f10cc22c33401523f45c"
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/base.css",
+      "bytes": 53014,
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e"
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/game.js",
+      "bytes": 138984,
+      "sha256": "69131572ccf0c0aaed8d58711679b31943468d964457ba6041d9cb1921202eff"
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/index.html",
+      "bytes": 334,
+      "sha256": "8419af9ddd306d385535c44a2105c52cef76368bc4e38846de744e4d87bac6d4"
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/music.wav",
+      "bytes": 12288044,
+      "sha256": "05b01efe37574c335b5164b92c8c80896e20a452696fd66fd55c1d5336a75945"
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/base.css",
+      "bytes": 53014,
+      "sha256": "21c68284db2bd7b6e40f6cea6a21c7876dcea4c4e16e19d572eb9c2ddeb32d6e"
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/game.js",
+      "bytes": 141875,
+      "sha256": "5ef510bd5d7afe10d3fd5756640d8363144346531f38bba0abdb0a77e355f861"
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/index.html",
+      "bytes": 339,
+      "sha256": "3e507a8d73a8b26d47c553c4d56415fbba2cdb66d4022406ed2f15cbb76b6a56"
+    },
+    {
+      "file": "licenses/astro.txt",
+      "bytes": 3628,
+      "sha256": "4aa72be797aad0e5e21827eaae6a1df9e122d7a401f07d2c308a6b9a5f0e1278"
+    }
+  ],
+  "baseline": "docs/qa/game004-magnet-release-r1/distribution.json",
+  "publicUrls": 33,
+  "analytics": "Original consent runtime; production-only hostname guard; no local transmission",
+  "models": [
+    "gpt-6-astra"
+  ],
+  "externalOperations": 0
+}

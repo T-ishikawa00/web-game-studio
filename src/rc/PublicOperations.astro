@@ -4,6 +4,7 @@ import site from './site.json';
 import {publicCopy,magnetSave} from './public-catalog';
 import {videoPolicy} from './public-documents';
 import DocumentRevision from './DocumentRevision.astro';
+import analyticsPrivacy from './analytics-privacy.json';
 interface Props { locale: Locale; page: string }
 const {locale,page}=Astro.props;
 const t=(ja:string,en:string)=>locale==='ja'?ja:en;
@@ -43,7 +44,7 @@ const title:Record<string,string>={about:t('スタジオについて','About the
   <p>{t('サイトの配信と保護にCloudflareを利用しています。Cloudflareは、これらの目的でIPアドレスやページの要求に伴う通信情報を処理する場合があります。','Cloudflare delivers and protects the site. For these purposes, it may process IP addresses and connection information associated with page requests.')}</p>
   <p>{p.hostingDisclosure[locale] ?? pending}</p><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>
   <h2 id="analytics">{t('任意のアクセス計測','Optional analytics')}</h2>
-  <p>{p.consentDisclosure[locale] ?? pending}</p><p>{t('この選択はアクセス計測だけを対象とし、将来の広告への同意には使いません。','This choice covers analytics only. It will not be used as consent for future advertising.')}</p><p>{p.analyticsDisclosure[locale]}</p>
+  {analyticsPrivacy[locale].paragraphs.map(paragraph=><p>{paragraph}</p>)}
   <button type="button" data-open-analytics>{t('計測の選択を変更する','Change analytics choice')}</button>
   <h2>{t('お問い合わせの情報','Information you send us')}</h2>
   <p>{t('お問い合わせでお送りいただくメールアドレス・本文・添付ファイルなどと返信履歴は、内容の確認、必要な返信、法令に基づく請求への対応に使用します。Tinlumoが広告やAIの学習に利用することはありません。','We use the email address, message, attachments and other information you send, together with our reply history, to review your inquiry, respond when needed and handle requests under applicable law. Tinlumo does not use this information for advertising or AI training.')}</p>

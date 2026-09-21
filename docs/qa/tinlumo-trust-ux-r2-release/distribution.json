@@ -9,9 +9,9 @@
       "sha256": "86b7742709758d13f88be8e6aec6e4a675d08f1af89e2445ae7de958b141d7a0"
     },
     {
-      "file": "_astro/_..cUxqZV0X.css",
-      "bytes": 32629,
-      "sha256": "d5ca42c2ff3255d7bf401aa73357bc57601166da3e8348706f9a6fd1c1f19ad7"
+      "file": "_astro/_..CYFgj5bi.css",
+      "bytes": 32921,
+      "sha256": "d1c6b9baef34281f4737fcde25744d90322e8c4cd6c21d9aeb91a7bf6f9d55bf"
     },
     {
       "file": "_headers",
@@ -20,8 +20,8 @@
     },
     {
       "file": "assets/analytics-consent.js",
-      "bytes": 4185,
-      "sha256": "3d1a0c5f810e8b1ce5860ae5ecc91bcc5b4e8db1dff215c93c157e5813e6cc3b"
+      "bytes": 4838,
+      "sha256": "df6797d80630955beadac53766dff8b11313185d6d792b4abf0f0292d01bf0f0"
     },
     {
       "file": "assets/portal.js",
@@ -60,83 +60,83 @@
     },
     {
       "file": "en/about/index.html",
-      "bytes": 6405,
-      "sha256": "9e24e7d9efbc23f08b991cead9c819a62f060ba68a4812ff16112c7303b70080"
+      "bytes": 6503,
+      "sha256": "5af7fd56c18f48ee96e8b5984d3936f18867d49ae6406cbb22114d2317b7c5c6"
     },
     {
       "file": "en/contact/index.html",
-      "bytes": 7305,
-      "sha256": "6573a261162b3d2d25dbb9bfa711acbf4ef10392d061815fcd43e0aae3c1537d"
+      "bytes": 7403,
+      "sha256": "f30c054477ee1d68ba3e239930ce40da6e57dca5b8f54b1b0202a0e4ed8d6766"
     },
     {
       "file": "en/credits/index.html",
-      "bytes": 7398,
-      "sha256": "c06173a36c778a8af97d990b34487182b3669540679b52074e42ae4474ddb895"
+      "bytes": 7496,
+      "sha256": "3ea31691302529bafde99f49169393b5fa1cf0bb9c7601952f81ea849ab380bb"
     },
     {
       "file": "en/games/index.html",
-      "bytes": 8904,
-      "sha256": "dcbaa8c18242a4e574b4870a01d76aad9218c05400e33f0750097a97a65258ff"
+      "bytes": 9002,
+      "sha256": "55e018bde11fd2ecf9016be4db55abd84b2f004fac2a6a91db1b88207a46238d"
     },
     {
       "file": "en/games/light-garden/index.html",
-      "bytes": 9366,
-      "sha256": "87db95082696df762cf0e526a2520e316232c331e8ecf6ef14b0a390c8285c24"
+      "bytes": 9464,
+      "sha256": "ec310ebcebfb737b7a9a6f11971b5c2c617f8a33eec3526038fc1a5d34b98ea9"
     },
     {
       "file": "en/games/project-magnet/index.html",
-      "bytes": 9926,
-      "sha256": "fff342f904cb12e2f6a490bb2f019cc62abb102e52f5c17e91133dca4789fc03"
+      "bytes": 10024,
+      "sha256": "63b8615cd54bb02d8b24e60efb5717b7dacf6ca3df00acca647bce010b3fe1b5"
     },
     {
       "file": "en/games/tiny-delivery/index.html",
-      "bytes": 9435,
-      "sha256": "959ce7489b8a52022f628e86381149b8332b296e9f153decbe4271a578996c1a"
+      "bytes": 9533,
+      "sha256": "5c74c7065dfe349a97adc62be59ee71d242931be0108f24b0fd5f776b5856d39"
     },
     {
       "file": "en/games/two-ways-home/index.html",
-      "bytes": 9446,
-      "sha256": "b5e6973aa82ed702bd2bb032509cc7752a563ca66c3870b7ba29608854477eb6"
+      "bytes": 9544,
+      "sha256": "515fe9430fa0449a61f2d5488e901e8082f6f0ea44ac1908848c938daeb674d9"
     },
     {
       "file": "en/index.html",
-      "bytes": 8848,
-      "sha256": "8485e5e79d88e41e3e0ebf17ce7b539ba5991d8661cdb4d68ef5a75875ce147a"
+      "bytes": 8946,
+      "sha256": "c17571cb00bfef90d09f4262ecec16280bb1b716458541d76c8b6e4dc952d3f9"
     },
     {
       "file": "en/play/light-garden/index.html",
-      "bytes": 9611,
-      "sha256": "1d19e5ba86e2566640b797a8b77bb2e58c6ed3fb1038a337eadce65004ccb083"
+      "bytes": 9709,
+      "sha256": "add55796682ec7801163716681e925474a7eb2a1adce01a6b58824b6baaba170"
     },
     {
       "file": "en/play/project-magnet/index.html",
       "bytes": 5414,
-      "sha256": "dcfe4d53069d6535e6b5691eac284dc43b85230df99aa1d092854aee6b09f5ab"
+      "sha256": "898e93fe7ccc3e0daf9f639779ece069ed98e86f2d5e6fc42a0434d3a8905d08"
     },
     {
       "file": "en/play/tiny-delivery/index.html",
-      "bytes": 9608,
-      "sha256": "46ab1adfe1ffce8d8f79956f011beb38567463bc321319a7236b996ef13a3313"
+      "bytes": 9706,
+      "sha256": "c042b9daa8f71dc341d848f10e539265efa960c1cdfc5f9e1aaf63ae5c562d81"
     },
     {
       "file": "en/play/two-ways-home/index.html",
-      "bytes": 9622,
-      "sha256": "525263bc6cab59c9ad0890ff313e169d6717929ef75ae065deef84b7b58c4bf4"
+      "bytes": 9720,
+      "sha256": "fa5e86e042891915f0a95125d2a5ae77ba8d81a39e55fddc0c86031e475af56a"
     },
     {
       "file": "en/privacy/index.html",
-      "bytes": 12110,
-      "sha256": "276c6677a35280bf11410334b0f8b337fb4f177ea9387bccc1dec6a67827f173"
+      "bytes": 12896,
+      "sha256": "af553878117b1fbd8042b1c2c9ef1974a66d657abf03feaeeb75831f2d253667"
     },
     {
       "file": "en/terms/index.html",
-      "bytes": 8219,
-      "sha256": "260f1190a426f3d204700e213a9321b6a82203e44b037e5e7a3c2719c76c81c2"
+      "bytes": 8317,
+      "sha256": "5a7f1e724d21a1d7a2f8079d23a56df644be56031dd1b1ab61a77407c76bb840"
     },
     {
       "file": "en/video-policy/index.html",
-      "bytes": 7817,
-      "sha256": "565a4c9e29da429ed4b22f29c4af7c6214b3a056d3a6a1f77b3069b5688f2b56"
+      "bytes": 7915,
+      "sha256": "fcdb1c7c010a57f6c4ebbe6bf7743afdaaf69a74a17510bee74204f042e4d59f"
     },
     {
       "file": "favicon.svg",
@@ -230,83 +230,83 @@
     },
     {
       "file": "ja/about/index.html",
-      "bytes": 6791,
-      "sha256": "ba136d218da5b4e32fc96e6613b499db136aaca7a7cbd0b0c1ccda58fdae0f3f"
+      "bytes": 6891,
+      "sha256": "470fa7742b834221c31b2b0901fb5002c103c66d4fe06ef3c8ea28851fe07cdb"
     },
     {
       "file": "ja/contact/index.html",
-      "bytes": 7744,
-      "sha256": "343d226a79b3171806e77a22ce57368159dc3a40cb7157c434b36c4e233aab48"
+      "bytes": 7844,
+      "sha256": "84b456167805b3123e4c5c310b9fee3a8cb3a53d2082b53b7e48678c74ce0337"
     },
     {
       "file": "ja/credits/index.html",
-      "bytes": 8010,
-      "sha256": "94e4d1c4f4b756cf24b56754fb6d4a1f4c1a1e362084d3223d9d776f18fa9a3f"
+      "bytes": 8110,
+      "sha256": "c7277ff9ace143e5fc0cb0ef246c0e66ae5e36b4f3afad66b976347957affb4c"
     },
     {
       "file": "ja/games/index.html",
-      "bytes": 9593,
-      "sha256": "dd902f7899057439dbfcb9f9fb2fdc3367ea4dd28947d9e52542304c5553d5ff"
+      "bytes": 9693,
+      "sha256": "ffd5bcfbf9c813009d4b8965caf6c0fa8ed5cb8789cb8f72fa08b41c898ec1d4"
     },
     {
       "file": "ja/games/light-garden/index.html",
-      "bytes": 10063,
-      "sha256": "e0e7318fb13d575f4e1d16ab61770c401de03579994ac80416ef3804a3c434b8"
+      "bytes": 10163,
+      "sha256": "6df36f66f9c95bdd2c9ca2c5edd563a6da6ba0d3ee22f145c1a57b4335c50ac6"
     },
     {
       "file": "ja/games/project-magnet/index.html",
-      "bytes": 10634,
-      "sha256": "f6c9b843e3ab8a75d3365433fd2bcc4a041e03593935cb4ab8c952068dfc042d"
+      "bytes": 10734,
+      "sha256": "f52e34ae86805347f375926f792e098ca5d42331a01f042de518d193d1ec33e2"
     },
     {
       "file": "ja/games/tiny-delivery/index.html",
-      "bytes": 10216,
-      "sha256": "569802753fb18e6052020c51237e7b73156554ce563a0f23bcf47d07c8fb0b87"
+      "bytes": 10316,
+      "sha256": "423f62ab344642a013f44a2b24bc55ebec0032e88fe5c03845be914deab3f951"
     },
     {
       "file": "ja/games/two-ways-home/index.html",
-      "bytes": 10134,
-      "sha256": "a4ea312274f603f45e03d49a5fe54b9610e2ae18dfcc3f1f9a5cafa3ba21e25e"
+      "bytes": 10234,
+      "sha256": "ceb4055cefae6de204e195d550c75343d65f6ac045937b661a33fc152292dea0"
     },
     {
       "file": "ja/index.html",
-      "bytes": 9537,
-      "sha256": "69150e4e0c36076e4f8a066a0b8f8858052392db331069cbe9563c5e354b92e0"
+      "bytes": 9637,
+      "sha256": "a1998ae6d74f5ec23db0bd3baa3b85a44438ed23c9d52b57df3d9f9caaef6d25"
     },
     {
       "file": "ja/play/light-garden/index.html",
-      "bytes": 10278,
-      "sha256": "9943758364e0886d5ef738ad568d7855c8c27fa383526f1dd55590f1faa2c3c8"
+      "bytes": 10378,
+      "sha256": "a64c6a8db2e7635a64e8628f9f5adcd611bf7d7c69f7988ecccf58dda2ae3832"
     },
     {
       "file": "ja/play/project-magnet/index.html",
       "bytes": 5414,
-      "sha256": "e0b5b0374649bdabbaf5e4e0609cb606026823e9ba17a27ae04d1bbb7ca36ba9"
+      "sha256": "22cc0eb8d0c7dc00b0d28ecd482f0eb88ab701437ab741c713db91af6a3a0ea6"
     },
     {
       "file": "ja/play/tiny-delivery/index.html",
-      "bytes": 10364,
-      "sha256": "8aaeebc3e0965a497bd600f59a30e7161eb466852dd66306d246a602e70573ce"
+      "bytes": 10464,
+      "sha256": "bc0f682643ccc295efe62e910965d0f149c861e38d67e89192452e29559a6533"
     },
     {
       "file": "ja/play/two-ways-home/index.html",
-      "bytes": 10290,
-      "sha256": "87aa2986a624036a45fb0c43a37a74ea5797e519b9546f3c40a5e4dddf57a30d"
+      "bytes": 10390,
+      "sha256": "e369930049232b0ff7f3304b7db441402b26e1798eb1e76b12b381b3992c2599"
     },
     {
       "file": "ja/privacy/index.html",
-      "bytes": 13612,
-      "sha256": "c049f1e9c208386f4478f61fa49989aa4358ab748a908af5148c6a463723c8d7"
+      "bytes": 14412,
+      "sha256": "e81d6ae6b93e44598a17cb7ebf0b411f66f4eee4e685fda020381ade5dcf58e9"
     },
     {
       "file": "ja/terms/index.html",
-      "bytes": 8981,
-      "sha256": "c67a29694d08f50b037bc22cf70cb55f14c901f7cf139c5c225f4101937290fe"
+      "bytes": 9081,
+      "sha256": "3067af1e438971171371b80f0cd213ced2373e5c1186603bd24fa8c7073a79b6"
     },
     {
       "file": "ja/video-policy/index.html",
-      "bytes": 8434,
-      "sha256": "2c2fb5b38890dad10c0694c66351ddfcdda5bbed448d55a4d8d05eccc371c0e3"
+      "bytes": 8534,
+      "sha256": "69b083b952e5e099818930f5cd540554ae873b61b93225e5aa84256daeae882a"
     },
     {
       "file": "licenses/astro.txt",
@@ -339,7 +339,7 @@
     },
     {
       "file": "scripts/trust-ux-build.mjs",
-      "sha256": "5eb7216c63264e8bea7e582c29a42861473f0c1f25e5d83353a3c3448492f79a"
+      "sha256": "e9011e1d68b9926169acbde99046f860b1cf03c4ffcf5870e6f3b14d2f80d574"
     },
     {
       "file": "src/components/Catalog.astro",
@@ -619,7 +619,7 @@
     },
     {
       "file": "src/rc/AnalyticsConsent.astro",
-      "sha256": "35202a1f3bcf64acd09185f3461908b26f3e12b3feca76d24ab08e8a8830cf1e"
+      "sha256": "f10cffb7441400d1d64f642939416fbb179a01cdbe8adb328a11bd3a84ed9c1c"
     },
     {
       "file": "src/rc/DocumentRevision.astro",
@@ -647,11 +647,15 @@
     },
     {
       "file": "src/rc/PublicOperations.astro",
-      "sha256": "6205bc5eecd1a4e0d54fae8da01ec8929a459ed038fc6242ce2a732f5176e4a1"
+      "sha256": "539fd7975685bda1318a444d76cc2f81a4a08acc20382dcc267f8d78d1d8d06d"
     },
     {
       "file": "src/rc/analytics-consent.js",
-      "sha256": "3d1a0c5f810e8b1ce5860ae5ecc91bcc5b4e8db1dff215c93c157e5813e6cc3b"
+      "sha256": "df6797d80630955beadac53766dff8b11313185d6d792b4abf0f0292d01bf0f0"
+    },
+    {
+      "file": "src/rc/analytics-privacy.json",
+      "sha256": "7b63eec2f6e226e500e0f6948409c37d152ec81994a0415d68d97ee4be78e98f"
     },
     {
       "file": "src/rc/favicon.svg",
@@ -735,11 +739,6 @@
     }
   ],
   "retained": [
-    {
-      "file": "assets/analytics-consent.js",
-      "bytes": 4185,
-      "sha256": "3d1a0c5f810e8b1ce5860ae5ecc91bcc5b4e8db1dff215c93c157e5813e6cc3b"
-    },
     {
       "file": "assets/portal.js",
       "bytes": 722,
@@ -868,7 +867,7 @@
   ],
   "baseline": "docs/qa/game004-magnet-release-r1/distribution.json",
   "publicUrls": 33,
-  "analytics": "Original consent runtime; production-only hostname guard; no local transmission",
+  "analytics": "Human accepted Consent R1 C: no initial prompt; default OFF; explicit settings opt-in; production-only hostname guard",
   "models": [
     "gpt-6-astra"
   ],

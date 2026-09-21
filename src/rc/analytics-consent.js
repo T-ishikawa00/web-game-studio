@@ -1,3 +1,5 @@
+// Consent Architecture R1 candidate C. Explicit settings only; no first-visit prompt.
+// Original production hostname, storage and withdrawal guards remain intact.
 export const analyticsConsentKey = 'tinlumo:analytics-consent:v1';
 export function installAnalyticsConsent(win, doc) {
   const panel = doc.querySelector('[data-analytics-consent]');
@@ -5,7 +7,8 @@ export function installAnalyticsConsent(win, doc) {
   const choiceButtons = panel.querySelectorAll('[data-analytics-choice]');
   const status = panel.querySelector('[data-analytics-status]');
   const controls = panel.querySelector('[data-analytics-choices]');
-  let choice = null, loaded = false;
+  let choice = null, loaded = false, opened = false, opener = null;
+  const closeButton = panel.querySelector("[data-close-analytics]");
   const readChoice = () => {
     try {
       const v = win.localStorage.getItem(analyticsConsentKey);
@@ -16,8 +19,8 @@ export function installAnalyticsConsent(win, doc) {
     catch { return null; }
   };
   function render() {
-    panel.hidden = false;
-    controls.hidden = choice !== null;
+    panel.hidden = !opened;
+    controls.hidden = !opened;
     status.textContent = choice === 'allow' ? panel.dataset.allowedText : choice === 'deny' ? panel.dataset.deniedText : panel.dataset.initialText;
   }
   function start() {
@@ -34,7 +37,13 @@ export function installAnalyticsConsent(win, doc) {
     loaded = true;
     doc.head.append(script);
   }
+  function close() {
+    opened = false; render();
+    if (opener?.isConnected) opener.focus();
+  }
   function select(value) {
+    if (value !== "allow" && value !== "deny") return;
+    opened = false;
     choice = value;
     let persisted = false;
     try { win.localStorage.setItem(analyticsConsentKey, value); persisted = win.localStorage.getItem(analyticsConsentKey) === value; } catch { /* Fail closed below. */ }
@@ -43,6 +52,7 @@ export function installAnalyticsConsent(win, doc) {
       win.history.replaceState(null, '', target.href);
     }
     render();
+    if (opener?.isConnected) opener.focus();
     if (choice === 'deny' && !persisted) {
       try { win.localStorage.removeItem(analyticsConsentKey); } catch { /* The fixed fragment also overrides a stale permission. */ }
       const target = new URL(win.location.href); target.hash = 'analytics-off';
@@ -56,9 +66,13 @@ export function installAnalyticsConsent(win, doc) {
   }
   for (const button of choiceButtons) button.addEventListener('click', () => select(button.dataset.analyticsChoice));
   for (const button of doc.querySelectorAll('[data-open-analytics]')) button.addEventListener('click', () => {
-    panel.hidden = false; controls.hidden = false;
+    opener = button; opened = true; render();
     panel.scrollIntoView({block:'nearest'});
     choiceButtons[0]?.focus();
+  });
+  closeButton?.addEventListener('click', close);
+  win.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && opened) { event.preventDefault(); close(); }
   });
   win.addEventListener('storage', event => {
     if (event.key !== analyticsConsentKey && event.key !== null) return;

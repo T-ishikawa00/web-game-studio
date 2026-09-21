@@ -51,16 +51,19 @@ test('Home primary links and all cross-game recommendations agree with the publi
   }
  }
 });
-test('Accepted game payloads, save adapters, consent and notices retain exact baseline bytes',async()=>{
+test('Accepted game payloads and save adapters retain baseline bytes; consent matches approved production source',async()=>{
  for(const f of manifest.retained)assert.equal(sha(await fs.readFile(root+'/'+f.file)),f.sha256,f.file);
  const baseline=JSON.parse(await fs.readFile('docs/qa/tinlumo-trust-ux-r2/preflight.json','utf8'));
- for(const file of ['src/prototypes/state.ts','src/rc/shell.ts','src/rc/analytics-consent.js','src/rc/AnalyticsConsent.astro','config/release-production/measurement.json','config/release-production/wrangler.json']){
+ for(const file of ['src/prototypes/state.ts','src/rc/shell.ts','config/release-production/measurement.json','config/release-production/wrangler.json']){
   assert.equal(sha(await fs.readFile(file)),baseline.files.find((f:{file:string})=>f.file===file).sha256,file);
  }
+ assert.equal(sha(await fs.readFile(root+'/assets/analytics-consent.js')),sha(await fs.readFile('src/rc/analytics-consent.js')));
+ assert.equal(manifest.retained.length,25);
  for(const locale of ['ja','en'])for(const page of ['','privacy/','terms/','contact/','video-policy/']){
   const content=await html(`${locale}/${page}index.html`);
   assert.ok(content.includes('data-enabled="true"'));
   assert.ok(!content.includes('beacon.min.js'));
+  assert.ok(content.includes('data-close-analytics'));
  }
 });
 test('Public copy has consistent counts, separated inquiry types, rights exceptions and explicit editorial dates',async()=>{

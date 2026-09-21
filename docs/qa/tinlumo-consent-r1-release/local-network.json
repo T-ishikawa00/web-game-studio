@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "artifactSha256": "0971254ef882e95fc72b04018678659b226006c439a9dc2a7779db71462cd402",
+  "mode": "Exact production artifact at mapped origin; provider stubbed",
+  "defaultAndDenyRequests": 0,
+  "allowedRequests": [
+    {
+      "origin": "https://static.cloudflareinsights.com",
+      "path": "/beacon.min.js"
+    }
+  ],
+  "revokeReloadStopsNewRequests": true,
+  "privacyJAEN": true,
+  "fourGamesJAEN": true,
+  "noGoogleRequests": true,
+  "errors": []
+}

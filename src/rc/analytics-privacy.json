@@ -1,0 +1,24 @@
+{
+  "ja": {
+    "heading": "任意のアクセス計測",
+    "paragraphs": [
+      "Cloudflare Web Analyticsによるアクセス計測は、初めて利用するブラウザでは無効です。計測を求める案内は自動表示しません。ページ下部の「計測の設定」から「計測を許可する」を選んだ場合に限り有効になります。選択しない場合も、計測を拒否した場合も、すべてのゲーム機能を利用できます。",
+      "以前このブラウザで保存した計測の許可・拒否は引き継がれます。選択はlocalStorageに保存し、訪問者IDは作成しません。自動的な有効期限はなく、「計測の設定」で変更できます。設定画面を開くことや、選択せずに閉じることは同意になりません。サイトデータを削除すると計測の選択だけでなく、ゲームの進行や設定も消える場合があります。",
+      "許可すると、ページURL、参照元、ブラウザ・端末情報、読み込み速度などの性能情報をCloudflareへ送信し、ページの利用状況と性能の改善に使います。Cloudflareは、利用状況の計測にCookieやlocalStorageを使わず、fingerprintingによる個人の識別をしないと説明しています。Tinlumoが選択を保存するlocalStorageと、Cloudflareの計測方式は別です。ゲーム内の操作や保存データをアクセス計測へ送信しません。",
+      "許可を取り消すとページを再読み込みして以後の計測を停止します。開始済みの通信は完了する場合があります。計測の通信失敗やブロックによってプレイを制限しません。Cloudflareでの取扱い・保持は同社のPrivacy Policy等によります。Tinlumoは一律の保持期間や即時削除を保証しません。サイト配信に必要な通信情報の処理は、任意のアクセス計測を無効にしても行われます。",
+      "この選択はCloudflare Web Analyticsだけを対象とし、広告への同意とは独立しています。現在、広告は配信していません。広告を導入する際は、必要な地域・処理に応じて説明と選択方法を別途案内します。"
+    ],
+    "change": "計測の選択を変更する"
+  },
+  "en": {
+    "heading": "Optional analytics",
+    "paragraphs": [
+      "Cloudflare Web Analytics is off when you first use a browser. We do not automatically show an analytics prompt. It turns on only if you open Analytics settings in the footer and choose Allow analytics. All game features remain available if you make no choice or decline analytics.",
+      "An analytics choice previously saved in this browser is kept. We store your allow or decline preference in localStorage without creating a visitor ID. It has no automatic expiry and can be changed in Analytics settings. Opening settings or closing them without choosing does not give consent. Clearing site data may remove game progress and preferences as well as your analytics choice.",
+      "If you allow analytics, page URLs, referrers, browser and device information, and performance information such as loading speed are sent to Cloudflare to help improve page use and performance. Cloudflare states that it does not use cookies or localStorage to collect usage metrics or fingerprint individuals. Tinlumo's localStorage preference is separate from Cloudflare's measurement method. In-game actions and game-save data are not sent to analytics.",
+      "Withdrawing permission reloads the page and stops further measurement. Requests already started may finish. Blocked analytics or connection failures do not restrict play. Cloudflare handles and retains information under its Privacy Policy and related terms. Tinlumo does not guarantee a fixed retention period or immediate deletion. Connection information needed to deliver the site is still processed when optional analytics is off.",
+      "This choice covers only Cloudflare Web Analytics and is independent of advertising consent. We do not currently serve ads. Before introducing ads, we will provide information and choices appropriate to the relevant regions and processing."
+    ],
+    "change": "Change analytics choice"
+  }
+}

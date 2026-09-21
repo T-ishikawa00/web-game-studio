@@ -21,6 +21,12 @@ for(const f of baseline.files){
 // Refuse unexpected content in the dedicated assets directory. No broad copy.
 async function walk(dir,prefix=''){const a=[];for(const e of await fs.readdir(dir,{withFileTypes:true})){assert.ok(!e.isSymbolicLink());const f=prefix+e.name;if(e.isDirectory())a.push(...await walk(dir+'/'+e.name,f+'/'));else a.push(f);}return a;}
 assert.deepEqual((await walk(assets)).sort(),retained.map(f=>f.file).sort());
+// Consent Architecture R1 C is Human accepted. Override only the analytics
+// runtime; game payloads and all other accepted assets stay byte-identical.
+const consentAsset='assets/analytics-consent.js';
+const consentBytes=await fs.readFile('src/rc/analytics-consent.js');
+await write(assets+'/'+consentAsset,consentBytes);
+const retainedPayloads=retained.filter(f=>f.file!==consentAsset);
 await fs.mkdir(projectPath('.tmp/trust-ux-r2'),{recursive:true});
 const build=spawnSync(process.execPath,['node_modules/astro/bin/astro.mjs','build','--config','astro.trust.config.mjs'],{cwd:projectRoot,stdio:'inherit',windowsHide:true,env:{...process.env,TINLUMO_TRUST_RELEASE:production?'1':'0',ASTRO_TELEMETRY_DISABLED:'1',TEMP:projectPath('.tmp/trust-ux-r2'),TMP:projectPath('.tmp/trust-ux-r2')}});
 assert.equal(build.status,0,'Astro build failed');
@@ -48,10 +54,11 @@ for(const file of await walk(root)){
 await write(root+'/robots.txt',production?'User-agent: *\nAllow: /\nSitemap: https://tinlumo.com/sitemap.xml\n':'User-agent: *\nDisallow: /\n');
 await write(root+'/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map(url=>`<url><loc>${url}</loc></url>`).join('')}</urlset>`);
 await write(root+'/_headers',(await fs.readFile(baseline.root+'/_headers','utf8'))+(production?'':'\n/*\n  X-Robots-Tag: noindex, nofollow\n'));
-for(const f of retained)assert.equal(hash(await fs.readFile(root+'/'+f.file)),f.sha256,'Runtime or asset changed: '+f.file);
+for(const f of retainedPayloads)assert.equal(hash(await fs.readFile(root+'/'+f.file)),f.sha256,'Runtime or asset changed: '+f.file);
+assert.equal(hash(await fs.readFile(root+'/'+consentAsset)),hash(consentBytes),'Consent source/output mismatch');
 const files=[];for(const file of (await walk(root)).sort()){const b=await fs.readFile(root+'/'+file);assert.ok(b.length<25*1024*1024);files.push({file,bytes:b.length,sha256:hash(b)});}
 const sourcePaths=execFileSync('git',['ls-files','--cached','--others','--exclude-standard','-z','--','src/rc','src/components','src/data','src/i18n','src/styles','src/prototypes','astro.trust.config.mjs','scripts/trust-ux-build.mjs','scripts/release-prepare.mjs','config/release-production/measurement.json'],{encoding:'utf8',windowsHide:true}).split('\0').filter(Boolean);
 const sources=[];for(const file of [...new Set(sourcePaths)].sort())sources.push({file,sha256:hash(await fs.readFile(file))});
-const manifest={status:production?'PRODUCTION_ARTIFACT_PENDING_QA':'LOCAL_REVIEW_ONLY',deployAllowed:false,root,files,sources,retained,baseline:'docs/qa/game004-magnet-release-r1/distribution.json',publicUrls:urls.length,analytics:'Original consent runtime; production-only hostname guard; no local transmission',models:['gpt-6-astra'],externalOperations:0};
+const manifest={status:production?'PRODUCTION_ARTIFACT_PENDING_QA':'LOCAL_REVIEW_ONLY',deployAllowed:false,root,files,sources,retained:retainedPayloads,baseline:'docs/qa/game004-magnet-release-r1/distribution.json',publicUrls:urls.length,analytics:'Human accepted Consent R1 C: no initial prompt; default OFF; explicit settings opt-in; production-only hostname guard',models:['gpt-6-astra'],externalOperations:0};
 await write(qa+'/distribution.json',JSON.stringify(manifest,null,2)+'\n');
-console.log(JSON.stringify({status:manifest.status,files:files.length,runtimeAssetsRetained:retained.length,urls:urls.length}));
+console.log(JSON.stringify({status:manifest.status,files:files.length,runtimeAssetsRetained:retainedPayloads.length,urls:urls.length}));

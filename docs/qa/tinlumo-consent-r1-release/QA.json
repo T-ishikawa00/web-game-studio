@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-21T08:00:07.825Z",
+  "status": "PASS",
+  "sourceHead": "337f545fc099a60ed74b5abdcbe4511cbc6eed75",
+  "artifactSha256": "0971254ef882e95fc72b04018678659b226006c439a9dc2a7779db71462cd402",
+  "productionBuild": "PASS",
+  "productionFiles": 64,
+  "consentPages": 30,
+  "changedArtifactFiles": 35,
+  "retainedGameAndOtherPayloads": 25,
+  "preservedExistingFiles": 3011,
+  "targetedTests": {
+    "pass": 12,
+    "fail": 0
+  },
+  "browserChecks": 68,
+  "rawSecurity": {
+    "status": "FAIL",
+    "approvedFindings": 6,
+    "newCandidates": 0
+  },
+  "exactC1C4ProvenanceRevalidated": true,
+  "distributionScan": "PASS",
+  "tls": {
+    "ignored": true,
+    "absentIndex": true,
+    "absentHistoryPath": true
+  },
+  "diffCheck": "PASS",
+  "gameChanges": 0,
+  "cmpChanges": 0,
+  "providerConfigChanges": 0,
+  "model": "gpt-6-astra",
+  "reviewModel": "gpt-6-astra"
+}
