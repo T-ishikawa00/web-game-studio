@@ -34,6 +34,14 @@ for(const file of await walk(root)){
   // Fullscreen launch documents have no site analytics, matching production.
   const consent=html.includes('data-analytics-consent');
   html=publicHtml(html,route,'https://tinlumo.com',consent?measurement.publicBeaconId:null,{indexable:production});
+  if(production){
+   // Human-authorized ownership verification only; no ad SDK or serving activation.
+   const ownershipMeta='<meta name="google-adsense-account" content="ca-pub-2960465104451668">';
+   assert.ok(!html.includes('google-adsense-account'),'Review pre-existing ownership metadata');
+   assert.equal((html.match(/<\/head>/g)||[]).length,1,'Expected one common public head');
+   html=html.replace('</head>',ownershipMeta+'</head>');
+   assert.equal(html.split(ownershipMeta).length-1,1);
+  }
   await write(root+'/'+file,html);
  }
 }

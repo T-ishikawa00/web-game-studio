@@ -1,0 +1,36 @@
+{
+  "at": "2026-09-21T06:44:18.196Z",
+  "status": "PASS",
+  "sourceHead": "a2f8d3985c02d15f2952a734c360b5a8ae761a70",
+  "artifactSha256": "8f36f957a504246d471b4b8240498382a868bd45973d27a7b4e0e59b03d5f074",
+  "productionBuild": "PASS",
+  "localBuild": "PASS",
+  "productionFiles": 64,
+  "headOnlyMetaPages": 33,
+  "unchangedArtifactFiles": 31,
+  "localPreviewUnchangedFiles": 64,
+  "preservedExistingFiles": 2991,
+  "targetedIntegration": {
+    "pass": 4,
+    "fail": 0
+  },
+  "rawSecurity": {
+    "status": "FAIL",
+    "knownFindings": 2,
+    "newCandidates": 0
+  },
+  "distributionScan": "PASS",
+  "tls": {
+    "ignored": true,
+    "absentIndex": true,
+    "absentHistory": true
+  },
+  "diffCheck": "PASS",
+  "newAdScripts": 0,
+  "gameChanges": 0,
+  "cmpChanges": 0,
+  "consentChanges": 0,
+  "configChanges": 0,
+  "model": "gpt-6-astra",
+  "reviewModel": "gpt-6-astra"
+}
