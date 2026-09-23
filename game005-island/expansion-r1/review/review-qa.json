@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-23T09:41:28.895Z",
+  "results": [
+    {
+      "name": "Review 1440px images/layout/1x video/chapter seek",
+      "status": "PASS"
+    },
+    {
+      "name": "Review 390px images/layout/1x video/chapter seek",
+      "status": "PASS"
+    },
+    {
+      "name": "Review JSON, source and private cache excluded from serving",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

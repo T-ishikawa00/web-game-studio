@@ -1,0 +1,143 @@
+{
+  "at": "2026-09-23T09:54:22.118Z",
+  "mode": "worktree",
+  "status": "PASS",
+  "frozenInputs": 133,
+  "exactInputBytes": 133,
+  "normalization": "Only CRLF/LF in text; binary exact. Original byte hashes retained.",
+  "rebuilt": [
+    {
+      "directory": "dist",
+      "file": "assets/bridge-BKetEhnw.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "dist",
+      "file": "assets/dock-BZp_GcK3.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "dist",
+      "file": "assets/house-DUowNtYr.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "dist",
+      "file": "assets/index-DJ3tXZcL.css",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "dist",
+      "file": "assets/index-KjcRt4_s.js",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "dist",
+      "file": "assets/lumber-CmLHj2ea.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "dist",
+      "file": "assets/market-C6t55qk3.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "dist",
+      "file": "index.html",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "dist",
+      "file": "THREE-LICENSE.txt",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/bridge-BKetEhnw.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/dock-BZp_GcK3.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/house-DUowNtYr.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/index-Bp3iqJeL.js",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/index-DJ3tXZcL.css",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/lumber-CmLHj2ea.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/market-C6t55qk3.png",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "index.html",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "THREE-LICENSE.txt",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "baseline-dist",
+      "file": "assets/index-CYkcLCFj.js",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "baseline-dist",
+      "file": "assets/index-Zsl3Z7wX.css",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "baseline-dist",
+      "file": "index.html",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    },
+    {
+      "directory": "baseline-dist",
+      "file": "THREE-LICENSE.txt",
+      "byteIdentical": true,
+      "canonicalIdentical": true
+    }
+  ],
+  "acceptedWrites": 0
+}

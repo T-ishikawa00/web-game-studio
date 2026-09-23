@@ -1,0 +1,22 @@
+{
+  "at": "2026-09-23T08:29:54.489Z",
+  "status": "PASS",
+  "scanner": "gitleaks 8.30.1",
+  "scope": [
+    "docs/games/PRODUCTION_CURRENT.md",
+    "docs/games/GAME005_PROGRESSION_RESEARCH_AND_EXPANSION_R1.md",
+    "docs/games/GAME005_PROGRESSION_RESEARCH_R1_SOURCES.md",
+    "docs/qa/game005-progression-research-r1/baseline-after.json",
+    "docs/qa/game005-progression-research-r1/baseline-before.json",
+    "docs/qa/game005-progression-research-r1/before.json",
+    "docs/qa/game005-progression-research-r1/REPORT.md",
+    "docs/qa/game005-progression-research-r1/review.txt",
+    "docs/qa/game005-progression-research-r1/scan.mjs",
+    "docs/qa/game005-progression-research-r1/verification.json",
+    "docs/qa/game005-progression-research-r1/verify.mjs"
+  ],
+  "findings": [],
+  "fullProject": "NOT RERUN; prior raw FAIL with six findings retained",
+  "indexHistory": "NOT RERUN; no Git write authorized",
+  "settingsChanges": 0
+}

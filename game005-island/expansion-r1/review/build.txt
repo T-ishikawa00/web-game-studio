@@ -1,0 +1,18 @@
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 27 modules transformed.
+rendering chunks...
+computing gzip size...
+game005-island/expansion-r1/dist/index.html                       0.59 kB │ gzip:   0.42 kB
+game005-island/expansion-r1/dist/assets/bridge-BKetEhnw.png       8.82 kB
+game005-island/expansion-r1/dist/assets/market-C6t55qk3.png      16.12 kB
+game005-island/expansion-r1/dist/assets/dock-BZp_GcK3.png        19.84 kB
+game005-island/expansion-r1/dist/assets/lumber-CmLHj2ea.png      20.32 kB
+game005-island/expansion-r1/dist/assets/cove-D6J7H1QG.png        34.53 kB
+game005-island/expansion-r1/dist/assets/promenade-DVNleZxF.png   37.67 kB
+game005-island/expansion-r1/dist/assets/commons-CEfu4S30.png     39.23 kB
+game005-island/expansion-r1/dist/assets/house-DUowNtYr.png       56.43 kB
+game005-island/expansion-r1/dist/assets/index-DJ3tXZcL.css       21.82 kB │ gzip:   5.35 kB
+game005-island/expansion-r1/dist/assets/index-DTnx2Cmb.js       645.19 kB │ gzip: 172.77 kB
+
+✓ built in 156ms

@@ -1,0 +1,30 @@
+✔ original economic and worker behavior remains identical through accepted bridge completion (34.0134ms)
+✔ real simulation commons first / sea: distinct visits, no extra coins, serializable life (36.5832ms)
+✔ real simulation commons first / shade: distinct visits, no extra coins, serializable life (28.3817ms)
+✔ real simulation promenade first / sea: distinct visits, no extra coins, serializable life (26.5351ms)
+✔ real simulation promenade first / shade: distinct visits, no extra coins, serializable life (26.0266ms)
+✔ idle walk and seated residents accept work automatically without teleport or stale pose (24.9261ms)
+✔ construction from leisure, mid-work reload and cancellation preserve funds once (11.4303ms)
+✔ placement relocation preserves economy and residents return from real positions (12.6371ms)
+✔ invalid expansion states and leisure payloads are rejected, raw schema2 is not silently loaded (10.4267ms)
+✔ fabricated idle poses cannot sit away from their saved target (14.0742ms)
+✔ promenade-only and sea routes never use the unbuilt shade spur (43.1565ms)
+✔ auto stock is bounded; no unattended coins or construction (6.2936ms)
+✔ explicit repair runs without assignments; reservation and one refund (1.6435ms)
+✔ missing wood automatically gathered and reserved; cancellation only actual reserves (1.8915ms)
+✔ priority changes cannot drop carried wood or create assignment oscillation (2.0664ms)
+✔ order pays only on arrival; cancel and reload reserve once (2.7653ms)
+✔ complete market priority and coast with zero individual assignment (17.2021ms)
+✔ complete house priority and village with zero individual assignment (13.2858ms)
+✔ concurrent construction and shipment, priorities at boundaries and no double spending (2.2672ms)
+✔ R1 and malformed R2 rejected; huge/negative delta cannot fast-forward (0.1641ms)
+✔ construction versus shipment priority changes who begins the next work (1.9038ms)
+✔ carried wood reload and priority keep exact delivery; completed jobs auto reassign (3.6427ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 420.8254

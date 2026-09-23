@@ -1,0 +1,59 @@
+{
+  "at": "2026-09-23T11:24:22.266Z",
+  "status": "PASS",
+  "mode": "worktree",
+  "inputs": 102,
+  "dependencies": 4,
+  "normalizationOnly": [],
+  "derived": [
+    {
+      "file": "game005-island/expansion-r1/dist/assets/bridge-BKetEhnw.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/commons-CEfu4S30.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/cove-D6J7H1QG.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/dock-BZp_GcK3.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/house-DUowNtYr.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/index-DJ3tXZcL.css",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/index-DTnx2Cmb.js",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/lumber-CmLHj2ea.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/market-C6t55qk3.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/promenade-DVNleZxF.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/index.html",
+      "byteIdentical": true
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/THREE-LICENSE.txt",
+      "byteIdentical": true
+    }
+  ],
+  "acceptedWrites": 0
+}

@@ -1,0 +1,77 @@
+{
+  "at": "2026-09-23T09:45:44.244Z",
+  "status": "PASS_LOCAL_IMPLEMENTATION_CHECKS",
+  "checks": [
+    {
+      "name": "current source strict typecheck",
+      "status": "PASS"
+    },
+    {
+      "name": "unit22 pass",
+      "status": "PASS"
+    },
+    {
+      "name": "browser-qa.json",
+      "status": "PASS"
+    },
+    {
+      "name": "final-browser-qa.json",
+      "status": "PASS"
+    },
+    {
+      "name": "review-qa.json",
+      "status": "PASS"
+    },
+    {
+      "name": "independent reviewed scope not decoration-only, no open implementation blocker",
+      "status": "PASS"
+    },
+    {
+      "name": "preservation checks",
+      "status": "PASS"
+    },
+    {
+      "name": "accepted frozen inputs133 / isolated outputs22 exact",
+      "status": "PASS"
+    },
+    {
+      "name": "normal distribution has no fixture hooks",
+      "status": "PASS"
+    },
+    {
+      "name": "dedicated expansion key only in normal bundle",
+      "status": "PASS"
+    },
+    {
+      "name": "normal-source inputs not newer than compiled bundle",
+      "status": "PASS"
+    },
+    {
+      "name": "normal route A",
+      "status": "PASS"
+    },
+    {
+      "name": "normal route B",
+      "status": "PASS"
+    },
+    {
+      "name": "review video byte-range seek",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid range rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "accepted old loopback still responds",
+      "status": "PASS"
+    }
+  ],
+  "models": {
+    "primary": "gpt-6-astra",
+    "independent": "gpt-6-astra"
+  },
+  "humanExpansionGate": "PENDING",
+  "security": "Current scoped scan separate; active-browser raw5 findings Human disposition PENDING. This report does not grant Security clearance or Git/release authority.",
+  "physicalIPhoneSafari": "NOT TESTED"
+}

@@ -1,0 +1,11 @@
+import fs from 'node:fs';import {createHash} from 'node:crypto';import {execFileSync} from 'node:child_process';
+const out='docs/qa/game005-expansion-baseline-r1',base='game005-island/expansion-r1';
+const sha=b=>createHash('sha256').update(b).digest('hex'),canonical=(b,f)=>/\.(ts|js|mjs|json|md|txt|html|css|ps1)$/.test(f)||f.endsWith('.gitignore')?Buffer.from(b.toString().replaceAll('\r\n','\n')):b;
+const files=execFileSync('git',['ls-files','--cached','--others','--exclude-standard','-z','--',base],{encoding:'utf8',windowsHide:true}).split('\0').filter(Boolean).filter(f=>!/(?:scripts\/(?:setup|implement-[^/]+)\.mjs)$/.test(f));
+const entries=files.map(file=>{const b=fs.readFileSync(file);return {file,bytes:b.length,sha256:sha(b),canonicalSha256:sha(canonical(b,file))};});
+const candidate=JSON.parse(fs.readFileSync(base+'/review/candidate-manifest.json'));
+for(const e of candidate.files)if(sha(fs.readFileSync(base+'/'+e.file))!==e.sha256)throw Error('Accepted candidate changed: '+e.file);
+const distribution=candidate.files.filter(e=>e.file.startsWith('dist/')).map(e=>({...e,file:base+'/'+e.file}));
+const dependencies=['package.json','package-lock.json','game005-island/package.json','game005-island/package-lock.json'].map(file=>{const b=fs.readFileSync(file);return {file,sha256:sha(b),canonicalSha256:sha(canonical(b,file))};});
+const manifest={at:new Date().toISOString(),status:'HUMAN ACCEPTED PROGRESSION BASELINE; checkpoint gated by final Security',authority:'docs/games/GAME005_EXPANSION_PROGRESS_BASELINE_R1.md',candidateIdentity:'game005-island/expansion-r1/review/candidate-manifest.json',normalization:'Only CRLF/LF normalization for text; binary assets and video exact',artifacts:entries,dependencies,distribution};
+fs.writeFileSync(out+'/frozen-manifest.json',JSON.stringify(manifest,null,2));console.log({artifacts:entries.length,distribution:distribution.length,bytes:entries.reduce((s,x)=>s+x.bytes,0),largest:entries.reduce((a,b)=>a.bytes>b.bytes?a:b)});

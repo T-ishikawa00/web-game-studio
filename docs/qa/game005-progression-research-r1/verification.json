@@ -1,0 +1,38 @@
+{
+  "at": "2026-09-23T08:30:18.185Z",
+  "status": "PASS",
+  "checks": {
+    "headUnchanged": true,
+    "branchUnchanged": true,
+    "upstreamUnchanged": true,
+    "indexUnchanged": true,
+    "existingChangesOnlyCurrent": true,
+    "currentOriginalTextBytePreserved": true,
+    "newFilesInScope": true,
+    "localLinks": true,
+    "whitespace": true,
+    "originalDerivedBuildBytes": true
+  },
+  "existingFiles": 3548,
+  "unchangedExistingFiles": 3547,
+  "changedExistingFiles": [
+    "docs/games/PRODUCTION_CURRENT.md"
+  ],
+  "newFiles": [
+    "docs/games/GAME005_PROGRESSION_RESEARCH_AND_EXPANSION_R1.md",
+    "docs/games/GAME005_PROGRESSION_RESEARCH_R1_SOURCES.md",
+    "docs/qa/game005-progression-research-r1/REPORT.md",
+    "docs/qa/game005-progression-research-r1/baseline-after.json",
+    "docs/qa/game005-progression-research-r1/baseline-before.json",
+    "docs/qa/game005-progression-research-r1/before.json",
+    "docs/qa/game005-progression-research-r1/review.txt",
+    "docs/qa/game005-progression-research-r1/scan.mjs",
+    "docs/qa/game005-progression-research-r1/security.json",
+    "docs/qa/game005-progression-research-r1/verification.json",
+    "docs/qa/game005-progression-research-r1/verify.mjs"
+  ],
+  "badLinks": [],
+  "whitespace": [],
+  "originalDerivedBuildCount": 22,
+  "derivedChanged": []
+}

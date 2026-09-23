@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-23T09:58:56.508Z",
+  "status": "PASS",
+  "scope": "Full current Git index, original paths and exact blob bytes preserved; scanner settings unchanged; no exceptions",
+  "entries": 2684,
+  "bytes": 665210101,
+  "snapshot": "docs/qa/game005-expansion-acceptance-security-r1/.cache/full-index-1790157531108",
+  "snapshotIgnored": true,
+  "snapshotRetained": true,
+  "automaticDeletion": false,
+  "findings": [],
+  "limits": "Default scanner binary/archive support; no image/video OCR or exact historical candidate matching."
+}

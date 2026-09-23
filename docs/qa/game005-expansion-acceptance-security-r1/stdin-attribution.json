@@ -1,0 +1,21 @@
+{
+  "at": "2026-09-23T10:02:51.389Z",
+  "status": "FAIL",
+  "scope": "Reproduction of index concatenation, attributed by line intervals; no values retained",
+  "findings": [
+    {
+      "file": [
+        ".dev.vars.example",
+        ".gitattributes"
+      ],
+      "type": "generic-api-key",
+      "action": "Synthetic stream investigation; not an original profile finding",
+      "startLine": 8,
+      "endLine": 10,
+      "secretEqualsGitBatchHeaderOidFor": [
+        ".gitattributes"
+      ],
+      "detectedOidIsFromSyntheticHeader": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "at": "2026-09-23T11:25:16.539Z",
+  "phase": "preflight",
+  "status": "PASS",
+  "checks": {
+    "tlsIgnored": true,
+    "tlsPathAbsentIndex": true,
+    "tlsPathAbsentHistory": true,
+    "tlsContentAbsentIndexAndHistory": true,
+    "scannedUniqueBlobs": 2783,
+    "scannedBytes": 1211717046,
+    "hookPreserved": true
+  },
+  "localHistory": {
+    "scope": "All local refs and reflogs",
+    "status": "PASS",
+    "findings": []
+  },
+  "distribution": [
+    {
+      "scope": "game005-island/expansion-r1/dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "scope": "game005-island/r3-2/dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "scope": "public",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "scope": "dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "scope": "release-artifacts",
+      "status": "PASS",
+      "findings": []
+    }
+  ],
+  "historicalS04S05": {
+    "technical": "UNKNOWN / UNRESOLVED",
+    "human": "HUMAN RISK ACCEPTED FOR THIS CHECKPOINT ONLY"
+  },
+  "limits": "No exact-value reclassification of absent historical S01-S05; no remote secrets inspection or image/video OCR; no TLS value or digest emitted."
+}

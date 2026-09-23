@@ -1,0 +1,46 @@
+{
+  "at": "2026-09-23T10:06:44.780Z",
+  "status": "FAIL",
+  "preserved": {
+    "existingFiles": 3666,
+    "changed": [
+      "docs/games/PRODUCTION_CURRENT.md"
+    ],
+    "onlyIntendedCurrentChanged": true,
+    "priorCurrentTextExact": true,
+    "head": true,
+    "upstream": true,
+    "branch": true,
+    "index": false,
+    "stagedDeltaEmpty": true,
+    "expansionArtifacts": 36,
+    "expansionChanges": []
+  },
+  "missingLinks": [],
+  "documentScan": {
+    "status": "PASS",
+    "files": 18,
+    "snapshotRetained": true,
+    "findings": []
+  },
+  "baselines": [
+    {
+      "phase": "before",
+      "status": "PASS",
+      "inputs": 133,
+      "exact": 133,
+      "derived": 22,
+      "derivedExact": true
+    },
+    {
+      "phase": "after",
+      "status": "PASS",
+      "inputs": 133,
+      "exact": 133,
+      "derived": 22,
+      "derivedExact": true
+    }
+  ],
+  "diffCheck": "PASS",
+  "securityDisposition": "HUMAN_DISPOSITION_PENDING for original five; technical document verification is not incident resolution"
+}

@@ -1,0 +1,12 @@
+import {createServer} from 'node:http';import {readFile,writeFile} from 'node:fs/promises';import path from 'node:path';
+if(process.cwd().replaceAll('\\','/').toLowerCase()!=='c:/projects/web game studio')throw Error('root');
+const root=path.resolve('game005-island/expansion-r1'),port=4395,mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.md':'text/plain; charset=utf-8','.webm':'video/webm','.txt':'text/plain'};
+createServer(async(req,res)=>{try{const url=new URL(req.url,'http://127.0.0.1'),mapping=[['/review/','review'],['/baseline/','../r3-2/dist'],['/','dist']].find(([p])=>url.pathname.startsWith(p));let rel=decodeURIComponent(url.pathname.slice(mapping[0].length));if(!rel||rel.endsWith('/'))rel+='index.html';const base=path.resolve(root,mapping[1]),file=path.resolve(base,rel);if(!file.startsWith(base+path.sep)||mapping[0]==='/review/'&&!/\.(html|css|js|png|webm)$/.test(file))throw Error('path');const data=await readFile(file);const headers={'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'self'",'Content-Length':data.length};
+if(path.extname(file)==='.webm'){
+ headers['Accept-Ranges']='bytes';const range=req.headers.range;
+ if(range){const m=/^bytes=(\d*)-(\d*)$/.exec(range);let start=m&&m[1]?Number(m[1]):m&&m[2]?Math.max(0,data.length-Number(m[2])):NaN;let end=m&&m[1]&&m[2]?Math.min(data.length-1,Number(m[2])):data.length-1;
+ if(!Number.isSafeInteger(start)||!Number.isSafeInteger(end)||start<0||start>=data.length||end<start){res.writeHead(416,{'Content-Range':'bytes */'+data.length});res.end();return;}
+ headers['Content-Range']='bytes '+start+'-'+end+'/'+data.length;headers['Content-Length']=end-start+1;res.writeHead(206,headers);res.end(data.subarray(start,end+1));return;
+ }
+}
+res.writeHead(200,headers);res.end(data);}catch{res.writeHead(404);res.end('Not found');}}).listen(port,'127.0.0.1',async()=>{await writeFile(root+'/.cache/server.json',JSON.stringify({pid:process.pid,port,host:'127.0.0.1',startedAt:new Date().toISOString(),command:'node game005-island/expansion-r1/scripts/server.mjs'},null,2));console.log('http://127.0.0.1:4395/');});

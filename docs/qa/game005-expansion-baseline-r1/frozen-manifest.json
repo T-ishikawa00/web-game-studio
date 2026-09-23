@@ -1,0 +1,717 @@
+{
+  "at": "2026-09-23T11:24:21.683Z",
+  "status": "HUMAN ACCEPTED PROGRESSION BASELINE; checkpoint gated by final Security",
+  "authority": "docs/games/GAME005_EXPANSION_PROGRESS_BASELINE_R1.md",
+  "candidateIdentity": "game005-island/expansion-r1/review/candidate-manifest.json",
+  "normalization": "Only CRLF/LF normalization for text; binary assets and video exact",
+  "artifacts": [
+    {
+      "file": "game005-island/expansion-r1/.gitignore",
+      "bytes": 28,
+      "sha256": "3a6f8bc2a123fa0482cc97a9b6c7e7dfc6ca18ecf690d8b50b780617c2c42603",
+      "canonicalSha256": "3a6f8bc2a123fa0482cc97a9b6c7e7dfc6ca18ecf690d8b50b780617c2c42603"
+    },
+    {
+      "file": "game005-island/expansion-r1/app/index.html",
+      "bytes": 486,
+      "sha256": "91443b3d5b0d83f32d7ea69e9d423ade881018b8cfa5bf344328adceb619b307",
+      "canonicalSha256": "91443b3d5b0d83f32d7ea69e9d423ade881018b8cfa5bf344328adceb619b307"
+    },
+    {
+      "file": "game005-island/expansion-r1/app/main.ts",
+      "bytes": 46,
+      "sha256": "4e64f5922c01da1ddd09f45e7e63629fa5925b72a778ddfd9fecfcc9f6699862",
+      "canonicalSha256": "4e64f5922c01da1ddd09f45e7e63629fa5925b72a778ddfd9fecfcc9f6699862"
+    },
+    {
+      "file": "game005-island/expansion-r1/assets/bridge.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302",
+      "canonicalSha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "file": "game005-island/expansion-r1/assets/commons.png",
+      "bytes": 39239,
+      "sha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f",
+      "canonicalSha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f"
+    },
+    {
+      "file": "game005-island/expansion-r1/assets/cove.png",
+      "bytes": 34539,
+      "sha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b",
+      "canonicalSha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b"
+    },
+    {
+      "file": "game005-island/expansion-r1/assets/dock.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f",
+      "canonicalSha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "file": "game005-island/expansion-r1/assets/house.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b",
+      "canonicalSha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "file": "game005-island/expansion-r1/assets/lumber.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5",
+      "canonicalSha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "file": "game005-island/expansion-r1/assets/market.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593",
+      "canonicalSha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "file": "game005-island/expansion-r1/assets/promenade.png",
+      "bytes": 37670,
+      "sha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151",
+      "canonicalSha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/REPORT.md",
+      "bytes": 8810,
+      "sha256": "1a58fb8535f04f5aadddddf1ae4034e7314aba942d7cba9778e58ae7a92c9693",
+      "canonicalSha256": "1a58fb8535f04f5aadddddf1ae4034e7314aba942d7cba9778e58ae7a92c9693"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/baseline-after.json",
+      "bytes": 3490,
+      "sha256": "db150822e1cca2985eab6f62b0eaac36617621102d381f11c136b65045719398",
+      "canonicalSha256": "db150822e1cca2985eab6f62b0eaac36617621102d381f11c136b65045719398"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/baseline-before.json",
+      "bytes": 3490,
+      "sha256": "b1d1794d58fb7cdf9df13fb4fd4460ed1359307808aaa617b541340281fa630c",
+      "canonicalSha256": "b1d1794d58fb7cdf9df13fb4fd4460ed1359307808aaa617b541340281fa630c"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/before.json",
+      "bytes": 920819,
+      "sha256": "56aa8df449f5dbbe38a5bc1f4e0db4f142e4d614ce8364961f9050d06c4c03a4",
+      "canonicalSha256": "56aa8df449f5dbbe38a5bc1f4e0db4f142e4d614ce8364961f9050d06c4c03a4"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/browser-qa.json",
+      "bytes": 2327,
+      "sha256": "1c90c79524577beefd9d21620b18a9ec2982b96bbbc4ccc5c7ec661cb0b19a2c",
+      "canonicalSha256": "1c90c79524577beefd9d21620b18a9ec2982b96bbbc4ccc5c7ec661cb0b19a2c"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/build.txt",
+      "bytes": 1039,
+      "sha256": "cb4da0ffd568b3c78f445c1f315cf8d38d904534356be1b285aef9ad23877c95",
+      "canonicalSha256": "cb4da0ffd568b3c78f445c1f315cf8d38d904534356be1b285aef9ad23877c95"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/candidate-manifest.json",
+      "bytes": 6015,
+      "sha256": "a0c0f4706a2cc79895e61b1ad68a7657958584e0d58d55f39ea724cdc3960580",
+      "canonicalSha256": "a0c0f4706a2cc79895e61b1ad68a7657958584e0d58d55f39ea724cdc3960580"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/final-browser-qa.json",
+      "bytes": 742,
+      "sha256": "f0467235d42569376bb3cee44efec60a94f9ed6b3beabca0bf1d477742a1fa5e",
+      "canonicalSha256": "f0467235d42569376bb3cee44efec60a94f9ed6b3beabca0bf1d477742a1fa5e"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/final-checks.json",
+      "bytes": 1791,
+      "sha256": "4ea8e2988869f683012fa600c22b02b4a4d05c34e727cd0c9d033f2c932cb94f",
+      "canonicalSha256": "4ea8e2988869f683012fa600c22b02b4a4d05c34e727cd0c9d033f2c932cb94f"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/independent-review.json",
+      "bytes": 2529,
+      "sha256": "29a1c7de8c120bfcb7d71df0455c708e2366fafb2cdd1d4947baebc47e5cdae1",
+      "canonicalSha256": "29a1c7de8c120bfcb7d71df0455c708e2366fafb2cdd1d4947baebc47e5cdae1"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/index.html",
+      "bytes": 6043,
+      "sha256": "2766d5f1233fc129a1e3b0ee2adf62ee9fd2a4a688f2938d828ab2de40ee26f9",
+      "canonicalSha256": "2766d5f1233fc129a1e3b0ee2adf62ee9fd2a4a688f2938d828ab2de40ee26f9"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/mobile-360-en-sea.png",
+      "bytes": 119345,
+      "sha256": "8fa29f09c6fbd1c3d69195aeb65bf3103197959560eeb020e6077bf32d559c9f",
+      "canonicalSha256": "8fa29f09c6fbd1c3d69195aeb65bf3103197959560eeb020e6077bf32d559c9f"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/mobile-360-en-shade.png",
+      "bytes": 119261,
+      "sha256": "9d288bd95826204ed2aeffae550c9f9ee4dbda06ec55d7f0e281ad82858d92c4",
+      "canonicalSha256": "9d288bd95826204ed2aeffae550c9f9ee4dbda06ec55d7f0e281ad82858d92c4"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/mobile-360-ja-sea.png",
+      "bytes": 125182,
+      "sha256": "f7919438da0623c397704039b51625c9f654d0b838a41a20c76320dc3610c62b",
+      "canonicalSha256": "f7919438da0623c397704039b51625c9f654d0b838a41a20c76320dc3610c62b"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/mobile-360-ja-shade.png",
+      "bytes": 125234,
+      "sha256": "12d8e3b4db426f663dc8afc54e94308e78e070c83b65434db43dbebfff72b736",
+      "canonicalSha256": "12d8e3b4db426f663dc8afc54e94308e78e070c83b65434db43dbebfff72b736"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/mobile-390-en-sea.png",
+      "bytes": 143141,
+      "sha256": "e616eccf1c0249c79d13c9c53569c2cb56af4b85c01d33ab6aaa695b5b8d2dba",
+      "canonicalSha256": "e616eccf1c0249c79d13c9c53569c2cb56af4b85c01d33ab6aaa695b5b8d2dba"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/mobile-390-en-shade.png",
+      "bytes": 143175,
+      "sha256": "bead63abe05e0572e32af86fd362b357664125775c88f96e73453b6960cf2689",
+      "canonicalSha256": "bead63abe05e0572e32af86fd362b357664125775c88f96e73453b6960cf2689"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/mobile-390-ja-sea.png",
+      "bytes": 150437,
+      "sha256": "2e3fb527dba235c1a5f5b3c94a196149e4e08ad20b2866d5b3d46e3ce433571c",
+      "canonicalSha256": "2e3fb527dba235c1a5f5b3c94a196149e4e08ad20b2866d5b3d46e3ce433571c"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/mobile-390-ja-shade.png",
+      "bytes": 150273,
+      "sha256": "5d24f29b3c28a5c05b41da5554f471b0f98d297cc718e53160255be323f031b2",
+      "canonicalSha256": "5d24f29b3c28a5c05b41da5554f471b0f98d297cc718e53160255be323f031b2"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/performance.json",
+      "bytes": 6632,
+      "sha256": "cecfcaf08e851e2e02d8b9b6e486afc833dbc42b427452c1456d2d869633a685",
+      "canonicalSha256": "cecfcaf08e851e2e02d8b9b6e486afc833dbc42b427452c1456d2d869633a685"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/preservation.json",
+      "bytes": 6864,
+      "sha256": "5892cb2317c4395a30467c09ed09b92b9ceb819ab852ae0150e05a38da3bb17c",
+      "canonicalSha256": "5892cb2317c4395a30467c09ed09b92b9ceb819ab852ae0150e05a38da3bb17c"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/qa-completed-A-desktop.png",
+      "bytes": 802091,
+      "sha256": "6aeaeabb8f992db3c777bf3245abc3d89cd683f4564c25467ea4e82c12568895",
+      "canonicalSha256": "6aeaeabb8f992db3c777bf3245abc3d89cd683f4564c25467ea4e82c12568895"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/qa-completed-A-mobile.png",
+      "bytes": 148017,
+      "sha256": "72ab3ef1e0ca79d28fb7790e5f82fee1775ccd3263c42515dc72d67979b8d0ee",
+      "canonicalSha256": "72ab3ef1e0ca79d28fb7790e5f82fee1775ccd3263c42515dc72d67979b8d0ee"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/qa-completed-B-desktop.png",
+      "bytes": 792456,
+      "sha256": "53f34241fd62bdc696a32ca2a1d81d70e4e5bc1de5dc16e767485f43d871af93",
+      "canonicalSha256": "53f34241fd62bdc696a32ca2a1d81d70e4e5bc1de5dc16e767485f43d871af93"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/qa-completed-B-mobile.png",
+      "bytes": 146937,
+      "sha256": "6a7494eef8b599994f894ba4f0d6cfac6f0cddfddc6efe8f1fffbd4e7e4f3b6a",
+      "canonicalSha256": "6a7494eef8b599994f894ba4f0d6cfac6f0cddfddc6efe8f1fffbd4e7e4f3b6a"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/review-1440.png",
+      "bytes": 205021,
+      "sha256": "eff1fe802fbb8c455ca87d939f20c50caff8c9dde4379bf71e3559a0f4e53eb1",
+      "canonicalSha256": "eff1fe802fbb8c455ca87d939f20c50caff8c9dde4379bf71e3559a0f4e53eb1"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/review-390.png",
+      "bytes": 68703,
+      "sha256": "2117d96d6a8d66086651ebca836d494f88816b58402bcef0ad4554c48b868e6d",
+      "canonicalSha256": "2117d96d6a8d66086651ebca836d494f88816b58402bcef0ad4554c48b868e6d"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/review-qa.json",
+      "bytes": 409,
+      "sha256": "855b7284156118c1876bb301bc9b688f5d260614372b777c048f524919577679",
+      "canonicalSha256": "855b7284156118c1876bb301bc9b688f5d260614372b777c048f524919577679"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/review.css",
+      "bytes": 1607,
+      "sha256": "08145f797d8f01be0d5a7aaf254830f1fd86f1cc86879942265bab7901330ea8",
+      "canonicalSha256": "08145f797d8f01be0d5a7aaf254830f1fd86f1cc86879942265bab7901330ea8"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/review.js",
+      "bytes": 217,
+      "sha256": "406328456f731e4e031362bb643825ad122138ea5c981f7bfeb3f96fda83ef50",
+      "canonicalSha256": "406328456f731e4e031362bb643825ad122138ea5c981f7bfeb3f96fda83ef50"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-before.png",
+      "bytes": 787217,
+      "sha256": "0c41500ccd48dc44792278f8367d7323f8a44f9fb196b35eb63bbd7a0671458c",
+      "canonicalSha256": "0c41500ccd48dc44792278f8367d7323f8a44f9fb196b35eb63bbd7a0671458c"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-build.png",
+      "bytes": 801639,
+      "sha256": "6fb77ce616a2c955daf5028f0ab35b5b15b0c0c4d54b48bcd0dbd6733524fe26",
+      "canonicalSha256": "6fb77ce616a2c955daf5028f0ab35b5b15b0c0c4d54b48bcd0dbd6733524fe26"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-complete.png",
+      "bytes": 803359,
+      "sha256": "183171dccc43cb3febd1b425bd2f9478b2fb81aebce3fd25284bcbaa3d9a5e8c",
+      "canonicalSha256": "183171dccc43cb3febd1b425bd2f9478b2fb81aebce3fd25284bcbaa3d9a5e8c"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-entry-build.png",
+      "bytes": 784626,
+      "sha256": "2117ac6ca54b85caaf962f400c4d5bd411cf9c4a398d5a74159bf680894aeef9",
+      "canonicalSha256": "2117ac6ca54b85caaf962f400c4d5bd411cf9c4a398d5a74159bf680894aeef9"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-final.png",
+      "bytes": 800915,
+      "sha256": "0a55a71d703ff487ebf0ef828560ff2caee6497da331fcbb019a538307f6a284",
+      "canonicalSha256": "0a55a71d703ff487ebf0ef828560ff2caee6497da331fcbb019a538307f6a284"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-first-complete.png",
+      "bytes": 804903,
+      "sha256": "ed3e0871076d32e5aff61bdcdb8de4269ad66e0c51ac58d6a850ba4cad2a93a5",
+      "canonicalSha256": "ed3e0871076d32e5aff61bdcdb8de4269ad66e0c51ac58d6a850ba4cad2a93a5"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-first-use.png",
+      "bytes": 801562,
+      "sha256": "21faf2432ed0eac172c22aae0949df06ef0a8df72a74031b0ff067868bf8174f",
+      "canonicalSha256": "21faf2432ed0eac172c22aae0949df06ef0a8df72a74031b0ff067868bf8174f"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-lived-in.png",
+      "bytes": 802323,
+      "sha256": "9bddf38b1120264c3223952c4b2ef2cc8b01965fe5fd89883b2f5b4734e48e4c",
+      "canonicalSha256": "9bddf38b1120264c3223952c4b2ef2cc8b01965fe5fd89883b2f5b4734e48e4c"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-placement.png",
+      "bytes": 713425,
+      "sha256": "e240c840424d4627b859ca7d264da9a28ff77a70ff5b1e1b487a3ae2c3626a97",
+      "canonicalSha256": "e240c840424d4627b859ca7d264da9a28ff77a70ff5b1e1b487a3ae2c3626a97"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-play.json",
+      "bytes": 70583,
+      "sha256": "724f95737adca56b688e0f3e05fde33d946543552e89f879d87a6d7eb3bbe1ea",
+      "canonicalSha256": "724f95737adca56b688e0f3e05fde33d946543552e89f879d87a6d7eb3bbe1ea"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-second-build.png",
+      "bytes": 798195,
+      "sha256": "082a08415ecf52c7c03da690fbc03ea79d51165e06ff4ef35a2453cdb9272dce",
+      "canonicalSha256": "082a08415ecf52c7c03da690fbc03ea79d51165e06ff4ef35a2453cdb9272dce"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-A-whole.png",
+      "bytes": 749391,
+      "sha256": "5e59879251d49ee2c4510578cbf5f5b3a1a81ed06fc20ea6c61a089cd0eca4f8",
+      "canonicalSha256": "5e59879251d49ee2c4510578cbf5f5b3a1a81ed06fc20ea6c61a089cd0eca4f8"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-before.png",
+      "bytes": 786729,
+      "sha256": "4363c9f8f5cc50bad72ec6f4db0d53a0538eec3e7e26fe1e40358f0da73bcb01",
+      "canonicalSha256": "4363c9f8f5cc50bad72ec6f4db0d53a0538eec3e7e26fe1e40358f0da73bcb01"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-build.png",
+      "bytes": 792455,
+      "sha256": "43e1eeca749d76675643c3ec930775a8bb0f1037059da43f4c785711003e9178",
+      "canonicalSha256": "43e1eeca749d76675643c3ec930775a8bb0f1037059da43f4c785711003e9178"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-complete.png",
+      "bytes": 797534,
+      "sha256": "ce13868e6b7ea548382e0d6ad833480c3ce8d4fedec280866505d47d4e667b89",
+      "canonicalSha256": "ce13868e6b7ea548382e0d6ad833480c3ce8d4fedec280866505d47d4e667b89"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-entry-build.png",
+      "bytes": 787368,
+      "sha256": "46f28e5a6529859e3fdd418abdbe0933f07629060548a3a2d278275837780b4a",
+      "canonicalSha256": "46f28e5a6529859e3fdd418abdbe0933f07629060548a3a2d278275837780b4a"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-final.png",
+      "bytes": 794569,
+      "sha256": "f34ec88207d5cdf3c860d1649c17633172020c4c58e2486c65274cab82d78201",
+      "canonicalSha256": "f34ec88207d5cdf3c860d1649c17633172020c4c58e2486c65274cab82d78201"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-first-complete.png",
+      "bytes": 799167,
+      "sha256": "4f65dd564d830e8a446454829721acf071f9376e1ce47a70ad40b244edbc2add",
+      "canonicalSha256": "4f65dd564d830e8a446454829721acf071f9376e1ce47a70ad40b244edbc2add"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-first-use.png",
+      "bytes": 793933,
+      "sha256": "e2b4e9c7de2860fc6fba09a56f5f1de0f4c981c1e94dea483845d966f86963cb",
+      "canonicalSha256": "e2b4e9c7de2860fc6fba09a56f5f1de0f4c981c1e94dea483845d966f86963cb"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-lived-in.png",
+      "bytes": 792762,
+      "sha256": "f6afda67dc080eb567ee33f44bad686a14233460b0d0f0658c1bf9e10de2b12e",
+      "canonicalSha256": "f6afda67dc080eb567ee33f44bad686a14233460b0d0f0658c1bf9e10de2b12e"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-placement.png",
+      "bytes": 713079,
+      "sha256": "8a97bd22556b7cc8d29187bad0afb9fc6f531d509218d2c861ae8f67ddb02b4b",
+      "canonicalSha256": "8a97bd22556b7cc8d29187bad0afb9fc6f531d509218d2c861ae8f67ddb02b4b"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-play.json",
+      "bytes": 69735,
+      "sha256": "e55a6d77e68304b03a8f14510453901b8b2afa159d8d019fad9ff206132ddd2d",
+      "canonicalSha256": "e55a6d77e68304b03a8f14510453901b8b2afa159d8d019fad9ff206132ddd2d"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-second-build.png",
+      "bytes": 789398,
+      "sha256": "de26dfdbbd5103c603a5251582dec1a5f5ca680d93d7831176e8daf05b694768",
+      "canonicalSha256": "de26dfdbbd5103c603a5251582dec1a5f5ca680d93d7831176e8daf05b694768"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/route-B-whole.png",
+      "bytes": 749634,
+      "sha256": "d6dc0e39298335f9fb4e4e8f696a3fbcb5d3ce4dc37bdaf1d76bc06bb473670e",
+      "canonicalSha256": "d6dc0e39298335f9fb4e4e8f696a3fbcb5d3ce4dc37bdaf1d76bc06bb473670e"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/security-active-browser-scan.json",
+      "bytes": 2089,
+      "sha256": "1bcca81bd2a2b132f6832f12d78b4a2f1d5a861e11cab71d2ba9d31f56e5740e",
+      "canonicalSha256": "1bcca81bd2a2b132f6832f12d78b4a2f1d5a861e11cab71d2ba9d31f56e5740e"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/security-profile-provenance.json",
+      "bytes": 2142,
+      "sha256": "3b41bb3482ca8a9326eaaf2ab20c4103e6c649b86c6fcdc4069af52ced2443bf",
+      "canonicalSha256": "3b41bb3482ca8a9326eaaf2ab20c4103e6c649b86c6fcdc4069af52ced2443bf"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/security.json",
+      "bytes": 1195,
+      "sha256": "55a8aa41c27a44d2775f09cc0f77142af31b7059e4d43762c1931d7ac94daad7",
+      "canonicalSha256": "55a8aa41c27a44d2775f09cc0f77142af31b7059e4d43762c1931d7ac94daad7"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/unit-tests.txt",
+      "bytes": 2168,
+      "sha256": "3e945546d557234917277e214cca3a62a71bd2088e936d37b4c374582b21091d",
+      "canonicalSha256": "3e945546d557234917277e214cca3a62a71bd2088e936d37b4c374582b21091d"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/video/route-A-full.webm",
+      "bytes": 39163203,
+      "sha256": "0d375c9786997da97fa4b34275cdd4031677adf5be9d5d66036fb589189727ee",
+      "canonicalSha256": "0d375c9786997da97fa4b34275cdd4031677adf5be9d5d66036fb589189727ee"
+    },
+    {
+      "file": "game005-island/expansion-r1/review/video/route-B-full.webm",
+      "bytes": 42957530,
+      "sha256": "9219a3970570cf9c6a709672ff0f30cca7f43dc28f942122013e73fa5fcd02a2",
+      "canonicalSha256": "9219a3970570cf9c6a709672ff0f30cca7f43dc28f942122013e73fa5fcd02a2"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/build.mjs",
+      "bytes": 493,
+      "sha256": "5607902a951004bc39a18aeb77c91be3db78ecac5433c94d593d5a1194118839",
+      "canonicalSha256": "5607902a951004bc39a18aeb77c91be3db78ecac5433c94d593d5a1194118839"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/create-review.mjs",
+      "bytes": 16249,
+      "sha256": "a7f3a4625eaf2eb32ba0eeea4b35055b80734ab855e1ed3d1f30c7f40a1852c7",
+      "canonicalSha256": "990e697b86ca289be9164bb8535e47a2c2c820a2ea0d80ad57cd6f303e948011"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/final-checks.mjs",
+      "bytes": 3905,
+      "sha256": "6bf49371835f3d783124298d0bef0fac66297f541ac4829a753126c1f6f3750b",
+      "canonicalSha256": "3aecd9a28fdeb8ab4e004a5d36effe2ee3d37657c847dbd4fbaa1c5933214403"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/media.mjs",
+      "bytes": 1184,
+      "sha256": "a8d22d426b396b8a3c3c56411ecc1c0742a4211dd90ff3ff6214dca932318ede",
+      "canonicalSha256": "9540aecde6ac4ed48839be10fc0533545982a37609b3363907b1b291ba7427af"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/model-assets.mjs",
+      "bytes": 2409,
+      "sha256": "29237cc339123c2ace82f3ac94fa2f40e89b09b8788df65a0903365358ab0c47",
+      "canonicalSha256": "820c650f3c424ddaf9638f5225f1a6bb05f7010f66fb2b8bd56131aae5d387ff"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/performance.mjs",
+      "bytes": 4261,
+      "sha256": "16005785c835025f35be0bc2826da19c8b0e8f20ed7c5c20834c6d8b55b47fee",
+      "canonicalSha256": "2d409f028a278bf18fb0ba7e04834bd47226cd7b59a9e43aaa6c9e7812c41dae"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/play.mjs",
+      "bytes": 5276,
+      "sha256": "6ec3794c595fb0547d19dcccc84e6f8c4eaa86383a2abea52b03f58c7f904e50",
+      "canonicalSha256": "3c665491ab7079b3c960d7730121b3a93f2a2649723b471862362125e25b69e6"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/security.mjs",
+      "bytes": 2390,
+      "sha256": "79e70cfb8e1a4158aea1666160d0dc8fb4e2f406d14c8a519d2bf9acd9342a76",
+      "canonicalSha256": "04468580486d761f87953cd8a3582df92c84cfeabcdd6423e4bfb56125821e58"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/server.mjs",
+      "bytes": 2473,
+      "sha256": "9636bcb31716ebae0f617743d1e04f16c7f66febc19da8536be08fb1ec4f1db5",
+      "canonicalSha256": "9636bcb31716ebae0f617743d1e04f16c7f66febc19da8536be08fb1ec4f1db5"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/stop.ps1",
+      "bytes": 1106,
+      "sha256": "ded8f1d80eae4843a87920a0ef1bf02772bc28293ca41fcb5a1ae51c306fa0e8",
+      "canonicalSha256": "818779fb81ba8751a91d271df8df3b1b87236a2b4286ab656776f655227adaca"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/verify.mjs",
+      "bytes": 3071,
+      "sha256": "9ba936d4130be68b45cd79dcdffe12f135aaef8268cf1d1059a82146b9469d80",
+      "canonicalSha256": "9c4722ce6f359047bb86ae737dc1035a2d0202463f2b3794cbb04e46fe9c9b3d"
+    },
+    {
+      "file": "game005-island/expansion-r1/scripts/visual-study.mjs",
+      "bytes": 1458,
+      "sha256": "0f644676286284737a61a68538fc3f4928ae365f26d11d796bf71e1ffe2921a1",
+      "canonicalSha256": "0f644676286284737a61a68538fc3f4928ae365f26d11d796bf71e1ffe2921a1"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/art.ts",
+      "bytes": 17931,
+      "sha256": "854ad9fb9794805cfb3c81b294f6e22ec6dd55506246f90f47e8cb0dbb17a9bd",
+      "canonicalSha256": "854ad9fb9794805cfb3c81b294f6e22ec6dd55506246f90f47e8cb0dbb17a9bd"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/audio.ts",
+      "bytes": 1582,
+      "sha256": "b3f3cb58e80751c361cfd0f428a5a6eff132eca84b1dda535078746f9b37eb9b",
+      "canonicalSha256": "b3f3cb58e80751c361cfd0f428a5a6eff132eca84b1dda535078746f9b37eb9b"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/core.ts",
+      "bytes": 15630,
+      "sha256": "abcc7c46d572a6ba2885cf7758122635e3e0fa3ebc1b7051fc8441372708ac66",
+      "canonicalSha256": "abcc7c46d572a6ba2885cf7758122635e3e0fa3ebc1b7051fc8441372708ac66"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/cove-art.ts",
+      "bytes": 6922,
+      "sha256": "9442ec849eb702c63c343457bf7f12f5bfc05fa42893b235c435add4f52529aa",
+      "canonicalSha256": "9442ec849eb702c63c343457bf7f12f5bfc05fa42893b235c435add4f52529aa"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/game.ts",
+      "bytes": 34122,
+      "sha256": "8e2f35bcebc058b896a07d856a55c3da915d97d5c60ba594f8749d9ae5e3c9dc",
+      "canonicalSha256": "8e2f35bcebc058b896a07d856a55c3da915d97d5c60ba594f8749d9ae5e3c9dc"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/gold.css",
+      "bytes": 18510,
+      "sha256": "b1cdf0f33df56bffdf77bf9db18c6b562692723434886d31e3da9b598aad0945",
+      "canonicalSha256": "b1cdf0f33df56bffdf77bf9db18c6b562692723434886d31e3da9b598aad0945"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/layout.ts",
+      "bytes": 1066,
+      "sha256": "26a324d2c7ba93d6c6ff5f97e55bdea9b44f7af39b9f5806f37c3f92e775d790",
+      "canonicalSha256": "26a324d2c7ba93d6c6ff5f97e55bdea9b44f7af39b9f5806f37c3f92e775d790"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/live.css",
+      "bytes": 3812,
+      "sha256": "9a3857bca1aefddcd87617517af70384c890617ae8d818a9a56682c3b310acbd",
+      "canonicalSha256": "8fa0720a30bd1e458b7ee364b7c66c04c47142a31de6eb87e9191638a2cba2fc"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/save-key.ts",
+      "bytes": 61,
+      "sha256": "159100e0e0e2ee6b60cc4846de20fbde75a9f42cd37652dc3e9d46f4ac45c5ba",
+      "canonicalSha256": "159100e0e0e2ee6b60cc4846de20fbde75a9f42cd37652dc3e9d46f4ac45c5ba"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/scene.ts",
+      "bytes": 11396,
+      "sha256": "b86d41f115b197761c164ac73eb1df3df5287629fb104b7960d80bc3bfb9d60e",
+      "canonicalSha256": "b86d41f115b197761c164ac73eb1df3df5287629fb104b7960d80bc3bfb9d60e"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/storage.ts",
+      "bytes": 1585,
+      "sha256": "6736fd6baa1e902afdce75ae0777243331aa5dbd96e4eff7e6d5b069461ce2e7",
+      "canonicalSha256": "6736fd6baa1e902afdce75ae0777243331aa5dbd96e4eff7e6d5b069461ce2e7"
+    },
+    {
+      "file": "game005-island/expansion-r1/src/ui-copy.ts",
+      "bytes": 6329,
+      "sha256": "90a65db5471935c68355b023ff668df4d663be21bcb69c6095b5b651275d05a9",
+      "canonicalSha256": "90a65db5471935c68355b023ff668df4d663be21bcb69c6095b5b651275d05a9"
+    },
+    {
+      "file": "game005-island/expansion-r1/tests/browser.mjs",
+      "bytes": 18252,
+      "sha256": "47b959193fdec05a375ec38b8c4b99ecbc9c54249da4514b9f54c55fbb783672",
+      "canonicalSha256": "47b959193fdec05a375ec38b8c4b99ecbc9c54249da4514b9f54c55fbb783672"
+    },
+    {
+      "file": "game005-island/expansion-r1/tests/expansion.test.ts",
+      "bytes": 5536,
+      "sha256": "ed87824e5518712e7ae60d7ade3154e37251edc6ff2994ec5e899594b9a1de9e",
+      "canonicalSha256": "ed87824e5518712e7ae60d7ade3154e37251edc6ff2994ec5e899594b9a1de9e"
+    },
+    {
+      "file": "game005-island/expansion-r1/tests/finish.mjs",
+      "bytes": 2677,
+      "sha256": "06a6ae3cd9dde852dfc1591eabe80bda4671bcc55c1a2112de1d1212315fac11",
+      "canonicalSha256": "5c3de15c62bef60237441d3547c4104b687e9b296277fad12ee64f7aecc43af9"
+    },
+    {
+      "file": "game005-island/expansion-r1/tests/helpers.ts",
+      "bytes": 1008,
+      "sha256": "caafe37e074ed728a04402c89eb90b6c276f494428e7b32b3621f93ed6f8fa09",
+      "canonicalSha256": "caafe37e074ed728a04402c89eb90b6c276f494428e7b32b3621f93ed6f8fa09"
+    },
+    {
+      "file": "game005-island/expansion-r1/tests/mvp-regression.test.ts",
+      "bytes": 5199,
+      "sha256": "fa55b99017fc33cdac12446e0ef0528c701980144868f3cff4d40e07d8880029",
+      "canonicalSha256": "fa55b99017fc33cdac12446e0ef0528c701980144868f3cff4d40e07d8880029"
+    },
+    {
+      "file": "game005-island/expansion-r1/tests/review.mjs",
+      "bytes": 2793,
+      "sha256": "7c1b89c6c4ffba0afd4015fe57c7019738d42bb2b64c5456cc8cbe44ea6809f9",
+      "canonicalSha256": "3577052735b897b8abf51d19775be99f5b96cf28a6c96597909291bd35782c5c"
+    },
+    {
+      "file": "game005-island/expansion-r1/tsconfig.json",
+      "bytes": 229,
+      "sha256": "df891c0cd615da3b3e9178f68e697a8de114cea2074ffc09b805cfb6516343bd",
+      "canonicalSha256": "df891c0cd615da3b3e9178f68e697a8de114cea2074ffc09b805cfb6516343bd"
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "package.json",
+      "sha256": "259c9233b6b7a14957d7c44e7618cc23566f41fa1b5615f9a5cdd35d00359717",
+      "canonicalSha256": "259c9233b6b7a14957d7c44e7618cc23566f41fa1b5615f9a5cdd35d00359717"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "35ca6f7c7223479340bd9565f88f5daca26a5c1bff1843d161d73dec8eba47c5",
+      "canonicalSha256": "35ca6f7c7223479340bd9565f88f5daca26a5c1bff1843d161d73dec8eba47c5"
+    },
+    {
+      "file": "game005-island/package.json",
+      "sha256": "acd367330fa1c8c60952147a4cf14a6fb22d0f61c854aec36646294bddf404d8",
+      "canonicalSha256": "acd367330fa1c8c60952147a4cf14a6fb22d0f61c854aec36646294bddf404d8"
+    },
+    {
+      "file": "game005-island/package-lock.json",
+      "sha256": "13eefa5658930f3f465b13bf341aebc8ae5932bb40ec59aed3b173e6ad247e2a",
+      "canonicalSha256": "13eefa5658930f3f465b13bf341aebc8ae5932bb40ec59aed3b173e6ad247e2a"
+    }
+  ],
+  "distribution": [
+    {
+      "file": "game005-island/expansion-r1/dist/assets/bridge-BKetEhnw.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302",
+      "gzipBytes": 7779
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/commons-CEfu4S30.png",
+      "bytes": 39239,
+      "sha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f",
+      "gzipBytes": 37876
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/cove-D6J7H1QG.png",
+      "bytes": 34539,
+      "sha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b",
+      "gzipBytes": 33018
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/dock-BZp_GcK3.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f",
+      "gzipBytes": 19282
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/house-DUowNtYr.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b",
+      "gzipBytes": 55906
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/index-DJ3tXZcL.css",
+      "bytes": 21820,
+      "sha256": "3a49b9a1e84ea2544d8c9474d59c23ad3939fde7bea590ce10dd9a94889d14f6",
+      "gzipBytes": 5308
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/index-DTnx2Cmb.js",
+      "bytes": 645199,
+      "sha256": "99ffab954a199f4edaf4af2f0d5d72260f962decc305d1e534668b0c804f4489",
+      "gzipBytes": 171556
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/lumber-CmLHj2ea.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5",
+      "gzipBytes": 19748
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/market-C6t55qk3.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593",
+      "gzipBytes": 15745
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/assets/promenade-DVNleZxF.png",
+      "bytes": 37670,
+      "sha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151",
+      "gzipBytes": 36456
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/index.html",
+      "bytes": 593,
+      "sha256": "1b7842c7842513a96ca5e5e241d9878a207f33a12fc5970db9f8f8c1c064be5a",
+      "gzipBytes": 427
+    },
+    {
+      "file": "game005-island/expansion-r1/dist/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "gzipBytes": 667
+    }
+  ]
+}

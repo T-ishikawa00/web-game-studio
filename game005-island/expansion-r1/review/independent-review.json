@@ -1,0 +1,38 @@
+{
+  "at": "2026-09-23T09:40:28.842Z",
+  "model": "gpt-6-astra",
+  "reviewType": "Independent read-only source, same-camera screenshots, twelve extracted normal-video frames, and both normal-input traces",
+  "decision": "SUITABLE_FOR_HUMAN_EXPANSION_GATE",
+  "decorationOnly": false,
+  "meaningfulOrderDifferenceObserved": true,
+  "meaningfulPlacementDifferenceObserved": true,
+  "openBlockers": [],
+  "openBlockersScope": "Reviewed implementation and visible Craft only; excludes Human acceptance and unresolved Security disposition",
+  "humanAcceptance": "PENDING",
+  "physicalIPhoneSafari": "NOT TESTED",
+  "fullVideoContinuouslyWatched": false,
+  "browserOrPerformanceProcessesRunByReviewer": false,
+  "filesChangedByReviewer": false,
+  "closedFindings": [
+    "Overlapping benches replaced by one shared bench per plot and separated seat positions.",
+    "Original Gallery facilities remain reachable after bridge, including optional workshop and market relocation.",
+    "Reduced-motion terminal sit/look frames redraw.",
+    "Malformed leisure poses away from target rejected.",
+    "Non-shade promenade routes exclude unbuilt shade spur."
+  ],
+  "observations": [
+    "A establishes a destination first; the waterfront bench is used before the loop is built.",
+    "B establishes movement first; the eastern lookout is used before the shaded commons adds sitting.",
+    "Final A places visible resting at waterfront; B concentrates rest under rear canopy and leaves front shore open.",
+    "Approach paths, stop locations and later circulation differ in source and sampled play."
+  ],
+  "nonBlockingObservations": [
+    "Trees conceal portions of both loops from shared camera.",
+    "Shaded residents are less immediately readable due to foliage/canopy.",
+    "Lower path has straight strip edges; Human Craft judgement pending.",
+    "Long-term return motivation and desire for a next development remain unproven."
+  ],
+  "securityStatus": "Outside independent verification. Parent reports distribution/review scopes PASS, five new local QA-profile candidates Human disposition PENDING. Preserve masked raw FAIL; block future Git/release until disposition.",
+  "limits": "No continuous full-video viewing, separate interactive play, listening, physical-device test, or independent Security verification. This is not Human Acceptance, full animation certification, Security clearance or retention evidence.",
+  "recommendation": "Present both routes to Human. No further districts or Full Game before Human acceptance."
+}

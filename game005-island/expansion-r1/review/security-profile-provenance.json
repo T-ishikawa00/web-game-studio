@@ -1,0 +1,30 @@
+{
+  "scope": "Fresh automated Playwright/Edge profile, no sign-in. Structural classification only; not Human approval.",
+  "findings": [
+    {
+      "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+      "type": "generic-api-key / structurally verified DER SPKI public extension key",
+      "action": "HUMAN DISPOSITION PENDING before any future Git/release. Preserve masked raw FAIL; no allowlist, provider verification, rotation or manual deletion."
+    },
+    {
+      "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+      "type": "generic-api-key / structurally verified DER SPKI public extension key",
+      "action": "HUMAN DISPOSITION PENDING before any future Git/release. Preserve masked raw FAIL; no allowlist, provider verification, rotation or manual deletion."
+    },
+    {
+      "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+      "type": "generic-api-key / structurally verified DER SPKI public extension key",
+      "action": "HUMAN DISPOSITION PENDING before any future Git/release. Preserve masked raw FAIL; no allowlist, provider verification, rotation or manual deletion."
+    },
+    {
+      "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+      "type": "generic-api-key / browser profile protection value; credential status UNKNOWN",
+      "action": "HUMAN DISPOSITION PENDING before any future Git/release. Preserve masked raw FAIL; no allowlist, provider verification, rotation or manual deletion."
+    },
+    {
+      "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+      "type": "generic-api-key / browser profile protection value; credential status UNKNOWN",
+      "action": "HUMAN DISPOSITION PENDING before any future Git/release. Preserve masked raw FAIL; no allowlist, provider verification, rotation or manual deletion."
+    }
+  ]
+}

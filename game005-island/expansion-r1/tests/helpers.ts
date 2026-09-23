@@ -1,0 +1,5 @@
+import {fresh,tick,validate,startBuild,sell,BALANCE,type State,type Build,type Plot} from '../src/core';
+export function until(s:State,p:(s:State)=>boolean,max=400){for(let i=0;i<max*20;i++){if(p(s))return;tick(s,.05);if(!validate(s))throw Error('Invalid simulated state: '+JSON.stringify(s));}throw Error('Simulation timed out');}
+export function build(s:State,kind:Build,plot:Plot='coast'){while(s.coins<BALANCE[kind].coins){until(s,x=>x.wood>=4&&!x.order);if(!sell(s))throw Error('sell');until(s,x=>x.order===null);}if(!startBuild(s,kind,plot))throw Error('build '+kind);until(s,x=>!x.project&&!x.plan);}
+export function mvp(){const s=fresh();build(s,'dock');for(const k of ['lumber','market','house','expansion'] as Build[])build(s,k);return s;}
+export function cove(order:'commons'|'promenade'='commons',plot:'sea'|'shade'='sea'){const s=mvp();build(s,'cove');for(const k of (order==='commons'?['commons','promenade']:['promenade','commons']) as Build[])build(s,k,k==='commons'?plot:'coast');return s;}

@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>{const v=b.closest('article').querySelector('video');v.currentTime=Number(b.dataset.time);v.playbackRate=1;v.play().catch(()=>{});}));

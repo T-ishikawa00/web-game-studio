@@ -1,0 +1,78 @@
+{
+  "at": "2026-09-23T09:56:59.865Z",
+  "candidateFile": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+  "checks": {
+    "originalFileExists": false,
+    "tracked": false,
+    "indexSourcePathPresent": false,
+    "indexAnyBrowserProfilePath": [],
+    "historySourcePathPresent": false,
+    "historyAnyBrowserProfilePath": [],
+    "ignoredRule": "game005-island/expansion-r1/.gitignore:1:.cache/\tgame005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+    "distributionSourcePathPresent": false,
+    "distributionMarkersDetected": [],
+    "exactCandidateValueSearch": "NOT POSSIBLE: original values/fingerprints were not retained"
+  },
+  "indexEntries": 2684,
+  "indexBytes": 665351666,
+  "indexScan": {
+    "scope": "Full current Git index: all indexed blobs streamed in memory, Git batch headers included, no snapshot or deletion",
+    "status": "FAIL",
+    "findings": [
+      {
+        "file": "<full-index-stdin>",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "historyCommitCount": 20,
+  "historyScan": {
+    "scope": "local refs and reflogs; no fetch",
+    "status": "PASS",
+    "findings": []
+  },
+  "distributionScopes": [
+    "game005-island/expansion-r1/dist",
+    "game005-island/r3-2/dist",
+    "public",
+    "dist",
+    "release-artifacts"
+  ],
+  "distributionFiles": 181,
+  "distributionScans": [
+    {
+      "scope": "game005-island/expansion-r1/dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "scope": "game005-island/r3-2/dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "scope": "public",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "scope": "dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "scope": "release-artifacts",
+      "status": "PASS",
+      "findings": []
+    }
+  ],
+  "acceptedExpansionArtifactCount": 36,
+  "acceptedExpansionArtifactChanges": [],
+  "limits": [
+    "Index scan used in-memory concatenated contents, not the standard pre-commit snapshot pipeline; this inspection is not future checkpoint authorization.",
+    "Path absence and current scanner PASS do not prove exact-value absence or historical remote exposure.",
+    "Reachable refs and reflogs inspected. Unreachable dangling objects, deleted filesystem data and external/remote state not inspected.",
+    "No original value reproduction, provider check, browser launch, deletion, rotation or scanner/allowlist change."
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "at": "2026-09-23T09:45:44.243Z",
+  "status": "REVIEW CANDIDATE, NOT ACCEPTED BASELINE",
+  "files": [
+    {
+      "file": "src/art.ts",
+      "bytes": 17931,
+      "sha256": "854ad9fb9794805cfb3c81b294f6e22ec6dd55506246f90f47e8cb0dbb17a9bd"
+    },
+    {
+      "file": "src/audio.ts",
+      "bytes": 1582,
+      "sha256": "b3f3cb58e80751c361cfd0f428a5a6eff132eca84b1dda535078746f9b37eb9b"
+    },
+    {
+      "file": "src/core.ts",
+      "bytes": 15630,
+      "sha256": "abcc7c46d572a6ba2885cf7758122635e3e0fa3ebc1b7051fc8441372708ac66"
+    },
+    {
+      "file": "src/cove-art.ts",
+      "bytes": 6922,
+      "sha256": "9442ec849eb702c63c343457bf7f12f5bfc05fa42893b235c435add4f52529aa"
+    },
+    {
+      "file": "src/game.ts",
+      "bytes": 34122,
+      "sha256": "8e2f35bcebc058b896a07d856a55c3da915d97d5c60ba594f8749d9ae5e3c9dc"
+    },
+    {
+      "file": "src/gold.css",
+      "bytes": 18510,
+      "sha256": "b1cdf0f33df56bffdf77bf9db18c6b562692723434886d31e3da9b598aad0945"
+    },
+    {
+      "file": "src/layout.ts",
+      "bytes": 1066,
+      "sha256": "26a324d2c7ba93d6c6ff5f97e55bdea9b44f7af39b9f5806f37c3f92e775d790"
+    },
+    {
+      "file": "src/live.css",
+      "bytes": 3812,
+      "sha256": "9a3857bca1aefddcd87617517af70384c890617ae8d818a9a56682c3b310acbd"
+    },
+    {
+      "file": "src/save-key.ts",
+      "bytes": 61,
+      "sha256": "159100e0e0e2ee6b60cc4846de20fbde75a9f42cd37652dc3e9d46f4ac45c5ba"
+    },
+    {
+      "file": "src/scene.ts",
+      "bytes": 11396,
+      "sha256": "b86d41f115b197761c164ac73eb1df3df5287629fb104b7960d80bc3bfb9d60e"
+    },
+    {
+      "file": "src/storage.ts",
+      "bytes": 1585,
+      "sha256": "6736fd6baa1e902afdce75ae0777243331aa5dbd96e4eff7e6d5b069461ce2e7"
+    },
+    {
+      "file": "src/ui-copy.ts",
+      "bytes": 6329,
+      "sha256": "90a65db5471935c68355b023ff668df4d663be21bcb69c6095b5b651275d05a9"
+    },
+    {
+      "file": "app/index.html",
+      "bytes": 486,
+      "sha256": "91443b3d5b0d83f32d7ea69e9d423ade881018b8cfa5bf344328adceb619b307"
+    },
+    {
+      "file": "app/main.ts",
+      "bytes": 46,
+      "sha256": "4e64f5922c01da1ddd09f45e7e63629fa5925b72a778ddfd9fecfcc9f6699862"
+    },
+    {
+      "file": "assets/bridge.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "file": "assets/commons.png",
+      "bytes": 39239,
+      "sha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f"
+    },
+    {
+      "file": "assets/cove.png",
+      "bytes": 34539,
+      "sha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b"
+    },
+    {
+      "file": "assets/dock.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "file": "assets/house.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "file": "assets/lumber.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "file": "assets/market.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "file": "assets/promenade.png",
+      "bytes": 37670,
+      "sha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151"
+    },
+    {
+      "file": "dist/assets/bridge-BKetEhnw.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302",
+      "gzipBytes": 7779
+    },
+    {
+      "file": "dist/assets/commons-CEfu4S30.png",
+      "bytes": 39239,
+      "sha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f",
+      "gzipBytes": 37876
+    },
+    {
+      "file": "dist/assets/cove-D6J7H1QG.png",
+      "bytes": 34539,
+      "sha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b",
+      "gzipBytes": 33018
+    },
+    {
+      "file": "dist/assets/dock-BZp_GcK3.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f",
+      "gzipBytes": 19282
+    },
+    {
+      "file": "dist/assets/house-DUowNtYr.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b",
+      "gzipBytes": 55906
+    },
+    {
+      "file": "dist/assets/index-DJ3tXZcL.css",
+      "bytes": 21820,
+      "sha256": "3a49b9a1e84ea2544d8c9474d59c23ad3939fde7bea590ce10dd9a94889d14f6",
+      "gzipBytes": 5308
+    },
+    {
+      "file": "dist/assets/index-DTnx2Cmb.js",
+      "bytes": 645199,
+      "sha256": "99ffab954a199f4edaf4af2f0d5d72260f962decc305d1e534668b0c804f4489",
+      "gzipBytes": 171556
+    },
+    {
+      "file": "dist/assets/lumber-CmLHj2ea.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5",
+      "gzipBytes": 19748
+    },
+    {
+      "file": "dist/assets/market-C6t55qk3.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593",
+      "gzipBytes": 15745
+    },
+    {
+      "file": "dist/assets/promenade-DVNleZxF.png",
+      "bytes": 37670,
+      "sha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151",
+      "gzipBytes": 36456
+    },
+    {
+      "file": "dist/index.html",
+      "bytes": 593,
+      "sha256": "1b7842c7842513a96ca5e5e241d9878a207f33a12fc5970db9f8f8c1c064be5a",
+      "gzipBytes": 427
+    },
+    {
+      "file": "dist/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "gzipBytes": 667
+    },
+    {
+      "file": "review/video/route-A-full.webm",
+      "bytes": 39163203,
+      "sha256": "0d375c9786997da97fa4b34275cdd4031677adf5be9d5d66036fb589189727ee"
+    },
+    {
+      "file": "review/video/route-B-full.webm",
+      "bytes": 42957530,
+      "sha256": "9219a3970570cf9c6a709672ff0f30cca7f43dc28f942122013e73fa5fcd02a2"
+    }
+  ]
+}

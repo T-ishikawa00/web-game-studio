@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-23T09:33:33.817Z",
+  "status": "FAIL",
+  "scanner": "gitleaks 8.30.1",
+  "scans": [
+    {
+      "target": "game005-island/expansion-r1",
+      "status": "FAIL",
+      "findings": [
+        {
+          "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/expansion-r1/.cache/browser-temp/playwright_chromiumdev_profile-6YTZix/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        }
+      ]
+    },
+    {
+      "target": "game005-island/expansion-r1/dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "target": "game005-island/expansion-r1/review",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "target": "game005-island/expansion-r1/.cache/document-scan",
+      "status": "PASS",
+      "findings": []
+    }
+  ],
+  "fullProject": "NOT RERUN: previous raw FAIL with six known findings remains unchanged; scoped PASS is not full-project PASS.",
+  "indexHistory": "NOT RERUN; no Git mutation authorized. HEAD/upstream/full index identity checked separately.",
+  "scannerConfigChanged": false,
+  "limits": "No image/video OCR, no absolute absence guarantee."
+}
