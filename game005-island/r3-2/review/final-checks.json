@@ -1,0 +1,76 @@
+{
+  "at": "2026-09-23T07:00:31.908Z",
+  "checks": [
+    {
+      "name": "strict typecheck of current source",
+      "status": "PASS"
+    },
+    {
+      "name": "storage identical except imports and new namespace",
+      "status": "PASS"
+    },
+    {
+      "name": "normal bundle has no fixture hooks or mock state",
+      "status": "PASS"
+    },
+    {
+      "name": "normal bundle has dedicated live save key",
+      "status": "PASS"
+    },
+    {
+      "name": "original model preview house",
+      "status": "PASS"
+    },
+    {
+      "name": "original model preview dock",
+      "status": "PASS"
+    },
+    {
+      "name": "original model preview lumber",
+      "status": "PASS"
+    },
+    {
+      "name": "original model preview market",
+      "status": "PASS"
+    },
+    {
+      "name": "original model preview bridge",
+      "status": "PASS"
+    },
+    {
+      "name": "browser14/audit3/review7 all pass",
+      "status": "PASS"
+    },
+    {
+      "name": "browser/review zero pageerror and external request",
+      "status": "PASS"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "dist/index.html",
+      "bytes": 591,
+      "sha256": "bd4681f3dde76b38c0dfebf7acb278e95122cdd2713bd40d9f73a8829e53acf8"
+    },
+    {
+      "file": "review/full-loop-market.webm",
+      "bytes": 19427559,
+      "sha256": "c97f97bcc2888e5ff3c2c5af3a879d441a4a4af5f19e1f58a72539df918370d8"
+    },
+    {
+      "file": "review/full-loop-house.webm",
+      "bytes": 12612837,
+      "sha256": "1095275807124084fd037e95af1b020d0b66c422518b47adac6ce0ed47b28cba"
+    },
+    {
+      "file": "review/construction-20s.webm",
+      "bytes": 2379963,
+      "sha256": "b82560c380be5588f78a3071775dbe51887fe11dfc94e520191f589ed733641e"
+    }
+  ],
+  "actualModels": {
+    "primary": "gpt-6-astra",
+    "independentReadOnlyAudit": "gpt-6-astra"
+  },
+  "limit": "Technical candidate checks only; Human Live Craft/UI gate pending."
+}

@@ -1,0 +1,19 @@
+✔ auto stock is bounded; no unattended coins or construction (5.3283ms)
+✔ explicit repair runs without assignments; reservation and one refund (1.5939ms)
+✔ missing wood automatically gathered and reserved; cancellation only actual reserves (2.0938ms)
+✔ priority changes cannot drop carried wood or create assignment oscillation (1.8236ms)
+✔ order pays only on arrival; cancel and reload reserve once (2.549ms)
+✔ complete market priority and coast with zero individual assignment (12.9018ms)
+✔ complete house priority and village with zero individual assignment (10.6769ms)
+✔ concurrent construction and shipment, priorities at boundaries and no double spending (1.9968ms)
+✔ R1 and malformed R2 rejected; huge/negative delta cannot fast-forward (0.2023ms)
+✔ construction versus shipment priority changes who begins the next work (1.747ms)
+✔ carried wood reload and priority keep exact delivery; completed jobs auto reassign (2.7108ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 196.6152

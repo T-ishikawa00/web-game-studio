@@ -1,0 +1,18 @@
+{
+  "at": "2026-09-23T06:47:17.865Z",
+  "results": [
+    {
+      "name": "keyboard audio creates and resumes real AudioContext; game event emits tone",
+      "status": "PASS"
+    },
+    {
+      "name": "shipment focus survives action replacement; dock effect matches market rate in JA/EN",
+      "status": "PASS"
+    },
+    {
+      "name": "real courier reservation survives reload and pays once at arrival",
+      "status": "PASS"
+    }
+  ],
+  "limits": "AudioContext lifecycle and oscillator creation verified, not human listening. Courier test uses a validated R2-core saved state, then ordinary runtime and reload."
+}

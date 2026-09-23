@@ -1,0 +1,973 @@
+{
+  "at": "2026-09-23T07:25:12.627Z",
+  "status": "HUMAN_ACCEPTANCE_PASS",
+  "baseline": "Game005 High-Quality MVP R3.2",
+  "authority": "Current Human acceptance 2026-09-23; not physical-device or publication acceptance.",
+  "normalization": "CRLF/LF only for text; original bytes retained, binary exact.",
+  "artifacts": [
+    {
+      "file": "game005-island/.gitignore",
+      "bytes": 42,
+      "sha256": "8354cba242292817bf84f74bb12feadbc20f6449668334b98af5fba6eef9b757",
+      "canonicalSha256": "8354cba242292817bf84f74bb12feadbc20f6449668334b98af5fba6eef9b757"
+    },
+    {
+      "file": "game005-island/package-lock.json",
+      "bytes": 27802,
+      "sha256": "13eefa5658930f3f465b13bf341aebc8ae5932bb40ec59aed3b173e6ad247e2a",
+      "canonicalSha256": "13eefa5658930f3f465b13bf341aebc8ae5932bb40ec59aed3b173e6ad247e2a"
+    },
+    {
+      "file": "game005-island/package.json",
+      "bytes": 395,
+      "sha256": "acd367330fa1c8c60952147a4cf14a6fb22d0f61c854aec36646294bddf404d8",
+      "canonicalSha256": "acd367330fa1c8c60952147a4cf14a6fb22d0f61c854aec36646294bddf404d8"
+    },
+    {
+      "file": "game005-island/r2/review/security.json",
+      "bytes": 3604,
+      "sha256": "bdfaa2bdc559eb935e07cafb0c474eba2fa28b4cbe24838c9971f19f7cb5cb8b",
+      "canonicalSha256": "bdfaa2bdc559eb935e07cafb0c474eba2fa28b4cbe24838c9971f19f7cb5cb8b"
+    },
+    {
+      "file": "game005-island/r2/src/art.ts",
+      "bytes": 17917,
+      "sha256": "609498d0a26421306bad466a8b140a1058373bf703b87e102bb54be28277793f",
+      "canonicalSha256": "609498d0a26421306bad466a8b140a1058373bf703b87e102bb54be28277793f"
+    },
+    {
+      "file": "game005-island/r2/src/audio.ts",
+      "bytes": 1582,
+      "sha256": "b3f3cb58e80751c361cfd0f428a5a6eff132eca84b1dda535078746f9b37eb9b",
+      "canonicalSha256": "b3f3cb58e80751c361cfd0f428a5a6eff132eca84b1dda535078746f9b37eb9b"
+    },
+    {
+      "file": "game005-island/r2/src/core.ts",
+      "bytes": 11567,
+      "sha256": "82226789f372557d9caa5cf15f0dda8c557a1ec7ade5d4f4a1dd5cff61b35e47",
+      "canonicalSha256": "82226789f372557d9caa5cf15f0dda8c557a1ec7ade5d4f4a1dd5cff61b35e47"
+    },
+    {
+      "file": "game005-island/r2/src/game.ts",
+      "bytes": 17217,
+      "sha256": "ddb02ae0b453dc8b84746ffb28afc4cbbfcf22ecfa0db48f381dbb0c3d2bcc13",
+      "canonicalSha256": "ddb02ae0b453dc8b84746ffb28afc4cbbfcf22ecfa0db48f381dbb0c3d2bcc13"
+    },
+    {
+      "file": "game005-island/r2/src/island.css",
+      "bytes": 5838,
+      "sha256": "606613b9c51b08cb90bf576b770f06773b77f80a63da118fa3e5ae5d396d1d9c",
+      "canonicalSha256": "606613b9c51b08cb90bf576b770f06773b77f80a63da118fa3e5ae5d396d1d9c"
+    },
+    {
+      "file": "game005-island/r2/src/scene.ts",
+      "bytes": 10213,
+      "sha256": "4717335a5abcb3f7562ab4f86c2341e2649fa1afb5ae8e83b6a479c90a03c361",
+      "canonicalSha256": "4717335a5abcb3f7562ab4f86c2341e2649fa1afb5ae8e83b6a479c90a03c361"
+    },
+    {
+      "file": "game005-island/r2/src/storage.ts",
+      "bytes": 1557,
+      "sha256": "e233ee9cd6096e4aa9bea88e88a4fb8bf2b36eed539b805fc82454a53a7ede92",
+      "canonicalSha256": "e233ee9cd6096e4aa9bea88e88a4fb8bf2b36eed539b805fc82454a53a7ede92"
+    },
+    {
+      "file": "game005-island/r2/src/ui-copy.ts",
+      "bytes": 6329,
+      "sha256": "90a65db5471935c68355b023ff668df4d663be21bcb69c6095b5b651275d05a9",
+      "canonicalSha256": "90a65db5471935c68355b023ff668df4d663be21bcb69c6095b5b651275d05a9"
+    },
+    {
+      "file": "game005-island/r2/tests/core.test.ts",
+      "bytes": 5199,
+      "sha256": "fa55b99017fc33cdac12446e0ef0528c701980144868f3cff4d40e07d8880029",
+      "canonicalSha256": "fa55b99017fc33cdac12446e0ef0528c701980144868f3cff4d40e07d8880029"
+    },
+    {
+      "file": "game005-island/r3-1/public/assets/bridge.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302",
+      "canonicalSha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "file": "game005-island/r3-1/public/assets/dock.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f",
+      "canonicalSha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "file": "game005-island/r3-1/public/assets/house.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b",
+      "canonicalSha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "file": "game005-island/r3-1/public/assets/island-desktop.png",
+      "bytes": 724779,
+      "sha256": "07cebe429a428c2f91c0ca124b32fe4abe30bf0d04b9c715982eff2996fea82d",
+      "canonicalSha256": "07cebe429a428c2f91c0ca124b32fe4abe30bf0d04b9c715982eff2996fea82d"
+    },
+    {
+      "file": "game005-island/r3-1/public/assets/island-mobile.png",
+      "bytes": 166472,
+      "sha256": "7310804d5303cc89e8c5eab49e4f46da9e8c38d951b9d7fddbd1b47ab69bacf6",
+      "canonicalSha256": "7310804d5303cc89e8c5eab49e4f46da9e8c38d951b9d7fddbd1b47ab69bacf6"
+    },
+    {
+      "file": "game005-island/r3-1/public/assets/lumber.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5",
+      "canonicalSha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "file": "game005-island/r3-1/public/assets/market.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593",
+      "canonicalSha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "file": "game005-island/r3-1/public/gold.css",
+      "bytes": 18716,
+      "sha256": "59b91c81666ffec284caf8cb63c1f9296f5d1eab1dfca2253b6841e069b50b27",
+      "canonicalSha256": "59b91c81666ffec284caf8cb63c1f9296f5d1eab1dfca2253b6841e069b50b27"
+    },
+    {
+      "file": "game005-island/r3-1/public/gold.js",
+      "bytes": 15563,
+      "sha256": "747cc494a1d9bc677b749c52140f4d1e4ed3c4d5c5388ce3e7119a45dbbbcb40",
+      "canonicalSha256": "747cc494a1d9bc677b749c52140f4d1e4ed3c4d5c5388ce3e7119a45dbbbcb40"
+    },
+    {
+      "file": "game005-island/r3-1/public/index.html",
+      "bytes": 362,
+      "sha256": "33eaeeab7bc8d3bc84c317807bfbed6f572764898374f99014aba2f44d60a447",
+      "canonicalSha256": "33eaeeab7bc8d3bc84c317807bfbed6f572764898374f99014aba2f44d60a447"
+    },
+    {
+      "file": "game005-island/r3-1/review/INDEPENDENT_REVIEW.md",
+      "bytes": 1488,
+      "sha256": "8f5b17e1acfb1a93c918352b0fa7afa737d4ab124b330802b46ebf5d5a5f5475",
+      "canonicalSha256": "8f5b17e1acfb1a93c918352b0fa7afa737d4ab124b330802b46ebf5d5a5f5475"
+    },
+    {
+      "file": "game005-island/r3-2/.gitignore",
+      "bytes": 47,
+      "sha256": "c0dda296158e01f778d9e608247dadd457c75566c33d23cfe3e7df20a4308a78",
+      "canonicalSha256": "f5ef557704a0a169e81f3d6170e14c5e28cba86b5fccc8862bb825be721da6b0"
+    },
+    {
+      "file": "game005-island/r3-2/README.md",
+      "bytes": 3886,
+      "sha256": "382345cc5d42a276fafcf163c8b1f085404d86a86b31fd44f9f3edc4f159e3a3",
+      "canonicalSha256": "382345cc5d42a276fafcf163c8b1f085404d86a86b31fd44f9f3edc4f159e3a3"
+    },
+    {
+      "file": "game005-island/r3-2/app/index.html",
+      "bytes": 484,
+      "sha256": "e440a9628ba4a611189c44f5b87fb45d55cff562f039d7d8e8bb9c7bdad8a14b",
+      "canonicalSha256": "e440a9628ba4a611189c44f5b87fb45d55cff562f039d7d8e8bb9c7bdad8a14b"
+    },
+    {
+      "file": "game005-island/r3-2/app/main.ts",
+      "bytes": 46,
+      "sha256": "4e64f5922c01da1ddd09f45e7e63629fa5925b72a778ddfd9fecfcc9f6699862",
+      "canonicalSha256": "4e64f5922c01da1ddd09f45e7e63629fa5925b72a778ddfd9fecfcc9f6699862"
+    },
+    {
+      "file": "game005-island/r3-2/assets/bridge.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302",
+      "canonicalSha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "file": "game005-island/r3-2/assets/dock.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f",
+      "canonicalSha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "file": "game005-island/r3-2/assets/house.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b",
+      "canonicalSha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "file": "game005-island/r3-2/assets/lumber.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5",
+      "canonicalSha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "file": "game005-island/r3-2/assets/market.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593",
+      "canonicalSha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "file": "game005-island/r3-2/baseline/index.html",
+      "bytes": 283,
+      "sha256": "57b654d810274966d904dae4964b77780c75aadf5e24d6ebf017d975a9f23479",
+      "canonicalSha256": "57b654d810274966d904dae4964b77780c75aadf5e24d6ebf017d975a9f23479"
+    },
+    {
+      "file": "game005-island/r3-2/baseline/main.ts",
+      "bytes": 514,
+      "sha256": "6406a36091d02bb50725615d724fa27badfbe89fd2d3a276ac4aa077087ea74d",
+      "canonicalSha256": "6406a36091d02bb50725615d724fa27badfbe89fd2d3a276ac4aa077087ea74d"
+    },
+    {
+      "file": "game005-island/r3-2/fixture/index.html",
+      "bytes": 287,
+      "sha256": "9483876f3ac1349417c14105ec76118871c9936a9bd99450daaf1f28f5bdfc07",
+      "canonicalSha256": "9483876f3ac1349417c14105ec76118871c9936a9bd99450daaf1f28f5bdfc07"
+    },
+    {
+      "file": "game005-island/r3-2/fixture/main.ts",
+      "bytes": 734,
+      "sha256": "d4183e00d56feb47ab9eb9d155b13196e53b50704010986dc44e70816704c973",
+      "canonicalSha256": "d4183e00d56feb47ab9eb9d155b13196e53b50704010986dc44e70816704c973"
+    },
+    {
+      "file": "game005-island/r3-2/fixture/sample.ts",
+      "bytes": 691,
+      "sha256": "3d701fe6c7a5d114dfd12857a33501f4f1984cd5bf0f02e081ac4db837c2ca9a",
+      "canonicalSha256": "3d701fe6c7a5d114dfd12857a33501f4f1984cd5bf0f02e081ac4db837c2ca9a"
+    },
+    {
+      "file": "game005-island/r3-2/review/REPORT.md",
+      "bytes": 12399,
+      "sha256": "8d13e21383fa46ba3f28d31c932dd5fa224da9488e4b5355c3a732e16ad8ed6c",
+      "canonicalSha256": "8d13e21383fa46ba3f28d31c932dd5fa224da9488e4b5355c3a732e16ad8ed6c"
+    },
+    {
+      "file": "game005-island/r3-2/review/audit-regressions.json",
+      "bytes": 621,
+      "sha256": "80ca682c4f49e27b1d9f42c9a1e175fedec66946e2762395633445e6dde37bfa",
+      "canonicalSha256": "80ca682c4f49e27b1d9f42c9a1e175fedec66946e2762395633445e6dde37bfa"
+    },
+    {
+      "file": "game005-island/r3-2/review/browser-qa.json",
+      "bytes": 1812,
+      "sha256": "05ad8ad8e7d74951d3bb6bc511fc00eed9c9c0e42fb838f5e6ed2275dbbc93b7",
+      "canonicalSha256": "05ad8ad8e7d74951d3bb6bc511fc00eed9c9c0e42fb838f5e6ed2275dbbc93b7"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-gold-desktop-build.png",
+      "bytes": 639584,
+      "sha256": "44da719a63861de7f43bd9a0c2f63e68d7a7f880cfc2114f3d4f0be17531d6c7",
+      "canonicalSha256": "44da719a63861de7f43bd9a0c2f63e68d7a7f880cfc2114f3d4f0be17531d6c7"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-gold-desktop-hud.png",
+      "bytes": 744140,
+      "sha256": "cf28b9da94090ba1b0caf8f71458d356702af3a49c59d6c68c38da00ef67c573",
+      "canonicalSha256": "cf28b9da94090ba1b0caf8f71458d356702af3a49c59d6c68c38da00ef67c573"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-gold-desktop-settings.png",
+      "bytes": 419846,
+      "sha256": "d6dd41b9806f02acf1e4db5f339744763cdf56c8ec84310b9a990eca6fa83563",
+      "canonicalSha256": "d6dd41b9806f02acf1e4db5f339744763cdf56c8ec84310b9a990eca6fa83563"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-gold-mobile-build.png",
+      "bytes": 199864,
+      "sha256": "64d966a19112e1853a47af35248b6ef78c196c6de03ba85db39ff9b660a9f626",
+      "canonicalSha256": "64d966a19112e1853a47af35248b6ef78c196c6de03ba85db39ff9b660a9f626"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-gold-mobile-hud.png",
+      "bytes": 178249,
+      "sha256": "d486647e50eeb07c3d8d02f4c031053437150f54c8fee247a81ec80c6746b4bd",
+      "canonicalSha256": "d486647e50eeb07c3d8d02f4c031053437150f54c8fee247a81ec80c6746b4bd"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-gold-mobile-settings.png",
+      "bytes": 75089,
+      "sha256": "4f4d1690151bec953bc649ad1195f97da90ffdd6f809af673fc3c87015ef88f5",
+      "canonicalSha256": "4f4d1690151bec953bc649ad1195f97da90ffdd6f809af673fc3c87015ef88f5"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-live-desktop-build.png",
+      "bytes": 641274,
+      "sha256": "22c5ed43fa47fc2e79e9d0115a9888d580d6c7b30064051943583690d40d9016",
+      "canonicalSha256": "22c5ed43fa47fc2e79e9d0115a9888d580d6c7b30064051943583690d40d9016"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-live-desktop-hud.png",
+      "bytes": 742679,
+      "sha256": "380006fea05b42065a4e449f65a2d13117aa508243458652f11e2b040f8c8725",
+      "canonicalSha256": "380006fea05b42065a4e449f65a2d13117aa508243458652f11e2b040f8c8725"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-live-desktop-settings.png",
+      "bytes": 416145,
+      "sha256": "0e35508e2d94df352e3bdfe71ac59bd43f30eaeb725843a84e3048a455ddd238",
+      "canonicalSha256": "0e35508e2d94df352e3bdfe71ac59bd43f30eaeb725843a84e3048a455ddd238"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-live-mobile-build.png",
+      "bytes": 198923,
+      "sha256": "791964148747bac949b28673f1def938d466f649e527ad0e9d8a0080a937f42d",
+      "canonicalSha256": "791964148747bac949b28673f1def938d466f649e527ad0e9d8a0080a937f42d"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-live-mobile-hud.png",
+      "bytes": 178595,
+      "sha256": "54f88359f7c9ea47a70bce250ceb8830d76ba233a6d340cb84607b7363adf9ea",
+      "canonicalSha256": "54f88359f7c9ea47a70bce250ceb8830d76ba233a6d340cb84607b7363adf9ea"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-live-mobile-settings.png",
+      "bytes": 76080,
+      "sha256": "f472043e919ce8c5e5aaec2f5b075108ca9544f45c6a971758b22e89e4a88a91",
+      "canonicalSha256": "f472043e919ce8c5e5aaec2f5b075108ca9544f45c6a971758b22e89e4a88a91"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-r2-desktop-build.png",
+      "bytes": 719600,
+      "sha256": "08b34528c30ebaef43eb2e017fc2bca8e60568cbad19d6599d9fd10260168339",
+      "canonicalSha256": "08b34528c30ebaef43eb2e017fc2bca8e60568cbad19d6599d9fd10260168339"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-r2-desktop-hud.png",
+      "bytes": 743998,
+      "sha256": "a8ea67f4629418985a0fce8505d4200d3717a90a4fd05c0e96f06ef26d0c4721",
+      "canonicalSha256": "a8ea67f4629418985a0fce8505d4200d3717a90a4fd05c0e96f06ef26d0c4721"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-r2-desktop-settings.png",
+      "bytes": 498352,
+      "sha256": "a7eb283b9fd17b63d9558d8b087bff188b449c0289b32604280fa4eeaeea5dc4",
+      "canonicalSha256": "a7eb283b9fd17b63d9558d8b087bff188b449c0289b32604280fa4eeaeea5dc4"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-r2-mobile-build.png",
+      "bytes": 186001,
+      "sha256": "8c9653815dda81269b68402a52678f3aeb7134d5e9a5fb2aff3624f18cc02aa2",
+      "canonicalSha256": "8c9653815dda81269b68402a52678f3aeb7134d5e9a5fb2aff3624f18cc02aa2"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-r2-mobile-hud.png",
+      "bytes": 177775,
+      "sha256": "9a0f4c250e6ada2ab1b3a5394c3d44f620587ecdf20257e5e2e478b46cd47283",
+      "canonicalSha256": "9a0f4c250e6ada2ab1b3a5394c3d44f620587ecdf20257e5e2e478b46cd47283"
+    },
+    {
+      "file": "game005-island/r3-2/review/compare-r2-mobile-settings.png",
+      "bytes": 56844,
+      "sha256": "d69c21e07845dc06226d248aacad1eba380ed69029ed0b8806d0626c72cc328b",
+      "canonicalSha256": "d69c21e07845dc06226d248aacad1eba380ed69029ed0b8806d0626c72cc328b"
+    },
+    {
+      "file": "game005-island/r3-2/review/comparison.json",
+      "bytes": 2764,
+      "sha256": "454ce20569ce05ca6f054a293e5f9e1628235bc355c907c55dee02431874a2c0",
+      "canonicalSha256": "454ce20569ce05ca6f054a293e5f9e1628235bc355c907c55dee02431874a2c0"
+    },
+    {
+      "file": "game005-island/r3-2/review/construction-20s.webm",
+      "bytes": 2379963,
+      "sha256": "b82560c380be5588f78a3071775dbe51887fe11dfc94e520191f589ed733641e",
+      "canonicalSha256": "b82560c380be5588f78a3071775dbe51887fe11dfc94e520191f589ed733641e"
+    },
+    {
+      "file": "game005-island/r3-2/review/core-test.txt",
+      "bytes": 1071,
+      "sha256": "bd5fcb21bc52c730553eed0fcb5c9ae5bdd06c713f4264e87b876872954150b2",
+      "canonicalSha256": "bd5fcb21bc52c730553eed0fcb5c9ae5bdd06c713f4264e87b876872954150b2"
+    },
+    {
+      "file": "game005-island/r3-2/review/data.js",
+      "bytes": 39437,
+      "sha256": "f82808aa2c8ab28383fd489e41e5226add2d18d57711916dee9d6112ec3d4104",
+      "canonicalSha256": "f82808aa2c8ab28383fd489e41e5226add2d18d57711916dee9d6112ec3d4104"
+    },
+    {
+      "file": "game005-island/r3-2/review/final-checks.json",
+      "bytes": 1899,
+      "sha256": "0598d204159dc5abe9439ea986327ba9bb755a13974354387fd291293af9c563",
+      "canonicalSha256": "0598d204159dc5abe9439ea986327ba9bb755a13974354387fd291293af9c563"
+    },
+    {
+      "file": "game005-island/r3-2/review/full-loop-house.webm",
+      "bytes": 12612837,
+      "sha256": "1095275807124084fd037e95af1b020d0b66c422518b47adac6ce0ed47b28cba",
+      "canonicalSha256": "1095275807124084fd037e95af1b020d0b66c422518b47adac6ce0ed47b28cba"
+    },
+    {
+      "file": "game005-island/r3-2/review/full-loop-market.webm",
+      "bytes": 19427559,
+      "sha256": "c97f97bcc2888e5ff3c2c5af3a879d441a4a4af5f19e1f58a72539df918370d8",
+      "canonicalSha256": "c97f97bcc2888e5ff3c2c5af3a879d441a4a4af5f19e1f58a72539df918370d8"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-construction.png",
+      "bytes": 198285,
+      "sha256": "c5069f1f4b9b26ae0494633af2f5493133f6691a1469ce397f7404202665f815",
+      "canonicalSha256": "c5069f1f4b9b26ae0494633af2f5493133f6691a1469ce397f7404202665f815"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-developed.png",
+      "bytes": 184134,
+      "sha256": "b59f44400f0b073e22c837a5c5cb3eee913df8817da15b6792e5bd5c9090bf43",
+      "canonicalSha256": "b59f44400f0b073e22c837a5c5cb3eee913df8817da15b6792e5bd5c9090bf43"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-expansion-work.png",
+      "bytes": 197915,
+      "sha256": "c1a1cd94b64b3e916a7908941b89cebe8accedcd102f3518ff09d6e5abc1dc2d",
+      "canonicalSha256": "c1a1cd94b64b3e916a7908941b89cebe8accedcd102f3518ff09d6e5abc1dc2d"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-house-work.png",
+      "bytes": 199000,
+      "sha256": "85aa762d90b1e7176bb10a6efe80a8e2bcc0a206cd925e8111b1ed4988c2239c",
+      "canonicalSha256": "85aa762d90b1e7176bb10a6efe80a8e2bcc0a206cd925e8111b1ed4988c2239c"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-initial.png",
+      "bytes": 175611,
+      "sha256": "8d7beff485892254289435a46951cd5dfdd59c83e66217a9eeb23c0bc64eb9f0",
+      "canonicalSha256": "8d7beff485892254289435a46951cd5dfdd59c83e66217a9eeb23c0bc64eb9f0"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-lumber-work.png",
+      "bytes": 202609,
+      "sha256": "783935770ef670953357853ad3317d9f37dc0aaf425e9f7b39ac64174b9b560a",
+      "canonicalSha256": "783935770ef670953357853ad3317d9f37dc0aaf425e9f7b39ac64174b9b560a"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-market-work.png",
+      "bytes": 206422,
+      "sha256": "51d478fe900827e98aef417538c0d3c523fdbb87b87ddd06e22d08b01d017a0b",
+      "canonicalSha256": "51d478fe900827e98aef417538c0d3c523fdbb87b87ddd06e22d08b01d017a0b"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-placement.png",
+      "bytes": 181707,
+      "sha256": "19f4661ee1136152a1bcac59be7776edf68aef09d8cdc5a64d87f09db85f9956",
+      "canonicalSha256": "19f4661ee1136152a1bcac59be7776edf68aef09d8cdc5a64d87f09db85f9956"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-play.json",
+      "bytes": 33046,
+      "sha256": "f71af3df84c9cfece6c7fa3286a930aaa2a0f5e2f606caddc08623f41ca6db1b",
+      "canonicalSha256": "f71af3df84c9cfece6c7fa3286a930aaa2a0f5e2f606caddc08623f41ca6db1b"
+    },
+    {
+      "file": "game005-island/r3-2/review/index.html",
+      "bytes": 10505,
+      "sha256": "37bac4982cbab6afc614a9241daaaad1b31c2c1af1a1846889dd8339e1f2686c",
+      "canonicalSha256": "37bac4982cbab6afc614a9241daaaad1b31c2c1af1a1846889dd8339e1f2686c"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-desktop-build.png",
+      "bytes": 631853,
+      "sha256": "ca9f9174c7182cc3c65564e504b4501b0642cef3479eaa6523639dd78cfd0f1d",
+      "canonicalSha256": "ca9f9174c7182cc3c65564e504b4501b0642cef3479eaa6523639dd78cfd0f1d"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-desktop-hud.png",
+      "bytes": 733262,
+      "sha256": "aaa937509c5ce3a47930d7a71472fa57ee1dac79085e63714d63ce12085b1af0",
+      "canonicalSha256": "aaa937509c5ce3a47930d7a71472fa57ee1dac79085e63714d63ce12085b1af0"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-desktop-settings.png",
+      "bytes": 409390,
+      "sha256": "66a2c0567e46dc5242370bae38c898f5bbd54f8260e82054d56b096ffa572a1a",
+      "canonicalSha256": "66a2c0567e46dc5242370bae38c898f5bbd54f8260e82054d56b096ffa572a1a"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-landscape-build.png",
+      "bytes": 105771,
+      "sha256": "20a71ae8439b7d616d1c0820acf5aa7a3e0453e0698686b89e93e44003381ed1",
+      "canonicalSha256": "20a71ae8439b7d616d1c0820acf5aa7a3e0453e0698686b89e93e44003381ed1"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-landscape-hud.png",
+      "bytes": 195898,
+      "sha256": "bd9764ebabe8f918ec06307ce158bd8d9b50062dabf581d1e8ea0c8dc2921525",
+      "canonicalSha256": "bd9764ebabe8f918ec06307ce158bd8d9b50062dabf581d1e8ea0c8dc2921525"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-landscape-settings.png",
+      "bytes": 47003,
+      "sha256": "bcb342f85033f158f9557614271a2480d0554d42d11748c6e436e6bc54a677e8",
+      "canonicalSha256": "bcb342f85033f158f9557614271a2480d0554d42d11748c6e436e6bc54a677e8"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-mobile-build.png",
+      "bytes": 196275,
+      "sha256": "a24423a0a6653788e4b612c4ee0fbf9684ea936a68a794cbbaa376e5e42370d8",
+      "canonicalSha256": "a24423a0a6653788e4b612c4ee0fbf9684ea936a68a794cbbaa376e5e42370d8"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-mobile-en-build.png",
+      "bytes": 189167,
+      "sha256": "186f450fbdaeb76476c9d216fcf3a989661cfbeebf25b9c159df159249d24307",
+      "canonicalSha256": "186f450fbdaeb76476c9d216fcf3a989661cfbeebf25b9c159df159249d24307"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-mobile-en-hud.png",
+      "bytes": 174009,
+      "sha256": "1b06278e15fda1c27ece4d899d033414240bf276e723ed00a3ae43e514955b1e",
+      "canonicalSha256": "1b06278e15fda1c27ece4d899d033414240bf276e723ed00a3ae43e514955b1e"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-mobile-en-settings.png",
+      "bytes": 70978,
+      "sha256": "5c8d952bf59960f4b9c2e08f598f83b69bfe023ae5c6ace66f29c06abe06c835",
+      "canonicalSha256": "5c8d952bf59960f4b9c2e08f598f83b69bfe023ae5c6ace66f29c06abe06c835"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-mobile-expanded.png",
+      "bytes": 141414,
+      "sha256": "0a43c0967b21a76aeaa939296901222aefb7679d653a9a992aba8548e3d9e6cd",
+      "canonicalSha256": "0a43c0967b21a76aeaa939296901222aefb7679d653a9a992aba8548e3d9e6cd"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-mobile-hud.png",
+      "bytes": 175818,
+      "sha256": "47cc44633ee5ba01c07cda7cd50f3c40b27635e75fe36f6e256d7573d81c41ef",
+      "canonicalSha256": "47cc44633ee5ba01c07cda7cd50f3c40b27635e75fe36f6e256d7573d81c41ef"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-mobile-settings.png",
+      "bytes": 75142,
+      "sha256": "ee2cbe70abbab1444ae39306d8afe810f048e46ed94a5918027a4816c42e1edb",
+      "canonicalSha256": "ee2cbe70abbab1444ae39306d8afe810f048e46ed94a5918027a4816c42e1edb"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-small-build.png",
+      "bytes": 149808,
+      "sha256": "d3a18bf8ddbfe99a4dd20d4233428fcc75401ff950b91f5a32831b5942d4a11d",
+      "canonicalSha256": "d3a18bf8ddbfe99a4dd20d4233428fcc75401ff950b91f5a32831b5942d4a11d"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-small-expanded.png",
+      "bytes": 92292,
+      "sha256": "41878675d61cd24919d402ebd8a25d16ea3ca4f108447694bb07139e8bff013d",
+      "canonicalSha256": "41878675d61cd24919d402ebd8a25d16ea3ca4f108447694bb07139e8bff013d"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-small-hud.png",
+      "bytes": 149529,
+      "sha256": "ee6eaa72e6a0d68e3207cc945b97b36112a4b284b491a3311277538badd142f9",
+      "canonicalSha256": "ee6eaa72e6a0d68e3207cc945b97b36112a4b284b491a3311277538badd142f9"
+    },
+    {
+      "file": "game005-island/r3-2/review/live-small-settings.png",
+      "bytes": 55271,
+      "sha256": "3f02aadc291767987534d2fb5b3faecb23b411cfa64fcd7d381901c514671955",
+      "canonicalSha256": "3f02aadc291767987534d2fb5b3faecb23b411cfa64fcd7d381901c514671955"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-construction.png",
+      "bytes": 616712,
+      "sha256": "e59f8784292a9f466df0de945899592ecebd34bbd1b0755557baaf78cf41d8d0",
+      "canonicalSha256": "e59f8784292a9f466df0de945899592ecebd34bbd1b0755557baaf78cf41d8d0"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-developed.png",
+      "bytes": 739620,
+      "sha256": "e3152ae2f4c3cc4dd963abd6b756580aee78aeb8eb77fff2813919a879d84109",
+      "canonicalSha256": "e3152ae2f4c3cc4dd963abd6b756580aee78aeb8eb77fff2813919a879d84109"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-expansion-work.png",
+      "bytes": 619544,
+      "sha256": "b821df8659a1025a83242b22d93b94585bd3755199c27fc4c7c34e76c0931fe8",
+      "canonicalSha256": "b821df8659a1025a83242b22d93b94585bd3755199c27fc4c7c34e76c0931fe8"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-house-work.png",
+      "bytes": 615988,
+      "sha256": "f65a3e0ac63ddbe5c739a554966d32a2ebd040b8ea88342e3bf0802b8801b89e",
+      "canonicalSha256": "f65a3e0ac63ddbe5c739a554966d32a2ebd040b8ea88342e3bf0802b8801b89e"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-initial.png",
+      "bytes": 732700,
+      "sha256": "9b0443a9a48d65f1555bcff2b18b18e60bfb8f16ad69d3956acce436d76e297a",
+      "canonicalSha256": "9b0443a9a48d65f1555bcff2b18b18e60bfb8f16ad69d3956acce436d76e297a"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-lumber-work.png",
+      "bytes": 618889,
+      "sha256": "94ac9b9fcb56260aec33e512898349e99b358fcf3db24e01f2c4c4dd8b0ff2d2",
+      "canonicalSha256": "94ac9b9fcb56260aec33e512898349e99b358fcf3db24e01f2c4c4dd8b0ff2d2"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-market-work.png",
+      "bytes": 624683,
+      "sha256": "6c6beab96221de882f59de835c7eed414e1cef9a6d79939fbd8eb15e090d52cb",
+      "canonicalSha256": "6c6beab96221de882f59de835c7eed414e1cef9a6d79939fbd8eb15e090d52cb"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-placement.png",
+      "bytes": 644043,
+      "sha256": "ea1f8963b62fec5d65d6f0a170757d5ca680cc4f4e1f12aac9e7d913120384d9",
+      "canonicalSha256": "ea1f8963b62fec5d65d6f0a170757d5ca680cc4f4e1f12aac9e7d913120384d9"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-play.json",
+      "bytes": 32035,
+      "sha256": "fd42d1d00e59dce4a0f33c40427a35ba8e284b4d5e0fc8ce8816ed6af0d994fd",
+      "canonicalSha256": "fd42d1d00e59dce4a0f33c40427a35ba8e284b4d5e0fc8ce8816ed6af0d994fd"
+    },
+    {
+      "file": "game005-island/r3-2/review/media.json",
+      "bytes": 251,
+      "sha256": "98db178ef11bf881158c5c4b01c3bc6d1a0344862eb11b1726354b8f957cc9ef",
+      "canonicalSha256": "98db178ef11bf881158c5c4b01c3bc6d1a0344862eb11b1726354b8f957cc9ef"
+    },
+    {
+      "file": "game005-island/r3-2/review/performance.json",
+      "bytes": 15146,
+      "sha256": "7d827b0f184c52d006f3becaa10f3462abf064e2b5703e20f973ec0a073a8f72",
+      "canonicalSha256": "7d827b0f184c52d006f3becaa10f3462abf064e2b5703e20f973ec0a073a8f72"
+    },
+    {
+      "file": "game005-island/r3-2/review/preservation.json",
+      "bytes": 207,
+      "sha256": "e76bc19c6eca174f78d50a070bb5a2c74619cbb14e63665046bbd630b7a13f29",
+      "canonicalSha256": "e76bc19c6eca174f78d50a070bb5a2c74619cbb14e63665046bbd630b7a13f29"
+    },
+    {
+      "file": "game005-island/r3-2/review/processes.json",
+      "bytes": 856,
+      "sha256": "64e38080edafa92bd0fc10482cee96c0b88d350a5c427d308bb7a22b47766789",
+      "canonicalSha256": "c77475b723ccd133c49a3f1487fc3d705ddc22664072498b4980d103d7d57a13"
+    },
+    {
+      "file": "game005-island/r3-2/review/review-desktop.png",
+      "bytes": 401706,
+      "sha256": "0ebe61d435562f5e73558b637996fa6f2b066cb11108d2547bb43f5cb8baa4ec",
+      "canonicalSha256": "0ebe61d435562f5e73558b637996fa6f2b066cb11108d2547bb43f5cb8baa4ec"
+    },
+    {
+      "file": "game005-island/r3-2/review/review-qa.json",
+      "bytes": 725,
+      "sha256": "dff7f9a65bec31fc208c6790b6773b6a308ee35a9bd8c534fd4b6f6f0307297e",
+      "canonicalSha256": "dff7f9a65bec31fc208c6790b6773b6a308ee35a9bd8c534fd4b6f6f0307297e"
+    },
+    {
+      "file": "game005-island/r3-2/review/review.css",
+      "bytes": 3136,
+      "sha256": "221cb25688d377627d88645d6712d30226d5c462f130dc095b4f98454dabd3ac",
+      "canonicalSha256": "221cb25688d377627d88645d6712d30226d5c462f130dc095b4f98454dabd3ac"
+    },
+    {
+      "file": "game005-island/r3-2/review/review.js",
+      "bytes": 1699,
+      "sha256": "c892f2ac9d373e35921d2cfd8913895309c06aafe444cfa1b686a61eaa5a3686",
+      "canonicalSha256": "c892f2ac9d373e35921d2cfd8913895309c06aafe444cfa1b686a61eaa5a3686"
+    },
+    {
+      "file": "game005-island/r3-2/review/screens.json",
+      "bytes": 670,
+      "sha256": "6dce07613bb422b37c6ffc6aefa68c8a4af92c7b2e3b022951cf890e8fe20261",
+      "canonicalSha256": "6dce07613bb422b37c6ffc6aefa68c8a4af92c7b2e3b022951cf890e8fe20261"
+    },
+    {
+      "file": "game005-island/r3-2/review/security.json",
+      "bytes": 2189,
+      "sha256": "95aef7e54b72114a45df879c4f1f36704f9e9c2c52f5d291db02570a43f4b3cf",
+      "canonicalSha256": "95aef7e54b72114a45df879c4f1f36704f9e9c2c52f5d291db02570a43f4b3cf"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/build.mjs",
+      "bytes": 669,
+      "sha256": "341e75d19c378c4903934b0ee7b9fd006ee3f9fc8e67efe44af8c62039beb773",
+      "canonicalSha256": "341e75d19c378c4903934b0ee7b9fd006ee3f9fc8e67efe44af8c62039beb773"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/compare-screens.mjs",
+      "bytes": 1609,
+      "sha256": "021918684d15fc143090fb1503b00f6247e151872efd941d710d36cc4219239b",
+      "canonicalSha256": "021918684d15fc143090fb1503b00f6247e151872efd941d710d36cc4219239b"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/final-checks.mjs",
+      "bytes": 2663,
+      "sha256": "015d0fd4fa03eeec7ca9145e67233a634418473b3068c7b66c29f93921619f5b",
+      "canonicalSha256": "015d0fd4fa03eeec7ca9145e67233a634418473b3068c7b66c29f93921619f5b"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/media.mjs",
+      "bytes": 933,
+      "sha256": "6529004c263f6b9561a54c0f1c3b03e16c484aa8c00240082e767f3a7d630111",
+      "canonicalSha256": "6529004c263f6b9561a54c0f1c3b03e16c484aa8c00240082e767f3a7d630111"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/performance.mjs",
+      "bytes": 4440,
+      "sha256": "314b0f85c31e4360189bb47de8f5b2ff6d4457920ba9995c80957e110716dc61",
+      "canonicalSha256": "314b0f85c31e4360189bb47de8f5b2ff6d4457920ba9995c80957e110716dc61"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/play.mjs",
+      "bytes": 4284,
+      "sha256": "49fde0def98d3d6b06d5c81ebd87fa3d8497fb892933040765797eb596bc8578",
+      "canonicalSha256": "49fde0def98d3d6b06d5c81ebd87fa3d8497fb892933040765797eb596bc8578"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/review-data.mjs",
+      "bytes": 370,
+      "sha256": "baa05a471008f76dd93cf744b9eb6c199c6c94f7c21fcb27449b2344b5cf04b2",
+      "canonicalSha256": "baa05a471008f76dd93cf744b9eb6c199c6c94f7c21fcb27449b2344b5cf04b2"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/screens.mjs",
+      "bytes": 1745,
+      "sha256": "1a7c9e5fddd732f6aa99bfdd7d648d5ec4bf2d93d894db6058cdf87a4fdb3722",
+      "canonicalSha256": "1a7c9e5fddd732f6aa99bfdd7d648d5ec4bf2d93d894db6058cdf87a4fdb3722"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/security.mjs",
+      "bytes": 2426,
+      "sha256": "d4210d9b3da8616b573c8bda43552d12a2c6623f8a1ec166ef9474f755e924e0",
+      "canonicalSha256": "d4210d9b3da8616b573c8bda43552d12a2c6623f8a1ec166ef9474f755e924e0"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/server.mjs",
+      "bytes": 1736,
+      "sha256": "85b90d6fcb565e00cacda72a60a9dbb27cac7072570040d481c2939f340f067f",
+      "canonicalSha256": "85b90d6fcb565e00cacda72a60a9dbb27cac7072570040d481c2939f340f067f"
+    },
+    {
+      "file": "game005-island/r3-2/scripts/stop.ps1",
+      "bytes": 1074,
+      "sha256": "4c6edbe41dec37704c3b614a91d73b622d6c5554e2ab36fc5164e05651acc490",
+      "canonicalSha256": "80fdacb4bbe6821fd53fbf4996133ee3cd58cd7d27a168b8619719f5745f08ff"
+    },
+    {
+      "file": "game005-island/r3-2/src/game.ts",
+      "bytes": 30374,
+      "sha256": "9e6ada9539f51e776131235f705b8bf4638c6a3ec99c906b9c2141cab04f668f",
+      "canonicalSha256": "9e6ada9539f51e776131235f705b8bf4638c6a3ec99c906b9c2141cab04f668f"
+    },
+    {
+      "file": "game005-island/r3-2/src/gold.css",
+      "bytes": 18510,
+      "sha256": "b1cdf0f33df56bffdf77bf9db18c6b562692723434886d31e3da9b598aad0945",
+      "canonicalSha256": "b1cdf0f33df56bffdf77bf9db18c6b562692723434886d31e3da9b598aad0945"
+    },
+    {
+      "file": "game005-island/r3-2/src/live.css",
+      "bytes": 3812,
+      "sha256": "9a3857bca1aefddcd87617517af70384c890617ae8d818a9a56682c3b310acbd",
+      "canonicalSha256": "8fa0720a30bd1e458b7ee364b7c66c04c47142a31de6eb87e9191638a2cba2fc"
+    },
+    {
+      "file": "game005-island/r3-2/src/save-key.ts",
+      "bytes": 146,
+      "sha256": "064ee55622310b0210fd22ee9156fbaaa196670da2c479533df7169444a06276",
+      "canonicalSha256": "064ee55622310b0210fd22ee9156fbaaa196670da2c479533df7169444a06276"
+    },
+    {
+      "file": "game005-island/r3-2/src/storage.ts",
+      "bytes": 1596,
+      "sha256": "7068a2ba9695d9f4132b04e219b0151392a539975013dda3c5d0f221c58d0fc9",
+      "canonicalSha256": "7068a2ba9695d9f4132b04e219b0151392a539975013dda3c5d0f221c58d0fc9"
+    },
+    {
+      "file": "game005-island/r3-2/tests/audit-regressions.mjs",
+      "bytes": 4632,
+      "sha256": "d831b1d6a1b93b272ac64c234c27f27279bb4ef745b9e512ba4f754d21cf74f2",
+      "canonicalSha256": "d831b1d6a1b93b272ac64c234c27f27279bb4ef745b9e512ba4f754d21cf74f2"
+    },
+    {
+      "file": "game005-island/r3-2/tests/browser.mjs",
+      "bytes": 14352,
+      "sha256": "97d7960ec7a5194b0214e5a35dcda3ea0f9aa818f2240c5f99e8893fe885c41b",
+      "canonicalSha256": "97d7960ec7a5194b0214e5a35dcda3ea0f9aa818f2240c5f99e8893fe885c41b"
+    },
+    {
+      "file": "game005-island/r3-2/tests/review.mjs",
+      "bytes": 3031,
+      "sha256": "e8e5469b619e26eccceae2f5dd94ee326e2bee81958371e332fb4e86cfc7f2f6",
+      "canonicalSha256": "e8e5469b619e26eccceae2f5dd94ee326e2bee81958371e332fb4e86cfc7f2f6"
+    },
+    {
+      "file": "game005-island/r3-2/tsconfig.json",
+      "bytes": 229,
+      "sha256": "df891c0cd615da3b3e9178f68e697a8de114cea2074ffc09b805cfb6516343bd",
+      "canonicalSha256": "df891c0cd615da3b3e9178f68e697a8de114cea2074ffc09b805cfb6516343bd"
+    },
+    {
+      "file": "game005-island/r3/review/RESEARCH.md",
+      "bytes": 10922,
+      "sha256": "836e5eb8e83197afa4d79e0c09c38b7bec6036267f197f62e989aeb4795c61ae",
+      "canonicalSha256": "73b68f9ca96b05e25ef41474cc93b6444ec7d659df2a3923788a74764e95fa73"
+    }
+  ],
+  "existingDependencies": [
+    {
+      "file": "package.json",
+      "canonicalSha256": "259c9233b6b7a14957d7c44e7618cc23566f41fa1b5615f9a5cdd35d00359717"
+    },
+    {
+      "file": "package-lock.json",
+      "canonicalSha256": "35ca6f7c7223479340bd9565f88f5daca26a5c1bff1843d161d73dec8eba47c5"
+    }
+  ],
+  "derivedDistribution": [
+    {
+      "directory": "dist",
+      "file": "assets/bridge-BKetEhnw.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302",
+      "canonicalSha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "directory": "dist",
+      "file": "assets/dock-BZp_GcK3.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f",
+      "canonicalSha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "directory": "dist",
+      "file": "assets/house-DUowNtYr.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b",
+      "canonicalSha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "directory": "dist",
+      "file": "assets/index-DJ3tXZcL.css",
+      "bytes": 21820,
+      "sha256": "3a49b9a1e84ea2544d8c9474d59c23ad3939fde7bea590ce10dd9a94889d14f6",
+      "canonicalSha256": "3a49b9a1e84ea2544d8c9474d59c23ad3939fde7bea590ce10dd9a94889d14f6"
+    },
+    {
+      "directory": "dist",
+      "file": "assets/index-KjcRt4_s.js",
+      "bytes": 632948,
+      "sha256": "07b3dd98fcc1424a079625627775d4de06a4c80823e5b2c7de3008b08360fc25",
+      "canonicalSha256": "07b3dd98fcc1424a079625627775d4de06a4c80823e5b2c7de3008b08360fc25"
+    },
+    {
+      "directory": "dist",
+      "file": "assets/lumber-CmLHj2ea.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5",
+      "canonicalSha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "directory": "dist",
+      "file": "assets/market-C6t55qk3.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593",
+      "canonicalSha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "directory": "dist",
+      "file": "index.html",
+      "bytes": 591,
+      "sha256": "bd4681f3dde76b38c0dfebf7acb278e95122cdd2713bd40d9f73a8829e53acf8",
+      "canonicalSha256": "bd4681f3dde76b38c0dfebf7acb278e95122cdd2713bd40d9f73a8829e53acf8"
+    },
+    {
+      "directory": "dist",
+      "file": "THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "canonicalSha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/bridge-BKetEhnw.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302",
+      "canonicalSha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/dock-BZp_GcK3.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f",
+      "canonicalSha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/house-DUowNtYr.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b",
+      "canonicalSha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/index-Bp3iqJeL.js",
+      "bytes": 634030,
+      "sha256": "1e8ccd0a5457c17cd794dc84e6765a52fb3d2e97bd7cc1e5012a511bd81d38e9",
+      "canonicalSha256": "1e8ccd0a5457c17cd794dc84e6765a52fb3d2e97bd7cc1e5012a511bd81d38e9"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/index-DJ3tXZcL.css",
+      "bytes": 21820,
+      "sha256": "3a49b9a1e84ea2544d8c9474d59c23ad3939fde7bea590ce10dd9a94889d14f6",
+      "canonicalSha256": "3a49b9a1e84ea2544d8c9474d59c23ad3939fde7bea590ce10dd9a94889d14f6"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/lumber-CmLHj2ea.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5",
+      "canonicalSha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "assets/market-C6t55qk3.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593",
+      "canonicalSha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "index.html",
+      "bytes": 394,
+      "sha256": "e38c1ff2ab2183759071fb0ba249f21a1f4d431fc744986f62cda182ed6cea18",
+      "canonicalSha256": "e38c1ff2ab2183759071fb0ba249f21a1f4d431fc744986f62cda182ed6cea18"
+    },
+    {
+      "directory": "fixture-dist",
+      "file": "THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "canonicalSha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "directory": "baseline-dist",
+      "file": "assets/index-CYkcLCFj.js",
+      "bytes": 622236,
+      "sha256": "cb68c9db726ce17e13189f2999c78e26a5616705c1934c739200a5f92b70a038",
+      "canonicalSha256": "cb68c9db726ce17e13189f2999c78e26a5616705c1934c739200a5f92b70a038"
+    },
+    {
+      "directory": "baseline-dist",
+      "file": "assets/index-Zsl3Z7wX.css",
+      "bytes": 5803,
+      "sha256": "c01514e1d1253f5a3cdcf2f2c1623614a19ffa68d3dc937d49ae202880093f94",
+      "canonicalSha256": "c01514e1d1253f5a3cdcf2f2c1623614a19ffa68d3dc937d49ae202880093f94"
+    },
+    {
+      "directory": "baseline-dist",
+      "file": "index.html",
+      "bytes": 390,
+      "sha256": "bbb1872910b1cba9a2852e9f3e49345f289e19650ce50b8d11f3ec47a60cd960",
+      "canonicalSha256": "bbb1872910b1cba9a2852e9f3e49345f289e19650ce50b8d11f3ec47a60cd960"
+    },
+    {
+      "directory": "baseline-dist",
+      "file": "THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "canonicalSha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    }
+  ]
+}

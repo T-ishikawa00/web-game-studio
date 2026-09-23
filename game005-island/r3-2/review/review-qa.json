@@ -1,0 +1,39 @@
+{
+  "at": "2026-09-23T06:59:44.537Z",
+  "results": [
+    {
+      "name": "responsive comparison 1440x1000",
+      "status": "PASS"
+    },
+    {
+      "name": "responsive comparison 390x844",
+      "status": "PASS"
+    },
+    {
+      "name": "responsive comparison 360x640",
+      "status": "PASS"
+    },
+    {
+      "name": "full-loop-market.webm",
+      "status": "PASS",
+      "duration": 156.12
+    },
+    {
+      "name": "full-loop-house.webm",
+      "status": "PASS",
+      "duration": 147.12
+    },
+    {
+      "name": "construction-20s.webm",
+      "status": "PASS",
+      "duration": 20
+    },
+    {
+      "name": "review links",
+      "status": "PASS",
+      "count": 22
+    }
+  ],
+  "errors": [],
+  "external": []
+}

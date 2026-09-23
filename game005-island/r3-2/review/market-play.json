@@ -1,0 +1,1520 @@
+{
+  "at": "2026-09-23T06:50:42.102Z",
+  "route": "market",
+  "mobile": false,
+  "record": true,
+  "elapsedSeconds": 155.409,
+  "individualAssignmentClicks": 0,
+  "clicks": 24,
+  "trace": [
+    {
+      "seconds": 0.967,
+      "click": "#catalog"
+    },
+    {
+      "seconds": 1.044,
+      "click": "#site-dock"
+    },
+    {
+      "seconds": 1.325,
+      "click": "#start-build"
+    },
+    {
+      "seconds": 1.402,
+      "action": "repair requested",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 2,
+        "coins": 4,
+        "dock": false,
+        "lumber": false,
+        "house": false,
+        "market": null,
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": {
+          "kind": "dock",
+          "plot": "coast",
+          "work": 0
+        },
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": -2.0657246093502097,
+            "z": 0.7352375217027658,
+            "angle": -1.6262948320406132,
+            "phase": "walk",
+            "route": [
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              0,
+              0.85
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": -2.0657246093502097,
+            "z": 0.7352375217027658,
+            "angle": -1.6262948320406132,
+            "phase": "walk",
+            "route": [
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              0,
+              0.85
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 1.0888999999999995
+      }
+    },
+    {
+      "seconds": 15.472,
+      "wait": "jetty",
+      "durationSeconds": 10.446
+    },
+    {
+      "seconds": 15.472,
+      "action": "jetty completed automatically",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 2,
+        "coins": 4,
+        "dock": true,
+        "lumber": false,
+        "house": false,
+        "market": null,
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "idle",
+            "x": 3.05,
+            "z": 4.15,
+            "angle": 0.9048270894157073,
+            "phase": "walk",
+            "route": [
+              [
+                3.05,
+                4.15
+              ],
+              [
+                2.35,
+                3.6
+              ],
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              3.05,
+              4.15
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "idle",
+            "x": 3.05,
+            "z": 4.15,
+            "angle": 0.9048270894157073,
+            "phase": "walk",
+            "route": [
+              [
+                3.05,
+                4.15
+              ],
+              [
+                2.35,
+                3.6
+              ],
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              3.05,
+              4.15
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 15.177900000000205
+      }
+    },
+    {
+      "seconds": 15.476,
+      "click": "#site-lumber"
+    },
+    {
+      "seconds": 15.506,
+      "click": "#start-build"
+    },
+    {
+      "seconds": 15.541,
+      "action": "request lumber",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 0,
+        "coins": 2,
+        "dock": true,
+        "lumber": false,
+        "house": false,
+        "market": null,
+        "expanded": false,
+        "plan": {
+          "kind": "lumber",
+          "plot": "coast",
+          "wood": 2
+        },
+        "priority": "construction",
+        "project": null,
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": 2.90896594274881,
+            "z": 4.039187526445497,
+            "angle": -2.2367655641740103,
+            "phase": "walk",
+            "route": [
+              [
+                2.35,
+                3.6
+              ],
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ],
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              3.05,
+              4.15
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": 2.90896594274881,
+            "z": 4.039187526445497,
+            "angle": -2.2367655641740103,
+            "phase": "walk",
+            "route": [
+              [
+                2.35,
+                3.6
+              ],
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ],
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              3.05,
+              4.15
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 15.272300000000213
+      }
+    },
+    {
+      "seconds": 34.813,
+      "wait": "lumber completion",
+      "durationSeconds": 16.354
+    },
+    {
+      "seconds": 34.814,
+      "action": "complete lumber",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 0,
+        "coins": 2,
+        "dock": true,
+        "lumber": true,
+        "house": false,
+        "market": null,
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "idle",
+            "x": -3.5,
+            "z": 2.65,
+            "angle": -1.5707963267948966,
+            "phase": "walk",
+            "route": [
+              [
+                -3.5,
+                2.65
+              ],
+              [
+                -2.35,
+                2.65
+              ],
+              [
+                -2.35,
+                0.85
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              -3.5,
+              2.65
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "idle",
+            "x": -3.5,
+            "z": 2.65,
+            "angle": -1.5707963267948966,
+            "phase": "walk",
+            "route": [
+              [
+                -3.5,
+                2.65
+              ],
+              [
+                -2.35,
+                2.65
+              ],
+              [
+                -2.35,
+                0.85
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              -3.5,
+              2.65
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 34.41680000000087
+      }
+    },
+    {
+      "seconds": 42.147,
+      "wait": "shipping stock",
+      "durationSeconds": 7.331
+    },
+    {
+      "seconds": 42.15,
+      "click": "#site-dock"
+    },
+    {
+      "seconds": 42.184,
+      "click": "#sell"
+    },
+    {
+      "seconds": 42.219,
+      "action": "explicit shipment",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 0,
+        "coins": 2,
+        "dock": true,
+        "lumber": true,
+        "house": false,
+        "market": null,
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": 0,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": -3.4340995284486246,
+            "z": -0.16426325054887245,
+            "angle": -2.25652583770119,
+            "phase": "walk",
+            "route": [
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              -3.05,
+              0.15
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": -3.4340995284486246,
+            "z": -0.16426325054887245,
+            "angle": -2.25652583770119,
+            "phase": "walk",
+            "route": [
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              -3.05,
+              0.15
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 41.950200000001345
+      }
+    },
+    {
+      "seconds": 53.653,
+      "wait": "arrival and payment",
+      "durationSeconds": 11.432
+    },
+    {
+      "seconds": 53.656,
+      "click": "#site-market"
+    },
+    {
+      "seconds": 53.69,
+      "click": "#start-build"
+    },
+    {
+      "seconds": 53.725,
+      "click": "#plot-coast"
+    },
+    {
+      "seconds": 53.894,
+      "click": "#place-confirm"
+    },
+    {
+      "seconds": 53.932,
+      "action": "request market",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 0,
+        "coins": 0,
+        "dock": true,
+        "lumber": true,
+        "house": false,
+        "market": null,
+        "expanded": false,
+        "plan": {
+          "kind": "market",
+          "plot": "coast",
+          "wood": 8
+        },
+        "priority": "construction",
+        "project": null,
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": -3.5183862027990083,
+            "z": -0.23322507501737155,
+            "angle": 0.8850668158886092,
+            "phase": "deliver",
+            "route": [
+              [
+                -3.05,
+                0.15
+              ]
+            ],
+            "anchor": [
+              -3.6,
+              -0.3
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": 2.9432418634655266,
+            "z": 4.0661186070086295,
+            "angle": -2.2367655641740076,
+            "phase": "walk",
+            "route": [
+              [
+                2.35,
+                3.6
+              ],
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ],
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              3.05,
+              4.15
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 53.66130000000195
+      }
+    },
+    {
+      "seconds": 69.726,
+      "wait": "market completion",
+      "durationSeconds": 12.865
+    },
+    {
+      "seconds": 69.728,
+      "action": "complete market",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 0,
+        "coins": 0,
+        "dock": true,
+        "lumber": true,
+        "house": false,
+        "market": "coast",
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "idle",
+            "x": 2.8,
+            "z": 2.15,
+            "angle": 1.687905071361761,
+            "phase": "walk",
+            "route": [
+              [
+                2.8,
+                2.15
+              ],
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              2.8,
+              2.15
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "idle",
+            "x": 2.7892441789551885,
+            "z": 2.151265390711154,
+            "angle": -1.4536875822280322,
+            "phase": "walk",
+            "route": [
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              2.8,
+              2.15
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 69.4058999999999
+      }
+    },
+    {
+      "seconds": 76.063,
+      "wait": "shipping stock",
+      "durationSeconds": 6.333
+    },
+    {
+      "seconds": 76.065,
+      "click": "#site-dock"
+    },
+    {
+      "seconds": 76.093,
+      "click": "#sell"
+    },
+    {
+      "seconds": 76.124,
+      "action": "explicit shipment",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 0,
+        "coins": 0,
+        "dock": true,
+        "lumber": true,
+        "house": false,
+        "market": "coast",
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": 0,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": -3.188964033071959,
+            "z": 0.03630215475930835,
+            "angle": -2.256525837701185,
+            "phase": "walk",
+            "route": [
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              -3.05,
+              0.15
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": -3.1970518868486337,
+            "z": 0.029684819851119926,
+            "angle": -2.2565258377011856,
+            "phase": "walk",
+            "route": [
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              -3.05,
+              0.15
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 75.85589999999615
+      }
+    },
+    {
+      "seconds": 89.374,
+      "wait": "arrival and payment",
+      "durationSeconds": 13.249
+    },
+    {
+      "seconds": 89.375,
+      "wait": "shipping stock",
+      "durationSeconds": 0.001
+    },
+    {
+      "seconds": 89.377,
+      "click": "#site-dock"
+    },
+    {
+      "seconds": 89.41,
+      "click": "#sell"
+    },
+    {
+      "seconds": 89.44,
+      "action": "explicit shipment",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 6,
+        "coins": 8,
+        "dock": true,
+        "lumber": true,
+        "house": false,
+        "market": "coast",
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": 0,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": -3.6,
+            "z": -0.3,
+            "angle": -2.2565258377011714,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              -3.6,
+              -0.3
+            ],
+            "clock": 0.7331999999999966
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": 3.4754634431477527,
+            "z": 4.4826350555518815,
+            "angle": -2.2343520531724304,
+            "phase": "walk",
+            "route": [
+              [
+                3.05,
+                4.15
+              ],
+              [
+                2.35,
+                3.6
+              ],
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ],
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              3.6,
+              4.58
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 89.17249999998815
+      }
+    },
+    {
+      "seconds": 103.788,
+      "wait": "arrival and payment",
+      "durationSeconds": 14.347
+    },
+    {
+      "seconds": 103.79,
+      "click": "#site-house"
+    },
+    {
+      "seconds": 103.823,
+      "click": "#start-build"
+    },
+    {
+      "seconds": 103.852,
+      "action": "request house",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 2,
+        "coins": 6,
+        "dock": true,
+        "lumber": true,
+        "house": false,
+        "market": "coast",
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": {
+          "kind": "house",
+          "plot": "coast",
+          "work": 0
+        },
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": 3.2840184236597447,
+            "z": 4.332959858497624,
+            "angle": -2.23435205317244,
+            "phase": "walk",
+            "route": [
+              [
+                3.05,
+                4.15
+              ],
+              [
+                2.35,
+                3.6
+              ],
+              [
+                1.1,
+                2.35
+              ],
+              [
+                0,
+                0.85
+              ],
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              3.6,
+              4.58
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": -3.207665565887844,
+            "z": 0.02100090063721636,
+            "angle": 0.8850668158886025,
+            "phase": "deliver",
+            "route": [
+              [
+                -3.05,
+                0.15
+              ]
+            ],
+            "anchor": [
+              -3.6,
+              -0.3
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 103.58379999997965
+      }
+    },
+    {
+      "seconds": 119.209,
+      "wait": "house completion",
+      "durationSeconds": 12.44
+    },
+    {
+      "seconds": 119.21,
+      "action": "complete house",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 4,
+        "coins": 6,
+        "dock": true,
+        "lumber": true,
+        "house": true,
+        "market": "coast",
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "idle",
+            "x": -0.85,
+            "z": 0.66,
+            "angle": -1.790710602037471,
+            "phase": "walk",
+            "route": [
+              [
+                -0.85,
+                0.66
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              -0.85,
+              0.66
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "idle",
+            "x": -0.8396162521275337,
+            "z": 0.6623210730538455,
+            "angle": 1.3508820515522728,
+            "phase": "walk",
+            "route": [
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              -0.85,
+              0.66
+            ],
+            "clock": 0
+          },
+          {
+            "id": 2,
+            "job": "idle",
+            "x": 0,
+            "z": 0.85,
+            "angle": 0,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              0,
+              0.85
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 118.91709999997072
+      }
+    },
+    {
+      "seconds": 119.214,
+      "wait": "shipping stock",
+      "durationSeconds": 0.003
+    },
+    {
+      "seconds": 119.217,
+      "click": "#site-dock"
+    },
+    {
+      "seconds": 119.248,
+      "click": "#sell"
+    },
+    {
+      "seconds": 119.28,
+      "action": "explicit shipment",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 0,
+        "coins": 6,
+        "dock": true,
+        "lumber": true,
+        "house": true,
+        "market": "coast",
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": 0,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": -0.6747742546523129,
+            "z": 0.6991681077836006,
+            "angle": 1.3508820515522728,
+            "phase": "walk",
+            "route": [
+              [
+                0,
+                0.85
+              ],
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              -0.85,
+              0.66
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": -0.6643905067798466,
+            "z": 0.701489180837446,
+            "angle": 1.3508820515522728,
+            "phase": "walk",
+            "route": [
+              [
+                0,
+                0.85
+              ],
+              [
+                -3.6,
+                0.65
+              ],
+              [
+                -3.6,
+                -0.3
+              ]
+            ],
+            "anchor": [
+              -0.85,
+              0.66
+            ],
+            "clock": 0
+          },
+          {
+            "id": 2,
+            "job": "idle",
+            "x": 0,
+            "z": 0.85,
+            "angle": 0,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              0,
+              0.85
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 119.01159999997066
+      }
+    },
+    {
+      "seconds": 129.88,
+      "wait": "arrival and payment",
+      "durationSeconds": 10.6
+    },
+    {
+      "seconds": 129.881,
+      "wait": "shipping stock",
+      "durationSeconds": 0
+    },
+    {
+      "seconds": 129.883,
+      "click": "#site-dock"
+    },
+    {
+      "seconds": 129.91,
+      "click": "#sell"
+    },
+    {
+      "seconds": 129.94,
+      "action": "explicit shipment",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 8,
+        "coins": 14,
+        "dock": true,
+        "lumber": true,
+        "house": true,
+        "market": "coast",
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": 0,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "wood",
+            "x": -3.6,
+            "z": -0.3,
+            "angle": -2.256525837701219,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              -3.6,
+              -0.3
+            ],
+            "clock": 0.5111000000000061
+          },
+          {
+            "id": 1,
+            "job": "wood",
+            "x": -3.6,
+            "z": -0.3,
+            "angle": -2.2565258377012065,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              -3.6,
+              -0.3
+            ],
+            "clock": 0.5333000000000032
+          },
+          {
+            "id": 2,
+            "job": "idle",
+            "x": 3.6,
+            "z": 4.58,
+            "angle": 0,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              3.6,
+              4.58
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 129.67269999996725
+      }
+    },
+    {
+      "seconds": 141.363,
+      "wait": "arrival and payment",
+      "durationSeconds": 11.422
+    },
+    {
+      "seconds": 141.365,
+      "click": "#site-expansion"
+    },
+    {
+      "seconds": 141.393,
+      "click": "#start-build"
+    },
+    {
+      "seconds": 141.423,
+      "action": "request expansion",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 10,
+        "coins": 4,
+        "dock": true,
+        "lumber": true,
+        "house": true,
+        "market": "coast",
+        "expanded": false,
+        "plan": null,
+        "priority": "construction",
+        "project": {
+          "kind": "expansion",
+          "plot": "coast",
+          "work": 0
+        },
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "idle",
+            "x": -3.05,
+            "z": 0.15,
+            "angle": 0.8850668158886391,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              -3.05,
+              0.15
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "idle",
+            "x": -0.41708811684474245,
+            "z": 0.8268284379530702,
+            "angle": 1.5152978215491804,
+            "phase": "walk",
+            "route": [
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              -3.6,
+              0.65
+            ],
+            "clock": 0
+          },
+          {
+            "id": 2,
+            "job": "idle",
+            "x": 3.6,
+            "z": 4.58,
+            "angle": 0,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              3.6,
+              4.58
+            ],
+            "clock": 0
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 141.15609999998682
+      }
+    },
+    {
+      "seconds": 154.525,
+      "wait": "expansion completion",
+      "durationSeconds": 10.19
+    },
+    {
+      "seconds": 154.526,
+      "action": "complete expansion",
+      "state": {
+        "schemaVersion": 2,
+        "wood": 16,
+        "coins": 4,
+        "dock": true,
+        "lumber": true,
+        "house": true,
+        "market": "coast",
+        "expanded": true,
+        "plan": null,
+        "priority": "construction",
+        "project": null,
+        "order": null,
+        "courier": null,
+        "workers": [
+          {
+            "id": 0,
+            "job": "idle",
+            "x": 5,
+            "z": -1.05,
+            "angle": 1.9333405640593746,
+            "phase": "walk",
+            "route": [
+              [
+                5,
+                -1.05
+              ],
+              [
+                3.55,
+                -0.5
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              5,
+              -1.05
+            ],
+            "clock": 0
+          },
+          {
+            "id": 1,
+            "job": "idle",
+            "x": 5,
+            "z": -1.05,
+            "angle": 1.9333405640593881,
+            "phase": "walk",
+            "route": [
+              [
+                5,
+                -1.05
+              ],
+              [
+                3.55,
+                -0.5
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "anchor": [
+              5,
+              -1.05
+            ],
+            "clock": 0
+          },
+          {
+            "id": 2,
+            "job": "wood",
+            "x": -3.6,
+            "z": -0.3,
+            "angle": -2.2565258377012087,
+            "phase": "work",
+            "route": [],
+            "anchor": [
+              -3.6,
+              -0.3
+            ],
+            "clock": 0.5611999999999826
+          }
+        ],
+        "settings": {
+          "lang": "ja",
+          "mute": true,
+          "reduced": false,
+          "low": false
+        },
+        "elapsed": 154.22840000000983
+      }
+    },
+    {
+      "seconds": 154.526,
+      "click": "#panel-close"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "state": {
+    "schemaVersion": 2,
+    "wood": 16,
+    "coins": 4,
+    "dock": true,
+    "lumber": true,
+    "house": true,
+    "market": "coast",
+    "expanded": true,
+    "plan": null,
+    "priority": "construction",
+    "project": null,
+    "order": null,
+    "courier": null,
+    "workers": [
+      {
+        "id": 0,
+        "job": "wood",
+        "x": 3.3914346367293255,
+        "z": -0.43970049565763114,
+        "angle": -1.207403193299666,
+        "phase": "walk",
+        "route": [
+          [
+            0,
+            0.85
+          ],
+          [
+            -3.6,
+            0.65
+          ],
+          [
+            -3.6,
+            -0.3
+          ]
+        ],
+        "anchor": [
+          3.55,
+          -0.5
+        ],
+        "clock": 0
+      },
+      {
+        "id": 1,
+        "job": "idle",
+        "x": 3.3914346367293255,
+        "z": -0.43970049565763114,
+        "angle": -1.207403193299666,
+        "phase": "walk",
+        "route": [
+          [
+            0,
+            0.85
+          ]
+        ],
+        "anchor": [
+          3.55,
+          -0.5
+        ],
+        "clock": 0
+      },
+      {
+        "id": 2,
+        "job": "wood",
+        "x": -3.6,
+        "z": -0.3,
+        "angle": -2.2565258377012087,
+        "phase": "work",
+        "route": [],
+        "anchor": [
+          -3.6,
+          -0.3
+        ],
+        "clock": 1.4666999999999824
+      }
+    ],
+    "settings": {
+      "lang": "ja",
+      "mute": true,
+      "reduced": false,
+      "low": false
+    },
+    "elapsed": 155.13390000001132
+  }
+}

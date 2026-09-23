@@ -1,0 +1,535 @@
+{
+  "at": "2026-09-23T06:57:28.981Z",
+  "method": "Same Windows Edge, sequential isolated contexts, unchanged R2 scene/core, same starting dock/workshop construction state, 1.2s warmup + 7s normal realtime work per cell. UI visible. Controlled camera aligned across versions; no screenshot-only styles. No competing test browser during measurements.",
+  "results": [
+    {
+      "version": "R2",
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "low": false,
+      "screen": "hud",
+      "sampleSeconds": 7.029,
+      "renderedFrames": 421,
+      "frameIntervalP50Ms": 16.699999999999818,
+      "frameIntervalP95Ms": 16.800000000000182,
+      "over50ms": 0,
+      "callbackP50Ms": 0.09999990463256836,
+      "callbackP95Ms": 1.7000000476837158,
+      "scriptMsPerSecond": 88.08137715179969,
+      "taskMsPerSecond": 110.59482145397637,
+      "layoutMsPerSecond": 0.5359226063451414,
+      "recalcStyleMsPerSecond": 0.12775643761559255,
+      "drawCallsMedian": 247,
+      "stats": {
+        "calls": 247,
+        "triangles": 181582,
+        "textures": 3,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        1440,
+        1000
+      ],
+      "heapBytes": 18408029,
+      "finalState": {
+        "elapsed": 8.227899999999877,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 10.866799999999897
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R3.2",
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "low": false,
+      "screen": "hud",
+      "sampleSeconds": 7.022,
+      "renderedFrames": 421,
+      "frameIntervalP50Ms": 16.699999999999818,
+      "frameIntervalP95Ms": 16.800000000000182,
+      "over50ms": 0,
+      "callbackP50Ms": 0.09999990463256836,
+      "callbackP95Ms": 1.7999999523162842,
+      "scriptMsPerSecond": 87.91483907718597,
+      "taskMsPerSecond": 109.1498148675591,
+      "layoutMsPerSecond": 0,
+      "recalcStyleMsPerSecond": 0.029051552264312153,
+      "drawCallsMedian": 247,
+      "stats": {
+        "calls": 247,
+        "triangles": 181582,
+        "textures": 3,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        1424,
+        150
+      ],
+      "heapBytes": 29285789,
+      "finalState": {
+        "elapsed": 8.37229999999989,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.155599999999918
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R2",
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "low": false,
+      "screen": "build",
+      "sampleSeconds": 7.019,
+      "renderedFrames": 420,
+      "frameIntervalP50Ms": 16.699999999999818,
+      "frameIntervalP95Ms": 16.800000000000182,
+      "over50ms": 0,
+      "callbackP50Ms": 0.09999990463256836,
+      "callbackP95Ms": 1.6999999284744263,
+      "scriptMsPerSecond": 76.03604502065821,
+      "taskMsPerSecond": 96.21712494657359,
+      "layoutMsPerSecond": 0.4895284228522574,
+      "recalcStyleMsPerSecond": 0.11483117253169965,
+      "drawCallsMedian": 247,
+      "stats": {
+        "calls": 247,
+        "triangles": 181582,
+        "textures": 3,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        1440,
+        1000
+      ],
+      "heapBytes": 21662675,
+      "finalState": {
+        "elapsed": 8.411099999999893,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.233199999999902
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R3.2",
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "low": false,
+      "screen": "build",
+      "sampleSeconds": 7.014,
+      "renderedFrames": 420,
+      "frameIntervalP50Ms": 16.699999999999818,
+      "frameIntervalP95Ms": 16.799999999999955,
+      "over50ms": 0,
+      "callbackP50Ms": 0.09999990463256836,
+      "callbackP95Ms": 1.7999999523162842,
+      "scriptMsPerSecond": 91.96350156829199,
+      "taskMsPerSecond": 121.99472483604218,
+      "layoutMsPerSecond": 3.7081551183347594,
+      "recalcStyleMsPerSecond": 1.407898488736812,
+      "drawCallsMedian": 249,
+      "stats": {
+        "calls": 249,
+        "triangles": 181838,
+        "textures": 3,
+        "geometries": 132
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        1440,
+        1000
+      ],
+      "heapBytes": 16436833,
+      "finalState": {
+        "elapsed": 8.42219999999989,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.255399999999906
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R2",
+      "name": "mobile-viewport",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "low": false,
+      "screen": "hud",
+      "sampleSeconds": 7.022,
+      "renderedFrames": 420,
+      "frameIntervalP50Ms": 16.699999999999818,
+      "frameIntervalP95Ms": 16.800000000000182,
+      "over50ms": 0,
+      "callbackP50Ms": 0.10000002384185791,
+      "callbackP95Ms": 1.7000000476837158,
+      "scriptMsPerSecond": 88.84648248362289,
+      "taskMsPerSecond": 112.12888066078041,
+      "layoutMsPerSecond": 0.5868698376530902,
+      "recalcStyleMsPerSecond": 0.14041583594417545,
+      "drawCallsMedian": 247,
+      "stats": {
+        "calls": 247,
+        "triangles": 181582,
+        "textures": 3,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        585,
+        1266
+      ],
+      "heapBytes": 32442150,
+      "finalState": {
+        "elapsed": 8.355599999999884,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.122399999999901
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R3.2",
+      "name": "mobile-viewport",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "low": false,
+      "screen": "hud",
+      "sampleSeconds": 7.028,
+      "renderedFrames": 421,
+      "frameIntervalP50Ms": 16.699999999999818,
+      "frameIntervalP95Ms": 16.800000000000182,
+      "over50ms": 0,
+      "callbackP50Ms": 0,
+      "callbackP95Ms": 1.6999999284744263,
+      "scriptMsPerSecond": 84.3874501992032,
+      "taskMsPerSecond": 105.25512236767217,
+      "layoutMsPerSecond": 0,
+      "recalcStyleMsPerSecond": 0.03457598178713716,
+      "drawCallsMedian": 247,
+      "stats": {
+        "calls": 247,
+        "triangles": 181582,
+        "textures": 3,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        585,
+        1266
+      ],
+      "heapBytes": 29729041,
+      "finalState": {
+        "elapsed": 8.355599999999885,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.122399999999887
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R2",
+      "name": "mobile-viewport",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "low": false,
+      "screen": "build",
+      "sampleSeconds": 7.019,
+      "renderedFrames": 421,
+      "frameIntervalP50Ms": 16.699999999999818,
+      "frameIntervalP95Ms": 16.800000000000182,
+      "over50ms": 0,
+      "callbackP50Ms": 0.09999990463256836,
+      "callbackP95Ms": 1,
+      "scriptMsPerSecond": 54.34919504202879,
+      "taskMsPerSecond": 72.56461034335375,
+      "layoutMsPerSecond": 0.3796837156290071,
+      "recalcStyleMsPerSecond": 0.09816213135774327,
+      "drawCallsMedian": 247,
+      "stats": {
+        "calls": 247,
+        "triangles": 181582,
+        "textures": 3,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        585,
+        1266
+      ],
+      "heapBytes": 29706852,
+      "finalState": {
+        "elapsed": 8.416799999999874,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.244599999999895
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R3.2",
+      "name": "mobile-viewport",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "low": false,
+      "screen": "build",
+      "sampleSeconds": 7.009,
+      "renderedFrames": 420,
+      "frameIntervalP50Ms": 16.699999999999818,
+      "frameIntervalP95Ms": 16.799999999999727,
+      "over50ms": 0,
+      "callbackP50Ms": 0,
+      "callbackP95Ms": 0.9000000953674316,
+      "scriptMsPerSecond": 55.62020259666143,
+      "taskMsPerSecond": 76.5896704237409,
+      "layoutMsPerSecond": 2.009416464545585,
+      "recalcStyleMsPerSecond": 0.8557568840062776,
+      "drawCallsMedian": 249,
+      "stats": {
+        "calls": 249,
+        "triangles": 181838,
+        "textures": 3,
+        "geometries": 132
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        585,
+        1266
+      ],
+      "heapBytes": 21171133,
+      "finalState": {
+        "elapsed": 8.416699999999881,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.244599999999895
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R2",
+      "name": "mobile-low",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "low": true,
+      "screen": "hud",
+      "sampleSeconds": 7.011,
+      "renderedFrames": 211,
+      "frameIntervalP50Ms": 33.30000000000018,
+      "frameIntervalP95Ms": 33.400000000000546,
+      "over50ms": 0,
+      "callbackP50Ms": 0,
+      "callbackP95Ms": 1.2000000476837158,
+      "scriptMsPerSecond": 33.92882613036657,
+      "taskMsPerSecond": 52.54157752103837,
+      "layoutMsPerSecond": 0.5012123805448585,
+      "recalcStyleMsPerSecond": 0.12309228355441447,
+      "drawCallsMedian": 131,
+      "stats": {
+        "calls": 131,
+        "triangles": 109144,
+        "textures": 1,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        390,
+        844
+      ],
+      "heapBytes": 28528397,
+      "finalState": {
+        "elapsed": 8.266699999999883,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 10.944399999999886
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R3.2",
+      "name": "mobile-low",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "low": true,
+      "screen": "hud",
+      "sampleSeconds": 7.018,
+      "renderedFrames": 210,
+      "frameIntervalP50Ms": 33.30000000000018,
+      "frameIntervalP95Ms": 33.400000000000546,
+      "over50ms": 0,
+      "callbackP50Ms": 0,
+      "callbackP95Ms": 1.2999999523162842,
+      "scriptMsPerSecond": 41.162439441436305,
+      "taskMsPerSecond": 63.58264462809916,
+      "layoutMsPerSecond": 0,
+      "recalcStyleMsPerSecond": 0.0418922770019949,
+      "drawCallsMedian": 131,
+      "stats": {
+        "calls": 131,
+        "triangles": 109144,
+        "textures": 1,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        390,
+        844
+      ],
+      "heapBytes": 32778296,
+      "finalState": {
+        "elapsed": 8.36119999999989,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.133399999999902
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R2",
+      "name": "mobile-low",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "low": true,
+      "screen": "build",
+      "sampleSeconds": 7.026,
+      "renderedFrames": 210,
+      "frameIntervalP50Ms": 33.30000000000018,
+      "frameIntervalP95Ms": 33.400000000000546,
+      "over50ms": 0,
+      "callbackP50Ms": 0,
+      "callbackP95Ms": 1.399999976158142,
+      "scriptMsPerSecond": 45.60204953031597,
+      "taskMsPerSecond": 68.95288926843153,
+      "layoutMsPerSecond": 0.6232564759464847,
+      "recalcStyleMsPerSecond": 0.14503273555365784,
+      "drawCallsMedian": 131,
+      "stats": {
+        "calls": 131,
+        "triangles": 109144,
+        "textures": 1,
+        "geometries": 131
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        390,
+        844
+      ],
+      "heapBytes": 27980991,
+      "finalState": {
+        "elapsed": 8.422299999999886,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.255599999999921
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    },
+    {
+      "version": "R3.2",
+      "name": "mobile-low",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "low": true,
+      "screen": "build",
+      "sampleSeconds": 7.018,
+      "renderedFrames": 210,
+      "frameIntervalP50Ms": 33.30000000000018,
+      "frameIntervalP95Ms": 33.400000000000546,
+      "over50ms": 0,
+      "callbackP50Ms": 0,
+      "callbackP95Ms": 1.5,
+      "scriptMsPerSecond": 43.4861783984041,
+      "taskMsPerSecond": 70.4363066400684,
+      "layoutMsPerSecond": 3.5299230550014253,
+      "recalcStyleMsPerSecond": 1.5514391564548302,
+      "drawCallsMedian": 133,
+      "stats": {
+        "calls": 133,
+        "triangles": 109400,
+        "textures": 1,
+        "geometries": 132
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Ti (0x00002803) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buffer": [
+        390,
+        844
+      ],
+      "heapBytes": 29316159,
+      "finalState": {
+        "elapsed": 8.427899999999884,
+        "project": {
+          "kind": "lumber",
+          "plot": "coast",
+          "work": 11.2667999999999
+        },
+        "lumber": false,
+        "wood": 4,
+        "coins": 6
+      }
+    }
+  ],
+  "limits": "Single sample window per cell; no statistical population guarantee. CPU callback time includes WebGL command submission, not GPU elapsed time. CDP metrics are browser main-thread metrics. Mobile sizes/DPR are desktop emulation. Physical-phone performance/heat/battery and GPU memory/time NOT MEASURED."
+}

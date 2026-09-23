@@ -1,0 +1,91 @@
+{
+  "at": "2026-09-23T07:00:56.096Z",
+  "scans": [
+    {
+      "target": "game005-island/r3-2",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "target": "game005-island/r3-2/dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "target": "game005-island/r3-2/fixture-dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "target": "game005-island/r3-2/baseline-dist",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "target": "game005-island/r3-2/review",
+      "status": "PASS",
+      "findings": []
+    }
+  ],
+  "newCandidates": 0,
+  "previousFullProject": {
+    "scope": "Prior R2 full/index/history scan reused for protected unchanged artifacts/index/history. R3.2 scoped scans executed now, not a new full-project PASS. No Git operation authorized or performed.",
+    "rawStatus": "FAIL",
+    "knownFindings": 6,
+    "oldDispositionNotExtended": true
+  },
+  "indexEmpty": true,
+  "scannerConfigChanged": false,
+  "distribution": {
+    "files": [
+      {
+        "file": "dist/assets/bridge-BKetEhnw.png",
+        "bytes": 8829,
+        "gzipBytes": 7779
+      },
+      {
+        "file": "dist/assets/dock-BZp_GcK3.png",
+        "bytes": 19841,
+        "gzipBytes": 19282
+      },
+      {
+        "file": "dist/assets/house-DUowNtYr.png",
+        "bytes": 56437,
+        "gzipBytes": 55906
+      },
+      {
+        "file": "dist/assets/index-DJ3tXZcL.css",
+        "bytes": 21820,
+        "gzipBytes": 5308
+      },
+      {
+        "file": "dist/assets/index-KjcRt4_s.js",
+        "bytes": 632948,
+        "gzipBytes": 167225
+      },
+      {
+        "file": "dist/assets/lumber-CmLHj2ea.png",
+        "bytes": 20324,
+        "gzipBytes": 19748
+      },
+      {
+        "file": "dist/assets/market-C6t55qk3.png",
+        "bytes": 16123,
+        "gzipBytes": 15745
+      },
+      {
+        "file": "dist/index.html",
+        "bytes": 591,
+        "gzipBytes": 427
+      },
+      {
+        "file": "dist/THREE-LICENSE.txt",
+        "bytes": 1081,
+        "gzipBytes": 667
+      }
+    ],
+    "bytes": 777994,
+    "gzipBytes": 292087
+  },
+  "limits": "Binary images/video not OCR scanned; no absolute absence guarantee."
+}

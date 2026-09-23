@@ -1,0 +1,37 @@
+{
+  "at": "2026-09-23T06:58:04.683Z",
+  "results": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "lang": "ja"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "lang": "ja"
+    },
+    {
+      "name": "small",
+      "width": 360,
+      "height": 640,
+      "lang": "ja"
+    },
+    {
+      "name": "mobile-en",
+      "width": 390,
+      "height": 844,
+      "lang": "en"
+    },
+    {
+      "name": "landscape",
+      "width": 844,
+      "height": 390,
+      "lang": "en"
+    }
+  ],
+  "errors": [],
+  "scope": "Ordinary live route, fresh island with idle/gathering workers, no screenshot-only styles."
+}

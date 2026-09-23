@@ -1,0 +1,60 @@
+{
+  "at": "2026-09-23T07:23:23.689Z",
+  "runtimeChanges": 0,
+  "sourceInputs": 133,
+  "byteExactRebuiltOutputs": 22,
+  "humanAcceptance": {
+    "status": "PASS",
+    "source": "Explicit Human trial and acceptance of R3.2 in current task",
+    "notAutomationDerived": true
+  },
+  "reused": [
+    {
+      "file": "game005-island/r3-2/review/core-test.txt",
+      "scope": "Original R2 core 11 tests"
+    },
+    {
+      "file": "game005-island/r3-2/review/browser-qa.json",
+      "scope": "14 integration groups"
+    },
+    {
+      "file": "game005-island/r3-2/review/audit-regressions.json",
+      "scope": "3 corrected audit groups"
+    },
+    {
+      "file": "game005-island/r3-2/review/review-qa.json",
+      "scope": "7 Review groups"
+    },
+    {
+      "file": "game005-island/r3-2/review/performance.json",
+      "scope": "Windows Edge/RTX4060Ti; not physical mobile"
+    },
+    {
+      "file": "game005-island/r3-2/review/market-play.json",
+      "scope": "155.409s / 24 operations / 0 individual assignments"
+    },
+    {
+      "file": "game005-island/r3-2/review/house-play.json",
+      "scope": "146.553s / 24 operations / 0 individual assignments; viewport touch emulation"
+    }
+  ],
+  "newChecks": [
+    "frozen source/evidence hashing",
+    "isolated byte-exact reproduction",
+    "explicit staged scope",
+    "full-project/index/history Security",
+    "known disposition provenance",
+    "TLS isolation",
+    "refs and preservation"
+  ],
+  "notRerun": "Runtime and public products unchanged; no further all-game play, visual/video refresh or performance loop required.",
+  "unverified": [
+    "physical iPhone performance",
+    "Safari",
+    "App Store suitability",
+    "external first use",
+    "marketability",
+    "long-term retention"
+  ],
+  "actualModel": "gpt-6-astra"
+}

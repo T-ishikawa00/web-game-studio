@@ -1,0 +1,117 @@
+{
+  "at": "2026-09-23T03:03:14.648Z",
+  "rawFullProject": {
+    "status": "FAIL",
+    "findings": [
+      {
+        "file": ".tmp/consent-r1/before.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/consent-r1/before.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/physical-mobile-r2/tls/server.key",
+        "type": "private-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/provider-human-update/before.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/r3-before/manifest.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      },
+      {
+        "file": ".tmp/provider-human-update/before.json",
+        "type": "generic-api-key",
+        "action": "HUMAN REVIEW REQUIRED"
+      }
+    ]
+  },
+  "matchesApprovedSixFileTypeOccurrences": true,
+  "disposition": "Existing exact SHA/TLS/C1-C4 dispositions only; no new exception",
+  "newCandidates": 0,
+  "distribution": {
+    "status": "PASS",
+    "findings": [],
+    "files": [
+      {
+        "file": "assets/index--wqW5xHo.js",
+        "bytes": 621285,
+        "gzipBytes": 163021
+      },
+      {
+        "file": "assets/index-Zsl3Z7wX.css",
+        "bytes": 5803,
+        "gzipBytes": 2021
+      },
+      {
+        "file": "index.html",
+        "bytes": 591,
+        "gzipBytes": 433
+      },
+      {
+        "file": "THREE-LICENSE.txt",
+        "bytes": 1081,
+        "gzipBytes": 667
+      }
+    ],
+    "bytes": 628760,
+    "gzipBytes": 166142
+  },
+  "fullIndex": "PASS",
+  "localHistory": "PASS",
+  "checks": {
+    "tlsIgnored": true,
+    "tlsAbsentIndex": true,
+    "tlsAbsentHistoryPath": true,
+    "indexEmpty": true
+  },
+  "scannerConfigurationChanged": false,
+  "limits": "Raw FAIL remains FAIL. Binary images are not OCR scanned; this is not an absolute absence guarantee.",
+  "approvedNonCredentialProvenance": [
+    {
+      "file": ".tmp/r3-before/manifest.json",
+      "type": "generic-api-key",
+      "reference": "docs/security/SECRETS_REGISTER.md",
+      "approvedFieldMatchesRecomputedSource": true,
+      "action": "Existing exact Human disposition applies"
+    },
+    {
+      "file": ".tmp/consent-r1/before.json",
+      "type": "generic-api-key",
+      "reference": "docs/security/SECRETS_REGISTER.md",
+      "approvedFieldMatchesRecomputedSource": true,
+      "action": "Existing exact Human disposition applies"
+    },
+    {
+      "file": ".tmp/consent-r1/before.json",
+      "type": "generic-api-key",
+      "reference": "docs/qa/public-deploy-go-r1/access-postflight.json",
+      "approvedFieldMatchesRecomputedSource": true,
+      "action": "Existing exact Human disposition applies"
+    },
+    {
+      "file": ".tmp/provider-human-update/before.json",
+      "type": "generic-api-key",
+      "reference": "docs/security/SECRETS_REGISTER.md",
+      "approvedFieldMatchesRecomputedSource": true,
+      "action": "Existing exact Human disposition applies"
+    },
+    {
+      "file": ".tmp/provider-human-update/before.json",
+      "type": "generic-api-key",
+      "reference": "docs/qa/public-deploy-go-r1/access-postflight.json",
+      "approvedFieldMatchesRecomputedSource": true,
+      "action": "Existing exact Human disposition applies"
+    }
+  ],
+  "tlsDisposition": "Exact existing TLS path retains separate local-only approval; ignored and excluded from served roots, index and local history. No key content copied or reported."
+}

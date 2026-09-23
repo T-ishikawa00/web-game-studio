@@ -1,0 +1,64 @@
+{
+  "at": "2026-09-23T06:47:54.454Z",
+  "results": [
+    {
+      "name": "keyboard gallery, mesh selection, goals, no individual assignment",
+      "status": "PASS"
+    },
+    {
+      "name": "settings persist language sound motion quality; reset keeps preferences",
+      "status": "PASS"
+    },
+    {
+      "name": "real build reservation, progress, reload, pause and modal freeze",
+      "status": "PASS"
+    },
+    {
+      "name": "missing timber plan, cancellation once, no workshop prerequisite",
+      "status": "PASS"
+    },
+    {
+      "name": "market placement spends only on confirmation, both plots, busy move guard",
+      "status": "PASS"
+    },
+    {
+      "name": "shipment reserves 4, priority, cancel refund and no duplicate",
+      "status": "PASS"
+    },
+    {
+      "name": "corrupt raw retained, R2 and other saves untouched; controlled reset",
+      "status": "PASS"
+    },
+    {
+      "name": "honest storage failure read-denied",
+      "status": "PASS"
+    },
+    {
+      "name": "honest storage failure quota",
+      "status": "PASS"
+    },
+    {
+      "name": "two-tab conflict blocks game, preserves newer save, reload recovers",
+      "status": "PASS"
+    },
+    {
+      "name": "hidden freeze, bounded resume, WebGL loss/reload",
+      "status": "PASS"
+    },
+    {
+      "name": "touch pinch cancel, 360/390 JA EN tray states, expanded CTA, landscape",
+      "status": "PASS"
+    },
+    {
+      "name": "reduced idle stops drawing, unsupported audio is honest",
+      "status": "PASS"
+    },
+    {
+      "name": "loading retry, WebGL fallback, private sources and mock hooks excluded",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "limits": "Windows Edge headless; emulated touch and viewports, synthetic hidden. Not physical-device or Human acceptance."
+}

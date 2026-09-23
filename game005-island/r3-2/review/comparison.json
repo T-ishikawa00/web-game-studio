@@ -1,0 +1,114 @@
+{
+  "at": "2026-09-23T06:59:15.201Z",
+  "results": [
+    {
+      "version": "r2",
+      "name": "desktop",
+      "screen": "hud",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "gold",
+      "name": "desktop",
+      "screen": "hud",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "live",
+      "name": "desktop",
+      "screen": "hud",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "r2",
+      "name": "desktop",
+      "screen": "build",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "gold",
+      "name": "desktop",
+      "screen": "build",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "live",
+      "name": "desktop",
+      "screen": "build",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "r2",
+      "name": "desktop",
+      "screen": "settings",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "gold",
+      "name": "desktop",
+      "screen": "settings",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "live",
+      "name": "desktop",
+      "screen": "settings",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "r2",
+      "name": "mobile",
+      "screen": "hud",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "gold",
+      "name": "mobile",
+      "screen": "hud",
+      "resources": "10\n8"
+    },
+    {
+      "version": "live",
+      "name": "mobile",
+      "screen": "hud",
+      "resources": "10\n8"
+    },
+    {
+      "version": "r2",
+      "name": "mobile",
+      "screen": "build",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "gold",
+      "name": "mobile",
+      "screen": "build",
+      "resources": "10\n8"
+    },
+    {
+      "version": "live",
+      "name": "mobile",
+      "screen": "build",
+      "resources": "10\n8"
+    },
+    {
+      "version": "r2",
+      "name": "mobile",
+      "screen": "settings",
+      "resources": "10\n木材\n8\n資金"
+    },
+    {
+      "version": "gold",
+      "name": "mobile",
+      "screen": "settings",
+      "resources": "10\n8"
+    },
+    {
+      "version": "live",
+      "name": "mobile",
+      "screen": "settings",
+      "resources": "10\n8"
+    }
+  ],
+  "scope": "R2 and Live use save-disabled fixtures with same initial state (wood10 coins8, dock repaired, workshop55%, two workers). Their ordinary renderers run paused. Camera explicitly aligned to R3 Gold sample: desktop home, mobile R2 panel framing. Gold remains original fixed image. Pause indicator, live selection ring and renderer timing are retained, not cosmetically hidden. These are comparative fixtures, separate from normal full-loop evidence."
+}
