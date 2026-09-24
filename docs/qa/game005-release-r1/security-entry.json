@@ -1,0 +1,18 @@
+{
+  "at": "2026-09-24T08:34:19.922Z",
+  "rawFullProject": "FAIL",
+  "rawCount": 17,
+  "knownCurrentIdentityVerified": true,
+  "privatePathsAbsentIndexHistory": true,
+  "newCandidates": 0,
+  "findings": [],
+  "historicalRawFail11": "RETAINED / original value identity UNKNOWN",
+  "S04_S05": "UNKNOWN / UNRESOLVED; consumed checkpoint acceptance not reused",
+  "scannerChanges": 0,
+  "targets": [
+    "game005-island/public-r1",
+    "game005-island/public-r1/dist",
+    "docs/games/GAME005_PUBLIC_PACKAGING_RELEASE_CANDIDATE_R1.md",
+    "docs/games/PRODUCTION_CURRENT.md"
+  ]
+}

@@ -1,3 +1,4 @@
+import islandRelease from './game005-release.json';
 import { prototypes } from '../prototypes/catalog';
 import identities from './game-identities.json';
 import magnetRelease from './game004-release.json';
@@ -52,7 +53,7 @@ export function relatedGames(game: Game, catalog: Game[] = games): Game[] {
 // Keep the existing slug so previous RC links and same-origin saves continue to work.
 export const registry: Game[] = [...games, ...prototypes.map(game => ({
   ...game, ...(identities[game.id as keyof typeof identities] ?? {}),
-})), magnetRelease as Game];
+})), magnetRelease as Game, islandRelease as Game];
 
 export const themes: { key: string; title: Localized; description: Localized; category: Localized }[] = [
   { key: 'A', title: { ja: '幼体進化ラボ', en: 'Larva Evolution Lab' }, description: { ja: '進化を選ぶ。姿と能力が変わり、行けなかった場所へ。', en: 'Choose an evolution. Change your shape and abilities to reach somewhere new.' }, category: { ja: '成長・探索', en: 'Growth & discovery' } },

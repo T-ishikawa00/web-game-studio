@@ -1,0 +1,6 @@
+17:43:48 [types] Generated 58ms
+17:43:48 [check] Getting diagnostics for Astro files in C:\projects\Web Game Studio...
+Result (21 files):
+- 0 errors
+- 0 warnings
+- 0 hints

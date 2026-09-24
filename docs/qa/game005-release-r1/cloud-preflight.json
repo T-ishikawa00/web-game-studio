@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-24T08:36:10.102Z",
+  "observedVia": "Cloudflare GET deployments/subdomain",
+  "production": {
+    "deployment": "de0d7486-768c-4e70-933d-ef814333812a",
+    "version": "0245614c-19fa-4e6c-a1bb-180a3230caff",
+    "percentage": 100,
+    "workersDev": false,
+    "previewUrls": false
+  },
+  "preview": {
+    "deployment": "a75b3b1b-71fe-4abd-93e8-699343c428f2",
+    "version": "590239ba-da9d-43b4-835a-57c165fb6e65",
+    "workersDev": false,
+    "previewUrls": false
+  }
+}

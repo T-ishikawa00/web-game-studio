@@ -1,7 +1,7 @@
 ---
 import type { Locale } from '../data/games';
 import site from './site.json';
-import {publicCopy,magnetSave} from './public-catalog';
+import {publicCopy,magnetSave,islandSave} from './public-catalog';
 import {videoPolicy} from './public-documents';
 import DocumentRevision from './DocumentRevision.astro';
 import analyticsPrivacy from './analytics-privacy.json';
@@ -39,7 +39,7 @@ const title:Record<string,string>={about:t('スタジオについて','About the
   <p>{t('保存は同じ端末・ブラウザ・サイトでの利用を前提とします。別の端末やブラウザには引き継がれません。サイトデータの削除、プライベートブラウズ、保存領域の制限などにより、進捗や設定が失われる場合があります。','Saves are specific to the same device, browser and site. They do not transfer to another device or browser. Clearing site data, private browsing or storage restrictions may cause you to lose progress and preferences.')}</p>
   <p>{t('Hakorilo・ひかりの仕掛け庭・ふたりの帰り道の「この作品の進行を消去」は、その作品の進捗・クリア記録・動きを控える設定を消去します。音・案内・言語などの設定は残ります。すべて削除する場合は、ブラウザの設定からこのサイトのデータを削除してください。','For Hakorilo, Lightwork Garden and Two Ways Home, “Erase this game’s progress” removes that game’s progress, completions and reduced-motion setting. Sound, guide and language preferences remain. To remove all stored data, clear this site’s data in your browser settings.')}</p>
   <p>{t('表示や方向ボタンの設定、同じ利用開始を重複して記録しないための一時的な情報にはsessionStorageを使います。タブを復元すると残る場合があります。プレイ中の操作情報は端末のメモリに一時的に保持し、ページが破棄されると消えます。この操作情報を外部へ送信することはありません。','sessionStorage holds temporary display and direction-button preferences and information that avoids recording the same session start twice. This may remain when a browser restores a tab. In-game interaction information is held temporarily in device memory, discarded when the page is unloaded and not sent externally.')}</p>
-  <h2>{t('PROJECT MAGNETの保存','PROJECT MAGNET saves')}</h2><p>{magnetSave[locale]}</p>
+  <h2>{t('島づくりゲームの保存','Island builder saves')}</h2><p>{islandSave[locale]}</p><h2>{t('PROJECT MAGNETの保存','PROJECT MAGNET saves')}</h2><p>{magnetSave[locale]}</p>
   <h2>{t('サイトの配信','Hosting')}</h2>
   <p>{t('サイトの配信と保護にCloudflareを利用しています。Cloudflareは、これらの目的でIPアドレスやページの要求に伴う通信情報を処理する場合があります。','Cloudflare delivers and protects the site. For these purposes, it may process IP addresses and connection information associated with page requests.')}</p>
   <p>{p.hostingDisclosure[locale] ?? pending}</p><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>
@@ -58,14 +58,14 @@ const title:Record<string,string>={about:t('スタジオについて','About the
   <h2>{t('サービスの利用','Using the service')}</h2>
   <p>{publicCopy.terms[locale]} {t('アカウント登録、購入、有料アイテム、広告、クラウド保存はありません。','There are no accounts, purchases, paid items, ads or cloud saves.')}</p>
   <h2>{t('保存とサービスの提供','Saves and service availability')}</h2><p>{p.termsDisclosure[locale] ?? pending}</p>
-  <h2>{t('PROJECT MAGNETの保存','PROJECT MAGNET saves')}</h2><p>{magnetSave[locale]}</p><h2>{t('権利と利用上のお願い','Rights and acceptable use')}</h2><p>{p.rightsDisclosure[locale]}</p>
+  <h2>{t('島づくりゲームの保存','Island builder saves')}</h2><p>{islandSave[locale]}</p><h2>{t('PROJECT MAGNETの保存','PROJECT MAGNET saves')}</h2><p>{magnetSave[locale]}</p><h2>{t('権利と利用上のお願い','Rights and acceptable use')}</h2><p>{p.rightsDisclosure[locale]}</p>
   <p><a href={`/${locale}/video-policy/`}>{t('実況・動画利用方針','Gameplay & video policy')}</a> · <a href={`/${locale}/credits/`}>{t('クレジット','Credits')}</a> · <a href={`/${locale}/contact/`}>{t('お問い合わせ・運営者情報','Contact & operator information')}</a></p>
  </>}
- {page==='credits' && <>
+ {page==='credits' && <><h2>島をつなぐ日 / An Island Connected</h2><p>{t('Tinlumo StudioによるAI支援制作。島・建物・植生はコードによる3D形状、効果音はWeb Audio合成。システムフォントを使用。カバーは実ゲームの完成島を撮影しています。','AI-assisted development by Tinlumo Studio. Island, buildings and vegetation use procedural 3D geometry; effects use Web Audio synthesis. System fonts. Covers capture the completed island in the actual game.')}</p><p><a href="/games/game005/web-v1-r1/credits.txt">{t('制作情報','Game credits')}</a> · <a href="/games/game005/web-v1-r1/THREE-LICENSE.txt">Three.js / MIT</a></p>
   <p>{site.creatorBrand}</p><h2>{t('制作と素材','Production and assets')}</h2><p>{t('ゲームのプログラム・画像・盤面は、AIの支援を用いて制作しています。効果音は作品ごとに合成しています。HakoriloにはBGMがあり、Lightwork GardenとTwo Ways HomeにはBGMはありません。カバーは実際のゲーム画面から作成しています。','The game code, artwork and puzzles are made with AI assistance. Sound effects are synthesized for each game. Hakorilo has music; Lightwork Garden and Two Ways Home do not. Covers are taken from the actual game screens.')}</p>
   <p>{t('表示には端末のシステムフォントを使用します。サイト生成にはAstroを使用しています。','The site uses your device’s system fonts and is built with Astro.')}</p><a href="/licenses/astro.txt">Astro / MIT notices</a>
   <h2>PROJECT MAGNET</h2><p>{t('Tinlumo StudioによるAI支援制作。Canvas描画、コード、Web Audio合成効果音は同作品用のオリジナル。外部の画像・音源・フォントファイルは使用していません。カードは実プレイ画面です。','AI-assisted development by Tinlumo Studio. Original Canvas artwork, code and synthesized Web Audio effects. No external media or font files. The card shows actual gameplay.')}</p><p><a href="/games/project-magnet/full-r1/credits.txt">{t('制作情報','Game credits')}</a> · <a href="/games/project-magnet/full-r1/licenses/vite.txt">Vite (MIT / notices)</a></p><p>{p.rightsDisclosure[locale]}</p><p><a href={`/${locale}/video-policy/`}>{t('実況・動画利用方針','Gameplay & video policy')}</a></p>
  </>}
  {page==='video-policy'&&<>{videoPolicy.map(copy=><p>{copy[locale]}</p>)}<p><a href={`/${locale}/credits/`}>{t('クレジットとライセンス','Credits & licenses')}</a> · <a href={`/${locale}/contact/`}>{t('お問い合わせ','Contact')}</a></p></>}
- {['privacy','terms','video-policy'].includes(page)&&<DocumentRevision locale={locale}/>}
+ {['privacy','terms'].includes(page)&&<p>{t('島をつなぐ日の保存説明を2026年9月24日から追加適用します。その他の方針は以下の版を維持します。','The save disclosure for An Island Connected takes effect on September 24, 2026. The remaining policy retains the version below.')}</p>}{['privacy','terms','video-policy'].includes(page)&&<DocumentRevision locale={locale}/>}
 </article>

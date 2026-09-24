@@ -1,0 +1,4 @@
+Game005 Web v1 — Tinlumo Studio. Public title and cover pending Human approval.
+AI-assisted development. Procedural Three.js geometry and shaders; synthesized Web Audio effects; system fonts. Gallery PNGs rendered locally from the same procedural models. Covers captured from normal completed gameplay with UI hidden; no invented scenery.
+Three.js 0.186.0 — MIT, see THREE-LICENSE.txt.
+No downloaded models, music or fonts. Internal reference images are not distributed.

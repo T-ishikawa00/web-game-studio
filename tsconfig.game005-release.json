@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.json","include":["src/rc/**/*.astro","src/rc/**/*.ts","src/data/**/*.ts","src/i18n/**/*.ts"],"exclude":["node_modules","release-artifacts","game005-island","game004","game004-magnet",".cache",".tmp"]}

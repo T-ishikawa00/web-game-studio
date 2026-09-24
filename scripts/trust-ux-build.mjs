@@ -6,6 +6,9 @@ import {createHash} from 'node:crypto';
 import {spawnSync,execFileSync} from 'node:child_process';
 import {projectPath,projectRoot} from './project-path.mjs';
 import {publicHtml} from './release-prepare.mjs';
+// This historical builder only packages four-game assets. Prevent a mixed release.
+try { await fs.access('src/data/game005-release.json'); throw new Error('RETIRED after Game005 release integration: use node scripts/game005-release-build.mjs'); }
+catch (error) { if (error.code !== 'ENOENT') throw error; }
 assert.equal(path.resolve(process.cwd()),projectRoot);
 const production=process.argv[2]==='--production';
 assert.ok(process.argv.length===2||(production&&process.argv.length===3));

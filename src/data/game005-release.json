@@ -1,0 +1,59 @@
+{
+  "id": "game005",
+  "slug": "island-connections",
+  "version": "web-v1-r1",
+  "state": "released",
+  "titleApproval": "HUMAN_APPROVED",
+  "coverApproval": "HUMAN_APPROVED",
+  "title": {
+    "ja": "島をつなぐ日",
+    "en": "An Island Connected"
+  },
+  "description": {
+    "ja": "建てる場所と順番を選び、村から入り江、見晴らしの丘へ。住民が働き、歩き、休む景色を育てる、小さな3D島づくりゲーム。",
+    "en": "Choose where to build, from a village to a cove and hillside lookout. Grow a little 3D island and watch residents work, wander and rest."
+  },
+  "summary": {
+    "ja": "道をつなぎ、暮らしの景色を育てよう。",
+    "en": "Connect the paths. Watch island life grow."
+  },
+  "cover": "/covers/game005.png",
+  "inputs": [
+    "pointer",
+    "touch",
+    "keyboard"
+  ],
+  "devices": {
+    "desktop": true,
+    "mobile": true
+  },
+  "orientation": "any",
+  "buildPath": "/games/game005/web-v1-r1/index.html",
+  "category": {
+    "ja": "島づくり",
+    "en": "Island builder"
+  },
+  "tags": [
+    "builder",
+    "cozy",
+    "3d"
+  ],
+  "related": [
+    "project-magnet",
+    "tiny-delivery",
+    "light-garden",
+    "two-ways-home"
+  ],
+  "save": {
+    "strategy": "local",
+    "schema": 1
+  },
+  "ads": {
+    "mode": "disabled",
+    "formats": []
+  },
+  "legal": {
+    "status": "reviewed",
+    "evidence": "docs/games/GAME005_WEB_V1_RELEASE_R1.md; Human public release gate 2026-09-24; trademark clearance not asserted"
+  }
+}

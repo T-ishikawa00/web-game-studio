@@ -1,0 +1,321 @@
+{
+  "at": "2026-09-24T08:38:53.759Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "file": "404.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "_astro/_..CYFgj5bi.css",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "assets/analytics-consent.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "assets/portal.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "assets/public-language.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "assets/shell.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "covers/light-garden.png",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "covers/project-magnet.png",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "covers/tiny-delivery.png",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "covers/two-ways-home.png",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/about/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/contact/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/credits/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/games/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/games/light-garden/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/games/project-magnet/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/games/tiny-delivery/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/games/two-ways-home/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/play/light-garden/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/play/project-magnet/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/play/tiny-delivery/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/play/two-ways-home/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/privacy/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/terms/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "en/video-policy/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "favicon.svg",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/light-garden/rc-r1/base.css",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/light-garden/rc-r1/game.css",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/light-garden/rc-r1/game.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/light-garden/rc-r1/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/project-magnet/full-r1/assets/index-Cn9VhVmP.css",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/project-magnet/full-r1/assets/index-D2vtvqvm.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/project-magnet/full-r1/credits.txt",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/project-magnet/full-r1/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/project-magnet/full-r1/licenses/vite.txt",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/base.css",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/game.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/tiny-delivery/rc-r1/music.wav",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/base.css",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/game.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "games/two-ways-home/rc-r1/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/about/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/contact/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/credits/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/games/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/games/light-garden/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/games/project-magnet/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/games/tiny-delivery/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/games/two-ways-home/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/play/light-garden/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/play/project-magnet/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/play/tiny-delivery/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/play/two-ways-home/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/privacy/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/terms/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "ja/video-policy/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "licenses/astro.txt",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "exact": true
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+import {build} from '../../../node_modules/esbuild/lib/main.js';import {spawnSync} from 'node:child_process';import fs from 'node:fs';
+const tests=['mvp-regression','expansion','hill'];await build({entryPoints:tests.map(t=>'game005-island/public-r1/tests/'+t+'.test.ts'),bundle:true,platform:'node',format:'esm',outdir:'.tmp/game005-release-r1/tests',outExtension:{'.js':'.mjs'}});
+const x=spawnSync(process.execPath,['--test',...tests.map(t=>'.tmp/game005-release-r1/tests/'+t+'.test.mjs')],{encoding:'utf8',windowsHide:true});fs.writeFileSync('docs/qa/game005-release-r1/unit.txt',x.stdout+x.stderr);console.log(x.stdout.slice(-300));process.exitCode=x.status;

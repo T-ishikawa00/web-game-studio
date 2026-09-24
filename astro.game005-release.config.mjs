@@ -1,0 +1,2 @@
+import {defineConfig} from 'astro/config';
+export default defineConfig({srcDir:'./src/rc/',publicDir:'./.cache/game005-release-assets/',outDir:'./release-artifacts/game005-web-v1/',cacheDir:'./.cache/astro-game005-release/',output:'static',trailingSlash:'always',devToolbar:{enabled:false},vite:{define:{'import.meta.env.TINLUMO_PUBLIC_CANDIDATE':JSON.stringify('1'),'import.meta.env.TINLUMO_TRUST_UX_R2':JSON.stringify('1')},build:{sourcemap:false},server:{fs:{strict:true}}}});

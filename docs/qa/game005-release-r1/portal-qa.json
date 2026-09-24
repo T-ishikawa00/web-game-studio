@@ -1,0 +1,70 @@
+{
+  "at": "2026-09-24T08:37:09.321Z",
+  "results": [
+    {
+      "name": "ja 1440 Portal → detail → fresh Game005 → settings → related",
+      "status": "PASS"
+    },
+    {
+      "name": "ja 390 Portal → detail → fresh Game005 → settings → related",
+      "status": "PASS"
+    },
+    {
+      "name": "en 1440 Portal → detail → fresh Game005 → settings → related",
+      "status": "PASS"
+    },
+    {
+      "name": "en 390 Portal → detail → fresh Game005 → settings → related",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing tiny-delivery ja launch, normal input, save, related",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing light-garden ja launch, normal input, save, related",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing two-ways-home ja launch, normal input, save, related",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing project-magnet ja launch, normal input, save, related",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing tiny-delivery en launch, normal input, save, related",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing light-garden en launch, normal input, save, related",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing two-ways-home en launch, normal input, save, related",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing project-magnet en launch, normal input, save, related",
+      "status": "PASS"
+    },
+    {
+      "name": "Consent remains explicit, loopback emits no external calls; credits/licenses",
+      "status": "PASS"
+    },
+    {
+      "name": "Local references checked",
+      "count": 56,
+      "status": "PASS"
+    },
+    {
+      "name": "All generated routes / local links / scripts / images / styles resolve; public indexability",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "failed": [],
+  "realDevice": "NOT TESTED"
+}

@@ -3,3 +3,8 @@
 # Manifest-bound release bytes must not be changed by Git line-ending conversion.
 release-artifacts/game004-production-r1/** -text -diff
 release-artifacts/tinlumo-trust-ux-r2/** -text -diff
+release-artifacts/game005-web-v1/** -text -diff
+# Preserve exact inputs used by the accepted Game005 release build.
+game005-island/public-r1/game/** -text
+game005-island/public-r1/public/games/game005/web-v1-r1/credits.txt -text
+game005-island/public-r1/public/games/game005/web-v1-r1/THREE-LICENSE.txt -text
