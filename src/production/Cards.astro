@@ -1,0 +1,7 @@
+---
+import type {Game,Locale} from '../data/games';
+import {definition,genre} from './catalog';
+const {games,locale,related=false}=Astro.props as {games:Game[];locale:Locale;related?:boolean};
+const t=(ja:string,en:string)=>locale==='ja'?ja:en;
+---
+<section class:list={['games-section',{related}]} id={related?'related-games':'games'}><div class="section-heading"><h2>{related?t('次の、小さな冒険へ','Another little adventure'):t('5つの、小さな世界。','Our Games')}</h2><p>{t('それぞれの世界を、同じ丁寧さで。','Five unique worlds. All playable in your browser.')}</p></div><div class="game-grid">{games.map(game=><article class="game-card" data-game={game.id}><a class="cover-link" href={`/${locale}/games/${game.slug}/`} aria-label={`${game.title[locale]} · ${t('詳しく見る','Details')}`}><img src={`/covers/${game.id}-a-portrait.webp`} width="600" height="750" alt={game.title[locale]} loading="lazy" decoding="async"/>{game.id==='game005'&&<span class="island-title">{game.title[locale]}</span>}</a><div class="card-copy"><span class="eyebrow">{genre[game.id]![locale]}</span><h3><a href={`/${locale}/games/${game.slug}/`}>{game.title[locale]}</a></h3><p>{definition(game.id).summary[locale]}</p><a class="button primary game-play" href={`/${locale}/play/${game.slug}/`} aria-label={`${game.title[locale]} · ${t('遊ぶ','Play')}`}><span aria-hidden="true">▶</span>{t('遊ぶ','Play')}</a><a class="details-link" href={`/${locale}/games/${game.slug}/`}>{t('遊び方・詳細','How to play & details')} <span aria-hidden="true">↗</span></a></div></article>)}</div></section>

@@ -1,0 +1,16 @@
+{
+  "authority": "Explicit Human message in this conversation, 2026-09-27",
+  "scope": "Tinlumo Production Remaster R1 current release candidate only",
+  "artifact": "release-artifacts/tinlumo-visual-remaster-r1",
+  "artifactBinding": "Existing review/gates.json artifactManifestSha256 must still match internal/distribution.json and all manifest file bytes",
+  "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+  "candidates": [
+    {"id":"TRR1-NEW-01","disposition":"FALSE POSITIVE / NON-CREDENTIAL / APPROVED"},
+    {"id":"TRR1-NEW-02","disposition":"FALSE POSITIVE / NON-CREDENTIAL / APPROVED"},
+    {"id":"TRR1-NEW-03","disposition":"FALSE POSITIVE / NON-CREDENTIAL / APPROVED"},
+    {"id":"TRR1-NEW-04","disposition":"FALSE POSITIVE / NON-CREDENTIAL / APPROVED"},
+    {"id":"TRR1-NEW-05","disposition":"ENCRYPTED LOCAL INTEGRITY METADATA / RESTRICTED LOCAL RETENTION ONLY / HUMAN APPROVED","plaintext":"UNKNOWN","recoverability":"UNKNOWN","falsePositive":false,"nonCredential":false}
+  ],
+  "prohibitions": ["Profile or candidate inclusion in index/history/distribution/Production artifact", "Profile copy to Production assets or evidence packages", "Approval transfer to other candidates/profiles/future candidates", "Scanner/allowlist/security rule relaxation", "Changes to prior17/historical11/S04/S05 dispositions", "stage", "commit", "push", "deploy"],
+  "stop": "HUMAN_PRODUCTION_RELEASE_GATE_PENDING"
+}

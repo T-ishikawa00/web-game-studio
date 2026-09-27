@@ -1,0 +1,49 @@
+{
+  "scope": "Portal text tokens; not full WCAG conformance or game-canvas contrast audit",
+  "contrast": [
+    {
+      "role": "ink",
+      "fg": "201955",
+      "bg": "fbfdff",
+      "ratio": 15.47
+    },
+    {
+      "role": "muted",
+      "fg": "5a587c",
+      "bg": "fbfdff",
+      "ratio": 6.6
+    },
+    {
+      "role": "primary",
+      "fg": "ffffff",
+      "bg": "4c36cf",
+      "ratio": 7.68
+    },
+    {
+      "role": "coral",
+      "fg": "ffffff",
+      "bg": "c84240",
+      "ratio": 4.87
+    },
+    {
+      "role": "eyebrow",
+      "fg": "60579a",
+      "bg": "ffffff",
+      "ratio": 6.31
+    }
+  ],
+  "normalTextThreshold": 4.5,
+  "browser": {
+    "skipLinkFocus": "3px visible outline",
+    "featuredAfterArrow": "light-garden",
+    "featuredAfterEnd": "game005",
+    "reducedMotion": {
+      "buttonTransition": "0s"
+    }
+  },
+  "unverified": [
+    "Physical screen reader",
+    "Dedicated 200 percent text scaling",
+    "Real touch devices"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "skipLinkFocus": "3px visible outline",
+  "featuredAfterArrow": "light-garden",
+  "featuredAfterEnd": "game005",
+  "reducedMotion": {
+    "buttonTransition": "0s"
+  }
+}

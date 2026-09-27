@@ -1,0 +1,128 @@
+[
+  {
+    "id": "T19",
+    "normalInput": true,
+    "moves": 1,
+    "pass": true
+  },
+  {
+    "id": "T01",
+    "normalInput": true,
+    "moves": 2,
+    "pass": true
+  },
+  {
+    "id": "T20",
+    "normalInput": true,
+    "moves": 3,
+    "pass": true
+  },
+  {
+    "id": "T21",
+    "normalInput": true,
+    "moves": 3,
+    "pass": true
+  },
+  {
+    "id": "T02",
+    "normalInput": true,
+    "moves": 5,
+    "pass": true
+  },
+  {
+    "id": "T06",
+    "normalInput": true,
+    "moves": 4,
+    "pass": true
+  },
+  {
+    "id": "T07",
+    "normalInput": true,
+    "moves": 5,
+    "pass": true
+  },
+  {
+    "id": "T08",
+    "normalInput": true,
+    "moves": 6,
+    "pass": true
+  },
+  {
+    "id": "T09",
+    "normalInput": true,
+    "moves": 8,
+    "pass": true
+  },
+  {
+    "id": "T03",
+    "normalInput": true,
+    "moves": 10,
+    "pass": true
+  },
+  {
+    "id": "T04",
+    "normalInput": true,
+    "moves": 9,
+    "pass": true
+  },
+  {
+    "id": "T05",
+    "normalInput": true,
+    "moves": 13,
+    "pass": true
+  },
+  {
+    "id": "T10",
+    "normalInput": true,
+    "moves": 8,
+    "pass": true
+  },
+  {
+    "id": "T11",
+    "normalInput": true,
+    "moves": 8,
+    "pass": true
+  },
+  {
+    "id": "T12",
+    "normalInput": true,
+    "moves": 9,
+    "pass": true
+  },
+  {
+    "id": "T13",
+    "normalInput": true,
+    "moves": 11,
+    "pass": true
+  },
+  {
+    "id": "T14",
+    "normalInput": true,
+    "moves": 11,
+    "pass": true
+  },
+  {
+    "id": "T15",
+    "normalInput": true,
+    "moves": 11,
+    "pass": true
+  },
+  {
+    "id": "T16",
+    "normalInput": true,
+    "moves": 12,
+    "pass": true
+  },
+  {
+    "id": "T17",
+    "normalInput": true,
+    "moves": 13,
+    "pass": true
+  },
+  {
+    "id": "T18",
+    "normalInput": true,
+    "moves": 14,
+    "pass": true
+  }
+]

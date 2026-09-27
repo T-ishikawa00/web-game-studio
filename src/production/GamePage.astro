@@ -1,0 +1,14 @@
+---
+import fs from 'node:fs';
+import {productionGameHtml} from '../../scripts/visual-remaster-game-html.mjs';
+import AnalyticsConsent from '../rc/AnalyticsConsent.astro';
+import IslandPlay from '../rc/IslandPlay.astro';
+import type {Game,Locale} from '../data/games';
+const {game,locale}=Astro.props as {game:Game;locale:Locale};
+const html=productionGameHtml(fs.readFileSync('.cache/tinlumo-visual-remaster-assets'+game.buildPath,'utf8'),game,locale);
+const head=html.match(/<head[^>]*>([\s\S]*?)<\/head>/)?.[1];
+const body=html.match(/<body[^>]*>([\s\S]*?)<\/body>/)?.[1];
+const screen=html.match(/<body[^>]*data-screen="([^"]+)"/)?.[1];
+if(!head||!body)throw Error('Invalid accepted game document');
+---
+{game.id==='game005'?<IslandPlay game={game} locale={locale}/>:<html lang={locale}><head><Fragment set:html={head}/></head><body data-screen={screen}><Fragment set:html={body}/>{game.id!=='project-magnet'&&<AnalyticsConsent locale={locale}/>}</body></html>}

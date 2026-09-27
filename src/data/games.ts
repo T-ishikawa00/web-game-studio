@@ -2,6 +2,7 @@ import islandRelease from './game005-release.json';
 import { prototypes } from '../prototypes/catalog';
 import identities from './game-identities.json';
 import magnetRelease from './game004-release.json';
+import visualRelease from './visual-release.json';
 export const locales = ['ja', 'en'] as const;
 export type Locale = (typeof locales)[number];
 export type Localized = Record<Locale, string>;
@@ -54,6 +55,17 @@ export function relatedGames(game: Game, catalog: Game[] = games): Game[] {
 export const registry: Game[] = [...games, ...prototypes.map(game => ({
   ...game, ...(identities[game.id as keyof typeof identities] ?? {}),
 })), magnetRelease as Game, islandRelease as Game];
+
+// Explicit next-production selection. Frozen prototype metadata and historical
+// release builders keep their original view; this export is used by the new RC.
+export const productionCandidateRegistry: Game[] = visualRelease.games.map(entry => {
+  const original = registry.find(game => game.id === entry.id);
+  if (!original || original.slug !== entry.slug) throw new Error('Production identity mismatch');
+  return {...original, title:entry.title, cover:`/covers/${entry.id}-a.webp`,
+    buildPath:`/games/${entry.id}/${entry.version}/index.html`, version:entry.version,
+    related:visualRelease.games.filter(game=>game.id!==entry.id).map(game=>game.id),
+    ads:{mode:'disabled',formats:[]}};
+});
 
 export const themes: { key: string; title: Localized; description: Localized; category: Localized }[] = [
   { key: 'A', title: { ja: '幼体進化ラボ', en: 'Larva Evolution Lab' }, description: { ja: '進化を選ぶ。姿と能力が変わり、行けなかった場所へ。', en: 'Choose an evolution. Change your shape and abilities to reach somewhere new.' }, category: { ja: '成長・探索', en: 'Growth & discovery' } },

@@ -1,0 +1,95 @@
+{
+  "status": "LOCAL_RC_PREPARED_SECURITY_RELEASABLE_HUMAN_PRODUCTION_RELEASE_GATE_PENDING",
+  "gates": [
+    {
+      "id": "TINLUMO_NEW_VISUAL_SYSTEM_INTEGRATED",
+      "status": "READY"
+    },
+    {
+      "id": "HAKORILO_ACCEPTED_INTEGRATED",
+      "status": "READY"
+    },
+    {
+      "id": "LIGHTWORK_ACCEPTED_INTEGRATED",
+      "status": "READY"
+    },
+    {
+      "id": "TWO_WAYS_ACCEPTED_INTEGRATED",
+      "status": "READY"
+    },
+    {
+      "id": "MAGNET_ACCEPTED_INTEGRATED",
+      "status": "READY"
+    },
+    {
+      "id": "ISLAND_CURRENT_ACCEPTED_INTEGRATED",
+      "status": "READY"
+    },
+    {
+      "id": "COVERS_FINAL_CANDIDATE_READY",
+      "status": "READY"
+    },
+    {
+      "id": "JA_EN_FULL_PORTAL_READY",
+      "status": "READY"
+    },
+    {
+      "id": "SAVE_COMPATIBILITY_PASS",
+      "status": "READY"
+    },
+    {
+      "id": "CONSENT_C_PRESERVED",
+      "status": "READY"
+    },
+    {
+      "id": "ACCESSIBILITY_REVIEW_READY",
+      "status": "READY"
+    },
+    {
+      "id": "PERFORMANCE_REVIEW_READY",
+      "status": "READY"
+    },
+    {
+      "id": "SECURITY_RELEASE_GATE_READY",
+      "status": "RELEASABLE_FOR_THIS_RC_ONLY"
+    },
+    {
+      "id": "FULL_REGRESSION_READY",
+      "status": "READY_WITH_DOCUMENTED_REUSE"
+    },
+    {
+      "id": "PRODUCTION_ARTIFACT_READY",
+      "status": "READY"
+    },
+    {
+      "id": "ROLLBACK_PLAN_READY",
+      "status": "READY"
+    },
+    {
+      "id": "SCOPED_GIT_MANIFEST_READY",
+      "status": "READY"
+    },
+    {
+      "id": "HUMAN_PRODUCTION_RELEASE_GATE_PENDING",
+      "status": "PENDING"
+    }
+  ],
+  "humanSecurityDecision": "2026-09-27: New01-04 FALSE POSITIVE / NON-CREDENTIAL / APPROVED; New05 ENCRYPTED LOCAL INTEGRITY METADATA / RESTRICTED LOCAL RETENTION ONLY / HUMAN APPROVED. This RC only.",
+  "newSecurityCandidate": {
+    "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+    "type": "generic-api-key",
+    "count": 5,
+    "action": "Human disposition recorded for this RC only. Profile excluded from index/history/artifact/scoped manifest. Candidate05 plaintext/recoverability UNKNOWN."
+  },
+  "forbiddenExecuted": {
+    "stage": false,
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "productionChange": false,
+    "externalAccountChange": false
+  },
+  "artifactManifestSha256": "f6c494317a5cf3f8e98167de8b9645252c5b90b19cd67a28b87973d7f0dd0a53",
+  "freshSecurityReport": "security-fresh-gate.json",
+  "priorSecurityState": "Prior17 / historical11 / S04/S05 unchanged. No prior risk acceptance reused."
+}

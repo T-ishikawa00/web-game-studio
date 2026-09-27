@@ -1,0 +1,111 @@
+{
+  "identity": "tinlumo-visual-remaster-r1",
+  "status": "HUMAN_ACCEPTED_GAMES_LOCAL_RELEASE_CANDIDATE",
+  "games": [
+    {
+      "id": "tiny-delivery",
+      "slug": "tiny-delivery",
+      "version": "parcel-grove-r1",
+      "source": "hakorilo-u1-remaster-r1",
+      "entry": "play.html",
+      "cover": "hakorilo",
+      "direction": "U1 Parcel Grove",
+      "saveKey": "wgs:save:tiny-delivery",
+      "saveVersion": "0.1.0",
+      "schema": 1,
+      "count": 18,
+      "title": {
+        "ja": "Hakorilo",
+        "en": "Hakorilo"
+      },
+      "summary": {
+        "ja": "道をつないで、タイミングを合わせる。",
+        "en": "Connect the paths. Deliver together."
+      }
+    },
+    {
+      "id": "light-garden",
+      "slug": "light-garden",
+      "version": "conservatory-r1",
+      "source": "tinlumo-remaster-wave1/lightwork",
+      "entry": "index.html",
+      "cover": "lightwork",
+      "direction": "L1 Luminous Conservatory",
+      "saveKey": "wgs:save:light-garden",
+      "saveVersion": "0.1.0",
+      "schema": 1,
+      "count": 18,
+      "title": {
+        "ja": "ひかりの仕掛け庭",
+        "en": "Lightwork Garden"
+      },
+      "summary": {
+        "ja": "光をつなぐ。小さな庭が目を覚ます。",
+        "en": "Follow the light. Let a little garden bloom."
+      }
+    },
+    {
+      "id": "two-ways-home",
+      "slug": "two-ways-home",
+      "version": "little-towns-r1",
+      "source": "tinlumo-remaster-wave1/two-ways",
+      "entry": "index.html",
+      "cover": "two-ways",
+      "direction": "T1 Parallel Little Towns",
+      "saveKey": "wgs:save:two-ways-home",
+      "saveVersion": "0.1.0",
+      "schema": 1,
+      "count": 21,
+      "title": {
+        "ja": "ふたりの帰り道",
+        "en": "Two Ways Home"
+      },
+      "summary": {
+        "ja": "同じ一歩を、離れたふたりへ。",
+        "en": "Two little lives. One shared step."
+      }
+    },
+    {
+      "id": "project-magnet",
+      "slug": "project-magnet",
+      "version": "frontier-r1",
+      "source": "tinlumo-remaster-wave1/magnet",
+      "entry": "index.html",
+      "cover": "magnet",
+      "direction": "M2 Bright Industrial Frontier",
+      "saveKey": "tinlumo.game004.magnet.full.v1",
+      "saveVersion": "magnet-full-r1",
+      "schema": 1,
+      "count": 18,
+      "title": {
+        "ja": "PROJECT MAGNET",
+        "en": "PROJECT MAGNET"
+      },
+      "summary": {
+        "ja": "吸い寄せ、狙い、壊す。残骸を次の力に。",
+        "en": "Gather. Aim. Launch. Reclaim your next move."
+      }
+    },
+    {
+      "id": "game005",
+      "slug": "island-connections",
+      "version": "web-v1-r1",
+      "source": "release-artifacts/game005-web-v1",
+      "entry": "games/game005/web-v1-r1/index.html",
+      "cover": "island",
+      "direction": "Current Accepted Web v1",
+      "saveKey": "tinlumo:game005:web:v1",
+      "saveVersion": "envelope:1/state:1",
+      "schema": 1,
+      "count": 3,
+      "title": {
+        "ja": "島をつなぐ日",
+        "en": "An Island Connected"
+      },
+      "summary": {
+        "ja": "道をつなぎ、暮らしの景色を育てよう。",
+        "en": "Connect the paths. Watch island life grow."
+      }
+    }
+  ]
+}

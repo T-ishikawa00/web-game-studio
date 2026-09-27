@@ -1,0 +1,1548 @@
+[
+  {
+    "route": "/en/",
+    "width": 1440,
+    "height": 1000,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 17.699999928474426,
+    "loadMs": 17.899999976158142,
+    "lcpMs": 32,
+    "cls": 0,
+    "shifts": [],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 540,
+      "p50": 5.599999999999909,
+      "p95": 5.699999999999989,
+      "max": 5.800000000000011,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 16981162,
+      "total": 18377442,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/favicon.svg",
+        "external": false,
+        "type": "img",
+        "bytes": 543,
+        "decoded": 243,
+        "duration": 3.899999976158142
+      },
+      {
+        "url": "/scenes/tiny-delivery.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 70578,
+        "decoded": 70278,
+        "duration": 4.899999976158142
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 5.899999976158142
+      },
+      {
+        "url": "/assets/public-language.js",
+        "external": false,
+        "type": "script",
+        "bytes": 1645,
+        "decoded": 1345,
+        "duration": 6.199999928474426
+      },
+      {
+        "url": "/assets/visual-portal.js",
+        "external": false,
+        "type": "script",
+        "bytes": 1205,
+        "decoded": 905,
+        "duration": 6.199999928474426
+      },
+      {
+        "url": "/covers/tiny-delivery-a-portrait.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 41192,
+        "decoded": 40892,
+        "duration": 6.600000023841858
+      },
+      {
+        "url": "/covers/light-garden-a-portrait.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 69818,
+        "decoded": 69518,
+        "duration": 7.399999976158142
+      },
+      {
+        "url": "/covers/two-ways-home-a-portrait.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 58534,
+        "decoded": 58234,
+        "duration": 7.200000047683716
+      },
+      {
+        "url": "/covers/project-magnet-a-portrait.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 67804,
+        "decoded": 67504,
+        "duration": 8.100000023841858
+      },
+      {
+        "url": "/covers/game005-a-portrait.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 33300,
+        "decoded": 33000,
+        "duration": 8.600000023841858
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/",
+    "width": 375,
+    "height": 812,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 18.200000047683716,
+    "loadMs": 18.300000071525574,
+    "lcpMs": 20,
+    "cls": 0,
+    "shifts": [],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 538,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 11.100000000000023,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 17961647,
+      "total": 20222255,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/favicon.svg",
+        "external": false,
+        "type": "img",
+        "bytes": 543,
+        "decoded": 243,
+        "duration": 3.5
+      },
+      {
+        "url": "/scenes/tiny-delivery.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 70578,
+        "decoded": 70278,
+        "duration": 4.800000071525574
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 5.100000023841858
+      },
+      {
+        "url": "/assets/public-language.js",
+        "external": false,
+        "type": "script",
+        "bytes": 1645,
+        "decoded": 1345,
+        "duration": 5.700000047683716
+      },
+      {
+        "url": "/assets/visual-portal.js",
+        "external": false,
+        "type": "script",
+        "bytes": 1205,
+        "decoded": 905,
+        "duration": 6.100000023841858
+      },
+      {
+        "url": "/covers/tiny-delivery-a-portrait.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 41192,
+        "decoded": 40892,
+        "duration": 2.399999976158142
+      },
+      {
+        "url": "/covers/two-ways-home-a-portrait.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 58534,
+        "decoded": 58234,
+        "duration": 4.5
+      },
+      {
+        "url": "/covers/light-garden-a-portrait.webp",
+        "external": false,
+        "type": "img",
+        "bytes": 69818,
+        "decoded": 69518,
+        "duration": 23.600000023841858
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/tiny-delivery/",
+    "width": 1440,
+    "height": 1000,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 314.2999999523163,
+    "loadMs": 314.2999999523163,
+    "lcpMs": 36,
+    "cls": 0.009833532955970293,
+    "shifts": [
+      {
+        "time": 144.69999992847443,
+        "value": 0.009833532955970293,
+        "sources": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "title-buttons",
+            "previous": {
+              "x": 73.796875,
+              "y": 454.203125,
+              "width": 517,
+              "height": 100,
+              "top": 454.203125,
+              "right": 590.796875,
+              "bottom": 554.203125,
+              "left": 73.796875
+            },
+            "current": {
+              "x": 73.796875,
+              "y": 564.734375,
+              "width": 517,
+              "height": 110.390625,
+              "top": 564.734375,
+              "right": 590.796875,
+              "bottom": 675.125,
+              "left": 73.796875
+            }
+          },
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "title-save",
+            "previous": {
+              "x": 100.796875,
+              "y": 547.203125,
+              "width": 490,
+              "height": 56,
+              "top": 547.203125,
+              "right": 590.796875,
+              "bottom": 603.203125,
+              "left": 100.796875
+            },
+            "current": {
+              "x": 100.796875,
+              "y": 668.125,
+              "width": 490,
+              "height": 92.28125,
+              "top": 668.125,
+              "right": 590.796875,
+              "bottom": 760.40625,
+              "left": 100.796875
+            }
+          },
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "brand-actions",
+            "previous": {
+              "x": 1098.625,
+              "y": 11.5,
+              "width": 283.78125,
+              "height": 46,
+              "top": 11.5,
+              "right": 1382.40625,
+              "bottom": 57.5,
+              "left": 1098.625
+            },
+            "current": {
+              "x": 1101.875,
+              "y": 11.5,
+              "width": 280.53125,
+              "height": 46,
+              "top": 11.5,
+              "right": 1382.40625,
+              "bottom": 57.5,
+              "left": 1101.875
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 537,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 16.600000000000023,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 27229488,
+      "total": 42761268,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/tiny-delivery/parcel-grove-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 12587,
+        "decoded": 12287,
+        "duration": 3.799999952316284
+      },
+      {
+        "url": "/games/tiny-delivery/parcel-grove-r1/full.css",
+        "external": false,
+        "type": "link",
+        "bytes": 7881,
+        "decoded": 7581,
+        "duration": 3.799999952316284
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 5.699999928474426
+      },
+      {
+        "url": "/games/tiny-delivery/parcel-grove-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 722541,
+        "decoded": 722241,
+        "duration": 5.299999952316284
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/light-garden/",
+    "width": 1440,
+    "height": 1000,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 105.79999995231628,
+    "loadMs": 106.09999990463257,
+    "lcpMs": 28,
+    "cls": 0.012935608030719522,
+    "shifts": [
+      {
+        "time": 107.19999992847443,
+        "value": 0.012935608030719522,
+        "sources": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "title-actions",
+            "previous": {
+              "x": 56.390625,
+              "y": 367.296875,
+              "width": 380.96875,
+              "height": 106,
+              "top": 367.296875,
+              "right": 437.359375,
+              "bottom": 473.296875,
+              "left": 56.390625
+            },
+            "current": {
+              "x": 56.390625,
+              "y": 458.796875,
+              "width": 395,
+              "height": 147.78125,
+              "top": 458.796875,
+              "right": 451.390625,
+              "bottom": 606.578125,
+              "left": 56.390625
+            }
+          },
+          {
+            "tag": "H1",
+            "id": "",
+            "cls": "",
+            "previous": {
+              "x": 65.390625,
+              "y": 187.890625,
+              "width": 401,
+              "height": 191.703125,
+              "top": 187.890625,
+              "right": 466.390625,
+              "bottom": 379.59375,
+              "left": 65.390625
+            },
+            "current": {
+              "x": 65.390625,
+              "y": 204.390625,
+              "width": 401,
+              "height": 191.703125,
+              "top": 204.390625,
+              "right": 466.390625,
+              "bottom": 396.09375,
+              "left": 65.390625
+            }
+          },
+          {
+            "tag": "NAV",
+            "id": "",
+            "cls": "",
+            "previous": {
+              "x": 1184.265625,
+              "y": 16,
+              "width": 190.9375,
+              "height": 48.390625,
+              "top": 16,
+              "right": 1375.203125,
+              "bottom": 64.390625,
+              "left": 1184.265625
+            },
+            "current": {
+              "x": 1157.421875,
+              "y": 16,
+              "width": 217.78125,
+              "height": 48.390625,
+              "top": 16,
+              "right": 1375.203125,
+              "bottom": 64.390625,
+              "left": 1157.421875
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 497,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 249.86999999999998,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 28271171,
+      "total": 45915347,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/light-garden/conservatory-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 13703,
+        "decoded": 13403,
+        "duration": 3.4000000953674316
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 5.299999952316284
+      },
+      {
+        "url": "/games/light-garden/conservatory-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 734514,
+        "decoded": 734214,
+        "duration": 4.5
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/two-ways-home/",
+    "width": 1440,
+    "height": 1000,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 615.8999999761581,
+    "loadMs": 616.0999999046326,
+    "lcpMs": 624,
+    "cls": 0.00025646369839891977,
+    "shifts": [
+      {
+        "time": 495.2999999523163,
+        "value": 0.00025646369839891977,
+        "sources": [
+          {
+            "tag": "NAV",
+            "id": "",
+            "cls": "",
+            "previous": {
+              "x": 1341.234375,
+              "y": 21.5,
+              "width": 77.765625,
+              "height": 50,
+              "top": 21.5,
+              "right": 1419,
+              "bottom": 71.5,
+              "left": 1341.234375
+            },
+            "current": {
+              "x": 1267.796875,
+              "y": 21.5,
+              "width": 151.203125,
+              "height": 50,
+              "top": 21.5,
+              "right": 1419,
+              "bottom": 71.5,
+              "left": 1267.796875
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 540,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 11.100000000000023,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 100593956,
+      "total": 161474648,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/two-ways-home/little-towns-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 13900,
+        "decoded": 13600,
+        "duration": 2.899999976158142
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 4.299999952316284
+      },
+      {
+        "url": "/games/two-ways-home/little-towns-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 711048,
+        "decoded": 710748,
+        "duration": 3.6999999284744263
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/project-magnet/",
+    "width": 1440,
+    "height": 1000,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 186.19999992847443,
+    "loadMs": 186.19999992847443,
+    "lcpMs": 376,
+    "cls": 0.00013113956404320988,
+    "shifts": [
+      {
+        "time": 186.89999997615814,
+        "value": 0.00013113956404320988,
+        "sources": [
+          {
+            "tag": "NAV",
+            "id": "",
+            "cls": "",
+            "previous": {
+              "x": 1008.109375,
+              "y": 13.5,
+              "width": 403.890625,
+              "height": 44,
+              "top": 13.5,
+              "right": 1412,
+              "bottom": 57.5,
+              "left": 1008.109375
+            },
+            "current": {
+              "x": 993.359375,
+              "y": 13.5,
+              "width": 418.640625,
+              "height": 44,
+              "top": 13.5,
+              "right": 1412,
+              "bottom": 57.5,
+              "left": 993.359375
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 509,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 183.24,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 99526923,
+      "total": 170667175,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/project-magnet/frontier-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 23343,
+        "decoded": 23043,
+        "duration": 2.700000047683716
+      },
+      {
+        "url": "/games/project-magnet/frontier-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 723799,
+        "decoded": 723499,
+        "duration": 3.600000023841858
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/island-connections/",
+    "width": 1440,
+    "height": 1000,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 144.19999992847443,
+    "loadMs": 144.5,
+    "lcpMs": 216,
+    "cls": 0.00023573133680555557,
+    "shifts": [
+      {
+        "time": 340,
+        "value": 0.00023573133680555557,
+        "sources": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "hud-right",
+            "previous": {
+              "x": 1204.765625,
+              "y": 25,
+              "width": 205.234375,
+              "height": 44,
+              "top": 25,
+              "right": 1410,
+              "bottom": 69,
+              "left": 1204.765625
+            },
+            "current": {
+              "x": 1160.328125,
+              "y": 25,
+              "width": 249.671875,
+              "height": 44,
+              "top": 25,
+              "right": 1410,
+              "bottom": 69,
+              "left": 1160.328125
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 531,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 72.138,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 125211131,
+      "total": 186508931,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/game005/web-v1-r1/assets/index-B45CS-CE.css",
+        "external": false,
+        "type": "link",
+        "bytes": 22417,
+        "decoded": 22117,
+        "duration": 2.8000000715255737
+      },
+      {
+        "url": "/games/game005/web-v1-r1/assets/index-CMoUGFhE.js",
+        "external": false,
+        "type": "script",
+        "bytes": 660789,
+        "decoded": 660489,
+        "duration": 3.700000047683716
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/tiny-delivery/",
+    "width": 375,
+    "height": 812,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 123.70000004768372,
+    "loadMs": 123.89999997615814,
+    "lcpMs": 28,
+    "cls": 0.00672108148402048,
+    "shifts": [
+      {
+        "time": 124.89999997615814,
+        "value": 0.00672108148402048,
+        "sources": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "title-buttons",
+            "previous": {
+              "x": 0,
+              "y": 652,
+              "width": 375,
+              "height": 100,
+              "top": 652,
+              "right": 375,
+              "bottom": 752,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 641.609375,
+              "width": 355,
+              "height": 110.390625,
+              "top": 641.609375,
+              "right": 355,
+              "bottom": 752,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "title-save",
+            "previous": {
+              "x": 20,
+              "y": 777,
+              "width": 335,
+              "height": 4,
+              "top": 777,
+              "right": 355,
+              "bottom": 781,
+              "left": 20
+            },
+            "current": {
+              "x": 20,
+              "y": 745.65625,
+              "width": 335,
+              "height": 35.34375,
+              "top": 745.65625,
+              "right": 355,
+              "bottom": 781,
+              "left": 20
+            }
+          },
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "brand-actions",
+            "previous": {
+              "x": 305.84375,
+              "y": 6.5,
+              "width": 49.15625,
+              "height": 46,
+              "top": 6.5,
+              "right": 355,
+              "bottom": 52.5,
+              "left": 305.84375
+            },
+            "current": {
+              "x": 309.09375,
+              "y": 6.5,
+              "width": 45.90625,
+              "height": 46,
+              "top": 6.5,
+              "right": 355,
+              "bottom": 52.5,
+              "left": 309.09375
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 512,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 166.70399999999998,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 80325756,
+      "total": 95559336,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/tiny-delivery/parcel-grove-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 12587,
+        "decoded": 12287,
+        "duration": 3.5
+      },
+      {
+        "url": "/games/tiny-delivery/parcel-grove-r1/full.css",
+        "external": false,
+        "type": "link",
+        "bytes": 7881,
+        "decoded": 7581,
+        "duration": 4.300000071525574
+      },
+      {
+        "url": "/games/tiny-delivery/parcel-grove-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 722541,
+        "decoded": 722241,
+        "duration": 5.300000071525574
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 5.399999976158142
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/light-garden/",
+    "width": 375,
+    "height": 812,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 337.89999997615814,
+    "loadMs": 338,
+    "lcpMs": 32,
+    "cls": 0.18288337313193956,
+    "shifts": [
+      {
+        "time": 92.80000007152557,
+        "value": 0.18288337313193956,
+        "sources": [
+          {
+            "tag": "DIV",
+            "id": "scene-wrap",
+            "cls": "",
+            "previous": {
+              "x": 0,
+              "y": 271.671875,
+              "width": 360,
+              "height": 450,
+              "top": 271.671875,
+              "right": 360,
+              "bottom": 721.671875,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 433.890625,
+              "width": 360,
+              "height": 378.109375,
+              "top": 433.890625,
+              "right": 360,
+              "bottom": 812,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "title-actions",
+            "previous": {
+              "x": 14.5,
+              "y": 189.671875,
+              "width": 335.5,
+              "height": 106,
+              "top": 189.671875,
+              "right": 350,
+              "bottom": 295.671875,
+              "left": 14.5
+            },
+            "current": {
+              "x": 25,
+              "y": 277.890625,
+              "width": 310,
+              "height": 141,
+              "top": 277.890625,
+              "right": 335,
+              "bottom": 418.890625,
+              "left": 25
+            }
+          },
+          {
+            "tag": "H1",
+            "id": "",
+            "cls": "",
+            "previous": {
+              "x": 25,
+              "y": 71.390625,
+              "width": 325,
+              "height": 143.140625,
+              "top": 71.390625,
+              "right": 350,
+              "bottom": 214.53125,
+              "left": 25
+            },
+            "current": {
+              "x": 25,
+              "y": 98.234375,
+              "width": 310,
+              "height": 143.140625,
+              "top": 98.234375,
+              "right": 335,
+              "bottom": 241.375,
+              "left": 25
+            }
+          },
+          {
+            "tag": "FOOTER",
+            "id": "",
+            "cls": "page-footer",
+            "previous": {
+              "x": 0,
+              "y": 721.671875,
+              "width": 360,
+              "height": 27,
+              "top": 721.671875,
+              "right": 360,
+              "bottom": 748.671875,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "tag": "NAV",
+            "id": "",
+            "cls": "",
+            "previous": {
+              "x": 251.84375,
+              "y": 9,
+              "width": 105.15625,
+              "height": 48.390625,
+              "top": 9,
+              "right": 357,
+              "bottom": 57.390625,
+              "left": 251.84375
+            },
+            "current": {
+              "x": 210,
+              "y": 9,
+              "width": 132,
+              "height": 48.390625,
+              "top": 9,
+              "right": 342,
+              "bottom": 57.390625,
+              "left": 210
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 540,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 11.200000000000045,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 79782822,
+      "total": 101087214,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/light-garden/conservatory-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 13703,
+        "decoded": 13403,
+        "duration": 2.399999976158142
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 3.6999999284744263
+      },
+      {
+        "url": "/games/light-garden/conservatory-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 734514,
+        "decoded": 734214,
+        "duration": 3.5
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/two-ways-home/",
+    "width": 375,
+    "height": 812,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 593.3999999761581,
+    "loadMs": 593.3999999761581,
+    "lcpMs": 608,
+    "cls": 0.019381755873177652,
+    "shifts": [
+      {
+        "time": 477.2999999523163,
+        "value": 0.019381755873177652,
+        "sources": [
+          {
+            "tag": "FOOTER",
+            "id": "",
+            "cls": "game-footer",
+            "previous": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 764,
+              "width": 360,
+              "height": 48,
+              "top": 764,
+              "right": 360,
+              "bottom": 812,
+              "left": 0
+            }
+          },
+          {
+            "tag": "NAV",
+            "id": "",
+            "cls": "",
+            "previous": {
+              "x": 286.5,
+              "y": 17.5,
+              "width": 62.5,
+              "height": 50,
+              "top": 17.5,
+              "right": 349,
+              "bottom": 67.5,
+              "left": 286.5
+            },
+            "current": {
+              "x": 225.90625,
+              "y": 12.140625,
+              "width": 123.09375,
+              "height": 50,
+              "top": 12.140625,
+              "right": 349,
+              "bottom": 62.140625,
+              "left": 225.90625
+            }
+          },
+          {
+            "tag": "A",
+            "id": "brand-link",
+            "cls": "brand",
+            "previous": {
+              "x": 14,
+              "y": 18.5,
+              "width": 85,
+              "height": 44,
+              "top": 18.5,
+              "right": 99,
+              "bottom": 62.5,
+              "left": 14
+            },
+            "current": {
+              "x": 14,
+              "y": 13.140625,
+              "width": 85,
+              "height": 44,
+              "top": 13.140625,
+              "right": 99,
+              "bottom": 57.140625,
+              "left": 14
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 541,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 11.055999999999926,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 200031926,
+      "total": 229654074,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/two-ways-home/little-towns-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 13900,
+        "decoded": 13600,
+        "duration": 3.399999976158142
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 4.399999976158142
+      },
+      {
+        "url": "/games/two-ways-home/little-towns-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 711048,
+        "decoded": 710748,
+        "duration": 3.899999976158142
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/project-magnet/",
+    "width": 375,
+    "height": 812,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 165.89999997615814,
+    "loadMs": 165.89999997615814,
+    "lcpMs": 332,
+    "cls": 0,
+    "shifts": [],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 513,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 161.10600000000002,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 214014301,
+      "total": 265537465,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/project-magnet/frontier-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 23343,
+        "decoded": 23043,
+        "duration": 2.600000023841858
+      },
+      {
+        "url": "/games/project-magnet/frontier-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 723799,
+        "decoded": 723499,
+        "duration": 3.299999952316284
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/island-connections/",
+    "width": 375,
+    "height": 812,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 154.29999995231628,
+    "loadMs": 154.60000002384186,
+    "lcpMs": 20,
+    "cls": 0.0009748856439127375,
+    "shifts": [
+      {
+        "time": 353.60000002384186,
+        "value": 0.0009748856439127375,
+        "sources": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "cls": "hud-right",
+            "previous": {
+              "x": 250,
+              "y": 20,
+              "width": 107,
+              "height": 44,
+              "top": 20,
+              "right": 357,
+              "bottom": 64,
+              "left": 250
+            },
+            "current": {
+              "x": 212.21875,
+              "y": 20,
+              "width": 144.78125,
+              "height": 44,
+              "top": 20,
+              "right": 357,
+              "bottom": 64,
+              "left": 212.21875
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 531,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 66.572,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 191286952,
+      "total": 281653540,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/game005/web-v1-r1/assets/index-B45CS-CE.css",
+        "external": false,
+        "type": "link",
+        "bytes": 22417,
+        "decoded": 22117,
+        "duration": 2.4000000953674316
+      },
+      {
+        "url": "/games/game005/web-v1-r1/assets/index-CMoUGFhE.js",
+        "external": false,
+        "type": "script",
+        "bytes": 660789,
+        "decoded": 660489,
+        "duration": 22.799999952316284
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/light-garden/",
+    "width": 375,
+    "height": 812,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 109.69999992847443,
+    "loadMs": 110,
+    "lcpMs": 40,
+    "cls": 0.06511820938848563,
+    "shifts": [
+      {
+        "time": 111.29999995231628,
+        "value": 0.06511820938848563,
+        "sources": [
+          {
+            "tag": "DIV",
+            "id": "scene-wrap",
+            "cls": "",
+            "previous": {
+              "x": 0,
+              "y": 377.890625,
+              "width": 360,
+              "height": 434.109375,
+              "top": 377.890625,
+              "right": 360,
+              "bottom": 812,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 433.890625,
+              "width": 360,
+              "height": 378.109375,
+              "top": 433.890625,
+              "right": 360,
+              "bottom": 812,
+              "left": 0
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "continue",
+            "cls": "primary",
+            "previous": {
+              "x": 0,
+              "y": 277.890625,
+              "width": 208.03125,
+              "height": 106,
+              "top": 277.890625,
+              "right": 208.03125,
+              "bottom": 383.890625,
+              "left": 0
+            },
+            "current": {
+              "x": 63.53125,
+              "y": 277.890625,
+              "width": 232.921875,
+              "height": 106,
+              "top": 277.890625,
+              "right": 296.453125,
+              "bottom": 383.890625,
+              "left": 63.53125
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "title-levels",
+            "cls": "secondary",
+            "previous": {
+              "x": 174.03125,
+              "y": 288.890625,
+              "width": 174.390625,
+              "height": 74,
+              "top": 288.890625,
+              "right": 348.421875,
+              "bottom": 362.890625,
+              "left": 174.03125
+            },
+            "current": {
+              "x": 92.796875,
+              "y": 344.890625,
+              "width": 174.390625,
+              "height": 74,
+              "top": 344.890625,
+              "right": 267.1875,
+              "bottom": 418.890625,
+              "left": 92.796875
+            }
+          },
+          {
+            "tag": "P",
+            "id": "title-note",
+            "cls": "title-note",
+            "previous": {
+              "x": 25,
+              "y": 359.890625,
+              "width": 310,
+              "height": 18,
+              "top": 359.890625,
+              "right": 335,
+              "bottom": 377.890625,
+              "left": 25
+            },
+            "current": {
+              "x": 25,
+              "y": 415.890625,
+              "width": 310,
+              "height": 18,
+              "top": 415.890625,
+              "right": 335,
+              "bottom": 433.890625,
+              "left": 25
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 499,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 238.77,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 141786398,
+      "total": 159812562,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/light-garden/conservatory-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 13703,
+        "decoded": 13403,
+        "duration": 3.600000023841858
+      },
+      {
+        "url": "/games/light-garden/conservatory-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 734514,
+        "decoded": 734214,
+        "duration": 5.5
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 5.899999976158142
+      }
+    ],
+    "externalRequests": 0
+  },
+  {
+    "route": "/en/play/light-garden/",
+    "width": 1440,
+    "height": 1000,
+    "environment": "Windows Chromium; loopback HTTP; same-origin iframe; 3 second initial idle sample; no CPU/network throttling",
+    "domContentLoadedMs": 311.90000009536743,
+    "loadMs": 311.90000009536743,
+    "lcpMs": 32,
+    "cls": 0.003678132716049383,
+    "shifts": [
+      {
+        "time": 93.80000007152557,
+        "value": 0.003678132716049383,
+        "sources": [
+          {
+            "tag": "BUTTON",
+            "id": "title-levels",
+            "cls": "secondary",
+            "previous": {
+              "x": 260.953125,
+              "y": 469.796875,
+              "width": 197.078125,
+              "height": 76.390625,
+              "top": 469.796875,
+              "right": 458.03125,
+              "bottom": 546.1875,
+              "left": 260.953125
+            },
+            "current": {
+              "x": 72.390625,
+              "y": 530.1875,
+              "width": 197.078125,
+              "height": 76.390625,
+              "top": 530.1875,
+              "right": 269.46875,
+              "bottom": 606.578125,
+              "left": 72.390625
+            }
+          },
+          {
+            "tag": "P",
+            "id": "title-note",
+            "cls": "title-note",
+            "previous": {
+              "x": 86.390625,
+              "y": 551.1875,
+              "width": 357.640625,
+              "height": 19.796875,
+              "top": 551.1875,
+              "right": 444.03125,
+              "bottom": 570.984375,
+              "left": 86.390625
+            },
+            "current": {
+              "x": 86.390625,
+              "y": 611.578125,
+              "width": 365,
+              "height": 19.796875,
+              "top": 611.578125,
+              "right": 451.390625,
+              "bottom": 631.375,
+              "left": 86.390625
+            }
+          }
+        ]
+      }
+    ],
+    "layoutShiftObserverAvailable": true,
+    "callbackIntervals": {
+      "count": 540,
+      "p50": 5.599999999999909,
+      "p95": 5.7000000000000455,
+      "max": 11.199999999999989,
+      "meaning": "requestAnimationFrame callback cadence, NOT measured rendered frames or GPU FPS"
+    },
+    "heap": {
+      "used": 132130624,
+      "total": 153383268,
+      "scope": "Chromium browsing-process approximation; may include other contexts"
+    },
+    "resources": [
+      {
+        "url": "/games/light-garden/conservatory-r1/game.css",
+        "external": false,
+        "type": "link",
+        "bytes": 13703,
+        "decoded": 13403,
+        "duration": 2.3000000715255737
+      },
+      {
+        "url": "/assets/analytics-consent.js",
+        "external": false,
+        "type": "script",
+        "bytes": 5138,
+        "decoded": 4838,
+        "duration": 3.799999952316284
+      },
+      {
+        "url": "/games/light-garden/conservatory-r1/game.js",
+        "external": false,
+        "type": "script",
+        "bytes": 734514,
+        "decoded": 734214,
+        "duration": 3.5
+      }
+    ],
+    "externalRequests": 0
+  }
+]

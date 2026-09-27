@@ -1,0 +1,65 @@
+{
+  "canonical": "game004-magnet-full",
+  "preserved": [
+    {
+      "file": "core.ts",
+      "sha256": "884a309579ea07edd951c845fed69b0f748a428f12cb0d164906a0b3ba640395",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "base-core.ts",
+      "sha256": "1bd0e2d1a8d96c64ef08b4a38123c3919d5458457e4ac0f5aadf18dde5fbe2e0",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "accepted-core-reference.ts",
+      "sha256": "65124a473dad1e4480bac8ae839e5e0d8eb0971cdbb3cf0f43f2d251676a694b",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "missions.ts",
+      "sha256": "ad5afedb99ff39c1240c49b2d1dd8e8f77af220d9a6491147c885f4c0d8f2b2e",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "save.ts",
+      "sha256": "8fa931ac410b65b16b512459d3cdfec38f63d73ecf7394e08f78ecd4ba3ab821",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "accepted-progression.ts",
+      "sha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "expansion-progression.ts",
+      "sha256": "4c3d116c49e898150c32a3b030b040d3a90d678e28ae7981023a58dd58e3aa73",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "progression.ts",
+      "sha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "encounters.ts",
+      "sha256": "fdc4f3161b1369ec40d03492e52df016dc14fda8fbfe28cdaca5e67978526ae2",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "audio.ts",
+      "sha256": "fdcf68d3114095608f1dac62e14dfb67977bf7eb3fd36294343551e32722d411",
+      "policy": "BYTE_IDENTICAL_SIMULATION_SAVE_AUDIO"
+    },
+    {
+      "file": "main.ts",
+      "sha256": "38441ab4f6cc295605bc15a54e0ec9363f1628306309682d481d9522b6f99f79",
+      "policy": "PRESENTATION_ADAPTER"
+    },
+    {
+      "file": "hub.ts",
+      "sha256": "45a2346db4ede3b889c922eac1d1144db2713ef13ab405207d371f892052fee4",
+      "policy": "PRESENTATION_ADAPTER"
+    }
+  ]
+}

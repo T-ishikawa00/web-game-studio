@@ -1,0 +1,66 @@
+{
+  "at": "2026-09-27T05:06:37.099Z",
+  "authority": "internal/HUMAN_REQUEST.txt + latest Human message: Portal approved; four remasters accepted; Island retained",
+  "games": [
+    {
+      "id": "tiny-delivery",
+      "direction": "U1 Parcel Grove",
+      "humanStatus": "HUMAN_ACCEPTED",
+      "releaseVersion": "parcel-grove-r1",
+      "saveKey": "wgs:save:tiny-delivery",
+      "saveVersion": "0.1.0"
+    },
+    {
+      "id": "light-garden",
+      "direction": "L1 Luminous Conservatory",
+      "humanStatus": "HUMAN_ACCEPTED",
+      "releaseVersion": "conservatory-r1",
+      "saveKey": "wgs:save:light-garden",
+      "saveVersion": "0.1.0"
+    },
+    {
+      "id": "two-ways-home",
+      "direction": "T1 Parallel Little Towns",
+      "humanStatus": "HUMAN_ACCEPTED",
+      "releaseVersion": "little-towns-r1",
+      "saveKey": "wgs:save:two-ways-home",
+      "saveVersion": "0.1.0"
+    },
+    {
+      "id": "project-magnet",
+      "direction": "M2 Bright Industrial Frontier",
+      "humanStatus": "HUMAN_ACCEPTED",
+      "releaseVersion": "frontier-r1",
+      "saveKey": "tinlumo.game004.magnet.full.v1",
+      "saveVersion": "magnet-full-r1"
+    },
+    {
+      "id": "game005",
+      "direction": "Current Accepted Web v1",
+      "humanStatus": "CURRENT_ACCEPTED_RETAINED",
+      "releaseVersion": "web-v1-r1",
+      "saveKey": "tinlumo:game005:web:v1",
+      "saveVersion": "envelope:1/state:1"
+    }
+  ],
+  "frozenTrees": [
+    {
+      "dir": "hakorilo-u1-remaster-r1/",
+      "files": 237,
+      "digest": "52f5ff3665054ff2322e3f6b36eae964556b48f9f83c482de42aeead73e199be"
+    },
+    {
+      "dir": "tinlumo-remaster-wave1/",
+      "files": 493,
+      "digest": "07b38211c1531a2a155d898de1bad78fae6af7fbb25b97f1a64b399d4998c698"
+    }
+  ],
+  "modificationPolicy": "Accepted source/evidence immutable; production-only compile adapters and wrappers are separately reviewed.",
+  "newDirections": 0,
+  "newImageGenerations": 0,
+  "actualModels": {
+    "primary": "UNKNOWN - exact runtime model ID not exposed",
+    "readOnlyReviewAgents": "UNKNOWN - exact runtime model ID not exposed"
+  },
+  "responsibility": "Primary owns integration and final verification. Auxiliary source/QA audits were read-only."
+}

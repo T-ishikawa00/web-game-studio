@@ -1,0 +1,89 @@
+{
+  "at": "2026-09-27T05:06:19.392Z",
+  "status": "SECURITY_RELEASE_GATE_STOPPED",
+  "humanDecision": "New five profile candidates remain UNDISPOSED. Finish with release gate stopped; do not reuse earlier checkpoint approval.",
+  "rawFullProject": {
+    "status": "FAIL",
+    "count": 22,
+    "knownCurrentIdentityVerified": true
+  },
+  "fullCurrentIndex": {
+    "mode": "staged",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "reachableHistoryNow": {
+    "mode": "history",
+    "status": "PASS",
+    "scanner": "gitleaks 8.30.1",
+    "findings": []
+  },
+  "historicalRawFail11": "RETAINED; historical source evidence not overwritten; original identity UNKNOWN",
+  "S04_S05": "UNKNOWN / UNRESOLVED; consumed checkpoint risk acceptance NOT REUSED",
+  "newCandidates": [
+    {
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "type": "generic-api-key",
+      "action": "HUMAN DISPOSITION PENDING; RELEASE GATE STOP"
+    },
+    {
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "type": "generic-api-key",
+      "action": "HUMAN DISPOSITION PENDING; RELEASE GATE STOP"
+    },
+    {
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "type": "generic-api-key",
+      "action": "HUMAN DISPOSITION PENDING; RELEASE GATE STOP"
+    },
+    {
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "type": "generic-api-key",
+      "action": "HUMAN DISPOSITION PENDING; RELEASE GATE STOP"
+    },
+    {
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "type": "generic-api-key",
+      "action": "HUMAN DISPOSITION PENDING; RELEASE GATE STOP"
+    }
+  ],
+  "distribution": {
+    "status": "PASS",
+    "findings": []
+  },
+  "productionSource": {
+    "status": "PASS",
+    "findings": []
+  },
+  "absence": [
+    {
+      "file": ".tmp/physical-mobile-r2/tls/server.key",
+      "indexAbsent": true,
+      "historyAndReflogAbsent": true
+    },
+    {
+      "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Local State",
+      "indexAbsent": true,
+      "historyAndReflogAbsent": true
+    },
+    {
+      "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+      "indexAbsent": true,
+      "historyAndReflogAbsent": true
+    },
+    {
+      "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+      "indexAbsent": true,
+      "historyAndReflogAbsent": true
+    },
+    {
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "indexAbsent": true,
+      "historyAndReflogAbsent": true
+    }
+  ],
+  "distributionForbidden": [],
+  "scannerOrHookChanges": 0,
+  "externalProviderChecks": 0
+}

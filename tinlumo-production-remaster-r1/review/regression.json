@@ -1,0 +1,76 @@
+{
+  "status": "FULL_REGRESSION_READY_WITH_EXPLICIT_EVIDENCE_REUSE",
+  "newRuns": {
+    "hakorilo": {
+      "all": 18,
+      "input": "Native arrows/clocks, Go/Pause/One beat; final special completion copy; reload18/18",
+      "evidence": "../internal/hakorilo-normal-input.json"
+    },
+    "lightwork": {
+      "all": 18,
+      "input": "60 native mirror clicks; all18 completion",
+      "evidence": "../internal/lightwork-normal-input.json"
+    },
+    "twoWays": {
+      "all": 21,
+      "input": "166 native directional button clicks; reload21/21",
+      "evidence": "../internal/two-ways-normal-input.json"
+    },
+    "magnet": {
+      "input": "A1 native pointer clear; A2 armor-depletion failure; Retry and Mission hub; language/reload/return",
+      "evidence": "../internal/magnet-normal-input.json"
+    },
+    "island": {
+      "input": "Native dock repair, shipments, workshop and market build/placement; reload and saved-locale behavior. No full3 fresh rerun in this RC.",
+      "payload": "All current accepted JS/CSS/10 textures/credits/license byte-identical; old IslandPlay wrapper reused unchanged"
+    }
+  },
+  "reusedFullRuns": {
+    "magnet": "Accepted full18 sectors +3 bosses: A184.13s/B43.36s/C42.89s, normal pointer + pen drag, no state injection; unlock ABC + NORMAL END reload. Simulation/save/audio10 modules verified unchanged.",
+    "island": "Current release Route B 2026-09-24T08:43:56.843Z: 445.74s,76 normal UI clicks, all3 districts, no state injection/time acceleration, reload/related return. Exact current payload retained."
+  },
+  "unitRuns": {
+    "root": 215,
+    "acceptedRemaster": 88,
+    "island": 42,
+    "newIntegration": 61,
+    "consent": 8,
+    "total": 414
+  },
+  "saveCoverage": "All57 canonical puzzle envelopes load/readback, legacy clearing IDs, Magnet ABC record/settings, Island v1 envelope, corruption preservation; see integration tests and original state suites.",
+  "limitations": [
+    "Old real user saves not collected; representative canonical old-format fixtures are synthetic",
+    "Game rule/render unchanged evidence is reused; not all full games freshly replayed in this RC",
+    "Physical devices and human visual/listening acceptance of RC remain separate"
+  ],
+  "sourceEvidence": [
+    {
+      "file": "tinlumo-remaster-wave1/magnet/internal/browser-qa.json",
+      "sha256": "e6cfdc0823076efa9f4e0f680489865a6cb69d5d65e71ae05ef8fc9501c99026"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/internal/canonical-inputs.json",
+      "sha256": "062e875eafe87eb5930faae0619f7058450432468addf5f19460c33850dddf2a"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/reports/PERFORMANCE.md",
+      "sha256": "a33381e13b996cc941a3a6e2bba16035c3c3c147527e174b7411447f62b91777"
+    },
+    {
+      "file": "docs/qa/game005-release-r1/route-B-play.json",
+      "sha256": "2d729937d91167638f5edba94eb65e10a8f8f9e5ffd8ea6180783ea07e6290f9"
+    },
+    {
+      "file": "docs/qa/game005-release-r1/play.mjs",
+      "sha256": "216cd1084535a1b2108a04917d0e03126dbd84594168181a57515d781db36d88"
+    },
+    {
+      "file": "docs/qa/game005-release-r1/distribution.json",
+      "sha256": "85c34c28372b7e0d7fd6b9d870d30d91cc30d80ff4efcaa8517ee2091aba8807"
+    },
+    {
+      "file": "src/rc/IslandPlay.astro",
+      "sha256": "32f19d949817d345785c61a98e591deb3a48f211bec75d76f5cf4c68045b4828"
+    }
+  ]
+}

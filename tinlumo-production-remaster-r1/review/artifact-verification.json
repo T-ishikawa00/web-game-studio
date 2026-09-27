@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-27T05:41:56.446Z",
+  "artifact": "release-artifacts/tinlumo-visual-remaster-r1",
+  "files": 101,
+  "routes": 39,
+  "localReferences": 1262,
+  "brokenReferences": [],
+  "priorFilesVerified": 9565,
+  "currentExistingDirtyContentPreserved": true,
+  "rollbackFilesVerified": 84,
+  "consentPayloadExact": true,
+  "reviewUiAbsent": true,
+  "sourceMaps": 0
+}

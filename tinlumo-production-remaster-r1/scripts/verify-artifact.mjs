@@ -1,0 +1,15 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
+const task='tinlumo-production-remaster-r1',m=JSON.parse(fs.readFileSync(task+'/internal/distribution.json')),root=m.root,hash=b=>createHash('sha256').update(b).digest('hex');
+const issues=[];let references=0;
+for(const f of m.files){assert.equal(hash(fs.readFileSync(root+'/'+f.file)),f.sha256);if(!f.file.endsWith('.html'))continue;const html=fs.readFileSync(root+'/'+f.file,'utf8'),url=new URL('/'+f.file.replace(/index\.html$/,''),'https://tinlumo.com');
+ for(const match of html.matchAll(/(?:href|src)="([^"]+)"/g)){const raw=match[1];if(/^(data:|mailto:|tel:|#)/.test(raw))continue;const u=new URL(raw,url);if(u.origin!==url.origin)continue;let file=decodeURIComponent(u.pathname);if(file.endsWith('/'))file+='index.html';if(!fs.existsSync(path.join(root,file)))issues.push({file:f.file,reference:u.pathname});references++;}
+ if(/^en\//.test(f.file))assert(html.includes('lang="en"'));if(/^ja\//.test(f.file))assert(html.includes('lang="ja"'));
+ if(/^games\//.test(f.file)||f.file==='404.html')assert(html.includes('noindex'));else if(/^(en|ja)\//.test(f.file)){assert(html.includes('rel="canonical"'));assert(!/name="robots" content="noindex/.test(html));}
+ assert(!html.includes('capture-panel')&&!html.includes('capture-controls'),'Review capture UI in '+f.file);
+}
+assert.equal(m.routes.length,39);assert.equal(new Set(m.routes).size,39);assert.equal(references>300,true);assert.deepEqual(issues,[],'Broken internal references');
+assert.equal(hash(fs.readFileSync(root+'/assets/analytics-consent.js')),hash(fs.readFileSync('src/rc/analytics-consent.js')));
+const old=JSON.parse(fs.readFileSync('docs/qa/game005-release-r1/distribution.json'));for(const f of old.files)assert.equal(hash(fs.readFileSync(old.root+'/'+f.file)),f.sha256,'Rollback artifact altered');
+const before=JSON.parse(fs.readFileSync(task+'/internal/before.json'));const changed=before.hashes.filter(f=>!['src/data/games.ts','docs/games/PRODUCTION_CURRENT.md'].includes(f.path)).filter(f=>!fs.existsSync(f.path)||hash(fs.readFileSync(f.path))!==f.sha256);assert.deepEqual(changed,[],'Pre-existing files changed');
+const current=fs.readFileSync('docs/games/PRODUCTION_CURRENT.md','utf8').replace(/^<!-- tinlumo-production-remaster-r1:start -->[\s\S]*?<!-- tinlumo-production-remaster-r1:end -->\r?\n\r?\n/,'');assert.equal(hash(Buffer.from(current)),before.hashes.find(f=>f.path==='docs/games/PRODUCTION_CURRENT.md').sha256,'Existing Current content changed');
+const report={at:new Date().toISOString(),artifact:root,files:m.files.length,routes:m.routes.length,localReferences:references,brokenReferences:issues,priorFilesVerified:before.hashes.length-2,currentExistingDirtyContentPreserved:true,rollbackFilesVerified:old.files.length,consentPayloadExact:true,reviewUiAbsent:true,sourceMaps:m.files.filter(f=>f.file.endsWith('.map')).length};fs.writeFileSync(task+'/review/artifact-verification.json',JSON.stringify(report,null,2)+'\n');console.log(report);

@@ -1,0 +1,255 @@
+{
+  "started": "2026-09-27T05:37:43.797Z",
+  "completed": "2026-09-27T05:41:13.927Z",
+  "status": "SECURITY_RELEASE_GATE_RELEASABLE_FOR_THIS_RC",
+  "scope": "Tinlumo Production Remaster R1 current release candidate only",
+  "approval": "../security-new5/HUMAN_DISPOSITION.md",
+  "humanProductionReleaseGate": "PENDING",
+  "rawFullProject": {
+    "status": "FAIL",
+    "total": 22,
+    "priorKnown": 17,
+    "humanDisposedCurrentFive": 5,
+    "additionalNewCandidates": 0
+  },
+  "additionalFindings": [],
+  "scans": {
+    "all": {
+      "started": "2026-09-27T05:37:44.852Z",
+      "completed": "2026-09-27T05:39:03.447Z",
+      "exitCode": 1,
+      "freshReceiptVerified": true,
+      "mode": "all",
+      "status": "FAIL",
+      "scanner": "gitleaks 8.30.1",
+      "findings": [
+        {
+          "file": ".tmp/consent-r1/before.json",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": ".tmp/consent-r1/before.json",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": ".tmp/physical-mobile-r2/tls/server.key",
+          "type": "private-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": ".tmp/r3-before/manifest.json",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": ".tmp/provider-human-update/before.json",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": ".tmp/provider-human-update/before.json",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Local State",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        }
+      ]
+    },
+    "staged": {
+      "started": "2026-09-27T05:39:03.447Z",
+      "completed": "2026-09-27T05:41:07.827Z",
+      "exitCode": 0,
+      "freshReceiptVerified": true,
+      "mode": "staged",
+      "status": "PASS",
+      "scanner": "gitleaks 8.30.1",
+      "findings": []
+    },
+    "history": {
+      "started": "2026-09-27T05:41:07.827Z",
+      "completed": "2026-09-27T05:41:10.413Z",
+      "exitCode": 0,
+      "freshReceiptVerified": true,
+      "mode": "history",
+      "status": "PASS",
+      "scanner": "gitleaks 8.30.1",
+      "findings": []
+    }
+  },
+  "distribution": {
+    "status": "PASS",
+    "files": 101,
+    "findings": []
+  },
+  "productionSource": {
+    "status": "PASS",
+    "findings": []
+  },
+  "candidateIdentity": {
+    "sameEntrySnapshotFile": true,
+    "sameFiveReproduced": true,
+    "originalPerCandidateReceipt": "Not retained; same-file rescan evidence only"
+  },
+  "profile": {
+    "path": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile",
+    "untracked": true,
+    "ignored": false,
+    "indexAbsent": true,
+    "reachableHistoryAbsent": true,
+    "reflogHistoryAbsent": true,
+    "scopedStageManifestExcluded": true,
+    "manifestProfilePaths": [],
+    "distributionAbsent": true,
+    "productionArtifactReachable": false,
+    "candidateByteMatches": [
+      {
+        "id": "TRR1-NEW-01",
+        "rc": 0,
+        "currentProduction": 0
+      },
+      {
+        "id": "TRR1-NEW-02",
+        "rc": 0,
+        "currentProduction": 0
+      },
+      {
+        "id": "TRR1-NEW-03",
+        "rc": 0,
+        "currentProduction": 0
+      },
+      {
+        "id": "TRR1-NEW-04",
+        "rc": 0,
+        "currentProduction": 0
+      },
+      {
+        "id": "TRR1-NEW-05",
+        "rc": 0,
+        "currentProduction": 0
+      }
+    ]
+  },
+  "fiveDispositions": [
+    {
+      "id": "TRR1-NEW-01",
+      "disposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED"
+    },
+    {
+      "id": "TRR1-NEW-02",
+      "disposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED"
+    },
+    {
+      "id": "TRR1-NEW-03",
+      "disposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED"
+    },
+    {
+      "id": "TRR1-NEW-04",
+      "disposition": "FALSE POSITIVE / NON-CREDENTIAL / APPROVED"
+    },
+    {
+      "id": "TRR1-NEW-05",
+      "disposition": "ENCRYPTED LOCAL INTEGRITY METADATA / RESTRICTED LOCAL RETENTION ONLY / HUMAN APPROVED",
+      "plaintext": "UNKNOWN",
+      "recoverability": "UNKNOWN",
+      "falsePositive": false,
+      "nonCredential": false
+    }
+  ],
+  "prior17": "UNCHANGED / existing identity verified",
+  "historical11": "UNCHANGED historical FAIL11",
+  "S04_S05": "UNKNOWN / UNRESOLVED — unchanged; no prior risk acceptance reused",
+  "preservation": {
+    "securityRulesPriorDispositionsAndTargetUnchanged": true,
+    "headAndFullIndexUnchanged": true,
+    "artifactUnchanged": true,
+    "privatePathsAbsent": true
+  },
+  "limits": [
+    "Current RC and current inspected state only; no approval transfer",
+    "Raw FAIL22 is preserved, not turned into scanner PASS",
+    "05 plaintext/recoverability UNKNOWN; restricted local retention only",
+    "Security releasable report does not authorize stage/commit/push/deploy or Product acceptance",
+    "Existing historical11/S04/S05 unresolved state is not cleared by this narrow gate"
+  ],
+  "actualModelId": "UNKNOWN - exact ID not exposed"
+}

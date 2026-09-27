@@ -1,0 +1,584 @@
+{
+  "inputs": {
+    "src/prototypes/light-levels-r2.ts": {
+      "bytes": 13068,
+      "imports": [],
+      "format": "esm"
+    },
+    "src/prototypes/delivery-r2.ts": {
+      "bytes": 3663,
+      "imports": [
+        {
+          "path": "src/prototypes/rules.ts",
+          "kind": "import-statement",
+          "original": "./rules"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/rules.ts": {
+      "bytes": 1864,
+      "imports": [
+        {
+          "path": "src/prototypes/light-r2.ts",
+          "kind": "import-statement",
+          "original": "./light-r2"
+        },
+        {
+          "path": "src/prototypes/delivery-r2.ts",
+          "kind": "import-statement",
+          "original": "./delivery-r2"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/light-r2.ts": {
+      "bytes": 3683,
+      "imports": [
+        {
+          "path": "src/prototypes/rules.ts",
+          "kind": "import-statement",
+          "original": "./rules"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/home-levels-r2.ts": {
+      "bytes": 17755,
+      "imports": [],
+      "format": "esm"
+    },
+    "src/prototypes/home-levels-learning.ts": {
+      "bytes": 2557,
+      "imports": [
+        {
+          "path": "src/prototypes/home-levels-r2.ts",
+          "kind": "import-statement",
+          "original": "./home-levels-r2"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/delivery-levels-r2.ts": {
+      "bytes": 17051,
+      "imports": [],
+      "format": "esm"
+    },
+    "src/prototypes/levels.ts": {
+      "bytes": 568,
+      "imports": [
+        {
+          "path": "src/prototypes/light-levels-r2.ts",
+          "kind": "import-statement",
+          "original": "./light-levels-r2"
+        },
+        {
+          "path": "src/prototypes/home-levels-learning.ts",
+          "kind": "import-statement",
+          "original": "./home-levels-learning"
+        },
+        {
+          "path": "src/prototypes/delivery-levels-r2.ts",
+          "kind": "import-statement",
+          "original": "./delivery-levels-r2"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/state.ts": {
+      "bytes": 4267,
+      "imports": [
+        {
+          "path": "src/prototypes/levels.ts",
+          "kind": "import-statement",
+          "original": "./levels"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/light-craft-sound.ts": {
+      "bytes": 6820,
+      "imports": [],
+      "format": "esm"
+    },
+    "src/prototypes/light-craft-audio.ts": {
+      "bytes": 5217,
+      "imports": [
+        {
+          "path": "src/prototypes/light-craft-sound.ts",
+          "kind": "import-statement",
+          "original": "./light-craft-sound"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/light-cause.ts": {
+      "bytes": 1401,
+      "imports": [
+        {
+          "path": "src/prototypes/light-r2.ts",
+          "kind": "import-statement",
+          "original": "./light-r2"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/light-craft-plan.ts": {
+      "bytes": 2022,
+      "imports": [
+        {
+          "path": "src/prototypes/light-cause.ts",
+          "kind": "import-statement",
+          "original": "./light-cause"
+        },
+        {
+          "path": "src/prototypes/light-r2.ts",
+          "kind": "import-statement",
+          "original": "./light-r2"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/prototypes/direct-input.ts": {
+      "bytes": 3702,
+      "imports": [],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/build/three.core.js": {
+      "bytes": 1458113,
+      "imports": [],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/build/three.module.js": {
+      "bytes": 662772,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.core.js",
+          "kind": "import-statement",
+          "original": "./three.core.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/build/three.core.js",
+          "kind": "import-statement",
+          "original": "./three.core.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js": {
+      "bytes": 6470,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/environments/RoomEnvironment.js": {
+      "bytes": 4960,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/shaders/CopyShader.js": {
+      "bytes": 729,
+      "imports": [],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/postprocessing/Pass.js": {
+      "bytes": 4218,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/postprocessing/ShaderPass.js": {
+      "bytes": 3228,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/Pass.js",
+          "kind": "import-statement",
+          "original": "./Pass.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/postprocessing/MaskPass.js": {
+      "bytes": 4694,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/Pass.js",
+          "kind": "import-statement",
+          "original": "./Pass.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/postprocessing/EffectComposer.js": {
+      "bytes": 8501,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/shaders/CopyShader.js",
+          "kind": "import-statement",
+          "original": "../shaders/CopyShader.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/ShaderPass.js",
+          "kind": "import-statement",
+          "original": "./ShaderPass.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/MaskPass.js",
+          "kind": "import-statement",
+          "original": "./MaskPass.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/postprocessing/RenderPass.js": {
+      "bytes": 4280,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/Pass.js",
+          "kind": "import-statement",
+          "original": "./Pass.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/math/SimplexNoise.js": {
+      "bytes": 15148,
+      "imports": [],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/shaders/SSAOShader.js": {
+      "bytes": 6968,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/postprocessing/SSAOPass.js": {
+      "bytes": 13463,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/Pass.js",
+          "kind": "import-statement",
+          "original": "./Pass.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/math/SimplexNoise.js",
+          "kind": "import-statement",
+          "original": "../math/SimplexNoise.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/shaders/SSAOShader.js",
+          "kind": "import-statement",
+          "original": "../shaders/SSAOShader.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/shaders/CopyShader.js",
+          "kind": "import-statement",
+          "original": "../shaders/CopyShader.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/shaders/LuminosityHighPassShader.js": {
+      "bytes": 1291,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js": {
+      "bytes": 15397,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/Pass.js",
+          "kind": "import-statement",
+          "original": "./Pass.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/shaders/CopyShader.js",
+          "kind": "import-statement",
+          "original": "../shaders/CopyShader.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/shaders/LuminosityHighPassShader.js",
+          "kind": "import-statement",
+          "original": "../shaders/LuminosityHighPassShader.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/shaders/OutputShader.js": {
+      "bytes": 1876,
+      "imports": [],
+      "format": "esm"
+    },
+    "game005-island/node_modules/three/examples/jsm/postprocessing/OutputPass.js": {
+      "bytes": 4184,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/Pass.js",
+          "kind": "import-statement",
+          "original": "./Pass.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/shaders/OutputShader.js",
+          "kind": "import-statement",
+          "original": "../shaders/OutputShader.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "tinlumo-remaster-wave1/lightwork/src/world.ts": {
+      "bytes": 29865,
+      "imports": [
+        {
+          "path": "game005-island/node_modules/three/build/three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js",
+          "kind": "import-statement",
+          "original": "three/addons/geometries/RoundedBoxGeometry.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/environments/RoomEnvironment.js",
+          "kind": "import-statement",
+          "original": "three/addons/environments/RoomEnvironment.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/EffectComposer.js",
+          "kind": "import-statement",
+          "original": "three/addons/postprocessing/EffectComposer.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/RenderPass.js",
+          "kind": "import-statement",
+          "original": "three/addons/postprocessing/RenderPass.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/SSAOPass.js",
+          "kind": "import-statement",
+          "original": "three/addons/postprocessing/SSAOPass.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js",
+          "kind": "import-statement",
+          "original": "three/addons/postprocessing/UnrealBloomPass.js"
+        },
+        {
+          "path": "game005-island/node_modules/three/examples/jsm/postprocessing/OutputPass.js",
+          "kind": "import-statement",
+          "original": "three/addons/postprocessing/OutputPass.js"
+        },
+        {
+          "path": "src/prototypes/light-r2.ts",
+          "kind": "import-statement",
+          "original": "../../../src/prototypes/light-r2"
+        }
+      ],
+      "format": "esm"
+    },
+    "tinlumo-remaster-wave1/lightwork/src/main.ts": {
+      "bytes": 21981,
+      "imports": [
+        {
+          "path": "src/prototypes/light-levels-r2.ts",
+          "kind": "import-statement",
+          "original": "../../../src/prototypes/light-levels-r2"
+        },
+        {
+          "path": "src/prototypes/light-r2.ts",
+          "kind": "import-statement",
+          "original": "../../../src/prototypes/light-r2"
+        },
+        {
+          "path": "src/prototypes/state.ts",
+          "kind": "import-statement",
+          "original": "../../../src/prototypes/state"
+        },
+        {
+          "path": "src/prototypes/light-craft-audio.ts",
+          "kind": "import-statement",
+          "original": "../../../src/prototypes/light-craft-audio"
+        },
+        {
+          "path": "src/prototypes/light-craft-plan.ts",
+          "kind": "import-statement",
+          "original": "../../../src/prototypes/light-craft-plan"
+        },
+        {
+          "path": "src/prototypes/direct-input.ts",
+          "kind": "import-statement",
+          "original": "../../../src/prototypes/direct-input"
+        },
+        {
+          "path": "tinlumo-remaster-wave1/lightwork/src/world.ts",
+          "kind": "import-statement",
+          "original": "./world"
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    ".cache/tinlumo-visual-remaster-assets/games/light-garden/conservatory-r1/game.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "tinlumo-remaster-wave1/lightwork/src/main.ts",
+      "inputs": {
+        "src/prototypes/light-levels-r2.ts": {
+          "bytesInOutput": 16270
+        },
+        "src/prototypes/rules.ts": {
+          "bytesInOutput": 112
+        },
+        "src/prototypes/light-r2.ts": {
+          "bytesInOutput": 1414
+        },
+        "src/prototypes/home-levels-r2.ts": {
+          "bytesInOutput": 15445
+        },
+        "src/prototypes/home-levels-learning.ts": {
+          "bytesInOutput": 2671
+        },
+        "src/prototypes/delivery-levels-r2.ts": {
+          "bytesInOutput": 17956
+        },
+        "src/prototypes/levels.ts": {
+          "bytesInOutput": 84
+        },
+        "src/prototypes/state.ts": {
+          "bytesInOutput": 2653
+        },
+        "src/prototypes/light-craft-sound.ts": {
+          "bytesInOutput": 3591
+        },
+        "src/prototypes/light-craft-audio.ts": {
+          "bytesInOutput": 3150
+        },
+        "src/prototypes/light-cause.ts": {
+          "bytesInOutput": 792
+        },
+        "src/prototypes/light-craft-plan.ts": {
+          "bytesInOutput": 1057
+        },
+        "src/prototypes/direct-input.ts": {
+          "bytesInOutput": 2421
+        },
+        "game005-island/node_modules/three/build/three.core.js": {
+          "bytesInOutput": 233092
+        },
+        "game005-island/node_modules/three/build/three.module.js": {
+          "bytesInOutput": 355146
+        },
+        "game005-island/node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js": {
+          "bytesInOutput": 1667
+        },
+        "game005-island/node_modules/three/examples/jsm/environments/RoomEnvironment.js": {
+          "bytesInOutput": 1949
+        },
+        "game005-island/node_modules/three/examples/jsm/shaders/CopyShader.js": {
+          "bytesInOutput": 427
+        },
+        "game005-island/node_modules/three/examples/jsm/postprocessing/Pass.js": {
+          "bytesInOutput": 617
+        },
+        "game005-island/node_modules/three/examples/jsm/postprocessing/ShaderPass.js": {
+          "bytesInOutput": 811
+        },
+        "game005-island/node_modules/three/examples/jsm/postprocessing/MaskPass.js": {
+          "bytesInOutput": 1096
+        },
+        "game005-island/node_modules/three/examples/jsm/postprocessing/EffectComposer.js": {
+          "bytesInOutput": 2590
+        },
+        "game005-island/node_modules/three/examples/jsm/postprocessing/RenderPass.js": {
+          "bytesInOutput": 992
+        },
+        "game005-island/node_modules/three/examples/jsm/math/SimplexNoise.js": {
+          "bytesInOutput": 4374
+        },
+        "game005-island/node_modules/three/examples/jsm/shaders/SSAOShader.js": {
+          "bytesInOutput": 5915
+        },
+        "game005-island/node_modules/three/examples/jsm/postprocessing/SSAOPass.js": {
+          "bytesInOutput": 6227
+        },
+        "game005-island/node_modules/three/examples/jsm/shaders/LuminosityHighPassShader.js": {
+          "bytesInOutput": 844
+        },
+        "game005-island/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js": {
+          "bytesInOutput": 8485
+        },
+        "game005-island/node_modules/three/examples/jsm/shaders/OutputShader.js": {
+          "bytesInOutput": 1492
+        },
+        "game005-island/node_modules/three/examples/jsm/postprocessing/OutputPass.js": {
+          "bytesInOutput": 1461
+        },
+        "tinlumo-remaster-wave1/lightwork/src/world.ts": {
+          "bytesInOutput": 21439
+        },
+        "tinlumo-remaster-wave1/lightwork/src/main.ts": {
+          "bytesInOutput": 17778
+        }
+      },
+      "bytes": 734214
+    }
+  }
+}

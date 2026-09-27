@@ -1,0 +1,4210 @@
+[
+  {
+    "requestedWidth": 1440,
+    "route": "/en/about/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nAbout the studio\n\nTinlumo brings together 5 origina",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "About Tinlumo | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/contact/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nContact & operator\n\nTinlumo Studio (individually op",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "Contact | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/credits/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nCredits\n\nTinlumo games are",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Credits | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/games/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\nFind your little adventure.\n",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Our games | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/games/island-connections/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nAn Island Connected\n\nISLAND BUILDER\n\n",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "An Island Connected | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/games/light-garden/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nLightwork Garden\n\nLIGHT PUZZLE\n\nLight",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/games/project-magnet/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nPROJECT MAGNET\n\nMAGNETIC ACTION\n\nPROJ",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/games/tiny-delivery/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nHakorilo\n\nROUTING PUZZLE\n\nHakorilo\n\nC",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/games/two-ways-home/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nTwo Ways Home\n\nSYNCHRONIZED PUZZLE\n\nT",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/play/island-connections/",
+    "bodyText": "ISLANDGALLERY\n24\nTimber\n14\nCoins\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & ex",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 1470,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1724,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1978,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2232,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2486,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 1440,
+    "title": "An Island Connected | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/play/light-garden/",
+    "bodyText": "TINLUMO\nGARDENS\n日本語\n⚙\nHow to play\n\nA LITTLE CONSERVATORY OF LIGHT\n\nLightwork\nGarden\n\nTurn a mirror. ",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\nMISSIONS\n日本語\nSOUND ON\nMOTION\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\nGat",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nA LITTLE WORLD OF GOOD DAYS\nJA\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\nLittle parcels. A",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/play/two-ways-home/",
+    "bodyText": "Tinlumo\nTWO WAYS HOME\nA SHARED JOURNEY HOME\nTwo Ways Home\nSettings\n日本語\nTINLUMO ORIGINAL\nTwo Ways\nHom",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/privacy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nPrivacy\n\nTinlumo Studio is individually operated. T",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Privacy | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/settings/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\nSettings\nAnalytics\n\nAna",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Settings | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/terms/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nTerms\nUsing the service\n\nTinlumo provides 5 free br",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Terms | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/en/video-policy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nGameplay & video usage policy\n\nIndividuals and orga",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/about/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nスタジオについて\n\nTinlumoは、ブラウザですぐに遊べる5つの自作ゲームを集めたサイトです。\n\nすべて無料で、日本語と英語",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "スタジオについて | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/contact/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nお問い合わせ・運営者情報\n\nTinlumo Studio（個人運営）\n\nsupport@tinlumo.com\n\n一般のお問い",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/credits/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nクレジット\n\nTinlumoのゲームは、AIの支援を用いて制作しています。ゲ",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "クレジット | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/games/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\n気になる世界へ。\n\nダウンロードも、登録もいりません。\n\n5つの、小さな世界。\n",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "ゲーム一覧 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/games/island-connections/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\n島をつなぐ日\n\n小さな島づくり\n\n島をつなぐ日\n\n道をつなぎ、暮らしの景色を育てよう。\n\n建てる場所と",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/games/light-garden/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nひかりの仕掛け庭\n\n光のパズル\n\nひかりの仕掛け庭\n\n光をつなぐ。小さな庭が目を覚ます。\n\n光をつなぐ",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/games/project-magnet/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nPROJECT MAGNET\n\n磁力アクション\n\nPROJECT MAGNET\n\n吸い寄せ、狙い、壊す",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/games/tiny-delivery/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nHakorilo\n\n配送パズル\n\nHakorilo\n\nハコリロ\n\n道をつないで、タイミングを合わせる。",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/games/two-ways-home/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nふたりの帰り道\n\nふたりのパズル\n\nふたりの帰り道\n\n同じ一歩を、離れたふたりへ。\n\nふたりは一緒に動",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.\nA Brighter\n",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/play/island-connections/",
+    "bodyText": "ISLANDGALLERY\nTimber\nCoins\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 1470,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1724,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1978,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2232,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2486,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 1440,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/play/light-garden/",
+    "bodyText": "TINLUMO\nGARDENS\nEN\n⚙\n遊び方\n\nひかりを育てる、小さな温室\n\nLightwork\nGarden\n\nひかりの仕掛け庭\n\n鏡をひとつ回す。光がめぐり、花がひらく。心をほどく、18の小さ",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\n作戦\nEN\n音 ON\n動き 通常\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nA LITTLE WORLD OF GOOD DAYS\nEN\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\n小さな荷物。やさしいひと呼吸。\n\n",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/play/two-ways-home/",
+    "bodyText": "Tinlumo\nTWO WAYS HOME\nふたりの帰り道\nTwo Ways Home\n設定\nEnglish\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nふたりの帰り道\n\n違う道を",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/privacy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nプライバシー\n\nTinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "プライバシー | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/settings/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\n設定\nアクセス計測\n\n計測は初期状態でオフです。許可しなくても、すべて",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "設定 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/terms/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n利用規約\nサービスの利用\n\nTinlumoは、日本語と英語で遊べる5つの無料ブラウザゲームを提供します。 アカウント登録、購入",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "利用規約 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/ja/video-policy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n実況・動画利用方針\n\n個人・法人を問わず、通常のプレイから作成したゲームプレイ動画、実況、レビュー・攻略動画、ライブ配信、スク",
+    "brokenImages": [],
+    "clientWidth": 1440,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1440,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/404.html",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n404\nA little detour.\n\nThis page could not be found.",
+    "brokenImages": [],
+    "clientWidth": 1425,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1425,
+    "title": "Page not found | Tinlumo",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/about/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nAbout the studio\n\nTinlumo brings together 5 origina",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "About Tinlumo | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/contact/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nContact & operator\n\nTinlumo Studio (individually op",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "Contact | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/credits/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nCredits\n\nTinlumo games are",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Credits | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/games/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\nFind your little adventure.\n",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Our games | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/games/island-connections/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nAn Island Connected\n\nISLAND BUILDER\n\n",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "An Island Connected | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/games/light-garden/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nLightwork Garden\n\nLIGHT PUZZLE\n\nLight",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/games/project-magnet/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nPROJECT MAGNET\n\nMAGNETIC ACTION\n\nPROJ",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/games/tiny-delivery/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nHakorilo\n\nROUTING PUZZLE\n\nHakorilo\n\nC",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/games/two-ways-home/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nTwo Ways Home\n\nSYNCHRONIZED PUZZLE\n\nT",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/play/island-connections/",
+    "bodyText": "ISLANDGALLERY\nTimber\nCoins\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 1390,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1644,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1898,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2152,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2406,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 1280,
+    "title": "An Island Connected | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/play/light-garden/",
+    "bodyText": "TINLUMO\nGARDENS\n日本語\n⚙\nHow to play\n\nA LITTLE CONSERVATORY OF LIGHT\n\nLightwork\nGarden\n\nTurn a mirror. ",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\nMISSIONS\n日本語\nSOUND ON\nMOTION\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\nGat",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nA LITTLE WORLD OF GOOD DAYS\nJA\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\nLittle parcels. A",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/play/two-ways-home/",
+    "bodyText": "Tinlumo\nTWO WAYS HOME\nA SHARED JOURNEY HOME\nTwo Ways Home\nSettings\n日本語\nTINLUMO ORIGINAL\nTwo Ways\nHom",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/privacy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nPrivacy\n\nTinlumo Studio is individually operated. T",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Privacy | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/settings/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\nSettings\nAnalytics\n\nAna",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Settings | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/terms/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nTerms\nUsing the service\n\nTinlumo provides 5 free br",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Terms | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/en/video-policy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nGameplay & video usage policy\n\nIndividuals and orga",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/about/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nスタジオについて\n\nTinlumoは、ブラウザですぐに遊べる5つの自作ゲームを集めたサイトです。\n\nすべて無料で、日本語と英語",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "スタジオについて | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/contact/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nお問い合わせ・運営者情報\n\nTinlumo Studio（個人運営）\n\nsupport@tinlumo.com\n\n一般のお問い",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/credits/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nクレジット\n\nTinlumoのゲームは、AIの支援を用いて制作しています。ゲ",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "クレジット | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/games/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\n気になる世界へ。\n\nダウンロードも、登録もいりません。\n\n5つの、小さな世界。\n",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "ゲーム一覧 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/games/island-connections/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\n島をつなぐ日\n\n小さな島づくり\n\n島をつなぐ日\n\n道をつなぎ、暮らしの景色を育てよう。\n\n建てる場所と",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/games/light-garden/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nひかりの仕掛け庭\n\n光のパズル\n\nひかりの仕掛け庭\n\n光をつなぐ。小さな庭が目を覚ます。\n\n光をつなぐ",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/games/project-magnet/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nPROJECT MAGNET\n\n磁力アクション\n\nPROJECT MAGNET\n\n吸い寄せ、狙い、壊す",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/games/tiny-delivery/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nHakorilo\n\n配送パズル\n\nHakorilo\n\nハコリロ\n\n道をつないで、タイミングを合わせる。",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/games/two-ways-home/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nふたりの帰り道\n\nふたりのパズル\n\nふたりの帰り道\n\n同じ一歩を、離れたふたりへ。\n\nふたりは一緒に動",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.\nA Brighter\n",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/play/island-connections/",
+    "bodyText": "ISLANDGALLERY\nTimber\nCoins\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 1390,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1644,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1898,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2152,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2406,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 1280,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/play/light-garden/",
+    "bodyText": "TINLUMO\nGARDENS\nEN\n⚙\n遊び方\n\nひかりを育てる、小さな温室\n\nLightwork\nGarden\n\nひかりの仕掛け庭\n\n鏡をひとつ回す。光がめぐり、花がひらく。心をほどく、18の小さ",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\n作戦\nEN\n音 ON\n動き 通常\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nA LITTLE WORLD OF GOOD DAYS\nEN\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\n小さな荷物。やさしいひと呼吸。\n\n",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/play/two-ways-home/",
+    "bodyText": "Tinlumo\nTWO WAYS HOME\nふたりの帰り道\nTwo Ways Home\n設定\nEnglish\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nふたりの帰り道\n\n違う道を",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/privacy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nプライバシー\n\nTinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "プライバシー | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/settings/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\n設定\nアクセス計測\n\n計測は初期状態でオフです。許可しなくても、すべて",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "設定 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/terms/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n利用規約\nサービスの利用\n\nTinlumoは、日本語と英語で遊べる5つの無料ブラウザゲームを提供します。 アカウント登録、購入",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "利用規約 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/ja/video-policy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n実況・動画利用方針\n\n個人・法人を問わず、通常のプレイから作成したゲームプレイ動画、実況、レビュー・攻略動画、ライブ配信、スク",
+    "brokenImages": [],
+    "clientWidth": 1280,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1280,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1280,
+    "route": "/404.html",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n404\nA little detour.\n\nThis page could not be found.",
+    "brokenImages": [],
+    "clientWidth": 1265,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1265,
+    "title": "Page not found | Tinlumo",
+    "width": 1280
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/about/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nAbout the studio\n\nTinlumo brings together 5 origina",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "About Tinlumo | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/contact/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nContact & operator\n\nTinlumo Studio (individually op",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "Contact | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/credits/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nCredits\n\nTinlumo games are",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Credits | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/games/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\nFind your little adventure.\n",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Our games | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/games/island-connections/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nAn Island Connected\n\nISLAND BUILDER\n\n",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "An Island Connected | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/games/light-garden/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nLightwork Garden\n\nLIGHT PUZZLE\n\nLight",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/games/project-magnet/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nPROJECT MAGNET\n\nMAGNETIC ACTION\n\nPROJ",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/games/tiny-delivery/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nHakorilo\n\nROUTING PUZZLE\n\nHakorilo\n\nC",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/games/two-ways-home/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nTwo Ways Home\n\nSYNCHRONIZED PUZZLE\n\nT",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/play/island-connections/",
+    "bodyText": "ISLANDGALLERY\n24\nTimber\n14\nCoins\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & ex",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 1274,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1523,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1772,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2021,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2270,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 1024,
+    "title": "An Island Connected | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/play/light-garden/",
+    "bodyText": "TINLUMO\nGARDENS\n日本語\n⚙\nHow to play\n\nA LITTLE CONSERVATORY OF LIGHT\n\nLightwork\nGarden\n\nTurn a mirror. ",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\nMISSIONS\n日本語\nSOUND ON\nMOTION\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\nGat",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nA LITTLE WORLD OF GOOD DAYS\nJA\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\nLittle parcels. A",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/play/two-ways-home/",
+    "bodyText": "Tinlumo\nTWO WAYS HOME\nA SHARED JOURNEY HOME\nTwo Ways Home\nSettings\n日本語\nTINLUMO ORIGINAL\nTwo Ways\nHom",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/privacy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nPrivacy\n\nTinlumo Studio is individually operated. T",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Privacy | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/settings/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\nSettings\nAnalytics\n\nAna",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Settings | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/terms/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nTerms\nUsing the service\n\nTinlumo provides 5 free br",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Terms | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/en/video-policy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nGameplay & video usage policy\n\nIndividuals and orga",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/about/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nスタジオについて\n\nTinlumoは、ブラウザですぐに遊べる5つの自作ゲームを集めたサイトです。\n\nすべて無料で、日本語と英語",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "スタジオについて | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/contact/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nお問い合わせ・運営者情報\n\nTinlumo Studio（個人運営）\n\nsupport@tinlumo.com\n\n一般のお問い",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/credits/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nクレジット\n\nTinlumoのゲームは、AIの支援を用いて制作しています。ゲ",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "クレジット | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/games/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\n気になる世界へ。\n\nダウンロードも、登録もいりません。\n\n5つの、小さな世界。\n",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "ゲーム一覧 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/games/island-connections/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\n島をつなぐ日\n\n小さな島づくり\n\n島をつなぐ日\n\n道をつなぎ、暮らしの景色を育てよう。\n\n建てる場所と",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/games/light-garden/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nひかりの仕掛け庭\n\n光のパズル\n\nひかりの仕掛け庭\n\n光をつなぐ。小さな庭が目を覚ます。\n\n光をつなぐ",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/games/project-magnet/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nPROJECT MAGNET\n\n磁力アクション\n\nPROJECT MAGNET\n\n吸い寄せ、狙い、壊す",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/games/tiny-delivery/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nHakorilo\n\n配送パズル\n\nHakorilo\n\nハコリロ\n\n道をつないで、タイミングを合わせる。",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/games/two-ways-home/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nふたりの帰り道\n\nふたりのパズル\n\nふたりの帰り道\n\n同じ一歩を、離れたふたりへ。\n\nふたりは一緒に動",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.\nA Brighter\n",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/play/island-connections/",
+    "bodyText": "ISLANDGALLERY\nTimber\nCoins\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 1274,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1523,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1772,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2021,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 2270,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 1024,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/play/light-garden/",
+    "bodyText": "TINLUMO\nGARDENS\nEN\n⚙\n遊び方\n\nひかりを育てる、小さな温室\n\nLightwork\nGarden\n\nひかりの仕掛け庭\n\n鏡をひとつ回す。光がめぐり、花がひらく。心をほどく、18の小さ",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\n作戦\nEN\n音 ON\n動き 通常\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nA LITTLE WORLD OF GOOD DAYS\nEN\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\n小さな荷物。やさしいひと呼吸。\n\n",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "Hakorilo | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/play/two-ways-home/",
+    "bodyText": "Tinlumo\nTWO WAYS HOME\nふたりの帰り道\nTwo Ways Home\n設定\nEnglish\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nふたりの帰り道\n\n違う道を",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/privacy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nプライバシー\n\nTinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "プライバシー | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/settings/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\n設定\nアクセス計測\n\n計測は初期状態でオフです。許可しなくても、すべて",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "設定 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/terms/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n利用規約\nサービスの利用\n\nTinlumoは、日本語と英語で遊べる5つの無料ブラウザゲームを提供します。 アカウント登録、購入",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "利用規約 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/ja/video-policy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n実況・動画利用方針\n\n個人・法人を問わず、通常のプレイから作成したゲームプレイ動画、実況、レビュー・攻略動画、ライブ配信、スク",
+    "brokenImages": [],
+    "clientWidth": 1024,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 1024,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 1024,
+    "route": "/404.html",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n404\nA little detour.\n\nThis page could not be found.",
+    "brokenImages": [],
+    "clientWidth": 1009,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 1009,
+    "title": "Page not found | Tinlumo",
+    "width": 1024
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/about/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nAbout the studio\n\nTinlumo brings together 5 origina",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "About Tinlumo | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/contact/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nContact & operator\n\nTinlumo Studio (individually op",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Contact | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/credits/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nCredits\n\nTinlumo games are",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Credits | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/games/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\nFind your little adventure.\n",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Our games | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/games/island-connections/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nAn Island Connected\n\nISLAND BUILDER\n\n",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "An Island Connected | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/games/light-garden/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nLightwork Garden\n\nLIGHT PUZZLE\n\nLight",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/games/project-magnet/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nPROJECT MAGNET\n\nMAGNETIC ACTION\n\nPROJ",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/games/tiny-delivery/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nHakorilo\n\nROUTING PUZZLE\n\nHakorilo\n\nC",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Hakorilo | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/games/two-ways-home/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nTwo Ways Home\n\nSYNCHRONIZED PUZZLE\n\nT",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/play/island-connections/",
+    "bodyText": "ISLANDGALLERY\nTimber\nCoins\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 776,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1025,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1274,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1523,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1772,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 768,
+    "title": "An Island Connected | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/play/light-garden/",
+    "bodyText": "TINLUMO\nGARDENS\n日本語\n⚙\nHow to play\n\nA LITTLE CONSERVATORY OF LIGHT\n\nLightwork\nGarden\n\nTurn a mirror. ",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\nMISSIONS\n日本語\nSOUND ON\nMOTION\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\nGat",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nA LITTLE WORLD OF GOOD DAYS\nJA\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\nLittle parcels. A",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "Hakorilo | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/play/two-ways-home/",
+    "bodyText": "Tinlumo\nTWO WAYS HOME\nA SHARED JOURNEY HOME\nTwo Ways Home\nSettings\n日本語\nTINLUMO ORIGINAL\nTwo Ways\nHom",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/privacy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nPrivacy\n\nTinlumo Studio is individually operated. T",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Privacy | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/settings/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\nSettings\nAnalytics\n\nAna",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Settings | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/terms/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nTerms\nUsing the service\n\nTinlumo provides 5 free br",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Terms | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/en/video-policy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nGameplay & video usage policy\n\nIndividuals and orga",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/about/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nスタジオについて\n\nTinlumoは、ブラウザですぐに遊べる5つの自作ゲームを集めたサイトです。\n\nすべて無料で、日本語と英語",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "スタジオについて | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/contact/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nお問い合わせ・運営者情報\n\nTinlumo Studio（個人運営）\n\nsupport@tinlumo.com\n\n一般のお問い",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/credits/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nクレジット\n\nTinlumoのゲームは、AIの支援を用いて制作しています。ゲ",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "クレジット | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/games/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\n気になる世界へ。\n\nダウンロードも、登録もいりません。\n\n5つの、小さな世界。\n",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "ゲーム一覧 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/games/island-connections/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\n島をつなぐ日\n\n小さな島づくり\n\n島をつなぐ日\n\n道をつなぎ、暮らしの景色を育てよう。\n\n建てる場所と",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/games/light-garden/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nひかりの仕掛け庭\n\n光のパズル\n\nひかりの仕掛け庭\n\n光をつなぐ。小さな庭が目を覚ます。\n\n光をつなぐ",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/games/project-magnet/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nPROJECT MAGNET\n\n磁力アクション\n\nPROJECT MAGNET\n\n吸い寄せ、狙い、壊す",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/games/tiny-delivery/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nHakorilo\n\n配送パズル\n\nHakorilo\n\nハコリロ\n\n道をつないで、タイミングを合わせる。",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Hakorilo | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/games/two-ways-home/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nふたりの帰り道\n\nふたりのパズル\n\nふたりの帰り道\n\n同じ一歩を、離れたふたりへ。\n\nふたりは一緒に動",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.\nA Brighter\n",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/play/island-connections/",
+    "bodyText": "ISLANDGALLERY\nTimber\nCoins\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 776,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1025,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1274,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1523,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1772,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 768,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/play/light-garden/",
+    "bodyText": "TINLUMO\nGARDENS\nEN\n⚙\n遊び方\n\nひかりを育てる、小さな温室\n\nLightwork\nGarden\n\nひかりの仕掛け庭\n\n鏡をひとつ回す。光がめぐり、花がひらく。心をほどく、18の小さ",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\n作戦\nEN\n音 ON\n動き 通常\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nA LITTLE WORLD OF GOOD DAYS\nEN\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\n小さな荷物。やさしいひと呼吸。\n\n",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "Hakorilo | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/play/two-ways-home/",
+    "bodyText": "Tinlumo\nTWO WAYS HOME\nふたりの帰り道\nTwo Ways Home\n設定\nEnglish\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nふたりの帰り道\n\n違う道を",
+    "brokenImages": [],
+    "clientWidth": 768,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 768,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/privacy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nプライバシー\n\nTinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "プライバシー | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/settings/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\n設定\nアクセス計測\n\n計測は初期状態でオフです。許可しなくても、すべて",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "設定 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/terms/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n利用規約\nサービスの利用\n\nTinlumoは、日本語と英語で遊べる5つの無料ブラウザゲームを提供します。 アカウント登録、購入",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "利用規約 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/ja/video-policy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n実況・動画利用方針\n\n個人・法人を問わず、通常のプレイから作成したゲームプレイ動画、実況、レビュー・攻略動画、ライブ配信、スク",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 768,
+    "route": "/404.html",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n404\nA little detour.\n\nThis page could not be found.",
+    "brokenImages": [],
+    "clientWidth": 753,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 753,
+    "title": "Page not found | Tinlumo",
+    "width": 768
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/about/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nAbout the studio\n\nTinlumo brings together 5 origina",
+    "brokenImages": [],
+    "clientWidth": 430,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 430,
+    "title": "About Tinlumo | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/contact/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nContact & operator\n\nTinlumo Studio (individually op",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Contact | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/credits/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nCredits\n\nTinlumo games are",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Credits | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/games/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\nFind your little adventure.\n",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Our games | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/games/island-connections/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nAn Island Connected\n\nISLAND BUILDER\n\n",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "An Island Connected | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/games/light-garden/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nLightwork Garden\n\nLIGHT PUZZLE\n\nLight",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/games/project-magnet/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nPROJECT MAGNET\n\nMAGNETIC ACTION\n\nPROJ",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/games/tiny-delivery/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nHakorilo\n\nROUTING PUZZLE\n\nHakorilo\n\nC",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Hakorilo | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/games/two-ways-home/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nTwo Ways Home\n\nSYNCHRONIZED PUZZLE\n\nT",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/play/island-connections/",
+    "bodyText": "ISLAND\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 430,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 548,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 730,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 912,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1094,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1276,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 430,
+    "title": "An Island Connected | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/play/light-garden/",
+    "bodyText": "TINLUMO\n日本語\n⚙\n\nA LITTLE CONSERVATORY OF LIGHT\n\nLightworkGarden\n\nTurn a mirror. Let the light wander.",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 451,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\nMISSIONS\n日本語\nSOUND ON\nMOTION\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\nGat",
+    "brokenImages": [],
+    "clientWidth": 430,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 430,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nJA\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\nLittle parcels. A little patience.\n\nFind a de",
+    "brokenImages": [],
+    "clientWidth": 430,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 435,
+        "tag": "CANVAS",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 430,
+    "title": "Hakorilo | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/play/two-ways-home/",
+    "bodyText": "Tinlumo\nA SHARED JOURNEY HOME\nTwo Ways Home\nSettings\n日本語\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nDifferent p",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/privacy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nPrivacy\n\nTinlumo Studio is individually operated. T",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Privacy | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/settings/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\nSettings\nAnalytics\n\nAna",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Settings | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/terms/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nTerms\nUsing the service\n\nTinlumo provides 5 free br",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Terms | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/en/video-policy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nGameplay & video usage policy\n\nIndividuals and orga",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/about/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nスタジオについて\n\nTinlumoは、ブラウザですぐに遊べる5つの自作ゲームを集めたサイトです。\n\nすべて無料で、日本語と英語",
+    "brokenImages": [],
+    "clientWidth": 430,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 430,
+    "title": "スタジオについて | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/contact/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nお問い合わせ・運営者情報\n\nTinlumo Studio（個人運営）\n\nsupport@tinlumo.com\n\n一般のお問い",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/credits/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nクレジット\n\nTinlumoのゲームは、AIの支援を用いて制作しています。ゲ",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "クレジット | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/games/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\n気になる世界へ。\n\nダウンロードも、登録もいりません。\n\n5つの、小さな世界。\n",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "ゲーム一覧 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/games/island-connections/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\n島をつなぐ日\n\n小さな島づくり\n\n島をつなぐ日\n\n道をつなぎ、暮らしの景色を育てよう。\n\n建てる場所と",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/games/light-garden/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nひかりの仕掛け庭\n\n光のパズル\n\nひかりの仕掛け庭\n\n光をつなぐ。小さな庭が目を覚ます。\n\n光をつなぐ",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/games/project-magnet/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nPROJECT MAGNET\n\n磁力アクション\n\nPROJECT MAGNET\n\n吸い寄せ、狙い、壊す",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/games/tiny-delivery/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nHakorilo\n\n配送パズル\n\nHakorilo\n\nハコリロ\n\n道をつないで、タイミングを合わせる。",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Hakorilo | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/games/two-ways-home/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nふたりの帰り道\n\nふたりのパズル\n\nふたりの帰り道\n\n同じ一歩を、離れたふたりへ。\n\nふたりは一緒に動",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.\nA Brighter ",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/play/island-connections/",
+    "bodyText": "ISLAND\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 430,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 548,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 730,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 912,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1094,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1276,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 430,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/play/light-garden/",
+    "bodyText": "TINLUMO\nEN\n⚙\n\nひかりを育てる、小さな温室\n\nLightworkGarden\n\nひかりの仕掛け庭\n\n鏡をひとつ回す。光がめぐり、花がひらく。心をほどく、18の小さなパズル。\n\nつづきの庭へ",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 451,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\n作戦\nEN\n音 ON\n動き 通常\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、",
+    "brokenImages": [],
+    "clientWidth": 430,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 430,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nEN\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\n小さな荷物。やさしいひと呼吸。\n\n配達をはじめる →\nつづきから\n18 / 18 の配達を",
+    "brokenImages": [],
+    "clientWidth": 430,
+    "lang": "ja",
+    "overflowing": [
+      {
+        "right": 435,
+        "tag": "CANVAS",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 430,
+    "title": "Hakorilo | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/play/two-ways-home/",
+    "bodyText": "Tinlumo\nふたりの帰り道\nTwo Ways Home\n設定\nEnglish\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nふたりの帰り道\n\n違う道を歩くふたりに、ひとつの合図。",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/privacy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nプライバシー\n\nTinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "プライバシー | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/settings/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\n設定\nアクセス計測\n\n計測は初期状態でオフです。許可しなくても、すべて",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "設定 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/terms/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n利用規約\nサービスの利用\n\nTinlumoは、日本語と英語で遊べる5つの無料ブラウザゲームを提供します。 アカウント登録、購入",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "利用規約 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/ja/video-policy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n実況・動画利用方針\n\n個人・法人を問わず、通常のプレイから作成したゲームプレイ動画、実況、レビュー・攻略動画、ライブ配信、スク",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 430,
+    "route": "/404.html",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n404\nA little detour.\n\nThis page could not be found.",
+    "brokenImages": [],
+    "clientWidth": 415,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 415,
+    "title": "Page not found | Tinlumo",
+    "width": 430
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/about/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nAbout the studio\n\nTinlumo brings together 5 origina",
+    "brokenImages": [],
+    "clientWidth": 390,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 390,
+    "title": "About Tinlumo | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/contact/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nContact & operator\n\nTinlumo Studio (individually op",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Contact | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/credits/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nCredits\n\nTinlumo games are",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Credits | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/games/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\nFind your little adventure.\n",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Our games | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/games/island-connections/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nAn Island Connected\n\nISLAND BUILDER\n\n",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "An Island Connected | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/games/light-garden/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nLightwork Garden\n\nLIGHT PUZZLE\n\nLight",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/games/project-magnet/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nPROJECT MAGNET\n\nMAGNETIC ACTION\n\nPROJ",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/games/tiny-delivery/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nHakorilo\n\nROUTING PUZZLE\n\nHakorilo\n\nC",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Hakorilo | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/games/two-ways-home/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nTwo Ways Home\n\nSYNCHRONIZED PUZZLE\n\nT",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/play/island-connections/",
+    "bodyText": "ISLAND\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 390,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 548,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 730,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 912,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1094,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1276,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 390,
+    "title": "An Island Connected | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/play/light-garden/",
+    "bodyText": "TINLUMO\n日本語\n⚙\n\nA LITTLE CONSERVATORY OF LIGHT\n\nLightworkGarden\n\nTurn a mirror. Let the light wander.",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 451,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\nMISSIONS\n日本語\nSOUND ON\nMOTION\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\nGat",
+    "brokenImages": [],
+    "clientWidth": 390,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 390,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nJA\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\nLittle parcels. A little patience.\n\nFind a de",
+    "brokenImages": [],
+    "clientWidth": 390,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 395,
+        "tag": "CANVAS",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 390,
+    "title": "Hakorilo | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/play/two-ways-home/",
+    "bodyText": "Tinlumo\nA SHARED JOURNEY HOME\nTwo Ways Home\nSettings\n日本語\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nDifferent p",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/privacy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nPrivacy\n\nTinlumo Studio is individually operated. T",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Privacy | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/settings/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\nSettings\nAnalytics\n\nAna",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Settings | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/terms/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nTerms\nUsing the service\n\nTinlumo provides 5 free br",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Terms | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/en/video-policy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nGameplay & video usage policy\n\nIndividuals and orga",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/about/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nスタジオについて\n\nTinlumoは、ブラウザですぐに遊べる5つの自作ゲームを集めたサイトです。\n\nすべて無料で、日本語と英語",
+    "brokenImages": [],
+    "clientWidth": 390,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 390,
+    "title": "スタジオについて | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/contact/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nお問い合わせ・運営者情報\n\nTinlumo Studio（個人運営）\n\nsupport@tinlumo.com\n\n一般のお問い",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/credits/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nクレジット\n\nTinlumoのゲームは、AIの支援を用いて制作しています。ゲ",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "クレジット | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/games/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\n気になる世界へ。\n\nダウンロードも、登録もいりません。\n\n5つの、小さな世界。\n",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "ゲーム一覧 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/games/island-connections/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\n島をつなぐ日\n\n小さな島づくり\n\n島をつなぐ日\n\n道をつなぎ、暮らしの景色を育てよう。\n\n建てる場所と",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/games/light-garden/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nひかりの仕掛け庭\n\n光のパズル\n\nひかりの仕掛け庭\n\n光をつなぐ。小さな庭が目を覚ます。\n\n光をつなぐ",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/games/project-magnet/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nPROJECT MAGNET\n\n磁力アクション\n\nPROJECT MAGNET\n\n吸い寄せ、狙い、壊す",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/games/tiny-delivery/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nHakorilo\n\n配送パズル\n\nHakorilo\n\nハコリロ\n\n道をつないで、タイミングを合わせる。",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Hakorilo | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/games/two-ways-home/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nふたりの帰り道\n\nふたりのパズル\n\nふたりの帰り道\n\n同じ一歩を、離れたふたりへ。\n\nふたりは一緒に動",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.\nA Brighter ",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/play/island-connections/",
+    "bodyText": "ISLAND\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 390,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 548,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 730,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 912,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1094,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1276,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 390,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/play/light-garden/",
+    "bodyText": "TINLUMO\nEN\n⚙\n\nひかりを育てる、小さな温室\n\nLightworkGarden\n\nひかりの仕掛け庭\n\n鏡をひとつ回す。光がめぐり、花がひらく。心をほどく、18の小さなパズル。\n\nつづきの庭へ",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 451,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\n作戦\nEN\n音 ON\n動き 通常\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、",
+    "brokenImages": [],
+    "clientWidth": 390,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 390,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nEN\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\n小さな荷物。やさしいひと呼吸。\n\n配達をはじめる →\nつづきから\n18 / 18 の配達を",
+    "brokenImages": [],
+    "clientWidth": 390,
+    "lang": "ja",
+    "overflowing": [
+      {
+        "right": 395,
+        "tag": "CANVAS",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 390,
+    "title": "Hakorilo | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/play/two-ways-home/",
+    "bodyText": "Tinlumo\nふたりの帰り道\nTwo Ways Home\n設定\nEnglish\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nふたりの帰り道\n\n違う道を歩くふたりに、ひとつの合図。",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/privacy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nプライバシー\n\nTinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "プライバシー | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/settings/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\n設定\nアクセス計測\n\n計測は初期状態でオフです。許可しなくても、すべて",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "設定 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/terms/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n利用規約\nサービスの利用\n\nTinlumoは、日本語と英語で遊べる5つの無料ブラウザゲームを提供します。 アカウント登録、購入",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "利用規約 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/ja/video-policy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n実況・動画利用方針\n\n個人・法人を問わず、通常のプレイから作成したゲームプレイ動画、実況、レビュー・攻略動画、ライブ配信、スク",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/404.html",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n404\nA little detour.\n\nThis page could not be found.",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "Page not found | Tinlumo",
+    "width": 390
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/about/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nAbout the studio\n\nTinlumo brings together 5 origina",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "About Tinlumo | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/contact/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nContact & operator\n\nTinlumo Studio (individually op",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Contact | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/credits/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nCredits\n\nTinlumo games are",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Credits | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/games/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\nFind your little adventure.\n",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Our games | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/games/island-connections/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nAn Island Connected\n\nISLAND BUILDER\n\n",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "An Island Connected | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/games/light-garden/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nLightwork Garden\n\nLIGHT PUZZLE\n\nLight",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/games/project-magnet/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nPROJECT MAGNET\n\nMAGNETIC ACTION\n\nPROJ",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/games/tiny-delivery/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nHakorilo\n\nROUTING PUZZLE\n\nHakorilo\n\nC",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Hakorilo | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/games/two-ways-home/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nTwo Ways Home\n\nSYNCHRONIZED PUZZLE\n\nT",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/play/island-connections/",
+    "bodyText": "ISLAND\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 548,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 730,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 912,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1094,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1276,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "An Island Connected | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/play/light-garden/",
+    "bodyText": "TINLUMO\n日本語\n⚙\n\nA LITTLE CONSERVATORY OF LIGHT\n\nLightworkGarden\n\nTurn a mirror. Let the light wander.",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 451,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\nMISSIONS\n日本語\nSOUND ON\nMOTION\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\nGat",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nJA\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\nLittle parcels. A little patience.\n\nFind a de",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 380,
+        "tag": "CANVAS",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Hakorilo | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/play/two-ways-home/",
+    "bodyText": "Tinlumo\nA SHARED JOURNEY HOME\nTwo Ways Home\nSettings\n日本語\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nDifferent p",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/privacy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nPrivacy\n\nTinlumo Studio is individually operated. T",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Privacy | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/settings/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\nSettings\nAnalytics\n\nAna",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Settings | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/terms/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nTerms\nUsing the service\n\nTinlumo provides 5 free br",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Terms | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/en/video-policy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nGameplay & video usage policy\n\nIndividuals and orga",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/about/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nスタジオについて\n\nTinlumoは、ブラウザですぐに遊べる5つの自作ゲームを集めたサイトです。\n\nすべて無料で、日本語と英語",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "スタジオについて | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/contact/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nお問い合わせ・運営者情報\n\nTinlumo Studio（個人運営）\n\nsupport@tinlumo.com\n\n一般のお問い",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/credits/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nクレジット\n\nTinlumoのゲームは、AIの支援を用いて制作しています。ゲ",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "クレジット | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/games/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\n気になる世界へ。\n\nダウンロードも、登録もいりません。\n\n5つの、小さな世界。\n",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "ゲーム一覧 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/games/island-connections/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\n島をつなぐ日\n\n小さな島づくり\n\n島をつなぐ日\n\n道をつなぎ、暮らしの景色を育てよう。\n\n建てる場所と",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/games/light-garden/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nひかりの仕掛け庭\n\n光のパズル\n\nひかりの仕掛け庭\n\n光をつなぐ。小さな庭が目を覚ます。\n\n光をつなぐ",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/games/project-magnet/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nPROJECT MAGNET\n\n磁力アクション\n\nPROJECT MAGNET\n\n吸い寄せ、狙い、壊す",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/games/tiny-delivery/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nHakorilo\n\n配送パズル\n\nHakorilo\n\nハコリロ\n\n道をつないで、タイミングを合わせる。",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Hakorilo | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/games/two-ways-home/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nふたりの帰り道\n\nふたりのパズル\n\nふたりの帰り道\n\n同じ一歩を、離れたふたりへ。\n\nふたりは一緒に動",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.\nA Brighter ",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/play/island-connections/",
+    "bodyText": "ISLAND\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 548,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 730,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 912,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1094,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1276,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/play/light-garden/",
+    "bodyText": "TINLUMO\nEN\n⚙\n\nひかりを育てる、小さな温室\n\nLightworkGarden\n\nひかりの仕掛け庭\n\n鏡をひとつ回す。光がめぐり、花がひらく。心をほどく、18の小さなパズル。\n\nつづきの庭へ",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 451,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\n作戦\nEN\n音 ON\n動き 通常\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 375,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nEN\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\n小さな荷物。やさしいひと呼吸。\n\n配達をはじめる →\nつづきから\n18 / 18 の配達を",
+    "brokenImages": [],
+    "clientWidth": 375,
+    "lang": "ja",
+    "overflowing": [
+      {
+        "right": 380,
+        "tag": "CANVAS",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Hakorilo | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/play/two-ways-home/",
+    "bodyText": "Tinlumo\nふたりの帰り道\nTwo Ways Home\n設定\nEnglish\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nふたりの帰り道\n\n違う道を歩くふたりに、ひとつの合図。",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/privacy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nプライバシー\n\nTinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "プライバシー | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/settings/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\n設定\nアクセス計測\n\n計測は初期状態でオフです。許可しなくても、すべて",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "設定 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/terms/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n利用規約\nサービスの利用\n\nTinlumoは、日本語と英語で遊べる5つの無料ブラウザゲームを提供します。 アカウント登録、購入",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "利用規約 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/ja/video-policy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n実況・動画利用方針\n\n個人・法人を問わず、通常のプレイから作成したゲームプレイ動画、実況、レビュー・攻略動画、ライブ配信、スク",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "route": "/404.html",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n404\nA little detour.\n\nThis page could not be found.",
+    "brokenImages": [],
+    "clientWidth": 360,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 360,
+    "title": "Page not found | Tinlumo",
+    "width": 375
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/about/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nAbout the studio\n\nTinlumo brings together 5 origina",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "About Tinlumo | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/contact/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nContact & operator\n\nTinlumo Studio (individually op",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Contact | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/credits/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nCredits\n\nTinlumo games are",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Credits | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/games/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\nFind your little adventure.\n",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Our games | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/games/island-connections/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nAn Island Connected\n\nISLAND BUILDER\n\n",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "An Island Connected | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/games/light-garden/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nLightwork Garden\n\nLIGHT PUZZLE\n\nLight",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/games/project-magnet/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nPROJECT MAGNET\n\nMAGNETIC ACTION\n\nPROJ",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/games/tiny-delivery/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nHakorilo\n\nROUTING PUZZLE\n\nHakorilo\n\nC",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Hakorilo | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/games/two-ways-home/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← All games\n/\nTwo Ways Home\n\nSYNCHRONIZED PUZZLE\n\nT",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Two Ways Home | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/play/island-connections/",
+    "bodyText": "ISLAND\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 320,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 366,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 548,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 730,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 912,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1094,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 320,
+    "title": "An Island Connected | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/play/light-garden/",
+    "bodyText": "TINLUMO\n日本語\n⚙\n\nA LITTLE CONSERVATORY OF LIGHT\n\nLightworkGarden\n\nTurn a mirror. Let the light wander.",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 377,
+    "title": "Lightwork Garden | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\nMISSIONS\n日本語\nSOUND ON\nMOTION\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\nGat",
+    "brokenImages": [],
+    "clientWidth": 320,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 320,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nJA\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\nLittle parcels. A little patience.\n\nFind a de",
+    "brokenImages": [],
+    "clientWidth": 320,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 325,
+        "tag": "CANVAS",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 320,
+    "title": "Hakorilo | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/play/two-ways-home/",
+    "bodyText": "Tinlumo\nA SHARED JOURNEY HOME\nTwo Ways Home\nSettings\n日本語\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nDifferent p",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/privacy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nPrivacy\n\nTinlumo Studio is individually operated. T",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Privacy | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/settings/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\nSettings\nAnalytics\n\nAna",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Settings | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/terms/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nTerms\nUsing the service\n\nTinlumo provides 5 free br",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Terms | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/en/video-policy/",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nGameplay & video usage policy\n\nIndividuals and orga",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Gameplay & video policy | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/about/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nスタジオについて\n\nTinlumoは、ブラウザですぐに遊べる5つの自作ゲームを集めたサイトです。\n\nすべて無料で、日本語と英語",
+    "brokenImages": [],
+    "clientWidth": 320,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 320,
+    "title": "スタジオについて | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/contact/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nお問い合わせ・運営者情報\n\nTinlumo Studio（個人運営）\n\nsupport@tinlumo.com\n\n一般のお問い",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "お問い合わせ | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/credits/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMADE BY TINLUMO STUDIO\n\nクレジット\n\nTinlumoのゲームは、AIの支援を用いて制作しています。ゲ",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "クレジット | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/games/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nFIVE ORIGINAL WORLDS\n\n気になる世界へ。\n\nダウンロードも、登録もいりません。\n\n5つの、小さな世界。\n",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "ゲーム一覧 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/games/island-connections/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\n島をつなぐ日\n\n小さな島づくり\n\n島をつなぐ日\n\n道をつなぎ、暮らしの景色を育てよう。\n\n建てる場所と",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/games/light-garden/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nひかりの仕掛け庭\n\n光のパズル\n\nひかりの仕掛け庭\n\n光をつなぐ。小さな庭が目を覚ます。\n\n光をつなぐ",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/games/project-magnet/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nPROJECT MAGNET\n\n磁力アクション\n\nPROJECT MAGNET\n\n吸い寄せ、狙い、壊す",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/games/tiny-delivery/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nHakorilo\n\n配送パズル\n\nHakorilo\n\nハコリロ\n\n道をつないで、タイミングを合わせる。",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Hakorilo | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/games/two-ways-home/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n← すべてのゲーム\n/\nふたりの帰り道\n\nふたりのパズル\n\nふたりの帰り道\n\n同じ一歩を、離れたふたりへ。\n\nふたりは一緒に動",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "ふたりの帰り道 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nTINLUMO — BROWSER GAMES FOR EVERYONE\n\nSmall Games.\nA Brighter ",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Small Games. A Brighter Everyday. | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/play/island-connections/",
+    "bodyText": "ISLAND\nNEXT LITTLE STEP\nBuild a market and extend your cottage.\nBuild & explore",
+    "brokenImages": [],
+    "clientWidth": 320,
+    "lang": "en",
+    "overflowing": [
+      {
+        "right": 366,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 548,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 730,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 912,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "right": 1094,
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 320,
+    "title": "島をつなぐ日 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/play/light-garden/",
+    "bodyText": "TINLUMO\nEN\n⚙\n\nひかりを育てる、小さな温室\n\nLightworkGarden\n\nひかりの仕掛け庭\n\n鏡をひとつ回す。光がめぐり、花がひらく。心をほどく、18の小さなパズル。\n\nつづきの庭へ",
+    "brokenImages": [],
+    "clientWidth": 320,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 377,
+    "title": "ひかりの仕掛け庭 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/play/project-magnet/",
+    "bodyText": "TINLUMO / 004\nPROJECT MAGNET\n作戦\nEN\n音 ON\n動き 通常\nⅡ\n↻\nTINLUMO / GAME 004\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、",
+    "brokenImages": [],
+    "clientWidth": 320,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 320,
+    "title": "PROJECT MAGNET | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/play/tiny-delivery/",
+    "bodyText": "tinlumo\n✦\nEN\n\nTINLUMO ORIGINAL\n\nHakorilo\nParcel Grove\n\n小さな荷物。やさしいひと呼吸。\n\n配達をはじめる →\nつづきから\n18 / 18 の配達を",
+    "brokenImages": [],
+    "clientWidth": 320,
+    "lang": "ja",
+    "overflowing": [
+      {
+        "right": 325,
+        "tag": "CANVAS",
+        "text": ""
+      }
+    ],
+    "scrollWidth": 320,
+    "title": "Hakorilo | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/play/two-ways-home/",
+    "bodyText": "Tinlumo\nふたりの帰り道\nTwo Ways Home\n設定\nEnglish\nTINLUMO ORIGINAL\nTwo Ways\nHome\n\nふたりの帰り道\n\n違う道を歩くふたりに、ひとつの合図。",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Two Ways Home · Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/privacy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\nプライバシー\n\nTinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "プライバシー | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/settings/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n\nMAKE YOURSELF COMFORTABLE\n\n設定\nアクセス計測\n\n計測は初期状態でオフです。許可しなくても、すべて",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "設定 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/terms/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n利用規約\nサービスの利用\n\nTinlumoは、日本語と英語で遊べる5つの無料ブラウザゲームを提供します。 アカウント登録、購入",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "利用規約 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/ja/video-policy/",
+    "bodyText": "本文へ\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n実況・動画利用方針\n\n個人・法人を問わず、通常のプレイから作成したゲームプレイ動画、実況、レビュー・攻略動画、ライブ配信、スク",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "ja",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "実況・動画利用方針 | Tinlumo",
+    "width": 320
+  },
+  {
+    "requestedWidth": 320,
+    "route": "/404.html",
+    "bodyText": "Skip to content\ntinlumo\n✦\nHome\nGames\nAbout\nJA\nEN\n404\nA little detour.\n\nThis page could not be found.",
+    "brokenImages": [],
+    "clientWidth": 305,
+    "lang": "en",
+    "overflowing": [],
+    "scrollWidth": 305,
+    "title": "Page not found | Tinlumo",
+    "width": 320
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "tiny-delivery",
+    "changed": {
+      "lang": "ja",
+      "links": [
+        {
+          "path": "/ja/games/tiny-delivery/",
+          "text": "tinlumo✦"
+        },
+        {
+          "path": "/ja/games/tiny-delivery/",
+          "text": "Tinlumoへ"
+        }
+      ]
+    },
+    "restored": "ja"
+  },
+  {
+    "slug": "light-garden",
+    "changed": {
+      "lang": "ja",
+      "links": [
+        {
+          "path": "/ja/",
+          "text": "TINLUMO GARDENS"
+        },
+        {
+          "path": "/ja/games/light-garden/",
+          "text": "遊び方"
+        }
+      ]
+    },
+    "restored": "ja"
+  },
+  {
+    "slug": "two-ways-home",
+    "changed": {
+      "lang": "ja",
+      "links": [
+        {
+          "path": "/ja/",
+          "text": "TinlumoTwo Ways Home"
+        },
+        {
+          "path": "/ja/games/two-ways-home/",
+          "text": "遊び方"
+        }
+      ]
+    },
+    "restored": "ja"
+  },
+  {
+    "slug": "project-magnet",
+    "changed": {
+      "lang": "ja",
+      "links": [
+        {
+          "path": "/ja/games/project-magnet/",
+          "text": "TINLUMO / 004PROJECT MAGNET"
+        }
+      ]
+    },
+    "restored": "ja"
+  },
+  {
+    "slug": "island-connections",
+    "savedLocaleWinsOverEnPath": true,
+    "restored": {
+      "lang": "ja",
+      "returnPath": "/ja/games/island-connections/"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "PLAN_READY_NOT_EXECUTED",
+  "currentCommit": "57b1daab800a5ad85fef705de05e96657a0b7f93",
+  "currentArtifact": "release-artifacts/game005-web-v1/",
+  "manifest": "docs/qa/game005-release-r1/distribution.json",
+  "files": 84,
+  "version": "143bd3d1-d8c0-45ad-a31c-5502ed656936",
+  "deployment": "7b18c79f-58dd-44cb-8e1e-38669b1aac11",
+  "worker": "tinlumo-production",
+  "authority": "docs/qa/game005-release-r1/POSTFLIGHT.md and cloud-postflight.json; local report dated 2026-09-24. No live provider call this turn.",
+  "trigger": "After a separately authorized future release: launch/save corruption, serious input regression, broken routes or consent regression. Pause rollout; Human approves rollback to exact current version.",
+  "execution": "No rollback executed. Preserve the84-file artifact. Do not substitute the older4-game build. No save schema migration, but new remaster save writes should still be checked with old renderer smoke before a future rollback.",
+  "newArtifact": "release-artifacts/tinlumo-visual-remaster-r1"
+}

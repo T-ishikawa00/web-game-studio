@@ -1,0 +1,265 @@
+{
+  "scope": "NEW_FIVE_ONLY",
+  "releaseGate": "CLOSED / SECURITY_RELEASE_GATE_STOPPED",
+  "humanApproval": "PENDING - recommendations only",
+  "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+  "fileType": "Microsoft Edge Chromium persistent profile / Secure Preferences JSON",
+  "provenance": {
+    "localSource": "marketing/m01-post-ready-r1-2026-09-26/internal/verify.mjs:20",
+    "evidence": "launchPersistentContext targets this exact profile, channel msedge; local media QA; network disabled/proxy blocked. Browser-written profile cache; public key material originates in extension manifests, not necessarily generated cryptographically by the browser.",
+    "generationTimeAudit": "No OS process/file-write audit was captured; origin inferred from exact local launch source and standard profile structure."
+  },
+  "identity": {
+    "entrySnapshotContainsTarget": true,
+    "entrySnapshotCurrentFileSame": true,
+    "entrySnapshotAt": "2026-09-27T03:54:03.890Z",
+    "originalSanitizedDetectionCount": 5,
+    "currentDetectionCount": 5,
+    "canReproduceFiveFromIdenticalBaselineBytes": true,
+    "originalPerCandidateValueReceipt": "NOT RETAINED; original scan retained file/type/action only. Exact whole-file match plus deterministic rescan supports current mapping; direct comparison against separately retained original candidate values is unavailable.",
+    "currentUnchangedDuringAnalysis": true,
+    "fingerprintsExported": false
+  },
+  "exposure": {
+    "currentFilePathInIndex": false,
+    "exactCurrentFileBlobInIndex": false,
+    "pathInReachableHistory": false,
+    "exactCurrentFileBlobInReachableHistory": false,
+    "ignored": false,
+    "artifactPath": "release-artifacts/tinlumo-visual-remaster-r1",
+    "artifactFilesExamined": 101,
+    "currentProductionArtifact": "release-artifacts/game005-web-v1",
+    "currentProductionFilesExamined": 84,
+    "currentProductionCandidateMatches": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exactProfileFileCopiesInArtifact": 0,
+    "symlinks": false,
+    "profilePathPresentInArtifact": false,
+    "staticArtifactReachability": "NO: artifact root contains no profile file, symlink or candidate byte representation; dedicated server is rooted in artifact/review, not repository. This is local source/artifact inspection, not a live Production/provider audit.",
+    "indexHistoryScope": "Current path and exact whole-file Git blob checked in full index/all reachable refs. Does not assert all fragments/transformations absent from every historical file."
+  },
+  "candidates": [
+    {
+      "candidateId": "TRR1-NEW-01",
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "fileType": "Chromium Secure Preferences / JSON",
+      "scannerRule": "generic-api-key",
+      "matches": [
+        {
+          "structuralContext": "extensions.settings.[entry].manifest.key",
+          "exactLeaf": true,
+          "publicKeySpki": true,
+          "keyType": "rsa",
+          "hexIntegrityShape": false,
+          "hexOnly": false,
+          "pathInProtection": false,
+          "manifestKey": true,
+          "envelopeShape": {
+            "dpapiPrefix": false,
+            "appBoundPrefix": false,
+            "chromiumVersionPrefix": false,
+            "dpapiBlobHeader": false
+          }
+        }
+      ],
+      "structuralContext": "extensions.settings.[entry].manifest.key (manifest key entry 1 in scanner order)",
+      "browserRuntimeProfileData": true,
+      "classification": "PUBLIC KEY / NON-CREDENTIAL",
+      "usableCredentialStructure": "NO private credential: DER SubjectPublicKeyInfo RSA public key parses; provides no signing/decryption private material",
+      "recommendationCode": "A",
+      "recommendedDisposition": "A. FALSE POSITIVE / NON-CREDENTIAL — APPROVED is for Human to decide",
+      "reasoning": "Scanner matched the whole manifest public-key leaf. Local cryptographic parser confirms public-key structure; generic key-name/entropy detection is not provider credential validation.",
+      "uncertainty": "No external extension/vendor signature or reputation check. Public-key provenance inferred from local profile structure; does not approve the extension or entire profile.",
+      "inGitIndex": false,
+      "inReachableHistory": false,
+      "inProductionDistribution": false,
+      "artifactReachable": false,
+      "matchingArtifactFiles": 0,
+      "matchingCurrentProductionArtifactFiles": 0,
+      "originalIdentity": "Identical entry-snapshot file bytes + same5 rescan; no independent original per-candidate receipt"
+    },
+    {
+      "candidateId": "TRR1-NEW-02",
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "fileType": "Chromium Secure Preferences / JSON",
+      "scannerRule": "generic-api-key",
+      "matches": [
+        {
+          "structuralContext": "extensions.settings.[entry].manifest.key",
+          "exactLeaf": true,
+          "publicKeySpki": true,
+          "keyType": "rsa",
+          "hexIntegrityShape": false,
+          "hexOnly": false,
+          "pathInProtection": false,
+          "manifestKey": true,
+          "envelopeShape": {
+            "dpapiPrefix": false,
+            "appBoundPrefix": false,
+            "chromiumVersionPrefix": false,
+            "dpapiBlobHeader": false
+          }
+        }
+      ],
+      "structuralContext": "extensions.settings.[entry].manifest.key (manifest key entry 2 in scanner order)",
+      "browserRuntimeProfileData": true,
+      "classification": "PUBLIC KEY / NON-CREDENTIAL",
+      "usableCredentialStructure": "NO private credential: DER SubjectPublicKeyInfo RSA public key parses; provides no signing/decryption private material",
+      "recommendationCode": "A",
+      "recommendedDisposition": "A. FALSE POSITIVE / NON-CREDENTIAL — APPROVED is for Human to decide",
+      "reasoning": "Scanner matched the whole manifest public-key leaf. Local cryptographic parser confirms public-key structure; generic key-name/entropy detection is not provider credential validation.",
+      "uncertainty": "No external extension/vendor signature or reputation check. Public-key provenance inferred from local profile structure; does not approve the extension or entire profile.",
+      "inGitIndex": false,
+      "inReachableHistory": false,
+      "inProductionDistribution": false,
+      "artifactReachable": false,
+      "matchingArtifactFiles": 0,
+      "matchingCurrentProductionArtifactFiles": 0,
+      "originalIdentity": "Identical entry-snapshot file bytes + same5 rescan; no independent original per-candidate receipt"
+    },
+    {
+      "candidateId": "TRR1-NEW-03",
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "fileType": "Chromium Secure Preferences / JSON",
+      "scannerRule": "generic-api-key",
+      "matches": [
+        {
+          "structuralContext": "extensions.settings.[entry].manifest.key",
+          "exactLeaf": true,
+          "publicKeySpki": true,
+          "keyType": "rsa",
+          "hexIntegrityShape": false,
+          "hexOnly": false,
+          "pathInProtection": false,
+          "manifestKey": true,
+          "envelopeShape": {
+            "dpapiPrefix": false,
+            "appBoundPrefix": false,
+            "chromiumVersionPrefix": false,
+            "dpapiBlobHeader": false
+          }
+        }
+      ],
+      "structuralContext": "extensions.settings.[entry].manifest.key (manifest key entry 3 in scanner order)",
+      "browserRuntimeProfileData": true,
+      "classification": "PUBLIC KEY / NON-CREDENTIAL",
+      "usableCredentialStructure": "NO private credential: DER SubjectPublicKeyInfo RSA public key parses; provides no signing/decryption private material",
+      "recommendationCode": "A",
+      "recommendedDisposition": "A. FALSE POSITIVE / NON-CREDENTIAL — APPROVED is for Human to decide",
+      "reasoning": "Scanner matched the whole manifest public-key leaf. Local cryptographic parser confirms public-key structure; generic key-name/entropy detection is not provider credential validation.",
+      "uncertainty": "No external extension/vendor signature or reputation check. Public-key provenance inferred from local profile structure; does not approve the extension or entire profile.",
+      "inGitIndex": false,
+      "inReachableHistory": false,
+      "inProductionDistribution": false,
+      "artifactReachable": false,
+      "matchingArtifactFiles": 0,
+      "matchingCurrentProductionArtifactFiles": 0,
+      "originalIdentity": "Identical entry-snapshot file bytes + same5 rescan; no independent original per-candidate receipt"
+    },
+    {
+      "candidateId": "TRR1-NEW-04",
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "fileType": "Chromium Secure Preferences / JSON",
+      "scannerRule": "generic-api-key",
+      "matches": [
+        {
+          "structuralContext": "protection.macs.enterprise_signin.policy_recovery_token",
+          "exactLeaf": true,
+          "publicKeySpki": false,
+          "keyType": null,
+          "hexIntegrityShape": true,
+          "hexOnly": true,
+          "pathInProtection": true,
+          "manifestKey": false,
+          "envelopeShape": {
+            "dpapiPrefix": false,
+            "appBoundPrefix": false,
+            "chromiumVersionPrefix": false,
+            "dpapiBlobHeader": false
+          }
+        }
+      ],
+      "structuralContext": "protection.macs.enterprise_signin.policy_recovery_token",
+      "browserRuntimeProfileData": true,
+      "classification": "PREFERENCE INTEGRITY MAC METADATA",
+      "usableCredentialStructure": "NO direct credential structure observed: integrity MAC leaf under protection.macs, not the live enterprise_signin token preference",
+      "recommendationCode": "A",
+      "recommendedDisposition": "A. FALSE POSITIVE / NON-CREDENTIAL — APPROVED is for Human to decide",
+      "reasoning": "Whole detected leaf is a fixed-format integrity value under protection.macs. policy_recovery_token is the name of the protected preference; this location stores integrity metadata, not evidence of a usable account token.",
+      "uncertainty": "Integrity algorithm/key and authenticity were not recomputed; matching semantics are inferred from protection.macs structure. No claim about the actual protected token elsewhere.",
+      "inGitIndex": false,
+      "inReachableHistory": false,
+      "inProductionDistribution": false,
+      "artifactReachable": false,
+      "matchingArtifactFiles": 0,
+      "matchingCurrentProductionArtifactFiles": 0,
+      "originalIdentity": "Identical entry-snapshot file bytes + same5 rescan; no independent original per-candidate receipt"
+    },
+    {
+      "candidateId": "TRR1-NEW-05",
+      "file": "marketing/m01-post-ready-r1-2026-09-26/internal/browser-profile/Default/Secure Preferences",
+      "fileType": "Chromium Secure Preferences / JSON",
+      "scannerRule": "generic-api-key",
+      "matches": [
+        {
+          "structuralContext": "protection.macs.enterprise_signin.policy_recovery_token_encrypted_hash",
+          "exactLeaf": true,
+          "publicKeySpki": false,
+          "keyType": null,
+          "hexIntegrityShape": false,
+          "hexOnly": false,
+          "pathInProtection": true,
+          "manifestKey": false,
+          "envelopeShape": {
+            "dpapiPrefix": false,
+            "appBoundPrefix": false,
+            "chromiumVersionPrefix": true,
+            "dpapiBlobHeader": false
+          }
+        }
+      ],
+      "structuralContext": "protection.macs.enterprise_signin.policy_recovery_token_encrypted_hash",
+      "browserRuntimeProfileData": true,
+      "classification": "ENCRYPTED LOCAL PREFERENCE-INTEGRITY HASH / PLAINTEXT CONTENT UNVERIFIED",
+      "usableCredentialStructure": "NO direct plaintext/bearer credential structure observed; encrypted envelope cannot establish plaintext type or usability without decryption, which was not attempted",
+      "recommendationCode": "D",
+      "recommendedDisposition": "D. ENCRYPTED LOCAL INTEGRITY METADATA / RESTRICTED LOCAL RETENTION ONLY — HUMAN PENDING; do not assert TRUE SECRET or fully verified NON-CREDENTIAL",
+      "reasoning": "Field is policy_recovery_token_encrypted_hash under protection.macs; local envelope-header shape matches Chromium versioned encryption. It is evidence of encrypted local integrity data, not proof of a recoverable credential. Keep restricted, unapproved retention while Human decides.",
+      "uncertainty": "Plaintext, algorithm/key binding, OS/browser recoverability and semantic equivalence to the sibling MAC are UNKNOWN. No decryption/credential use. If Human requires plaintext classification, retain C. UNKNOWN / UNRESOLVED.",
+      "inGitIndex": false,
+      "inReachableHistory": false,
+      "inProductionDistribution": false,
+      "artifactReachable": false,
+      "matchingArtifactFiles": 0,
+      "matchingCurrentProductionArtifactFiles": 0,
+      "originalIdentity": "Identical entry-snapshot file bytes + same5 rescan; no independent original per-candidate receipt"
+    }
+  ],
+  "preservation": {
+    "prior17DispositionsUnchanged": true,
+    "historical11Unchanged": true,
+    "S04S05Unchanged": true,
+    "securityRulesAndExistingReportsUnchanged": true,
+    "profileUnmodified": true,
+    "stageCommitPushDeploy": false,
+    "deletionRotationDecryptionExternalApi": false
+  },
+  "actualModelId": "UNKNOWN - not exposed",
+  "sources": [
+    "marketing/m01-post-ready-r1-2026-09-26/internal/verify.mjs:20",
+    "tinlumo-production-remaster-r1/internal/before.json (identity comparison in memory only)",
+    "tinlumo-production-remaster-r1/review/security.json (sanitized original5)",
+    "tinlumo-production-remaster-r1/internal/distribution.json",
+    "tinlumo-production-remaster-r1/scripts/server.mjs"
+  ],
+  "limitations": [
+    "Local analysis only; no external requests",
+    "Candidate IDs are scoped to identical baseline bytes and this scanner order; rerun must recheck identity before reuse",
+    "No whole-profile clearance or past approval transfer"
+  ]
+}

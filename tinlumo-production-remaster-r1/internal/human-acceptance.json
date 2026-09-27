@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-27",
+  "portal": "HUMAN APPROVED",
+  "hakorilo": "HUMAN ACCEPTED",
+  "lightwork": "HUMAN ACCEPTED",
+  "twoWays": "HUMAN ACCEPTED",
+  "magnet": "HUMAN ACCEPTED",
+  "island": "CURRENT ACCEPTED UNCHANGED",
+  "quote": "全部完璧",
+  "coverCandidates": "A for all five",
+  "directionExploration": "FINISHED",
+  "scope": "Local Production source integration and a new release candidate artifact only",
+  "finalGate": "HUMAN_PRODUCTION_RELEASE_GATE_PENDING",
+  "stageCommitPushDeploy": false,
+  "models": {
+    "primary": "UNKNOWN",
+    "readOnlyReviewers": "UNKNOWN"
+  }
+}

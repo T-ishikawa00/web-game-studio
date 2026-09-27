@@ -1,0 +1,1751 @@
+{
+  "status": "MANIFEST_READY_NO_STAGE_AUTHORIZED",
+  "head": "57b1daab800a5ad85fef705de05e96657a0b7f93",
+  "branch": "main",
+  "upstream": "origin/main",
+  "indexEmpty": true,
+  "files": [
+    {
+      "file": "astro.visual-remaster.config.mjs",
+      "reason": "Production integration / build",
+      "tracked": false,
+      "bytes": 545,
+      "sha256": "0ac4624a5e1ca501a1370bd6aff41a0b5b628bcaf6ea7baae7d1ef2fccd486d9"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/public/bgm-audio/D1.wav",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 12288044,
+      "sha256": "05b01efe37574c335b5164b92c8c80896e20a452696fd66fd55c1d5336a75945"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/public/evidence/cover-a-portrait.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 311097,
+      "sha256": "31c980de476a1ac7d111e93c833e65728bef500ca73eb59297253437e056a825"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/public/evidence/cover-a.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 683081,
+      "sha256": "ea7e2b2c88418ce2a1f81acda32ffdee068fbc67d47758b1f2c0c4f0eb9c1f7d"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/public/full.css",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 7581,
+      "sha256": "5f11547c08b8db20586b0db2f1a320550e8af0854c065b784554fffa2b2425d0"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/public/game.css",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 12287,
+      "sha256": "54970f0ddad667cd40c772c3354e98f08dd1a4dfafd01a5632c28c4481fe1c28"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/public/play.html",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 6223,
+      "sha256": "e115a0c7004d2c6b28409214b68d68a48a9f7cc50528abf2163daeb07b4cad96"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/src/journey.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 2890,
+      "sha256": "bd18558af03dd8ac597dbc1a4ffe0c9ea7cf4848ec1aa1cb55f2ad83fff20551"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/src/main.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 21252,
+      "sha256": "8bc58a5e58a118217ca56a0e5dd40a0a535ff29eb3c127dc2e3e9e38486d0f76"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/src/stage-art.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 5975,
+      "sha256": "a719e1159f5e44f10526ce7171b2b455a4a017c9ea6084a0716c5dfb76da21ac"
+    },
+    {
+      "file": "hakorilo-u1-remaster-r1/src/world.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 29649,
+      "sha256": "e8df63c6c32511680289ce8bf17bf0d627a7f22ad72dac5ee2ddfce15c20f423"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/_headers",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 296,
+      "sha256": "e454b917ed063f861df5771aad5683d66a0d4b73925c8a41b7c0439e164295a3"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/404.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 22777,
+      "sha256": "6abcef8044829236de94f23fc72a18559fea90380aaafb9dbb28f2f65fde0d36"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/assets/analytics-consent.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 4838,
+      "sha256": "df6797d80630955beadac53766dff8b11313185d6d792b4abf0f0292d01bf0f0"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/assets/public-language.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 1345,
+      "sha256": "195690dafaeeec6842b5c8b40efd03aef813cc6f7b7e177d01c742292f1fadd5"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/assets/save-settings.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 55975,
+      "sha256": "1af42dad4df292c19ed5fd96183c5d78bf4e6cd167365157e9f929cad63ebfe0"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/assets/visual-portal.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 905,
+      "sha256": "9b3578404b69fa1e2548c1b948ed751b7c7c1f9d9a29253fcdccaab24c68d4c5"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/game005-a-portrait.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 33000,
+      "sha256": "758c4d9cf4d0afa82a06905b22875f99828101ea3ae2c517e4404ddb47bb88d8"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/game005-a.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 101126,
+      "sha256": "9cd00cdba77ead2cc24dcad16fd26c20cdc780e60ac23318d8c507af8b31cc4d"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/light-garden-a-portrait.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 69518,
+      "sha256": "66674812cc1594966f7bc07aab8c4964f2ab3f74555390a373c7a3a01def3876"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/light-garden-a.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 113370,
+      "sha256": "dac1eee462a38dae6f791a116ca40bcabe9cb934bcfc01c1ce3994cef1976a19"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/project-magnet-a-portrait.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 67504,
+      "sha256": "5e43af739d69d71eb76db98f9ee7a803e691dceaecb247ffe8ebd590767b2c9d"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/project-magnet-a.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 113224,
+      "sha256": "89b61d12e3d6fbc5fd9f2a8015a42c78265c04659fbe041c5c5fc296c4b7f854"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/tiny-delivery-a-portrait.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 40892,
+      "sha256": "ba75edfc44d3b25d3811967068a3a8d19bb3fb101c5a2908054a983b8eea4b83"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/tiny-delivery-a.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 70350,
+      "sha256": "8cbd750192d522d4641fc5e3b3397ba2c98c405d3c5ebd47d1f60f36e0bff4cb"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/two-ways-home-a-portrait.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 58234,
+      "sha256": "bffa3df0539543aff0f3099b538781bca55f17d1873fd2a3ea13c49e8808ebcb"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/covers/two-ways-home-a.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 115296,
+      "sha256": "f8205fcba04b876a65b00a112d196a59ce8840116f702ad9c25611fb1b74da53"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/about/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 23202,
+      "sha256": "4cc18834d61dbf85c662df9ded706a525ccd08ef56cb639dfbd28f30dcd42752"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/contact/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 24066,
+      "sha256": "0df922fd659592ff168bf5637b9700c51fde1b56cf5dae80ce994e3de0b616e8"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/credits/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 24949,
+      "sha256": "66f5f29ca4baeddf62e436318d40aba253e2902d0833950bb78bd415ed534e87"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/games/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 26818,
+      "sha256": "2df0555739f2ebabee514e0510c39f8026a0d1998ea3a96abce054b9b45e8c80"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/games/island-connections/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 28335,
+      "sha256": "a3626d03a3d2f355c9831c192775a36a1a4ff78893dbe096eca5a03a2168a13e"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/games/light-garden/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 27850,
+      "sha256": "d819247f2ef540a3af231c44e01517768849c7f8a0b0e60285444ca83b258d6d"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/games/project-magnet/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 28370,
+      "sha256": "516a9dceabf7d8355d8270afb76f28a867989c1b9ebdca6ec57b83235e02e50d"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/games/tiny-delivery/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 27916,
+      "sha256": "59270781e2bd767d85310a48eaf5b5002cf0e2b43bd0a5ea2129cf181ce793fe"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/games/two-ways-home/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 27930,
+      "sha256": "d99685d93c73adda02a09f2246733649acb4d20335a6c27d03b2a3cf05690851"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 30719,
+      "sha256": "be265ea5e958f00c762a278f93506bc8eda1d9ea3b4fd947a0f758ba57d8c872"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/play/island-connections/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 20372,
+      "sha256": "eaf990c99659c22e5250bf7e7e2c83005965f180e51c9e317c2714c864dd810d"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/play/light-garden/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 25496,
+      "sha256": "e70bac6a269eb47d1af08be98a07e07cb3bd94e8ee7e5a71b7fffa66ea414939"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/play/project-magnet/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 22634,
+      "sha256": "c29137df0493be1400f600e2786d5dc6bdb680c05808dbd4ddadab53c5e58eed"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/play/tiny-delivery/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 27117,
+      "sha256": "261ab22ff4630a94d32a3180137abd7ad2db92a13720bff3b239de670527b8ab"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/play/two-ways-home/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 21779,
+      "sha256": "dd7f534e3236c66bb42d92d1d327e979aaf231ded87ccec8f60a1cf3c6a5de91"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/privacy/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 30038,
+      "sha256": "c64ca4a57b9807353ea424919d62401d7a036017e291d6ce7848ff6c45f9f92b"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/settings/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 24003,
+      "sha256": "c629421630c9e300b4cdc8232fdd3f1f8d4b8c76f83c1196d93dca03250fb424"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/terms/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 25459,
+      "sha256": "a5f3cfefde2ee1843fe46c82d2aea9449b7a32bb43dc4886397ba6ccea77d55c"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/en/video-policy/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 24578,
+      "sha256": "25d7050f68c64e267712d3e5fcffe928ce11f5698c8156215c8845c159fa9ca0"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/favicon.svg",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 243,
+      "sha256": "db98c074909c265849b79a1443c81db6f21a1ad38fff437204b18ae809dbb774"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/bridge-BKetEhnw.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/commons-CEfu4S30.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 39239,
+      "sha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/cove-D6J7H1QG.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 34539,
+      "sha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/dock-BZp_GcK3.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/hillpath-CNyYb8Mi.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 37670,
+      "sha256": "41e37efde5dc70e00f04ca2fdcec86891bdf9cf0f9e5d0b0f86317d5f9acd2c5"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/house-DUowNtYr.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/index-B45CS-CE.css",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 22117,
+      "sha256": "1c6a8f863ffae94153c11b492a56d07645caf074ba5b1550154b322c4ebbf6c5"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/index-CMoUGFhE.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 660489,
+      "sha256": "ecff511b515e7ff8190241723e869d4ec2ccf0a1c7057d431a595708ab59df49"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/lookout-C0xcxQst.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 29639,
+      "sha256": "e30a3e51ea984cccc382d40730dedbb6df934b2f4864f41b0e72fb42b7b7e7cd"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/lumber-CmLHj2ea.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/market-C6t55qk3.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/assets/promenade-DVNleZxF.png",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 37670,
+      "sha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/credits.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 462,
+      "sha256": "58c3185b239da352703d2e67019b743c8bdb21f376c4cf8509b99b2ca5c8a877"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 874,
+      "sha256": "e4827fd96622d5fe7f8f119c98a3bbd37343a906931a7c53db0910cb6118833b"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/game005/web-v1-r1/THREE-LICENSE.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/light-garden/conservatory-r1/credits.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 138,
+      "sha256": "60aab44e8ca277050243b431ce7b17defcccda488937c857893e46d625e3ca96"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/light-garden/conservatory-r1/game.css",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 13403,
+      "sha256": "bffdf7d6e1e7d27fb92fc12c41d258bf7ef377336ffad90f0af59ebda7f39b8f"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/light-garden/conservatory-r1/game.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 734214,
+      "sha256": "2a153d7f108d0e7c74e5f6657fb7a7017a8ebf5b69ced86d8a1a088288e6aea0"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/light-garden/conservatory-r1/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 5072,
+      "sha256": "ab7100150dffabf453220a9f96cb7760a917c72b8e36e28b90e2b0c8a1a8177c"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/light-garden/conservatory-r1/THREE-LICENSE.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/project-magnet/frontier-r1/credits.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 136,
+      "sha256": "f0457fbee2a370f89f4bbca210901273db743541de877ee26acf669e982accd0"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/project-magnet/frontier-r1/game.css",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 23043,
+      "sha256": "50e3e6c828d219c5ce6587cab2088ab1d20a672497ba8b3a748c7b07e8652ce6"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/project-magnet/frontier-r1/game.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 723499,
+      "sha256": "9488a05984f03aab373dbfa23088e07a642fa418ad073f23b4192c5ff39d062c"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/project-magnet/frontier-r1/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 3268,
+      "sha256": "81d3d7765e6e5fcbf01cdf301a2727c0d46d6501593daa9e5c097a32a1d56baa"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/project-magnet/frontier-r1/THREE-LICENSE.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/tiny-delivery/parcel-grove-r1/bgm-audio/D1.wav",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 12288044,
+      "sha256": "05b01efe37574c335b5164b92c8c80896e20a452696fd66fd55c1d5336a75945"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/tiny-delivery/parcel-grove-r1/credits.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 128,
+      "sha256": "6d347af326ed70d56415144ca2de558188ccefa00473b04edae8785417a016b9"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/tiny-delivery/parcel-grove-r1/full.css",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 7581,
+      "sha256": "5f11547c08b8db20586b0db2f1a320550e8af0854c065b784554fffa2b2425d0"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/tiny-delivery/parcel-grove-r1/game.css",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 12287,
+      "sha256": "54970f0ddad667cd40c772c3354e98f08dd1a4dfafd01a5632c28c4481fe1c28"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/tiny-delivery/parcel-grove-r1/game.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 722241,
+      "sha256": "c6a6df09fcca0e710bfdc3698b432e91df593b07b7072fb83d583ba3206ce62b"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/tiny-delivery/parcel-grove-r1/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 6591,
+      "sha256": "a472fa66ac35c28491ba2234b315819444fd4a1260fc2c9bda2bde998a1216e7"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/tiny-delivery/parcel-grove-r1/THREE-LICENSE.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/two-ways-home/little-towns-r1/credits.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 135,
+      "sha256": "ab6529dd04a81032a820148c7c7d59eefc820b62b902606dac0bffec2d82414a"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/two-ways-home/little-towns-r1/game.css",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 13600,
+      "sha256": "ffe10a2b870e87974b726274b4771782faf606a6854b75d1d0b851e053ca7a68"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/two-ways-home/little-towns-r1/game.js",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 710748,
+      "sha256": "70bf5d58e0cabd31de2ca2ee47b800a67c7ed1a82977d1a834dc7ed6db39082a"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/two-ways-home/little-towns-r1/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 1243,
+      "sha256": "ee185fbb50bbb054636b208963a6204dbf9056631430587079edbde5373982b8"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/games/two-ways-home/little-towns-r1/THREE-LICENSE.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 23264,
+      "sha256": "9aa44a151cf40dfb9635909fb51baa5a894477ea68d356c368b9c558555c558d"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/about/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 23608,
+      "sha256": "db28d1aa198dc7e8de02281e5883b5af961e3dbe46b7ef8d2099ce30347914d3"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/contact/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 24541,
+      "sha256": "bc82840df1f90a311d6ff53ca8546b43d85b1e7f70277990fb171904179ec50f"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/credits/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 25528,
+      "sha256": "d81f5d0a6b8bf396fc37fc5786c5de179c516d539d1e19afcedabbc56852f735"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/games/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 27302,
+      "sha256": "b2c0f7bd5b13f4c15a534a19f00d542006648fa8b50da8c2a859c9f1b70f3d7c"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/games/island-connections/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 29043,
+      "sha256": "60a2234cf6b521180372edd08b6aada67716f826b1355c1d9997d26824c575ce"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/games/light-garden/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 28532,
+      "sha256": "210a08db089045f49cbd9adb1bb2687ffc626343c9261b99186ce5e7f9b66d02"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/games/project-magnet/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 29052,
+      "sha256": "82bed4dbcff4d2e0d616388e20c14a7723cc784ca3b477ab33166581689de329"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/games/tiny-delivery/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 28647,
+      "sha256": "97efe2d3d7d6981b5572bef7fb0d372053df680eb52a8ba6fcf87c2ec418d4e6"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/games/two-ways-home/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 28606,
+      "sha256": "36f7c30206b9916c2bd458341034cd17c69e3bfc39301fe441933d0f75825c59"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 31338,
+      "sha256": "e59f83e62231ea800a04e24630df361e5eed24bf001533d029d28878e6be4bba"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/play/island-connections/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 20444,
+      "sha256": "88f9d83c69075c488b45846134dc23fa22a793867eca922153673159d89909a6"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/play/light-garden/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 25733,
+      "sha256": "9cb32b41191191e2f3a80a9b94ec34b6ecc30d757ef337b12d6408df567cd902"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/play/project-magnet/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 22675,
+      "sha256": "ac9a4acd817f38fb51ad96dc4beb247dbd25df08826ec7615de2fe6e3ed57f89"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/play/tiny-delivery/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 27270,
+      "sha256": "8d6462b1492303263349b6ad8f797f74d22798b5c6b228205a2f91d035675143"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/play/two-ways-home/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 21928,
+      "sha256": "e5448e1d4708de2e168892f9c6b56b62579bea64a41a7b2ee12903a1c48d5e05"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/privacy/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 31628,
+      "sha256": "21cdc38b3bf72717f99760e28731c6e59121253315698809643a11a5ba75bb71"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/settings/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 24446,
+      "sha256": "c7fd152d45640d873ec968f651675b507dd720384a2efb8eea72874c7001d900"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/terms/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 26297,
+      "sha256": "1698259b9a4b1308519f6a811a82fe83129f9d45ca1020c46759011bc0e66ed2"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/ja/video-policy/index.html",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 25231,
+      "sha256": "04cfd010d9f11552a9dac8660663543af5e79950de0762952aa174a4f7d482d3"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/licenses/ASTRO-LICENSE.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 3628,
+      "sha256": "4aa72be797aad0e5e21827eaae6a1df9e122d7a401f07d2c308a6b9a5f0e1278"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/robots.txt",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 64,
+      "sha256": "a356e90ecf45972d8600915d2140d6189a3feb33fb581a9a48e4f57cb0c8ab74"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/scenes/game005.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 101126,
+      "sha256": "9cd00cdba77ead2cc24dcad16fd26c20cdc780e60ac23318d8c507af8b31cc4d"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/scenes/light-garden.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 76904,
+      "sha256": "77f1a3c2a9575e386d670b410a9785f64922f869ea351b85b278935036ad7d5f"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/scenes/project-magnet.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 110746,
+      "sha256": "efec55e26c4f34bd6cd7e2967f8db729999ffbd63c0bb636ba06ec4d93d8a065"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/scenes/tiny-delivery.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 70278,
+      "sha256": "cf05c6704c2d3e9ee07522f5d05d33ebbbfc42fc1b493ce9db1f3f2dff7aca04"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/scenes/two-ways-home.webp",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 83656,
+      "sha256": "b48966b7cdfcdb091ce18c9eb02bcff5c0c7ea8fafd5856454fd1ecca201789f"
+    },
+    {
+      "file": "release-artifacts/tinlumo-visual-remaster-r1/sitemap.xml",
+      "reason": "New candidate artifact",
+      "tracked": false,
+      "bytes": 2397,
+      "sha256": "39e4026ae0d5fb383e13b85a078cb1868420c2d97d609f8810c6c446f57d717a"
+    },
+    {
+      "file": "scripts/visual-remaster-adapter.mjs",
+      "reason": "Production integration / build",
+      "tracked": false,
+      "bytes": 3811,
+      "sha256": "2780915497f687352d00c16853bede94e5d22ffadd3697f2468a19937856c6d1"
+    },
+    {
+      "file": "scripts/visual-remaster-build.mjs",
+      "reason": "Production integration / build",
+      "tracked": false,
+      "bytes": 8054,
+      "sha256": "8f9d9408c08c9567c86bb9f12113897961ed0b88889b9bbf306d2fd080180963"
+    },
+    {
+      "file": "scripts/visual-remaster-game-html.mjs",
+      "reason": "Production integration / build",
+      "tracked": false,
+      "bytes": 3217,
+      "sha256": "9d4932a93b99f7c46c5dbfdf45e46ba4ac137ac64c28085f69a31f8d6a675e41"
+    },
+    {
+      "file": "src/data/games.ts",
+      "reason": "Production integration / build",
+      "tracked": true,
+      "bytes": 4586,
+      "sha256": "ce77253cbf52fd19ff0fb63307153904a65401ae73ddf202f01b1ae312451d94"
+    },
+    {
+      "file": "src/data/visual-release.json",
+      "reason": "Production integration / build",
+      "tracked": false,
+      "bytes": 3246,
+      "sha256": "91ecb60a3d6cf5bd0c87743393832381f15203d7833ba64baa7549671d697802"
+    },
+    {
+      "file": "src/production/Cards.astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 1625,
+      "sha256": "8a9f2bc50d9abb160de48bf01af5b852c5a263da43c4af45e7acc7d5dccf903f"
+    },
+    {
+      "file": "src/production/catalog.ts",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 1075,
+      "sha256": "b72e6ef10cc9d0bac50cdfc088d34b474934daf3a40511d1cb4b61ca32bc539a"
+    },
+    {
+      "file": "src/production/Credits.astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 2988,
+      "sha256": "19fb7689b3ecfb46aa5fa6b05dfb9211a0d431283ce66e310b74ddf38ccccac3"
+    },
+    {
+      "file": "src/production/Detail.astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 2654,
+      "sha256": "a955c8a61a96ad739abcfa78db63dc4812e32f680c4bf30a140c51333b29e739"
+    },
+    {
+      "file": "src/production/GamePage.astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 965,
+      "sha256": "24dcdb6000b86bb2598fa0d26741da6aae2e303ebf58f87af4f5d312e63f85e6"
+    },
+    {
+      "file": "src/production/Home.astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 1976,
+      "sha256": "1108310757c6c63df05546ad712ff005922fdb5c0edac60e98c7d0b2b1e1e202"
+    },
+    {
+      "file": "src/production/Layout.astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 3459,
+      "sha256": "91d0906670c7a5336dab92a78a5cd3f12e219b19596bbd2801e07818bc1d64c6"
+    },
+    {
+      "file": "src/production/pages/[locale]/[...path].astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 4425,
+      "sha256": "ae95a3d708b8774bb7a4d9a99b70437925a406dba4ce8fc2cbd5fbb8ca595b9b"
+    },
+    {
+      "file": "src/production/pages/404.astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 599,
+      "sha256": "5f9efda2612eedb7603717460d31a2099da5f9fd3948fbec9e7689be58dd4849"
+    },
+    {
+      "file": "src/production/pages/index.astro",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 417,
+      "sha256": "f284b934281bd3b38c32cca75c325bcd48476993362260c271b7bf974912a2d9"
+    },
+    {
+      "file": "src/production/portal.js",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 905,
+      "sha256": "9b3578404b69fa1e2548c1b948ed751b7c7c1f9d9a29253fcdccaab24c68d4c5"
+    },
+    {
+      "file": "src/production/settings.ts",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 1112,
+      "sha256": "7b9e3af56052bda464313c652a55e8a7cc65b3434838219c7be8caca9b523661"
+    },
+    {
+      "file": "src/production/site.css",
+      "reason": "Production source",
+      "tracked": false,
+      "bytes": 16596,
+      "sha256": "048d5f705c5505d8339f1a15ebee9cc68bbd6f39c2bd2d9695774f65227cc748"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/accessibility-browser.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 172,
+      "sha256": "edb461c749eaed65f54fb614bd47c9ee286d89553ab1a501bdf4cd09029e3686"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/adapted/light-garden.ts",
+      "reason": "Reviewable compile adapter output",
+      "tracked": false,
+      "bytes": 21981,
+      "sha256": "1633ab08687d53c24dcb83ce70e6951889a2cb8ae0bf621db8bd6e8eb016c1e1"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/adapted/project-magnet.ts",
+      "reason": "Reviewable compile adapter output",
+      "tracked": false,
+      "bytes": 20425,
+      "sha256": "151ed852ddd151712edba34fa6715cacf75186843f6b649dac30cd18812a6ae0"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/adapted/tiny-delivery.ts",
+      "reason": "Reviewable compile adapter output",
+      "tracked": false,
+      "bytes": 21571,
+      "sha256": "44d388e0973db30c20091834dcb6e132f237f774550141440d7ba0dbeb4640f4"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/adapted/two-ways-home.ts",
+      "reason": "Reviewable compile adapter output",
+      "tracked": false,
+      "bytes": 23327,
+      "sha256": "fd522581d4cd3c708de0c2f3838269bae8afe81c157427c29862f5f15faf0cb4"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/consent-browser.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 360,
+      "sha256": "7db3acfdb3aab0682811ab77a01ac0336cd5bec637ee8304830c4668ac3bdb10"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/distribution.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 48602,
+      "sha256": "f6c494317a5cf3f8e98167de8b9645252c5b90b19cd67a28b87973d7f0dd0a53"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/hakorilo-normal-input.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 2560,
+      "sha256": "364eea6bf77ebe52fbd3dd31095121efd8523ac5d77c64b1e0867d31db041c66"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/HUMAN_REQUEST.txt",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 16801,
+      "sha256": "ff6c55e84d1d2897be5877493c408e21236c57075bd4705281a2095f3b132059"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/human-acceptance.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 590,
+      "sha256": "d7743cb494184ab546c7c26c19ee653ca5768b5e018d8847f03a340748d317fd"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/island-normal-input.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 2157,
+      "sha256": "aca41932c75c7e31aa3c0c89535688795a0fe662bf2c8ef5fea881eb74e11fe6"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/language-browser.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 1364,
+      "sha256": "38b93f1bc8b3669887c018110af80b78e9511a5832e2f4fb3e77f732e82ddf46"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/lightwork-normal-input.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 1557,
+      "sha256": "2824ea17c291f18cd23eadef22d13f09e3b343201bdc1019152e61acf5cfe46c"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/lightwork-responsive-recheck.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 2084,
+      "sha256": "68d569918f5af9138265011c43a1266902839150dbe27bf1bd7dc8ee76f9d163"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/magnet-normal-input.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 4112,
+      "sha256": "c70fd11fcffe00fc7e89f116ceecb6ca536be8c64da2f01fb7b1fd1726650f96"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/metafiles/light-garden.json",
+      "reason": "Exact bundle dependency graph",
+      "tracked": false,
+      "bytes": 18504,
+      "sha256": "b90b173ea8d0970c587690563a193dedaa437fd4e8215999a48918a637bae312"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/metafiles/project-magnet.json",
+      "reason": "Exact bundle dependency graph",
+      "tracked": false,
+      "bytes": 17576,
+      "sha256": "4723cf75406ca9ab12fc21d6075cd64ee3d91e212fe1f5575184bbaed8c468e7"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/metafiles/tiny-delivery.json",
+      "reason": "Exact bundle dependency graph",
+      "tracked": false,
+      "bytes": 17902,
+      "sha256": "3e2abdfb227a1107f06167cfc8fbec713856629afd5105496d0393f904da9aa9"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/metafiles/two-ways-home.json",
+      "reason": "Exact bundle dependency graph",
+      "tracked": false,
+      "bytes": 16377,
+      "sha256": "8548c350d5a3e370e54520735d731e876a3214b64f22de7878ef1d3324d6ef90"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/performance.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 42142,
+      "sha256": "65b3236cb945a58d5dc7310371653f1ca4efb4ad27eeac72784433c054f040ae"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/responsive.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 137156,
+      "sha256": "f7ee6f60306005a9db72ebe5ebc68fdab35c0f344235e7141afa053fb9b2339a"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/internal/two-ways-normal-input.json",
+      "reason": "Scoped QA receipt / authority",
+      "tracked": false,
+      "bytes": 1774,
+      "sha256": "1748500e6edc84890e3af61fc73bb9e7349da81cacdb8c4b9b16499fd904ae59"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/accepted-baselines.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 2215,
+      "sha256": "9152d39a9955f532b107a7d9064563f1892b07096a230ec53549e810c08cb963"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/accessibility.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 965,
+      "sha256": "ebbb0338f419f5066768d284bc9176400341943c8f5aa61725760809c3f9bf61"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/artifact-verification.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 371,
+      "sha256": "d5b1b0174f4484b4bc6297b6e778d2f460133f7899e9b2941ddece115866192e"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/asset-provenance.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 5741,
+      "sha256": "bb621a729788cfbca81ae0edbd882090c84df04caace4301de8ea072031f67c7"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/gates.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 2576,
+      "sha256": "ce7346331bb945047a8f6597dcd8ffd132361fe03fec869271da9ffaf6b7aa3a"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/index.html",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 7993,
+      "sha256": "f0c0e52db324e861ae8c7976403459ce3288f79e42770b3904db9f0b208628a0"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/measure.html",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 1090,
+      "sha256": "ff02060963d1e102879f8adf27eee4d0bc948e252b21ba9fdd8c92fee4d55e28"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/measure.js",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 2623,
+      "sha256": "a715693427e5ef970166bc2554fc43436818d0e4115b39314e9718bd4c2c6bc5"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/performance.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 36689,
+      "sha256": "8ff25ae3ca7798417b9ee0cc6a8d7adaad7e445eda653349c9f0a1d12cff7853"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/regression.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 3368,
+      "sha256": "3e8bf7177d70f766764b7a6510f4c585ad0f7174a775cafb11c76a072d2f2782"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/responsive.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 146400,
+      "sha256": "9642d61e987f0c180752c1ec0856c6215a29ea73e236b752bd8017281f392724"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/REVIEW.md",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 11720,
+      "sha256": "8bbc90037ff7f31782c57330bf6ffd270e741660c2598a342571ae243522d67e"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/rollback.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 1052,
+      "sha256": "f03998a344dce57f79673ea856a4b4c7497106031729c199ba633e645584e4db"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/detail-island-connections.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 263798,
+      "sha256": "3ab4beec91fd757d191c3eb9235355c4023468f3c691e789748e3d5297650b04"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/detail-light-garden.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 261428,
+      "sha256": "793bc61ae4ec096346a4f6d2345f7d6c7bdb7105c51e092599f6f6d6abddae48"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/detail-project-magnet.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 291472,
+      "sha256": "53e00842fc17a04834c0e0b34c37b457b6ea14f8d023c676ca20e0bfb2529ad9"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/detail-tiny-delivery.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 260622,
+      "sha256": "84b6aaf7efee8d09d609f99939e82b40477930ab4a0cb4386e05af079c73b6cf"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/detail-two-ways-home.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 276423,
+      "sha256": "33908a5f960109ce1e52b12cbeb071ecf6d78a2e0b623ecb5d4d767c00c99f9c"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/hakorilo-d18.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 105150,
+      "sha256": "28e9bf18476c2b411b5c375eecdcb5d2cf5a6e590483c434c07d389f7ccf6689"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/home-en-1440.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 225140,
+      "sha256": "98099f5bb443a4415a1b78ce5d404e9078279e4ea1794857be025faefcb3c3b7"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/home-en-375.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 141999,
+      "sha256": "b69bcc168556bdccca30036cd08facb8a60bd6f93d3f878fe796d28013990275"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/home-ja-1440.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 218825,
+      "sha256": "09979a51284edf201598ce13f709411e0a6739480372334d4a2ceed9a5229d2b"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/home-ja-375.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 135064,
+      "sha256": "95b04dd21cbed92a93d208d6ea73133f0b4df46744c5db3e5df7d5858649e5f5"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/lightwork-l18.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 128648,
+      "sha256": "0d4fd9619b62641c522fa5c64926799de5575d75c2f341f879223da19d233c59"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/play-island-connections-375.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 30936,
+      "sha256": "e0dc0e6ed7b2f6cb50111886a6754d47322fb7a50de7244893d771e1eb3dbf7a"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/play-light-garden-375.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 55688,
+      "sha256": "619eadffc99c1b1700f4ce1844a1c9e491bb4e1e7e89c7c32dccf69d986bb334"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/play-project-magnet-375.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 41737,
+      "sha256": "1d9770e9bff939b20775169e4582e9a795d7a239bb99fbc2a726ca6bd8cb17ee"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/play-tiny-delivery-375.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 48087,
+      "sha256": "fa1804cfddbbffceeff447fc71f0b62344ad8e9c766d5edaf9f7596fb3d25c9a"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/play-two-ways-home-375.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 41924,
+      "sha256": "0639ac344a6c9227f93f16715b01827d1bfff5cbebbfaef9bba632e56945e065"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/screenshots/two-ways-t18.png",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 150526,
+      "sha256": "93def2ad084ee994b8e9310885d0b03ed64d5dff84452a5bf26ec342e06412b9"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/SECURITY_GATE_UPDATE.md",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 2378,
+      "sha256": "a9d18a4ad1594feae2b5dcfef513bcc180b4b4b7f792c104648530c9beceacd6"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/security-fresh-gate.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 8726,
+      "sha256": "d1693d4feec673bb3f6b50bb846a372af84837dd20e8440fefb4179ccfca9998"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/review/security.json",
+      "reason": "Review evidence",
+      "tracked": false,
+      "bytes": 3062,
+      "sha256": "5af81a7da798d3871e213551eb018264d224450bfd0871601cc652b94e1c5ac0"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/scripts/finish-pack.mjs",
+      "reason": "Reproduction and audit tools",
+      "tracked": false,
+      "bytes": 27379,
+      "sha256": "e6c4a9dfe6457a945c69c62562931944dcc6d4cb6a13d9727da8df0c6f90e070"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/scripts/git-manifest.mjs",
+      "reason": "Reproduction and audit tools",
+      "tracked": false,
+      "bytes": 5628,
+      "sha256": "ac06aca472bbb979cd3388273d30d88d82cb835b2c7d6b36254043a73879e264"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/scripts/initialize.mjs",
+      "reason": "Reproduction and audit tools",
+      "tracked": false,
+      "bytes": 2681,
+      "sha256": "29223744786b01a37d045c954533e7b44fb7316a45b20982547328acb27fc481"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/scripts/security.mjs",
+      "reason": "Reproduction and audit tools",
+      "tracked": false,
+      "bytes": 4799,
+      "sha256": "b5b305cd06d7f7a5bbefcbeb82fc7ef89863b1401033fb5bbdbaadb8baa003da"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/scripts/server.mjs",
+      "reason": "Reproduction and audit tools",
+      "tracked": false,
+      "bytes": 1971,
+      "sha256": "b34c0b9f2fab96cefce6b33fec22a01dce9dc87196b366598c556666860f49bb"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/scripts/verify-artifact.mjs",
+      "reason": "Reproduction and audit tools",
+      "tracked": false,
+      "bytes": 3070,
+      "sha256": "97479f163e75b2fafd265958060fd73fe2ca2e1176d4d89484d552a672e70fde"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/scripts/verify-review.mjs",
+      "reason": "Reproduction and audit tools",
+      "tracked": false,
+      "bytes": 840,
+      "sha256": "21f19b9697b87c979fea8b8068669d61743c73015d4be9221009cf3f01a5a3c3"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/security-new5/analyze.mjs",
+      "reason": "Value-free current-RC security disposition / local verification",
+      "tracked": false,
+      "bytes": 14016,
+      "sha256": "16e5b9867023aee7294258e3e3d95fecc51788aa28db1b18ce3cb29b21e5d88a"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/security-new5/apply-gate-report.mjs",
+      "reason": "Value-free current-RC security disposition / local verification",
+      "tracked": false,
+      "bytes": 8053,
+      "sha256": "968843e2c4f2dc39b32e1979823aa8af03e755467cffb8cffd3e0ea8ee2c0a3f"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/security-new5/DISPOSITION_REVIEW.md",
+      "reason": "Value-free current-RC security disposition / local verification",
+      "tracked": false,
+      "bytes": 8929,
+      "sha256": "eef7fecc316300226c9e41d9cd2b3abf2acd2cff00cffb5be2975ffe4884582b"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/security-new5/disposition.json",
+      "reason": "Value-free current-RC security disposition / local verification",
+      "tracked": false,
+      "bytes": 14221,
+      "sha256": "b9802cf926d848e39fe8c4dd6b0068f040f7ccecde54e34c28ecd553e87c7ae8"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/security-new5/fresh-gate.mjs",
+      "reason": "Value-free current-RC security disposition / local verification",
+      "tracked": false,
+      "bytes": 11107,
+      "sha256": "8ef0c88ce44db8473f690754680ef0f46c40e30c4ef759b8a4fe7ce9cbb029de"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/security-new5/HUMAN_DISPOSITION.md",
+      "reason": "Value-free current-RC security disposition / local verification",
+      "tracked": false,
+      "bytes": 2341,
+      "sha256": "f1152f473a8cd5a38feb309f6483b861d8a521c108b1c3f9f772a10316e33dcd"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/security-new5/human-approval.json",
+      "reason": "Value-free current-RC security disposition / local verification",
+      "tracked": false,
+      "bytes": 1468,
+      "sha256": "99d33a276628d89c57cc7b9aaffe142c347575bc222119040f9def06995ec219"
+    },
+    {
+      "file": "tinlumo-production-remaster-r1/tests/integration.test.ts",
+      "reason": "Integration tests",
+      "tracked": false,
+      "bytes": 4763,
+      "sha256": "8c6ad5e5cefe64cd9abbdc8f87326a36b626c1367b7e0a9b9cc6b33c2ebb1760"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/lightwork/public/game.css",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 13403,
+      "sha256": "bffdf7d6e1e7d27fb92fc12c41d258bf7ef377336ffad90f0af59ebda7f39b8f"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/lightwork/public/index.html",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 5009,
+      "sha256": "72e1f54108ca515a66c95de76be7b5d4b24b8e1da64a2d2abd8621b35f6d12cd"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/lightwork/src/main.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 21077,
+      "sha256": "3226455159d27df115d539ad21e88243f9583441f246cc89d80f26e124540e96"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/lightwork/src/world.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 29865,
+      "sha256": "1f8a2c0ce69560a589f2f93230ba00a05381c69596ef93eb4585bb24548ee181"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/internal/browser-qa.json",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 5932,
+      "sha256": "e6cfdc0823076efa9f4e0f680489865a6cb69d5d65e71ae05ef8fc9501c99026"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/internal/canonical-inputs.json",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 2227,
+      "sha256": "062e875eafe87eb5930faae0619f7058450432468addf5f19460c33850dddf2a"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/public/game.css",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 23043,
+      "sha256": "50e3e6c828d219c5ce6587cab2088ab1d20a672497ba8b3a748c7b07e8652ce6"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/public/index.html",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 3257,
+      "sha256": "47e2ecd48b9459fce36fcbedfe2ab37afa11d6ccbeb1b9e3039e5a789cb5207a"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/accepted-core-reference.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 28461,
+      "sha256": "65124a473dad1e4480bac8ae839e5e0d8eb0971cdbb3cf0f43f2d251676a694b"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/accepted-progression.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1981,
+      "sha256": "b6bdd041901c2fbb71dd3cac95a648041a2a5ad008d7b2f0b4b2714bb8853b51"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/audio.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 16874,
+      "sha256": "fdcf68d3114095608f1dac62e14dfb67977bf7eb3fd36294343551e32722d411"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/base-core.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 28865,
+      "sha256": "1bd0e2d1a8d96c64ef08b4a38123c3919d5458457e4ac0f5aadf18dde5fbe2e0"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/core.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 12012,
+      "sha256": "884a309579ea07edd951c845fed69b0f748a428f12cb0d164906a0b3ba640395"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/expansion-progression.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 2058,
+      "sha256": "4c3d116c49e898150c32a3b030b040d3a90d678e28ae7981023a58dd58e3aa73"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/hub.css",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 7797,
+      "sha256": "b3decd691c6f57ac898bbf350d8a7246fab52cdbcfeb74e8e6cf9de56868cdb6"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 18053,
+      "sha256": "45a2346db4ede3b889c922eac1d1144db2713ef13ab405207d371f892052fee4"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/main.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 22533,
+      "sha256": "396dd57f155a3c777fa0916d01d16274ca1a1aef2e0faa86d8fb5c62ae331eff"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/missions.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 3712,
+      "sha256": "ad5afedb99ff39c1240c49b2d1dd8e8f77af220d9a6491147c885f4c0d8f2b2e"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/models.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 16454,
+      "sha256": "1152abb169f7bdb09bc2a274a36e3925b3177b385d49a2edbe2d5f17d294a6a8"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/public-copy.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 3280,
+      "sha256": "05db2acec18558a0efe2ad6d0036d3d3999aaa6a346a275c316d8e469916375e"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/save.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 5936,
+      "sha256": "8fa931ac410b65b16b512459d3cdfec38f63d73ecf7394e08f78ecd4ba3ab821"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/style.css",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 15386,
+      "sha256": "5c8f66449db02f599f76035b64589d855fb8916d58985f470470d224b3b655d6"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/magnet/src/world.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 20147,
+      "sha256": "256a99fc6e9c24c1c840f543e851885c690002180f1b9b31b0ec029284ae9e20"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/assets/hakorilo-scene.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 683721,
+      "sha256": "b5f23c2f6a05168e75e3b82c48b7bdb50a6dc1a9d6033637004eddcce173c1d1"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/lightwork-cover-a-portrait.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1381638,
+      "sha256": "f3114c41b0f1a9cce5833c0fe71c200d0b363e689fa4107e52552938ffdadf3a"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/lightwork-cover-a.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1275771,
+      "sha256": "7a1abe792edf80f02dbec74cf6a2b1ec5124dd376c87a78aacde6330dfca51c5"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/lightwork-scene-a.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1582265,
+      "sha256": "a7a1987037a6dd05fde76382a985ac5d045a561baef32ce042440f281bc2c21b"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/magnet-cover-a-portrait.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 943423,
+      "sha256": "58dfb4ccf5421b27a7dde6299b4de9ecb1c9c71d9454b96d986a5dd4d70c39a7"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/magnet-cover-a.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 926626,
+      "sha256": "36542a7d3e309c66ae356a127563e30b68299f01406d772af92f5b49a61eaab5"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/magnet-scene-a.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1906251,
+      "sha256": "c14e045b0497fc522cc7e8bd44b668503a94c7f819149681493f341175917ac6"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/two-ways-cover-a-portrait.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1104256,
+      "sha256": "06eb32c1d129eaacda8636d408809e9ff6bb4ca6eef14d0fde4a5aa4c550367c"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/two-ways-cover-a.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1330123,
+      "sha256": "0ed2fdac262f6b219fc1cf66323757827198aea15afdaee2ec29ded88e50adf6"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/evidence/two-ways-scene-a.png",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1624972,
+      "sha256": "843bea2d32f812805537db6476a60237527a64474f8ace276d053c7b8ef99a90"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/public/reports/PERFORMANCE.md",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 3762,
+      "sha256": "a33381e13b996cc941a3a6e2bba16035c3c3c147527e174b7411447f62b91777"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/two-ways/public/game.css",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 13600,
+      "sha256": "ffe10a2b870e87974b726274b4771782faf606a6854b75d1d0b851e053ca7a68"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/two-ways/public/index.html",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 895,
+      "sha256": "acb37604597fee54efa62d960fc369bff079ad520663741dd5ea30d7ea3dea0d"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/two-ways/src/arrival.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 1193,
+      "sha256": "80c2d2999cb338871ae4817c4ded8ea4fde3b50d848cd5f8c54b20aa49630d1d"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/two-ways/src/main.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 22593,
+      "sha256": "212bbf5c05c4cc5757abb993c25946ff736eef24b3116747d589a94fc9915602"
+    },
+    {
+      "file": "tinlumo-remaster-wave1/two-ways/src/world.ts",
+      "reason": "Accepted input or reused QA dependency, preserved unchanged",
+      "tracked": false,
+      "bytes": 30132,
+      "sha256": "250ed3fb1d4f2a276e9ae17335fac3dc320af87ec365fc149f86847b2af82298"
+    },
+    {
+      "file": "tsconfig.visual-remaster.json",
+      "reason": "Production integration / build",
+      "tracked": false,
+      "bytes": 336,
+      "sha256": "84dd237629ae6d44a7f06329fffdd2ca5233356ff6f0d9987180a227180b9970"
+    }
+  ],
+  "partialFile": {
+    "file": "docs/games/PRODUCTION_CURRENT.md",
+    "onlyBlock": "<!-- tinlumo-production-remaster-r1:start --> through <!-- tinlumo-production-remaster-r1:end -->",
+    "existingDirtyContentPreserved": true,
+    "wholeFileStageForbidden": true
+  },
+  "manifestSelf": {
+    "file": "tinlumo-production-remaster-r1/review/scoped-git-manifest.json",
+    "sha256": "EXCLUDED_FROM_SELF_HASH"
+  },
+  "requiredAlreadyTracked": [
+    "docs/qa/game005-release-r1/play.mjs",
+    "docs/qa/game005-release-r1/route-B-play.json",
+    "release-artifacts/game005-web-v1/covers/game005.png",
+    "src/prototypes/craft-audio.ts",
+    "src/prototypes/craft-sound.ts",
+    "src/prototypes/delivery-levels-r2.ts",
+    "src/prototypes/delivery-r2.ts",
+    "src/prototypes/direct-input.ts",
+    "src/prototypes/home-levels-learning.ts",
+    "src/prototypes/home-levels-r2.ts",
+    "src/prototypes/levels.ts",
+    "src/prototypes/light-cause.ts",
+    "src/prototypes/light-craft-audio.ts",
+    "src/prototypes/light-craft-plan.ts",
+    "src/prototypes/light-craft-sound.ts",
+    "src/prototypes/light-levels-r2.ts",
+    "src/prototypes/light-r2.ts",
+    "src/prototypes/music-audio.ts",
+    "src/prototypes/rules.ts",
+    "src/prototypes/state.ts",
+    "src/prototypes/twoways-craft-audio.ts",
+    "src/prototypes/twoways-craft-plan.ts",
+    "src/prototypes/twoways-craft-sound.ts"
+  ],
+  "existingTrackedBuildDependencies": [
+    "package.json",
+    "package-lock.json",
+    "game005-island/package.json",
+    "game005-island/package-lock.json",
+    "src/rc/",
+    "scripts/release-prepare.mjs",
+    "config/release-production/",
+    "release-artifacts/game005-web-v1/",
+    "docs/qa/game005-release-r1/distribution.json"
+  ],
+  "excluded": [
+    "All unrelated pre-existing dirty/untracked work",
+    "marketing/** and all browser profiles",
+    "TLS keys, environment files, private data",
+    "node_modules/**",
+    ".cache/**",
+    ".tmp/**",
+    "internal/before.json",
+    "internal/PRODUCTION_CURRENT.before.md",
+    "internal/temp/**",
+    "internal/*.log",
+    "internal/server.json",
+    "internal/scan.ignore"
+  ],
+  "reproduction": "Install locked root and game005-island dependencies; node scripts/visual-remaster-build.mjs. Security/entry-preservation audit scripts intentionally require local ignored evidence; do not commit that private audit input.",
+  "futureGate": "New five have current-RC-only Human dispositions; fresh security-fresh-gate.json controls technical readiness. Prior17/historical11/S04/S05 remain unchanged. No stage/commit/push/deploy until explicit scoped Human authorization. Never git add ."
+}

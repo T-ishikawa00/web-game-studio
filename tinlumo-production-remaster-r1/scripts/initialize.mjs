@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+const task='tinlumo-production-remaster-r1';
+const root=await fs.realpath('.');
+if(root.replaceAll('\\','/').toLowerCase()!=='c:/projects/web game studio')throw Error('Wrong repository');
+const git=(...args)=>execFileSync('git',args,{encoding:'utf8',maxBuffer:80e6,windowsHide:true}).trim();
+if(git('rev-parse','--show-toplevel').replaceAll('\\','/').toLowerCase()!=='c:/projects/web game studio')throw Error('Wrong Git root');
+for(const dir of ['internal','review','scripts','tests'])await fs.mkdir(path.join(task,dir),{recursive:true});
+if(await fs.stat(task+'/internal/before.json').catch(()=>null))throw Error('Snapshot already exists');
+const files=new Set(git('ls-files','--cached','--others','--exclude-standard','-z').split('\0').filter(x=>x&&!x.startsWith(task+'/')));
+async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){if(e.isSymbolicLink())throw Error('Symlink in frozen evidence');const p=dir+'/'+e.name;if(e.isDirectory())await walk(p);else if(e.isFile())files.add(p);}}
+for(const dir of ['release-artifacts/game005-web-v1','release-artifacts/tinlumo-trust-ux-r2','hakorilo-u1-remaster-r1','hakorilo-parcel-grove-r1','tinlumo-remaster-wave1'])await walk(dir);
+const hashes=[];for(const file of [...files].sort())hashes.push({path:file,sha256:createHash('sha256').update(await fs.readFile(file)).digest('hex')});
+const snapshot={at:new Date().toISOString(),head:git('rev-parse','HEAD'),branch:git('branch','--show-current'),upstream:git('rev-parse','--abbrev-ref','@{u}'),index:git('diff','--cached','--name-status'),status:git('status','--porcelain=v1'),hashes};
+await fs.writeFile(task+'/internal/before.json',JSON.stringify(snapshot,null,2));
+await fs.copyFile('C:/Users/PUBLIC_USER/.codex/attachments/8d0cb2ce-1d59-4541-aa5b-6174ef99d90b/貼り付けたテキスト.txt',task+'/internal/HUMAN_REQUEST.txt');
+await fs.writeFile(task+'/internal/human-acceptance.json',JSON.stringify({date:'2026-09-27',portal:'HUMAN APPROVED',hakorilo:'HUMAN ACCEPTED',lightwork:'HUMAN ACCEPTED',twoWays:'HUMAN ACCEPTED',magnet:'HUMAN ACCEPTED',island:'CURRENT ACCEPTED UNCHANGED',quote:'全部完璧',coverCandidates:'A for all five',directionExploration:'FINISHED',scope:'Local Production source integration and a new release candidate artifact only',finalGate:'HUMAN_PRODUCTION_RELEASE_GATE_PENDING',stageCommitPushDeploy:false,models:{primary:'UNKNOWN',readOnlyReviewers:'UNKNOWN'}},null,2));
+console.log(JSON.stringify({preserved:hashes.length,head:snapshot.head,indexEmpty:snapshot.index===''}));

@@ -1,0 +1,10 @@
+{
+  "initialBanner": false,
+  "explicitPanel": true,
+  "allowedAfterReload": "Analytics is allowed in this browser. You can change your choice at any time.",
+  "denied": "Continuing without analytics. All game features remain available.",
+  "externalScripts": [],
+  "resetConfirmationOpened": true,
+  "resetCancelled": true,
+  "actualProgressDeletion": false
+}

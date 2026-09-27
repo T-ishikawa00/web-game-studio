@@ -1,0 +1,117 @@
+{
+  "coverDecision": "Cover A for all five; no switch to B/C",
+  "newGeneratedConcepts": 0,
+  "runtimeConceptAssets": 0,
+  "newCC0OrStockArt": 0,
+  "brand": "Existing accepted src/rc/favicon.svg N mark + wordmark. Standalone new North Star mascot/logo original not found; no lookalike generated.",
+  "licenses": "Existing first-party procedural art/audio; Three.js MIT and Astro MIT notices included.",
+  "coverTransforms": "Proportional resizing and WebP quality 92 only; no pixel crop/retouch. Native portrait Cover A for four remasters. Island uses its current accepted cover and CSS crop; inspect human gallery.",
+  "entries": [
+    {
+      "game": "tiny-delivery",
+      "file": "hakorilo-u1-remaster-r1/public/evidence/cover-a.png",
+      "sha256": "ea7e2b2c88418ce2a1f81acda32ffdee068fbc67d47758b1f2c0c4f0eb9c1f7d",
+      "output": "covers/tiny-delivery-a.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "tiny-delivery",
+      "file": "hakorilo-u1-remaster-r1/public/evidence/cover-a-portrait.png",
+      "sha256": "31c980de476a1ac7d111e93c833e65728bef500ca73eb59297253437e056a825",
+      "output": "covers/tiny-delivery-a-portrait.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "tiny-delivery",
+      "file": "tinlumo-remaster-wave1/public/assets/hakorilo-scene.png",
+      "sha256": "b5f23c2f6a05168e75e3b82c48b7bdb50a6dc1a9d6033637004eddcce173c1d1",
+      "output": "scenes/tiny-delivery.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "light-garden",
+      "file": "tinlumo-remaster-wave1/public/evidence/lightwork-cover-a.png",
+      "sha256": "7a1abe792edf80f02dbec74cf6a2b1ec5124dd376c87a78aacde6330dfca51c5",
+      "output": "covers/light-garden-a.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "light-garden",
+      "file": "tinlumo-remaster-wave1/public/evidence/lightwork-cover-a-portrait.png",
+      "sha256": "f3114c41b0f1a9cce5833c0fe71c200d0b363e689fa4107e52552938ffdadf3a",
+      "output": "covers/light-garden-a-portrait.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "light-garden",
+      "file": "tinlumo-remaster-wave1/public/evidence/lightwork-scene-a.png",
+      "sha256": "a7a1987037a6dd05fde76382a985ac5d045a561baef32ce042440f281bc2c21b",
+      "output": "scenes/light-garden.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "two-ways-home",
+      "file": "tinlumo-remaster-wave1/public/evidence/two-ways-cover-a.png",
+      "sha256": "0ed2fdac262f6b219fc1cf66323757827198aea15afdaee2ec29ded88e50adf6",
+      "output": "covers/two-ways-home-a.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "two-ways-home",
+      "file": "tinlumo-remaster-wave1/public/evidence/two-ways-cover-a-portrait.png",
+      "sha256": "06eb32c1d129eaacda8636d408809e9ff6bb4ca6eef14d0fde4a5aa4c550367c",
+      "output": "covers/two-ways-home-a-portrait.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "two-ways-home",
+      "file": "tinlumo-remaster-wave1/public/evidence/two-ways-scene-a.png",
+      "sha256": "843bea2d32f812805537db6476a60237527a64474f8ace276d053c7b8ef99a90",
+      "output": "scenes/two-ways-home.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "project-magnet",
+      "file": "tinlumo-remaster-wave1/public/evidence/magnet-cover-a.png",
+      "sha256": "36542a7d3e309c66ae356a127563e30b68299f01406d772af92f5b49a61eaab5",
+      "output": "covers/project-magnet-a.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "project-magnet",
+      "file": "tinlumo-remaster-wave1/public/evidence/magnet-cover-a-portrait.png",
+      "sha256": "58dfb4ccf5421b27a7dde6299b4de9ecb1c9c71d9454b96d986a5dd4d70c39a7",
+      "output": "covers/project-magnet-a-portrait.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "project-magnet",
+      "file": "tinlumo-remaster-wave1/public/evidence/magnet-scene-a.png",
+      "sha256": "c14e045b0497fc522cc7e8bd44b668503a94c7f819149681493f341175917ac6",
+      "output": "scenes/project-magnet.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "game005",
+      "file": "release-artifacts/game005-web-v1/covers/game005.png",
+      "sha256": "c65b549bec951e828f92e93d57e4c170738978f8a07f418a77a0c442066ffa8e",
+      "output": "covers/game005-a.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "game005",
+      "file": "release-artifacts/game005-web-v1/covers/game005.png",
+      "sha256": "c65b549bec951e828f92e93d57e4c170738978f8a07f418a77a0c442066ffa8e",
+      "output": "covers/game005-a-portrait.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    },
+    {
+      "game": "game005",
+      "file": "release-artifacts/game005-web-v1/covers/game005.png",
+      "sha256": "c65b549bec951e828f92e93d57e4c170738978f8a07f418a77a0c442066ffa8e",
+      "output": "scenes/game005.webp",
+      "transform": "WebP quality 92; width bounded; no pixel crop or retouch"
+    }
+  ],
+  "generatedConceptPromptTrail": "Existing accepted art-direction packs remain preserved in repo. No new prompt; concepts are review-only, excluded from artifact."
+}

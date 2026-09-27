@@ -1,0 +1,896 @@
+Tinlumo / Web Game Studio のProduction Integration工程へ進みます。
+
+Human最終判断：
+
+- Tinlumo Portal Visual North Star：HUMAN APPROVED
+- Hakorilo U1 Parcel Grove Full 18 Remaster：HUMAN ACCEPTED
+- Lightwork Garden Full Remaster：HUMAN ACCEPTED
+- Two Ways Home Full Remaster：HUMAN ACCEPTED
+- PROJECT MAGNET Full Remaster：HUMAN ACCEPTED
+- An Island Connected：現行Accepted版を維持
+- 3作品のRemasterについてHuman評価：「全部完璧」
+- Visual Direction探索は終了
+
+今回のGoal：
+
+**新しいTinlumo Portal North Starと、
+Human Accepted済み4作品＋現行Islandを統合し、
+5作品すべてが新Tinlumo品質で揃った
+Production Release Candidateを完成させる。**
+
+今回は以下まで一括で進める：
+
+1. Human Accepted Baseline固定
+2. Cover確定
+3. Portal North Star本実装
+4. 5作品統合
+5. Game Detail / Play Shell統合
+6. JA / EN
+7. Save / Progression互換
+8. Consent C保全
+9. Legal / Credits必要差分
+10. Security
+11. Responsive / Accessibility
+12. Performance
+13. 全5作品回帰
+14. Production artifact作成
+15. Release Candidate Review
+16. Rollback設計
+17. Human Release Gate
+
+ここまで。
+
+Human Release Gate前に
+stage / commit / push / deploy / public releaseは行わない。
+
+==================================================
+0. LATEST AUTHORITY
+==================================================
+
+Repo:
+C:\projects\Web Game Studio
+
+最初に最新local Authorityを確認：
+
+- root AGENTS.md
+- docs/games/PRODUCTION_CURRENT.md 最新該当block
+- current 5-game release authority
+- current Production builder / artifact
+- current registry
+- Consent C authority
+- Security authority
+- 各game Accepted Baseline / Remaster成果
+- Portal North Star成果
+- current local uncommitted work
+
+GitHubにないlocal成果物を
+不存在・未実施と判断しない。
+
+古い：
+- 公開0本
+- 旧PENDING
+- 旧4-game builder
+- 過去の単発commit/push/deploy許可
+
+を現在へ適用しない。
+
+==================================================
+1. ACCEPTED PRODUCT STATE
+==================================================
+
+今回Productionへ統合する5作品：
+
+1. Hakorilo
+   - U1 Parcel Grove
+   - Full 18 Remaster Human Accepted
+
+2. Lightwork Garden
+   - L1 Luminous Conservatory
+   - Full 18 Remaster Human Accepted
+
+3. Two Ways Home
+   - T1 Parallel Little Towns
+   - Full 21 Remaster Human Accepted
+
+4. PROJECT MAGNET
+   - M2 Bright Industrial Frontier
+   - Full Remaster Human Accepted
+   - 3 campaigns × 6 sectors
+   - 3 bosses
+   - existing progression maintained
+
+5. An Island Connected
+   - current Production Accepted Web v1
+   - no new visual remaster in this wave
+   - existing 3 districts / save / gameplay maintained
+
+既存Accepted gameplayを、
+Portal統合のために勝手に変更しない。
+
+==================================================
+2. COVER DECISION
+==================================================
+
+Humanは全体を「完璧」と評価。
+
+別のCover指定がないため、
+今回のProduction Candidateでは
+各Reviewで初期推奨されている **Cover A**
+を採用候補として使用する。
+
+対象：
+- Hakorilo Cover A
+- Lightwork Cover A
+- Two Ways Cover A
+- Magnet Cover A
+- Island current Accepted Cover A
+
+重要：
+
+Coverはすべて
+実ゲームrender由来のAccepted / Candidateを使用。
+
+Concept画像やfake sceneを
+Production Coverへ使用しない。
+
+5枚をPortal North Starへ並べ、
+品質・crop・mobile readabilityに
+明確な問題があれば、
+勝手に別案へ変更せず
+Reviewで指摘する。
+
+==================================================
+3. PORTAL NORTH STAR IMPLEMENTATION
+==================================================
+
+Human Approved Portal North Starを
+実Production sourceへ実装する。
+
+今回は「旧Portalを少しpolish」ではない。
+
+North Starで確定した：
+
+- overall layout
+- art-first hierarchy
+- typography
+- surface
+- whitespace
+- visual rhythm
+- navigation
+- card composition
+- featured treatment
+- brand expression
+- cute-but-premium balance
+- mobile recomposition
+- motion philosophy
+
+を実装。
+
+禁止：
+- 旧Portalへ色だけ追加
+- gradient追加だけ
+- shadow追加だけ
+- SaaS card gridへ回帰
+- old 4-column layoutへ回帰
+- mascot過剰配置
+- new unnecessary functionality
+
+追加しない：
+- account
+- CMS
+- search
+- ranking
+- social
+- cloud save
+- payment
+
+現在必要なPortal機能だけ維持。
+
+==================================================
+4. HOME
+==================================================
+
+5作品を
+新North Starに合わせて正式統合。
+
+確認：
+
+- featured content
+- all games
+- art prominence
+- title hierarchy
+- game metadata
+- Play / Details
+- hover
+- keyboard
+- touch
+- JA / EN
+- Desktop / Mobile
+
+5作品のうち
+最後の1作品が孤立する旧layoutへ戻らない。
+
+==================================================
+5. GAME DETAIL
+==================================================
+
+各5作品のDetailを
+North Star品質へ統一。
+
+ただしゲーム固有の個性を維持。
+
+最低：
+
+- Cover / hero
+- title
+- short description
+- genre / key metadata
+- primary Play CTA
+- screenshots / visual
+- related games
+- credits
+- save / browser note where relevant
+
+3秒程度で
+「何をするゲームか」
+分かる情報階層。
+
+==================================================
+6. PLAY SHELL
+==================================================
+
+Portal → Gameへの品質差をなくす。
+
+Play shellで確認：
+
+- title
+- back / exit
+- settings access
+- game frame
+- loading
+- fullscreen / responsive behavior if existing
+- language
+- related / next path
+- mobile
+
+ゲーム本体のVisualを邪魔しない。
+
+Portal chromeを
+ゲーム画面へ過剰に被せない。
+
+==================================================
+7. BRAND ASSETS
+==================================================
+
+Humanが採用した新Tinlumo logo / mascot方向を
+利用可能な範囲で正式Brand assetへ整理。
+
+ただし、
+現在repoに原本が存在しない場合は
+勝手に似た画像を生成して置換しない。
+
+今回実際に利用可能な
+Human Accepted assetだけ使用。
+
+原本不足がProduction blockerになる場合のみ
+値を含まない形で報告。
+
+==================================================
+8. DESIGN SYSTEM FINALIZATION
+==================================================
+
+今回のProduction実装で必要な範囲だけ
+Design Systemをfinalize。
+
+最低：
+
+- colors
+- surfaces
+- typography
+- spacing
+- radii
+- border
+- shadow
+- image ratio
+- cover treatment
+- buttons
+- links
+- cards
+- focus
+- hover
+- pressed
+- disabled
+- loading
+- motion
+- breakpoints
+
+JA / EN双方で確認。
+
+巨大な抽象Design Systemプロジェクトへ拡張しない。
+
+==================================================
+9. GAME INTEGRATION
+==================================================
+
+各Human Accepted Remasterを
+正式Portal buildへ接続。
+
+重要：
+
+- prototype用route
+- review用source
+- internal fixture
+
+をそのまま公開しない。
+
+Human Accepted Candidateから
+Production用source / artifactを明示的に組み立てる。
+
+各gameで：
+
+- launch
+- normal play
+- save
+- reload
+- success
+- retry
+- settings
+- language
+- return to Portal
+
+を確認。
+
+==================================================
+10. SAVE / PROGRESSION COMPATIBILITY
+==================================================
+
+最重要。
+
+既存利用者のsaveを保全。
+
+ゲームごとに：
+
+Hakorilo
+Lightwork
+Two Ways
+Magnet
+Island
+
+について：
+
+- old Production save load
+- current progress
+- completed stages
+- unlocked content
+- settings
+- language
+- retry / resume
+- corrupted save behavior
+
+を確認。
+
+Visual Remasterだけを理由に
+save namespace / schemaを変更しない。
+
+migrationが必要なら
+Human承認前に勝手にProductionへ入れない。
+
+==================================================
+11. CONSENT C / ANALYTICS
+==================================================
+
+Consent Cを完全維持。
+
+- initial analytics bannerなし
+- Cloudflare WA default OFF
+- settingsから明示許可時のみON
+- automatic injection OFF
+- refusalでゲーム制限なし
+
+Visual redesignにより
+Consent挙動を変更しない。
+
+Google Ads / CMP / H5は別Gate。
+
+実広告を今回接続しない。
+
+==================================================
+12. ADS
+==================================================
+
+現在のAdSense / H5審査状態と分離。
+
+今回：
+
+- ad SDK追加なし
+- real adsなし
+- CMP変更なし
+- ad UX変更なし
+
+Remasterで
+将来の広告境界を壊していないことだけ確認。
+
+==================================================
+13. LEGAL / CREDITS
+==================================================
+
+Visual Remasterに伴って
+新しいasset / library / sound / generated assetが
+追加された場合、
+
+- provenance
+- license
+- credits requirement
+
+を確認。
+
+Privacy / Termsは、
+実データフロー変更がない限り
+不要に書き換えない。
+
+Creditsのみ必要差分を整理。
+
+AI Concept Imageを
+実ゲームassetと誤表記しない。
+
+==================================================
+14. ASSET PROVENANCE
+==================================================
+
+全Remasterについて：
+
+- source
+- generated asset
+- CC0 / free asset
+- original asset
+- prompt
+- license
+- modified output
+
+を整理。
+
+secret / private dataを含めない。
+
+Review用だけのgenerated conceptと、
+Production assetを明確に区別。
+
+==================================================
+15. RESPONSIVE
+==================================================
+
+最低：
+
+Desktop
+- 1440
+- 1280
+- 1024
+
+Tablet
+- 768
+
+Mobile
+- 430
+- 390
+- 375
+- 320
+
+JA / ENで確認。
+
+Home
+Detail
+Play
+Settings
+Legal
+Contact
+404
+
+対象。
+
+horizontal overflow 0。
+
+Desktop shrinkではなく
+Mobile compositionを確認。
+
+==================================================
+16. ACCESSIBILITY
+==================================================
+
+最低：
+
+- keyboard navigation
+- visible focus
+- semantic navigation
+- contrast
+- touch target
+- reduced motion
+- no color-only critical state
+- text scaling where reasonable
+- JA / EN readability
+
+既存input gameplayと
+Portal keyboard behaviorを混同しない。
+
+==================================================
+17. PERFORMANCE
+==================================================
+
+Portal North Starと4 Remasterで
+visual負荷が増えている。
+
+以下を測定：
+
+Portal：
+- initial load
+- image weight
+- JS
+- layout shift
+- interaction
+
+Games：
+- render frame timing
+- draw calls where meaningful
+- memory where observable
+- asset load
+- idle work
+
+Human Accepted visualsを
+旧品質へ戻す最適化は禁止。
+
+先に：
+
+- lazy load
+- image sizing
+- asset compression
+- geometry/material reuse
+- instancing
+- shadow budget
+- idle redraw
+- responsive quality
+
+等で調整。
+
+測定環境と限界を明記。
+
+==================================================
+18. CURRENT 5-GAME REGISTRY
+==================================================
+
+Registryを
+Human Accepted 5作品状態へ更新。
+
+確認：
+
+- slug
+- title JA
+- title EN
+- cover
+- detail path
+- play path
+- save identity
+- release identity
+- related game references
+- sitemap
+- indexability
+
+Hakoriloの旧Tiny Delivery identityとの
+互換ルールを維持。
+
+==================================================
+19. BUILD / ARTIFACT
+==================================================
+
+現在の5作品Production builderを確認。
+
+旧4-game builderを使用しない。
+
+新Portal + 5 accepted gamesを
+正確に再現する
+Production Release Candidate builder / artifactを作成。
+
+既存artifactを上書きしない。
+
+新しい明示名を使用。
+
+例：
+release-artifacts/tinlumo-visual-remaster-r1/
+
+ただし実際の命名は
+現在のrepo conventionへ合わせる。
+
+==================================================
+20. SECURITY
+==================================================
+
+既存Security判定を維持。
+
+既知：
+- full-project raw FAIL17
+- historical FAIL11
+- S04/S05 UNKNOWN / UNRESOLVED
+- local secret retention等の限定disposition
+
+を勝手にPASSへ変更しない。
+
+新候補は既存incident rule。
+
+Release Candidateについて：
+
+- full project ignored-inclusive scan
+- index scan
+- history scan
+- distribution scan
+- TLS / browser profile absence
+
+を現行Authorityに従って実施。
+
+Humanの過去checkpoint-only risk acceptanceを
+再利用しない。
+
+新候補があれば
+release Gate停止。
+
+==================================================
+21. FULL REGRESSION
+==================================================
+
+Portal：
+
+- Home
+- Detail
+- Play
+- JA / EN
+- navigation
+- related
+- settings
+- consent
+- legal
+- contact
+- 404
+- sitemap
+
+Games：
+
+Hakorilo
+- all18
+
+Lightwork
+- all18
+
+Two Ways
+- all21
+
+Magnet
+- 18 sectors
+- bosses
+- progression
+
+Island
+- full3 districts
+
+可能な範囲で
+normal inputを優先。
+
+状態注入だけでFull Regression扱いにしない。
+
+==================================================
+22. COVER FINAL
+==================================================
+
+Production Candidate：
+
+- Hakorilo A
+- Lightwork A
+- Two Ways A
+- Magnet A
+- Island existing A
+
+を使用。
+
+Portal：
+- Desktop
+- Mobile
+- Detail
+- thumbnails
+
+でcropを確認。
+
+明確な品質問題がある場合、
+勝手にB/Cへ変更せず
+Human Reviewに載せる。
+
+==================================================
+23. PORTAL + GAME HUMAN REVIEW
+==================================================
+
+Human向け
+最終Release Candidate Reviewを1つ作成。
+
+最低：
+
+HOME
+- JA / EN
+- Desktop / Mobile
+
+DETAIL
+- 5作品
+
+PLAY
+- 5作品
+
+FULL GAMES
+- current Accepted states
+
+COVERS
+- Final 5
+
+SYSTEM
+- Consent
+- Settings
+- Legal
+- Contact
+- 404
+
+REPORT
+- save compatibility
+- performance
+- accessibility
+- security
+- provenance
+- known limits
+- rollback
+
+Humanが
+Productionへ出して良いか
+一度に判断できる状態。
+
+==================================================
+24. ROLLBACK
+==================================================
+
+現在Productionの：
+
+- current commit
+- current artifact
+- current version
+- current deployment
+
+をread-onlyで確認可能な範囲で記録。
+
+実Cloudflare情報がlocal報告だけなら
+そのsourceを明示。
+
+Rollback candidateを
+具体的に記録。
+
+実rollbackは行わない。
+
+==================================================
+25. GIT PREPARATION
+==================================================
+
+Human Release Gate後に
+commit可能な状態まで整理。
+
+しかし今回は：
+
+- stage禁止
+- commit禁止
+- push禁止
+
+対象path manifestだけ作る。
+
+無関係なlocal workを絶対に巻き込まない。
+
+git add . 禁止。
+
+==================================================
+26. PRODUCTION RELEASE PLAN
+==================================================
+
+Human承認後の実行手順を準備：
+
+1. final Security
+2. scoped stage
+3. checkpoint commit
+4. private origin/main push
+5. Production deploy
+6. smoke
+7. Human production smoke
+8. rollback if required
+
+今回実行しない。
+
+==================================================
+27. YOUTUBE / MARKETING
+==================================================
+
+旧Visual YouTube ShortsはHumanが削除済み。
+
+今回Marketingは変更しない。
+
+Production release後に：
+
+- new Hakorilo
+- new Lightwork
+- new Two Ways
+- new Magnet
+- current Island
+
+の実ゲーム映像から
+新Marketing Launch Packを作る予定。
+
+今回YouTube投稿や素材制作へは進まない。
+
+==================================================
+28. DO NOT TOUCH
+==================================================
+
+今回変更しない：
+
+- Google account
+- AdSense / H5
+- X
+- Reddit
+- 夢現
+- YouTube
+- Cloudflare Production
+- DNS
+- Email
+- paid service
+- account settings
+
+==================================================
+29. STOP CONDITION
+==================================================
+
+Done：
+
+TINLUMO_NEW_VISUAL_SYSTEM_INTEGRATED
++
+HAKORILO_ACCEPTED_INTEGRATED
++
+LIGHTWORK_ACCEPTED_INTEGRATED
++
+TWO_WAYS_ACCEPTED_INTEGRATED
++
+MAGNET_ACCEPTED_INTEGRATED
++
+ISLAND_CURRENT_ACCEPTED_INTEGRATED
++
+COVERS_FINAL_CANDIDATE_READY
++
+JA_EN_FULL_PORTAL_READY
++
+SAVE_COMPATIBILITY_PASS
++
+CONSENT_C_PRESERVED
++
+ACCESSIBILITY_REVIEW_READY
++
+PERFORMANCE_REVIEW_READY
++
+SECURITY_RELEASE_GATE_READY
++
+FULL_REGRESSION_READY
++
+PRODUCTION_ARTIFACT_READY
++
+ROLLBACK_PLAN_READY
++
+SCOPED_GIT_MANIFEST_READY
++
+HUMAN_PRODUCTION_RELEASE_GATE_PENDING
+
+ここで停止。
+
+Humanが
+「このまま本番へ出してよい」
+と明示するまでは、
+
+- stage
+- commit
+- push
+- deploy
+- Production変更
+
+を行わない。

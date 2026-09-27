@@ -1,0 +1,218 @@
+{
+  "date": "2026-09-27 Asia/Tokyo",
+  "actualOperatorModel": "UNKNOWN",
+  "status": "ALL_18_SECTORS_AND_3_BOSSES_NORMAL_INPUT_COMPLETE",
+  "method": "CUA ordinary pointer inputs; read-only visible DOM labels and diagnostics; no game-state or save injection",
+  "source": "BROWSER_QA.md",
+  "url": "http://127.0.0.1:4410/magnet/index.html?lang=en",
+  "operations": [
+    {
+      "mission": "A",
+      "sectors": 6,
+      "result": "CLEAR",
+      "timeSeconds": 184.13,
+      "wrecks": 50,
+      "build": "LANCE",
+      "form": "RETURN",
+      "modules": [
+        "field",
+        "brake"
+      ],
+      "hp": 4,
+      "evidence": "public/captures/operation-a-complete-ui.png"
+    },
+    {
+      "mission": "B",
+      "sectors": 6,
+      "result": "CLEAR",
+      "timeSeconds": 43.36,
+      "wrecks": 28,
+      "build": "LANCE",
+      "form": "FOUNDRY",
+      "modules": [
+        "field",
+        "brake"
+      ],
+      "hp": 5,
+      "evidence": "public/captures/operation-b-complete-ui.png"
+    },
+    {
+      "mission": "C",
+      "sectors": 6,
+      "result": "CLEAR",
+      "timeSeconds": 42.89,
+      "wrecks": 23,
+      "build": "SWARM",
+      "form": "CYCLONE",
+      "modules": [
+        "field",
+        "brake"
+      ],
+      "hp": 6,
+      "evidence": "public/captures/operation-c-complete-ui.png"
+    }
+  ],
+  "repeat": {
+    "mission": "B",
+    "result": "CLEAR",
+    "timeSeconds": 40.79,
+    "wrecks": 28,
+    "hp": 6,
+    "initialSector": "B1 at390x844 through pen left/right input regions",
+    "evidence": "public/captures/operation-b-repeat-complete-ui.png"
+  },
+  "failuresPreserved": [
+    "A5 two attempts before successful A full run",
+    "B1 rail-first tactic learned from failure before successful B full run"
+  ],
+  "responsive": {
+    "widths": [
+      1440,
+      1280,
+      1024,
+      768,
+      430,
+      390,
+      375,
+      320
+    ],
+    "height": 900,
+    "dpr": 1,
+    "locale": "ja",
+    "horizontalOverflow": false,
+    "allVisibleButtonDimensionsAtLeast44px": true,
+    "measurements": "responsive-qa.json"
+  },
+  "portraitInteraction": {
+    "width": 390,
+    "height": 844,
+    "pointerType": "pen",
+    "physicalTouch": false,
+    "moveGatherRelease": "PASS",
+    "sectorClear": "B1",
+    "upgradeChoicesPx": [
+      358,
+      85
+    ]
+  },
+  "keyboard": {
+    "enterChoice": "PASS",
+    "escapePause": "PASS",
+    "heldDirectionalMovement": "NOT TESTED",
+    "reason": "Instantaneous high-level native/Playwright key taps did not establish a movement tick; no hidden input API added",
+    "evidence": "keyboard-qa.json"
+  },
+  "save": {
+    "progressAndRecordsReload": "PASS",
+    "sectorStartResume": "PASS",
+    "jaEnPersistence": "PASS",
+    "muteAndReducedMotionPersistence": "PASS",
+    "corruptDeniedConflict": "Canonical pure test reuse; browser fault injection NOT TESTED",
+    "finalObservedRecords": {
+      "A": {
+        "clears": 1,
+        "best": "03:04.13",
+        "form": "RETURN"
+      },
+      "B": {
+        "clears": 2,
+        "best": "00:40.79",
+        "form": "FOUNDRY"
+      },
+      "C": {
+        "clears": 2,
+        "best": "00:42.89",
+        "form": "CYCLONE"
+      }
+    }
+  },
+  "performance": {
+    "scope": "Observed desktop loopback IAB, DPR1, active combat intervals with no long-stall filtering; CPU submission is not GPU elapsed time",
+    "C": {
+      "p95Ms": 16.8,
+      "maxMs": 105.6,
+      "over50ms": 5,
+      "samples": 2685,
+      "bossDrawCalls": 230,
+      "cpuSubmissionP95Ms": 1
+    },
+    "repeatB": {
+      "p95Ms": 16.8,
+      "maxMs": 105.5,
+      "over50ms": 5,
+      "samples": 2557,
+      "bossDrawCalls": 244,
+      "cpuSubmissionP95Ms": 0.9
+    },
+    "physicalPhone": "UNKNOWN",
+    "gpuTiming": "UNKNOWN"
+  },
+  "pausedRender": {
+    "observedWaitMs": 1400,
+    "framesBefore": 229,
+    "framesAfter": 229,
+    "skippedBefore": 4127,
+    "skippedAfter": 4211,
+    "evidence": "paused-render-qa.json"
+  },
+  "network": {
+    "scope": "Final renderer reload and session observation",
+    "originsObserved": [
+      "http://127.0.0.1:4410"
+    ],
+    "loadingFailuresObserved": 0,
+    "evidence": "browser-network.json"
+  },
+  "console": {
+    "warningsObserved": 0,
+    "errorsObserved": 0,
+    "evidence": "browser-console.json"
+  },
+  "media": {
+    "actualRenderOnly": true,
+    "selectedCovers": [
+      "public/captures/b3-lance-native-high-native.png",
+      "public/captures/c6-controller-native-high-native.png",
+      "public/captures/b6-foundry-native-high-native.png"
+    ],
+    "requestedDpr": 2,
+    "observedRendererDpr": 1.6,
+    "nativeDimensions": [
+      2304,
+      1196
+    ],
+    "viewport": [
+      1440,
+      900
+    ],
+    "continuousBossVideos": [
+      "public/captures/b6-carrier-normal-combat.webm",
+      "public/captures/c6-controller-normal-combat.webm"
+    ],
+    "A6VideoContainsPauses": true,
+    "humanListening": "PENDING"
+  },
+  "browserViewportRestored": true,
+  "humanAcceptance": "PENDING",
+  "physicalDevices": "NOT TESTED",
+  "externalFirstPlay": "NOT TESTED",
+  "productionChange": false,
+  "modelIdentityNote": "Runtime ID not exposed; prior inherited recommended name corrected to UNKNOWN",
+  "finalPresentationQA": {
+    "pauseHubOverlay": "FIXED_AND_VERIFIED: Pause Missions C Back Close retains B3 pause; C replay then clears normally",
+    "CReplayResult": "0:48 / 23 wrecks / SWARM2 / CYCLONE / HP6",
+    "uiCapture": "DPR1 explicit viewport clip captureBeyondViewport:false; visually inspected; no capture query",
+    "finalUI": {
+      "title": "review-title-en.png",
+      "select": "review-title-select-en.png",
+      "play": "review-play-b3-en.png",
+      "boss": "review-boss-c6-en.png",
+      "dense": "review-dense-c6-en.png",
+      "result": "review-result-c-en.png",
+      "failure": "a5-outcome-ui.png",
+      "upgrade": "review-upgrade-c5-en.png",
+      "mobile375JA": "review-mobile-375-ja.png",
+      "mobile320EN": "review-mobile-320-en.png"
+    }
+  }
+}

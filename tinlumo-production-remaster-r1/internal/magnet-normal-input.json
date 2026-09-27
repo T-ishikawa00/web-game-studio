@@ -1,0 +1,205 @@
+{
+  "shots": [
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 0 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 0 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 4 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 4 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 7 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 7 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 8 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 8 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "HEAVY",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "HEAVY",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "GUARD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "GUARD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 9 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "GUARD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 9 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "GUARD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 9 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 9 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "RELAY 1 · 9 / 14",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 01 — 06",
+      "target": "GUARD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "SHIELD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "SHIELD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "SHIELD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "SHIELD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "SHIELD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 0 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "GUARD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 9 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 9 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "RELAY 1 · 9 / 18",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "GUARD",
+      "holdMs": 1250
+    },
+    {
+      "sector": "A / 02 — 06",
+      "target": "GUARD",
+      "holdMs": 1250
+    }
+  ],
+  "observed": "A1 cleared; A2 reached, armor depleted after 1:44; native pointer only; no state injection"
+}

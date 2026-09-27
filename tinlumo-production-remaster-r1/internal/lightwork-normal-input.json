@@ -1,0 +1,110 @@
+[
+  {
+    "id": "L01",
+    "normalInput": true,
+    "pass": true
+  },
+  {
+    "id": "L02",
+    "normalInput": true,
+    "moves": 2,
+    "pass": true
+  },
+  {
+    "id": "L03",
+    "normalInput": true,
+    "moves": 4,
+    "pass": true
+  },
+  {
+    "id": "L04",
+    "normalInput": true,
+    "moves": 1,
+    "pass": true
+  },
+  {
+    "id": "L05",
+    "normalInput": true,
+    "moves": 2,
+    "pass": true
+  },
+  {
+    "id": "L06",
+    "normalInput": true,
+    "moves": 3,
+    "pass": true
+  },
+  {
+    "id": "L07",
+    "normalInput": true,
+    "moves": 4,
+    "pass": true
+  },
+  {
+    "id": "L08",
+    "normalInput": true,
+    "moves": 4,
+    "pass": true
+  },
+  {
+    "id": "L09",
+    "normalInput": true,
+    "moves": 1,
+    "pass": true
+  },
+  {
+    "id": "L10",
+    "normalInput": true,
+    "moves": 3,
+    "pass": true
+  },
+  {
+    "id": "L11",
+    "normalInput": true,
+    "moves": 3,
+    "pass": true
+  },
+  {
+    "id": "L12",
+    "normalInput": true,
+    "moves": 3,
+    "pass": true
+  },
+  {
+    "id": "L13",
+    "normalInput": true,
+    "moves": 3,
+    "pass": true
+  },
+  {
+    "id": "L14",
+    "normalInput": true,
+    "moves": 5,
+    "pass": true
+  },
+  {
+    "id": "L15",
+    "normalInput": true,
+    "moves": 5,
+    "pass": true
+  },
+  {
+    "id": "L16",
+    "normalInput": true,
+    "moves": 6,
+    "pass": true
+  },
+  {
+    "id": "L17",
+    "normalInput": true,
+    "moves": 5,
+    "pass": true
+  },
+  {
+    "id": "L18",
+    "normalInput": true,
+    "moves": 5,
+    "pass": true,
+    "finalCopy": "Your light has reached all 18 gardens."
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "status": "SMOKE_PASS_FULL_RUN_REUSED",
+  "observedActions": [
+    "dock repair",
+    "shipments",
+    "workshop build",
+    "market placement/build",
+    "reload preserved progress",
+    "English to Japanese settings and reload",
+    "Japanese return path matches saved preference"
+  ],
+  "finalUi": "- main:\n  - generic \"島の3Dビュー / 3D island view\"\n  - link \"Tinlumo · 遊び方・ほかの作品 / Details & other games\":\n    - /url: /ja/games/island-connections/\n    - text: ISLAND\n  - generic: \"24\"\n  - generic: \"14\"\n  - button \"設定\":\n  - button \"次の小さな目標 市場と母屋を育て、小さな村へ。\":\n    - generic: 次の小さな目標\n    - strong: 市場と母屋を育て、小さな村へ。\n  - navigation:\n    - button \"建築・施設\":\n      - generic: 建築・施設\n    - button \"ホーム視点\":\n    - button \"一時停止\":\n  - status\n  - dialog \"島で、心地よく。\":\n    - generic: ISLAND / 設定\n    - button \"設定を閉じる\" [active]:\n    - heading \"島で、心地よく。\" [level=2]\n    - strong: 言語\n    - generic: 日本語\n    - group \"言語\":\n      - button \"日本語\" [pressed]\n      - button \"English\"\n    - strong: 音\n    - generic: オフ\n    - switch \"音を切り替える\"\n    - strong: 動き\n    - generic: なめらか\n    - button \"控えめに\":\n      - text: 控えめに\n    - strong: 画質\n    - generic: 標準\n    - group \"画質\":\n      - button \"◒ 標準 陰影を楽しむ\" [pressed]:\n        - generic: ◒\n        - strong: 標準\n        - generic: 陰影を楽しむ\n      - button \"◔ 低負荷 軽い動作を優先\":\n        - generic: ◔\n        - strong: 低負荷\n        - generic: 軽い動作を優先\n    - generic: 進行データ\n    - button \"進行を消去…\"\n    - paragraph: この端末に保存\n    - paragraph: 進行はこのブラウザに自動保存されます。別の端末には引き継がれません。",
+  "full3FreshRun": false,
+  "fullRunEvidence": "docs/qa/game005-release-r1/route-B-play.json",
+  "stateInjection": false
+}
