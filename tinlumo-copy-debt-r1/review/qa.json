@@ -1,0 +1,953 @@
+{
+  "at": "2026-09-27T08:55:46.866Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "before HTTP /ja/about/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/about/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/contact/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/contact/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/credits/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/credits/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/privacy/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/privacy/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/settings/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/settings/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/terms/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/terms/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /404.html",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /404.html",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/about/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/about/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/contact/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/contact/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/credits/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/credits/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/privacy/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/privacy/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/settings/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/settings/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/terms/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/terms/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "ja portfolio accessible name",
+      "pass": true
+    },
+    {
+      "name": "ja fresh storage status is descriptive",
+      "pass": true
+    },
+    {
+      "name": "ja all 21 accessible numbers match visible order",
+      "pass": true
+    },
+    {
+      "name": "ja internal first level T19 retained",
+      "pass": true
+    },
+    {
+      "name": "ja reset explains motion preference",
+      "pass": true
+    },
+    {
+      "name": "ja reset cancel preserves data",
+      "pass": true
+    },
+    {
+      "name": "ja reset failure avoids false retained promise",
+      "pass": true
+    },
+    {
+      "name": "ja Magnet public name in reset",
+      "pass": true
+    },
+    {
+      "name": "ja confirmation focus preserved",
+      "pass": true
+    },
+    {
+      "name": "ja Magnet reset cancel data preserved",
+      "pass": true
+    },
+    {
+      "name": "ja graphics warning avoids save guarantee",
+      "pass": true
+    },
+    {
+      "name": "ja Lightwork failure copy",
+      "pass": true
+    },
+    {
+      "name": "ja Play Island translated markers",
+      "pass": true
+    },
+    {
+      "name": "ja raw Island translated markers",
+      "pass": true
+    },
+    {
+      "name": "en portfolio accessible name",
+      "pass": true
+    },
+    {
+      "name": "en fresh storage status is descriptive",
+      "pass": true
+    },
+    {
+      "name": "en all 21 accessible numbers match visible order",
+      "pass": true
+    },
+    {
+      "name": "en internal first level T19 retained",
+      "pass": true
+    },
+    {
+      "name": "en reset explains motion preference",
+      "pass": true
+    },
+    {
+      "name": "en reset cancel preserves data",
+      "pass": true
+    },
+    {
+      "name": "en reset failure avoids false retained promise",
+      "pass": true
+    },
+    {
+      "name": "en Magnet public name in reset",
+      "pass": true
+    },
+    {
+      "name": "en confirmation focus preserved",
+      "pass": true
+    },
+    {
+      "name": "en Magnet reset cancel data preserved",
+      "pass": true
+    },
+    {
+      "name": "en graphics warning avoids save guarantee",
+      "pass": true
+    },
+    {
+      "name": "en Lightwork failure copy",
+      "pass": true
+    },
+    {
+      "name": "en Play Island translated markers",
+      "pass": true
+    },
+    {
+      "name": "en raw Island translated markers",
+      "pass": true
+    },
+    {
+      "name": "ja no initial consent dialog",
+      "pass": true
+    },
+    {
+      "name": "ja Consent Escape closes",
+      "pass": true
+    },
+    {
+      "name": "ja consent explicit allow persists locally",
+      "pass": true
+    },
+    {
+      "name": "ja consent withdrawal persists",
+      "pass": true
+    },
+    {
+      "name": "en no initial consent dialog",
+      "pass": true
+    },
+    {
+      "name": "en Consent Escape closes",
+      "pass": true
+    },
+    {
+      "name": "en consent explicit allow persists locally",
+      "pass": true
+    },
+    {
+      "name": "en consent withdrawal persists",
+      "pass": true
+    },
+    {
+      "name": "No browser exceptions",
+      "pass": true
+    },
+    {
+      "name": "No external requests",
+      "pass": true
+    },
+    {
+      "name": "No copy dialog horizontal overflow",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "responsive": [
+    {
+      "label": "ja Magnet reset",
+      "width": 320,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Two Ways reset",
+      "width": 320,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Magnet reset",
+      "width": 375,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Two Ways reset",
+      "width": 375,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Magnet reset",
+      "width": 390,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Two Ways reset",
+      "width": 390,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Magnet reset",
+      "width": 430,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Two Ways reset",
+      "width": 430,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Magnet reset",
+      "width": 768,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Two Ways reset",
+      "width": 768,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Magnet reset",
+      "width": 1440,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "ja Two Ways reset",
+      "width": 1440,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Magnet reset",
+      "width": 320,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Two Ways reset",
+      "width": 320,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Magnet reset",
+      "width": 375,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Two Ways reset",
+      "width": 375,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Magnet reset",
+      "width": 390,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Two Ways reset",
+      "width": 390,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Magnet reset",
+      "width": 430,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Two Ways reset",
+      "width": 430,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Magnet reset",
+      "width": 768,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Two Ways reset",
+      "width": 768,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Magnet reset",
+      "width": 1440,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "label": "en Two Ways reset",
+      "width": 1440,
+      "documentOverflow": false,
+      "outside": []
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "before-ja-two-ways-title",
+      "path": "screenshots/before-ja-two-ways-title.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "two-ways",
+      "state": "title"
+    },
+    {
+      "name": "before-ja-two-ways-levels",
+      "path": "screenshots/before-ja-two-ways-levels.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "two-ways",
+      "state": "levels"
+    },
+    {
+      "name": "before-ja-two-ways-reset",
+      "path": "screenshots/before-ja-two-ways-reset.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "two-ways",
+      "state": "reset"
+    },
+    {
+      "name": "before-ja-two-ways-reset-failure",
+      "path": "screenshots/before-ja-two-ways-reset-failure.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "two-ways",
+      "state": "reset-failure"
+    },
+    {
+      "name": "before-ja-magnet-hub",
+      "path": "screenshots/before-ja-magnet-hub.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "hub"
+    },
+    {
+      "name": "before-ja-magnet-reset",
+      "path": "screenshots/before-ja-magnet-reset.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "reset"
+    },
+    {
+      "name": "before-ja-magnet-play-paused",
+      "path": "screenshots/before-ja-magnet-play-paused.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "play-paused"
+    },
+    {
+      "name": "before-ja-magnet-graphics-interrupted",
+      "path": "screenshots/before-ja-magnet-graphics-interrupted.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "graphics-interrupted"
+    },
+    {
+      "name": "before-ja-lightwork-reset-failure",
+      "path": "screenshots/before-ja-lightwork-reset-failure.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "lightwork",
+      "state": "reset-failure"
+    },
+    {
+      "name": "before-ja-island-placement",
+      "path": "screenshots/before-ja-island-placement.png",
+      "variant": "before",
+      "locale": "ja",
+      "game": "island",
+      "state": "placement"
+    },
+    {
+      "name": "before-en-two-ways-title",
+      "path": "screenshots/before-en-two-ways-title.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "two-ways",
+      "state": "title"
+    },
+    {
+      "name": "before-en-two-ways-levels",
+      "path": "screenshots/before-en-two-ways-levels.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "two-ways",
+      "state": "levels"
+    },
+    {
+      "name": "before-en-two-ways-reset",
+      "path": "screenshots/before-en-two-ways-reset.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "two-ways",
+      "state": "reset"
+    },
+    {
+      "name": "before-en-two-ways-reset-failure",
+      "path": "screenshots/before-en-two-ways-reset-failure.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "two-ways",
+      "state": "reset-failure"
+    },
+    {
+      "name": "before-en-magnet-hub",
+      "path": "screenshots/before-en-magnet-hub.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "magnet",
+      "state": "hub"
+    },
+    {
+      "name": "before-en-magnet-reset",
+      "path": "screenshots/before-en-magnet-reset.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "magnet",
+      "state": "reset"
+    },
+    {
+      "name": "before-en-magnet-play-paused",
+      "path": "screenshots/before-en-magnet-play-paused.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "magnet",
+      "state": "play-paused"
+    },
+    {
+      "name": "before-en-magnet-graphics-interrupted",
+      "path": "screenshots/before-en-magnet-graphics-interrupted.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "magnet",
+      "state": "graphics-interrupted"
+    },
+    {
+      "name": "before-en-lightwork-reset-failure",
+      "path": "screenshots/before-en-lightwork-reset-failure.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "lightwork",
+      "state": "reset-failure"
+    },
+    {
+      "name": "before-en-island-placement",
+      "path": "screenshots/before-en-island-placement.png",
+      "variant": "before",
+      "locale": "en",
+      "game": "island",
+      "state": "placement"
+    },
+    {
+      "name": "after-ja-two-ways-title",
+      "path": "screenshots/after-ja-two-ways-title.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "two-ways",
+      "state": "title"
+    },
+    {
+      "name": "after-ja-two-ways-levels",
+      "path": "screenshots/after-ja-two-ways-levels.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "two-ways",
+      "state": "levels"
+    },
+    {
+      "name": "after-ja-two-ways-reset",
+      "path": "screenshots/after-ja-two-ways-reset.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "two-ways",
+      "state": "reset"
+    },
+    {
+      "name": "after-ja-two-ways-reset-failure",
+      "path": "screenshots/after-ja-two-ways-reset-failure.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "two-ways",
+      "state": "reset-failure"
+    },
+    {
+      "name": "after-ja-magnet-hub",
+      "path": "screenshots/after-ja-magnet-hub.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "hub"
+    },
+    {
+      "name": "after-ja-magnet-reset",
+      "path": "screenshots/after-ja-magnet-reset.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "reset"
+    },
+    {
+      "name": "after-ja-magnet-play-paused",
+      "path": "screenshots/after-ja-magnet-play-paused.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "play-paused"
+    },
+    {
+      "name": "after-ja-magnet-graphics-interrupted",
+      "path": "screenshots/after-ja-magnet-graphics-interrupted.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "graphics-interrupted"
+    },
+    {
+      "name": "after-ja-lightwork-reset-failure",
+      "path": "screenshots/after-ja-lightwork-reset-failure.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "lightwork",
+      "state": "reset-failure"
+    },
+    {
+      "name": "after-ja-island-placement",
+      "path": "screenshots/after-ja-island-placement.png",
+      "variant": "after",
+      "locale": "ja",
+      "game": "island",
+      "state": "placement"
+    },
+    {
+      "name": "after-en-two-ways-title",
+      "path": "screenshots/after-en-two-ways-title.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "two-ways",
+      "state": "title"
+    },
+    {
+      "name": "after-en-two-ways-levels",
+      "path": "screenshots/after-en-two-ways-levels.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "two-ways",
+      "state": "levels"
+    },
+    {
+      "name": "after-en-two-ways-reset",
+      "path": "screenshots/after-en-two-ways-reset.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "two-ways",
+      "state": "reset"
+    },
+    {
+      "name": "after-en-two-ways-reset-failure",
+      "path": "screenshots/after-en-two-ways-reset-failure.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "two-ways",
+      "state": "reset-failure"
+    },
+    {
+      "name": "after-en-magnet-hub",
+      "path": "screenshots/after-en-magnet-hub.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "magnet",
+      "state": "hub"
+    },
+    {
+      "name": "after-en-magnet-reset",
+      "path": "screenshots/after-en-magnet-reset.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "magnet",
+      "state": "reset"
+    },
+    {
+      "name": "after-en-magnet-play-paused",
+      "path": "screenshots/after-en-magnet-play-paused.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "magnet",
+      "state": "play-paused"
+    },
+    {
+      "name": "after-en-magnet-graphics-interrupted",
+      "path": "screenshots/after-en-magnet-graphics-interrupted.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "magnet",
+      "state": "graphics-interrupted"
+    },
+    {
+      "name": "after-en-lightwork-reset-failure",
+      "path": "screenshots/after-en-lightwork-reset-failure.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "lightwork",
+      "state": "reset-failure"
+    },
+    {
+      "name": "after-en-island-placement",
+      "path": "screenshots/after-en-island-placement.png",
+      "variant": "after",
+      "locale": "en",
+      "game": "island",
+      "state": "placement"
+    }
+  ],
+  "scope": "Windows Edge headless, fresh disposable contexts. Synthetic saves/failure injection only on loopback. No physical devices, real screen reader, listening or Human acceptance claim."
+}

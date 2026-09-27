@@ -1,0 +1,78 @@
+[
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "アカウント登録、購入、広告、クラウド保存はありません。",
+    "after": "アカウント登録、購入、クラウド保存はありません。現在、広告は配信していません。",
+    "reason": "Separate current advertising state from other service facts; no data-flow change",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "There are no accounts, purchases, ads or cloud saves.",
+    "after": "There are no accounts, purchases or cloud saves. We do not currently serve ads.",
+    "reason": "Match current-state advertising disclosure already present in accepted analytics policy",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "アカウント登録、購入、有料アイテム、広告、クラウド保存はありません。",
+    "after": "アカウント登録、購入、有料アイテム、クラウド保存はありません。現在、広告は配信していません。",
+    "reason": "Terms current-state clarification; no new ad authority",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "There are no accounts, purchases, paid items, ads or cloud saves.",
+    "after": "There are no accounts, purchases, paid items or cloud saves. We do not currently serve ads.",
+    "reason": "Terms current-state clarification",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "ゲームごとの進捗・クリア記録、動きを控える設定、消音・音量、Hakoriloの音楽設定、閉じた案内、選択した言語を、ブラウザのlocalStorageに保存します。続きから遊び、選んだ設定を保つために使います。自動的な有効期限はありません。",
+    "after": "ゲームごとの進行・クリア記録、動きを控える設定、消音・音量、Hakoriloの音楽設定、選択した言語などを、ブラウザーのlocalStorageに保存します。保存する項目は作品によって異なります。続きから遊び、選んだ設定を保つために使います。自動的な有効期限はありません。以前の版で保存した案内などの設定が残っている場合もあります。",
+    "reason": "Current remaster active writes; preserve duration/purpose and acknowledge retained older local data",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "Your browser’s localStorage keeps each game’s progress and completions, reduced-motion setting, mute and volume, Hakorilo music settings, dismissed guides and chosen language. These let you continue playing and keep your preferences. They have no automatic expiry.",
+    "after": "Your browser’s localStorage keeps game progress, completions and preferences such as reduced motion, mute, volume, Hakorilo music settings and chosen language. The saved items vary by game. These let you continue playing and keep your preferences. They have no automatic expiry. Preferences saved by earlier versions, such as dismissed guides, may also remain.",
+    "reason": "Match current JA disclosure; no collection expansion",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "Hakorilo・ひかりの仕掛け庭・ふたりの帰り道の「この作品の進行を消去」は、その作品の進捗・クリア記録・動きを控える設定を消去します。",
+    "after": "Hakorilo・ひかりの仕掛け庭・ふたりの帰り道の進行消去は、その作品の進捗・クリア記録・動きを控える設定を消去します。Hakoriloはサイトの設定ページ、ほかの2作品はゲーム内の設定から消去できます。",
+    "reason": "Retain precise deletion scope; match actual reset locations, not an obsolete shared label",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "For Hakorilo, Lightwork Garden and Two Ways Home, “Erase this game’s progress” removes that game’s progress, completions and reduced-motion setting.",
+    "after": "Resetting progress in Hakorilo, Lightwork Garden or Two Ways Home removes that game’s progress, completions and reduced-motion setting. Use the site Settings page for Hakorilo, or the in-game settings for the other two games.",
+    "reason": "Match actual reset paths and unchanged scope",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "表示や方向ボタンの設定、同じ利用開始を重複して記録しないための一時的な情報にはsessionStorageを使います。タブを復元すると残る場合があります。プレイ中の操作情報は端末のメモリに一時的に保持し、ページが破棄されると消えます。この操作情報を外部へ送信することはありません。",
+    "after": "プレイ中の一時的な操作情報は、端末のメモリに保持します。ゲームごとの保存対象となる進行・設定を除き、ページが破棄されると消えます。この操作情報を外部へ送信することはありません。",
+    "reason": "Current shipped bundles have no sessionStorage use; distinguish saved board state from transient input. Existing external-send promise retained",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/PublicOperations.astro",
+    "before": "sessionStorage holds temporary display and direction-button preferences and information that avoids recording the same session start twice. This may remain when a browser restores a tab. In-game interaction information is held temporarily in device memory, discarded when the page is unloaded and not sent externally.",
+    "after": "Temporary in-game interaction information is held in device memory and is discarded when the page is unloaded, apart from the progress and preferences each game saves. This interaction information is not sent externally.",
+    "reason": "Current implementation disclosure, not deletion of local/third-party data obligations",
+    "status": "LOCAL CANDIDATE / HUMAN POLICY COPY REVIEW PENDING"
+  },
+  {
+    "file": "src/rc/public-catalog.ts",
+    "before": "ja:`Tinlumoは、日本語と英語で遊べる${publicGames.length}つの無料ブラウザゲームを提供します。`,en:`Tinlumo provides ${publicGames.length} free browser games in Japanese and English.`",
+    "after": "ja:'Tinlumoは、日本語と英語で遊べる無料のオリジナルブラウザーゲームを提供します。',en:'Tinlumo provides free original browser games in Japanese and English.'",
+    "reason": "POLICY_REVIEW: service scope unchanged; remove mutable inventory"
+  }
+]

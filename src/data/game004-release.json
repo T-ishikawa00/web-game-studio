@@ -4,7 +4,7 @@
   "title": {"ja": "PROJECT MAGNET", "en": "PROJECT MAGNET"},
   "description": {
     "ja": "金属を吸い寄せ、狙って一斉射出。壊した装甲を次の力に変える、3作戦の磁力アクション。",
-    "en": "Gather metal. Aim and launch it all. Turn broken armor into your next upgrade across three magnetic combat missions."
+    "en": "Gather metal. Aim and launch it all. Turn broken armor into your next volley across three magnetic combat missions."
   },
   "cover": "/covers/project-magnet.png",
   "inputs": ["pointer", "touch", "keyboard"],

@@ -1,0 +1,194 @@
+[
+  {
+    "file": "tinlumo-remaster-wave1/two-ways/src/main.ts",
+    "before": "t('Tinlumoの5作品へ','Tinlumo five-game preview')",
+    "after": "t('Tinlumoのゲームへ','Tinlumo games')",
+    "reason": "Portfolio return accessible name: remove fixed count and preview designation in both languages."
+  },
+  {
+    "file": "scripts/visual-remaster-adapter.mjs",
+    "before": ";replace(\"t('Tinlumoの5作品へ','Tinlumo five-game preview')\",\"t('Tinlumoの5作品へ','Tinlumo games')\")",
+    "after": "",
+    "reason": "The authoritative game source now owns the public accessible name; remove obsolete adapter copy override."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/two-ways/src/main.ts",
+    "before": "aria-label=\"${l.id} · ${escape(l.title[lang])}\"",
+    "after": "aria-label=\"${t('帰り道','Journey')} ${ch*7+i+1} · ${escape(l.title[lang])}\"",
+    "reason": "Accessible level name uses the same ordered number as the visible card. Stable data-action and save IDs remain unchanged."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/two-ways/src/main.ts",
+    "before": "t('このブラウザに保存','Saved in this browser')",
+    "after": "t('進行はこのブラウザに保存します','Progress saves in this browser.')",
+    "reason": "Describe storage behavior without claiming that a fresh empty visit has already saved; failure warnings remain."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/two-ways/src/main.ts",
+    "before": "t('この作品の進行だけを消去します。消去前に確認します。','Only this game’s progress is removed, after confirmation.')",
+    "after": "t('進行・クリア記録・動きを控える設定を消去します。音の設定と他の作品の保存は残ります。消去前に確認します。','This removes progress, completions and the reduced-motion preference, after confirmation. Sound settings and other games’ saves remain.')",
+    "reason": "Explain the existing reduced-motion reset scope consistently with the accepted Portal copy."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/two-ways/src/main.ts",
+    "before": "t('Two Ways Homeの全クリア記録と途中の位置を消去します。他作品と音設定は残ります。','All Two Ways Home completion and saved positions will be removed. Other games and sound settings remain.')",
+    "after": "t('ふたりの帰り道の進行・クリア記録・動きを控える設定を消去します。音の設定と他の作品の保存は残ります。','This removes Two Ways Home progress, completions and the reduced-motion preference. Sound settings and other games’ saves remain.')",
+    "reason": "Name all existing effects before destructive confirmation."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/two-ways/src/main.ts",
+    "before": "t('消去できませんでした。元の保存はそのままです。','Reset failed. The original save remains.')",
+    "after": "t('消去の完了を確認できません。保存機能を利用できる状態で、もう一度確認してください。','Deletion could not be confirmed. Check again when browser storage is available.')",
+    "reason": "A failure after removeItem may mean verification failed; do not guarantee that the original data remains."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "ja: {\n    eyebrow: 'TINLUMO / GAME 004'",
+    "after": "ja: {\n    eyebrow: 'TINLUMO'",
+    "reason": "Remove internal project number from the Japanese mission hub eyebrow."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "en: {\n    eyebrow: 'TINLUMO / GAME 004'",
+    "after": "en: {\n    eyebrow: 'TINLUMO'",
+    "reason": "Remove internal project number from the English mission hub eyebrow."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "reset: 'Game004 データをリセット'",
+    "after": "reset: 'セーブデータをリセット'",
+    "reason": "Short action label; adjacent heading and confirmation identify the game."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "resetTitle: 'Game004 のデータをリセットしますか？'",
+    "after": "resetTitle: 'PROJECT MAGNETのデータをリセットしますか？'",
+    "reason": "Use the public game name in the destructive-action confirmation."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "resetBody: '解放状況、クリア記録、途中再開、Game004の設定だけが対象です。他のゲームのデータには触れません。'",
+    "after": "resetBody: 'PROJECT MAGNETの解放状況、クリア記録、途中再開、設定だけが対象です。他のゲームのデータには触れません。'",
+    "reason": "Preserve exact reset scope and other-game protection; identify the game publicly."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "confirmReset: 'Game004 データをリセット'",
+    "after": "confirmReset: 'リセットする'",
+    "reason": "Confirmation action follows the explicit game title and scope."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "reset: 'RESET GAME004 DATA'",
+    "after": "reset: 'RESET SAVE DATA'",
+    "reason": "Short action label fits the accepted layout."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "resetTitle: 'Reset Game004 data?'",
+    "after": "resetTitle: 'Reset PROJECT MAGNET data?'",
+    "reason": "Use the public game name in the English confirmation."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "resetBody: 'Only Game004 unlocks, clear records, checkpoint, and settings are included. Data from other games is untouched.'",
+    "after": "resetBody: 'Only PROJECT MAGNET unlocks, clear records, checkpoint, and settings are included. Data from other games is untouched.'",
+    "reason": "Preserve all reset effects and the other-game exclusion."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "before": "confirmReset: 'RESET GAME004 DATA'",
+    "after": "confirmReset: 'RESET DATA'",
+    "reason": "Confirmation action follows explicit scope."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/public/index.html",
+    "before": "<span class=\"brand\">TINLUMO / 004</span>",
+    "after": "<span class=\"brand\">TINLUMO</span>",
+    "reason": "Remove the internal project number from the persistent game header."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/expansion-progression.ts",
+    "before": "['CYCLONE · R2.1','サイクロン · 既存形態'",
+    "after": "['CYCLONE','サイクロン'",
+    "reason": "Keep the existing evolution name and effect; remove development version/legacy annotation."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/expansion-progression.ts",
+    "before": "['RETURN · R2.1','リターン · 既存形態'",
+    "after": "['RETURN','リターン'",
+    "reason": "Keep the existing evolution name and effect; remove development version/legacy annotation."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/magnet/src/world.ts",
+    "before": "描画が停止しました。再読込すると区画開始地点から再開できます。 / Graphics interrupted. Reload to resume the sector checkpoint.",
+    "after": "描画が停止しました。ページを再読み込みしてください。保存できていない進行は失われます。 / Graphics interrupted. Reload the page to continue. Unsaved progress will be lost.",
+    "reason": "Remove unconditional recovery promise when storage can be unavailable; rendering, save and recovery behavior stay identical."
+  },
+  {
+    "file": "scripts/visual-remaster-build.mjs",
+    "before": "for(const f of accepted.files.filter(f=>f.file.startsWith('games/game005/')))copy(accepted.root+'/'+f.file,assets+'/'+f.file);",
+    "after": "for(const f of accepted.files.filter(f=>f.file.startsWith('games/game005/'))){\n   if(f.file.endsWith('/credits.txt')){\n    const credits=fs.readFileSync(accepted.root+'/'+f.file,'utf8');\n    const heading='島をつなぐ日 / An Island Connected — Tinlumo Studio. Web v1.';\n    assert(credits.startsWith(heading),'Island credits source heading changed');\n    put(assets+'/'+f.file,credits.replace(heading,'島をつなぐ日 / An Island Connected — Tinlumo Studio.'));\n   }else copy(accepted.root+'/'+f.file,assets+'/'+f.file);\n  }",
+    "reason": "Generate public Island credits without the internal release label, preserving the immutable accepted input and all provenance/license text."
+  },
+  {
+    "file": "scripts/visual-remaster-build.mjs",
+    "before": "?'Accepted D1 music.':'No background music.'",
+    "after": "?'Original synthesized music.':'No background music.'",
+    "reason": "Linked Hakorilo credits describe the actual music, without an internal audition/acceptance ID."
+  },
+  {
+    "file": "scripts/visual-remaster-build.mjs",
+    "before": "// Island engine, CSS, credits and license are retained byte-for-byte; only the public/raw HTML wrapper changes.",
+    "after": "// Island engine, CSS and license remain byte-identical. Public HTML and the credits heading receive copy-only adaptation.",
+    "reason": "Document the narrow linked-credits exception."
+  },
+  {
+    "file": "scripts/visual-remaster-build.mjs",
+    "before": "f.file.startsWith('games/game005/')&&!f.file.endsWith('index.html')",
+    "after": "f.file.startsWith('games/game005/')&&!f.file.endsWith('index.html')&&!f.file.endsWith('/credits.txt')",
+    "reason": "Keep exact byte checks for Island runtime, style, licenses and other assets; credits change is verified separately."
+  },
+  {
+    "file": "tinlumo-remaster-wave1/lightwork/src/main.ts",
+    "before": "t('初期化できませんでした。記録を消したとは表示しません。','Reset failed. Your progress has not been reported as erased.')",
+    "after": "t('消去の完了を確認できません。保存機能を利用できる状態で、もう一度確認してください。','Deletion could not be confirmed. Check again when browser storage is available.')",
+    "reason": "Replace internal verification wording with an accurate user-facing failure and next action, without promising that removed data remains."
+  },
+  {
+    "file": "scripts/visual-remaster-build.mjs",
+    "before": "copy('src/production/portal.js',assets+'/assets/visual-portal.js');",
+    "after": "copy('src/production/portal.js',assets+'/assets/visual-portal.js');\ncopy('src/production/island-copy.js',assets+'/assets/island-copy.js');",
+    "reason": "Island public names: distribute the narrow accessible-name adapter from authoritative source."
+  },
+  {
+    "file": "src/rc/IslandPlay.astro",
+    "before": "const {game,locale}=Astro.props as {game:Game;locale:Locale};",
+    "after": "const {game,locale,publicNames=false}=Astro.props as {game:Game;locale:Locale;publicNames?:boolean};",
+    "reason": "Island public names: opt in from current production wrapper, leaving older release entry points unchanged."
+  },
+  {
+    "file": "src/rc/IslandPlay.astro",
+    "before": "<script is:inline type=\"module\" src={assets.js}></script>",
+    "after": "<script is:inline type=\"module\" src={assets.js}></script>{publicNames&&<script is:inline type=\"module\" src=\"/assets/island-copy.js\"></script>}",
+    "reason": "Island public names: load only the accessible-name adapter after the unchanged engine."
+  },
+  {
+    "file": "src/production/GamePage.astro",
+    "before": "<IslandPlay game={game} locale={locale}/>",
+    "after": "<IslandPlay game={game} locale={locale} publicNames={true}/>",
+    "reason": "Island public names: enable the production copy adapter on JA and EN Play routes."
+  },
+  {
+    "file": "scripts/visual-remaster-game-html.mjs",
+    "before": " html=html.replace('</body>',`<noscript>",
+    "after": " if(game.id==='game005')html=html.replace('</body>','<script type=\"module\" src=\"/assets/island-copy.js\"></script></body>');\n html=html.replace('</body>',`<noscript>",
+    "reason": "Island public names: apply identical names to the direct raw game route, not only the Portal wrapper."
+  },
+  {
+    "file": "scripts/visual-remaster-build.mjs",
+    "before": "acceptedIslandPayloadExact:true",
+    "after": "acceptedIslandRuntimeExact:true,publicIslandCopyAdapter:true,islandCreditsCopyEdited:true",
+    "reason": "Do not label edited linked credits as an exact payload; explicitly identify unchanged runtime and public-copy additions."
+  }
+]

@@ -15,6 +15,7 @@ export function productionGameHtml(html,game,locale){
   for(const [id,values]of Object.entries(copy))html=html.replace(new RegExp('(id="'+id+'"[^>]*>)[^<]*'),'$1'+values[locale==='ja'?0:1]);
  }
  if(game.id==='project-magnet')html=html.replace(/href="(?:\/index\.html|\.\.\/index\.html)[^"]*"/g,`href="/${locale}/games/project-magnet/"`).replace('aria-label="Open review pack"',`aria-label="${locale==='ja'?'遊び方へ':'How to play'}"`);
+ if(game.id==='game005')html=html.replace('</body>','<script type="module" src="/assets/island-copy.js"></script></body>');
  html=html.replace('</body>',`<noscript><p>${locale==='ja'?'遊ぶにはJavaScriptを有効にしてください。':'Enable JavaScript to play.'} <a href="/${locale}/games/${game.slug}/">${locale==='ja'?'遊び方へ戻る':'Back to details'}</a></p></noscript></body>`);
  return html;
 }

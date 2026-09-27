@@ -1,0 +1,173 @@
+{
+  "at": "2026-09-27T09:12:21.135Z",
+  "status": "USER_FACING_COPY_AUDIT_COMPLETE",
+  "decisions": [
+    {
+      "id": "portfolio-name",
+      "game": "Two Ways Home",
+      "place": "タイトル／各画面のTinlumoリンク・読み上げ",
+      "before": "JA: Tinlumoの5作品へ\nEN source: Tinlumo five-game preview（既存候補ではTinlumo gamesへ加工）",
+      "after": "JA: Tinlumoのゲームへ\nEN: Tinlumo games",
+      "why": "公開作品数に依存しない案内。原sourceを修正し、古いadapter上書きを取り除いた。",
+      "source": "tinlumo-remaster-wave1/two-ways/src/main.ts:44 → scripts/visual-remaster-adapter.mjs",
+      "evidence": "日英初期画面・設定・面選択のDOMとリンク名。"
+    },
+    {
+      "id": "magnet-id",
+      "game": "PROJECT MAGNET",
+      "place": "常設ヘッダー／ハブ／消去確認",
+      "before": "TINLUMO / 004 · TINLUMO / GAME 004\nGame004 のデータをリセットしますか？\nReset Game004 data?",
+      "after": "TINLUMO\nPROJECT MAGNETのデータをリセットしますか？\nReset PROJECT MAGNET data?",
+      "why": "制作番号を外し、確認の対象を正式作品名で明示。ボタンは「セーブデータをリセット / RESET SAVE DATA」「リセットする / RESET DATA」。解放・クリア・途中再開・設定の対象範囲は保持。",
+      "source": "tinlumo-remaster-wave1/magnet/public/index.html:4; src/hub.ts:19–107",
+      "evidence": "ハブ・確認・取消・確定・名前の折返しを日英で確認。"
+    },
+    {
+      "id": "journey-number",
+      "game": "Two Ways Home",
+      "place": "21面の選択カード・読み上げ",
+      "before": "見える番号01 → 読み上げT19\n見える番号02 → 読み上げT01",
+      "after": "JA: 帰り道 1 · ひとつの合図\nEN: Journey 1 · One shared signal\n以降も表示順に一致",
+      "why": "表示番号と読み上げ番号を揃える。data-actionのlevel:T19、保存・解答のstable IDは同一。",
+      "source": "tinlumo-remaster-wave1/two-ways/src/main.ts:57; src/prototypes/home-levels-learning.ts:23",
+      "evidence": "日英で全21件の対応、最初のdata-actionがlevel:T19のままであることをassert。"
+    },
+    {
+      "id": "evolution",
+      "game": "PROJECT MAGNET",
+      "place": "最終進化の選択画面",
+      "before": "CYCLONE · R2.1 / RETURN · R2.1\nサイクロン · 既存形態 / リターン · 既存形態",
+      "after": "CYCLONE / RETURN\nサイクロン / リターン",
+      "why": "現行の進化名はそのまま、内部版と旧実装注記のみ除去。選択キー・性能値・説明・演出は同一。",
+      "source": "tinlumo-remaster-wave1/magnet/src/expansion-progression.ts:15–16 → main.ts:84",
+      "evidence": "有効な区画開始fixtureからマウスの通常操作でB区画5を攻略。変更前後の両分岐に到達し、JA/ENで撮影。全編達成の証拠とは区別。"
+    },
+    {
+      "id": "island-names",
+      "game": "島をつなぐ日 / An Island Connected",
+      "place": "市場の建設・移設マーカー・読み上げ",
+      "before": "JA/ENとも coast / village",
+      "after": "JA: 海岸沿い / 村の広場\nEN: Coast / Village",
+      "why": "可視の配置ボタンと同じ場所名を提供。公開用の小さいcopy adapterがaria-labelだけを補い、凍結engine・配置値・保存を保持。Playとraw entryの双方で適用。",
+      "source": "src/production/island-copy.js; src/production/GamePage.astro; src/rc/IslandPlay.astro; scripts/visual-remaster-game-html.mjs",
+      "evidence": "JA/ENの建設・移設・ゲーム内言語切替、raw entryを実ブラウザーで確認。"
+    },
+    {
+      "id": "storage-state",
+      "game": "Two Ways Home",
+      "place": "初回・消去直後の保存案内",
+      "before": "このブラウザに保存 / Saved in this browser",
+      "after": "進行はこのブラウザに保存します / Progress saves in this browser.",
+      "why": "まだ保存していない初回に「保存済み」と読める表現を避ける。invalid/unavailable/failedの警告分岐は保持。",
+      "source": "tinlumo-remaster-wave1/two-ways/src/main.ts:40",
+      "evidence": "初回DOMと消去後の実状態を確認。保存条件・処理は変更なし。"
+    },
+    {
+      "id": "reset-scope",
+      "game": "Two Ways Home",
+      "place": "保存管理／消去確認",
+      "before": "進行・全クリア記録・途中の位置だけを説明。動きの設定を省略。",
+      "after": "JA: 進行・クリア記録・動きを控える設定を消去。音の設定と他の作品の保存は残る。\nEN: Progress, completions and reduced-motion preference are removed. Sound settings and other games’ saves remain.",
+      "why": "実際に既に消える項目を明示し、採用済みPortalの説明と一致させる。削除対象は増やさない。",
+      "source": "tinlumo-remaster-wave1/two-ways/src/main.ts:77,94; src/prototypes/state.ts:42",
+      "evidence": "取消で保存保持、確定で対象keyのみ消去、reduced motionが初期値へ戻ることを確認。"
+    },
+    {
+      "id": "reset-failure",
+      "game": "Two Ways Home / Lightwork Garden",
+      "place": "保存消去の失敗メッセージ",
+      "before": "元の保存はそのままです / The original save remains.\n記録を消したとは表示しません / has not been reported as erased.",
+      "after": "JA: 消去の完了を確認できません。保存機能を利用できる状態で、もう一度確認してください。\nEN: Deletion could not be confirmed. Check again when browser storage is available.",
+      "why": "removeItem後の読取確認が失敗する場合がある。元データ残存を保証せず、内部検証の説明を利用者の状態と次の行動へ。",
+      "source": "tinlumo-remaster-wave1/two-ways/src/main.ts:95; lightwork/src/main.ts:44",
+      "evidence": "run専用contextで「消去後に例外」を注入し、false成功/false保持表示がないことを日英で確認。"
+    },
+    {
+      "id": "graphics",
+      "game": "PROJECT MAGNET",
+      "place": "描画停止の通知",
+      "before": "再読込すると区画開始地点から再開できます。 / Reload to resume the sector checkpoint.",
+      "after": "JA: 描画が停止しました。ページを再読み込みしてください。保存できていない進行は失われます。\nEN: Graphics interrupted. Reload the page to continue. Unsaved progress will be lost.",
+      "why": "保存不可でも無条件に再開できる保証を外す。描画停止・再開・保存の挙動は不変。",
+      "source": "tinlumo-remaster-wave1/magnet/src/world.ts:46",
+      "evidence": "webglcontextlost合成イベントで通知コピーを確認。実GPU障害試験ではない。"
+    },
+    {
+      "id": "credits",
+      "game": "Hakorilo / 島をつなぐ日",
+      "place": "JA/EN Creditsから開く作品制作情報",
+      "before": "Accepted D1 music.\n島をつなぐ日 / An Island Connected — Tinlumo Studio. Web v1.",
+      "after": "Original synthesized music.\n島をつなぐ日 / An Island Connected — Tinlumo Studio.",
+      "why": "採用工程・内部版ラベルを除去。正式名、音楽の制作来歴、AI支援、ライセンス、参考画像非配布の説明を保持。旧artifactを編集せず次回buildにも反映する生成元修正。",
+      "source": "scripts/visual-remaster-build.mjs",
+      "evidence": "配布するcredits.txtの前後差分・参照リンクを検証。D1.wavを含む音源はbyte同一。"
+    }
+  ],
+  "keep": [
+    [
+      "URL / slug / save key / version ID",
+      "KEEP",
+      "全existing path・game ID・save namespace/schema・選択順は同一。Game004等の内部値は今後も必要。ソース内の一致数を0にしない。"
+    ],
+    [
+      "D01–D18 / L01–L18",
+      "KEEP",
+      "全件、可視の01–18と一致する面番号。HUD・ヒント・再開案内の参照対象として利用可能。Two WaysのT19→表示01の不一致と区別。"
+    ],
+    [
+      "18配送／18問／21問／3作戦・各6区画／島の施設数",
+      "KEEP",
+      "実内容・現在の進捗を示す数。ブランドの固定作品数とは異なる。"
+    ],
+    [
+      "Parcel Grove / THE CONSERVATORY / ISLAND GALLERY",
+      "KEEP",
+      "採用済みゲーム画面の舞台名・世界観。U1/L1等の選考IDを伴わず、旧作品名へ切り替わる箇所ではない。"
+    ],
+    [
+      "島をつなぐ日 / An Island Connected",
+      "KEEP",
+      "現行registryの正式日英タイトル。island-connectionsはURL slugであり正式名の代替ではない。"
+    ],
+    [
+      "Privacy / Termsの現在の広告非配信、問い合わせ目的の制限",
+      "KEEP",
+      "法務4ページはR1候補とbyte同一。利用目的・運営者・保持期間・権利・日付・Consent Cを変更しない。広告なしの宣伝コピーは戻していない。"
+    ],
+    [
+      "Internal reference images are not distributed.",
+      "KEEP",
+      "制作来歴と権利確認のための非配布説明。Internalという単語だけで削除しない。"
+    ],
+    [
+      "More is not always safer / Every journey is open / no time limit",
+      "KEEP",
+      "それぞれ問題の学習内容・全問題選択・進化選択中の仕様。サービスの永続保証ではない。"
+    ],
+    [
+      "NORMAL END / SWARM / LANCE / BASE 0",
+      "KEEP",
+      "ゲームの完了状態、形態、進化段階を表す既存のゲーム用語。プロジェクト番号・版IDとは区別。"
+    ],
+    [
+      "PROJECT ISLAND / version辞書 / capture / prototype-note / FULL GAME",
+      "現在の利用者表示なし",
+      "未使用辞書、除去済み録画UI、CSS class、常時display:noneの旧HUD。ソース存在を実表示と扱わない。公開画面へ追加する際は再監査。"
+    ],
+    [
+      "島の10番目のカード番号010",
+      "KEEP / 表記整形候補",
+      "10番目の施設という順序は正しい。内部プロジェクトIDでも旧仕様でもなく、今回のコピー漏れには数えない。採用済み画面の番号表現を維持。"
+    ]
+  ],
+  "scope": {
+    "productionHtmlFiles": 45,
+    "publicRoutes": 39,
+    "notFound": 1,
+    "domBeforeAfter": 80,
+    "gameStatesBeforeAfter": 84,
+    "evolution": "2 branches × JA/EN × before/after, actual gameplay from synthetic sector-start saves",
+    "runtimeScope": "Five selected public games; reachable render/copy sinks and failure paths inspected by primary + two independent read-only audits. Third-party library internals, source IDs and historical artifacts excluded from user-facing debt.",
+    "inappropriateUserFacingExpressions": 0
+  }
+}

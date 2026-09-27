@@ -1,0 +1,55 @@
+{
+  "at": "2026-09-27T08:59:42.559Z",
+  "results": [
+    {
+      "build": "swarm",
+      "reached": true,
+      "attempts": 6,
+      "method": "Schema-validated synthetic sector-start save, then ordinary Playwright mouse input with accelerated clock; no game hook or engine mutation.",
+      "copies": [
+        {
+          "locale": "en",
+          "body": "CIRCUIT SECURED\nFINAL EVOLUTION\n\nChoose a different way to fight · no time limit\n\nSATELLITE GUARD\nLaunch reserves 4 shields · hit pieces scatter briefly\nCYCLONE\nWide volley · launch opens nearby shields",
+          "options": [
+            "SATELLITE GUARDLaunch reserves 4 shields · hit pieces scatter briefly",
+            "CYCLONEWide volley · launch opens nearby shields"
+          ]
+        },
+        {
+          "locale": "ja",
+          "body": "区画クリア\n最終進化\n\n戦い方を選ぶ / 時間制限なし\n\n衛星ガード\n射出時4片を盾に残す。被弾した片は一時離脱\nサイクロン\n広い一斉射出。近くの盾を射出時に開く",
+          "options": [
+            "衛星ガード射出時4片を盾に残す。被弾した片は一時離脱",
+            "サイクロン広い一斉射出。近くの盾を射出時に開く"
+          ]
+        }
+      ]
+    },
+    {
+      "build": "lance",
+      "reached": true,
+      "attempts": 8,
+      "method": "Schema-validated synthetic sector-start save, then ordinary Playwright mouse input with accelerated clock; no game hook or engine mutation.",
+      "copies": [
+        {
+          "locale": "en",
+          "body": "CIRCUIT SECURED\nFINAL EVOLUTION\n\nChoose a different way to fight · no time limit\n\nFOUNDRY LANCE\nBundle up to 3 pieces per heavy shot · reclaim manually\nRETURN\nPierce 4 targets · shots return automatically",
+          "options": [
+            "FOUNDRY LANCEBundle up to 3 pieces per heavy shot · reclaim manually",
+            "RETURNPierce 4 targets · shots return automatically"
+          ]
+        },
+        {
+          "locale": "ja",
+          "body": "区画クリア\n最終進化\n\n戦い方を選ぶ / 時間制限なし\n\n収束ランス\n最大3片を重い弾へ束ねる。外した弾は吸引で回収\nリターン\n4体貫通。射出後の金属を自動回収",
+          "options": [
+            "収束ランス最大3片を重い弾へ束ねる。外した弾は吸引で回収",
+            "リターン4体貫通。射出後の金属を自動回収"
+          ]
+        }
+      ]
+    }
+  ],
+  "actualChoiceCoverage": "2/2",
+  "copySourceAudit": "Both option names and exact rendering path independently inspected."
+}

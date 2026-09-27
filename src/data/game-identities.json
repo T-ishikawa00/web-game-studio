@@ -1,6 +1,10 @@
 {
   "tiny-delivery": {
     "title": { "ja": "Hakorilo — ちいさな配送パズル", "en": "Hakorilo" },
-    "pronunciation": { "ja": "ハコリロ", "en": "Hakorilo" }
+    "pronunciation": { "ja": "ハコリロ", "en": "Hakorilo" },
+    "description": {
+      "ja": "道順を考え、待つタイミングをひと工夫。1台の配達から、2台が道をゆずり合う配送パズルへ。",
+      "en": "Plan a route and a well-timed wait. Start with one courier, then help two share the paths without a bump."
+    }
   }
 }

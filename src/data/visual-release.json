@@ -19,8 +19,8 @@
         "en": "Hakorilo"
       },
       "summary": {
-        "ja": "道をつないで、タイミングを合わせる。",
-        "en": "Connect the paths. Deliver together."
+        "ja": "道順と待つ時間を決めて、荷物を届けよう。",
+        "en": "Plan the route. Time the delivery."
       }
     },
     {
@@ -40,8 +40,8 @@
         "en": "Lightwork Garden"
       },
       "summary": {
-        "ja": "光をつなぐ。小さな庭が目を覚ます。",
-        "en": "Follow the light. Let a little garden bloom."
+        "ja": "鏡で光をつなぎ、花を咲かせよう。",
+        "en": "Turn the mirrors. Let the garden bloom."
       }
     },
     {
@@ -61,8 +61,8 @@
         "en": "Two Ways Home"
       },
       "summary": {
-        "ja": "同じ一歩を、離れたふたりへ。",
-        "en": "Two little lives. One shared step."
+        "ja": "同じ一歩で、ふたりを家へ。",
+        "en": "One shared step. Bring both friends home."
       }
     },
     {
@@ -83,7 +83,7 @@
       },
       "summary": {
         "ja": "吸い寄せ、狙い、壊す。残骸を次の力に。",
-        "en": "Gather. Aim. Launch. Reclaim your next move."
+        "en": "Gather. Aim. Launch. Reuse the broken armor."
       }
     },
     {

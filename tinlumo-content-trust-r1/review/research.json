@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-27 JST",
+  "sources": [
+    {
+      "name": "Microsoft — brand voice",
+      "url": "https://learn.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human",
+      "observed": "親しみやすさを保ち、状況に応じたtoneと次の行動を明確にする。",
+      "apply": "Heroは明るく、操作・保存・失敗は対象と結果を優先。",
+      "reject": "警告や消去の条件まで軽い調子にしない。"
+    },
+    {
+      "name": "Google — timeless documentation",
+      "url": "https://developers.google.com/style/timeless-documentation",
+      "observed": "常設説明は現在の仕組みを説明し、不要な時点依存・将来予告を避ける。",
+      "apply": "固定作品数・恒久的な無広告訴求を外す。履歴と常設コピーを分ける。",
+      "reject": "法務の有効日・保持期間・現在の処理状態は削除しない。"
+    },
+    {
+      "name": "Google Search Central — snippets",
+      "url": "https://developers.google.com/search/docs/appearance/snippet",
+      "observed": "ページ固有の短いdescriptionを推奨。検索結果の抜粋は自動生成される。",
+      "apply": "Home、各Detail、Studio、Settings、Privacy等の内容とmeta/OGを一致。",
+      "reject": "検索順位・snippet採用・固定表示文字数の保証はしない。"
+    },
+    {
+      "name": "Apple Arcade JA / EN",
+      "url": "https://www.apple.com/jp/apple-arcade/",
+      "secondUrl": "https://www.apple.com/apple-arcade/",
+      "observed": "短い期待の見出し、具体的な説明、CTA、FAQで情報を段階的に渡す。",
+      "apply": "採用済みブランド見出しをKEEPし、カードで操作と結果、Detailで手順を補う。",
+      "reject": "無広告・オフライン・対応端末・課金仕様は移植しない。"
+    },
+    {
+      "name": "Poki JA / EN",
+      "url": "https://poki.com/jp",
+      "secondUrl": "https://poki.com/en",
+      "observed": "選ぶ・遊ぶという入口とカテゴリー、個別の操作説明を組み合わせる。英語は地域転送を避け /en を確認。",
+      "apply": "作品ごとの具体的な行動を短文に入れる。日英の事実を一緒に点検。",
+      "reject": "タイトル数・利用規模・人気・全端末対応・マルチプレイ等を借用しない。"
+    }
+  ],
+  "storageReferences": [
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+      "application": "保存領域はorigin別で、自動期限がなく、利用が制限される場合がある。実装上の保存範囲はsourceで確認。"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage",
+      "application": "タブ単位の保存とメモリを区別。現行配布JSにsessionStorage使用がないことはローカルbundleで確認。"
+    }
+  ],
+  "languageRule": "新規・編集する一般説明は「ブラウザー」「インストール不要」。固有名詞、引用、変更しない法務原文・ゲームpayload・履歴は機械置換しない。",
+  "observationBoundary": "競合UIの観察は効果/人気/収益の証明ではない。webツールのTinlumo取得不可はサイト障害と判定せず、親担当のread-only HTTP GET 7/7が現行artifactと一致。"
+}

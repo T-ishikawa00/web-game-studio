@@ -17,8 +17,9 @@ const title:Record<string,string>={about:t('スタジオについて','About the
  <h1>{title[page]}</h1>
  {page==='about' && <>
   <p class="lead">{publicCopy.about[locale]}</p>
-  <p>{t('すべて無料で、日本語と英語に対応しています。アカウント登録や購入は不要で、広告もありません。','All games are free and available in Japanese and English. There are no accounts, purchases or ads.')}</p>
-  <p>{t('進み具合は、お使いのブラウザに自動保存されます。クラウド保存はありません。','Your progress saves automatically in your browser. There is no cloud save.')}</p>
+  <p>{t('じっくり考えるパズル、手応えのあるアクション、景色が育つ島づくり。気になる作品から、気軽に遊んでみてください。','Solve a puzzle, jump into the action, or build a little island. Pick a game and start playing.')}</p>
+  <p>{t('すべて無料で、日本語と英語に対応しています。インストールやアカウント登録、購入は不要です。','All games are free and available in Japanese and English. No installation, account or purchase is needed.')}</p>
+  <p>{t('進行はゲームごとにブラウザーへ保存されます。続きは同じ端末・ブラウザー・サイトで遊べます。クラウド保存はなく、サイトデータの消去などで進行が失われる場合があります。','Each game saves progress in your browser. Continue on the same device, browser and site. There is no cloud save; clearing site data can remove your progress.')}</p>
   <p>{p.operatorDisplay[locale]}</p>
   <p><a href={`/${locale}/contact/`}>{t('お問い合わせ・運営者情報','Contact & operator information')}</a></p>
  </>}
@@ -33,12 +34,12 @@ const title:Record<string,string>={about:t('スタジオについて','About the
  </>}
  {page==='privacy' && <>
   <p>{t('Tinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り扱います。','Tinlumo Studio is individually operated. This page explains how information is used to provide the games and respond to inquiries.')}</p>
-  <p>{t('アカウント登録、購入、広告、クラウド保存はありません。生年月日など年齢情報の入力も求めません。利用者を追跡する固有のIDや、端末の特徴を組み合わせた識別情報は作成しません。','There are no accounts, purchases, ads or cloud saves. We do not ask you to enter your age or date of birth. We do not create persistent identifiers to track visitors or use device fingerprinting.')}</p>
+  <p>{t('アカウント登録、購入、クラウド保存はありません。現在、広告は配信していません。生年月日など年齢情報の入力も求めません。利用者を追跡する固有のIDや、端末の特徴を組み合わせた識別情報は作成しません。','There are no accounts, purchases or cloud saves. We do not currently serve ads. We do not ask you to enter your age or date of birth. We do not create persistent identifiers to track visitors or use device fingerprinting.')}</p>
   <h2>{t('端末内の保存','Storage on your device')}</h2>
-  <p>{t('ゲームごとの進捗・クリア記録、動きを控える設定、消音・音量、Hakoriloの音楽設定、閉じた案内、選択した言語を、ブラウザのlocalStorageに保存します。続きから遊び、選んだ設定を保つために使います。自動的な有効期限はありません。','Your browser’s localStorage keeps each game’s progress and completions, reduced-motion setting, mute and volume, Hakorilo music settings, dismissed guides and chosen language. These let you continue playing and keep your preferences. They have no automatic expiry.')}</p>
+  <p>{t('ゲームごとの進行・クリア記録、動きを控える設定、消音・音量、Hakoriloの音楽設定、選択した言語などを、ブラウザーのlocalStorageに保存します。保存する項目は作品によって異なります。続きから遊び、選んだ設定を保つために使います。自動的な有効期限はありません。以前の版で保存した案内などの設定が残っている場合もあります。','Your browser’s localStorage keeps game progress, completions and preferences such as reduced motion, mute, volume, Hakorilo music settings and chosen language. The saved items vary by game. These let you continue playing and keep your preferences. They have no automatic expiry. Preferences saved by earlier versions, such as dismissed guides, may also remain.')}</p>
   <p>{t('保存は同じ端末・ブラウザ・サイトでの利用を前提とします。別の端末やブラウザには引き継がれません。サイトデータの削除、プライベートブラウズ、保存領域の制限などにより、進捗や設定が失われる場合があります。','Saves are specific to the same device, browser and site. They do not transfer to another device or browser. Clearing site data, private browsing or storage restrictions may cause you to lose progress and preferences.')}</p>
-  <p>{t('Hakorilo・ひかりの仕掛け庭・ふたりの帰り道の「この作品の進行を消去」は、その作品の進捗・クリア記録・動きを控える設定を消去します。音・案内・言語などの設定は残ります。すべて削除する場合は、ブラウザの設定からこのサイトのデータを削除してください。','For Hakorilo, Lightwork Garden and Two Ways Home, “Erase this game’s progress” removes that game’s progress, completions and reduced-motion setting. Sound, guide and language preferences remain. To remove all stored data, clear this site’s data in your browser settings.')}</p>
-  <p>{t('表示や方向ボタンの設定、同じ利用開始を重複して記録しないための一時的な情報にはsessionStorageを使います。タブを復元すると残る場合があります。プレイ中の操作情報は端末のメモリに一時的に保持し、ページが破棄されると消えます。この操作情報を外部へ送信することはありません。','sessionStorage holds temporary display and direction-button preferences and information that avoids recording the same session start twice. This may remain when a browser restores a tab. In-game interaction information is held temporarily in device memory, discarded when the page is unloaded and not sent externally.')}</p>
+  <p>{t('Hakorilo・ひかりの仕掛け庭・ふたりの帰り道の進行消去は、その作品の進捗・クリア記録・動きを控える設定を消去します。Hakoriloはサイトの設定ページ、ほかの2作品はゲーム内の設定から消去できます。音・案内・言語などの設定は残ります。すべて削除する場合は、ブラウザの設定からこのサイトのデータを削除してください。','Resetting progress in Hakorilo, Lightwork Garden or Two Ways Home removes that game’s progress, completions and reduced-motion setting. Use the site Settings page for Hakorilo, or the in-game settings for the other two games. Sound, guide and language preferences remain. To remove all stored data, clear this site’s data in your browser settings.')}</p>
+  <p>{t('プレイ中の一時的な操作情報は、端末のメモリに保持します。ゲームごとの保存対象となる進行・設定を除き、ページが破棄されると消えます。この操作情報を外部へ送信することはありません。','Temporary in-game interaction information is held in device memory and is discarded when the page is unloaded, apart from the progress and preferences each game saves. This interaction information is not sent externally.')}</p>
   <h2>{t('島づくりゲームの保存','Island builder saves')}</h2><p>{islandSave[locale]}</p><h2>{t('PROJECT MAGNETの保存','PROJECT MAGNET saves')}</h2><p>{magnetSave[locale]}</p>
   <h2>{t('サイトの配信','Hosting')}</h2>
   <p>{t('サイトの配信と保護にCloudflareを利用しています。Cloudflareは、これらの目的でIPアドレスやページの要求に伴う通信情報を処理する場合があります。','Cloudflare delivers and protects the site. For these purposes, it may process IP addresses and connection information associated with page requests.')}</p>
@@ -56,7 +57,7 @@ const title:Record<string,string>={about:t('スタジオについて','About the
  </>}
  {page==='terms' && <>
   <h2>{t('サービスの利用','Using the service')}</h2>
-  <p>{publicCopy.terms[locale]} {t('アカウント登録、購入、有料アイテム、広告、クラウド保存はありません。','There are no accounts, purchases, paid items, ads or cloud saves.')}</p>
+  <p>{publicCopy.terms[locale]} {t('アカウント登録、購入、有料アイテム、クラウド保存はありません。現在、広告は配信していません。','There are no accounts, purchases, paid items or cloud saves. We do not currently serve ads.')}</p>
   <h2>{t('保存とサービスの提供','Saves and service availability')}</h2><p>{p.termsDisclosure[locale] ?? pending}</p>
   <h2>{t('島づくりゲームの保存','Island builder saves')}</h2><p>{islandSave[locale]}</p><h2>{t('PROJECT MAGNETの保存','PROJECT MAGNET saves')}</h2><p>{magnetSave[locale]}</p><h2>{t('権利と利用上のお願い','Rights and acceptable use')}</h2><p>{p.rightsDisclosure[locale]}</p>
   <p><a href={`/${locale}/video-policy/`}>{t('実況・動画利用方針','Gameplay & video policy')}</a> · <a href={`/${locale}/credits/`}>{t('クレジット','Credits')}</a> · <a href={`/${locale}/contact/`}>{t('お問い合わせ・運営者情報','Contact & operator information')}</a></p>

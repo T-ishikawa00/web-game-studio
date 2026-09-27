@@ -43,7 +43,7 @@ export class MagnetArt{
   this.field=new THREE.Mesh(new THREE.TorusGeometry(1,.017,5,72),new THREE.MeshBasicMaterial({color:0x67eaff,transparent:true,opacity:.52,depthWrite:false}));this.field.rotation.x=-Math.PI/2;this.scene.add(this.field);
   const p=new Parts();p.box(.08,.015,.4,'cyan',0,0,0,.005);p.box(.4,.015,.08,'cyan',0,0,0,.005);this.arrows=p.finish();this.scene.add(this.arrows);
   this.playerLabel=document.createElement('div');this.playerLabel.className='player-marker';this.playerLabel.textContent='◆';this.labels.append(this.playerLabel);
-  canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();this.contextLost=true;const notice=document.createElement('div');notice.className='gpu-notice';notice.textContent='描画が停止しました。再読込すると区画開始地点から再開できます。 / Graphics interrupted. Reload to resume the sector checkpoint.';document.getElementById('game')!.append(notice);});
+  canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();this.contextLost=true;const notice=document.createElement('div');notice.className='gpu-notice';notice.textContent='描画が停止しました。ページを再読み込みしてください。保存できていない進行は失われます。 / Graphics interrupted. Reload the page to continue. Unsaved progress will be lost.';document.getElementById('game')!.append(notice);});
   this.makeFloor();this.resize();
  }
  makeFloor(){const key=this.world.width+':'+this.world.height+':'+this.world.mission+':'+this.world.stage;if(key===this.sizeKey)return;this.sizeKey=key;if(this.env){this.scene.remove(this.env);this.env.traverse(o=>{if(o instanceof THREE.Mesh)o.geometry.dispose();});}this.env=makeEnvironment(this.world.width,this.world.height,this.world.mission,this.world.stage);this.scene.add(this.env);this.resize();}

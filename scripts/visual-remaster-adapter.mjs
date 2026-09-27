@@ -19,7 +19,7 @@ export function adaptEntry(source,id){
   s+=`\ndocument.querySelector('.review-link')!.textContent=t('遊び方','How to play');$('language').addEventListener('click',()=>{document.querySelector('.review-link')!.textContent=t('遊び方','How to play');});\n`;
  }
  if(id==='two-ways-home'){
-  replace('`../portal.html?lang=${lang}`','`/${lang}/`');replace('`../index.html?game=two-ways&lang=${lang}`','`/${lang}/games/two-ways-home/`');replace("t('Reviewへ','Review')","t('遊び方','How to play')");replace("t('Tinlumoの5作品へ','Tinlumo five-game preview')","t('Tinlumoの5作品へ','Tinlumo games')");
+  replace('`../portal.html?lang=${lang}`','`/${lang}/`');replace('`../index.html?game=two-ways&lang=${lang}`','`/${lang}/games/two-ways-home/`');replace("t('Reviewへ','Review')","t('遊び方','How to play')");
   for(const action of ['capture','record','stop-record'])replace(`if(action==='${action}')`,`if(false&&action==='${action}')`);
  }
  if(id==='project-magnet'){

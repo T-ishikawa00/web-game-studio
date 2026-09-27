@@ -1,0 +1,26 @@
+[
+  {
+    "item": "Two Ways Playの日本語aria-label「Tinlumoの5作品へ」",
+    "location": "scripts/visual-remaster-adapter.mjs:22 / frozen game.js",
+    "state": "DEFERRED — ゲームJSの読み上げ名。可視のPortal見出し・本文ではない。",
+    "reason": "添付§7のゲームpayload保全境界を優先し、ゲーム内文言の別課題として記録。将来は「Tinlumoのゲームへ」を推奨。"
+  },
+  {
+    "item": "Magnetの GAME 004 / Reset Game004 data / RESET GAME004 DATA",
+    "location": "tinlumo-remaster-wave1/magnet/src/hub.ts",
+    "state": "DEFERRED — ゲーム内の可視制作番号・消去ラベル。",
+    "reason": "ゲームJSを変更しない範囲。PROJECT MAGNETへの名称統一は別のコピー修正として確認が必要。"
+  },
+  {
+    "item": "Islandの実行時言語",
+    "location": "Accepted Island game.js / existing language preference",
+    "state": "BASELINE BEHAVIOR — JAルートでもブラウザー/保存言語によりENとなる場合あり。",
+    "reason": "変更前後とも同じ。HTML langはrouteに一致。ゲーム内設定から言語変更可能。今回ゲーム・保存の挙動は変えない。"
+  },
+  {
+    "item": "旧 tests/analytics-consent.mjs の6失敗",
+    "location": "tests/analytics-consent.mjs",
+    "state": "PRE-EXISTING — 7件中1 PASS / 6 FAIL。現行Consent C用8件はPASS。",
+    "reason": "旧fixtureはCloseボタンを持たず、旧公開前Gateを期待。テスト・依存sourceがHEADと同一であることを確認。assert削除やConsent実装修正で隠さない。"
+  }
+]

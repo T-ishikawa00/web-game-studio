@@ -12,7 +12,7 @@ export const options:Record<string,string[]>={
  lance:['LANCE RAIL','ランスレール','Narrow fast shots · pierce a line of enemies','高速の細い射線。並んだ敵を貫く'],
  satellite:['SATELLITE GUARD','衛星ガード','Launch reserves 4 shields · hit pieces scatter briefly','射出時4片を盾に残す。被弾した片は一時離脱'],
  foundry:['FOUNDRY LANCE','収束ランス','Bundle up to 3 pieces per heavy shot · reclaim manually','最大3片を重い弾へ束ねる。外した弾は吸引で回収'],
- cyclone:['CYCLONE · R2.1','サイクロン · 既存形態','Wide volley · launch opens nearby shields','広い一斉射出。近くの盾を射出時に開く'],
- return:['RETURN · R2.1','リターン · 既存形態','Pierce 4 targets · shots return automatically','4体貫通。射出後の金属を自動回収'],
+ cyclone:['CYCLONE','サイクロン','Wide volley · launch opens nearby shields','広い一斉射出。近くの盾を射出時に開く'],
+ return:['RETURN','リターン','Pierce 4 targets · shots return automatically','4体貫通。射出後の金属を自動回収'],
 };
 

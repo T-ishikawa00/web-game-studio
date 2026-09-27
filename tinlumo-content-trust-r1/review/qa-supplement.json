@@ -1,0 +1,159 @@
+{
+  "at": "2026-09-27T08:01:15.037Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Expanded save /en/games/island-connections/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/island-connections/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/island-connections/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/light-garden/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/light-garden/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/light-garden/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/project-magnet/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/project-magnet/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/project-magnet/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/tiny-delivery/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/tiny-delivery/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/tiny-delivery/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/two-ways-home/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/two-ways-home/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /en/games/two-ways-home/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/island-connections/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/island-connections/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/island-connections/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/light-garden/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/light-garden/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/light-garden/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/project-magnet/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/project-magnet/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/project-magnet/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/tiny-delivery/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/tiny-delivery/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/tiny-delivery/ 768",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/two-ways-home/ 320",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/two-ways-home/ 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded save /ja/games/two-ways-home/ 768",
+      "pass": true
+    },
+    {
+      "name": "Island JA source language",
+      "pass": true
+    },
+    {
+      "name": "Island runtime language follows identical accepted preference behavior",
+      "pass": true
+    },
+    {
+      "name": "Local unknown page HTTP404",
+      "pass": true
+    },
+    {
+      "name": "Local server rejects POST",
+      "pass": true
+    }
+  ],
+  "images": [
+    "screenshots/save-en-games-island-connections-.png",
+    "screenshots/save-en-games-light-garden-.png",
+    "screenshots/save-en-games-project-magnet-.png",
+    "screenshots/save-en-games-tiny-delivery-.png",
+    "screenshots/save-en-games-two-ways-home-.png",
+    "screenshots/save-ja-games-island-connections-.png",
+    "screenshots/save-ja-games-light-garden-.png",
+    "screenshots/save-ja-games-project-magnet-.png",
+    "screenshots/save-ja-games-tiny-delivery-.png",
+    "screenshots/save-ja-games-two-ways-home-.png"
+  ],
+  "notes": [
+    "Expanded save details rechecked after the final Hakorilo checkpoint clarification.",
+    "Island runtime locale may follow browser/saved language; before and after match. No gameplay change.",
+    "Original first-pass language assertion and stale test failures remain in internal evidence."
+  ]
+}

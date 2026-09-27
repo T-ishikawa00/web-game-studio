@@ -21,10 +21,10 @@ export const publicGames: Game[] = publicSelection.map(entry => {
 });
 export const fullscreenGame = (id:string) => publicSelection.find(g=>g.id===id)?.delivery==='fullscreen';
 export const publicCopy = {
-  heading:{ja:`${publicGames.length}つの、小さな冒険。`,en:`${publicGames.length} little adventures.`},
-  description:{ja:`日本語と英語で遊ぶ${publicGames.length}つの無料ブラウザゲーム。`,en:`${publicGames.length} free browser games in Japanese and English.`},
-  about:{ja:`Tinlumoは、ブラウザですぐに遊べる${publicGames.length}つの自作ゲームを集めたサイトです。`,en:`Tinlumo brings together ${publicGames.length} original games you can play right in your browser.`},
-  terms:{ja:`Tinlumoは、日本語と英語で遊べる${publicGames.length}つの無料ブラウザゲームを提供します。`,en:`Tinlumo provides ${publicGames.length} free browser games in Japanese and English.`},
+  heading:{ja:'見つけよう、小さな遊び。',en:'Find your next little adventure.'},
+  description:{ja:'日本語と英語で遊べる、無料のオリジナルブラウザーゲーム。',en:'Free original browser games in Japanese and English.'},
+  about:{ja:'Tinlumo Studioは、ブラウザーですぐ遊べるオリジナルゲームを制作・公開しています。',en:'Tinlumo Studio creates original games you can play right in your browser.'},
+  terms:{ja:'Tinlumoは、日本語と英語で遊べる無料のオリジナルブラウザーゲームを提供します。',en:'Tinlumo provides free original browser games in Japanese and English.'},
 };
 export const magnetSave:Localized={
   ja:'作戦の解放、記録、言語・消音・動きの設定、区画開始時点の再開データを、このブラウザに保存します。作戦画面のデータ消去では、PROJECT MAGNETの設定も含めてすべて消去します。他の作品の保存は変更しません。保存できない場合は画面に表示し、そのタブ内でのみ続行します。',

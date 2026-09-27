@@ -1,0 +1,179 @@
+{
+  "at": "2026-09-27T09:10:19.815Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Before/after live pages load",
+      "pass": true
+    },
+    {
+      "name": "Gate is pending",
+      "pass": true
+    },
+    {
+      "name": "After live accessible name",
+      "pass": true
+    },
+    {
+      "name": "Before retains comparison label",
+      "pass": true
+    },
+    {
+      "name": "After Japanese label",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair magnet-hub",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair magnet-reset",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair magnet-evolution-swarm",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair magnet-evolution-lance",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair two-ways-levels",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair two-ways-reset",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair two-ways-reset-failure",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair lightwork-reset-failure",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair island-placement",
+      "pass": true
+    },
+    {
+      "name": "ja screenshot pair magnet-graphics-interrupted",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair magnet-hub",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair magnet-reset",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair magnet-evolution-swarm",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair magnet-evolution-lance",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair two-ways-levels",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair two-ways-reset",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair two-ways-reset-failure",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair lightwork-reset-failure",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair island-placement",
+      "pass": true
+    },
+    {
+      "name": "en screenshot pair magnet-graphics-interrupted",
+      "pass": true
+    },
+    {
+      "name": "Review resource screenshots/before-en-magnet-graphics-interrupted.png",
+      "pass": true
+    },
+    {
+      "name": "Review resource screenshots/after-en-magnet-graphics-interrupted.png",
+      "pass": true
+    },
+    {
+      "name": "Review resource screenshots/after-ja-magnet-reset-390.png",
+      "pass": true
+    },
+    {
+      "name": "Review resource screenshots/after-en-magnet-reset-390.png",
+      "pass": true
+    },
+    {
+      "name": "Review resource screenshots/zoom200-ja-project-magnet-390.png",
+      "pass": true
+    },
+    {
+      "name": "Review resource audit-ledger.json",
+      "pass": true
+    },
+    {
+      "name": "Review resource REVIEW.md",
+      "pass": true
+    },
+    {
+      "name": "Review resource qa.json",
+      "pass": true
+    },
+    {
+      "name": "Review resource qa-supplement.json",
+      "pass": true
+    },
+    {
+      "name": "Review resource evolution-qa.json",
+      "pass": true
+    },
+    {
+      "name": "Review resource verification.json",
+      "pass": true
+    },
+    {
+      "name": "Review resource MAINTENANCE.md",
+      "pass": true
+    },
+    {
+      "name": "Review resource FINAL_STATUS.json",
+      "pass": true
+    },
+    {
+      "name": "Review page width 1440",
+      "pass": true
+    },
+    {
+      "name": "Review page width 768",
+      "pass": true
+    },
+    {
+      "name": "Review page width 390",
+      "pass": true
+    },
+    {
+      "name": "Review server cannot serve internal baseline",
+      "pass": true
+    },
+    {
+      "name": "No Review browser errors",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

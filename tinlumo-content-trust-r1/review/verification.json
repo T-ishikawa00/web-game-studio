@@ -1,0 +1,1217 @@
+{
+  "at": "2026-09-27T08:09:06.380Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "HEAD unchanged",
+      "pass": true
+    },
+    {
+      "name": "branch unchanged",
+      "pass": true
+    },
+    {
+      "name": "upstream unchanged",
+      "pass": true
+    },
+    {
+      "name": "index bytes unchanged",
+      "pass": true
+    },
+    {
+      "name": "index empty",
+      "pass": true
+    },
+    {
+      "name": "Only planned source changes",
+      "pass": true
+    },
+    {
+      "name": "Existing current-state body retained",
+      "pass": true
+    },
+    {
+      "name": "Protected release/evidence/source files unchanged",
+      "pass": true
+    },
+    {
+      "name": "Route manifest unchanged",
+      "pass": true
+    },
+    {
+      "name": "Artifact path inventory unchanged",
+      "pass": true
+    },
+    {
+      "name": "Only public HTML differs in candidate",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA 404.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained 404.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact 404.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA _headers",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA assets/analytics-consent.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA assets/public-language.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA assets/save-settings.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA assets/visual-portal.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/game005-a-portrait.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/game005-a.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/light-garden-a-portrait.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/light-garden-a.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/project-magnet-a-portrait.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/project-magnet-a.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/tiny-delivery-a-portrait.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/tiny-delivery-a.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/two-ways-home-a-portrait.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA covers/two-ways-home-a.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/about/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/about/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/about/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/contact/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/contact/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/contact/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/credits/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/credits/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/credits/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/games/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/games/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/games/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/games/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/games/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/games/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/games/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/games/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/games/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/games/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/games/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/games/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/games/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/games/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/games/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/games/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/games/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/games/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/play/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/play/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/play/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/play/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/play/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/play/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/play/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/play/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/play/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/play/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/play/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/play/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/play/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/play/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/play/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/privacy/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/privacy/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/privacy/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/settings/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/settings/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/settings/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/terms/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/terms/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/terms/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA en/video-policy/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained en/video-policy/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact en/video-policy/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA favicon.svg",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/THREE-LICENSE.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/bridge-BKetEhnw.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/commons-CEfu4S30.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/cove-D6J7H1QG.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/dock-BZp_GcK3.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/hillpath-CNyYb8Mi.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/house-DUowNtYr.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/index-B45CS-CE.css",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/index-CMoUGFhE.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/lookout-C0xcxQst.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/lumber-CmLHj2ea.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/market-C6t55qk3.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/assets/promenade-DVNleZxF.png",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/credits.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/game005/web-v1-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained games/game005/web-v1-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact games/game005/web-v1-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/light-garden/conservatory-r1/THREE-LICENSE.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/light-garden/conservatory-r1/credits.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/light-garden/conservatory-r1/game.css",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/light-garden/conservatory-r1/game.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/light-garden/conservatory-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained games/light-garden/conservatory-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact games/light-garden/conservatory-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/project-magnet/frontier-r1/THREE-LICENSE.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/project-magnet/frontier-r1/credits.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/project-magnet/frontier-r1/game.css",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/project-magnet/frontier-r1/game.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/project-magnet/frontier-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained games/project-magnet/frontier-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact games/project-magnet/frontier-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/tiny-delivery/parcel-grove-r1/THREE-LICENSE.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/tiny-delivery/parcel-grove-r1/bgm-audio/D1.wav",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/tiny-delivery/parcel-grove-r1/credits.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/tiny-delivery/parcel-grove-r1/full.css",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/tiny-delivery/parcel-grove-r1/game.css",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/tiny-delivery/parcel-grove-r1/game.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/tiny-delivery/parcel-grove-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained games/tiny-delivery/parcel-grove-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact games/tiny-delivery/parcel-grove-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/two-ways-home/little-towns-r1/THREE-LICENSE.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/two-ways-home/little-towns-r1/credits.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/two-ways-home/little-towns-r1/game.css",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/two-ways-home/little-towns-r1/game.js",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA games/two-ways-home/little-towns-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained games/two-ways-home/little-towns-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact games/two-ways-home/little-towns-r1/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/about/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/about/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/about/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/contact/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/contact/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/contact/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/credits/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/credits/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/credits/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/games/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/games/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/games/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/games/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/games/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/games/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/games/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/games/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/games/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/games/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/games/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/games/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/games/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/games/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/games/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/games/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/games/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/games/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/play/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/play/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/play/island-connections/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/play/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/play/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/play/light-garden/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/play/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/play/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/play/project-magnet/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/play/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/play/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/play/tiny-delivery/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/play/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/play/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/play/two-ways-home/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/privacy/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/privacy/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/privacy/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/settings/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/settings/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/settings/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/terms/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/terms/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/terms/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA ja/video-policy/index.html",
+      "pass": true
+    },
+    {
+      "name": "SEO/ownership tags retained ja/video-policy/index.html",
+      "pass": true
+    },
+    {
+      "name": "Consent component exact ja/video-policy/index.html",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA licenses/ASTRO-LICENSE.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA robots.txt",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA scenes/game005.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA scenes/light-garden.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA scenes/project-magnet.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA scenes/tiny-delivery.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA scenes/two-ways-home.webp",
+      "pass": true
+    },
+    {
+      "name": "Manifest SHA sitemap.xml",
+      "pass": true
+    },
+    {
+      "name": "No broken local references",
+      "pass": true
+    },
+    {
+      "name": "Static Portal fixed-count/internal-selection labels removed",
+      "pass": true
+    },
+    {
+      "name": "ja page-specific unique descriptions",
+      "pass": true
+    },
+    {
+      "name": "ja description and OG match",
+      "pass": true
+    },
+    {
+      "name": "en page-specific unique descriptions",
+      "pass": true
+    },
+    {
+      "name": "en description and OG match",
+      "pass": true
+    },
+    {
+      "name": "Game identities/selection/counts/save schemas unchanged",
+      "pass": true
+    },
+    {
+      "name": "Inquiry purpose preserved Tinlumoが広告やAIの学習に利用す",
+      "pass": true
+    },
+    {
+      "name": "Inquiry purpose preserved Tinlumo does not use",
+      "pass": true
+    },
+    {
+      "name": "Legacy failing suite dependencies unchanged from HEAD",
+      "pass": true
+    },
+    {
+      "name": "Scoped source/artifact/review security",
+      "pass": true
+    }
+  ],
+  "protectedFilesChecked": 303,
+  "protectedChanged": [],
+  "changedSources": [
+    "src/production/Cards.astro",
+    "src/production/catalog.ts",
+    "src/production/Credits.astro",
+    "src/production/Detail.astro",
+    "src/production/GamePage.astro",
+    "src/production/Home.astro",
+    "src/production/Layout.astro",
+    "src/production/pages/404.astro",
+    "src/production/pages/[locale]/[...path].astro",
+    "src/rc/public-catalog.ts",
+    "src/rc/PublicOperations.astro",
+    "src/data/game-identities.json",
+    "src/data/game004-release.json",
+    "src/data/visual-release.json",
+    "scripts/visual-remaster-build.mjs",
+    "astro.visual-remaster.config.mjs",
+    "docs/games/PRODUCTION_CURRENT.md"
+  ],
+  "artifactFiles": 101,
+  "routes": 39,
+  "changedHtml": [
+    "404.html",
+    "en/about/index.html",
+    "en/contact/index.html",
+    "en/credits/index.html",
+    "en/games/index.html",
+    "en/games/island-connections/index.html",
+    "en/games/light-garden/index.html",
+    "en/games/project-magnet/index.html",
+    "en/games/tiny-delivery/index.html",
+    "en/games/two-ways-home/index.html",
+    "en/index.html",
+    "en/play/project-magnet/index.html",
+    "en/play/tiny-delivery/index.html",
+    "en/privacy/index.html",
+    "en/settings/index.html",
+    "en/terms/index.html",
+    "en/video-policy/index.html",
+    "games/light-garden/conservatory-r1/index.html",
+    "games/tiny-delivery/parcel-grove-r1/index.html",
+    "games/two-ways-home/little-towns-r1/index.html",
+    "index.html",
+    "ja/about/index.html",
+    "ja/contact/index.html",
+    "ja/credits/index.html",
+    "ja/games/index.html",
+    "ja/games/island-connections/index.html",
+    "ja/games/light-garden/index.html",
+    "ja/games/project-magnet/index.html",
+    "ja/games/tiny-delivery/index.html",
+    "ja/games/two-ways-home/index.html",
+    "ja/index.html",
+    "ja/play/tiny-delivery/index.html",
+    "ja/privacy/index.html",
+    "ja/settings/index.html",
+    "ja/terms/index.html",
+    "ja/video-policy/index.html"
+  ],
+  "unchangedPayloadFiles": 56,
+  "localReferences": 1262,
+  "broken": [],
+  "metadata": [
+    {
+      "file": "404.html",
+      "title": "Page not found | Tinlumo",
+      "description": "This page could not be found. Visit Tinlumo home to find a game to play.",
+      "ogDescription": "This page could not be found. Visit Tinlumo home to find a game to play."
+    },
+    {
+      "file": "en/about/index.html",
+      "title": "About Tinlumo | Tinlumo",
+      "description": "Tinlumo Studio is an independent, individually operated studio creating original browser games. Play free in Japanese or English, with no account needed.",
+      "ogDescription": "Tinlumo Studio is an independent, individually operated studio creating original browser games. Play free in Japanese or English, with no account needed."
+    },
+    {
+      "file": "en/contact/index.html",
+      "title": "Contact | Tinlumo",
+      "description": "Contact Tinlumo Studio with feedback, bug reports, operator-information requests or personal-data requests.",
+      "ogDescription": "Contact Tinlumo Studio with feedback, bug reports, operator-information requests or personal-data requests."
+    },
+    {
+      "file": "en/credits/index.html",
+      "title": "Credits | Tinlumo",
+      "description": "Production credits for Tinlumo games: AI-assisted development, artwork and sound origins, and Three.js and Astro licenses.",
+      "ogDescription": "Production credits for Tinlumo games: AI-assisted development, artwork and sound origins, and Three.js and Astro licenses."
+    },
+    {
+      "file": "en/games/index.html",
+      "title": "Our games | Tinlumo",
+      "description": "Plan a delivery, guide the light, launch gathered metal or build an island. Explore Tinlumo games and find out how to play.",
+      "ogDescription": "Plan a delivery, guide the light, launch gathered metal or build an island. Explore Tinlumo games and find out how to play."
+    },
+    {
+      "file": "en/games/island-connections/index.html",
+      "title": "An Island Connected | Tinlumo",
+      "description": "Choose where to build, from a village to a cove and hillside lookout. Grow a little 3D island and watch residents work, wander and rest.",
+      "ogDescription": "Choose where to build, from a village to a cove and hillside lookout. Grow a little 3D island and watch residents work, wander and rest."
+    },
+    {
+      "file": "en/games/light-garden/index.html",
+      "title": "Lightwork Garden | Tinlumo",
+      "description": "Bend the light, open a gate, and bring a little garden into bloom.",
+      "ogDescription": "Bend the light, open a gate, and bring a little garden into bloom."
+    },
+    {
+      "file": "en/games/project-magnet/index.html",
+      "title": "PROJECT MAGNET | Tinlumo",
+      "description": "Gather metal. Aim and launch it all. Turn broken armor into your next volley across three magnetic combat missions.",
+      "ogDescription": "Gather metal. Aim and launch it all. Turn broken armor into your next volley across three magnetic combat missions."
+    },
+    {
+      "file": "en/games/tiny-delivery/index.html",
+      "title": "Hakorilo | Tinlumo",
+      "description": "Plan a route and a well-timed wait. Start with one courier, then help two share the paths without a bump.",
+      "ogDescription": "Plan a route and a well-timed wait. Start with one courier, then help two share the paths without a bump."
+    },
+    {
+      "file": "en/games/two-ways-home/index.html",
+      "title": "Two Ways Home | Tinlumo",
+      "description": "Two friends move together. Use the walls to line up their last step home.",
+      "ogDescription": "Two friends move together. Use the walls to line up their last step home."
+    },
+    {
+      "file": "en/index.html",
+      "title": "Small Games. A Brighter Everyday. | Tinlumo",
+      "description": "Find your next puzzle, magnetic action game or little island to build. Play Tinlumo originals free in your browser, in Japanese or English. No installation needed.",
+      "ogDescription": "Find your next puzzle, magnetic action game or little island to build. Play Tinlumo originals free in your browser, in Japanese or English. No installation needed."
+    },
+    {
+      "file": "en/play/island-connections/index.html",
+      "title": "An Island Connected | Tinlumo",
+      "description": "Choose where to build, from a village to a cove and hillside lookout. Grow a little 3D island and watch residents work, wander and rest."
+    },
+    {
+      "file": "en/play/light-garden/index.html",
+      "title": "Lightwork Garden | Tinlumo",
+      "description": "Bend the light, open a gate, and bring a little garden into bloom."
+    },
+    {
+      "file": "en/play/project-magnet/index.html",
+      "title": "PROJECT MAGNET | Tinlumo",
+      "description": "Gather metal. Aim and launch it all. Turn broken armor into your next volley across three magnetic combat missions."
+    },
+    {
+      "file": "en/play/tiny-delivery/index.html",
+      "title": "Hakorilo | Tinlumo",
+      "description": "Plan a route and a well-timed wait. Start with one courier, then help two share the paths without a bump."
+    },
+    {
+      "file": "en/play/two-ways-home/index.html",
+      "title": "Two Ways Home | Tinlumo",
+      "description": "Two friends move together. Use the walls to line up their last step home."
+    },
+    {
+      "file": "en/privacy/index.html",
+      "title": "Privacy | Tinlumo",
+      "description": "How Tinlumo handles browser saves, optional analytics, hosting and information you send us, including personal-data requests.",
+      "ogDescription": "How Tinlumo handles browser saves, optional analytics, hosting and information you send us, including personal-data requests."
+    },
+    {
+      "file": "en/settings/index.html",
+      "title": "Settings | Tinlumo",
+      "description": "Choose whether to allow optional analytics and find game settings and save information. Review what will be erased before deleting Hakorilo progress.",
+      "ogDescription": "Choose whether to allow optional analytics and find game settings and save information. Review what will be erased before deleting Hakorilo progress."
+    },
+    {
+      "file": "en/terms/index.html",
+      "title": "Terms | Tinlumo",
+      "description": "Terms for playing Tinlumo games, including saves, service availability, rights and acceptable use.",
+      "ogDescription": "Terms for playing Tinlumo games, including saves, service availability, rights and acceptable use."
+    },
+    {
+      "file": "en/video-policy/index.html",
+      "title": "Gameplay &amp; video policy | Tinlumo",
+      "description": "Guidance for sharing Tinlumo gameplay videos, streams and screenshots, including monetization and contact information.",
+      "ogDescription": "Guidance for sharing Tinlumo gameplay videos, streams and screenshots, including monetization and contact information."
+    },
+    {
+      "file": "games/game005/web-v1-r1/index.html",
+      "title": "島をつなぐ日 | Tinlumo",
+      "description": "道をつなぎ、暮らしの景色を育てよう。"
+    },
+    {
+      "file": "games/light-garden/conservatory-r1/index.html",
+      "title": "ひかりの仕掛け庭 | Tinlumo",
+      "description": "鏡で光をつなぎ、花を咲かせよう。"
+    },
+    {
+      "file": "games/project-magnet/frontier-r1/index.html",
+      "title": "PROJECT MAGNET | Tinlumo",
+      "description": "吸い寄せ、狙い、壊す。残骸を次の力に。"
+    },
+    {
+      "file": "games/tiny-delivery/parcel-grove-r1/index.html",
+      "title": "Hakorilo | Tinlumo",
+      "description": "道順と待つ時間を決めて、荷物を届けよう。"
+    },
+    {
+      "file": "games/two-ways-home/little-towns-r1/index.html",
+      "title": "ふたりの帰り道 | Tinlumo",
+      "description": "同じ一歩で、ふたりを家へ。"
+    },
+    {
+      "file": "index.html",
+      "title": "Tinlumo | Tinlumo",
+      "description": "パズル、磁力アクション、島づくり。Tinlumoのオリジナルゲームを、ブラウザーですぐに。無料・インストール不要、日本語と英語で遊べます。",
+      "ogDescription": "パズル、磁力アクション、島づくり。Tinlumoのオリジナルゲームを、ブラウザーですぐに。無料・インストール不要、日本語と英語で遊べます。"
+    },
+    {
+      "file": "ja/about/index.html",
+      "title": "スタジオについて | Tinlumo",
+      "description": "Tinlumo Studioは、ブラウザーですぐ遊べるオリジナルゲームを制作・公開する個人運営のスタジオです。無料で、日本語と英語に対応しています。",
+      "ogDescription": "Tinlumo Studioは、ブラウザーですぐ遊べるオリジナルゲームを制作・公開する個人運営のスタジオです。無料で、日本語と英語に対応しています。"
+    },
+    {
+      "file": "ja/contact/index.html",
+      "title": "お問い合わせ | Tinlumo",
+      "description": "Tinlumo Studioへのお問い合わせ、運営者情報の照会、個人情報に関する請求の窓口。不具合を報告するときの案内も掲載しています。",
+      "ogDescription": "Tinlumo Studioへのお問い合わせ、運営者情報の照会、個人情報に関する請求の窓口。不具合を報告するときの案内も掲載しています。"
+    },
+    {
+      "file": "ja/credits/index.html",
+      "title": "クレジット | Tinlumo",
+      "description": "Tinlumoのゲームの制作情報、AI支援制作、画像・音の来歴、Three.jsとAstroのライセンス。",
+      "ogDescription": "Tinlumoのゲームの制作情報、AI支援制作、画像・音の来歴、Three.jsとAstroのライセンス。"
+    },
+    {
+      "file": "ja/games/index.html",
+      "title": "ゲーム一覧 | Tinlumo",
+      "description": "道順を考える、光をつなぐ、金属を放つ、島を育てる。遊び方の異なるTinlumoの作品から、気になるゲームを選べます。",
+      "ogDescription": "道順を考える、光をつなぐ、金属を放つ、島を育てる。遊び方の異なるTinlumoの作品から、気になるゲームを選べます。"
+    },
+    {
+      "file": "ja/games/island-connections/index.html",
+      "title": "島をつなぐ日 | Tinlumo",
+      "description": "建てる場所と順番を選び、村から入り江、見晴らしの丘へ。住民が働き、歩き、休む景色を育てる、小さな3D島づくりゲーム。",
+      "ogDescription": "建てる場所と順番を選び、村から入り江、見晴らしの丘へ。住民が働き、歩き、休む景色を育てる、小さな3D島づくりゲーム。"
+    },
+    {
+      "file": "ja/games/light-garden/index.html",
+      "title": "ひかりの仕掛け庭 | Tinlumo",
+      "description": "光をつなぐ。門を開く。小さな庭に、花を咲かせよう。",
+      "ogDescription": "光をつなぐ。門を開く。小さな庭に、花を咲かせよう。"
+    },
+    {
+      "file": "ja/games/project-magnet/index.html",
+      "title": "PROJECT MAGNET | Tinlumo",
+      "description": "金属を吸い寄せ、狙って一斉射出。壊した装甲を次の力に変える、3作戦の磁力アクション。",
+      "ogDescription": "金属を吸い寄せ、狙って一斉射出。壊した装甲を次の力に変える、3作戦の磁力アクション。"
+    },
+    {
+      "file": "ja/games/tiny-delivery/index.html",
+      "title": "Hakorilo | Tinlumo",
+      "description": "道順を考え、待つタイミングをひと工夫。1台の配達から、2台が道をゆずり合う配送パズルへ。",
+      "ogDescription": "道順を考え、待つタイミングをひと工夫。1台の配達から、2台が道をゆずり合う配送パズルへ。"
+    },
+    {
+      "file": "ja/games/two-ways-home/index.html",
+      "title": "ふたりの帰り道 | Tinlumo",
+      "description": "ふたりは一緒に動く。壁を味方に、最後の一歩をそろえよう。",
+      "ogDescription": "ふたりは一緒に動く。壁を味方に、最後の一歩をそろえよう。"
+    },
+    {
+      "file": "ja/index.html",
+      "title": "Small Games. A Brighter Everyday. | Tinlumo",
+      "description": "パズル、磁力アクション、島づくり。Tinlumoのオリジナルゲームを、ブラウザーですぐに。無料・インストール不要、日本語と英語で遊べます。",
+      "ogDescription": "パズル、磁力アクション、島づくり。Tinlumoのオリジナルゲームを、ブラウザーですぐに。無料・インストール不要、日本語と英語で遊べます。"
+    },
+    {
+      "file": "ja/play/island-connections/index.html",
+      "title": "島をつなぐ日 | Tinlumo",
+      "description": "建てる場所と順番を選び、村から入り江、見晴らしの丘へ。住民が働き、歩き、休む景色を育てる、小さな3D島づくりゲーム。"
+    },
+    {
+      "file": "ja/play/light-garden/index.html",
+      "title": "ひかりの仕掛け庭 | Tinlumo",
+      "description": "光をつなぐ。門を開く。小さな庭に、花を咲かせよう。"
+    },
+    {
+      "file": "ja/play/project-magnet/index.html",
+      "title": "PROJECT MAGNET | Tinlumo",
+      "description": "金属を吸い寄せ、狙って一斉射出。壊した装甲を次の力に変える、3作戦の磁力アクション。"
+    },
+    {
+      "file": "ja/play/tiny-delivery/index.html",
+      "title": "Hakorilo | Tinlumo",
+      "description": "道順を考え、待つタイミングをひと工夫。1台の配達から、2台が道をゆずり合う配送パズルへ。"
+    },
+    {
+      "file": "ja/play/two-ways-home/index.html",
+      "title": "ふたりの帰り道 | Tinlumo",
+      "description": "ふたりは一緒に動く。壁を味方に、最後の一歩をそろえよう。"
+    },
+    {
+      "file": "ja/privacy/index.html",
+      "title": "プライバシー | Tinlumo",
+      "description": "ブラウザー内の保存、任意のアクセス計測、サイト配信、お問い合わせ情報の取扱いと個人情報に関する請求について。",
+      "ogDescription": "ブラウザー内の保存、任意のアクセス計測、サイト配信、お問い合わせ情報の取扱いと個人情報に関する請求について。"
+    },
+    {
+      "file": "ja/settings/index.html",
+      "title": "設定 | Tinlumo",
+      "description": "任意のアクセス計測の選択と、ゲームの設定・保存の案内。Hakoriloの進行は、内容を確認してから消去できます。",
+      "ogDescription": "任意のアクセス計測の選択と、ゲームの設定・保存の案内。Hakoriloの進行は、内容を確認してから消去できます。"
+    },
+    {
+      "file": "ja/terms/index.html",
+      "title": "利用規約 | Tinlumo",
+      "description": "Tinlumoのゲームを利用する際の条件、保存とサービス提供、作品の権利と利用上のお願い。",
+      "ogDescription": "Tinlumoのゲームを利用する際の条件、保存とサービス提供、作品の権利と利用上のお願い。"
+    },
+    {
+      "file": "ja/video-policy/index.html",
+      "title": "実況・動画利用方針 | Tinlumo",
+      "description": "Tinlumoのゲームの実況・動画・スクリーンショット利用について。収益化を含む利用条件とお問い合わせ先。",
+      "ogDescription": "Tinlumoのゲームの実況・動画・スクリーンショット利用について。収益化を含む利用条件とお問い合わせ先。"
+    }
+  ],
+  "staticFindings": [],
+  "security": {
+    "scope": "Only task/edit sources/candidate distribution. Not a full-project or future release gate.",
+    "findings": [],
+    "retainedHistoricalStatus": "raw FAIL22 / historical FAIL11 / S04-S05 UNKNOWN / TRR1-NEW-05 limited local retention; plaintext and recovery UNKNOWN; no prior release approval reused",
+    "scannerChanged": false,
+    "profilesReadOrCopied": false
+  },
+  "legacyBaseline": [
+    {
+      "file": "tests/analytics-consent.mjs",
+      "headIdentical": true
+    },
+    {
+      "file": "src/rc/analytics-consent.js",
+      "headIdentical": true
+    },
+    {
+      "file": "src/rc/site.json",
+      "headIdentical": true
+    },
+    {
+      "file": "src/rc/readiness.mjs",
+      "headIdentical": true
+    },
+    {
+      "file": "scripts/public-release-readiness.mjs",
+      "headIdentical": true
+    },
+    {
+      "file": "config/release-production/measurement.json",
+      "headIdentical": true
+    }
+  ],
+  "legacyTest": {
+    "file": "tests/analytics-consent.mjs",
+    "result": "1 PASS / 6 FAIL; unchanged pre-Consent-C fixture misses close button and predates released humanFinalGate. No assertions removed; current Consent-C suite separately passes."
+  }
+}

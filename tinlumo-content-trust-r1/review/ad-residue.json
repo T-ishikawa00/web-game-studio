@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/en/privacy/",
+    "text": "There are no accounts, purchases or cloud saves. We do not currently serve ads. We do not ask you to enter your age or date of birth. We do not create persistent identifiers to track visitors or use device fingerprinting.",
+    "reason": "法務の現状説明。恒久的な宣伝訴求ではない。"
+  },
+  {
+    "route": "/en/privacy/",
+    "text": "This choice covers only Cloudflare Web Analytics and is independent of advertising consent. We do not currently serve ads. Before introducing ads, we will provide information and choices appropriate to the relevant regions and processing.",
+    "reason": "Consent Cと広告同意の分離・現状説明をKEEP"
+  },
+  {
+    "route": "/en/privacy/",
+    "text": "We use the email address, message, attachments and other information you send, together with our reply history, to review your inquiry, respond when needed and handle requests under applicable law. Tinlumo does not use this information for advertising or AI training.",
+    "reason": "問い合わせ情報の利用目的制限をKEEP"
+  },
+  {
+    "route": "/en/terms/",
+    "text": "Tinlumo provides free original browser games in Japanese and English. There are no accounts, purchases, paid items or cloud saves. We do not currently serve ads.",
+    "reason": "法務の現状説明。恒久的な宣伝訴求ではない。"
+  },
+  {
+    "route": "/ja/privacy/",
+    "text": "アカウント登録、購入、クラウド保存はありません。現在、広告は配信していません。生年月日など年齢情報の入力も求めません。利用者を追跡する固有のIDや、端末の特徴を組み合わせた識別情報は作成しません。",
+    "reason": "法務の現状説明。恒久的な宣伝訴求ではない。"
+  },
+  {
+    "route": "/ja/privacy/",
+    "text": "この選択はCloudflare Web Analyticsだけを対象とし、広告への同意とは独立しています。現在、広告は配信していません。広告を導入する際は、必要な地域・処理に応じて説明と選択方法を別途案内します。",
+    "reason": "Consent Cと広告同意の分離・現状説明をKEEP"
+  },
+  {
+    "route": "/ja/privacy/",
+    "text": "お問い合わせでお送りいただくメールアドレス・本文・添付ファイルなどと返信履歴は、内容の確認、必要な返信、法令に基づく請求への対応に使用します。Tinlumoが広告やAIの学習に利用することはありません。",
+    "reason": "問い合わせ情報の利用目的制限をKEEP"
+  },
+  {
+    "route": "/ja/terms/",
+    "text": "Tinlumoは、日本語と英語で遊べる無料のオリジナルブラウザーゲームを提供します。 アカウント登録、購入、有料アイテム、クラウド保存はありません。現在、広告は配信していません。",
+    "reason": "法務の現状説明。恒久的な宣伝訴求ではない。"
+  }
+]

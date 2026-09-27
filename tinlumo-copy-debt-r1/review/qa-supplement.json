@@ -1,0 +1,443 @@
+{
+  "at": "2026-09-27T09:01:31.839Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "ja tiny-delivery actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "ja light-garden actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "ja two-ways-home actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "ja project-magnet actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "ja game005 actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "ja project-magnet 390px 200% text fits dialog",
+      "pass": true
+    },
+    {
+      "name": "ja two-ways-home 390px 200% text fits dialog",
+      "pass": true
+    },
+    {
+      "name": "ja project-magnet 1440px 200% text fits dialog",
+      "pass": true
+    },
+    {
+      "name": "ja two-ways-home 1440px 200% text fits dialog",
+      "pass": true
+    },
+    {
+      "name": "ja Magnet exact reset namespace",
+      "pass": true
+    },
+    {
+      "name": "ja Magnet reset restores first mission",
+      "pass": true
+    },
+    {
+      "name": "ja Two Ways reset namespace and initial motion",
+      "pass": true
+    },
+    {
+      "name": "ja Two Ways reduced motion resets as disclosed",
+      "pass": true
+    },
+    {
+      "name": "ja Island relocation accessible names",
+      "pass": true
+    },
+    {
+      "name": "ja Island names follow language switch",
+      "pass": true
+    },
+    {
+      "name": "en tiny-delivery actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "en light-garden actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "en two-ways-home actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "en project-magnet actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "en game005 actual return navigation",
+      "pass": true
+    },
+    {
+      "name": "en project-magnet 390px 200% text fits dialog",
+      "pass": true
+    },
+    {
+      "name": "en two-ways-home 390px 200% text fits dialog",
+      "pass": true
+    },
+    {
+      "name": "en project-magnet 1440px 200% text fits dialog",
+      "pass": true
+    },
+    {
+      "name": "en two-ways-home 1440px 200% text fits dialog",
+      "pass": true
+    },
+    {
+      "name": "en Magnet exact reset namespace",
+      "pass": true
+    },
+    {
+      "name": "en Magnet reset restores first mission",
+      "pass": true
+    },
+    {
+      "name": "en Two Ways reset namespace and initial motion",
+      "pass": true
+    },
+    {
+      "name": "en Two Ways reduced motion resets as disclosed",
+      "pass": true
+    },
+    {
+      "name": "en Island relocation accessible names",
+      "pass": true
+    },
+    {
+      "name": "en Island names follow language switch",
+      "pass": true
+    }
+  ],
+  "zoom": [
+    {
+      "locale": "ja",
+      "width": 390,
+      "game": "project-magnet",
+      "horizontal": false,
+      "verticalClipping": false,
+      "elements": [
+        {
+          "text": "PROJECT MAGNETのデータをリセットしますか？",
+          "left": 43,
+          "right": 347,
+          "top": 346.890625,
+          "bottom": 495.0625
+        },
+        {
+          "text": "PROJECT MAGNETの解放状況、クリア記録、途中再開、設定だけが対象です。他のゲームのデータには触れません。",
+          "left": 43,
+          "right": 347,
+          "top": 510.0625,
+          "bottom": 682.8125
+        },
+        {
+          "text": "リセットする",
+          "left": 43,
+          "right": 174.84375,
+          "top": 704.8125,
+          "bottom": 763.109375
+        },
+        {
+          "text": "戻る",
+          "left": 184.84375,
+          "right": 257.625,
+          "top": 704.8125,
+          "bottom": 763.109375
+        }
+      ]
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "game": "two-ways-home",
+      "horizontal": false,
+      "verticalClipping": false,
+      "elements": [
+        {
+          "text": "進行を消去しますか？",
+          "left": 64,
+          "right": 326,
+          "top": 248.953125,
+          "bottom": 356.453125
+        },
+        {
+          "text": "ふたりの帰り道の進行・クリア記録・動きを控える設定を消去します。音の設定と他の作品の保存は残ります。",
+          "left": 64,
+          "right": 326,
+          "top": 371.453125,
+          "bottom": 575.4375
+        },
+        {
+          "text": "やめる",
+          "left": 64,
+          "right": 326,
+          "top": 590.4375,
+          "bottom": 663.234375
+        },
+        {
+          "text": "進行を消去する",
+          "left": 64,
+          "right": 326,
+          "top": 678.234375,
+          "bottom": 751.03125
+        }
+      ]
+    },
+    {
+      "locale": "ja",
+      "width": 1440,
+      "game": "project-magnet",
+      "horizontal": false,
+      "verticalClipping": false,
+      "elements": [
+        {
+          "text": "PROJECT MAGNETのデータをリセットしますか？",
+          "left": 501,
+          "right": 939,
+          "top": 358.125,
+          "bottom": 472.5
+        },
+        {
+          "text": "PROJECT MAGNETの解放状況、クリア記録、途中再開、設定だけが対象です。他のゲームのデータには触れません。",
+          "left": 501,
+          "right": 939,
+          "top": 487.5,
+          "bottom": 617.0625
+        },
+        {
+          "text": "リセットする",
+          "left": 501,
+          "right": 677.3125,
+          "top": 639.0625,
+          "bottom": 713.859375
+        },
+        {
+          "text": "戻る",
+          "left": 687.3125,
+          "right": 777.703125,
+          "top": 639.0625,
+          "bottom": 713.859375
+        }
+      ]
+    },
+    {
+      "locale": "ja",
+      "width": 1440,
+      "game": "two-ways-home",
+      "horizontal": false,
+      "verticalClipping": false,
+      "elements": [
+        {
+          "text": "進行を消去しますか？",
+          "left": 519,
+          "right": 921,
+          "top": 289.75,
+          "bottom": 397.25
+        },
+        {
+          "text": "ふたりの帰り道の進行・クリア記録・動きを控える設定を消去します。音の設定と他の作品の保存は残ります。",
+          "left": 519,
+          "right": 921,
+          "top": 412.25,
+          "bottom": 534.640625
+        },
+        {
+          "text": "やめる",
+          "left": 519,
+          "right": 921,
+          "top": 549.640625,
+          "bottom": 622.4375
+        },
+        {
+          "text": "進行を消去する",
+          "left": 519,
+          "right": 921,
+          "top": 637.4375,
+          "bottom": 710.234375
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "game": "project-magnet",
+      "horizontal": false,
+      "verticalClipping": false,
+      "elements": [
+        {
+          "text": "Reset PROJECT MAGNET data?",
+          "left": 43,
+          "right": 347,
+          "top": 349.984375,
+          "bottom": 448.765625
+        },
+        {
+          "text": "Only PROJECT MAGNET unlocks, clear records, checkpoint, and settings are included. Data from other games is untouched.",
+          "left": 43,
+          "right": 347,
+          "top": 463.765625,
+          "bottom": 679.703125
+        },
+        {
+          "text": "RESET DATA",
+          "left": 43,
+          "right": 206.90625,
+          "top": 701.703125,
+          "bottom": 760
+        },
+        {
+          "text": "BACK",
+          "left": 216.90625,
+          "right": 309.6875,
+          "top": 701.703125,
+          "bottom": 760
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "game": "two-ways-home",
+      "horizontal": false,
+      "verticalClipping": false,
+      "elements": [
+        {
+          "text": "Reset this journey?",
+          "left": 64,
+          "right": 326,
+          "top": 208.15625,
+          "bottom": 315.65625
+        },
+        {
+          "text": "This removes Two Ways Home progress, completions and the reduced-motion preference. Sound settings and other games’ saves remain.",
+          "left": 64,
+          "right": 326,
+          "top": 330.65625,
+          "bottom": 616.234375
+        },
+        {
+          "text": "Cancel",
+          "left": 64,
+          "right": 326,
+          "top": 631.234375,
+          "bottom": 704.03125
+        },
+        {
+          "text": "Reset progress",
+          "left": 64,
+          "right": 326,
+          "top": 719.03125,
+          "bottom": 791.828125
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "game": "project-magnet",
+      "horizontal": false,
+      "verticalClipping": false,
+      "elements": [
+        {
+          "text": "Reset PROJECT MAGNET data?",
+          "left": 501,
+          "right": 939,
+          "top": 336.53125,
+          "bottom": 450.90625
+        },
+        {
+          "text": "Only PROJECT MAGNET unlocks, clear records, checkpoint, and settings are included. Data from other games is untouched.",
+          "left": 501,
+          "right": 939,
+          "top": 465.90625,
+          "bottom": 638.65625
+        },
+        {
+          "text": "RESET DATA",
+          "left": 501,
+          "right": 723.96875,
+          "top": 660.65625,
+          "bottom": 735.453125
+        },
+        {
+          "text": "BACK",
+          "left": 733.96875,
+          "right": 853.46875,
+          "top": 660.65625,
+          "bottom": 735.453125
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "game": "two-ways-home",
+      "horizontal": false,
+      "verticalClipping": false,
+      "elements": [
+        {
+          "text": "Reset this journey?",
+          "left": 519,
+          "right": 921,
+          "top": 275.828125,
+          "bottom": 329.578125
+        },
+        {
+          "text": "This removes Two Ways Home progress, completions and the reduced-motion preference. Sound settings and other games’ saves remain.",
+          "left": 519,
+          "right": 921,
+          "top": 344.578125,
+          "bottom": 548.5625
+        },
+        {
+          "text": "Cancel",
+          "left": 519,
+          "right": 921,
+          "top": 563.5625,
+          "bottom": 636.359375
+        },
+        {
+          "text": "Reset progress",
+          "left": 519,
+          "right": 921,
+          "top": 651.359375,
+          "bottom": 724.15625
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "variant": "after",
+      "locale": "ja",
+      "game": "magnet",
+      "state": "all-operations-complete",
+      "body": "TINLUMO\nPROJECT MAGNET\n\n磁力で装甲を集め、狙いを定め、崩れた設備を復旧する。3つの作戦で、判断の仕方が変わります。\n\n×\nNORMAL END\n全作戦完了。最後の磁場制御機を停止し、回収区画を復旧しました。\n\nこの端末に保存済み / 区画のはじめから再開\n\n作戦 A に再挑戦\n作戦を選ぶ\n\n各作戦は6区画。作戦内では、少数の強化を選びながらボスを攻略します。\n\n作戦 A\n解放済み\n回収線\n\n射線と盾の向きを読み、装甲を当てる位置を選ぶ。\n\nクリア\n1\nBEST\n03:20.00\nFORM\nCYCLONE\n再挑戦\n作戦 B\n解放済み\n突破線\n\n射線砲と修理支援のどちらを先に崩すか決める。\n\nクリア\n1\nBEST\n03:30.00\nFORM\nRETURN\n再挑戦\n作戦 C\n解放済み\n磁場中枢\n\n装甲を今撃つか保持するか、安全帯と開口を見て決める。\n\nクリア\n1\nBEST\n03:40.00\nFORM\nSATELLITE\n再挑戦\n操作\n\n移動\nWASD / 矢印キー\n\n磁力\n押して吸引・照準 → 離して射出\n左指で移動 · 右指で吸引・照準\n\n最初の作戦で、帯電した装甲・設備への送電・進化をプレイしながら学べます。\n\nセーブデータ\nセーブデータをリセット\n現在のプレイに戻る",
+      "aria": []
+    },
+    {
+      "variant": "after",
+      "locale": "en",
+      "game": "magnet",
+      "state": "all-operations-complete",
+      "body": "TINLUMO\nPROJECT MAGNET\n\nGather armor with magnetic force, take aim, and restore the broken circuit. Each operation asks for a different judgement.\n\n×\nNORMAL END\nAll operations complete. The magnetic controller is offline and the reclamation zone is restored.\n\nSaved on this device · resume from the start of the sector\n\nRETRY OPERATION A\nSELECT AN OPERATION\n\nEach operation has six zones. Choose a focused set of upgrades, then break its boss.\n\nOPERATION A\nUNLOCKED\nRECLAMATION LINE\n\nRead firing lanes and shield angles, then choose where to land your armor.\n\nCLEARS\n1\nBEST\n03:20.00\nFORM\nCYCLONE\nRETRY\nOPERATION B\nUNLOCKED\nBREACH LINE\n\nDecide whether the rail gun or repair support must fall first.\n\nCLEARS\n1\nBEST\n03:30.00\nFORM\nRETURN\nRETRY\nOPERATION C\nUNLOCKED\nMAGNETIC CORE\n\nRead safe lanes and openings to decide when to hold or launch your armor.\n\nCLEARS\n1\nBEST\n03:40.00\nFORM\nSATELLITE\nRETRY\nCONTROLS\n\nMOVE\nWASD / arrow keys\n\nMAGNET\nHold to gather and aim → release to launch\nLeft thumb moves · right thumb gathers and aims\n\nOperation A teaches charged armor, relay power, and evolution through play.\n\nSAVE DATA\nRESET SAVE DATA\nRETURN TO CURRENT RUN",
+      "aria": []
+    }
+  ],
+  "scope": "Loopback-only synthetic fixtures; text-only font doubling; current browser controls. Physical device / spoken screen reader / actual GPU loss not tested."
+}

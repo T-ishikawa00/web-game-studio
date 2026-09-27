@@ -1,0 +1,1865 @@
+{
+  "at": "2026-09-27T07:58:25.498Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "before HTTP /en/about/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/about/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/about/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/about/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/about/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/contact/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/contact/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/contact/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/contact/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/contact/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/credits/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/credits/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/credits/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/credits/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/credits/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/games/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/games/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/games/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/privacy/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/privacy/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/privacy/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/privacy/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/privacy/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/settings/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/settings/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/settings/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/settings/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/settings/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/terms/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/terms/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/terms/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/terms/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/terms/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /en/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /en/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /en/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /en/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /en/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/about/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/about/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/about/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/about/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/about/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/contact/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/contact/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/contact/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/contact/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/contact/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/credits/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/credits/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/credits/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/credits/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/credits/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/games/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/games/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/games/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/games/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/games/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/games/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/games/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/games/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/play/island-connections/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/play/light-garden/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/play/project-magnet/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/play/tiny-delivery/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/play/two-ways-home/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/privacy/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/privacy/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/privacy/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/privacy/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/privacy/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/settings/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/settings/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/settings/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/settings/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/settings/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/terms/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/terms/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/terms/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/terms/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/terms/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /ja/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /ja/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /ja/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "HTML language /ja/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "Runtime language parity /ja/video-policy/",
+      "pass": true
+    },
+    {
+      "name": "before HTTP /404.html",
+      "pass": true
+    },
+    {
+      "name": "after HTTP /404.html",
+      "pass": true
+    },
+    {
+      "name": "No initial analytics /404.html",
+      "pass": true
+    },
+    {
+      "name": "ja consent keyboard opens",
+      "pass": true
+    },
+    {
+      "name": "ja consent focus",
+      "pass": true
+    },
+    {
+      "name": "ja escape restores focus",
+      "pass": true
+    },
+    {
+      "name": "ja close retains choice",
+      "pass": true
+    },
+    {
+      "name": "ja explicit allow",
+      "pass": true
+    },
+    {
+      "name": "ja local allow has no production beacon",
+      "pass": true
+    },
+    {
+      "name": "ja withdrawal persisted",
+      "pass": true
+    },
+    {
+      "name": "ja delete confirmation opens",
+      "pass": true
+    },
+    {
+      "name": "ja delete cancel closes",
+      "pass": true
+    },
+    {
+      "name": "ja exact-key deletion",
+      "pass": true
+    },
+    {
+      "name": "ja success feedback",
+      "pass": true
+    },
+    {
+      "name": "en consent keyboard opens",
+      "pass": true
+    },
+    {
+      "name": "en consent focus",
+      "pass": true
+    },
+    {
+      "name": "en escape restores focus",
+      "pass": true
+    },
+    {
+      "name": "en close retains choice",
+      "pass": true
+    },
+    {
+      "name": "en explicit allow",
+      "pass": true
+    },
+    {
+      "name": "en local allow has no production beacon",
+      "pass": true
+    },
+    {
+      "name": "en withdrawal persisted",
+      "pass": true
+    },
+    {
+      "name": "en delete confirmation opens",
+      "pass": true
+    },
+    {
+      "name": "en delete cancel closes",
+      "pass": true
+    },
+    {
+      "name": "en exact-key deletion",
+      "pass": true
+    },
+    {
+      "name": "en success feedback",
+      "pass": true
+    },
+    {
+      "name": "Blocked storage truthful failure",
+      "pass": true
+    },
+    {
+      "name": "Game launch ja tiny-delivery",
+      "pass": true
+    },
+    {
+      "name": "Return link ja tiny-delivery",
+      "pass": true
+    },
+    {
+      "name": "Return works ja tiny-delivery",
+      "pass": true
+    },
+    {
+      "name": "Game launch ja light-garden",
+      "pass": true
+    },
+    {
+      "name": "Return link ja light-garden",
+      "pass": true
+    },
+    {
+      "name": "Return works ja light-garden",
+      "pass": true
+    },
+    {
+      "name": "Game launch ja two-ways-home",
+      "pass": true
+    },
+    {
+      "name": "Return link ja two-ways-home",
+      "pass": true
+    },
+    {
+      "name": "Return works ja two-ways-home",
+      "pass": true
+    },
+    {
+      "name": "Game launch ja project-magnet",
+      "pass": true
+    },
+    {
+      "name": "Return link ja project-magnet",
+      "pass": true
+    },
+    {
+      "name": "Return works ja project-magnet",
+      "pass": true
+    },
+    {
+      "name": "Game launch ja game005",
+      "pass": true
+    },
+    {
+      "name": "Return link ja game005",
+      "pass": true
+    },
+    {
+      "name": "Return works ja game005",
+      "pass": true
+    },
+    {
+      "name": "Game launch en tiny-delivery",
+      "pass": true
+    },
+    {
+      "name": "Return link en tiny-delivery",
+      "pass": true
+    },
+    {
+      "name": "Return works en tiny-delivery",
+      "pass": true
+    },
+    {
+      "name": "Game launch en light-garden",
+      "pass": true
+    },
+    {
+      "name": "Return link en light-garden",
+      "pass": true
+    },
+    {
+      "name": "Return works en light-garden",
+      "pass": true
+    },
+    {
+      "name": "Game launch en two-ways-home",
+      "pass": true
+    },
+    {
+      "name": "Return link en two-ways-home",
+      "pass": true
+    },
+    {
+      "name": "Return works en two-ways-home",
+      "pass": true
+    },
+    {
+      "name": "Game launch en project-magnet",
+      "pass": true
+    },
+    {
+      "name": "Return link en project-magnet",
+      "pass": true
+    },
+    {
+      "name": "Return works en project-magnet",
+      "pass": true
+    },
+    {
+      "name": "Game launch en game005",
+      "pass": true
+    },
+    {
+      "name": "Return link en game005",
+      "pass": true
+    },
+    {
+      "name": "Return works en game005",
+      "pass": true
+    },
+    {
+      "name": "Non-HTML payload byte identity",
+      "pass": true
+    },
+    {
+      "name": "No browser errors",
+      "pass": true
+    },
+    {
+      "name": "No external requests",
+      "pass": true
+    },
+    {
+      "name": "Responsive and text zoom no overflow",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "responsive": [
+    {
+      "route": "/ja/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/about/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/tiny-delivery/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/light-garden/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/two-ways-home/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/project-magnet/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/island-connections/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/settings/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/about/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/tiny-delivery/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/light-garden/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/two-ways-home/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/project-magnet/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/island-connections/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/settings/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/about/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/tiny-delivery/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/light-garden/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/two-ways-home/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/project-magnet/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/island-connections/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/settings/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/about/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/tiny-delivery/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/light-garden/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/two-ways-home/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/project-magnet/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/island-connections/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/settings/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/about/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/tiny-delivery/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/light-garden/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/two-ways-home/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/project-magnet/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/island-connections/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/settings/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/about/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/tiny-delivery/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/light-garden/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/two-ways-home/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/project-magnet/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/island-connections/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/settings/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/about/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/tiny-delivery/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/light-garden/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/two-ways-home/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/project-magnet/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/island-connections/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/settings/",
+      "width": 320,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/about/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/tiny-delivery/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/light-garden/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/two-ways-home/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/project-magnet/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/island-connections/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/settings/",
+      "width": 375,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/about/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/tiny-delivery/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/light-garden/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/two-ways-home/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/project-magnet/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/island-connections/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/settings/",
+      "width": 390,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/about/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/tiny-delivery/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/light-garden/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/two-ways-home/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/project-magnet/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/island-connections/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/settings/",
+      "width": 430,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/about/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/tiny-delivery/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/light-garden/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/two-ways-home/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/project-magnet/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/island-connections/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/settings/",
+      "width": 768,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/about/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/tiny-delivery/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/light-garden/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/two-ways-home/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/project-magnet/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/island-connections/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/settings/",
+      "width": 1440,
+      "zoom": false,
+      "documentOverflow": false,
+      "outside": []
+    }
+  ],
+  "textZoom": [
+    {
+      "route": "/ja/",
+      "width": 390,
+      "zoom": true,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/about/",
+      "width": 390,
+      "zoom": true,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/games/project-magnet/",
+      "width": 390,
+      "zoom": true,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/ja/settings/",
+      "width": 390,
+      "zoom": true,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/",
+      "width": 390,
+      "zoom": true,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/about/",
+      "width": 390,
+      "zoom": true,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/games/project-magnet/",
+      "width": 390,
+      "zoom": true,
+      "documentOverflow": false,
+      "outside": []
+    },
+    {
+      "route": "/en/settings/",
+      "width": 390,
+      "zoom": true,
+      "documentOverflow": false,
+      "outside": []
+    }
+  ],
+  "overflow": [],
+  "screenshots": [
+    "screenshots/before-ja-home-375.png",
+    "screenshots/after-ja-home-375.png",
+    "screenshots/before-ja-studio-375.png",
+    "screenshots/after-ja-studio-375.png",
+    "screenshots/before-ja-home-1440.png",
+    "screenshots/after-ja-home-1440.png",
+    "screenshots/before-ja-studio-1440.png",
+    "screenshots/after-ja-studio-1440.png",
+    "screenshots/before-en-home-375.png",
+    "screenshots/after-en-home-375.png",
+    "screenshots/before-en-studio-375.png",
+    "screenshots/after-en-studio-375.png",
+    "screenshots/before-en-home-1440.png",
+    "screenshots/after-en-home-1440.png",
+    "screenshots/before-en-studio-1440.png",
+    "screenshots/after-en-studio-1440.png",
+    "screenshots/zoom200-ja-home.png",
+    "screenshots/zoom200-ja-about-.png",
+    "screenshots/zoom200-ja-games-project-magnet-.png",
+    "screenshots/zoom200-ja-settings-.png",
+    "screenshots/zoom200-en-home.png",
+    "screenshots/zoom200-en-about-.png",
+    "screenshots/zoom200-en-games-project-magnet-.png",
+    "screenshots/zoom200-en-settings-.png"
+  ],
+  "assetChanges": [],
+  "scope": "Windows Edge headless; viewport emulation; text-only font doubling at 390px. No physical device, Safari, real touch, listening or legal compliance claim."
+}
