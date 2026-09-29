@@ -1,0 +1,93 @@
+{
+  "at": "2026-09-23T14:45:32.263Z",
+  "scans": [
+    {
+      "target": "game005-island/hillside-r1",
+      "rawStatus": "FAIL",
+      "findings": [
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Local State",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 HUMAN DISPOSITION APPLIES; RAW FAIL RETAINED"
+        }
+      ]
+    },
+    {
+      "target": "game005-island/hillside-r1/dist",
+      "rawStatus": "PASS",
+      "findings": []
+    },
+    {
+      "target": "docs/security/GAME005_HILLSIDE_R1_HUMAN_DISPOSITION.md",
+      "rawStatus": "PASS",
+      "findings": []
+    },
+    {
+      "target": "docs/games/GAME005_HILLSIDE_R1_HUMAN_REVIEW.md",
+      "rawStatus": "PASS",
+      "findings": []
+    },
+    {
+      "target": "docs/games/PRODUCTION_CURRENT.md",
+      "rawStatus": "PASS",
+      "findings": []
+    }
+  ],
+  "newCandidates": false,
+  "rawHistoricalFailRetained": true,
+  "originalScanValueIdentity": "UNKNOWN",
+  "S04_S05": "UNKNOWN / UNRESOLVED; prior checkpoint risk acceptance not reused",
+  "scannerOrAllowlistChanged": false,
+  "scope": "Candidate including ignored retained profiles, distribution and disposition document. Not a full-project checkpoint gate.",
+  "localContinuation": "PERMITTED BY CURRENT HUMAN DISPOSITION"
+}

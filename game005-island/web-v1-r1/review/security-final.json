@@ -1,0 +1,104 @@
+{
+  "at": "2026-09-24T04:02:31.710Z",
+  "scans": [
+    {
+      "target": "game005-island/web-v1-r1",
+      "rawStatus": "PASS",
+      "findings": []
+    },
+    {
+      "target": "game005-island/web-v1-r1/dist",
+      "rawStatus": "PASS",
+      "findings": []
+    },
+    {
+      "target": "docs/games/GAME005_WEB_V1_FULL_GAME_R1.md",
+      "rawStatus": "PASS",
+      "findings": []
+    },
+    {
+      "target": "docs/games/PRODUCTION_CURRENT.md",
+      "rawStatus": "PASS",
+      "findings": []
+    },
+    {
+      "target": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Local State",
+      "rawStatus": "FAIL",
+      "findings": [
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Local State",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        }
+      ]
+    },
+    {
+      "target": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+      "rawStatus": "FAIL",
+      "findings": [
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        }
+      ]
+    },
+    {
+      "target": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+      "rawStatus": "FAIL",
+      "findings": [
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "CURRENT H01-H11 LIMITED HUMAN DISPOSITION; RAW FAIL RETAINED"
+        }
+      ]
+    }
+  ],
+  "newCandidates": false,
+  "originalScanIdentity": "UNKNOWN",
+  "historicalRawFail11": "RETAINED",
+  "S04_S05": "UNKNOWN / UNRESOLVED; consumed checkpoint acceptance not reused",
+  "scannerAllowlistHookChanged": false,
+  "scope": "Candidate including ignored output, dist, current document, exact retained current H01-H11 files. Not a full-project checkpoint gate."
+}

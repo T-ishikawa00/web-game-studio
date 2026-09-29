@@ -1,0 +1,92 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Tinlumo Consent Architecture R1 · Review</title><style>body{margin:auto;max-width:1080px;padding:28px 20px 80px;font:16px/1.8 system-ui,sans-serif;color:#24372f;background:#f4f7ef}h1{font-size:clamp(30px,5vw,50px);line-height:1.2}h2{line-height:1.4}section{margin:24px 0;background:#fff;padding:24px;border:1px solid #d4dfcc;border-radius:16px}a{color:#22573c;text-underline-offset:3px}nav{display:flex;gap:12px;flex-wrap:wrap}nav a{padding:12px 18px;background:#dcf5b7;border-radius:12px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;vertical-align:top;border:1px solid #d1dacc;padding:12px}th{background:#eef4e7}.scroll{overflow:auto}small,.muted{color:#526257}code{overflow-wrap:anywhere}li{margin:7px 0}.pill{display:inline-block;background:#dfefca;border-radius:20px;padding:3px 12px}details{border-top:1px solid #ddd;padding:12px 0}summary{cursor:pointer;font-weight:bold;min-height:44px}img{max-width:100%}</style></head><body>
+<small>LOCAL REVIEW · 2026-09-21 · 広告UX採用済み / AdSense審査待ち / 今回は同意設計の判断待ち</small>
+<section><h2>Human Accepted Candidate — C</h2><p>2026-09-21：C案をHuman採用。Aの全地域通常計測は不採用。実装と本番は変更せず、Security4件のHuman disposition待ちです。</p><p><a href="/evidence/SECURITY_REVIEW.md">4件の判定票（値を含まない）</a></p><p><b>TINLUMO_CONSENT_C_HUMAN_ACCEPTED / HUMAN_SECURITY_DISPOSITION_PENDING</b></p></section>
+<h1>Tinlumo<br>Consent Architecture R1</h1>
+<p class="pill">推奨 C：初回Analyticsバナーなし・計測は初期OFF・設定から任意に許可</p>
+<p>Aの「全地域で通常計測」を現時点の資料だけで妥当と確定できません。Cookieを使わないことと、端末アクセスへの同意が不要なことは別です。Cは初回の選択要求を減らし、既存の任意計測を残せます。代償は、許可者が少なくなり計測母集団が偏ることです。</p>
+<nav><a href="http://127.0.0.1:4384/ja/">現行UX JA</a><a href="http://127.0.0.1:4384/en/">Current EN</a><a href="/ja/">推奨C JA</a><a href="/en/">Candidate C EN</a><a href="/ja/privacy/#analytics">Privacy変更案 JA</a><a href="/en/privacy/#analytics">Privacy draft EN</a></nav>
+<p>両ポートは別のローカル保存です。本番の保存には触れません。初回比較は新しいブラウザ状態で行ってください。既存の保存を消す必要はありません。候補も現行比較も、実計測・Google CMP・実広告を通信しません。</p>
+
+<section><h2>1. 現行UXと候補で変えるもの</h2>
+<p><b>FACT — 現行</b>：新しいブラウザではTinlumo独自Analyticsバナーを自動表示します。未選択・拒否では計測OFF、許可でCloudflare beaconを手動読込み。既存の選択はlocalStorageに保存され、日英・作品を跨いで同じoriginで共有します。Google CMPはHumanが作成済みですが、公開・本番表示・実SDK接続は未検証です。「現在すでに二重バナーが出ている」とは確認していません。</p>
+<p><b>TINLUMO POLICY — 候補C</b>：初回にはAnalytics UIを出さず、未選択のままOFF。フッターまたはPrivacyの「計測の設定」から自分で開いたときだけ、同じ重みの許可/拒否と「選択せずに閉じる」を表示します。閉じる/Escapeは同意にせず、フォーカスを入口へ戻します。過去のallow/denyは引き継ぎます。</p>
+<p>既存の計測許可を広告の同意へ変換しません。Google CMPの同意もCloudflareの許可へ変換しません。ゲーム進行・音・保存・回遊・57問＋MAGNET18区画には変更を加えていません。</p>
+<p><b>今回の候補はCです。</b> Aは採用条件未充足のため、全地域の無同意beaconを作成・有効化していません。Bは現行比較として保存。Google画面に似せたCMPをゲームへ挿入せず、将来表示は地域表で説明します。</p></section>
+
+<section><h2>2. A / B / Cの比較</h2><div class="scroll"><table><thead><tr><th>比較軸</th><th>A：通常計測＋Google CMP</th><th>B：現行opt-in＋Google CMP</th><th>C：設定から任意計測＋Google CMP（推奨）</th></tr></thead><tbody>
+<tr><th>法的・provider要件</th><td>EEAの例外適合は未証明。UK/Swissは説明だけでなく拒否方法も評価が必要。Google要件は別途。</td><td>許可前の計測を止める。広告の認定CMPと同意根拠は別。バナーがあるだけで法令全体の適合は保証しない。</td><td>初期OFFを維持し、例外への依存を避ける。必要な説明と任意の設定導線は維持。広告CMPとは独立。</td></tr>
+<tr><th>初回UX</th><td>Analyticsバナー0。計測は開始。</td><td>Analyticsバナー1。将来、広告CMPと2つになり得る。</td><td>Analyticsバナー0、計測OFF。将来必要な広告CMPだけを初回表示する目標。</td></tr>
+<tr><th>拒否のしやすさ</th><td>提示された案のままでは拒否方法未定。opt-out設計を加える必要。</td><td>初回に明示拒否。未選択でもOFF。</td><td>操作不要でOFF。設定内の拒否は許可と同等。閉じても変更なし。</td></tr>
+<tr><th>変更・撤回</th><td>新しい拒否設定・既存denyの移行方針が必要。</td><td>既存フッター/Privacy。撤回時reload。</td><td>既存導線・key・撤回の仕組みを維持。広告撤回は将来Google公式導線。</td></tr>
+<tr><th>JA / EN</th><td>Privacy双方更新。地域と言語を混同しない。</td><td>Analytics双方実装済み。Googleの言語設定は未確認。</td><td>設定・閉じる・Privacyを双方実装。広告CMP双方は接続Gateで確認。</td></tr>
+<tr><th>EEA/UK/Swiss以外</th><td>一律無UIと断定不可。日本の外部送信説明、米州のopt-out等を評価。</td><td>全地域でAnalyticsバナー。広告要件も地域別。</td><td>全地域でAnalytics初回UIなし。広告UI不要地域なら初回0。米州は別評価。</td></tr>
+<tr><th>実装複雑性</th><td>単純loaderは容易だが、例外・地域・拒否・既存deny移行の検証が増える。</td><td>既存維持。二重UIの表示順や干渉に対応が必要。</td><td>小さな表示変更。Analytics地域判定不要、既存通信guardを維持。</td></tr>
+<tr><th>将来の保守性</th><td>法域・provider変更による再評価が多い。</td><td>2種類の自動UIを維持。</td><td>Google CMPが初回UI、Analyticsは任意設定。目的とkeyを分離できる。</td></tr>
+<tr><th>事業上の代償</th><td>計測件数は期待できるが、適法性と観測範囲は別。</td><td>許可者だけの偏りがある。</td><td>設定を自ら開く人に更に偏る。PVを全訪問者や市場需要の証拠にしない。</td></tr>
+</tbody></table></div><p>Cのさらに小さい構成として「Web Analyticsを全地域OFF」も可能ですが、今回は既存計測機能を残すCを実装しました。Google CMPへCloudflare同意を統合する案は、第三者目的・signal連携の正式対応が未確認で、最小の変更とはいえません。</p></section>
+
+<section><h2>3. 根拠の分類</h2><div class="scroll"><table><tr><th>分類</th><th>確認した内容と設計への影響</th></tr>
+<tr><th>FACT</th><td>Cloudflareの公式説明ではWeb Analyticsは計測用Cookie/localStorageを使わず、IPやUser Agent等のfingerprintingをしません。一方、JS beaconはPerformance APIを使用し、URL pathやDOM要素selector等の性能情報を扱います。「端末を読まない」「通信しない」という意味ではありません。[S1–S3]</td></tr>
+<tr><th>FACT</th><td>Tinlumo自身はゲーム保存・設定にlocalStorage/sessionStorage、Analytics選択に独立keyを使います。Cloudflare Web AnalyticsとCloudflareの配信/保護用cookie・HTTP処理は別です。後者まで「Cookieなし」「IP処理なし」と表現しません。[S4、現行source]</td></tr>
+<tr><th>PROVIDER REQUIREMENT</th><td>GoogleはEEA/UK/Swissのパーソナライズ広告に認定・TCF統合CMPを要求します。Google CMPはその候補。認定は法務全体の合格ではありません。拒否で限定広告等が許される場合もあるため、Googleの拒否と広告通信0を同一視しません。Tinlumoは別途要求停止を検証します。[S5]</td></tr>
+<tr><th>LEGAL INTERPRETATION</th><td>Cookie不使用だけではEEA全域の同意免除を確認できません。UKは条件付き統計例外があるため「常にopt-in必須」とも結論しません。Aの一律適用は保留し、Cで初期OFFを維持します。[S7–S11]</td></tr>
+<tr><th>TINLUMO POLICY</th><td>初回のAnalytics要求を廃止し、未選択OFF・任意設定方式を推薦。広告は拒否/失敗でもゲーム継続。既存denyを勝手にallowへ変えない。地域をブラウザ言語やtimezoneで推測しない。</td></tr>
+<tr><th>UNKNOWN</th><td>Tinlumoの法域適用・EEA各国免除、Cloudflareの契約/役割/詳細保持、実beaconの現行通信、Google CMPの公開・対象地域・日英・再選択/最適化設定、H5承認、実SDKとの同意順序。法務認定・provider PASSとはしていません。</td></tr></table></div>
+<p>Cloudflare FAQはquery stringをログしないと説明していますが、URLに秘密を入れてよいという意味ではありません。データ閲覧期間と生データ/集計の保持は区別します。現行手動挿入の通信先とSDK版は、本番接続の別Gateで再確認します。[S3]</p></section>
+
+<section><h2>4. 地域別に何が出るか</h2><p>下表の「将来」は広告承認・接続・CMP設定を検証した後の設計目標です。今回のローカル候補は全地域でGoogle CMPを読み込まず、地域判定も行いません。</p><div class="scroll"><table><tr><th>地域</th><th>法務・providerの判断材料</th><th>Cの現在 / 将来の初回UI</th></tr>
+<tr><th>日本</th><td>PPCは個人関連情報を個人データとして取得する受領者等の条件を区別。全解析にバナー必須とはいえない。外部送信規律のTinlumo該当性は未確定。送信先・目的・内容の説明は保持。[S12–S13]</td><td>現在0。将来も広告同意UIが不要と確認できる処理なら0。Googleの欧州要件を日本へ一律適用しない。</td></tr>
+<tr><th>EEA</th><td>EDPBは非個人情報・一時メモリ・JS処理結果の送信も検討対象とする。CNILの限定免除は条件付きで、ドイツ§25から一般解析免除は確認できない。全域のCF免除は未証明。[S7–S9]</td><td>現在0（Analytics OFF）。将来必要なGoogle CMPのみ。Analyticsを自分で開いた場合だけ別設定。</td></tr>
+<tr><th>UK</th><td>ICOの2026年最終案内はサービス改善の統計例外を認めるが、明確な説明・簡単で無料の拒否等が条件。PrivacyだけのAは未完成。[S10]</td><td>現在0。将来必要なGoogle CMPのみ。統計例外が使えるとしてもCは任意opt-inを維持。</td></tr>
+<tr><th>Switzerland</th><td>FDPICは対象技術の目的説明・拒否可能性を扱い、全処理を一律opt-inにしていない。Googleの欧州CMP要件はこれと別のprovider条件。[S11、S5]</td><td>現在0。将来必要なGoogle CMPのみ。</td></tr>
+<tr><th>米国（California等）</th><td>CCPA等は対象事業者・処理条件を評価。販売/共有の拒否、GPC、GoogleのUS message/GPP/RDPは別確認。小規模を理由に無条件免除と断定しない。[S14–S15]</td><td>現在0。将来は該当州のGoogle privacy message/opt-out導線等を評価。「欧州外だから常に0」と約束しない。</td></tr>
+<tr><th>その他・地域不明</th><td>全世界の調査完了ではない。広告導入地域・年齢方針・追加法域は未確定。</td><td>Analytics初回0・未選択OFF。将来、広告の地域要件が確定できなければ要求を保留してゲーム継続。</td></tr></table></div>
+<p>Google CMPは対象者の状態、保存した選択、更新・再同意要件により再表示し得ます。「必ず一生に1回」「対象地域なら全ページ毎回表示」とは設計しません。Google公式の第一画面拒否・言語・公開設定を別Gateで確認します。[S6]</p></section>
+
+<section><h2>5. Privacy / Terms変更案</h2><p>以下は公開前の草案です。候補ページにも「未施行」を明示します。端末内保存・配信・問い合わせ・既存動画方針は維持。Termsの「広告なし」は現在の事実として維持し、広告導入時の別変更とします。Google CMPの作成を、広告配信済みやPrivacy適用済みとして書きません。</p>
+<details><summary>JA · 任意のアクセス計測</summary><p>Cloudflare Web Analyticsによるアクセス計測は、初めて利用するブラウザでは無効です。計測を求める案内は自動表示しません。ページ下部の「計測の設定」から「計測を許可する」を選んだ場合に限り有効になります。選択しない場合も、計測を拒否した場合も、すべてのゲーム機能を利用できます。</p><p>以前このブラウザで保存した計測の許可・拒否は引き継がれます。選択はlocalStorageに保存し、訪問者IDは作成しません。自動的な有効期限はなく、「計測の設定」で変更できます。設定画面を開くことや、選択せずに閉じることは同意になりません。サイトデータを削除すると計測の選択だけでなく、ゲームの進行や設定も消える場合があります。</p><p>許可すると、ページURL、参照元、ブラウザ・端末情報、読み込み速度などの性能情報をCloudflareへ送信し、ページの利用状況と性能の改善に使います。Cloudflareは、利用状況の計測にCookieやlocalStorageを使わず、fingerprintingによる個人の識別をしないと説明しています。Tinlumoが選択を保存するlocalStorageと、Cloudflareの計測方式は別です。ゲーム内の操作や保存データをアクセス計測へ送信しません。</p><p>許可を取り消すとページを再読み込みして以後の計測を停止します。開始済みの通信は完了する場合があります。計測の通信失敗やブロックによってプレイを制限しません。Cloudflareでの取扱い・保持は同社のPrivacy Policy等によります。Tinlumoは一律の保持期間や即時削除を保証しません。サイト配信に必要な通信情報の処理は、任意のアクセス計測を無効にしても行われます。</p><p>この選択はCloudflare Web Analyticsだけを対象とし、広告への同意とは独立しています。現在、広告は配信していません。広告を導入する際は、必要な地域・処理に応じて説明と選択方法を別途案内します。</p></details><details><summary>EN · Optional analytics</summary><p>Cloudflare Web Analytics is off when you first use a browser. We do not automatically show an analytics prompt. It turns on only if you open Analytics settings in the footer and choose Allow analytics. All game features remain available if you make no choice or decline analytics.</p><p>An analytics choice previously saved in this browser is kept. We store your allow or decline preference in localStorage without creating a visitor ID. It has no automatic expiry and can be changed in Analytics settings. Opening settings or closing them without choosing does not give consent. Clearing site data may remove game progress and preferences as well as your analytics choice.</p><p>If you allow analytics, page URLs, referrers, browser and device information, and performance information such as loading speed are sent to Cloudflare to help improve page use and performance. Cloudflare states that it does not use cookies or localStorage to collect usage metrics or fingerprint individuals. Tinlumo's localStorage preference is separate from Cloudflare's measurement method. In-game actions and game-save data are not sent to analytics.</p><p>Withdrawing permission reloads the page and stops further measurement. Requests already started may finish. Blocked analytics or connection failures do not restrict play. Cloudflare handles and retains information under its Privacy Policy and related terms. Tinlumo does not guarantee a fixed retention period or immediate deletion. Connection information needed to deliver the site is still processed when optional analytics is off.</p><p>This choice covers only Cloudflare Web Analytics and is independent of advertising consent. We do not currently serve ads. Before introducing ads, we will provide information and choices appropriate to the relevant regions and processing.</p></details>
+</section>
+
+<section><h2>6. 実装箇所と公開時の移行</h2><ul>
+<li><code>consent-r1/analytics-consent.js</code>：独立候補。初回非表示、明示open、close/Escape、focus復帰。既存hostname・HTTPS・iframe・storage・撤回guardを保持。</li>
+<li><code>consent-r1/privacy-copy.json</code>：日英草案の正本。</li>
+<li><code>scripts/consent-r1-build.mjs</code>：公開source-of-truthの生成物64filesをhash検証してコピーし、隔離候補だけへ差分を投影。productionモードなし。現行比較は元bytesを保持。</li>
+<li><code>scripts/consent-r1-server.mjs</code>：1プロセスでloopback4383候補/4384現行比較。CSPで外部通信を禁止。証拠フォルダ以外のrepoは配布しない。</li>
+<li><code>tests/consent-r1.mjs</code>、<code>tests/consent-r1.browser.mjs</code>：同意・失敗・撤回・表示・回帰検証。</li>
+<li><code>docs/qa/tinlumo-consent-r1/</code>：このReview・build/QA/保全結果。<code>docs/games/PRODUCTION_CURRENT.md</code>：今回の停止条件。</li>
+</ul><p>将来採用時は <code>src/rc/analytics-consent.js</code>、<code>AnalyticsConsent.astro</code>、<code>PublicOperations.astro</code>、<code>site.json</code> の該当箇所へレビュー済み差分を移し、既存 <code>scripts/trust-ux-build.mjs --production</code> で公開候補を作ります。今回これらのsource・本番artifact・Cloudflare設定は変更していません。所有確認metaは保全。</p>
+<p>既存同意keyは維持し、過去の拒否を覆しません。同意目的・処理が変わる場合の再同意や有効期限は別判断。Google CMP/TCFを独自のallow booleanに単純変換しない構成です。</p></section>
+
+<section><h2>7. QA・未確認事項</h2><!-- QA_SUMMARY --><div class="scroll"><table><tr><th>検証</th><th>結果・限界</th></tr>
+<tr><td>候補build / 構文</td><td>PASS。公開64filesを検証し隔離コピー。30ページの同意設定とruntime1fileだけ変更。共通の元sourceは未変更。</td></tr>
+<tr><td>同意単体 / 既存unit</td><td>8 / 8、215 / 215 PASS。初回0UI・未選択OFF、許可、拒否、撤回reload、他tab、BFCache、書込み失敗、hash fallback、localhost/Preview/iframe guard、広告key独立。実beaconは仮想windowで挿入先を検証し、providerへ接続していません。</td></tr>
+<tr><td>Browser</td><td>70 checks PASS。JA/EN × 390/1440幅、キーボードopen/Escape/focus、閉じる、保存した許可/拒否、Privacy設定、保存拒否、別tab、日英4作品起動、旧3作の入力/保存/reload、MAGNET pause/resume。外部request0、pageerror0。</td></tr>
+<tr><td>HTTP / 保全</td><td>126配布URLのbytes一致、8保護URL拒否、開始3035files（Current除外）不変。本番64files不変、ゲーム/既存runtime等24payload不変。Reviewへのローカルリンク確認済み。</td></tr>
+<tr><td>Security</td><td><b>全体はHUMAN_DISPOSITION_PENDING。</b> Raw全projectは6候補のFAIL。既知2件に加え、<code>.tmp/consent-r1/before.json</code> と <code>.tmp/provider-human-update/before.json</code> にgeneric-api-key各2候補。両台帳の値がすべてSHA256形式であることは確認したが、新規候補の承認は拡張していない。値/断片は記載しない。候補・比較配布/source/Reviewの個別scanは検出0。scanner/allowlist変更0。</td></tr>
+<tr><td>省略・再利用</td><td>型は今回TS変更なし、JS構文を検証。既知の旧試作型12errorsは再実行していない。既存57問は215unit内の解答検証と配布保全、実ゲーム全編/聴感は過去証拠を再利用し今回PASSに拡張しない。広告pilotはsource不変で、実CMP重なり試験は未実施。</td></tr>
+<tr><td>修正履歴</td><td>新しいローカルserverのWindowsパス比較による404を修正。新browser試験のMAGNET再開状態を正しい「続きから」操作に修正。ゲームsourceや判定基準は変更せず、修正後に再実行PASS。</td></tr>
+<tr><td>Git / 実モデル</td><td>main / HEAD・ローカルorigin/main <code>337f545fc099a60ed74b5abdcbe4511cbc6eed75</code>。index空、既存差分を保持。remote再取得なし。主担当・独立read-only調査/レビューは <code>gpt-6-astra</code>。追加の修正必須指摘なし。</td></tr>
+</table></div><p><a href="/evidence/build.json">build記録</a> · <a href="/evidence/browser.json">browser結果</a> · <a href="/evidence/verification.json">保全・配布・Security結果</a></p>
+<details><summary>代表画像：現行と候補の初回画面・任意設定</summary><p>同じ390×844 viewportでの初回比較。物理スマホ試験ではありません。</p><div style="display:flex;flex-wrap:wrap;gap:16px"><figure style="margin:0;max-width:320px"><figcaption>現行：初回Analyticsバナー</figcaption><img src="/evidence/before-mobile.png" alt="現行の初回Analyticsバナー"></figure><figure style="margin:0;max-width:320px"><figcaption>C：初回バナーなし</figcaption><img src="/evidence/candidate-mobile.png" alt="C候補のバナーなしHome"></figure><figure style="margin:0;max-width:320px"><figcaption>C：自分で設定を開いた場合</figcaption><img src="/evidence/settings-mobile.png" alt="許可・拒否・閉じるを備えた任意の計測設定"></figure></div></details><!-- /QA_SUMMARY -->
+<p>実SDK・Cloudflareへの実計測送信・Google CMPの本物の地域別表示・法務適合・実機/聴感・Human UX採用は未検証です。今回はproductionドメインを使う通信試験も行いません。単体試験の仮想windowとローカルbrowserを区別します。</p>
+<p>再現：<code>node scripts/consent-r1-build.mjs</code> → <code>node scripts/consent-r1-server.mjs</code>。既存4383/4384が使用中なら起動し直さないでください。今回起動したReviewプロセスはHuman試遊用に残し、QA browserは終了します。</p></section>
+
+<section><h2>8. 一次資料と判定の限界</h2><p>2026-09-21参照。FACTは公開仕様またはsource観測、PROVIDER REQUIREMENTはprovider条件、LEGAL INTERPRETATIONはTinlumoへの適用評価、TINLUMO POLICYは提案、UNKNOWNは未確認として分離しました。法的判断を確定する文書ではありません。</p><ol>
+<li id="s1">S1 <a href="https://www.cloudflare.com/web-analytics/">Cloudflare Web Analytics：Cookie/localStorage/fingerprinting不使用</a></li>
+<li id="s2">S2 <a href="https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/">収集項目</a> / <a href="https://developers.cloudflare.com/web-analytics/data-metrics/data-origin-and-collection/">Performance APIと送信</a></li>
+<li id="s3">S3 <a href="https://developers.cloudflare.com/web-analytics/faq/">Cloudflare FAQ：手動挿入、通信先、query、保持/閲覧</a></li>
+<li id="s4">S4 <a href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/">他のCloudflare機能のCookie</a> / <a href="https://www.cloudflare.com/privacypolicy/">Privacy Policy</a></li>
+<li id="s5">S5 <a href="https://support.google.com/adsense/answer/13554116?hl=en">Google：EEA/UK/Swiss認定TCF CMP</a></li>
+<li id="s6">S6 <a href="https://support.google.com/adsense/answer/10960768?hl=en">Google CMP作成・拒否・言語・公開</a> / <a href="https://developers.google.com/funding-choices/fc-api-docs">Privacy &amp; messaging API・撤回導線</a></li>
+<li id="s7">S7 <a href="https://www.edpb.europa.eu/system/files/documents/2024-10/edpb_guidelines_202302_technical_scope_art_53_eprivacydirective_v2_en_0.pdf">EDPB Guidelines 2/2023最終版 ¶36–40、53</a></li>
+<li id="s8">S8 <a href="https://www.cnil.fr/fr/questions-reponses-lignes-directrices-modificatives-et-recommandation-cookies-traceurs">CNIL：計測免除の条件 §9</a></li>
+<li id="s9">S9 <a href="https://www.gesetze-im-internet.de/ttdsg/__25.html">ドイツTDDDG §25</a></li>
+<li id="s10">S10 <a href="https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/">ICO：統計目的等の例外と拒否方法</a></li>
+<li id="s11">S11 <a href="https://www.edoeb.admin.ch/en/cookie-guidelines-updated-version">FDPIC：2025年Cookie等ガイド</a></li>
+<li id="s12">S12 <a href="https://www.ppc.go.jp/all_faq_index/faq2-q2-8/">PPC：個人関連情報</a></li>
+<li id="s13">S13 <a href="https://security-portal.cyber.go.jp/guidance/law-handbook/v2-07.html">政府NCO：外部送信規律</a> / <a href="https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/gaibusoushin_kiritsu_00002.html">総務省FAQ</a>（総務省canonical本文は今回取得エラー。NCO説明と区別し、対象性は未確定）</li>
+<li id="s14">S14 <a href="https://www.oag.ca.gov/privacy/ccpa">California DOJ：CCPAの適用・拒否</a></li>
+<li id="s15">S15 <a href="https://support.google.com/adsense/answer/10961479?hl=en">Google US message</a> / <a href="https://support.google.com/adsense/answer/16371792?hl=en">GPC / RDP</a></li>
+</ol><p>CloudflareのEU除外オプションは、自動で全法域の適法性を保証するものではありません。今回は地域別配信ルールを作成しません。<a href="https://blog.cloudflare.com/the-rum-diaries-enabling-web-analytics-by-default/">Cloudflare公式説明</a></p></section>
+<p><b>TINLUMO_CONSENT_ARCHITECTURE_R1_READY<br>HUMAN_CONSENT_DECISION_PENDING</b></p>
+</body></html>

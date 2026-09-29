@@ -1,0 +1,170 @@
+{
+  "authority": "GAME005_WEB_V1_FULL_GAME_HUMAN_PLAY_GATE_PASS",
+  "checkpointCreated": false,
+  "files": [
+    {
+      "file": "game005-island/web-v1-r1/src/art.ts",
+      "sha256": "b5f12213a6f412b2239dac339bf288d86a5e9c2db7ab35dfba07fa4716fcced6"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/audio.ts",
+      "sha256": "b3f3cb58e80751c361cfd0f428a5a6eff132eca84b1dda535078746f9b37eb9b"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/completion.ts",
+      "sha256": "882ee72a51f898b7ab36879394dc0de2dfb055002fc85ce98b6386b56797831c"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/core.ts",
+      "sha256": "5ae69fdd03f2b7a441342d462dc2945f33ab11054839b7f463bd9c45174b4696"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/cove-art.ts",
+      "sha256": "9442ec849eb702c63c343457bf7f12f5bfc05fa42893b235c435add4f52529aa"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/game.ts",
+      "sha256": "b2a1abb21a756bb4318f1c2500a2bf453872ded379553422a1299ec932b40848"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/gold.css",
+      "sha256": "b1cdf0f33df56bffdf77bf9db18c6b562692723434886d31e3da9b598aad0945"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/hill-art.ts",
+      "sha256": "ffea40af5bda370d232e3838167486c3c02c5e76d5c1c200bb4e318f0548471b"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/hill-layout.ts",
+      "sha256": "fbcb07ac67ece82fa6b8d21018bbdec737212067bca4ecdaffc5a9f792b6207a"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/layout.ts",
+      "sha256": "26a324d2c7ba93d6c6ff5f97e55bdea9b44f7af39b9f5806f37c3f92e775d790"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/live.css",
+      "sha256": "18cdfa72fd872d6ab586bf577e80ededdc38160d026329e060d04ddf058dddc9"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/save-key.ts",
+      "sha256": "ab9cfc1897550aa4582b4005e07110d9027967730dc6a7eadc77baddf0956296"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/scene.ts",
+      "sha256": "813747c41a4d55483a8bb5c9c0d8ebfbe3edecb4783a1d9839f046617ccaf04e"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/storage.ts",
+      "sha256": "b48c7362a954982926612af548d66c2308c0a6f17ed92fedad72ba74392c6ed1"
+    },
+    {
+      "file": "game005-island/web-v1-r1/src/ui-copy.ts",
+      "sha256": "2828a2992b484170c0109586f482c95d1069d07d06a551af85b6fac68f31eb68"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/bridge.png",
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/commons.png",
+      "sha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/cove.png",
+      "sha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/dock.png",
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/hillpath.png",
+      "sha256": "41e37efde5dc70e00f04ca2fdcec86891bdf9cf0f9e5d0b0f86317d5f9acd2c5"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/house.png",
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/lookout.png",
+      "sha256": "e30a3e51ea984cccc382d40730dedbb6df934b2f4864f41b0e72fb42b7b7e7cd"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/lumber.png",
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/market.png",
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "file": "game005-island/web-v1-r1/assets/promenade.png",
+      "sha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151"
+    },
+    {
+      "file": "game005-island/web-v1-r1/app/index.html",
+      "sha256": "768b50be336d1ab6ab63f01ebaf7a34a4957b8d9ec8d817ec43380597f2967f0"
+    },
+    {
+      "file": "game005-island/web-v1-r1/app/main.ts",
+      "sha256": "4e64f5922c01da1ddd09f45e7e63629fa5925b72a778ddfd9fecfcc9f6699862"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/bridge-BKetEhnw.png",
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/commons-CEfu4S30.png",
+      "sha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/cove-D6J7H1QG.png",
+      "sha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/dock-BZp_GcK3.png",
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/hillpath-CNyYb8Mi.png",
+      "sha256": "41e37efde5dc70e00f04ca2fdcec86891bdf9cf0f9e5d0b0f86317d5f9acd2c5"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/house-DUowNtYr.png",
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/index-B45CS-CE.css",
+      "sha256": "1c6a8f863ffae94153c11b492a56d07645caf074ba5b1550154b322c4ebbf6c5"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/index-DA_Gw4iR.js",
+      "sha256": "5a65791356989b09420a073c5695fe66f8ae5dd44adaaf556ac61f6be8fcde1c"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/lookout-C0xcxQst.png",
+      "sha256": "e30a3e51ea984cccc382d40730dedbb6df934b2f4864f41b0e72fb42b7b7e7cd"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/lumber-CmLHj2ea.png",
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/market-C6t55qk3.png",
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/assets/promenade-DVNleZxF.png",
+      "sha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/index.html",
+      "sha256": "ce44dc6466f06be34a9810dc6473b066dd583ce4e451a9992e9a3abce97e5710"
+    },
+    {
+      "file": "game005-island/web-v1-r1/dist/THREE-LICENSE.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    }
+  ]
+}

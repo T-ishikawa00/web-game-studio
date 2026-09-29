@@ -1,0 +1,142 @@
+{
+  "status": "HUMAN ACCEPTED / GOLD QUALITY NORTH STAR",
+  "at": "2026-09-27T09:38:59.034Z",
+  "humanQuote": "どちらもA一択。変なBGMはいらない",
+  "selected": [
+    {
+      "id": "G01",
+      "lang": "JA",
+      "source": "marketing/youtube-gold-r1-2026-09-27/public/videos/G01-JA.mp4",
+      "file": "marketing/youtube-relaunch-r1-2026-09-27/public/videos/G01-JA.mp4",
+      "sha256": "60fc65f5e3bcff97f7b0ddd36c25f906c78528868578ae6a33469304a010b489",
+      "audio": "Accepted game SE ONLY",
+      "humanAccepted": true,
+      "immutable": true,
+      "addedBgm": false,
+      "narration": false
+    },
+    {
+      "id": "G01",
+      "lang": "EN",
+      "source": "marketing/youtube-gold-r1-2026-09-27/public/videos/G01-EN.mp4",
+      "file": "marketing/youtube-relaunch-r1-2026-09-27/public/videos/G01-EN.mp4",
+      "sha256": "18c4b70bb1862877a8b75ba18362ef20625b903d4b871a4032d309dc14d4a299",
+      "audio": "Accepted game SE ONLY",
+      "humanAccepted": true,
+      "immutable": true,
+      "addedBgm": false,
+      "narration": false
+    },
+    {
+      "id": "G02",
+      "lang": "JA",
+      "source": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G02-JA-A.mp4",
+      "file": "marketing/youtube-relaunch-r1-2026-09-27/public/videos/G02-JA.mp4",
+      "sha256": "253dd863c446b21d539ebc7538d17210a7ac68b97a9434726858bafb643a1697",
+      "audio": "Accepted game SE ONLY",
+      "humanAccepted": true,
+      "immutable": true,
+      "addedBgm": false,
+      "narration": false
+    },
+    {
+      "id": "G02",
+      "lang": "EN",
+      "source": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G02-EN-A.mp4",
+      "file": "marketing/youtube-relaunch-r1-2026-09-27/public/videos/G02-EN.mp4",
+      "sha256": "832d255f7934612d864d2db3a868586a88709b56c04f5cdfd7059f06059afb08",
+      "audio": "Accepted game SE ONLY",
+      "humanAccepted": true,
+      "immutable": true,
+      "addedBgm": false,
+      "narration": false
+    },
+    {
+      "id": "G03",
+      "lang": "JA",
+      "source": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G03-JA-A.mp4",
+      "file": "marketing/youtube-relaunch-r1-2026-09-27/public/videos/G03-JA.mp4",
+      "sha256": "21376136e015e435dcf2035a7fcf62ef89c0f97ea67d173d526832b14a2ec66a",
+      "audio": "Accepted game SE ONLY",
+      "humanAccepted": true,
+      "immutable": true,
+      "addedBgm": false,
+      "narration": false
+    },
+    {
+      "id": "G03",
+      "lang": "EN",
+      "source": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G03-EN-A.mp4",
+      "file": "marketing/youtube-relaunch-r1-2026-09-27/public/videos/G03-EN.mp4",
+      "sha256": "7336490300ad25bf3ddc48428e578644521213d03e0497faa9f36633e9ed0beb",
+      "audio": "Accepted game SE ONLY",
+      "humanAccepted": true,
+      "immutable": true,
+      "addedBgm": false,
+      "narration": false
+    }
+  ],
+  "rejected": [
+    {
+      "file": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G02-EN-B.mp4",
+      "sha256": "bb2af451ae2359f0572fb863e1f96cde375c3e334d68cb213d608966e4d3e1fe",
+      "status": "DO NOT POST",
+      "humanDecision": "Rejected: added BGM has no value for these clips."
+    },
+    {
+      "file": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G02-JA-B.mp4",
+      "sha256": "2d3b3f13148eb9eddef2db2f9e00c2ee8ce4813f6dfdb0cc715e00ac95f161f7",
+      "status": "DO NOT POST",
+      "humanDecision": "Rejected: added BGM has no value for these clips."
+    },
+    {
+      "file": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G03-EN-B.mp4",
+      "sha256": "31c8998ddacf501e9e5ae548aa5bb6838dd6bb76c64cc6cadee85272fb72978a",
+      "status": "DO NOT POST",
+      "humanDecision": "Rejected: added BGM has no value for these clips."
+    },
+    {
+      "file": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G03-EN-C.mp4",
+      "sha256": "7cd1d4e8b92cdd64137666235940564fb4f00c04b1474b764918897c00e03558",
+      "status": "DO NOT POST",
+      "humanDecision": "Rejected: added BGM has no value for these clips."
+    },
+    {
+      "file": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G03-JA-B.mp4",
+      "sha256": "cfa7f3c767045687d46e665fc329d05ac6987aef62b0b6afb3f6541d2c654a07",
+      "status": "DO NOT POST",
+      "humanDecision": "Rejected: added BGM has no value for these clips."
+    },
+    {
+      "file": "marketing/youtube-gold-audio-r2-2026-09-27/public/videos/G03-JA-C.mp4",
+      "sha256": "d92066c64667585081901ce37d3ee745b4bebe6f0c2455f6f020ad183dcfec23",
+      "status": "DO NOT POST",
+      "humanDecision": "Rejected: added BGM has no value for these clips."
+    },
+    {
+      "file": "marketing/youtube-gold-r1-2026-09-27/public/videos/G02-JA.mp4",
+      "sha256": "d25cc3e650d151e65f2c9ec5af960752749a1af561216d955c8f0558bd4668e8",
+      "status": "DO NOT POST",
+      "humanDecision": "Superseded original music mix; use accepted A only."
+    },
+    {
+      "file": "marketing/youtube-gold-r1-2026-09-27/public/videos/G02-EN.mp4",
+      "sha256": "99cc348b55a64c4d201299a11719767eeebbaaed97a9dba5dc6193bf074b5694",
+      "status": "DO NOT POST",
+      "humanDecision": "Superseded original music mix; use accepted A only."
+    },
+    {
+      "file": "marketing/youtube-gold-r1-2026-09-27/public/videos/G03-JA.mp4",
+      "sha256": "38e0f3b21db3fc475298319c2b5bad825984c16758c9890d1689ec04e1d178bf",
+      "status": "DO NOT POST",
+      "humanDecision": "Superseded original music mix; use accepted A only."
+    },
+    {
+      "file": "marketing/youtube-gold-r1-2026-09-27/public/videos/G03-EN.mp4",
+      "sha256": "606e0af73691677e9451e94f77f0e64d296954745c06ecbb43473abe8d812e05",
+      "status": "DO NOT POST",
+      "humanDecision": "Superseded original music mix; use accepted A only."
+    }
+  ],
+  "scope": "Acceptance of these six video/audio files only. New G04–G15 remain Human Review pending. No publishing authority."
+}

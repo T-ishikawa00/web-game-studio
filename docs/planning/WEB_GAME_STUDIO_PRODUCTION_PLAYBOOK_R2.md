@@ -1,3 +1,7 @@
+<!-- greenfield-system-r1 -->
+> **2026-09-28 Greenfield新作の制作方式R1（Human Process Gate待ち）**：新作は [Creation System R1](TINLUMO_NEW_GAME_CREATION_SYSTEM_R1.md) のPhase 0〜5と [Visual Context Firewall](GREENFIELD_VISUAL_CONTEXT_FIREWALL_R1.md) を入口にする。下記H1/H2の工程は新方式の対応表で扱い、既存作品のArt/Craft・具体例を新作のCreative Authorityへ自動継承しない。Human Accepted画像→新作Bible→Gold Craft Slice→Human Craft Gateを省略しない。§4.2の影響別QA、§8の記録、事業・安全規則は維持する。旧本文・既存Accepted基準は履歴を含めそのまま保全する。
+<!-- greenfield-system-r1:end -->
+
 # Web Game Studio — Production & Growth Playbook R2
 
 > **参照方法更新（2026-09-15 Human承認）**：現行の許可・採用・未実装・停止点は PRODUCTION_CURRENT（参照原本はPrivate保全・候補には非同梱）、安全境界と読込ルーターは AGENTS（参照原本はPrivate保全・候補には非同梱）。本書の旧「今回」「次」「再開」は作成時点の工程を指す。§0のsnapshot、§1.2・§7の順序、§9のTiny Pilot一括指示は履歴であり、完了済み工程や単発Git許可を再実行しない。運用原則は必要な節を読む。旧Pilot等の全資料読込手順は入口の作業別読込に置き換える。START_HERE原本・事業方針・安全/品質ゲートは保持。現在の外部初見DEFERREDを過去の工程表だけで必須実行へ戻さない。

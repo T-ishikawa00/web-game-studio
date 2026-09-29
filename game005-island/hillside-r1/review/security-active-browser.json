@@ -1,0 +1,77 @@
+{
+  "at": "2026-09-23T13:28:34.949Z",
+  "status": "FAIL",
+  "scanner": "gitleaks 8.30.1",
+  "scans": [
+    {
+      "target": "game005-island/hillside-r1",
+      "status": "FAIL",
+      "findings": [
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Local State",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-JdI4wx/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        },
+        {
+          "file": "game005-island/hillside-r1/.cache/browser-temp/playwright_chromiumdev_profile-32i3MC/Default/Secure Preferences",
+          "type": "generic-api-key",
+          "action": "HUMAN REVIEW REQUIRED"
+        }
+      ]
+    },
+    {
+      "target": "game005-island/hillside-r1/dist",
+      "status": "PASS",
+      "findings": []
+    }
+  ],
+  "scope": "Isolated candidate including ignored files and temporary profiles, plus distribution",
+  "fullProject": "Not rerun; historical raw FAIL remains. This is not full-project PASS.",
+  "S04_S05": "UNKNOWN / UNRESOLVED. Previous checkpoint-only risk acceptance consumed, not reused.",
+  "allowlistChanged": false
+}
