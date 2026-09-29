@@ -1,5 +1,7 @@
 # Tinlumo — Initial Soft Launch decisions and Release Checklist
 
+> **Historical Release判断・証拠（2026-09-17時点）。** 以下の「最新」「PUBLIC_RELEASE_BLOCKED」、当時の未配信・Gate・単発許可は現在のProduction状態や現在のRelease Gateではない。現在地の正本はPRODUCTION_CURRENT.md（参照原本はPrivate保全・候補には非同梱）。当時の判断と証拠は書き換えず保全する。
+
 2026-09-17 最新 manual Analytics差分：Cloudflareのmanual snippetとauto_install=falseを確認。default OFF、許可後のみmoduleを1個読み込む。未同意/拒否/拒否再読込のJS・beacon送信処理0、許可後JS HTTP200・XHR送信試行1、応答status0につき配送/集計未確認。Preview保護/計測OFF維持。本番deploy/公開接続0、最終Human承認待ち。今回許可された1checkpoint/通常pushの詳細と残Gateは [最新Final Gate](TINLUMO_PUBLIC_DEPLOY_FINAL_GATE_R1.md) を正本とする。以下の接続未設定・stage/commit/push0等は過去時点の記録。
 
 

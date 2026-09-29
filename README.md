@@ -1,8 +1,22 @@
-# Web Game Studio — Portal Core R1
+# Web Game Studio / Tinlumo
 
-Current accepted Tiny build: [Craft Baseline R2](docs/games/CRAFT_BASELINE_R2.md) = preserved R1 + Human Accepted BGM B (D1 Rhythm Refine /80 BPM). BGM Pilot 01 Human PASS; further tuning frozen. [Checkpoint](docs/qa/tiny-craft-r2-checkpoint/REPORT.md) / [Studio Craft learning](docs/planning/CRAFT_PIPELINE_LEARNING_R2.md). All original comparison evidence is retained; public release and remaining Human gates are separate.
+自作ブラウザゲームと日英Portalの開発リポジトリです。主な構成はAstro・TypeScript・静的配布物で、作品別の実装とReview／QA証拠を分けて保管します。**公開本数、Production、Human Gate、Release、Provider、Securityの現在地はPRODUCTION_CURRENT.md（参照原本はPrivate保全・候補には非同梱）を参照してください。** このREADMEの後半には日付付きの制作履歴が残っています。
 
-Current production / validation / growth standard: [Playbook R2](docs/planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md). **Tiny Delivery C: Human Craft Acceptance PASS**, adopted as [Craft Baseline R1](docs/games/CRAFT_BASELINE_R1.md). Current state and acceptance boundaries（参照原本はPrivate保全・候補には非同梱） / [final checkpoint QA](docs/qa/tiny-craft-checkpoint/REPORT.md) / [preserved A/B/C Review](docs/qa/tiny-craft-pilot-01/REPORT.md). Preserve 57 puzzles and onboarding; earlier 54-puzzle reports are historical. This PASS excludes physical phones, first-time users, full gameplay, public/legal/ads and other games' Audio/Motion.
+- Codexの作業範囲・権限・参照ルーター：AGENTS.md（参照原本はPrivate保全・候補には非同梱）
+- 事業・安全方針の原本：START_HERE_CODEX_WEB_GAME_STUDIO.md（参照原本はPrivate保全・候補には非同梱）
+- SecurityとHookの運用：[SECURITY.md](SECURITY.md)
+- 制作・QAの手順：[Production Playbook R2](docs/planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md)
+- 開発者向け：[ローカル起動](#ローカル起動powershell)／[check・test・build・route QA](#本番ビルドと技術qa)／[構成](#構成)
+
+前提はNode.js 22.12以上とnpmです。主要な場所は `src/`（Portal・Productionのソース）、`public/`（静的素材）、`docs/`（Authority・仕様・Review／QA）、`tests/` と `scripts/`（検証・ローカルツール）です。以下の起動手順はローカル開発用であり、Productionの配布入口は現在地と対象Release記録を確認してください。
+
+## 2026-09-13〜15の制作・受入記録（historical）
+
+この節から「ローカル起動」までのAcceptance、公開数、Gate、Review URL、単発Git許可は**各工程当時の記録**です。現在の状態・作業許可として使用しません。
+
+当時採用したTiny build: [Craft Baseline R2](docs/games/CRAFT_BASELINE_R2.md) = preserved R1 + Human Accepted BGM B (D1 Rhythm Refine /80 BPM). BGM Pilot 01 Human PASS; further tuning frozen. [Checkpoint](docs/qa/tiny-craft-r2-checkpoint/REPORT.md) / [Studio Craft learning](docs/planning/CRAFT_PIPELINE_LEARNING_R2.md). All original comparison evidence is retained; public release and remaining Human gates are separate.
+
+当時のproduction / validation / growth standard: [Playbook R2](docs/planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md). **Tiny Delivery C: Human Craft Acceptance PASS**, adopted as [Craft Baseline R1](docs/games/CRAFT_BASELINE_R1.md). Current state and acceptance boundaries（参照原本はPrivate保全・候補には非同梱） / [final checkpoint QA](docs/qa/tiny-craft-checkpoint/REPORT.md) / [preserved A/B/C Review](docs/qa/tiny-craft-pilot-01/REPORT.md). Preserve 57 puzzles and onboarding; earlier 54-puzzle reports are historical. This PASS excludes physical phones, first-time users, full gameplay, public/legal/ads and other games' Audio/Motion.
 
 ## Previous local review: 導入と光の因果表現
 
@@ -12,7 +26,7 @@ Human試遊を受け、ふたりの短い導入3問・安定IDによる順序変
 
 ゲームは `npm run preview:prototypes`（4324）、今回のレビューは `node scripts/learning-review-server.mjs`（4326）。保存があれば同じIDの続きから再開し、面一覧から新しい01へ移れます。
 
-## Baseline: Batch 01 R5 — Visual Language Human Acceptance PASS
+## Historical Baseline: Batch 01 R5 — Visual Language Human Acceptance PASS
 
 2026-09-15、HumanがR5の色・形・質感・最小テキスト・盤面中心の設計・R4操作との統合・3表示のVisual方向を正式採用。[現行Baselineと受入範囲](docs/games/GAME_VISUAL_LANGUAGE_BASELINE_R5.md) / [R5 Review Pack](docs/qa/batch-01-r5/REVIEW.html) / [制作レシピ](docs/qa/batch-01-r5/RECIPE.md) / [checkpoint QA](docs/qa/batch-01-checkpoint/REPORT.md)。全54問のHumanゲーム性受入・実機・初見・公開・法務・広告は未完了です。
 
@@ -20,11 +34,11 @@ Human試遊を受け、ふたりの短い導入3問・安定IDによる順序変
 
 ## Historical: Batch 01 R4 — 直接操作UI / Humanレビュー待ち
 
-最新の3作品レビューは [R4 Review Pack](docs/qa/batch-01-r4/REVIEW.html) / [QA・保全・Security調査](docs/qa/batch-01-r4/REPORT.md)。[R4仕様原本](docs/games/GAME_DIRECT_MANIPULATION_R4.md)に従い、54問・ルール・Art・R3の3表示を維持して盤面への直接操作と選択式D-padへ変更しました。下記のR1〜R3は以前の工程記録です。今回のUI／操作／全編Human AcceptanceはPENDING、Security候補1件もHuman判定待ちです。
+当時の3作品レビューは [R4 Review Pack](docs/qa/batch-01-r4/REVIEW.html) / [QA・保全・Security調査](docs/qa/batch-01-r4/REPORT.md)。[R4仕様原本](docs/games/GAME_DIRECT_MANIPULATION_R4.md)に従い、54問・ルール・Art・R3の3表示を維持して盤面への直接操作と選択式D-padへ変更しました。下記のR1〜R3は以前の工程記録です。今回のUI／操作／全編Human AcceptanceはPENDING、Security候補1件もHuman判定待ちです。
 
 起動中の [レビュー](http://127.0.0.1:4325/) から日英・通常／縦／横の18リンクと比較画像・操作動画へ進めます。再起動は `npm run preview:prototypes`（4324）と `node scripts/r4-review-server.mjs`（4325）。ポートの重複起動を避けてください。今回のstage・commit・push・deployは0です。
 
-AI支援による自社開発ブラウザゲームと、日英の自社Portal。**Portal Baseline R1はHuman Acceptance PASS・正式採用 / 最初の実ゲームのテーマ選択待ち**。公開ゲームは0本です。
+2026-09-13時点の記録：AI支援による自社開発ブラウザゲームと、日英の自社Portal。**Portal Baseline R1はHuman Acceptance PASS・正式採用**。当時は最初の実ゲームのテーマ選択待ち、公開ゲーム0本でした。現在の公開数とGateは現在地（参照原本はPrivate保全・候補には非同梱）を参照してください。
 
 ## Portal Baseline R1 — Human Acceptance PASS
 
@@ -61,7 +75,7 @@ Visual実装完了時はcommit/push/deploy・実広告・購入・外部サー�
 最上位Authority: START_HERE_CODEX_WEB_GAME_STUDIO.md（参照原本はPrivate保全・候補には非同梱）。元文書は変更していません。ゲーム「Connection Lab」はPortal接続用の内部fixture 1本のみで、Game 001・販売作品・公開本数には含みません。
 
 ## ローカル起動（PowerShell）
-Node.js 22.12以上、npmが必要です。今回確認したNodeは24.14.0、npmは11.9.0。
+Node.js 22.12以上、npmが必要です。2026-09-15時点の確認値はNode 24.14.0 / npm 11.9.0（当時の環境記録であり、現行値の保証ではありません）。
 
 ```powershell
 Set-Location -LiteralPath 'C:\projects\Web Game Studio'
@@ -84,7 +98,7 @@ npm run test:routes
 
 本番出力は `dist/`。確認用プレビュー: [日本語](http://127.0.0.1:4322/ja/) / [内部ゲーム](http://127.0.0.1:4322/ja/play/connection-lab/)。`test:routes` は4322の本番プレビューにHTTPで接続し、日英ルート・リンク・素材・404を検査します。別ポートの場合は `$env:QA_BASE_URL='http://127.0.0.1:任意ポート'` を設定します。
 
-このAstro版のdev/previewはバックグラウンドプロセスで起動します。状態確認と停止:
+このAstro版のdev/previewはバックグラウンドプロセスで起動します。状態確認と、自分が起動したプロセスの停止:
 ```powershell
 npm run dev -- status
 npm run preview -- status
@@ -95,6 +109,8 @@ npm run preview -- stop
 ブラウザQAの実施手順・結果は [QA記録](docs/qa/BOOTSTRAP_QA_R1.md)。lintは未設定で、型チェックと意味のあるadapter/routeテストを実施。外部サービス接続・実機互換性の全検証は含みません。
 
 ## 構成
+
+以下の詳細表は初期Portal実装時点の構成記録です。現在の全作品・Production構成は冒頭の概要と現在地（参照原本はPrivate保全・候補には非同梱）から確認してください。
 | ディレクトリ | 役割 |
 |---|---|
 | `src/pages/`, `src/layouts/`, `src/components/` | 静的Portal、日英のHome/index/detail/play/About/Privacy/Terms/Contact、404 |
@@ -109,17 +125,21 @@ npm run preview -- stop
 
 ゲーム追加時は、まず `src/data/games.ts` に安定したID/slug、日英情報、版付きbuildPathとcover、inputs/devices/orientation、state、related、save/ads/legalを登録。現在のプレイ接続契約は内部fixture用であり、実ゲームでは同じadapterを利用するruntime契約を作品のA–C段階で拡張します。registryに追加するだけで任意の第三者ゲームが動くとは保証しません。
 
-## セーブ・広告・プライバシー
+## 2026-09-13〜15のBootstrap・prototype記録（historical）
+
+以下の実装状態・広告・計測・公開数・許可・Review URLは当時の記録です。現在のProduction／Provider状態や作業許可には使いません。
+
+### セーブ・広告・プライバシー
 - セーブは `wgs:save:<gameId>`。schema/version入り、旧schema移行例あり。不正/未知版は元データを残して一時モード。resetはそのゲームだけを消します。保存できなければ成功表示しません。
 - adはmock/disabledのみ。明示ボタンでpause/resumeを確認。rewardedは任意、skipでは報酬なし。前回mockから60秒・入力後1.2秒は表示しません。これは内部QA方針で本番頻度ではありません。
 - localStorage/sessionStorageはブラウザと**origin（scheme/host/port）**ごと。4321と4322で保存が別なのは仕様。別端末同期・消去後の復旧はありません。
 - analyticsは最新50件のページメモリのみ。広告/分析サービスへ送信しません。法務文書は草案で、適法性や権利処理の保証ではありません。
 
-## 今回の境界と次の判断
+### 当時の境界と次の判断
 変更先は `C:\projects\Web Game Studio` のみ。Gitはmainを初期化し、commit/push/remote作成なし。公開/deploy/購入/契約/広告申請/実広告/外部メッセージ送信なし。全ページnoindexとrobots Disallowですが、これはアクセス制御ではありません。公開前にinternal/draftの除外と別途Human承認が必要です。
 
 HumanはHomeの印象、日英切替、スマホ幅の操作、内部fixtureの保存/広告復帰を確認してください。その後 [3テーマ](docs/planning/INITIAL_GAME_THEME_CARDS_R1.md) からA幼体進化 / B光と仕掛け / C一手の連鎖のいずれかを選択します。実ゲームの全制作・公開可否はこのbootstrapでは承認されていません。
-# Prototype Batch 01 — R1 historical opening slice
+### Prototype Batch 01 — R1 historical opening slice
 
 Human選択の「ひかりの仕掛け庭」「ふたりの帰り道」「ちいさな配送パズル」を各5問の導入MVPとして実装。Portal Baseline R1を維持し、公開ゲーム0本・Design Preview10見本とは別のprototype buildへ隔離しています。
 

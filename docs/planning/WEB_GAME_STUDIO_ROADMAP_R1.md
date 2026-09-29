@@ -1,5 +1,7 @@
 # Web Game Studio Roadmap R1
 
+> **Historical roadmap（2026-09-13時点の計画）。** 以下の「公開0本」「初期段階」「約10本」や未採用・未契約の記述は当時の判断・仮説であり、現在のProduction状態、Human Gate、実行許可を表さない。現在地の正本はPRODUCTION_CURRENT.md（参照原本はPrivate保全・候補には非同梱）。過去の計画本文は証拠として保全する。
+
 日付: 2026-09-13 / Authority: `../../START_HERE_CODEX_WEB_GAME_STUDIO.md`（実際の参照はリポジトリルート） / 状態: ローカル基盤、Human未受入。
 
 ## 事業仮説と対象
