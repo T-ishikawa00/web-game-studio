@@ -7,6 +7,7 @@ import {build} from 'esbuild';
 import sharp from 'sharp';
 import {publicHtml} from './release-prepare.mjs';
 import {adaptEntry} from './visual-remaster-adapter.mjs';
+import {productionAdsenseHtml} from './production-adsense-head.mjs';
 // Preserve the released artifact/evidence by giving editorial candidates their
 // own task, asset cache, Astro cache and output. No-argument behavior is unchanged.
 const args=process.argv.slice(2);
@@ -74,12 +75,14 @@ const routes=[];
 for(const file of walk(out))if(file==='index.html'||/^(ja|en)\/.*index\.html$/.test(file)){
  const route='/'+file.replace(/index\.html$/,'');routes.push(route);let html=fs.readFileSync(out+'/'+file,'utf8');
  html=publicHtml(html,route,'https://tinlumo.com',/<section\b[^>]*data-analytics-consent/.test(html)?measurement.publicBeaconId:null,{indexable:true});
- put(out+'/'+file,html.replace('</head>',ownership+'</head>'));
+ put(out+'/'+file,productionAdsenseHtml(html.replace('</head>',ownership+'</head>')));
 }
 // Raw game entry points remain noindex, and never contain a Portal/review dependency.
 const {productionGameHtml}=await import('./visual-remaster-game-html.mjs');
 for(const def of defs){const file=out+'/games/'+def.id+'/'+def.version+'/index.html';put(file,productionGameHtml(fs.readFileSync(file,'utf8'),{...def,buildPath:'/games/'+def.id+'/'+def.version+'/index.html',description:def.summary},'ja'));}
 put(out+'/robots.txt','User-agent: *\nAllow: /\nSitemap: https://tinlumo.com/sitemap.xml\n');copy(accepted.root+'/_headers',out+'/_headers');
+// Root publisher declaration must also survive Production candidate rebuilds.
+copy('public/ads.txt',out+'/ads.txt');
 put(out+'/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map(route=>`<url><loc>https://tinlumo.com${route}</loc></url>`).join('')}</urlset>`);
 assert.equal(routes.length,1+2*(9+2*defs.length));
 // Island engine, CSS and license remain byte-identical. Public HTML and the credits heading receive copy-only adaptation.

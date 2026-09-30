@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-30T17:01:06.657Z",
+  "command": "node --test tinlumo-adsense-head-r1/head.test.mjs tests/consent-production-r1.mjs",
+  "status": "PASS",
+  "tests": 12,
+  "pass": 12,
+  "fail": 0,
+  "headTests": 4,
+  "consentTests": 8,
+  "sourceHashes": [
+    {
+      "file": "scripts/production-adsense-head.mjs",
+      "sha256": "7466dc5bc28910c1e826e62f9a08c56d4abc67ec8f1132baf56a37dc170886f6"
+    },
+    {
+      "file": "tinlumo-adsense-head-r1/head.test.mjs",
+      "sha256": "aeb97c4f5e7876dabf6cde85476dc3289b1a8fd7c92caf525c61cd300669e677"
+    },
+    {
+      "file": "tests/consent-production-r1.mjs",
+      "sha256": "78fb8e8162158e685812beb3984eb65b75902b5da156b9a48ef167d1a0873ff0"
+    },
+    {
+      "file": "src/rc/analytics-consent.js",
+      "sha256": "df6797d80630955beadac53766dff8b11313185d6d792b4abf0f0292d01bf0f0"
+    }
+  ]
+}

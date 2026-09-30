@@ -1,0 +1,107 @@
+{
+  "at": "2026-09-30T16:56:52.491Z",
+  "status": "PASS",
+  "productionOriginMappedToLocalAssets": true,
+  "googleScriptExecuted": false,
+  "analyticsProviderStubbed": true,
+  "externalNetworkAllowed": false,
+  "checks": [
+    {
+      "locale": "ja",
+      "analyticsDefaultOff": true,
+      "explicitAllowOnce": true,
+      "allowPersists": true,
+      "withdrawalPersists": true,
+      "googleFailureDoesNotBreakSettings": true,
+      "scriptCount": 1,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "analyticsDefaultOff": true,
+      "explicitAllowOnce": true,
+      "allowPersists": true,
+      "withdrawalPersists": true,
+      "googleFailureDoesNotBreakSettings": true,
+      "scriptCount": 1,
+      "overflow": false
+    },
+    {
+      "route": "/en/play/island-connections/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/en/play/light-garden/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/en/play/project-magnet/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/en/play/tiny-delivery/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/en/play/two-ways-home/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/ja/play/island-connections/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/ja/play/light-garden/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/ja/play/project-magnet/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/ja/play/tiny-delivery/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    },
+    {
+      "route": "/ja/play/two-ways-home/",
+      "scriptCount": 1,
+      "googleLoaderFailure": true,
+      "gameCanvasPresent": true,
+      "analyticsDenied": true
+    }
+  ],
+  "freshDisposableProfile": true,
+  "profilePathRecorded": false,
+  "appExceptions": 0,
+  "googleRequestsBlocked": 18,
+  "analyticsRequestsStubbed": 4,
+  "otherExternalRequestsBlocked": 0,
+  "temporaryProfileRemoved": true
+}

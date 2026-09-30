@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-30T17:01:06.656Z",
+  "status": "PASS",
+  "headUnchanged": true,
+  "upstreamUnchanged": true,
+  "indexUnchanged": true,
+  "indexEmpty": true,
+  "protectedFilesUnchanged": 284,
+  "previousCurrentAndAdsOnlyEvidencePreserved": true,
+  "entryUntrackedRetained": 14924,
+  "missingEntryPaths": 0,
+  "productionHtmlChangedOnlyBySpecifiedHeadScript": 39,
+  "byteIdenticalExistingProductionAssets": 63,
+  "originalGameRuntimeAndSaveAndConsentUnchanged": true,
+  "sourceBuildDiffExact": true,
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "deployed": false
+}
