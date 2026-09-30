@@ -1,0 +1,40 @@
+{
+  "ja": {
+    "heading": "広告",
+    "introduction": "TinlumoはGoogle AdSenseを利用しており、広告が表示される場合があります。",
+    "thirdParties": "GoogleおよびAdSenseを通じて関与する第三者広告事業者・広告ネットワークは、広告の配信・測定などのためにCookieを設定・読み取るほか、ウェブビーコンやIPアドレスなどを使用して情報を収集・利用する場合があります。",
+    "adPartnersBefore": "Tinlumoは、Googleのよく使用される広告パートナーを自動的に含める設定を利用しています。パートナーはGoogle側の更新に応じて変わります。最新のパートナー一覧と各事業者の情報は、",
+    "adPartnersLabel": "Googleの広告技術パートナー（ATP）一覧",
+    "adPartnersAfter": "をご覧ください。この公式一覧には、よく使用されるパートナーと利用可能なパートナー全体が掲載されています。対象地域でGoogleの同意メッセージが表示される場合は、その「広告パートナー」ページでTinlumoの選択対象のパートナーを確認できます。",
+    "advertisingCookies": "Googleなどの第三者配信事業者は、利用者のTinlumoや他のウェブサイトへの過去のアクセス情報に基づいて広告を配信する場合があります。Googleの広告Cookieにより、Googleとそのパートナーは、こうしたアクセス情報に基づく広告を表示できます。パーソナライズ広告が表示される場合がありますが、実際の取扱いは地域、同意の選択、広告設定などによって異なります。",
+    "optOutBefore": "Googleのパーソナライズ広告は、",
+    "optOutLabel": "Google Ads Settings（広告設定）",
+    "optOutAfter": "から無効にできます。この設定はすべての広告を非表示にするものではなく、Tinlumoでの広告に関する同意の撤回とは別です。",
+    "regionalConsent": "欧州経済領域（EEA）、英国、スイスでは、GoogleのEuropean regulationsメッセージ（同意管理プラットフォーム／CMP）を通じて、広告に関する必要な同意の取得・管理を行います。同意の選択を変更・撤回するには、表示されるGoogleの同意メッセージ、または表示されている場合はページ下部の広告プライバシー設定リンクを利用してください。",
+    "separation": "Google CMPと、Cloudflare Web Analytics用の「計測の設定」（Consent C）は別の仕組みです。計測の許可・拒否はGoogleの広告に関する同意を変更せず、広告に関する同意も計測の選択を変更しません。",
+    "linksIntro": "Googleによる情報の取扱いについては、以下の公式情報をご覧ください。",
+    "privacyLabel": "Google プライバシーポリシー",
+    "partnerLabel": "Googleを使用するサイトやアプリでの情報の利用",
+    "adsLabel": "Googleの広告とCookie",
+    "revisionChanges": "Google AdSenseの利用、広告Cookieと選択方法、Google CMPと任意のアクセス計測の区別を説明し、広告未配信という旧記載を更新。Googleの広告パートナー一覧への案内を追加。"
+  },
+  "en": {
+    "heading": "Advertising",
+    "introduction": "Tinlumo uses Google AdSense, and ads may be displayed.",
+    "thirdParties": "Google and third-party advertising vendors and ad networks involved through AdSense may set and read cookies and use web beacons, IP addresses and similar technologies to collect and use information for purposes such as delivering and measuring ads.",
+    "adPartnersBefore": "Tinlumo uses Google's setting to automatically include commonly used ad partners. The partners change as Google updates the set. For the latest partner lists and information about individual providers, see ",
+    "adPartnersLabel": "Google's ad technology partners (ATPs) list",
+    "adPartnersAfter": ". This official resource lists both commonly used partners and all eligible partners. When Google's consent message is displayed in the relevant regions, you can review the partners selected for Tinlumo on its Ad partners page.",
+    "advertisingCookies": "Third-party vendors, including Google, may serve ads based on your previous visits to Tinlumo or other websites. Google's advertising cookies enable Google and its partners to display ads based on these visits. Personalized ads may be displayed; the actual processing depends on your region, consent choices, advertising settings and other factors.",
+    "optOutBefore": "You can turn off Google's personalized advertising in ",
+    "optOutLabel": "Google Ads Settings",
+    "optOutAfter": ". This does not hide all ads and is separate from withdrawing advertising consent on Tinlumo.",
+    "regionalConsent": "In the European Economic Area (EEA), the United Kingdom and Switzerland, we use Google's European regulations message (a consent management platform, or CMP) to obtain and manage the necessary consent for advertising. To change or withdraw your consent choices, use the Google consent message when displayed, or the advertising privacy settings link at the bottom of the page if it is available.",
+    "separation": "Google's CMP and Analytics settings (Consent C) for Cloudflare Web Analytics are separate systems. Allowing or declining analytics does not change your Google advertising consent, and advertising consent does not change your analytics choice.",
+    "linksIntro": "See the following official information about how Google handles data:",
+    "privacyLabel": "Google Privacy Policy",
+    "partnerLabel": "How Google uses information from sites and apps that use its services",
+    "adsLabel": "Google advertising and cookies",
+    "revisionChanges": "Explaining Google AdSense, advertising cookies and choices, and the distinction between Google's CMP and optional analytics, and updating the previous statement that ads were not served, and adding a reference to Google’s ad partners list."
+  }
+}

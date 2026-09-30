@@ -1,7 +1,11 @@
 ---
-import {documentRevision as revision} from './public-documents';
+import {documentRevision} from './public-documents';
 import type {Locale} from '../data/games';
-const {locale}=Astro.props as {locale:Locale};
+interface Props {
+ locale:Locale;
+ revision?: {prepared:string; effective:string|null; lastUpdated:string|null; changes:Record<Locale,string>; notice:Record<Locale,string>};
+}
+const {locale,revision=documentRevision}=Astro.props;
 const t=(ja:string,en:string)=>locale==='ja'?ja:en;
 ---
 <section class="document-revision" aria-label={t('文書の版と変更','Document version and changes')}>

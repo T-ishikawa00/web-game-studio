@@ -2,13 +2,16 @@
 import type { Locale } from '../data/games';
 import site from './site.json';
 import {publicCopy,magnetSave,islandSave} from './public-catalog';
-import {videoPolicy} from './public-documents';
+import {videoPolicy,documentRevision} from './public-documents';
 import DocumentRevision from './DocumentRevision.astro';
 import analyticsPrivacy from './analytics-privacy.json';
+import adsensePrivacy from './adsense-privacy.json';
 interface Props { locale: Locale; page: string }
 const {locale,page}=Astro.props;
 const t=(ja:string,en:string)=>locale==='ja'?ja:en;
 const p=site.publicLaunch;
+const advertising=adsensePrivacy[locale];
+const legalRevision={...documentRevision,prepared:'2026-10-01',effective:'2026-10-01',lastUpdated:'2026-10-01',changes:{ja:adsensePrivacy.ja.revisionChanges,en:adsensePrivacy.en.revisionChanges}};
 const pending=t('未確定（公開前に決定）','Undecided (required before publication)');
 const title:Record<string,string>={about:t('スタジオについて','About the studio'),contact:t('お問い合わせ・運営者情報','Contact & operator'),privacy:t('プライバシー','Privacy'),terms:t('利用規約','Terms'),credits:t('クレジット','Credits'),'video-policy':t('実況・動画利用方針','Gameplay & video usage policy')};
 ---
@@ -33,8 +36,8 @@ const title:Record<string,string>={about:t('スタジオについて','About the
   <a href={`/${locale}/privacy/#requests`}>{t('プライバシー・個人情報に関する請求','Privacy & personal-data requests')}</a>
  </>}
  {page==='privacy' && <>
-  <p>{t('Tinlumo Studio（個人運営）は、ゲームの提供とお問い合わせへの対応に必要な情報を、以下のとおり取り扱います。','Tinlumo Studio is individually operated. This page explains how information is used to provide the games and respond to inquiries.')}</p>
-  <p>{t('アカウント登録、購入、クラウド保存はありません。現在、広告は配信していません。生年月日など年齢情報の入力も求めません。利用者を追跡する固有のIDや、端末の特徴を組み合わせた識別情報は作成しません。','There are no accounts, purchases or cloud saves. We do not currently serve ads. We do not ask you to enter your age or date of birth. We do not create persistent identifiers to track visitors or use device fingerprinting.')}</p>
+  <p>{t('Tinlumo Studio（個人運営）は、ゲームや広告の提供とお問い合わせへの対応に必要な情報を、以下のとおり取り扱います。','Tinlumo Studio is individually operated. This page explains how information is used to provide games and advertising and respond to inquiries.')}</p>
+  <p>{t('アカウント登録、購入、クラウド保存はありません。生年月日など年齢情報の入力も求めません。Tinlumoのゲーム機能と任意のアクセス計測の選択では、利用者を追跡する固有のIDや、端末の特徴を組み合わせた識別情報は作成しません。広告サービスの情報の取扱いは「広告」をご覧ください。','There are no accounts, purchases or cloud saves. We do not ask you to enter your age or date of birth. Tinlumo’s game functions and optional analytics preference do not create persistent identifiers to track visitors or use device fingerprinting. See Advertising for how advertising services handle information.')}</p>
   <h2>{t('端末内の保存','Storage on your device')}</h2>
   <p>{t('ゲームごとの進行・クリア記録、動きを控える設定、消音・音量、Hakoriloの音楽設定、選択した言語などを、ブラウザーのlocalStorageに保存します。保存する項目は作品によって異なります。続きから遊び、選んだ設定を保つために使います。自動的な有効期限はありません。以前の版で保存した案内などの設定が残っている場合もあります。','Your browser’s localStorage keeps game progress, completions and preferences such as reduced motion, mute, volume, Hakorilo music settings and chosen language. The saved items vary by game. These let you continue playing and keep your preferences. They have no automatic expiry. Preferences saved by earlier versions, such as dismissed guides, may also remain.')}</p>
   <p>{t('保存は同じ端末・ブラウザ・サイトでの利用を前提とします。別の端末やブラウザには引き継がれません。サイトデータの削除、プライベートブラウズ、保存領域の制限などにより、進捗や設定が失われる場合があります。','Saves are specific to the same device, browser and site. They do not transfer to another device or browser. Clearing site data, private browsing or storage restrictions may cause you to lose progress and preferences.')}</p>
@@ -47,6 +50,16 @@ const title:Record<string,string>={about:t('スタジオについて','About the
   <h2 id="analytics">{t('任意のアクセス計測','Optional analytics')}</h2>
   {analyticsPrivacy[locale].paragraphs.map(paragraph=><p>{paragraph}</p>)}
   <button type="button" data-open-analytics>{t('計測の選択を変更する','Change analytics choice')}</button>
+  <h2 id="advertising">{advertising.heading}</h2>
+  <p>{advertising.introduction}</p>
+  <p>{advertising.thirdParties}</p>
+  <p>{advertising.adPartnersBefore}<a href={`https://support.google.com/adsense/answer/9012903?hl=${locale}`}>{advertising.adPartnersLabel}</a>{advertising.adPartnersAfter}</p>
+  <p>{advertising.advertisingCookies}</p>
+  <p>{advertising.optOutBefore}<a href="https://www.google.com/settings/ads">{advertising.optOutLabel}</a>{advertising.optOutAfter}</p>
+  <p>{advertising.regionalConsent}</p>
+  <p>{advertising.separation}</p>
+  <p>{advertising.linksIntro}</p>
+  <p><a href={`https://policies.google.com/privacy?hl=${locale}`}>{advertising.privacyLabel}</a> · <a href={`https://policies.google.com/technologies/partner-sites?hl=${locale}`}>{advertising.partnerLabel}</a> · <a href={`https://policies.google.com/technologies/ads?hl=${locale}`}>{advertising.adsLabel}</a></p>
   <h2>{t('お問い合わせの情報','Information you send us')}</h2>
   <p>{t('お問い合わせでお送りいただくメールアドレス・本文・添付ファイルなどと返信履歴は、内容の確認、必要な返信、法令に基づく請求への対応に使用します。Tinlumoが広告やAIの学習に利用することはありません。','We use the email address, message, attachments and other information you send, together with our reply history, to review your inquiry, respond when needed and handle requests under applicable law. Tinlumo does not use this information for advertising or AI training.')}</p>
   <p>{p.contactMethod[locale] ?? pending}</p><p>{p.contactRetention[locale] ?? pending}</p>
@@ -57,7 +70,8 @@ const title:Record<string,string>={about:t('スタジオについて','About the
  </>}
  {page==='terms' && <>
   <h2>{t('サービスの利用','Using the service')}</h2>
-  <p>{publicCopy.terms[locale]} {t('アカウント登録、購入、有料アイテム、クラウド保存はありません。現在、広告は配信していません。','There are no accounts, purchases, paid items or cloud saves. We do not currently serve ads.')}</p>
+  <p>{publicCopy.terms[locale]} {t('アカウント登録、購入、有料アイテム、クラウド保存はありません。Google AdSenseによる広告が表示される場合があります。','There are no accounts, purchases, paid items or cloud saves. Ads provided through Google AdSense may be displayed.')}</p>
+  <p><a href={`/${locale}/privacy/#advertising`}>{t('広告に関する情報の取扱いと選択方法は、プライバシーの「広告」をご覧ください。','See Advertising in our Privacy Policy for how advertising information is handled and the choices available to you.')}</a></p>
   <h2>{t('保存とサービスの提供','Saves and service availability')}</h2><p>{p.termsDisclosure[locale] ?? pending}</p>
   <h2>{t('島づくりゲームの保存','Island builder saves')}</h2><p>{islandSave[locale]}</p><h2>{t('PROJECT MAGNETの保存','PROJECT MAGNET saves')}</h2><p>{magnetSave[locale]}</p><h2>{t('権利と利用上のお願い','Rights and acceptable use')}</h2><p>{p.rightsDisclosure[locale]}</p>
   <p><a href={`/${locale}/video-policy/`}>{t('実況・動画利用方針','Gameplay & video policy')}</a> · <a href={`/${locale}/credits/`}>{t('クレジット','Credits')}</a> · <a href={`/${locale}/contact/`}>{t('お問い合わせ・運営者情報','Contact & operator information')}</a></p>
@@ -68,5 +82,5 @@ const title:Record<string,string>={about:t('スタジオについて','About the
   <h2>PROJECT MAGNET</h2><p>{t('Tinlumo StudioによるAI支援制作。Canvas描画、コード、Web Audio合成効果音は同作品用のオリジナル。外部の画像・音源・フォントファイルは使用していません。カードは実プレイ画面です。','AI-assisted development by Tinlumo Studio. Original Canvas artwork, code and synthesized Web Audio effects. No external media or font files. The card shows actual gameplay.')}</p><p><a href="/games/project-magnet/full-r1/credits.txt">{t('制作情報','Game credits')}</a> · <a href="/games/project-magnet/full-r1/licenses/vite.txt">Vite (MIT / notices)</a></p><p>{p.rightsDisclosure[locale]}</p><p><a href={`/${locale}/video-policy/`}>{t('実況・動画利用方針','Gameplay & video policy')}</a></p>
  </>}
  {page==='video-policy'&&<>{videoPolicy.map(copy=><p>{copy[locale]}</p>)}<p><a href={`/${locale}/credits/`}>{t('クレジットとライセンス','Credits & licenses')}</a> · <a href={`/${locale}/contact/`}>{t('お問い合わせ','Contact')}</a></p></>}
- {['privacy','terms'].includes(page)&&<p>{t('島をつなぐ日の保存説明を2026年9月24日から追加適用します。その他の方針は以下の版を維持します。','The save disclosure for An Island Connected takes effect on September 24, 2026. The remaining policy retains the version below.')}</p>}{['privacy','terms','video-policy'].includes(page)&&<DocumentRevision locale={locale}/>}
+ {['privacy','terms'].includes(page)&&<p>{t('島をつなぐ日の保存説明は2026年9月24日から適用しています。今回の広告関連の改定を除き、その他の方針は2026年9月21日の版を維持します。','The save disclosure for An Island Connected has been effective since September 24, 2026. Apart from this advertising revision, the remaining policy retains the September 21, 2026 version.')}</p>}{['privacy','terms','video-policy'].includes(page)&&<DocumentRevision locale={locale} revision={['privacy','terms'].includes(page)?legalRevision:undefined}/>}
 </article>
