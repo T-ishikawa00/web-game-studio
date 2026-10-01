@@ -1,0 +1,15 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
+const out='rimbloom-portal-integration-r1/release',dist=JSON.parse(fs.readFileSync(out+'/distribution.json'));
+const sha=b=>createHash('sha256').update(b).digest('hex');
+const report={at:new Date().toISOString(),status:'RUNNING',files:[],routes:[],errors:[],nonServedConfiguration:['_headers']};
+const files=dist.files.filter(f=>f.file!=='_headers');let cursor=0;
+await Promise.all(Array.from({length:5},async()=>{while(cursor<files.length){const f=files[cursor++];const route=f.file==='index.html'?'/':f.file==='404.html'?'/404':f.file.endsWith('/index.html')?'/'+f.file.slice(0,-10):'/'+f.file;
+try{const r=await fetch('https://tinlumo.com'+route,{redirect:'manual',headers:{'Cache-Control':'no-cache'}}),body=Buffer.from(await r.arrayBuffer());assert.equal(r.status,200);assert.equal(r.headers.get('location'),null);assert.equal(sha(body),f.sha256,'Production byte mismatch');const mime=r.headers.get('content-type');if(f.file.endsWith('.mjs'))assert(/(?:java|ecma)script/i.test(mime),'Module MIME');
+report.files.push({file:f.file,route,status:200,contentType:mime,bytes:body.length,sha256:sha(body),exactCandidateBytes:true});
+if(f.file.startsWith('games/game007/')){assert(r.headers.get('x-robots-tag')?.includes('noindex'));assert(r.headers.get('content-security-policy')?.includes("connect-src 'none'"));}
+if(dist.routes.includes(route)){const html=body.toString(),head=html.match(/<head[^>]*>([\s\S]*?)<\/head>/)[1];assert.equal((html.match(/adsbygoogle\.js/g)||[]).length,1);assert.equal((head.match(/adsbygoogle\.js/g)||[]).length,1);assert(!/data-ad-slot|<ins[^>]*adsbygoogle|adBreak\(/i.test(html));report.routes.push({route,status:200,loaderInHead:1,customSlots:0,h5Ads:0});}
+}catch(e){report.errors.push({file:f.file,type:e.name,message:e.message});}}}));
+for(const method of ['GET','HEAD']){const r=await fetch('https://tinlumo.com/ads.txt',{method,redirect:'manual',headers:{'User-Agent':'Googlebot'}});assert.equal(r.status,200);assert(r.headers.get('content-type')?.startsWith('text/plain'));if(method==='GET')assert((await r.text()).startsWith('google.com, pub-'));report.adsTxt={status:200,anonymousGooglebot:true,getAndHead:true,noRedirect:true};}
+for(const route of ['/_headers','/.env','/internal/distribution.json','/rimbloom-portal-integration-r1/release/human-release-authority.json','/api/qa/state']){const r=await fetch('https://tinlumo.com'+route,{redirect:'manual'});assert.equal(r.status,404);}
+assert.equal(report.files.length+report.errors.length,122);report.files.sort((a,b)=>a.file.localeCompare(b.file));report.routes.sort((a,b)=>a.route.localeCompare(b.route));report.completed=new Date().toISOString();report.status=report.errors.length?'FAIL':'PASS';
+fs.writeFileSync(out+'/production-readback.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({status:report.status,files:report.files.length,routes:report.routes.length,adsTxt:report.adsTxt,errors:report.errors}));assert.equal(report.errors.length,0);

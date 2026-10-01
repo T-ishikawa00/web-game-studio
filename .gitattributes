@@ -8,3 +8,6 @@ release-artifacts/game005-web-v1/** -text -diff
 game005-island/public-r1/game/** -text
 game005-island/public-r1/public/games/game005/web-v1-r1/credits.txt -text
 game005-island/public-r1/public/games/game005/web-v1-r1/THREE-LICENSE.txt -text
+# Preserve manifest-bound RIMBLOOM integration payload and accepted build inputs.
+release-artifacts/rimbloom-portal-integration-r1/** -text
+rimbloom-portal-integration-r1/** -text

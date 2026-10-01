@@ -1,0 +1,109 @@
+{
+  "authoritativeRuntimeSha256": "b25d2a4ac01c3d073bff24a80d8d6bc80b33c8ad93d9c45055be892c3959c0e6",
+  "geometry": {
+    "width": 540,
+    "height": 760,
+    "bounds": {
+      "l": 30,
+      "r": 510,
+      "t": 112,
+      "b": 700
+    }
+  },
+  "feel": {
+    "speed": 1450,
+    "dash": 0.62,
+    "recovery": 0.23,
+    "range": 899,
+    "radius": 11
+  },
+  "roundSeconds": 60,
+  "rules": {
+    "softPulse": 82,
+    "relayPulse": 125,
+    "multiplierCap": 5,
+    "multiBankBonus": 25,
+    "safeLandingBonus": 25,
+    "safeLandingRadius": 70
+  },
+  "enemyCap": 26,
+  "fxCap": 72,
+  "formations": [
+    "fan",
+    "crescent",
+    "rim-ladder",
+    "guarded",
+    "crossing"
+  ],
+  "sourceAnchors": {
+    "physics": "accepted-build/src/core.mjs",
+    "content": "accepted-build/src/content.mjs",
+    "input": "accepted-build/src/input.mjs",
+    "visual": "accepted-build/src/view.mjs",
+    "audio": "accepted-build/src/audio.mjs",
+    "uiAndCopy": "accepted-build/src/game.mjs",
+    "layout": "accepted-build/src/style.css",
+    "html": "accepted-build/index.html"
+  },
+  "simulationStepSeconds": 0.008333333333333333,
+  "drawCap": 60,
+  "captureRate": 30,
+  "chainHUDHoldMs": 850,
+  "maxLife": 3,
+  "defaultSeed": 7007,
+  "nextSeedIncrement": 7919,
+  "pressureBoundarySeconds": [
+    0,
+    20,
+    40,
+    60
+  ],
+  "spawnIntervalsSeconds": [
+    3.4,
+    2.9,
+    2.5
+  ],
+  "firstSpawnAtSeconds": 4,
+  "formationStartSeconds": 11,
+  "openingTargets": [
+    [
+      170,
+      310
+    ],
+    [
+      230,
+      280
+    ],
+    [
+      300,
+      295
+    ],
+    [
+      345,
+      340
+    ]
+  ],
+  "score": {
+    "soft": 60,
+    "armor": 120,
+    "relay": 80,
+    "chargedKillBonus": 40,
+    "bankOnlyPoints": 0
+  },
+  "chainMilestones": [
+    3,
+    5,
+    8,
+    12,
+    18
+  ],
+  "audio": {
+    "masterGain": 0.22,
+    "maxVoices": 10,
+    "attackSeconds": 0.008,
+    "oscillatorStopTailSeconds": 0.02,
+    "music": false,
+    "externalAudioAssets": 0
+  },
+  "changePolicy": "Do not tune feel, timing, chain propagation, visuals, audio, result/retry or accepted in-game copy during packaging. Future changes must be isolated, hash-diffed, regressed and reviewed against this accepted baseline."
+}

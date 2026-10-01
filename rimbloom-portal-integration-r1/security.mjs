@@ -1,0 +1,30 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+const task='rimbloom-portal-integration-r1',root=process.cwd();
+assert.equal(root.toLowerCase(),'c:\\projects\\web game studio');
+const sha=b=>createHash('sha256').update(b).digest('hex');
+const baseline=JSON.parse(fs.readFileSync('.tmp/rimbloom-portal-r1/preflight-20261001/baseline.json'));
+for(const f of baseline.securityProtectedFileHashes)assert.equal(sha(fs.readFileSync(f.file)),f.sha256);
+const scanner='.cache/tools/gitleaks/8.30.1/gitleaks.exe';
+const version=spawnSync(scanner,['version'],{encoding:'utf8',windowsHide:true});
+assert.equal(version.status,0);assert.equal(version.stdout.trim(),'8.30.1');
+fs.mkdirSync('.tmp/rimbloom-portal-r1/final',{recursive:true});
+const ignore=path.resolve('.tmp/rimbloom-portal-r1/final/scoped.ignore');
+fs.writeFileSync(ignore,'\n');
+const results=[];
+for(const target of [task,'release-artifacts/'+task]){
+ const scan=spawnSync(scanner,['dir',target,'--config','.gitleaks.toml','--redact=100','--no-banner','--no-color','--gitleaks-ignore-path',ignore,'--ignore-gitleaks-allow','--max-archive-depth=2','--report-format=json','--report-path=-'],{encoding:'utf8',windowsHide:true,maxBuffer:64*1024*1024});
+ if(scan.error||![0,1].includes(scan.status))throw Error('Scoped scanner unavailable or errored; no PASS issued');
+ const raw=JSON.parse(scan.stdout);assert(Array.isArray(raw));
+ const findings=raw.map(f=>({file:f.File,type:f.RuleID,action:'HUMAN REVIEW REQUIRED'}));
+ results.push({target,status:scan.status===0&&findings.length===0?'PASS':'FAIL',findings});
+}
+const manifest=JSON.parse(fs.readFileSync(task+'/internal/distribution.json'));
+const forbidden=manifest.files.filter(f=>/(?:^|\/)(?:\.env(?:\.|$)|\.dev\.vars(?:\.|$)|\.cache|\.tmp|\.wrangler|node_modules|tests?|internal|inputs|QA_HANDOFF\.json|HUMAN_ACCEPTANCE\.json|RELEASE_BASELINE\.json)|\.(?:pem|key|p12|pfx|zip|map)$/i.test(f.file));
+const summary={at:new Date().toISOString(),scanner:'gitleaks 8.30.1',status:results.every(r=>r.status==='PASS')&&forbidden.length===0?'PASS':'FAIL',scopes:results,forbiddenPublicFiles:forbidden.map(f=>({file:f.file,type:'forbidden-distribution-file',action:'HUMAN REVIEW REQUIRED'})),publicPayloadPinnedByManifest:true,externalExposure:'No upload, Git stage/commit/push, deploy, provider operation or LAN exposure performed'};
+fs.writeFileSync(task+'/internal/security-scoped.json',JSON.stringify(summary,null,2)+'\n');
+console.log(JSON.stringify(summary));
+if(summary.status!=='PASS')process.exitCode=1;

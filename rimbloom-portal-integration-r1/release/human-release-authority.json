@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-01T01:22:28.778Z",
+  "authority": "DIRECT HUMAN ONE-SHOT PRODUCTION RELEASE R1",
+  "humanDecision": "これでいい。進もう",
+  "statuses": [
+    "RIMBLOOM_PORTAL_INTEGRATION_HUMAN_ACCEPTED",
+    "RIMBLOOM_CORE_BASELINE_PRESERVED",
+    "RIMBLOOM_RELEASE_CANDIDATE_ACCEPTED"
+  ],
+  "baselineHead": "a7e7bf417f437ee23d6b2dcbb70bc914defef4e0",
+  "productionBefore": {
+    "version": "b5ff0484-ae7d-4df9-ab46-a8aa1eb1db06",
+    "deployment": "d1e09100-b5ea-410c-9dac-89d4ee546689"
+  },
+  "acceptedBaselineSha256": "b25d2a4ac01c3d073bff24a80d8d6bc80b33c8ad93d9c45055be892c3959c0e6",
+  "candidateManifestSha256": "4b8725047eff4f7b8c1c60e0ae6d29d083bf63477cba856546eb7ff209655095",
+  "artifactRoot": "release-artifacts/rimbloom-portal-integration-r1",
+  "artifactFiles": 123,
+  "servedFiles": 122,
+  "nonServedConfiguration": [
+    "_headers"
+  ],
+  "routes": 43,
+  "supersedes": "Prior local candidate PENDING / NOT AUTHORIZED labels are historical. This direct Human approval authorizes scoped stage, commit, normal private main push and Production deploy. Candidate source draft and pending-review metadata remain historical build provenance and are not public authority.",
+  "adsense": {
+    "playRoutes": [
+      "/ja/play/rimbloom/",
+      "/en/play/rimbloom/"
+    ],
+    "humanConfiguredSectionExclusions": [
+      "tinlumo.com/ja/play",
+      "tinlumo.com/en/play"
+    ],
+    "prefixCoverage": "PASS",
+    "providerSettingsChangeRequired": false,
+    "newPageExclusionRequired": false,
+    "autoAdsSettingsChangeRequired": false,
+    "customAds": 0,
+    "h5Ads": 0
+  },
+  "knownLimitations": [
+    "physical smartphone",
+    "iOS Safari",
+    "low-performance physical device",
+    "physical touch feel",
+    "physical background / resume",
+    "Human subjective audio evaluation on physical device"
+  ],
+  "limitationsDisposition": "NOT TESTED; explicit Human waiver as release blockers",
+  "sourceProject": "C:/projects/App 007 READ-ONLY",
+  "gitSafety": "No broad staging, cleanup, force push or history rewrite; unrelated tracked two files excluded",
+  "model": "UNKNOWN_NOT_EXPOSED"
+}

@@ -1,0 +1,35 @@
+{
+  "recordedUTC": "2026-09-30T19:45:00.745Z",
+  "recordedTimezone": "Asia/Tokyo",
+  "authority": "Direct Human message: RIMBLOOM FULL GAME R1 — HUMAN ACCEPTANCE",
+  "humanEvaluation": "正直最高におもろい。俺はとても好き。",
+  "statuses": [
+    "RIMBLOOM_FULL_GAME_R1_HUMAN_ACCEPTED",
+    "CORE_FUN_HUMAN_ACCEPTED",
+    "CHAIN_FEEL_HUMAN_ACCEPTED",
+    "FULL_GAME_PRODUCT_ACCEPTED"
+  ],
+  "acceptedRuntimeSha256": "b25d2a4ac01c3d073bff24a80d8d6bc80b33c8ad93d9c45055be892c3959c0e6",
+  "gameVersion": "1.0.0-r1",
+  "nextAuthorizedWork": "Local release baseline preservation and Tinlumo Portal handoff package only",
+  "incompleteReleaseQA": [
+    "physical smartphone",
+    "iOS Safari",
+    "low-performance device"
+  ],
+  "forbidden": [
+    "Web Game Studio changes",
+    "Portal integration",
+    "Git stage",
+    "Git commit",
+    "Git push",
+    "Production deploy",
+    "public release",
+    "ads integration"
+  ],
+  "gameAcceptance": "ACCEPTED",
+  "releaseQA": "INCOMPLETE",
+  "integration": "PENDING",
+  "publicRelease": "NOT AUTHORIZED",
+  "historicalEvidence": "accepted-build/qa/FINAL_EVIDENCE.json and old Review statuses remain the pre-acceptance evidence; this Human record is the current authority."
+}

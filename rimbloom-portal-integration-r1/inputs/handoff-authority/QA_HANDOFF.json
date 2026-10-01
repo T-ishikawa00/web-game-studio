@@ -1,0 +1,173 @@
+{
+  "recordedUTC": "2026-09-30T20:15:56.924Z",
+  "scope": "Local accepted release preservation and handoff package only",
+  "status": "PASS for handoff; device Release QA INCOMPLETE",
+  "humanProductAcceptance": "ACCEPTED",
+  "releaseBaselineSha256": "b25d2a4ac01c3d073bff24a80d8d6bc80b33c8ad93d9c45055be892c3959c0e6",
+  "originalFullFilesPreserved": 371,
+  "snapshotFilesPreserved": 371,
+  "acceptedRuntimeSourceDist": 9,
+  "runtimeByteChanges": 0,
+  "tests": {
+    "total": 84,
+    "passed": 84,
+    "failed": 0,
+    "exitCode": 0,
+    "node": "v24.14.0",
+    "log": "evidence/qa/handoff-test.log"
+  },
+  "build": {
+    "sourceOnlyCleanBuild": "PASS",
+    "requiresOriginalWorkspace": false,
+    "dependencies": 0,
+    "log": "evidence/qa/handoff-build.log"
+  },
+  "staticServerGuards": [
+    {
+      "name": "Served accepted index.html",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Served accepted src/audio.mjs",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Served accepted src/content.mjs",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Served accepted src/core.mjs",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Served accepted src/game.mjs",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Served accepted src/input.mjs",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Served accepted src/records.mjs",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Served accepted src/style.css",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Served accepted src/view.mjs",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "QA mode blocked",
+      "status": "PASS",
+      "httpStatus": 403
+    },
+    {
+      "name": "No source inspection endpoint",
+      "status": "PASS",
+      "httpStatus": 404
+    },
+    {
+      "name": "No record endpoint",
+      "status": "PASS",
+      "httpStatus": 405
+    },
+    {
+      "name": "No private package path",
+      "status": "PASS",
+      "httpStatus": 404
+    },
+    {
+      "name": "No QA evidence JSON public path",
+      "status": "PASS",
+      "httpStatus": 404
+    },
+    {
+      "name": "No private script traversal",
+      "status": "PASS",
+      "httpStatus": 404
+    },
+    {
+      "name": "Handoff overview",
+      "status": "PASS",
+      "httpStatus": 200
+    },
+    {
+      "name": "Runtime CSP self-only and no external connect",
+      "status": "PASS",
+      "httpStatus": 200
+    }
+  ],
+  "secretScan": {
+    "findings": 0,
+    "exitCode": 0,
+    "evidence": "evidence/qa/handoff-security-scan.json"
+  },
+  "cover": [
+    {
+      "file": "assets/cover-wide-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c32391b08606eb1070a5018027cd355f9e28ed3cd199933bd83e36a750ffb9da"
+    },
+    {
+      "file": "assets/thumbnail-square-800x800.png",
+      "width": 800,
+      "height": 800,
+      "sha256": "0ab531f5e9bd1eef3dc013b8d4e79ffc1aa91df226c8c05ca70cec8f323d9ea7"
+    }
+  ],
+  "browser": {
+    "ordinaryKeyboardLaunch": "Observed in static preview screenshot",
+    "result": "EN Result 425 / 3 chain; inter-tool idle loss retained",
+    "retryPause": "JA PAUSED overlay observed after same-layout retry",
+    "qaPanelHidden": true,
+    "consoleErrors": [],
+    "mediaVideosReady": 4,
+    "mediaErrors": [],
+    "viewportOverrideRestored": true,
+    "evidence": [
+      "evidence/handoff-preview.jpg",
+      "evidence/static-preview-en-result.jpg",
+      "evidence/static-preview-ja-paused.jpg"
+    ]
+  },
+  "independentAudit": "evidence/qa/independent-handoff-review.md",
+  "incompleteReleaseQA": [
+    "physical smartphone",
+    "iOS Safari",
+    "low-performance device"
+  ],
+  "packageVerifier": "npm run verify; all manifest entries and aggregate/source/dist/checksum list checked. ZIP extraction verification is separately recorded in the outer release receipt.",
+  "boundaries": {
+    "webGameStudioChanges": false,
+    "portalIntegration": false,
+    "gitStage": false,
+    "gitCommit": false,
+    "gitPush": false,
+    "productionDeploy": false,
+    "publicRelease": false,
+    "adsIntegration": false,
+    "newSpendUSD": 0,
+    "newSpendJPY": 0
+  },
+  "statuses": [
+    "RIMBLOOM_FULL_GAME_R1_HUMAN_ACCEPTED",
+    "CORE_FUN_HUMAN_ACCEPTED",
+    "CHAIN_FEEL_HUMAN_ACCEPTED",
+    "FULL_GAME_PRODUCT_ACCEPTED",
+    "RIMBLOOM_RELEASE_HANDOFF_READY",
+    "WEB_GAME_STUDIO_INTEGRATION_PENDING"
+  ]
+}

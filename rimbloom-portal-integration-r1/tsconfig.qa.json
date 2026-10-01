@@ -1,0 +1,1 @@
+{"extends":"../tsconfig.json","include":["../.cache/rimbloom-portal-integration-r1/source/src/**/*","../.cache/rimbloom-portal-integration-r1/astro/**/*.d.ts"],"exclude":[]}

@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {spawnSync,execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+const out='rimbloom-portal-integration-r1/release',read=p=>JSON.parse(fs.readFileSync(p));
+const dry=process.argv.includes('--dry-run'),dist=read(out+'/distribution.json');
+assert.equal(path.resolve('.').toLowerCase(),'c:\\projects\\web game studio');
+const head=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8',windowsHide:true}).trim();
+for(const f of dist.files)assert.equal(createHash('sha256').update(fs.readFileSync(dist.root+'/'+f.file)).digest('hex'),f.sha256);
+if(!dry){assert.equal(read(out+'/wrangler-dry-run.json').status,'PASS');assert.equal(read(out+'/push.json').head,head);assert.equal(read(out+'/push.json').status,'PASS');assert.equal(read('.tmp/security-r1/history.summary.json').status,'PASS');assert.equal(read(out+'/check-staged.json').status,'PASS');assert(!fs.existsSync(out+'/deployment-attempt.json'),'Deployment already attempted; reconcile before any retry');fs.writeFileSync(out+'/deployment-attempt.json',JSON.stringify({at:new Date().toISOString(),head,artifact:dist.root}));}
+fs.mkdirSync(out+'/temp',{recursive:true});
+const env={...process.env,CLOUDFLARE_ACCOUNT_ID:'9f15cb18966fea37828c2a1982ab950b',WRANGLER_SEND_METRICS:'false',WRANGLER_WRITE_LOGS:'false',WRANGLER_LOG_SANITIZE:'true',CI:'true',TEMP:path.resolve(out+'/temp'),TMP:path.resolve(out+'/temp')};
+const args=['.cache/tools/wrangler-r1/node_modules/wrangler/bin/wrangler.js','deploy','--config','config/release-production/wrangler.json','--assets',path.resolve(dist.root),'--keep-vars','--message','Tinlumo RIMBLOOM Portal Integration R1 - Human Accepted'];
+if(dry)args.push('--dry-run','--outdir',path.resolve(out+'/dry-run'));
+const r=spawnSync(process.execPath,args,{env,encoding:'utf8',windowsHide:true,maxBuffer:64e6});
+const text=(r.stdout||'')+'\n'+(r.stderr||''),version=text.match(/Current Version ID:\s*([a-f0-9-]{36})/i)?.[1]||null;
+const authRequired=/not logged in|authentication error|invalid access token|log in to|login required/i.test(text);
+const warnings=text.split('\n').filter(l=>/WARNING|WARN|ERROR|error\]/i.test(l)).map(l=>({type:/error/i.test(l)?'ERROR':'WARNING',action:'Review sanitized classification; no raw Wrangler logs persisted'}));
+const receipt={at:new Date().toISOString(),status:r.status===0&&(dry||version)&&!authRequired?'PASS':'STOP',dryRun:dry,exitCode:r.status,authRequired,version,head,assets:dist.root,worker:'tinlumo-production',keepVars:true,workersDev:false,previewUrls:false,logsWritten:false,warnings};
+fs.writeFileSync(out+(dry?'/wrangler-dry-run.json':'/deployment.json'),JSON.stringify(receipt,null,2)+'\n');console.log(JSON.stringify(receipt));
+if(receipt.status!=='PASS')process.exitCode=1;

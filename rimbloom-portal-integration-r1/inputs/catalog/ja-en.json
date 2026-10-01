@@ -1,0 +1,39 @@
+{
+  "gameId": "game007",
+  "proposedSlug": "rimbloom",
+  "sessionSeconds": 60,
+  "model": "Free local score attack",
+  "languages": [
+    "ja",
+    "en"
+  ],
+  "ja": {
+    "title": "RIMBLOOM（リムブルーム）",
+    "shortDescription": "壁を味方に、連鎖を狙え。60秒の反射アクション。",
+    "description": "狙って離すと、一気に突進。壁で反射して六角の装甲を砕き、リングの花で周囲を連鎖に巻き込もう。角度と着地点を工夫して60秒を生き抜き、自己ベストに挑むスコアアタック。終わったら、すぐもう一回。",
+    "controls": {
+      "mouse": "ゲーム画面内をドラッグして狙い、離すと突進。",
+      "keyboard": "矢印キー／WASDで方向。Space／Enterで突進。Escapeで一時停止。結果画面ではEnterで同じ配置に再挑戦。",
+      "touch": "ゲーム画面内を1本の指でドラッグして狙い、離すと突進。",
+      "rules": "壁で反射すると六角装甲を砕ける。リングの花は周囲を巻き込む。着地点にも気をつけよう。"
+    },
+    "coverAlt": "RIMBLOOM。Mintの自機と反射経路、Coralの花、Goldの六角装甲、リングの花。"
+  },
+  "en": {
+    "title": "RIMBLOOM",
+    "shortDescription": "Aim, rebound, and make one hit bloom. A fast 60-second score attack.",
+    "description": "Aim and release to dash. Rebound off the rim to crack hex armor, and hit ring blooms to carry the chain through nearby petals. Choose your angle and landing, survive 60 seconds, and chase a new best. Finish a run, then jump straight into another.",
+    "controls": {
+      "mouse": "Drag within the game to aim. Release to dash.",
+      "keyboard": "Arrows or WASD aim. Space or Enter dashes. Escape pauses. Enter at the result retries the same layout.",
+      "touch": "Drag with one finger within the game to aim. Release to dash.",
+      "rules": "Rebound to crack hex armor. Ring blooms chain nearby petals. Choose a safe landing."
+    },
+    "coverAlt": "RIMBLOOM: mint player and ricochet path, coral petals, gold hex armor and ring blooms."
+  },
+  "copyPolicy": "Portal listing copy is new handoff metadata. The accepted in-game JA/EN copy remains byte-identical in game007-full-r1/src/game.mjs and JA_EN_ACCEPTED_COPY.json.",
+  "cover": "assets/cover-wide-1280x720.png",
+  "thumbnail": "assets/thumbnail-square-800x800.png",
+  "publicRelease": "NOT AUTHORIZED",
+  "releaseQA": "Physical smartphone, iOS Safari and low-performance device incomplete"
+}
