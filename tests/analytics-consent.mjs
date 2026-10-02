@@ -8,13 +8,13 @@ import {publicHtml} from '../scripts/release-prepare.mjs';
 function fixture({host='tinlumo.com',protocol='https:',path='/en/',saved=null,enabled=true,frame=false,blockedStorage=false,existing=false,failWrites=false,hash=''}={}){
  const events={},appended=[],store=new Map(saved?[[analyticsConsentKey,saved]]:[]);let reloads=0;
  const button=v=>({dataset:{analyticsChoice:v},focused:false,addEventListener(_,fn){this.click=fn;},focus(){this.focused=true;}});
- const allow=button('allow'),deny=button('deny'),open=button(null),status={textContent:''},controls={hidden:false};
- const panel={hidden:true,dataset:{enabled:String(enabled),beaconId:'0'.repeat(32),allowedText:'allowed',deniedText:'denied',initialText:'off'},querySelector:q=>q==='[data-analytics-status]'?status:controls,querySelectorAll:()=>[allow,deny],scrollIntoView(){}};
+ const allow=button('allow'),deny=button('deny'),open=button(null),close=button(null),status={textContent:''},controls={hidden:false};
+ const panel={hidden:true,dataset:{enabled:String(enabled),beaconId:'0'.repeat(32),allowedText:'allowed',deniedText:'denied',initialText:'off'},querySelector:q=>q==='[data-analytics-status]'?status:q==='[data-close-analytics]'?close:controls,querySelectorAll:()=>[allow,deny],scrollIntoView(){}};
  const doc={querySelector:q=>q==='[data-analytics-consent]'?panel:existing||appended.length?{}:null,querySelectorAll:()=>[open],createElement:()=>({setAttribute(){}}),head:{append:s=>appended.push(s)}};
  const win={location:{hostname:host,protocol,pathname:path,hash,href:protocol+'//'+host+path+hash,replace(url){this.href=url;this.hash=new URL(url).hash;},reload(){reloads++;}},localStorage:{getItem:k=>{if(blockedStorage)throw Error();return store.get(k);},setItem:(k,v)=>{if(blockedStorage||failWrites)throw Error();store.set(k,v);},removeItem:k=>{if(blockedStorage||failWrites)throw Error();store.delete(k);}},addEventListener:(k,fn)=>events[k]=fn};win.top=frame?{}:win;
  win.history={replaceState(_state,_title,url){win.location.href=url;win.location.hash=new URL(url).hash;}};
  installAnalyticsConsent(win,doc);
- return {allow,deny,open,status,controls,panel,appended,events,store,win,get reloads(){return reloads;}};
+ return {allow,deny,open,close,status,controls,panel,appended,events,store,win,get reloads(){return reloads;}};
 }
 test('Default OFF and rejection load nothing; explicit allow loads once; failure does not touch games',()=>{
  const x=fixture();assert.equal(x.appended.length,0);assert.equal(x.status.textContent,'off');
@@ -57,10 +57,15 @@ test('Human email closure preserves untested evidence while accepted policy no l
  assert.equal(site.publicLaunch.mail.supportAddressOutbound,false);assert.equal(site.approvals.human57Puzzles,false);assert.equal(site.approvals.rcPhysicalDevices,false);
  const codes=publicPrerequisites(site,measurement).map(x=>x.code);
  assert.ok(!codes.some(x=>x.startsWith('mail:')||['legalDraft','legalReview','dataPolicyFinal','namesAndRights'].includes(x)));
- assert.ok(codes.includes('deployment:humanFinalGate'));assert.ok(!codes.includes('analytics:productionConnectionPending'));
+ assert.equal(site.publicLaunch.deploymentHold,false);assert.ok(!codes.includes('deployment:humanFinalGate'));assert.ok(!codes.includes('analytics:productionConnectionPending'));
  const disconnected=structuredClone(measurement);disconnected.enabled=false;
  assert.ok(publicPrerequisites(site,disconnected).some(x=>x.code==='analytics:productionConnectionPending'));
  const bad=structuredClone(site);bad.publicLaunch.mail.receiveTest='NOT TESTED';assert.ok(publicPrerequisites(bad,measurement).some(x=>x.code==='mail:receiveTest'));
  assert.equal(measurement.enabled,true);assert.equal(measurement.automaticInsertionConfirmedDisabled,true);
- assert.equal(site.publicLaunch.analyticsActive,false);assert.equal(site.approvals.release,false);
+ // Historical source flag is not evidence of current collector reception.
+ assert.equal(site.publicLaunch.analyticsActive,false);assert.equal(site.approvals.release,true);
+});
+test('Current close control and Escape retain OFF without an implicit permission',()=>{
+ const x=fixture();x.open.click();x.close.click();assert.equal(x.panel.hidden,true);assert.equal(x.appended.length,0);
+ x.open.click();x.events.keydown({key:'Escape',preventDefault(){}});assert.equal(x.panel.hidden,true);assert.equal(x.appended.length,0);
 });

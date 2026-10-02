@@ -115,7 +115,7 @@ test('prototype saves: namespaces, roundtrip, malformed/future data preserved un
   for(const id of gameIds){const save=createPrototypeSave(id,()=>storage);assert.equal(save.load().status,'empty');assert.equal(save.write(emptyProgress(id)),true);assert.equal(save.load().status,'ok');}
   assert.equal(storage.map.size,4);
   for(const raw of ['{broken',JSON.stringify({schema:99}),JSON.stringify({schema:1,gameId:'light-garden',version:'0.1.0',data:{...emptyProgress('light-garden'),levelId:'L99'}})]){
-    const key='wgs:save:light-garden';storage.setItem(key,raw);const save=createPrototypeSave('light-garden',()=>storage);assert.equal(save.load().status,'invalid');assert.equal(save.write(emptyProgress('light-garden')),false);assert.equal(storage.getItem(key),raw);assert.equal(save.reset(),true);assert.equal(save.write(emptyProgress('light-garden')),true);
+    const key='wgs:save:light-garden',g=storage.getItem(key+':generation'),current=g?key+':state:'+g:key;storage.setItem(current,raw);const save=createPrototypeSave('light-garden',()=>storage);assert.equal(save.load().status,'invalid');assert.equal(save.write(emptyProgress('light-garden')),false);assert.equal(storage.getItem(current),raw);assert.equal(save.reset(),true);assert.equal(save.write(emptyProgress('light-garden')),false);assert.equal(createPrototypeSave('light-garden',()=>storage).write(emptyProgress('light-garden')),true);
   }
   assert.equal(storage.getItem('wgs:save:internal-connection-lab'),'fixture sentinel');
 });

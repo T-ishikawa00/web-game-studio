@@ -11,7 +11,7 @@ if(shell && isGameId(shell.dataset.game)) {
   const get=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T;
   const stage=get('prototype-stage'), status=get('prototype-save-status'), loading=get('prototype-loading'), error=get('prototype-error');
   const reset=get<HTMLDialogElement>('prototype-reset-dialog'), ad=get<HTMLDialogElement>('prototype-ad-dialog');
-  const saves=createPrototypeSave(id,()=>localStorage), ads=createAdAdapter(()=>sessionStorage), analytics=createAnalytics();
+  let saves=createPrototypeSave(id,()=>localStorage);const ads=createAdAdapter(()=>sessionStorage), analytics=createAnalytics();
   let frame:HTMLIFrameElement|undefined, generation='', data:Progress=emptyProgress(id), ready=false, lastInput=0, first=false;
   let timeout:ReturnType<typeof setTimeout>, hidden=document.hidden;
   const emit=(name:EventName,result?:string)=>analytics.emit({name,gameId:id,locale,result});
@@ -49,7 +49,7 @@ if(shell && isGameId(shell.dataset.game)) {
   function closeReset(){reset.close();syncPause();}
   get('prototype-cancel-reset').addEventListener('click',closeReset);
   reset.addEventListener('cancel',event=>{event.preventDefault();closeReset();});
-  get('prototype-confirm-reset').addEventListener('click',()=>{const ok=saves.reset();if(ok){data=emptyProgress(id);send('init',{data,paused:true});}saveStatus(ok);closeReset();});
+  get('prototype-confirm-reset').addEventListener('click',()=>{const ok=saves.reset();if(ok){saves=createPrototypeSave(id,()=>localStorage);load();}saveStatus(ok);closeReset();});
   get('prototype-mock').addEventListener('click',()=>{if(!ready)return;const decision=ads.request('mock',lastInput);get('prototype-ad-status').textContent=decision;if(decision==='show-mock'){ad.showModal();syncPause();}});
   function finishAd(){ads.complete('interstitial',false);ad.close();syncPause();emit('ad_resume','no-reward');}
   get('prototype-finish-ad').addEventListener('click',finishAd);ad.addEventListener('cancel',e=>{e.preventDefault();finishAd();});

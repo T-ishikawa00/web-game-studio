@@ -33,9 +33,9 @@ test('Learning order isolates initial shared input, practice, wall, transfer bef
 test('Every old home witness resumes by stable ID without rewriting or clearing the old completion record',()=>{
  for(const l of homeLevelsR2)for(const witness of old.find((a:{id:string})=>a.id===l.id).intermediate){
   const data:Progress={levelId:l.id,levelVersion:l.version,board:witness.state,cleared:homeLevelsR2.map(l=>l.id),settings:{reducedMotion:false}};
-  const raw=JSON.stringify({schema:1,gameId:'two-ways-home',version:'0.1.0',data});let stored=raw;
-  const save=createPrototypeSave('two-ways-home',()=>({getItem:()=>stored,setItem:(_k,v)=>{stored=v;},removeItem:()=>{stored='';}}));
-  const loaded=save.load();assert.equal(loaded.status,'ok');assert.deepEqual(loaded.data,data);assert.equal(stored,raw);assert.equal(save.write(loaded.data),true);assert.equal(JSON.parse(stored).data.cleared.length,18);
+  const raw=JSON.stringify({schema:1,gameId:'two-ways-home',version:'0.1.0',data}),key='wgs:save:two-ways-home',stored=new Map([[key,raw]]);
+  const save=createPrototypeSave('two-ways-home',()=>({getItem:k=>stored.get(k)??null,setItem:(k,v)=>{stored.set(k,v);},removeItem:k=>{stored.delete(k);}}));
+  const loaded=save.load();assert.equal(loaded.status,'ok');assert.deepEqual(loaded.data,data);assert.equal(stored.get(key),raw);assert.equal(save.write(loaded.data),true);assert.equal(JSON.parse(stored.get(key)!).data.cleared.length,18);
   assert.equal(validProgress('two-ways-home',{...data,levelVersion:2}),false,'A future content version must never silently reuse this board');
  }
 });

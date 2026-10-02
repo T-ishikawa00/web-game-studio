@@ -137,7 +137,7 @@ for(const id of gameIds) test(`R2 ${id} extended save and locale-independent rel
   const updated={...englishReload.data,settings:{reducedMotion:false}};
   assert.equal(enAdapter.write(updated),true);
   assert.deepEqual(createPrototypeSave(id,()=>storage).load().data,updated);
-  assert.deepEqual([...storage.values.keys()],[`wgs:save:${id}`]);
+  assert.deepEqual(new Set(storage.values.keys()),new Set([`wgs:save:${id}`,...updated.cleared.map(l=>`wgs:save:${id}:completed:legacy:${l}`)]));
   assert.equal(accepts(id,updated),true);
   assert.deepEqual(updated.cleared,legacyBoards[id].map(l=>l.levelId),'New board, hints and locale do not invent completed levels');
 });
@@ -171,8 +171,10 @@ test('R2 saves and reset are isolated across all three games and the internal fi
     assert.equal(save.write({...data,settings:{reducedMotion:!data.settings.reducedMotion}}),true);
     for(const [key,value] of previous)if(key!==`wgs:save:${id}`)assert.equal(storage.getItem(key),value);
     assert.equal(save.reset(),true);assert.equal(storage.getItem(`wgs:save:${id}`),null);
-    for(const [key,value] of previous)if(key!==`wgs:save:${id}`)assert.equal(storage.getItem(key),value);
-    assert.equal(save.write(data),true);
+    for(const [key,value] of previous)if(!key.startsWith(`wgs:save:${id}`))assert.equal(storage.getItem(key),value);
+    assert.equal(save.write(data),false,'A snapshot read before reset cannot resurrect its clears');
+    const fresh=createPrototypeSave(id,()=>storage);assert.equal(fresh.write(fresh.load().data),true);
   }
-  assert.equal(storage.getItem(fixtureKey),'fixture-save-sentinel');assert.equal(storage.values.size,4);
+  assert.equal(storage.getItem(fixtureKey),'fixture-save-sentinel');
+  for(const id of gameIds)assert.deepEqual(createPrototypeSave(id,()=>storage).load().data.cleared,[]);
 });
