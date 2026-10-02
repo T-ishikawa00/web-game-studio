@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+const file='src/app.js';
+let source=await fs.readFile(file,'utf8');
+source=source.replace("current=choice.id;input.cancel();", "current=choice.id;report={status:'idle',value:0,goal:1,detail:''};$('hud-value').textContent='—';$('hud-detail').textContent='';$('progress-fill').style.width='0%';$('announcer').textContent='';input.cancel();");
+source=source.replace("store.reset();audio.settings", "if(!store.reset()){saveNotice();$('reset-description').textContent=l('保存の消去に失敗しました。データを消去したとは表示しません。','Reset failed. The save has not been removed.');return;}audio.settings");
+source=source.replace("stream.addTrack(track);", "stream.addTrack(track.clone());");
+source=source.replace("stream.getVideoTracks()", "stream.getTracks()");
+source=source.replace("recorder.onstop=()=>", "recorder.onstop=async()=>");
+source=source.replace("recording=null;translate();};recorder.start();", "if(review){try{const blob=new Blob(chunks,{type:recorder.mimeType});const r=await fetch(`/__review/${current}-clip-${Date.now()}.webm`,{method:'POST',body:blob});if(!r.ok)throw Error('capture');}catch{console.error('Review recording save failed');}}recording=null;translate();};recorder.start();");
+source=source.replace("window.addEventListener('pagehide',()=>{cancelAnimationFrame(raf);input.dispose();audio.dispose();if(recording?.state==='recording')recording.stop();});", "window.addEventListener('pagehide',event=>{pause();cancelAnimationFrame(raf);if(recording?.state==='recording')recording.stop();if(recordUrl){URL.revokeObjectURL(recordUrl);recordUrl=null;}if(!event.persisted){input.dispose();audio.dispose();}});window.addEventListener('pageshow',event=>{if(event.persisted){last=0;raf=requestAnimationFrame(frame);}});");
+await fs.writeFile(file,source);

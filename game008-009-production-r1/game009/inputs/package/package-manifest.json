@@ -1,0 +1,1475 @@
+{
+  "schema": 1,
+  "game": "game009",
+  "packageId": "d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c",
+  "sourceSha256": "14e2b69e3235d3b38d1bd6d0b62ce952ed643036d5124b1bd7dbb5396c00b14e",
+  "buildSha256": "1ef85dd6c5879fc3d3d11e3fa7f91f23873b5df8956847e4626a8bcdae9a3131",
+  "createdBy": "tools/package.mjs",
+  "files": [
+    {
+      "path": "PACKAGE-README.md",
+      "bytes": 1558,
+      "sha256": "98db6b8a87aa694819fdfd760b05ddc20528db6225dc9d5baab123495c71ebcc"
+    },
+    {
+      "path": "baseline.sha256",
+      "bytes": 74,
+      "sha256": "e12687d5591547fbb4f83f6d55236239c4e86af31c1ec9f13e1d8f96f3901cbf"
+    },
+    {
+      "path": "build/index.html",
+      "bytes": 3305,
+      "sha256": "3f85a8d808409bf2a152d00a07db23cf5bef1d77596972496d03ce86979e13fe"
+    },
+    {
+      "path": "build/manifest.json",
+      "bytes": 1751,
+      "sha256": "4ae74ab70ff98e537d3ee13dca8a71bcd4c848eedb55087395f3ad0dc4d2f725"
+    },
+    {
+      "path": "build/src/app.js",
+      "bytes": 13943,
+      "sha256": "886fb977cf41ab1c055c680b1771fceb908f516a2b0cbdc669d410efd49d7008"
+    },
+    {
+      "path": "build/src/common/async-start.js",
+      "bytes": 248,
+      "sha256": "fbbf3b841acc9dab4134af059fb2f9872783303e511ac94c217d2aa366272c0e"
+    },
+    {
+      "path": "build/src/common/audio.js",
+      "bytes": 6717,
+      "sha256": "7e00b784751f629cd6825594988557fddfd68c0194c9817562703e706e0e3540"
+    },
+    {
+      "path": "build/src/common/input.js",
+      "bytes": 2612,
+      "sha256": "4b5e5cbee2840e304c718d7f0adcbc4d323d69d6fd348912349ca8c0b94b4a84"
+    },
+    {
+      "path": "build/src/common/math.js",
+      "bytes": 915,
+      "sha256": "f242a30f0c43741c5b878fe5c6d6da368ee38bec5452cce879f1f3a7e7ec06c0"
+    },
+    {
+      "path": "build/src/common/store.js",
+      "bytes": 12737,
+      "sha256": "de56b1f21ff508cbeff5cf657928aad7afac41c1d279b70aca63e893354084bc"
+    },
+    {
+      "path": "build/src/product/kiln-game.js",
+      "bytes": 9734,
+      "sha256": "f3cc230c6cfbcfb9917c7f28b6063e59debc567ecc39e16ba4cf0742b91aab62"
+    },
+    {
+      "path": "build/src/product/kiln-model.js",
+      "bytes": 10472,
+      "sha256": "e3c28427836ea05195275d43a2015a5386699af2025e0165cbe7b0f2683be109"
+    },
+    {
+      "path": "build/src/product/kiln-render.js",
+      "bytes": 29768,
+      "sha256": "e6e065b0ea1e03a47f60dba787e40f3ddc042e8348805b9715a9f48f8ac00db3"
+    },
+    {
+      "path": "build/src/style.css",
+      "bytes": 8542,
+      "sha256": "a87aaf3b9e1c8d81e55101c0b4339504c3308e57d6d1a3f9c67e6f15d6bab8d6"
+    },
+    {
+      "path": "source/.gitignore",
+      "bytes": 124,
+      "sha256": "df130272fb7d16858a915f2950b8763c3e968481489fe0bd9fd9374e6e43644f"
+    },
+    {
+      "path": "source/AGENTS.md",
+      "bytes": 1714,
+      "sha256": "6527edba788250a6ac5daac05f82dc0b6dcb07fb1fb25953c114c377e9a8dee3"
+    },
+    {
+      "path": "source/PROGRESS.md",
+      "bytes": 3019,
+      "sha256": "d0174ab6bedb68d2ad0281e1fa7f920832b9210f72c81ab76afe84793cdea34d"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 4799,
+      "sha256": "0eff10fa570b49d1b32b0208050bc5bee0f8814a728cba7d918ca5769d6fe466"
+    },
+    {
+      "path": "source/REQUEST.txt",
+      "bytes": 13501,
+      "sha256": "0efc5aab7f6d01e28b994ee8cca7fddc8d1b0d6b37168495c1c2153668d5d373"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/index.html",
+      "bytes": 3665,
+      "sha256": "b8af5ff98cdd6ab0b2c0a1289c748c6b7278dcd78ccc38cc25152baf3a7fba06"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/app.js",
+      "bytes": 17338,
+      "sha256": "55eae39269b466534a0cb26b6fc08ff00a18d3757b71abdc29a1aa554defe2ce"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/common/async-start.js",
+      "bytes": 212,
+      "sha256": "c8f0ee39c0d45056e683ee9da372349f53024b7ea8ff5d310f780036cd6ee294"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/common/audio.js",
+      "bytes": 6717,
+      "sha256": "7e00b784751f629cd6825594988557fddfd68c0194c9817562703e706e0e3540"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/common/input.js",
+      "bytes": 2562,
+      "sha256": "c8b058d5a4b843055ab83cfe72bcb5610de961d08872f832311425ccd71726ca"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/common/math.js",
+      "bytes": 915,
+      "sha256": "f242a30f0c43741c5b878fe5c6d6da368ee38bec5452cce879f1f3a7e7ec06c0"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/common/store.js",
+      "bytes": 6751,
+      "sha256": "037ff6fe323b9b2dfaa2c84bb0325b4459457bf1950dd2d98448349cf945d99c"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/games/hush.js",
+      "bytes": 36958,
+      "sha256": "957c37731efda3052929885b0d8046d84f44cc74da0c3b1176c7096491034c36"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/games/kiln.js",
+      "bytes": 26680,
+      "sha256": "fdb7012d2c57382a8032de75c0e4c6b15e89939b353e8c6f63ab94f5ae5176ac"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/games/lens.js",
+      "bytes": 19237,
+      "sha256": "cd63bfa9faf85054e1826eafc2ee6eff2419c6d5bc92ce58f581dab0c91eb530"
+    },
+    {
+      "path": "source/archive/gold-slices-r1/src/style.css",
+      "bytes": 6660,
+      "sha256": "f4b530a7f0097f750feea9ad29588427f90f850d95cd9c9967698b1b6fe1739b"
+    },
+    {
+      "path": "source/design/full-contract.md",
+      "bytes": 6250,
+      "sha256": "59fedf5df06f6397f9069b2017646c0194777706c5229e31edd27dcb96000223"
+    },
+    {
+      "path": "source/design/full-route-audit.md",
+      "bytes": 10210,
+      "sha256": "d3161c17f83399ef41c5c4b50ea6ec3ea07182f471fa88be3ffccb72d54c1938"
+    },
+    {
+      "path": "source/design/full-variation-options.md",
+      "bytes": 11253,
+      "sha256": "9c5ea060671154576dc7d177c4046725005649735b62cf89bb0b16db302b9b9a"
+    },
+    {
+      "path": "source/design/hush.md",
+      "bytes": 8536,
+      "sha256": "252431d56c71eabb82a1d382d3035521b62b1430c4a6bc28d14424ee5065d500"
+    },
+    {
+      "path": "source/design/kiln.md",
+      "bytes": 4363,
+      "sha256": "e81e12a80da23c33fd6265d638d54a9494bbd343665c8b218a02206e5bae44cf"
+    },
+    {
+      "path": "source/design/lens.md",
+      "bytes": 2170,
+      "sha256": "78c2d4479717d724aa9ae1795f7170cccf5d48103cece1d378d0e54b5a867093"
+    },
+    {
+      "path": "source/design/primary.md",
+      "bytes": 4604,
+      "sha256": "1b56b2dc6d1baaf01ef83255fe16cdc8acfa4907d33571200bf5253fe775b51d"
+    },
+    {
+      "path": "source/docs/audio.md",
+      "bytes": 5354,
+      "sha256": "58853e2a4e734eec4f16335ab4e00a7d423ff6d5e4d420888ac726ff013dbbf7"
+    },
+    {
+      "path": "source/docs/build.md",
+      "bytes": 3713,
+      "sha256": "32965925a893d434bf2a44432ab560fbc41f1ef930ce89735c6e96fcd1fe69b1"
+    },
+    {
+      "path": "source/docs/controls-accessibility.md",
+      "bytes": 1806,
+      "sha256": "1dd39fa69f59213ebb3ca84b362f34655c8e297a62f3f1b8d0878ed7525a4308"
+    },
+    {
+      "path": "source/docs/known-limitations.md",
+      "bytes": 3378,
+      "sha256": "33991b1a6b588c2759cc1d454d722ad090fe702add710223d843e1982f514e6e"
+    },
+    {
+      "path": "source/docs/lens-contrast.md",
+      "bytes": 960,
+      "sha256": "8f6094d223c8ceca013e79f12bcb45720f07978ad6a47a779c1eb998b86df00e"
+    },
+    {
+      "path": "source/docs/localization.md",
+      "bytes": 972,
+      "sha256": "36f840e7713df20fdc7d7db5f59e903b7d40530efc049c8c81272b0e6223ce0a"
+    },
+    {
+      "path": "source/docs/rights.md",
+      "bytes": 1500,
+      "sha256": "d602e70aaf91270119ef825772151c17ec38ac1b3ac29916d188de7d1c0f59ee"
+    },
+    {
+      "path": "source/docs/save-spec.md",
+      "bytes": 3235,
+      "sha256": "b95d24fd9ddb1f9a52b4c0ac32a09e543f9e73ef2290ad18a227a571f2bfe303"
+    },
+    {
+      "path": "source/docs/thermal-model.md",
+      "bytes": 3647,
+      "sha256": "be4fae12ff14888cfb2181d032104668247a80317c052f1f3119ca3f9908452c"
+    },
+    {
+      "path": "source/index.html",
+      "bytes": 3672,
+      "sha256": "de2da0bc82ddbd5762bb2700b1e76fbdad1e63d1c9b6fdde2a5ca84d181a2bf7"
+    },
+    {
+      "path": "source/marketing/art.json",
+      "bytes": 978,
+      "sha256": "c41463c9f9c4afe3c04c008fda6816d6592ab2741a46fc4eda5a084b992b4676"
+    },
+    {
+      "path": "source/marketing/clips.json",
+      "bytes": 18602,
+      "sha256": "4b30b1338cfd385dd9a6b0a0e0670c80d5841a53316db8213ba093c6e9a4bfb7"
+    },
+    {
+      "path": "source/marketing/clips/ember-glaze-clip-1790964826149.mp4",
+      "bytes": 500505,
+      "sha256": "0eee72e363fc5b47b3d9e575f4b8543e4873bcd41aa4c8c7f6109a2cb23b02ce"
+    },
+    {
+      "path": "source/marketing/clips/ember-glaze-clip-1790964982494.mp4",
+      "bytes": 526178,
+      "sha256": "54a47644d25878a6bee0afb6827fa55ab69c0efec99140e728d577844ac7b951"
+    },
+    {
+      "path": "source/marketing/clips/ember-glaze-clip-1790965867522.mp4",
+      "bytes": 442347,
+      "sha256": "f485403c9ffba15697b5fdad436386fdd0a05b1aae2b0e2d95f089e634eba75d"
+    },
+    {
+      "path": "source/marketing/copy.md",
+      "bytes": 2859,
+      "sha256": "cc1feba7223bdd3ddca2ac2c49085964f09681c12175cd8eab83edc6f86eb2f0"
+    },
+    {
+      "path": "source/marketing/cover-16x9.png",
+      "bytes": 360989,
+      "sha256": "af3984cee35d2a1ed35642b163a17bfa3399f8e2996505608a533c27ddb795ed"
+    },
+    {
+      "path": "source/marketing/thumbnail-square.png",
+      "bytes": 333875,
+      "sha256": "a35a530816859a2da9c92ef282d8c997f20c1f1e904f1870ec2be6b1cd5c5980"
+    },
+    {
+      "path": "source/package.json",
+      "bytes": 246,
+      "sha256": "f00f2bdd56995e4e04f72c96b5491ea9b629cb8b846694e60a97a76ba28b02ff"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790962148232.webm",
+      "bytes": 3311509,
+      "sha256": "bfc5cf16eab2c88f7097e616ba1e5e5dba23780ed3083e97d6bbddbc2303069c"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790962882474.webm",
+      "bytes": 3172391,
+      "sha256": "9cdb7bf49c343c270b97405acaf8a320da6d1678520d36d8da52dffdf0976757"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790963111519.webm",
+      "bytes": 3137803,
+      "sha256": "eadf9866f3164183c6a06377368996ce5f4b5696e07035ce6afd320b05229612"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790963466592.webm",
+      "bytes": 2872150,
+      "sha256": "c2b8b99a5f4e3f4d6c8f6a1475624b815bb353c974301715c13d82e5fa48fe1c"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790963563793.webm",
+      "bytes": 110,
+      "sha256": "34625a59ca017ae414573bcb4a21464514f695d9806955fa676098939005795c"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790964040706.webm",
+      "bytes": 3200733,
+      "sha256": "4a90fddc7daea9d1628777979fd8552fcfe50c1dbc4e849da2adb44e7b7c89e2"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790964826149.webm",
+      "bytes": 3156874,
+      "sha256": "a4722e4cc5eacd2a8584c2055c7c5841ae54ba9eea535ee1b21357bdd5af3eff"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790964982494.webm",
+      "bytes": 3226267,
+      "sha256": "b52d8d96e49d60e7aa322327f7ac64f1a85a07c4363117330360f282b4e4e835"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790965210278.webm",
+      "bytes": 3173786,
+      "sha256": "daa8a52f18a29c95b969cbcd3f54a7f361e048dfe835b5b2b8998ceca2323fb7"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-clip-1790965867522.webm",
+      "bytes": 3040144,
+      "sha256": "6b93f6dfe9104973c4e428cdf81db9ed2c59dd0c83b4f41f178d3038e834831b"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790962047776.png",
+      "bytes": 401788,
+      "sha256": "bca6957b31907f0630caeb96fc4aae9b03a6206eca77d5e90cc6be217585682d"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790962918115.png",
+      "bytes": 392646,
+      "sha256": "7be6ecbd2c50563c60423890c91430a1e4b00341613080ce65f01c12e94aafe6"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790963182648.png",
+      "bytes": 397330,
+      "sha256": "293bb2e245c18b995523bacf2665564a4033b7f5b0a03bd04088d89b7813a0d3"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790963468903.png",
+      "bytes": 410890,
+      "sha256": "649684b270cd6d3ebb89278301b503d806fedfb0071136a0f491a25a4e944c3a"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790964042297.png",
+      "bytes": 397711,
+      "sha256": "bedaa3a54269c183a4e1735dcb0b3f5eb34b1f5a8f5062f189147c1a2863e4bb"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790964896377.png",
+      "bytes": 396691,
+      "sha256": "5f526eb607fef60b076424731f90109eb61e3e90bfd3bf64c2685ae8fb6c3389"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790965040598.png",
+      "bytes": 397439,
+      "sha256": "7d70125026de0616c791403d0d950e184d4651c6e98b8ab55721426aa2ac4e3f"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790965212198.png",
+      "bytes": 414462,
+      "sha256": "dc37c989e056336a57ad7e818cd56606b9e4750dadf6d1457255a3419c2b5f88"
+    },
+    {
+      "path": "source/qa/captures/ember-glaze-frame-1790965869638.png",
+      "bytes": 414827,
+      "sha256": "80b4a02e45de960bf732a2b49ff48c2104e04d1cf061fd1e891b2c458ba24767"
+    },
+    {
+      "path": "source/qa/captures/hush-clip-1790955228962.webm",
+      "bytes": 2068912,
+      "sha256": "d2ab1287b588384a65dbc95a6ca04c836f39243a16a222ab4edf1260ba159e58"
+    },
+    {
+      "path": "source/qa/captures/hush-clip-1790956498898.webm",
+      "bytes": 2843632,
+      "sha256": "4a7859fa536beee32b2663fe50190e1df528bf88b65106c4ab6f4c26fab09a85"
+    },
+    {
+      "path": "source/qa/captures/hush-frame-1790951490845.png",
+      "bytes": 166096,
+      "sha256": "7f142fe3ac7fee7e88af8ee5787aa8154d52628b84bde9768a295ae2c249a663"
+    },
+    {
+      "path": "source/qa/captures/hush-frame-1790953793514.png",
+      "bytes": 189151,
+      "sha256": "592c21b3d05e183f50543243acbde9bab3a05f72f726b26ec993d973acf53982"
+    },
+    {
+      "path": "source/qa/captures/hush-frame-1790956696069.png",
+      "bytes": 182286,
+      "sha256": "2a36c629693d9e4f31290a8a195823706e977644ac42dff8b525b8931cbc8089"
+    },
+    {
+      "path": "source/qa/captures/kiln-clip-1790954251582.webm",
+      "bytes": 2397782,
+      "sha256": "41be0fc3c958eef9a4f523777e7112ef20dad5d1ec40f7b2ab0609273f73ce9e"
+    },
+    {
+      "path": "source/qa/captures/kiln-frame-1790951538554.png",
+      "bytes": 285022,
+      "sha256": "64875bb4225e211db9e798e21600cfa72be2c90578cb4eb086c02cc3fa6169db"
+    },
+    {
+      "path": "source/qa/captures/kiln-frame-1790953924339.png",
+      "bytes": 305093,
+      "sha256": "57a25c3790ce76cb54e301635a56a6cc653c5b290e49fb078c4d3a1516e0ba84"
+    },
+    {
+      "path": "source/qa/captures/lens-clip-1790952472846.webm",
+      "bytes": 4891244,
+      "sha256": "156d0573077fa59d00970d9dd18da60844d43e890bd20b83eef7e60ad583215d"
+    },
+    {
+      "path": "source/qa/captures/lens-clip-1790952782632.webm",
+      "bytes": 5521181,
+      "sha256": "44ef6ef9ed7228dfd238c5fd44d06c3d80c0af431684ad34dfc58cd85341dc7a"
+    },
+    {
+      "path": "source/qa/captures/lens-clip-1790958055609.webm",
+      "bytes": 5882031,
+      "sha256": "83401713a0368a40183b7053064fc4618798da86d19232ee0215db429c48a814"
+    },
+    {
+      "path": "source/qa/captures/lens-clip-1790958916173.webm",
+      "bytes": 5583648,
+      "sha256": "b1c6007e1cd8e5f339a12939bafaecf6ab91f7aff0776edc9c1ab181c7e29b40"
+    },
+    {
+      "path": "source/qa/captures/lens-frame-1790951360165.png",
+      "bytes": 367084,
+      "sha256": "1a640779fff0508951d52cc32f3dee490266bd8a1c90765aca518b88e2090400"
+    },
+    {
+      "path": "source/qa/captures/lens-frame-1790958744285.png",
+      "bytes": 387901,
+      "sha256": "5e317eb34c01c0d03027382b308822a5b2e36331add36db928e2f6b7d8324cfd"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962148232-bfc5cf16eab2-sheet.png",
+      "bytes": 640658,
+      "sha256": "8d37d741d7f64f5f321efacda102fe91b471798dd6f3d167a5b5b2b9dc3a8ef5"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962148232-bfc5cf16eab2-t00.png",
+      "bytes": 304244,
+      "sha256": "5f8e90c60ab02a29ff9470ad4cde4e0aef4ea79a6b97cd422f52502e572d6d86"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962148232-bfc5cf16eab2-t01.png",
+      "bytes": 274306,
+      "sha256": "bb84662f8277ed950336bd3ca49e50f3cf88e45bd2de289ea357df00010edab8"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962148232-bfc5cf16eab2-t02.png",
+      "bytes": 265850,
+      "sha256": "0e0b133a12b4032422a3309c929b7ca191d1bfe65d73dbd9cce9d355686cd871"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962148232-bfc5cf16eab2-t03.png",
+      "bytes": 264540,
+      "sha256": "0575b612ada260e40a8e809dfb245bfa57fed074bf42656f8e3cf253e3034e01"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962148232-bfc5cf16eab2-t04.png",
+      "bytes": 261643,
+      "sha256": "79289433a14858b63b993c9eeab68f991df15f25fe809764df635e36d150f316"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962148232-bfc5cf16eab2-t05.png",
+      "bytes": 266065,
+      "sha256": "5453a2928487de57662c86edef363a715f943b6db6153abd1a375b31d357a6d7"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962882474-9cdb7bf49c34-sheet.png",
+      "bytes": 449865,
+      "sha256": "c7fd3c9a73b4c59629a68f6e73ea94f10e6935c1f379362e735fe8a63c21403e"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962882474-9cdb7bf49c34-t00.png",
+      "bytes": 215682,
+      "sha256": "a767d366462a19692d4da84849f50fa65bb520705ef0b80cec03f6859fffd675"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962882474-9cdb7bf49c34-t01.png",
+      "bytes": 192493,
+      "sha256": "85ba462c36b7e67840d806351d7bdebe6386e961fb13e9c5ff3e13f4b4501a8d"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962882474-9cdb7bf49c34-t02.png",
+      "bytes": 189609,
+      "sha256": "231d1f03f3f7411f2d52fa8ef0312a697b845e6a6dfe04e91f8ea0449cee0908"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962882474-9cdb7bf49c34-t03.png",
+      "bytes": 188196,
+      "sha256": "d62244af95b90981a17bb52e325e3b404842e1b1fb31f92668656fc502e6921b"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962882474-9cdb7bf49c34-t04.png",
+      "bytes": 183713,
+      "sha256": "8156cf5fd722019c6973a1dd39a7e1e3101ef5ad2f3a4229663471c898a692ac"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790962882474-9cdb7bf49c34-t05.png",
+      "bytes": 186182,
+      "sha256": "aee4345490a236dfbc96d2c3fcb39c377f8476f2c78f74099f0122ec38a5b9c9"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963111519-eadf9866f316-sheet.png",
+      "bytes": 480159,
+      "sha256": "b08ca3a8cc0a6a0e2b887c693f5503187a0c076a909f07f0cf5ea982ab6691a4"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963111519-eadf9866f316-t00.png",
+      "bytes": 229564,
+      "sha256": "f63d32b17f43da57ac105bfb3e5349a066d90701964a62a15d40a9a599def21a"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963111519-eadf9866f316-t01.png",
+      "bytes": 204731,
+      "sha256": "df7dd9f42d9088675fec978bd496de06ebb9833ec6e096958495b5f96a5d94c1"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963111519-eadf9866f316-t02.png",
+      "bytes": 200372,
+      "sha256": "8342432cfc634287eeaac80a770bee68483d7464d73a69270149b604d744bcd0"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963111519-eadf9866f316-t03.png",
+      "bytes": 196725,
+      "sha256": "3b64a5a374f5f116cb93dd9810a34ac6c2a595deb1bcd0b0ee7dc24eab8abe86"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963111519-eadf9866f316-t04.png",
+      "bytes": 190521,
+      "sha256": "af2fca2f2e85205bd07b51c0a0c7ece5a3649e1cb4160651b5a320bf77ee3afc"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963111519-eadf9866f316-t05.png",
+      "bytes": 195870,
+      "sha256": "c550a1d18d33e314c3acd56be6c635ad98ce6cc23d54e5bb03934769c69da57d"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963466592-c2b8b99a5f4e-sheet.png",
+      "bytes": 493863,
+      "sha256": "f1e44ad845c18eb870a41910a3972db78b452d30e5b51688b74271d91ed25775"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963466592-c2b8b99a5f4e-t00.png",
+      "bytes": 242884,
+      "sha256": "63a07c43742e9131c2c80d2edc9bf812faf8ea99162bc3e7ae64104139559922"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963466592-c2b8b99a5f4e-t01.png",
+      "bytes": 211912,
+      "sha256": "0e1b098df619cffe0b65b29f18890cbf942dc622f0a65a679b5fa55f0540a758"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963466592-c2b8b99a5f4e-t02.png",
+      "bytes": 204140,
+      "sha256": "0a6e94a6caee3315b07c37f63b21f3b7879642dac50121325bc4c3b68220033b"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963466592-c2b8b99a5f4e-t03.png",
+      "bytes": 201340,
+      "sha256": "ec530fb391563bc646b0c65ea9f2a1fbda622ec57353cb3f3201ad0b60d6045c"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963466592-c2b8b99a5f4e-t04.png",
+      "bytes": 196074,
+      "sha256": "ef2d7cbb7be7c911f9ec1628a69ea471ea3d62bc4728d3eed6c2df5e848713e3"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790963466592-c2b8b99a5f4e-t05.png",
+      "bytes": 204574,
+      "sha256": "96342e2bc7e9bbc07c8b8de1e398179173b6e26326e8c8ab141bfca4f9d63999"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964040706-4a90fddc7dae-sheet.png",
+      "bytes": 538360,
+      "sha256": "1719c85efacd3677e7c2659715059837efc473931fb46e413e27888507c8fcca"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964040706-4a90fddc7dae-t00.png",
+      "bytes": 307139,
+      "sha256": "f51b62f0b7241d70993f0200d9d2bbb66d0b600094f6218e50ff2ef351ee47f1"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964040706-4a90fddc7dae-t01.png",
+      "bytes": 265115,
+      "sha256": "d550938447de7546afcf71e464cc69893a9e3491eb899360ef9b632e47a51f1f"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964040706-4a90fddc7dae-t02.png",
+      "bytes": 255861,
+      "sha256": "1b8191598074bd1fbb778556a1a68396b1cfaab1fd68d4f64487e71ee75b3ff5"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964040706-4a90fddc7dae-t03.png",
+      "bytes": 253177,
+      "sha256": "4a22a7b51f0221c16039e2f3479097cc889ce4df694e177f2c6c06f4fd8f1de3"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964040706-4a90fddc7dae-t04.png",
+      "bytes": 125972,
+      "sha256": "e9a3e8a882884782cfbc04c06950774bebbffefb09d6c0513008dedaec7f3581"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964040706-4a90fddc7dae-t05.png",
+      "bytes": 124075,
+      "sha256": "22598c513b25d83e1dbecc8b31030ad509c177b70dd0ded98e7dfca6c1d44085"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964826149-a4722e4cc5ea-sheet.png",
+      "bytes": 579983,
+      "sha256": "b9e062e351dc5e76fd5ca7eb2f3d28b9006fe3bef98f3f40b8cd23f6925b281b"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964826149-a4722e4cc5ea-t00.png",
+      "bytes": 258847,
+      "sha256": "38118d74311d7cc67712fc3c37d4027854a8fd485b2e9ced86ae2ddb955ebf1b"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964826149-a4722e4cc5ea-t01.png",
+      "bytes": 251636,
+      "sha256": "b7ceb96bb12b995ef6c4e34f60ca3404d277f22843118842891de6875255801f"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964826149-a4722e4cc5ea-t02.png",
+      "bytes": 246257,
+      "sha256": "4b215954053faa3e87a8b504bfe3bcbaa9a4d39cb71d1011d6522f26c81057f6"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964826149-a4722e4cc5ea-t03.png",
+      "bytes": 241357,
+      "sha256": "0bf075499718ebc53ba80931b14c2689d7967a304b20c30c6ba69e5bd5f06537"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964826149-a4722e4cc5ea-t04.png",
+      "bytes": 236559,
+      "sha256": "cb498275c03df37defe8788e32064b30b047f12766ebf2b36e3b8100c77df8cd"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964826149-a4722e4cc5ea-t05.png",
+      "bytes": 241998,
+      "sha256": "5d6c2bcdc8d2cfc010b6a82a0504a39935db54a390e8cf9649015669e3732fcf"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964982494-b52d8d96e49d-sheet.png",
+      "bytes": 605804,
+      "sha256": "6a2585a4fbce00cff90f0bb624ba579690e9982a6feb59958723be33dfaafb12"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964982494-b52d8d96e49d-t00.png",
+      "bytes": 298311,
+      "sha256": "5dbed2edd9a0579626ccd40096f0ee9b36ec4f8e71895ee66dffa5728784f935"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964982494-b52d8d96e49d-t01.png",
+      "bytes": 261399,
+      "sha256": "5fe21ad77d7fc9d24a735a4ca08e1d0ab9068a483a63740b8e4c21aa3523052c"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964982494-b52d8d96e49d-t02.png",
+      "bytes": 252331,
+      "sha256": "ac7cc29c832ab44d5e101da8b3aa012aecaf30050d93774f98388d986add0911"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964982494-b52d8d96e49d-t03.png",
+      "bytes": 248930,
+      "sha256": "000f4d445fe3445b40f7a54608190da9a2659ace26c27a52fa361130f4eca0bb"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964982494-b52d8d96e49d-t04.png",
+      "bytes": 249348,
+      "sha256": "c9a224a8e5375161ad216c34453e013bbf8b3a92e280fbaff4d73714ccccd6b8"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790964982494-b52d8d96e49d-t05.png",
+      "bytes": 254935,
+      "sha256": "dfde1eba517a896c6b59fd2c09099198d842e2b12b510f551a46d63dbfe2524f"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965210278-daa8a52f18a2-sheet.png",
+      "bytes": 640287,
+      "sha256": "ec9ab71f734b57ea0f3ce6e288dbd7aa4647be8237e35d44c70d0b75a05656f3"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965210278-daa8a52f18a2-t00.png",
+      "bytes": 322370,
+      "sha256": "df1188a74f319dc074c8ecd9f799f7828e2f26e4c0749820409e08a81d2f93a6"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965210278-daa8a52f18a2-t01.png",
+      "bytes": 282379,
+      "sha256": "0ad5285d8e754b0a3438dab3993a2ed798885d978b896c1bbbf94eb95bbc798c"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965210278-daa8a52f18a2-t02.png",
+      "bytes": 268059,
+      "sha256": "1de7e13491955140b9f3a764085ce28d3c9b96a7a3238b966e9ed1716a53717f"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965210278-daa8a52f18a2-t03.png",
+      "bytes": 271324,
+      "sha256": "3b0c15e2b247fcf5b146d52dde9366531b209197cb61a98473f815e935bd170a"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965210278-daa8a52f18a2-t04.png",
+      "bytes": 272787,
+      "sha256": "8c15b245dc8c479f5774084a321c55ff2d9e66b86acab89096c950bc9d69bd10"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965210278-daa8a52f18a2-t05.png",
+      "bytes": 161808,
+      "sha256": "e08d41c7167f40f15bf1d5364386e93df936bb3865176696a62824f634c17eba"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965867522-6b93f6dfe910-sheet.png",
+      "bytes": 632237,
+      "sha256": "8e7df2e87040783e21e8017d20391812d8d36b5d09dbe7a912eea082cfed21e4"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965867522-6b93f6dfe910-t00.png",
+      "bytes": 312316,
+      "sha256": "a55b3e806c0b17800617733d941a4b407d1cd2c418dca6e5fbb7cf95750cd32a"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965867522-6b93f6dfe910-t01.png",
+      "bytes": 277965,
+      "sha256": "8d5f27979b7018e28b67b207104a0bb27a5e164c9052f8a24b51052c631e608d"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965867522-6b93f6dfe910-t02.png",
+      "bytes": 267873,
+      "sha256": "acddccfbf0eacf503f17801753ab61561cc81f9f5af3a0b5f7ccd882d5cd7d1f"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965867522-6b93f6dfe910-t03.png",
+      "bytes": 263076,
+      "sha256": "5720bcf1744297227f99bc8395f1c96ea4f3c42dbb0b13dd9a653f13506288d8"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965867522-6b93f6dfe910-t04.png",
+      "bytes": 268089,
+      "sha256": "390af1474c4941d0c384767ae1e0bdc8da0b6eca1f9b7866dfd29fb89e203c01"
+    },
+    {
+      "path": "source/qa/contact-sheets/ember-glaze-clip-1790965867522-6b93f6dfe910-t05.png",
+      "bytes": 161893,
+      "sha256": "62b1c4f26d64527c1022877db78deafe1e01fb9655c063403da724fabeffd994"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790955228962-d2ab1287b588-sheet.png",
+      "bytes": 309397,
+      "sha256": "83348ac419070454cca02f5a84deef0f8272ce6065c4a06a4ae39ab6afbe587e"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790955228962-d2ab1287b588-t00.png",
+      "bytes": 139244,
+      "sha256": "8a4df6ed4d7a986c403af966e8482618a255d4f6f046545bb201e9e8dea48b68"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790955228962-d2ab1287b588-t01.png",
+      "bytes": 132057,
+      "sha256": "440a0d941ae0a335218b354b879dc7166d34bb78b51e8270e7e3cbfeab04cedb"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790955228962-d2ab1287b588-t02.png",
+      "bytes": 118323,
+      "sha256": "53552cc3dd02f393114803d2a15d3c26541c90744ce42ba354d94c6bf353d974"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790955228962-d2ab1287b588-t03.png",
+      "bytes": 120845,
+      "sha256": "1ef45397df608ecb0c6ab3b142a533e907820883eb31c9e59d93beed7030a925"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790955228962-d2ab1287b588-t04.png",
+      "bytes": 123090,
+      "sha256": "df9f117399070af65cc99ed938a8152daba40d6010f23db1fbe368769a9a5cf3"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790955228962-d2ab1287b588-t05.png",
+      "bytes": 125859,
+      "sha256": "bae050614161493f0af1d3cefc29f0e0c4ad2d2bd8edfcca91de0be540e28a80"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790956498898-4a7859fa536b-sheet.png",
+      "bytes": 295233,
+      "sha256": "9d1c66a15ce49b55bda782aed0be3c415690a06d0122f1f22f96cd31e18371b2"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790956498898-4a7859fa536b-t00.png",
+      "bytes": 119911,
+      "sha256": "11b43a417a25cf940d0f387c790a9961d1f3ecae7a8ee83a251f1e8582573d5b"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790956498898-4a7859fa536b-t01.png",
+      "bytes": 124355,
+      "sha256": "9b1ba938e25ebafaab267afb7611e385ee9434ba32eab4a621228a3f0d8ab1f4"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790956498898-4a7859fa536b-t02.png",
+      "bytes": 122426,
+      "sha256": "574bc0c0b624febf8dbac36e00143e2d73d50d6d4f3d2dce5610cb832754dfcb"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790956498898-4a7859fa536b-t03.png",
+      "bytes": 107390,
+      "sha256": "684977ac14ac7239d5e88ce93b90fefb84995d6f89fc8415881b058e66cd3248"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790956498898-4a7859fa536b-t04.png",
+      "bytes": 123693,
+      "sha256": "f926458052f3e98c13d51a05960db14a83d25311cef4b62a4f995d784894e513"
+    },
+    {
+      "path": "source/qa/contact-sheets/hush-clip-1790956498898-4a7859fa536b-t05.png",
+      "bytes": 116095,
+      "sha256": "74f5b73b4a5645ace34466f820461bcb0f534f1be9f6851597418217b81773a8"
+    },
+    {
+      "path": "source/qa/contact-sheets/kiln-clip-1790954251582-41be0fc3c958-sheet.png",
+      "bytes": 480083,
+      "sha256": "da3efcad52c3362033c967f9cbb3a51488fe42f6c5a95208327dbde5c09302ae"
+    },
+    {
+      "path": "source/qa/contact-sheets/kiln-clip-1790954251582-41be0fc3c958-t00.png",
+      "bytes": 231612,
+      "sha256": "dd8e2b6dd00201f8bfe60588f2f7ef5e9b438d681bfdd6a55b5a14b5807ca551"
+    },
+    {
+      "path": "source/qa/contact-sheets/kiln-clip-1790954251582-41be0fc3c958-t01.png",
+      "bytes": 202536,
+      "sha256": "07d6cd4bc622cc2c64879b14197cf713f85c0b114fc217d39930e0c72e3bd3c9"
+    },
+    {
+      "path": "source/qa/contact-sheets/kiln-clip-1790954251582-41be0fc3c958-t02.png",
+      "bytes": 201099,
+      "sha256": "b77a4d045cb20657c50f3fcc18f9d697e9783dbd52413e730f8ae2e721407a43"
+    },
+    {
+      "path": "source/qa/contact-sheets/kiln-clip-1790954251582-41be0fc3c958-t03.png",
+      "bytes": 210980,
+      "sha256": "fe8b3a8eab7c85fa57e1d3bc70cf8a1bf0603c82ff94d911f074f12603dfbfe5"
+    },
+    {
+      "path": "source/qa/contact-sheets/kiln-clip-1790954251582-41be0fc3c958-t04.png",
+      "bytes": 199135,
+      "sha256": "09be2a424c36c12c60acb33e548f5e7183d11b4a278c216249e5da312fd3a579"
+    },
+    {
+      "path": "source/qa/contact-sheets/kiln-clip-1790954251582-41be0fc3c958-t05.png",
+      "bytes": 197187,
+      "sha256": "617f70e8ded3160e78a5bf0b5e094dee714ec60b0e4bfdab8b56750286095abe"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952472846-156d0573077f-sheet.png",
+      "bytes": 394459,
+      "sha256": "9653eb1a9e2aff5989d2e2229063198c2cdd62b4dbf392297f4529ed93cb8e83"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952472846-156d0573077f-t00.png",
+      "bytes": 172669,
+      "sha256": "af9f548e5b25f5fb8e657b47c3614014a9a329ab225bd72b5b6261299409dee1"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952472846-156d0573077f-t01.png",
+      "bytes": 150346,
+      "sha256": "0926b13667d273ca63996ee6f93a69ecf1de8a453affcbb8c0390e8a15f179b9"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952472846-156d0573077f-t02.png",
+      "bytes": 153454,
+      "sha256": "e7fc87fe14e12d0d8ed526f0c6179bacfd0010e9ee23fb7a29fcbdb8a4b2009d"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952472846-156d0573077f-t03.png",
+      "bytes": 146529,
+      "sha256": "2e493265b2fed73ccefcb4b41bfd41642e52e8e3a71f55c939d37cf80d90e972"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952472846-156d0573077f-t04.png",
+      "bytes": 152319,
+      "sha256": "94dbd2a795f78418b0f8a98a8d94fd758040f076ae55ba2e5ccb87f3ab6790f7"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952472846-156d0573077f-t05.png",
+      "bytes": 151162,
+      "sha256": "fee0c3867cc57ce0da0966633f7168634ff8b4ad015516a0519225f3e0bee17a"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952782632-44ef6ef9ed72-sheet.png",
+      "bytes": 411929,
+      "sha256": "b0734d8660e577a92ac1c6e827b7f51a0bebfec3c9b0db4b96d5ce2978af9a10"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952782632-44ef6ef9ed72-t00.png",
+      "bytes": 169614,
+      "sha256": "d09e671ef658ec2512884acf8dd95285b746a3f05855fed4aeb3d99951205f15"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952782632-44ef6ef9ed72-t01.png",
+      "bytes": 136525,
+      "sha256": "2139f810d03156eb9a6bc95ed2c2420a38742ef270490044aaf2f9d32532c2c2"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952782632-44ef6ef9ed72-t02.png",
+      "bytes": 162593,
+      "sha256": "a05c88f194e843999dd3aeb6dac60c29069b924593f7d8d512c15d7581905745"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952782632-44ef6ef9ed72-t03.png",
+      "bytes": 164578,
+      "sha256": "d25c220a8c02251ce62b401cd0ce70559995286a1e8953002ad84473eb9c0f98"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952782632-44ef6ef9ed72-t04.png",
+      "bytes": 144796,
+      "sha256": "81c93e06d5b157af8703da157d97845ab2debb8abdc7a12f4add8629195c091a"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790952782632-44ef6ef9ed72-t05.png",
+      "bytes": 163147,
+      "sha256": "5bbecf20d73dad5126df697c96c7301e68e68a03ebc65bfc0a7a0f8bdc8f90ad"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958055609-83401713a036-sheet.png",
+      "bytes": 471090,
+      "sha256": "e7818ffa73625ef3f29a33dee1670cf7bfc86fe8b1c3ecde3a8517ff8880222d"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958055609-83401713a036-t00.png",
+      "bytes": 199812,
+      "sha256": "f4a1ded5fb631b60085b74d50d4e919328f249ba3e2a399c3e79f114cc0d88e1"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958055609-83401713a036-t01.png",
+      "bytes": 173422,
+      "sha256": "a186b26308e03df1dca0be53f3489e0ef98b54e9f20492cc05cfab1435cbfd03"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958055609-83401713a036-t02.png",
+      "bytes": 222526,
+      "sha256": "b8baf3cbe4d6e98c37edce9212a9dd436b0542be7b59d94b1952ef613533ba45"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958055609-83401713a036-t03.png",
+      "bytes": 160339,
+      "sha256": "f545a0ed628476d57030e9ee77bf19d26643a804d5efc2a9ef31ed6e8a4decaa"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958055609-83401713a036-t04.png",
+      "bytes": 178008,
+      "sha256": "7a21ac69b157e36d145091c33ddc728bee598fd32557fab4d08d14cdfa4e073f"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958055609-83401713a036-t05.png",
+      "bytes": 191517,
+      "sha256": "b38058b51ebf1f6e3b4812329a0659b8be6a36377555b313f5310038f3dc11ba"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958916173-b1c6007e1cd8-sheet.png",
+      "bytes": 449435,
+      "sha256": "b2e8a9d2f1cf0cc98f8d8e24bab8f718c6a8cd543df27df5e044894648a768c3"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958916173-b1c6007e1cd8-t00.png",
+      "bytes": 202584,
+      "sha256": "39000f57b960b7916df0eeba80cedd740d905d6e67bb2ac6d43cdc73af28f898"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958916173-b1c6007e1cd8-t01.png",
+      "bytes": 173201,
+      "sha256": "6d209f516105973ebb1ba3d22c6e975280426d6e214f416f850e7e2cbf8b2c93"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958916173-b1c6007e1cd8-t02.png",
+      "bytes": 171694,
+      "sha256": "24284bfa08798077da5ba6e6d405d87b81927fc11be050c4bfe38375c04c655c"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958916173-b1c6007e1cd8-t03.png",
+      "bytes": 168167,
+      "sha256": "88cbc799c600bf419d6ca4fa7b70c73479df6736dc6139df740288aba707648b"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958916173-b1c6007e1cd8-t04.png",
+      "bytes": 175541,
+      "sha256": "9345194260c97dfc26538060aaf15aad205d9914ac595845d88f5733e277243d"
+    },
+    {
+      "path": "source/qa/contact-sheets/lens-clip-1790958916173-b1c6007e1cd8-t05.png",
+      "bytes": 199795,
+      "sha256": "810cbca4a4d38a99885b7a0cd70950119cc66d600f86f6d563eefb1704e20c63"
+    },
+    {
+      "path": "source/qa/controls.md",
+      "bytes": 1611,
+      "sha256": "e587d2fa737bb521d51adaf9b991143debd499e8f4a949638d983fcb53a38c65"
+    },
+    {
+      "path": "source/qa/final-claim-audit.md",
+      "bytes": 4285,
+      "sha256": "634ea75329dceff9cb872bd94805db43599c80893fa660f95802740c0fab7a10"
+    },
+    {
+      "path": "source/qa/final-media-evidence.json",
+      "bytes": 126962,
+      "sha256": "a389ae9bf8d4d20e0edd07aac52c4b57b18264f93152eda014d6d77e3bbe33bd"
+    },
+    {
+      "path": "source/qa/final-reset-regression.md",
+      "bytes": 1986,
+      "sha256": "984e819fc1ee463c0b8629da064fb2ba71ac47960dee811edf4effdc7e68272d"
+    },
+    {
+      "path": "source/qa/full-crosscut-audit.md",
+      "bytes": 3695,
+      "sha256": "d8ecc6e3ec0677109fb04c62a75dba5d7ac9516e8182a3605e0a766e6401c13f"
+    },
+    {
+      "path": "source/qa/full-media-evidence.json",
+      "bytes": 216837,
+      "sha256": "1f36cc2a17b5abe84d3c68a3be6d54b3a57ab3078a290aa041fd605864c5fbd8"
+    },
+    {
+      "path": "source/qa/full-play-r1.md",
+      "bytes": 2449,
+      "sha256": "9d9a8406ab2a7de5b82c753d47f9100342bbf157b6272f051a0aba5f7212dbd1"
+    },
+    {
+      "path": "source/qa/full-play-r2.md",
+      "bytes": 3210,
+      "sha256": "aaf33985a039dc6eee7ffc9f8a11bbfb3716c6a93cb69bb7709c7f83ef8050bd"
+    },
+    {
+      "path": "source/qa/full-play-r3.md",
+      "bytes": 2902,
+      "sha256": "f87adfee1b31dc7d4d07ae72574ba250e7b6af78cc7bcc7c5e51e3806e2a9c53"
+    },
+    {
+      "path": "source/qa/hush-mobile-fix.md",
+      "bytes": 1952,
+      "sha256": "0a2e79e065ea176cc6ddcdbfea773fb908982d9641f9c704ff39de85b4cc2634"
+    },
+    {
+      "path": "source/qa/integration-preparation.md",
+      "bytes": 10753,
+      "sha256": "ebe5db07337f645567446a16ff5ce3079ecefa4cb4e63ed4365f68aa5f22e146"
+    },
+    {
+      "path": "source/qa/kiln-mobile-fix.md",
+      "bytes": 1705,
+      "sha256": "a77b96a763f44e10959def1a2e027328e67c06fac4b4296e6a7239b1e81ea9cd"
+    },
+    {
+      "path": "source/qa/media-evidence-prev-20261002T150650Z.json",
+      "bytes": 64743,
+      "sha256": "f185a1bbd31a7b2ecc1deef48f774cf09d9a3dec15fd58b92049e3a1e9ca3fc4"
+    },
+    {
+      "path": "source/qa/media-evidence-prev-20261002T150736Z.json",
+      "bytes": 64743,
+      "sha256": "0eaa6dc1c375e81bc2ccc9dff531a26dd02715748353a178a6bf636ba27a0452"
+    },
+    {
+      "path": "source/qa/media-evidence-prev-20261002T152534Z.json",
+      "bytes": 103762,
+      "sha256": "0da256e45db28ab574a99a1e8421894616ba7e4370e495f579663f5fbc6515f0"
+    },
+    {
+      "path": "source/qa/media-evidence-prev-20261002T152622Z.json",
+      "bytes": 103762,
+      "sha256": "948e96b1698bb044606a30257accf10c89398f0ed884d2f660059692b10155da"
+    },
+    {
+      "path": "source/qa/media-evidence-prev-20261002T153855Z.json",
+      "bytes": 143590,
+      "sha256": "a6292922789f60f65f3ed25a28939c5d72cfbd08a4d93306d91375dc5dc4c8bd"
+    },
+    {
+      "path": "source/qa/media-evidence-prev-20261002T153937Z.json",
+      "bytes": 140660,
+      "sha256": "9d1ff614c97d0a05c7f2ea8972f6fae7af2d69845c7467b1ab11a7b260f67b7e"
+    },
+    {
+      "path": "source/qa/media-evidence-prev-20261002T180104Z.json",
+      "bytes": 492373,
+      "sha256": "9df75f17d584345e4cd3970171b7d8dbf79322b86b43a8ef8131210a259c0fce"
+    },
+    {
+      "path": "source/qa/media-evidence-prev-20261002T182029Z.json",
+      "bytes": 625398,
+      "sha256": "d95136ef31a60ce3675e51a2aa750160d405bca23a87ced3f2251cca373db3ea"
+    },
+    {
+      "path": "source/qa/media-evidence.json",
+      "bytes": 664984,
+      "sha256": "2683d5bb89cc5ae7e4fbc08ab93666d7704581933ede39e823f2ebdd853832ef"
+    },
+    {
+      "path": "source/qa/media-transcode-failures/attempt-1790964826149-audio-timeline-mismatch.json",
+      "bytes": 1811,
+      "sha256": "91ec922e786df2418fd909e2147fe7606bec4d5dad83959755168b97dad2f70c"
+    },
+    {
+      "path": "source/qa/media-transcode-failures/ember-glaze-clip-1790964826149-first-pass-audio-timeline-mismatch.mp4",
+      "bytes": 494303,
+      "sha256": "82f7148fa8945464696e4869d85593359014743808fcaaef9200ba8de1490236"
+    },
+    {
+      "path": "source/qa/play-exposure.md",
+      "bytes": 5060,
+      "sha256": "c38f4cd6a6e4d9b44427b16a5fc1d5ec2f13fcda50984e8b5703a9380e978f6a"
+    },
+    {
+      "path": "source/qa/portal-coordination-20261003T0021JST.json",
+      "bytes": 3450,
+      "sha256": "771d841b62345957333468944f5ce35f935fe613e7357a098f9d6515b3730e35"
+    },
+    {
+      "path": "source/qa/portal-coordination-20261003T0021JST.md",
+      "bytes": 4837,
+      "sha256": "74bc22fdc4089dcd193b7f5f6d990f2447956f7f910cb7fa34a65d56642afbd2"
+    },
+    {
+      "path": "source/qa/portal-gate-latest.json",
+      "bytes": 8863,
+      "sha256": "ddb4e6a22ec372588d02f655d0a116f589c73d821c10d49cf986551a7d41ad3a"
+    },
+    {
+      "path": "source/qa/portal-gate-latest.md",
+      "bytes": 6892,
+      "sha256": "ff56af7786adff08918f36e6fe0d46d3d0004a29c3c3a39388e0187bd71cb7e7"
+    },
+    {
+      "path": "source/qa/public-build-smoke.md",
+      "bytes": 2173,
+      "sha256": "4a380c0682dd5e15b4106a59fff456ed708a467f55c6f1f9813286a1b51b93f1"
+    },
+    {
+      "path": "source/qa/replay-goal-feasibility-sim.mjs",
+      "bytes": 4052,
+      "sha256": "b86db7d1b1e21f6e2db3d854d09be1e33c444c23ceac1c6f204d600cedc31b3b"
+    },
+    {
+      "path": "source/qa/replay-goal-feasibility.md",
+      "bytes": 4709,
+      "sha256": "a2bc0bb16959d03c02b06bf9224ece1af623d92387cd8bc5298b56c7514d6fb4"
+    },
+    {
+      "path": "source/qa/save-spec.md",
+      "bytes": 2064,
+      "sha256": "024347fd194aceb4d9572e4fcc3db85e2ef824f21ae2ac7abe292c9413383b7f"
+    },
+    {
+      "path": "source/qa/security-redacted.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "source/qa/security.md",
+      "bytes": 727,
+      "sha256": "a45ec401774229a2f5b5d684a1eeca1ed70c9b57aed9d41359408713d7d1b8be"
+    },
+    {
+      "path": "source/qa/source-audit.json",
+      "bytes": 3112,
+      "sha256": "fc302ed6de554c5be5110b487a2145041fb09e5a148ec028c6aef54a64100556"
+    },
+    {
+      "path": "source/qa/source-audit.md",
+      "bytes": 5107,
+      "sha256": "638552cb522d1b3b8e703a48ba2151b11c4a7fd5a25ad1cd416b254bcfc6ecfa"
+    },
+    {
+      "path": "source/qa/video-review.html",
+      "bytes": 31569,
+      "sha256": "e378b4365ae7a4d7b9d054b50dcac4e0944fca7f9f020925fe5433b36afa6cf5"
+    },
+    {
+      "path": "source/research/market.md",
+      "bytes": 21264,
+      "sha256": "0c3db660ce012ff8eff6b5b4f00cc90873a71e959dde4478b7023a4804d59a00"
+    },
+    {
+      "path": "source/research/market_refs.json",
+      "bytes": 12522,
+      "sha256": "85ae6d3697c7793399ac7eb97349286aa7075235dc7af5e1917d66bf59299fb1"
+    },
+    {
+      "path": "source/research/mechanics.json",
+      "bytes": 76246,
+      "sha256": "5f3dd54ec519155dce86f4c8d0e5eaadf746cb0b2b75574b7cdddf31a94178a7"
+    },
+    {
+      "path": "source/research/mechanics.md",
+      "bytes": 66057,
+      "sha256": "4cef828805a7733e17fb67e5c2a7f557d01073573d06afa8a6a8751662dc0fc0"
+    },
+    {
+      "path": "source/research/portfolio.md",
+      "bytes": 13231,
+      "sha256": "e4e5e5a01581fa88e7681e8c08bc7abcf2d0fcdfb0a12eb8deeffece63d68026"
+    },
+    {
+      "path": "source/research/selection.md",
+      "bytes": 4960,
+      "sha256": "0a7f5eaeae4f71f267d5cb473e13d4794392e7c9e905c04ba31a21de7c83687a"
+    },
+    {
+      "path": "source/research/title-screening.md",
+      "bytes": 7153,
+      "sha256": "3ec371500fe9f080d5e0b6479136af8cfd368e09acdab64222aed6f70f284175"
+    },
+    {
+      "path": "source/reviews/a-core-design-r2.md",
+      "bytes": 7137,
+      "sha256": "59459790a2319ed12c62175aded961fd55edfa8d47241736af7b6ca72cbe9334"
+    },
+    {
+      "path": "source/reviews/a-core-design.md",
+      "bytes": 7429,
+      "sha256": "99300945154b5c68386733c57bdfa58575a94c5dfc2a3721c74e053a936aacae"
+    },
+    {
+      "path": "source/reviews/b-controls.md",
+      "bytes": 6252,
+      "sha256": "1ec7dd304877dcf4c638fab50533a38a7960877905655f73f27dfb735bec25bf"
+    },
+    {
+      "path": "source/reviews/c-firstux.md",
+      "bytes": 9121,
+      "sha256": "6531fc8f697b65e95bc365f7ea0e11b5329bf8d875ed38506bd2615ab276cae0"
+    },
+    {
+      "path": "source/reviews/d-craft.md",
+      "bytes": 10341,
+      "sha256": "c8b5c145db5c73d8b73ac87434a6d8dc5440f03ec66ffddc12b979d7c3eb1552"
+    },
+    {
+      "path": "source/reviews/e-feasibility.md",
+      "bytes": 10877,
+      "sha256": "94b362d39ae440deb714aeba33eac1cf11cf0a49942729f92fa66fc9f62877bd"
+    },
+    {
+      "path": "source/reviews/f-marketing.md",
+      "bytes": 10087,
+      "sha256": "e18b18af3faaa7aa880379d25240679e6aea4eef16178e6759851f756bfa5396"
+    },
+    {
+      "path": "source/reviews/final-integration.md",
+      "bytes": 6035,
+      "sha256": "05a33cb191b2e548158f5f2b7484eeb4981813ee2f5a06183c07a73b1d1c7aef"
+    },
+    {
+      "path": "source/reviews/full-a-core.md",
+      "bytes": 4672,
+      "sha256": "5bf1f382b06c440d4fcc34f50a82d4d82ba281dfe0e907a3346f81f0db10493e"
+    },
+    {
+      "path": "source/reviews/full-b-contaminated.md",
+      "bytes": 1077,
+      "sha256": "0ef0f5d97bd19b31242cfac6905f333231d3c88497d3eeed7a68a1382aea10e4"
+    },
+    {
+      "path": "source/reviews/full-b-controls.md",
+      "bytes": 4095,
+      "sha256": "b7ff8371eb55bdbfa4f4d90c08daf77b9f5d48b27fbabf032a97c69dcabfd8bf"
+    },
+    {
+      "path": "source/reviews/full-c-firstux.md",
+      "bytes": 5880,
+      "sha256": "a92735591ae2972b384c744a217cade8110bf1d03d8671f1c5766dcbec8158f5"
+    },
+    {
+      "path": "source/reviews/full-d-craft.md",
+      "bytes": 4893,
+      "sha256": "f82a22dc692437657227c51060fecd6bace20d12ce12045d98c327c3125ba94e"
+    },
+    {
+      "path": "source/reviews/full-e-feasibility.md",
+      "bytes": 7876,
+      "sha256": "97904236645443b4642259e09f5dd742f5420346483b0f74e0c3bdd690484345"
+    },
+    {
+      "path": "source/reviews/full-f-marketing.md",
+      "bytes": 8537,
+      "sha256": "074e4aeb8c104763acbcfa5bf48fb9ce1d971910d4c8a3fb98edf368c166f84b"
+    },
+    {
+      "path": "source/src/app.js",
+      "bytes": 19231,
+      "sha256": "8e02fc6be383f8603890809e4f67d55bd787be308295ab640b3d8c291a1f6c9f"
+    },
+    {
+      "path": "source/src/common/async-start.js",
+      "bytes": 248,
+      "sha256": "fbbf3b841acc9dab4134af059fb2f9872783303e511ac94c217d2aa366272c0e"
+    },
+    {
+      "path": "source/src/common/audio.js",
+      "bytes": 6717,
+      "sha256": "7e00b784751f629cd6825594988557fddfd68c0194c9817562703e706e0e3540"
+    },
+    {
+      "path": "source/src/common/input.js",
+      "bytes": 2612,
+      "sha256": "4b5e5cbee2840e304c718d7f0adcbc4d323d69d6fd348912349ca8c0b94b4a84"
+    },
+    {
+      "path": "source/src/common/math.js",
+      "bytes": 915,
+      "sha256": "f242a30f0c43741c5b878fe5c6d6da368ee38bec5452cce879f1f3a7e7ec06c0"
+    },
+    {
+      "path": "source/src/common/store.js",
+      "bytes": 12737,
+      "sha256": "de56b1f21ff508cbeff5cf657928aad7afac41c1d279b70aca63e893354084bc"
+    },
+    {
+      "path": "source/src/games/hush.js",
+      "bytes": 36958,
+      "sha256": "957c37731efda3052929885b0d8046d84f44cc74da0c3b1176c7096491034c36"
+    },
+    {
+      "path": "source/src/games/kiln.js",
+      "bytes": 26680,
+      "sha256": "fdb7012d2c57382a8032de75c0e4c6b15e89939b353e8c6f63ab94f5ae5176ac"
+    },
+    {
+      "path": "source/src/games/lens.js",
+      "bytes": 19237,
+      "sha256": "cd63bfa9faf85054e1826eafc2ee6eff2419c6d5bc92ce58f581dab0c91eb530"
+    },
+    {
+      "path": "source/src/product/kiln-game.js",
+      "bytes": 9734,
+      "sha256": "f3cc230c6cfbcfb9917c7f28b6063e59debc567ecc39e16ba4cf0742b91aab62"
+    },
+    {
+      "path": "source/src/product/kiln-model.js",
+      "bytes": 10472,
+      "sha256": "e3c28427836ea05195275d43a2015a5386699af2025e0165cbe7b0f2683be109"
+    },
+    {
+      "path": "source/src/product/kiln-render.js",
+      "bytes": 29768,
+      "sha256": "e6e065b0ea1e03a47f60dba787e40f3ddc042e8348805b9715a9f48f8ac00db3"
+    },
+    {
+      "path": "source/src/style.css",
+      "bytes": 8748,
+      "sha256": "6fb3ca518bee7962ff57a0f64d6ef800763507a021a5602aac34e4ae5e832f07"
+    },
+    {
+      "path": "source/tests/async-start.test.mjs",
+      "bytes": 4420,
+      "sha256": "fb9ea71d4f7a109f5317df2a33de90613faa1290a1db33ccea8a5de565ca7c23"
+    },
+    {
+      "path": "source/tests/audio.test.mjs",
+      "bytes": 9027,
+      "sha256": "892f14b6043a65513be06ac2b1ba74869f1936015269c53c4b3691ad9cb8769d"
+    },
+    {
+      "path": "source/tests/build.test.mjs",
+      "bytes": 24391,
+      "sha256": "1c65dd31fc80a4679b9af9fa50759cb720af2746a39171b6eeae10bff0e311c4"
+    },
+    {
+      "path": "source/tests/controls-parity.test.mjs",
+      "bytes": 4164,
+      "sha256": "ed6a64bd085b962dbe4bda5b4e07eac75ed5ee61338f92de7be83b65de8cb4f7"
+    },
+    {
+      "path": "source/tests/full-controls.test.mjs",
+      "bytes": 8077,
+      "sha256": "960a40edc86defb242395f4b959c35276764ba146b58dd42c19412b877f2fe02"
+    },
+    {
+      "path": "source/tests/full-kiln-model.test.mjs",
+      "bytes": 6995,
+      "sha256": "d0cf8c3b80b79f2aa245165268516a8cdfc8afe09848a96d992451624ca6273a"
+    },
+    {
+      "path": "source/tests/hush.test.mjs",
+      "bytes": 7073,
+      "sha256": "14ca64d0f56670cb8209635141ca4f90b1602fe47a70f4361785d23587b72749"
+    },
+    {
+      "path": "source/tests/kiln.test.mjs",
+      "bytes": 5563,
+      "sha256": "f17ddc008d6a94ed7d60cbfc9cbe6c792e5c91438ff2220bee6fcd72d7c39eff"
+    },
+    {
+      "path": "source/tests/lens.test.mjs",
+      "bytes": 9941,
+      "sha256": "0927b965147db8f1e677004f999037eba2e3104babe6a44c1c0355aa4c27c429"
+    },
+    {
+      "path": "source/tests/source-audit.test.mjs",
+      "bytes": 8370,
+      "sha256": "61f0bf70d8891a461ed94471be5781e10e2f7d1fa0428ce0e754d616d24500a2"
+    },
+    {
+      "path": "source/tests/store.test.mjs",
+      "bytes": 10040,
+      "sha256": "f07666111495acd35a60d8c34f3caf7e0ab4701ad0a3c6c181588f6c3ee243de"
+    },
+    {
+      "path": "source/tools/build.mjs",
+      "bytes": 7535,
+      "sha256": "ba9052518a7cf02657b8f5f42209e052a5f3fac35d392aa332120c941d6d5628"
+    },
+    {
+      "path": "source/tools/marketing-art.mjs",
+      "bytes": 8010,
+      "sha256": "1c53c35f28967c028690bd9219d513a604098a201c25801851d5d485f7f17843"
+    },
+    {
+      "path": "source/tools/media-pack.py",
+      "bytes": 27506,
+      "sha256": "97ab8d48f41f52b2087dd59b8b42c0f725e6d49e2906578802fe380b75a007ff"
+    },
+    {
+      "path": "source/tools/media-qa.py",
+      "bytes": 25694,
+      "sha256": "3095468215b642a09597b0fc10d2dc8656b2f599807d99310d5380a9e8ebede2"
+    },
+    {
+      "path": "source/tools/package.mjs",
+      "bytes": 13701,
+      "sha256": "673ce61e697cbee1fdc821906bd7a27e30e4ffccb63b353553cc103d55f00e45"
+    },
+    {
+      "path": "source/tools/repair-lens-position.mjs",
+      "bytes": 281,
+      "sha256": "569ba666cbf4bee8310819a41350269e880b4bfc29fb44a47481e4d37d5f5b49"
+    },
+    {
+      "path": "source/tools/repair-lifecycle.mjs",
+      "bytes": 1844,
+      "sha256": "a98efac0efd8955a798732fbaa5b67c92844ed3761a85f0a1606724fb7f0acf3"
+    },
+    {
+      "path": "source/tools/server.mjs",
+      "bytes": 2298,
+      "sha256": "00cb32fb4f16a1117c684f5e87d131fcf7d7e75156f3904fcdb0d17ad0d4a209"
+    },
+    {
+      "path": "source/tools/verify.mjs",
+      "bytes": 13652,
+      "sha256": "8a279c7ca0198f7d6a2f1e6b71038fa1a9f5170760692ea634bff1d87fa0bbd3"
+    }
+  ]
+}

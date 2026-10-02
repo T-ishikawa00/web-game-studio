@@ -1,0 +1,335 @@
+{
+  "authority": "C:/projects/App 009",
+  "packageId": "d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c",
+  "sourceSha256": "14e2b69e3235d3b38d1bd6d0b62ce952ed643036d5124b1bd7dbb5396c00b14e",
+  "buildPayloadSha256": "1ef85dd6c5879fc3d3d11e3fa7f91f23873b5df8956847e4626a8bcdae9a3131",
+  "fullRecordsVerified": 293,
+  "archivesVerified": [
+    {
+      "path": "deliverables/game009-d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c-full.zip",
+      "bytes": 92640842,
+      "sha256": "aa04f099de1c47ecaaad21c8b37e51032f421a9f810790fcd3dd7ca89d66595e",
+      "purpose": "PRIVATE complete source/build/research/QA/marketing snapshot"
+    },
+    {
+      "path": "deliverables/game009-d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c-source.zip",
+      "bytes": 92550630,
+      "sha256": "c7da1b82a95d9c174f643b5107b2ca829c0404185e67bc7aac5dd4340da01762",
+      "purpose": "PRIVATE source and QA"
+    },
+    {
+      "path": "deliverables/game009-d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c-public-build.zip",
+      "bytes": 34491,
+      "sha256": "f05f96544c0408c6a3ef47ea5133f8a1a244b0e1dad65f9ea2598bce7abaa29f",
+      "purpose": "Public-serving static build only"
+    }
+  ],
+  "selected": [
+    {
+      "file": "package/build/index.html",
+      "bytes": 3305,
+      "sha256": "3f85a8d808409bf2a152d00a07db23cf5bef1d77596972496d03ce86979e13fe"
+    },
+    {
+      "file": "package/build/manifest.json",
+      "bytes": 1751,
+      "sha256": "4ae74ab70ff98e537d3ee13dca8a71bcd4c848eedb55087395f3ad0dc4d2f725"
+    },
+    {
+      "file": "package/build/src/app.js",
+      "bytes": 13943,
+      "sha256": "886fb977cf41ab1c055c680b1771fceb908f516a2b0cbdc669d410efd49d7008"
+    },
+    {
+      "file": "package/build/src/common/async-start.js",
+      "bytes": 248,
+      "sha256": "fbbf3b841acc9dab4134af059fb2f9872783303e511ac94c217d2aa366272c0e"
+    },
+    {
+      "file": "package/build/src/common/audio.js",
+      "bytes": 6717,
+      "sha256": "7e00b784751f629cd6825594988557fddfd68c0194c9817562703e706e0e3540"
+    },
+    {
+      "file": "package/build/src/common/input.js",
+      "bytes": 2612,
+      "sha256": "4b5e5cbee2840e304c718d7f0adcbc4d323d69d6fd348912349ca8c0b94b4a84"
+    },
+    {
+      "file": "package/build/src/common/math.js",
+      "bytes": 915,
+      "sha256": "f242a30f0c43741c5b878fe5c6d6da368ee38bec5452cce879f1f3a7e7ec06c0"
+    },
+    {
+      "file": "package/build/src/common/store.js",
+      "bytes": 12737,
+      "sha256": "de56b1f21ff508cbeff5cf657928aad7afac41c1d279b70aca63e893354084bc"
+    },
+    {
+      "file": "package/build/src/product/kiln-game.js",
+      "bytes": 9734,
+      "sha256": "f3cc230c6cfbcfb9917c7f28b6063e59debc567ecc39e16ba4cf0742b91aab62"
+    },
+    {
+      "file": "package/build/src/product/kiln-model.js",
+      "bytes": 10472,
+      "sha256": "e3c28427836ea05195275d43a2015a5386699af2025e0165cbe7b0f2683be109"
+    },
+    {
+      "file": "package/build/src/product/kiln-render.js",
+      "bytes": 29768,
+      "sha256": "e6e065b0ea1e03a47f60dba787e40f3ddc042e8348805b9715a9f48f8ac00db3"
+    },
+    {
+      "file": "package/build/src/style.css",
+      "bytes": 8542,
+      "sha256": "a87aaf3b9e1c8d81e55101c0b4339504c3308e57d6d1a3f9c67e6f15d6bab8d6"
+    },
+    {
+      "file": "package/source/README.md",
+      "bytes": 4799,
+      "sha256": "0eff10fa570b49d1b32b0208050bc5bee0f8814a728cba7d918ca5769d6fe466"
+    },
+    {
+      "file": "package/source/docs/audio.md",
+      "bytes": 5354,
+      "sha256": "58853e2a4e734eec4f16335ab4e00a7d423ff6d5e4d420888ac726ff013dbbf7"
+    },
+    {
+      "file": "package/source/docs/build.md",
+      "bytes": 3713,
+      "sha256": "32965925a893d434bf2a44432ab560fbc41f1ef930ce89735c6e96fcd1fe69b1"
+    },
+    {
+      "file": "package/source/docs/controls-accessibility.md",
+      "bytes": 1806,
+      "sha256": "1dd39fa69f59213ebb3ca84b362f34655c8e297a62f3f1b8d0878ed7525a4308"
+    },
+    {
+      "file": "package/source/docs/known-limitations.md",
+      "bytes": 3378,
+      "sha256": "33991b1a6b588c2759cc1d454d722ad090fe702add710223d843e1982f514e6e"
+    },
+    {
+      "file": "package/source/docs/lens-contrast.md",
+      "bytes": 960,
+      "sha256": "8f6094d223c8ceca013e79f12bcb45720f07978ad6a47a779c1eb998b86df00e"
+    },
+    {
+      "file": "package/source/docs/localization.md",
+      "bytes": 972,
+      "sha256": "36f840e7713df20fdc7d7db5f59e903b7d40530efc049c8c81272b0e6223ce0a"
+    },
+    {
+      "file": "package/source/docs/rights.md",
+      "bytes": 1500,
+      "sha256": "d602e70aaf91270119ef825772151c17ec38ac1b3ac29916d188de7d1c0f59ee"
+    },
+    {
+      "file": "package/source/docs/save-spec.md",
+      "bytes": 3235,
+      "sha256": "b95d24fd9ddb1f9a52b4c0ac32a09e543f9e73ef2290ad18a227a571f2bfe303"
+    },
+    {
+      "file": "package/source/docs/thermal-model.md",
+      "bytes": 3647,
+      "sha256": "be4fae12ff14888cfb2181d032104668247a80317c052f1f3119ca3f9908452c"
+    },
+    {
+      "file": "package/source/index.html",
+      "bytes": 3672,
+      "sha256": "de2da0bc82ddbd5762bb2700b1e76fbdad1e63d1c9b6fdde2a5ca84d181a2bf7"
+    },
+    {
+      "file": "package/source/marketing/art.json",
+      "bytes": 978,
+      "sha256": "c41463c9f9c4afe3c04c008fda6816d6592ab2741a46fc4eda5a084b992b4676"
+    },
+    {
+      "file": "package/source/marketing/cover-16x9.png",
+      "bytes": 360989,
+      "sha256": "af3984cee35d2a1ed35642b163a17bfa3399f8e2996505608a533c27ddb795ed"
+    },
+    {
+      "file": "package/source/marketing/thumbnail-square.png",
+      "bytes": 333875,
+      "sha256": "a35a530816859a2da9c92ef282d8c997f20c1f1e904f1870ec2be6b1cd5c5980"
+    },
+    {
+      "file": "package/source/package.json",
+      "bytes": 246,
+      "sha256": "f00f2bdd56995e4e04f72c96b5491ea9b629cb8b846694e60a97a76ba28b02ff"
+    },
+    {
+      "file": "package/source/qa/contact-sheets/ember-glaze-clip-1790965867522-6b93f6dfe910-t03.png",
+      "bytes": 263076,
+      "sha256": "5720bcf1744297227f99bc8395f1c96ea4f3c42dbb0b13dd9a653f13506288d8"
+    },
+    {
+      "file": "package/source/src/app.js",
+      "bytes": 19231,
+      "sha256": "8e02fc6be383f8603890809e4f67d55bd787be308295ab640b3d8c291a1f6c9f"
+    },
+    {
+      "file": "package/source/src/common/async-start.js",
+      "bytes": 248,
+      "sha256": "fbbf3b841acc9dab4134af059fb2f9872783303e511ac94c217d2aa366272c0e"
+    },
+    {
+      "file": "package/source/src/common/audio.js",
+      "bytes": 6717,
+      "sha256": "7e00b784751f629cd6825594988557fddfd68c0194c9817562703e706e0e3540"
+    },
+    {
+      "file": "package/source/src/common/input.js",
+      "bytes": 2612,
+      "sha256": "4b5e5cbee2840e304c718d7f0adcbc4d323d69d6fd348912349ca8c0b94b4a84"
+    },
+    {
+      "file": "package/source/src/common/math.js",
+      "bytes": 915,
+      "sha256": "f242a30f0c43741c5b878fe5c6d6da368ee38bec5452cce879f1f3a7e7ec06c0"
+    },
+    {
+      "file": "package/source/src/common/store.js",
+      "bytes": 12737,
+      "sha256": "de56b1f21ff508cbeff5cf657928aad7afac41c1d279b70aca63e893354084bc"
+    },
+    {
+      "file": "package/source/src/games/hush.js",
+      "bytes": 36958,
+      "sha256": "957c37731efda3052929885b0d8046d84f44cc74da0c3b1176c7096491034c36"
+    },
+    {
+      "file": "package/source/src/games/kiln.js",
+      "bytes": 26680,
+      "sha256": "fdb7012d2c57382a8032de75c0e4c6b15e89939b353e8c6f63ab94f5ae5176ac"
+    },
+    {
+      "file": "package/source/src/games/lens.js",
+      "bytes": 19237,
+      "sha256": "cd63bfa9faf85054e1826eafc2ee6eff2419c6d5bc92ce58f581dab0c91eb530"
+    },
+    {
+      "file": "package/source/src/product/kiln-game.js",
+      "bytes": 9734,
+      "sha256": "f3cc230c6cfbcfb9917c7f28b6063e59debc567ecc39e16ba4cf0742b91aab62"
+    },
+    {
+      "file": "package/source/src/product/kiln-model.js",
+      "bytes": 10472,
+      "sha256": "e3c28427836ea05195275d43a2015a5386699af2025e0165cbe7b0f2683be109"
+    },
+    {
+      "file": "package/source/src/product/kiln-render.js",
+      "bytes": 29768,
+      "sha256": "e6e065b0ea1e03a47f60dba787e40f3ddc042e8348805b9715a9f48f8ac00db3"
+    },
+    {
+      "file": "package/source/src/style.css",
+      "bytes": 8748,
+      "sha256": "6fb3ca518bee7962ff57a0f64d6ef800763507a021a5602aac34e4ae5e832f07"
+    },
+    {
+      "file": "package/source/tests/async-start.test.mjs",
+      "bytes": 4420,
+      "sha256": "fb9ea71d4f7a109f5317df2a33de90613faa1290a1db33ccea8a5de565ca7c23"
+    },
+    {
+      "file": "package/source/tests/audio.test.mjs",
+      "bytes": 9027,
+      "sha256": "892f14b6043a65513be06ac2b1ba74869f1936015269c53c4b3691ad9cb8769d"
+    },
+    {
+      "file": "package/source/tests/build.test.mjs",
+      "bytes": 24391,
+      "sha256": "1c65dd31fc80a4679b9af9fa50759cb720af2746a39171b6eeae10bff0e311c4"
+    },
+    {
+      "file": "package/source/tests/controls-parity.test.mjs",
+      "bytes": 4164,
+      "sha256": "ed6a64bd085b962dbe4bda5b4e07eac75ed5ee61338f92de7be83b65de8cb4f7"
+    },
+    {
+      "file": "package/source/tests/full-controls.test.mjs",
+      "bytes": 8077,
+      "sha256": "960a40edc86defb242395f4b959c35276764ba146b58dd42c19412b877f2fe02"
+    },
+    {
+      "file": "package/source/tests/full-kiln-model.test.mjs",
+      "bytes": 6995,
+      "sha256": "d0cf8c3b80b79f2aa245165268516a8cdfc8afe09848a96d992451624ca6273a"
+    },
+    {
+      "file": "package/source/tests/hush.test.mjs",
+      "bytes": 7073,
+      "sha256": "14ca64d0f56670cb8209635141ca4f90b1602fe47a70f4361785d23587b72749"
+    },
+    {
+      "file": "package/source/tests/kiln.test.mjs",
+      "bytes": 5563,
+      "sha256": "f17ddc008d6a94ed7d60cbfc9cbe6c792e5c91438ff2220bee6fcd72d7c39eff"
+    },
+    {
+      "file": "package/source/tests/lens.test.mjs",
+      "bytes": 9941,
+      "sha256": "0927b965147db8f1e677004f999037eba2e3104babe6a44c1c0355aa4c27c429"
+    },
+    {
+      "file": "package/source/tests/source-audit.test.mjs",
+      "bytes": 8370,
+      "sha256": "61f0bf70d8891a461ed94471be5781e10e2f7d1fa0428ce0e754d616d24500a2"
+    },
+    {
+      "file": "package/source/tests/store.test.mjs",
+      "bytes": 10040,
+      "sha256": "f07666111495acd35a60d8c34f3caf7e0ab4701ad0a3c6c181588f6c3ee243de"
+    },
+    {
+      "file": "package/source/tools/build.mjs",
+      "bytes": 7535,
+      "sha256": "ba9052518a7cf02657b8f5f42209e052a5f3fac35d392aa332120c941d6d5628"
+    },
+    {
+      "file": "package/source/tools/marketing-art.mjs",
+      "bytes": 8010,
+      "sha256": "1c53c35f28967c028690bd9219d513a604098a201c25801851d5d485f7f17843"
+    },
+    {
+      "file": "package/source/tools/media-pack.py",
+      "bytes": 27506,
+      "sha256": "97ab8d48f41f52b2087dd59b8b42c0f725e6d49e2906578802fe380b75a007ff"
+    },
+    {
+      "file": "package/source/tools/media-qa.py",
+      "bytes": 25694,
+      "sha256": "3095468215b642a09597b0fc10d2dc8656b2f599807d99310d5380a9e8ebede2"
+    },
+    {
+      "file": "package/source/tools/package.mjs",
+      "bytes": 13701,
+      "sha256": "673ce61e697cbee1fdc821906bd7a27e30e4ffccb63b353553cc103d55f00e45"
+    },
+    {
+      "file": "package/source/tools/repair-lens-position.mjs",
+      "bytes": 281,
+      "sha256": "569ba666cbf4bee8310819a41350269e880b4bfc29fb44a47481e4d37d5f5b49"
+    },
+    {
+      "file": "package/source/tools/repair-lifecycle.mjs",
+      "bytes": 1844,
+      "sha256": "a98efac0efd8955a798732fbaa5b67c92844ed3761a85f0a1606724fb7f0acf3"
+    },
+    {
+      "file": "package/source/tools/server.mjs",
+      "bytes": 2298,
+      "sha256": "00cb32fb4f16a1117c684f5e87d131fcf7d7e75156f3904fcdb0d17ad0d4a209"
+    },
+    {
+      "file": "package/source/tools/verify.mjs",
+      "bytes": 13652,
+      "sha256": "8a279c7ca0198f7d6a2f1e6b71038fa1a9f5170760692ea634bff1d87fa0bbd3"
+    }
+  ],
+  "releaseFileSha256": "5c5277e9a33c4bfc03075cf3b2b1d1905a51bc532ab27183a4daeeeb271b63a4"
+}

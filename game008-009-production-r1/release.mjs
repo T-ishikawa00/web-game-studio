@@ -18,8 +18,11 @@ function committed(p){assert.equal(git('rev-parse','HEAD^'),p.head);assert.deepE
 if(mode==='plan'){
  assert.equal(h(),basis.head);assert.equal(remote(),basis.head);assert.equal(git('rev-parse','origin/main'),basis.head);assert.equal(git('diff','--cached','--name-only'),'');await privateRepo();
  assert.equal(read(root+'/internal/'+game+'-local-readback.json').status,'PASS');assert.equal(read(root+'/internal/'+game+'-browser-qa.json').status,'PASS');assert.equal(read(root+'/internal/'+game+'-security-all.json').status,'PASS');
- const paths=git('ls-files','--others','--exclude-standard','--',root).split('\n').filter(Boolean);assert(paths.length>0);assert(paths.every(p=>!p.includes('/game'+(game==='game008'?'009':'008')+'/')));
+ const paths=git('ls-files','--others','--exclude-standard','--',root).split('\n').filter(Boolean);assert(paths.length>0);
  const changed=git('diff','--name-only','--',root).split('\n').filter(Boolean);
+ // Opposite release inputs are immutable; nested published-current bytes are the
+ // completed prior Production baseline, deliberately pinned by the next game.
+ const opposite=root+'/game'+(game==='game008'?'009':'008')+'/';assert([...paths,...changed].every(p=>!p.startsWith(opposite)),'Opposite game release source changed');
  const files=[...new Set([...paths,...changed])].sort().map(file=>({file,sha256:sha(fs.readFileSync(file))}));assert(files.every(e=>!e.file.includes('/internal/')&&!e.file.includes('/builds/')&&!e.file.endsWith('.zip')));
  json(root+'/internal/'+game+'-release-plan.json',{at:new Date().toISOString(),head:basis.head,game,authorization:'DIRECT_CURRENT_HUMAN_GAME008_GAME009_SEQUENTIAL_RELEASE_R1',files,manifestSha256,configSha256,publicGames:m.publicGames});console.log(JSON.stringify({status:'PLAN_PASS',game,files:files.length}));
 }else if(mode==='stage'){

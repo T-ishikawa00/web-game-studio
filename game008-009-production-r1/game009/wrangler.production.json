@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "tinlumo-production",
+  "main": "runtime/worker.mjs",
+  "compatibility_date": "2026-09-17",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "../builds/game009-candidate-r1",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": [
+      "/__growth/events"
+    ]
+  },
+  "observability": {
+    "enabled": false
+  },
+  "vars": {
+    "GROWTH_ENABLED": "true",
+    "GROWTH_MODE": "production"
+  },
+  "d1_databases": [
+    {
+      "binding": "GROWTH_DB",
+      "database_name": "tinlumo-growth-r1-prod",
+      "database_id": "585eba67-ed8e-40a2-9166-a8c06fcc694f"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "47 * * * *"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"name":"tinlumo-game009","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"node tools/server.mjs","build":"node tools/build.mjs","test":"node --test tests/*.test.mjs","verify":"node tools/verify.mjs"},"engines":{"node":">=22"}}

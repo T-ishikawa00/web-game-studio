@@ -1,0 +1,30 @@
+{
+  "title": {
+    "ja": "火種と釉",
+    "en": "EMBER & GLAZE"
+  },
+  "method": "Original procedural Canvas2D illustration. The three vessel forms use this project’s src/product/kiln-render.js drawVessel renderer. Background and typography were drawn in tools/marketing-art.mjs.",
+  "externalAssets": [],
+  "runtimeFonts": "System font names only; no font files were copied or distributed.",
+  "spendUsd": 0,
+  "spendJpy": 0,
+  "generatedBy": "tools/marketing-art.mjs",
+  "assets": [
+    {
+      "path": "marketing/cover-16x9.png",
+      "name": "cover-16x9.png",
+      "width": 1600,
+      "height": 900,
+      "bytes": 360989,
+      "sha256": "af3984cee35d2a1ed35642b163a17bfa3399f8e2996505608a533c27ddb795ed"
+    },
+    {
+      "path": "marketing/thumbnail-square.png",
+      "name": "thumbnail-square.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 333875,
+      "sha256": "a35a530816859a2da9c92ef282d8c997f20c1f1e904f1870ec2be6b1cd5c5980"
+    }
+  ]
+}

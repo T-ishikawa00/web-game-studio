@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "createdAtUtc": "2026-10-02T19:03:21.797Z",
+  "game": "game009",
+  "title": {
+    "ja": "火種と釉",
+    "en": "EMBER & GLAZE"
+  },
+  "version": "1.0.0",
+  "status": "STANDALONE_READY_PORTAL_ACTIVE_WRITER_HOLD",
+  "spend": {
+    "USD": 0,
+    "JPY": 0
+  },
+  "localPlayUrl": "http://127.0.0.1:4610/",
+  "package": {
+    "id": "d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c",
+    "path": "C:\\projects\\App 009\\.release-packs\\d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c",
+    "sourceSha256": "14e2b69e3235d3b38d1bd6d0b62ce952ed643036d5124b1bd7dbb5396c00b14e",
+    "buildPayloadSha256": "1ef85dd6c5879fc3d3d11e3fa7f91f23873b5df8956847e4626a8bcdae9a3131",
+    "manifestSha256": "b8a70edff70b77e743bf7fae7b792bb91487168b48d6ac6a783f2afffeaf4f49",
+    "fileRecords": 293
+  },
+  "archives": [
+    {
+      "path": "deliverables/game009-d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c-full.zip",
+      "bytes": 92640842,
+      "sha256": "aa04f099de1c47ecaaad21c8b37e51032f421a9f810790fcd3dd7ca89d66595e",
+      "purpose": "PRIVATE complete source/build/research/QA/marketing snapshot"
+    },
+    {
+      "path": "deliverables/game009-d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c-source.zip",
+      "bytes": 92550630,
+      "sha256": "c7da1b82a95d9c174f643b5107b2ca829c0404185e67bc7aac5dd4340da01762",
+      "purpose": "PRIVATE source and QA"
+    },
+    {
+      "path": "deliverables/game009-d066d5009385fb89de90041f1438fa7f8372e703dd61485d7cfc779f31aaa67c-public-build.zip",
+      "bytes": 34491,
+      "sha256": "f05f96544c0408c6a3ef47ea5133f8a1a244b0e1dad65f9ea2598bce7abaa29f",
+      "purpose": "Public-serving static build only"
+    }
+  ],
+  "art": [
+    {
+      "path": "marketing/cover-16x9.png",
+      "bytes": 360989,
+      "sha256": "af3984cee35d2a1ed35642b163a17bfa3399f8e2996505608a533c27ddb795ed"
+    },
+    {
+      "path": "marketing/thumbnail-square.png",
+      "bytes": 333875,
+      "sha256": "a35a530816859a2da9c92ef282d8c997f20c1f1e904f1870ec2be6b1cd5c5980"
+    }
+  ],
+  "clips": [
+    {
+      "path": "marketing/clips/ember-glaze-clip-1790964826149.mp4",
+      "bytes": 500505,
+      "sha256": "0eee72e363fc5b47b3d9e575f4b8543e4873bcd41aa4c8c7f6109a2cb23b02ce",
+      "durationSeconds": 19.971
+    },
+    {
+      "path": "marketing/clips/ember-glaze-clip-1790964982494.mp4",
+      "bytes": 526178,
+      "sha256": "54a47644d25878a6bee0afb6827fa55ab69c0efec99140e728d577844ac7b951",
+      "durationSeconds": 19.972
+    },
+    {
+      "path": "marketing/clips/ember-glaze-clip-1790965867522.mp4",
+      "bytes": 442347,
+      "sha256": "f485403c9ffba15697b5fdad436386fdd0a05b1aae2b0e2d95f089e634eba75d",
+      "durationSeconds": 19.971
+    }
+  ],
+  "checks": {
+    "unitTests": {
+      "pass": 85,
+      "fail": 0,
+      "scope": "root and independently extracted final source"
+    },
+    "verifier": {
+      "pass": 18,
+      "warn": 0,
+      "fail": 0
+    },
+    "rebuild": "Exact archived build manifest and 11 payload files",
+    "zipSafety": "Members/duplicates/symlinks/CRC/extracted bytes/sidecar hashes independently checked",
+    "localSecurity": {
+      "tool": "Gitleaks 8.30.1",
+      "exit": 0,
+      "findings": 0,
+      "redaction": 100,
+      "archivesDepth": 2,
+      "decodeDepth": 5,
+      "scannedBytesApprox": 912244417
+    },
+    "packageValidation": {
+      "path": "deliverables/package-validation.json",
+      "sha256": "b9b84f85284bbdf87bf35e22a7d3578db1eb27269f2a68c1e9fbc0c61790a665"
+    }
+  },
+  "completedLabels": [
+    "TINLUMO_GAME009_RESEARCH_COMPLETE",
+    "TINLUMO_GAME009_PORTFOLIO_GAP_DEFINED",
+    "TINLUMO_GAME009_THREE_SLICES_COMPLETE",
+    "TINLUMO_GAME009_PRIMARY_SELECTED",
+    "TINLUMO_GAME009_FULL_GAME_COMPLETE",
+    "TINLUMO_GAME009_INTERNAL_REVIEW_PASS",
+    "TINLUMO_GAME009_RELEASE_PACKAGE_READY"
+  ],
+  "pendingLabels": [
+    "TINLUMO_GAME009_PORTAL_INTEGRATED",
+    "TINLUMO_GAME009_PRODUCTION_RELEASED",
+    "TINLUMO_GAME009_PRODUCTION_READBACK_PASS"
+  ],
+  "portal": {
+    "gate": "deliverables/PORTAL_HOLD.md",
+    "preflight": "deliverables/portal-preflight.json",
+    "measurementSource": "deliverables/measurement-source-snapshot.json",
+    "operations": "No Game009 Portal write/stage/commit/push/deploy; no external user-data collection or posting",
+    "rootLiveControlPlane": "NOT_VERIFIED",
+    "reason": "Active shared Growth release postflight and RIMBLOOM R2 canonical integration; REQUEST sections22/25 permit Standalone Ready"
+  },
+  "limits": [
+    "Physical touch/Android/iOS not tested",
+    "Subjective listening not verified",
+    "Human enjoyment/retention/demand not measured",
+    "255 target is deterministic model reachability only; narrow tested timing",
+    "Nonvisual Canvas gameplay unsupported",
+    "Title screening is not trademark clearance"
+  ],
+  "artSourceRecord": "marketing/art.json",
+  "clipSourceRecord": "marketing/clips.json",
+  "specifications": [
+    "docs/build.md",
+    "docs/save-spec.md",
+    "docs/audio.md",
+    "docs/controls-accessibility.md",
+    "docs/localization.md",
+    "docs/rights.md",
+    "docs/known-limitations.md"
+  ],
+  "reviewIntegration": "reviews/final-integration.md",
+  "historicalFailures": "Preserved source QA and superseded snapshot/ZIP records; not final marketing or public-build artifacts"
+}

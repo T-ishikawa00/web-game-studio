@@ -1,0 +1,61 @@
+{
+  "game": "game009",
+  "schema": 1,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 3305,
+      "sha256": "3f85a8d808409bf2a152d00a07db23cf5bef1d77596972496d03ce86979e13fe"
+    },
+    {
+      "path": "src/app.js",
+      "bytes": 13943,
+      "sha256": "886fb977cf41ab1c055c680b1771fceb908f516a2b0cbdc669d410efd49d7008"
+    },
+    {
+      "path": "src/common/async-start.js",
+      "bytes": 248,
+      "sha256": "fbbf3b841acc9dab4134af059fb2f9872783303e511ac94c217d2aa366272c0e"
+    },
+    {
+      "path": "src/common/audio.js",
+      "bytes": 6717,
+      "sha256": "7e00b784751f629cd6825594988557fddfd68c0194c9817562703e706e0e3540"
+    },
+    {
+      "path": "src/common/input.js",
+      "bytes": 2612,
+      "sha256": "4b5e5cbee2840e304c718d7f0adcbc4d323d69d6fd348912349ca8c0b94b4a84"
+    },
+    {
+      "path": "src/common/math.js",
+      "bytes": 915,
+      "sha256": "f242a30f0c43741c5b878fe5c6d6da368ee38bec5452cce879f1f3a7e7ec06c0"
+    },
+    {
+      "path": "src/common/store.js",
+      "bytes": 12737,
+      "sha256": "de56b1f21ff508cbeff5cf657928aad7afac41c1d279b70aca63e893354084bc"
+    },
+    {
+      "path": "src/product/kiln-game.js",
+      "bytes": 9734,
+      "sha256": "f3cc230c6cfbcfb9917c7f28b6063e59debc567ecc39e16ba4cf0742b91aab62"
+    },
+    {
+      "path": "src/product/kiln-model.js",
+      "bytes": 10472,
+      "sha256": "e3c28427836ea05195275d43a2015a5386699af2025e0165cbe7b0f2683be109"
+    },
+    {
+      "path": "src/product/kiln-render.js",
+      "bytes": 29768,
+      "sha256": "e6e065b0ea1e03a47f60dba787e40f3ddc042e8348805b9715a9f48f8ac00db3"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 8542,
+      "sha256": "a87aaf3b9e1c8d81e55101c0b4339504c3308e57d6d1a3f9c67e6f15d6bab8d6"
+    }
+  ]
+}

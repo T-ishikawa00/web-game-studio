@@ -19,6 +19,6 @@ const server=http.createServer(async(req,res)=>{
  if(!file.startsWith(dist+path.sep)||!fs.existsSync(file)||!fs.statSync(file).isFile()){status=404;target=dist+'/404.html';}
  const headers={'Content-Type':types[path.extname(target)]??'application/octet-stream','X-Content-Type-Options':'nosniff','Cache-Control':'no-cache','Referrer-Policy':'strict-origin-when-cross-origin','X-Frame-Options':'SAMEORIGIN'};
  if(name.startsWith('games/')||status===404)headers['X-Robots-Tag']='noindex, nofollow';
- if(name.startsWith('games/game008/'))headers['Content-Security-Policy']="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'none'";
+ if(/^games\/game00[89]\//.test(name))headers['Content-Security-Policy']="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'none'";
  res.writeHead(status,headers).end(fs.readFileSync(target));
 });server.listen(port,'127.0.0.1',()=>console.log(JSON.stringify({status:'LOOPBACK_PREVIEW_READY',game,port,assets:m.root,authProxy:false,credentials:false})));process.on('SIGINT',()=>server.close(()=>process.exit(0)));
