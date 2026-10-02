@@ -1,311 +1,63 @@
 {
-  "at": "2026-10-02T22:38:12.218Z",
+  "at": "2026-10-02T23:13:49.276Z",
   "status": "PASS",
-  "head": "f9d5d99277dd1e2a1ec9b5bcde4ea4d987bdde30",
-  "manifestSha256": "25e50cba08f14873626e6acf26eaa2f9933ad2a8103623b8ffb81d7e469b9f55",
-  "indexEmpty": true,
-  "stage": false,
-  "commit": false,
-  "push": false,
-  "deploy": false,
-  "candidate": {
-    "root": "manual-play-ads-r1/builds/candidate",
-    "changed": [
-      {
-        "file": "en/play/coilhop/index.html",
-        "beforeSha256": "acc57e2d368f799741e57fef068a41a9fb34fc0eac6a3a5ca8632f513d1560eb",
-        "afterSha256": "3b89cbcf9d1e8d18e1380843c4102ccf77fe5b76f8cb0758763a3d31db43573f",
-        "bytes": 25252
-      },
-      {
-        "file": "en/play/ember-glaze/index.html",
-        "beforeSha256": "d0aac6414f5b5895c3db8c31800f46f05cbdb7d58a7eaddfd9324ced187d5984",
-        "afterSha256": "67809c8f4e1b4a0d67e7b3059f9789670ea0587dda8d0646ac17708f330ac175",
-        "bytes": 25193
-      },
-      {
-        "file": "en/play/island-connections/index.html",
-        "beforeSha256": "dde622f7249392649b130fabaaaa03b76515ad8171010da0e7c77d7cda934a6f",
-        "afterSha256": "1f0cc115345342b2a0c64b1ae4538b1362c35933c00e50065feafcba5cfcd61b",
-        "bytes": 21583
-      },
-      {
-        "file": "en/play/light-garden/index.html",
-        "beforeSha256": "c5abb7b1e83c8adca2fceaeed4def91a63a836a603a0a7ecbeda12297d867ce4",
-        "afterSha256": "a931646ceec2ac5ebd57f56a4d31f9db8ca7ae68ad213fb996ee964646fa4ff6",
-        "bytes": 28023
-      },
-      {
-        "file": "en/play/project-magnet/index.html",
-        "beforeSha256": "93f2b33d255138e93cece304bdc8185852f6ec7f81b351b71d5ae066fbd09616",
-        "afterSha256": "3e47ddb35671f0879e0b2256311692b504d9e9acf802a15341627ca9c09792ef",
-        "bytes": 23779
-      },
-      {
-        "file": "en/play/rimbloom/index.html",
-        "beforeSha256": "4bfc9ca48bd7b936586930dd292fff67ec46545bf639f1fc5b319853ed9fee81",
-        "afterSha256": "234216a10a3e3175566b1a37dd2199a76863c4dc36f7a0dca4a092db21d43851",
-        "bytes": 28507
-      },
-      {
-        "file": "en/play/tiny-delivery/index.html",
-        "beforeSha256": "121d6067b78d7b9821c4721ff82db620b1b0061bad5a97585789b6f828308168",
-        "afterSha256": "d392874c9a1f9176be614302c80c41858ff6275c4e92f36c621870c3921934c7",
-        "bytes": 30599
-      },
-      {
-        "file": "en/play/two-ways-home/index.html",
-        "beforeSha256": "bc29584eabc51db09e9b47beac2620dc685f9157358d8fa1d47fd4b9834a976e",
-        "afterSha256": "b4da72a969e73838cfbd1618f7f0e4a15e8d1917d8ba55b8cc51cbd52f63dc98",
-        "bytes": 24313
-      },
-      {
-        "file": "ja/play/coilhop/index.html",
-        "beforeSha256": "0584dc0f14a49d20194063a20af2611be7bbfb1206f74fc5b4f77e4a71aa3489",
-        "afterSha256": "a7d5e56579a624e9f58271d49b1e2827e3f2fe0d73933edf7d2bbe72d369d9c0",
-        "bytes": 25436
-      },
-      {
-        "file": "ja/play/ember-glaze/index.html",
-        "beforeSha256": "49d2dcd6d3f413a773a255559a4fbaecc10a88d8599615835b4435f8dad0fb7a",
-        "afterSha256": "8e246f8a4f933536826811310937fafaa3c4f2cd76f69dd7da8832f8633a1d66",
-        "bytes": 25365
-      },
-      {
-        "file": "ja/play/island-connections/index.html",
-        "beforeSha256": "09c4813a54bc1e5e2c6fd4e2c0d125d36295beb9b33a6c3bae15f2857a5c883f",
-        "afterSha256": "caf1a7bae570d412120fd2a88089eae1b90f6b184a58d6697cb17363c352bc37",
-        "bytes": 21655
-      },
-      {
-        "file": "ja/play/light-garden/index.html",
-        "beforeSha256": "2423a84f53f44f25babab3eef060c2f5d1e1441d526724e0a8612939edc4f11a",
-        "afterSha256": "8741f575cf494be4b00136c8c26c6a07e3c88f0be61f3ba90131c96911892df1",
-        "bytes": 28218
-      },
-      {
-        "file": "ja/play/project-magnet/index.html",
-        "beforeSha256": "21b2902cf42616c6bbda32b1ce650ec3462406be891011a0fbbf9b99ae338366",
-        "afterSha256": "7678baecd9729f1d789d65a723131d6f383da85b00e75c27cba8c759a3c56465",
-        "bytes": 23821
-      },
-      {
-        "file": "ja/play/rimbloom/index.html",
-        "beforeSha256": "43785aa8256970d1f34cacfb21cb90a03946eb4bfb8753978ba87fbb9a1fce41",
-        "afterSha256": "a5a7307e79a4b6df4772c511b55ffb5e9a371db9cf8a3ac1f928cf366cdee053",
-        "bytes": 28590
-      },
-      {
-        "file": "ja/play/tiny-delivery/index.html",
-        "beforeSha256": "f8bd2d751b0f4b2972199ade7523a1e973552b13741a88c2c7a2183ae2736cee",
-        "afterSha256": "a01f42b6555c288010b53e19c31082043eaf461145e2bbc87afcbc75f22286f2",
-        "bytes": 30875
-      },
-      {
-        "file": "ja/play/two-ways-home/index.html",
-        "beforeSha256": "6aaad75bbf842c755ce499e58aae7c478281c04b5073286aa0c2ce1ca888d05c",
-        "afterSha256": "97c4266102d6abe24839028ce86bcbb221fbaadaf34c2611845d222a86aef5f3",
-        "bytes": 24420
-      }
-    ],
-    "added": [
-      {
-        "file": "assets/manual-play-ads-r1.js",
-        "bytes": 5563,
-        "sha256": "0dae4b2af441849f7f02bcc45896234349e3547939d8b769b9d7d2085f09cef7"
-      }
-    ],
-    "unchangedFiles": 164,
-    "deleted": []
-  },
-  "source": [
-    {
-      "file": "manual-play-ads-r1/.gitignore",
-      "bytes": 20,
-      "sha256": "c1959adc04bd00c2935e70aa302835ce3b8b9b38e71b6d2b19f28ac651153407"
-    },
+  "head": "80505a8c2c2d0f8e7264a74b853562c2b568e6ef",
+  "manifestSha256": "aace1935fb05e5eb9026a12d77bb39d144637e3ad578e277d5444c2a8d030994",
+  "productFiles": [
+    "assets/manual-play-ads-r1.js"
+  ],
+  "productScope": "Only dormant tag selection; Play HTML/CSS/game/Worker/provider unchanged",
+  "sourceFiles": [
     {
       "file": "manual-play-ads-r1/CANDIDATE_MANIFEST.json",
-      "bytes": 39284,
-      "sha256": "25e50cba08f14873626e6acf26eaa2f9933ad2a8103623b8ffb81d7e469b9f55"
-    },
-    {
-      "file": "manual-play-ads-r1/FINAL_REVIEW.md",
-      "bytes": 8267,
-      "sha256": "3af8e8daaa350e46014d999e740e7b0a212ebd81196322be845f5a54bc86c34b"
+      "sha256": "aace1935fb05e5eb9026a12d77bb39d144637e3ad578e277d5444c2a8d030994"
     },
     {
       "file": "manual-play-ads-r1/QA_RESULTS.json",
-      "bytes": 5378,
-      "sha256": "eb99309fb5b8028f68cf879a1eba18ece23ca374f22dba1353d8377a6e53dce7"
+      "sha256": "9de28384eef57305a68da3777e3df7caad6c74750e35bbbeda9c15793acd797d"
     },
     {
       "file": "manual-play-ads-r1/README.md",
-      "bytes": 1669,
-      "sha256": "26eef5bb514869a7af56ab779c0ad5619ccb55b0e4b8a622b56d4e7a55972f3c"
+      "sha256": "dc37c006997315db72d82594c5c12bcff3c6c9604a938095e6ed0908f44db973"
     },
     {
       "file": "manual-play-ads-r1/RELEASE_AUTHORITY.json",
-      "bytes": 1293,
-      "sha256": "6f36cdab8fb9b24f1b0ef402d879e68678a379133e338b44e405974ea74b91e7"
+      "sha256": "42014029e0b5825d01b16a3518dcfa9b4e6092e4d5e5b7d05f2af094a0fa4881"
     },
     {
-      "file": "manual-play-ads-r1/Review.html",
-      "bytes": 5719,
-      "sha256": "bc4f5b2db33652814df2eb266041ed5fe5a446944716bdcf3fd49e5c27842a36"
-    },
-    {
-      "file": "manual-play-ads-r1/build.mjs",
-      "bytes": 6656,
-      "sha256": "0e0438c46dfcb9c22c8743f785fed9007e55df73c0bba3dbcb994d4bf6576e99"
-    },
-    {
-      "file": "manual-play-ads-r1/candidate-bundle.mjs",
-      "bytes": 1131,
-      "sha256": "528b183146022a00e3458e2a8c6732d780031b876a461c77bf32603a8e28de60"
-    },
-    {
-      "file": "manual-play-ads-r1/check.mjs",
-      "bytes": 3797,
-      "sha256": "28cae31598277b252cd56a1144cba4d09412964e0bd461aba5acc151e54f1878"
-    },
-    {
-      "file": "manual-play-ads-r1/final-diff.mjs",
-      "bytes": 2871,
-      "sha256": "0894cbdd2522b796ef813dbd6196430a99554ec100b7f3f6360365395f587575"
-    },
-    {
-      "file": "manual-play-ads-r1/inspect.mjs",
-      "bytes": 513,
-      "sha256": "5d72fd649b52eeb129a06057611aab6615a051f45d091684504116a396c3d73f"
-    },
-    {
-      "file": "manual-play-ads-r1/layout-results.mjs",
-      "bytes": 866,
-      "sha256": "c8b8e61b4602e52c49184b7f5ae746c8939c77c0f9154905d2e3893a7900e547"
+      "file": "manual-play-ads-r1/SDK_SELECTION_FIX_REVIEW.md",
+      "sha256": "6f671236e735057e04eabf8fdee310f8a6cd86daaed5f34b812b1ba369f73c89"
     },
     {
       "file": "manual-play-ads-r1/play-ads.js",
-      "bytes": 5563,
-      "sha256": "0dae4b2af441849f7f02bcc45896234349e3547939d8b769b9d7d2085f09cef7"
-    },
-    {
-      "file": "manual-play-ads-r1/postflight.mjs",
-      "bytes": 2492,
-      "sha256": "45ef1c7fcae9a6c9c260461b7703d5ba82ada859720e8634243be1fe9b6d7d21"
-    },
-    {
-      "file": "manual-play-ads-r1/preflight.mjs",
-      "bytes": 1542,
-      "sha256": "5254d51acbfe73b14d74b9d8771996b51a8efef86385248d5d92a9ab351fe35e"
-    },
-    {
-      "file": "manual-play-ads-r1/preservation.mjs",
-      "bytes": 701,
-      "sha256": "aa48c516083e018e6708285d083457a534df0ca597cc4959c1ebdf28ad92624c"
+      "sha256": "304f9493443da658bc4039a6d849ad36530bc12e2c3e3e7f7dd26a6743717013"
     },
     {
       "file": "manual-play-ads-r1/preview.mjs",
-      "bytes": 4229,
-      "sha256": "b5374531990725468f2e38c43dfc96033547daae5972e5153b2a1cad58a4f336"
+      "sha256": "1de0ba28bf0f298f6dac96a11faf8f75bd08d7b08df80b6a3994109aaa33b5d3"
     },
     {
-      "file": "manual-play-ads-r1/qa-results.mjs",
-      "bytes": 4728,
-      "sha256": "fd9763548ea8044ab2e59ebb09908944ceb078f5e08273c7942473448f43791e"
+      "file": "manual-play-ads-r1/sdk-selection-postflight.mjs",
+      "sha256": "c46f6e1f473155885f01ddd3bdbc6ee9ac3deebfd3bbd7b046dbdeebca8be10d"
     },
     {
-      "file": "manual-play-ads-r1/release-candidate-check.mjs",
-      "bytes": 2125,
-      "sha256": "6c151dea12d7776f794d7c0511af2f4e459f46d4858342c39c2adbd56431c606"
+      "file": "manual-play-ads-r1/sdk-selection-readback.mjs",
+      "sha256": "34a088d1783631788c0a296b95cbcb71dceea5cac7a1a0732bd4732ee3ee57cb"
     },
     {
-      "file": "manual-play-ads-r1/release-db-read.mjs",
-      "bytes": 2053,
-      "sha256": "8d22a609d36286cc50a4285b7186715fc654ebbe33bb18c5b96bd9f01dfa7079"
+      "file": "manual-play-ads-r1/sdk-selection-release.mjs",
+      "sha256": "1aba89876a16ce2a847d822bf68bad9c5dca5a5a4178047db11fd5ad5fa8f77f"
     },
     {
-      "file": "manual-play-ads-r1/release-postflight.mjs",
-      "bytes": 3014,
-      "sha256": "4065a909ebc553b89531875d45747c11fbc601e07a838d287b2e5c2bb492c8c6"
-    },
-    {
-      "file": "manual-play-ads-r1/release-preflight.mjs",
-      "bytes": 3065,
-      "sha256": "90b0e4145d1e85162a9d4e6a8c8b9bb46fad72342d6e9b8f7eec8ec281142ad6"
-    },
-    {
-      "file": "manual-play-ads-r1/release-qa-results.mjs",
-      "bytes": 3399,
-      "sha256": "ab74279c9eaf5469a2dfcb76284d0cf595173c6c82e83025f4fe7be3792c3006"
-    },
-    {
-      "file": "manual-play-ads-r1/release-readback.mjs",
-      "bytes": 3068,
-      "sha256": "47f7883418ec0ff87c59bff9fde0b2f00972eaa8faf253ab6ff9c60ce45e7634"
-    },
-    {
-      "file": "manual-play-ads-r1/release-security.mjs",
-      "bytes": 4720,
-      "sha256": "b231e109bb2d8e693124ae9760bb53bc64e25c0010b23b9c44102f2a62ada73e"
-    },
-    {
-      "file": "manual-play-ads-r1/release.mjs",
-      "bytes": 7910,
-      "sha256": "63bef1b10dfed76210065e21e9c8d2b7593ca88aca3b59b769a1355f4c3851d6"
-    },
-    {
-      "file": "manual-play-ads-r1/review.mjs",
-      "bytes": 15940,
-      "sha256": "f4283de356ebdc1bf5e02735fc4a31525563a2a09c652e465a6f2a1e39170612"
-    },
-    {
-      "file": "manual-play-ads-r1/runtime/event-schema.mjs",
-      "bytes": 2143,
-      "sha256": "4d1edfd39f7fbd6956834a4ef139adcc5a3b57f3dba50b118af916876d4347d0"
-    },
-    {
-      "file": "manual-play-ads-r1/runtime/limits.mjs",
-      "bytes": 111,
-      "sha256": "af894ef3d38d40216cb4b6042df8940630908bf81c316c6ec8eb984182050a97"
-    },
-    {
-      "file": "manual-play-ads-r1/runtime/worker.mjs",
-      "bytes": 5029,
-      "sha256": "efef9564e1a4116b1ec1711e388a3497246248aa4dc725a36cba438c7cb24c3b"
-    },
-    {
-      "file": "manual-play-ads-r1/security.mjs",
-      "bytes": 2743,
-      "sha256": "5277e63e7d767108560a73b2534f3e517fcc9be8ae61a8be3fc8b9bc3371c47e"
-    },
-    {
-      "file": "manual-play-ads-r1/wrangler.candidate.json",
-      "bytes": 854,
-      "sha256": "6c6bd4a90ff7d5c76de0e8108529f91c4f36d67455d529d459d09f5a9b971f07"
+      "file": "manual-play-ads-r1/sdk-selection-security.mjs",
+      "sha256": "46d0c9fb006d90a2a165ea413919396abaaacb111adf9d8a5428a8d250f2bad1"
     }
   ],
-  "currentHandoff": {
-    "file": "docs/games/PRODUCTION_CURRENT.md",
-    "mode": "PREPEND_ONLY",
-    "previousBodyExact": true,
-    "addedBytes": 2203,
-    "beforeSha256": "f6fd146f43cbfe20cb9f2aa181231b7294b7e41ea6bca237bbccb936c265f312",
-    "afterSha256": "f49780652b13fbdb4863b0c9b76fbcd746938d6e1f179d5670821a0e02b9e2b7"
-  },
-  "preservation": {
-    "otherDirtyTrackedFiles": 11,
-    "otherDirtyTrackedExact": true,
-    "initialUntrackedPaths": 72661,
-    "initialUntrackedMissing": 0
-  },
-  "receiptsExcludedFromSourceHashes": [
-    "FINAL_DIFF.json",
-    "SECURITY_RESULTS.json"
+  "selfReceiptExclusions": [
+    "manual-play-ads-r1/FINAL_DIFF.json",
+    "manual-play-ads-r1/SECURITY_RESULTS.json"
   ],
-  "existingWorkerExact": true,
-  "providerConfigurationExact": true,
-  "productionUnchanged": true,
-  "productionEvidence": "internal/POSTFLIGHT.json",
-  "humanReleaseReview": "PENDING"
+  "previousReview": "manual-play-ads-r1/internal/sdk-selection-r1/before-source/FINAL_DIFF.json",
+  "inheritedDirtyFilesExcluded": 12,
+  "scopedStageRequired": true
 }

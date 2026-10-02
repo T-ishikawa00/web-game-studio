@@ -36,5 +36,13 @@
     "Growth Measurement specification changes"
   ],
   "executionEvidence": "internal/release-r1",
-  "publicGameCount": 8
+  "publicGameCount": 8,
+  "releaseContinuation": {
+    "status": "IN_PROGRESS_NOT_COMPLETE",
+    "reason": "Real SDK targeted hidden Left during mobile Bottom push",
+    "scope": "Existing authorized manual-ad initialization only; no policy/game/provider changes",
+    "priorVersion": "885b89a2-5b4d-4cbb-b5da-cd96aca3d376",
+    "authority": "Same direct Human approval; no new or reusable permission inferred",
+    "finalGate": "internal/sdk-selection-r1/POSTFLIGHT.json"
+  }
 }

@@ -1,3 +1,5 @@
+SDK selection correction: current product source and manifest include the in-scope repair found during Production browser readback. See SDK_SELECTION_FIX_REVIEW.md and internal/sdk-selection-r1/POSTFLIGHT.json for the final release. Original internal/release-r1 receipts and Review snapshots remain historical evidence.
+
 # Manual Play Ads R1
 
 Human approved the one-shot Production release on 2026-10-03 JST, including scoped stage, commit, private main normal push, deployment and readback. No Provider/CMP changes or Growth specification changes are authorized.

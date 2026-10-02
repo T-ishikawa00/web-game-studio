@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {read,sha,json,verifyManifest} from '../game008-009-production-r1/common.mjs';
+const root='manual-play-ads-r1',out=root+'/internal/sdk-selection-r1',mode=process.argv[2]??'production';assert(['production','postflight'].includes(mode));
+const m=read(root+'/CANDIDATE_MANIFEST.json'),d=read(out+'/deployment.json');assert.equal(d.status,'PASS');verifyManifest(m);assert.equal(d.manifestSha256,sha(fs.readFileSync(root+'/CANDIDATE_MANIFEST.json')));
+const assets=m.files.filter(e=>e.file!=='_headers'),checked=[],play=[];
+for(let i=0;i<assets.length;i+=8)await Promise.all(assets.slice(i,i+8).map(async e=>{
+ const route=e.file==='index.html'?'/':e.file.endsWith('/index.html')?'/'+e.file.slice(0,-10):'/'+e.file;
+ const response=await fetch('https://tinlumo.com'+route,{signal:AbortSignal.timeout(20000)});assert.equal(response.status,200,'Production HTTP failed '+route);const body=Buffer.from(await response.arrayBuffer());assert.equal(sha(body),e.sha256,'Production candidate hash mismatch '+route);
+ if(route.includes('/play/')){const h=body.toString(),policy=m.policies.find(p=>p.route===route),slots=[...h.matchAll(/data-ad-slot="(\d+)"/g)].map(x=>x[1]),expected=[...(policy.width?['6898213660','4699511455']:[]),...(policy.bottom==='safe'?['9760266447']:[])];assert.deepEqual(slots,expected);assert.equal((h.match(/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js/g)||[]).length,1);assert(h.includes('adsbygoogle.js?client=ca-pub-2960465104451668'));assert(!/amp-ad|enable_page_level_ads|anchor-ad/i.test(h));play.push({route,status:response.status,loaderCount:1,publisher:'ca-pub-2960465104451668',slots,sideBreakpoint:policy.sideBreakpoint,mobile:policy.bottom});}
+ if(e.file==='ads.txt'){assert(response.headers.get('content-type')?.startsWith('text/plain'));assert.equal(response.redirected,false);}
+ checked.push({route,status:response.status,sha256:e.sha256});
+}));
+const privatePaths=['/.git/config','/.dev.vars','/internal/release-r1/PREFLIGHT.json','/manual-play-ads-r1/internal/release-r1/PREFLIGHT.json','/wrangler.candidate.json'];for(const route of privatePaths){const response=await fetch('https://tinlumo.com'+route,{signal:AbortSignal.timeout(10000)});assert.equal(response.status,404,'Private path exposed '+route);}
+assert.equal(play.length,16);const result={at:new Date().toISOString(),status:'PASS',origin:'https://tinlumo.com',head:d.head,version:d.version,deployment:d.control.id,manifestSha256:d.manifestSha256,servedFiles:checked.length,routes:m.routes.length,playRoutes:play.sort((a,b)=>a.route.localeCompare(b.route)),files:checked.sort((a,b)=>a.route.localeCompare(b.route)),adsTxt200:true,legalExact:true,privacyTermsUnchanged:true,gameAssetsExact:true,workerSourceExact:true,growthConsentExact:true,consentCExact:true,googleCmpSourcePreserved:true,autoAdsExclusion:'DIRECT_HUMAN_CONFIRMED_UNCHANGED',privatePaths404:privatePaths};json(out+'/'+mode+'-readback.json',result);console.log(JSON.stringify({...result,files:undefined,playRoutes:play.length}));

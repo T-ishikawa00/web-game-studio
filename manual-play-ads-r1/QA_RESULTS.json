@@ -1,177 +1,297 @@
 {
-  "at": "2026-10-02T22:36:02.939Z",
-  "manifestSha256": "25e50cba08f14873626e6acf26eaa2f9933ad2a8103623b8ffb81d7e469b9f55",
-  "status": "RELEASE_CANDIDATE_QA_PASS_WITH_EXPLICIT_LIMITS",
-  "layoutPairs": 176,
-  "activeGameStatePairs": 4,
-  "desktopAndClassicScrollbarPairs": 112,
-  "mobileEnginePairs": 64,
-  "protectedGeometryDelta": [],
-  "horizontalOverflow": 0,
-  "boundaryCases": 9,
-  "mobileScrollCases": 32,
-  "minimumSideGap": 150,
-  "minimumObservedMobileControlGap": 155,
-  "mockModes": [
-    "filled",
-    "unfilled",
-    "throw",
-    "pending"
-  ],
-  "perUnitPushMaximum": 1,
-  "navigation": "fresh document, one push per slot",
-  "bfCache": "NOT_EXERCISED_BY_IAB",
-  "autoAdsExclusion": "HUMAN_CONFIRMED_UNCHANGED",
-  "realAdsRequests": 0,
-  "realAdsClicks": 0,
-  "gameAssets": "EXACT_BYTES_REUSED",
-  "growthRegression": "10_TESTS_PASS",
-  "localGrowthObserved": [
+  "at": "2026-10-02T23:13:49.199Z",
+  "status": "SDK_SELECTION_REPAIR_QA_PASS_WITH_EXPLICIT_LIMITS",
+  "manifestSha256": "aace1935fb05e5eb9026a12d77bb39d144637e3ad578e277d5444c2a8d030994",
+  "pairs": 32,
+  "geometry": [
     {
-      "game": "ember-glaze",
-      "event": "game_reach",
-      "input": "none",
-      "stage": "none"
+      "route": "/ja/play/rimbloom/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "ember-glaze",
-      "event": "trial_start",
-      "input": "none",
-      "stage": "none"
+      "route": "/ja/play/light-garden/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "ember-glaze",
-      "event": "game_reach",
-      "input": "none",
-      "stage": "none"
+      "route": "/ja/play/two-ways-home/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "ember-glaze",
-      "event": "game_ready",
-      "input": "none",
-      "stage": "none"
+      "route": "/ja/play/coilhop/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "ember-glaze",
-      "event": "trial_start",
-      "input": "none",
-      "stage": "none"
+      "route": "/ja/play/ember-glaze/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "ember-glaze",
-      "event": "first_meaningful_input",
-      "input": "keyboard",
-      "stage": "none"
+      "route": "/ja/play/tiny-delivery/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "coilhop",
-      "event": "game_reach",
-      "input": "none",
-      "stage": "none"
+      "route": "/ja/play/island-connections/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "coilhop",
-      "event": "game_ready",
-      "input": "none",
-      "stage": "none"
+      "route": "/ja/play/project-magnet/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "coilhop",
-      "event": "trial_start",
-      "input": "none",
-      "stage": "none"
+      "route": "/en/play/rimbloom/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "coilhop",
-      "event": "first_meaningful_input",
-      "input": "keyboard",
-      "stage": "none"
+      "route": "/en/play/light-garden/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "coilhop",
-      "event": "game_result",
-      "input": "none",
-      "stage": "none"
+      "route": "/en/play/two-ways-home/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "coilhop",
-      "event": "trial_start",
-      "input": "none",
-      "stage": "none"
+      "route": "/en/play/coilhop/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
     },
     {
-      "game": "coilhop",
-      "event": "retry",
-      "input": "none",
-      "stage": "none"
+      "route": "/en/play/ember-glaze/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/tiny-delivery/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/island-connections/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/project-magnet/",
+      "viewport": [
+        2880,
+        1440
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/ja/play/rimbloom/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/ja/play/light-garden/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/ja/play/two-ways-home/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/ja/play/coilhop/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/ja/play/ember-glaze/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/ja/play/tiny-delivery/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/ja/play/island-connections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/ja/play/project-magnet/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/rimbloom/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/light-garden/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/two-ways-home/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/coilhop/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/ember-glaze/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/tiny-delivery/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/island-connections/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
+    },
+    {
+      "route": "/en/play/project-magnet/",
+      "viewport": [
+        390,
+        844
+      ],
+      "maxDelta": 0
     }
   ],
-  "gameplay": {
-    "mouse": "Light Garden L01 clear; Two Ways retry/menu; five games started via ordinary UI",
-    "keyboard": "RIMBLOOM dash/pause; Two Ways first level clear; COILHOP jump/failure/retry; EMBER meaningful input recorded",
-    "pause": "RIMBLOOM, Light Garden, Two Ways, COILHOP, EMBER",
-    "retry": "Light Garden confirmation/reset; Two Ways reset; COILHOP retry",
-    "saveReload": "Light Garden continuation and Two Ways 1/21 completion preserved",
-    "audio": "RIMBLOOM and COILHOP setting toggles; audio assets/code exact bytes; listening NOT_TESTED",
-    "touchEmulation": "ATTEMPTED_NOT_VERIFIED - IAB input dispatch timed out; normal input recovered after disabling emulation and reload",
-    "physicalDevice": "NOT_TESTED",
-    "mobileOverscroll": "CSS unchanged; physical elastic overscroll NOT_TESTED",
-    "orientation": "portrait and landscape layouts measured; unsafe spacing is held"
+  "maxGeometryDelta": 0,
+  "responsiveCases": 24,
+  "breakpointCases": 9,
+  "sdkModesCases": 12,
+  "resizeLifecycleCases": 5,
+  "minGap": 150,
+  "horizontalOverflow": 0,
+  "sdkSelection": "FIRST_UNPROCESSED_DOM_INS",
+  "unrequestedSlotInitialization": 0,
+  "duplicateInitialization": 0,
+  "gameRuntimeUnchanged": true,
+  "autoAdsProviderChanged": false,
+  "adClicks": 0,
+  "realAdsLocal": false,
+  "physicalTouch": "NOT_VERIFIED",
+  "audioListening": "NOT_TESTED",
+  "fullCampaign": "NOT_RERUN_CORE_BYTES_EXACT",
+  "growthTests": {
+    "pass": 10,
+    "fail": 0
   },
-  "mobileHolds": {
-    "always": [
-      "island-connections",
-      "project-magnet",
-      "tiny-delivery"
-    ],
-    "conditional": "RIMBLOOM/flow screens with classic scrollbar shrink, any viewport with <150px control separation, SDK error/no response"
-  },
-  "providerFill": "NOT_VERIFIED",
-  "googleCMP": "IMPLEMENTATION_PRESERVED; live CMP NOT_VERIFIED",
-  "humanAcceptance": "DIRECT_HUMAN_PRODUCTION_RELEASE_APPROVED",
-  "evidenceReuse": {
-    "manifestSha256": "3882cd3df705d29b27f788f40d2eb990197f6bf1f04a4c921e840d38b9a596e8",
-    "evidence": "approved/QA_RESULTS.json",
-    "reason": "release-candidate-check proves only dormant HOLD aside removal; displayed unit CSS/JS/game runtime unchanged"
-  },
-  "freshReleaseQa": {
-    "at": "2026-10-02T22:36:02.939Z",
-    "status": "PASS",
+  "humanReleaseApproval": "DIRECT_HUMAN_PRODUCTION_RELEASE_APPROVED",
+  "previousCandidateQa": {
+    "file": "manual-play-ads-r1/internal/sdk-selection-r1/before-source/QA_RESULTS.json",
     "manifestSha256": "25e50cba08f14873626e6acf26eaa2f9933ad2a8103623b8ffb81d7e469b9f55",
-    "freshBaselineCandidatePairs": 32,
-    "protectedGeometryDelta": [],
-    "horizontalOverflow": 0,
-    "freshMobileScrollCases": 24,
-    "freshLandscapeCases": 8,
-    "freshBreakpointCases": 9,
-    "sideMinimumGap": 150,
-    "mobileMinimumObservedGap": 155,
-    "holdRoutes": [
-      "/en/play/island-connections/",
-      "/en/play/project-magnet/",
-      "/en/play/tiny-delivery/",
-      "/ja/play/island-connections/",
-      "/ja/play/project-magnet/",
-      "/ja/play/tiny-delivery/"
-    ],
-    "holdSlotDomCount": 0,
-    "coilhopEmberSideSlotDomCount": 0,
-    "emptyModes": [
-      "unfilled",
-      "throw",
-      "pending"
-    ],
-    "pushMaximum": 1,
-    "realAdsRequests": 0,
-    "realAdsClicks": 0,
-    "priorAcceptedQaReuse": {
-      "manifestSha256": "3882cd3df705d29b27f788f40d2eb990197f6bf1f04a4c921e840d38b9a596e8",
-      "evidence": "approved/QA_RESULTS.json",
-      "reason": "release-candidate-check proves only dormant HOLD aside removal; displayed unit CSS/JS/game runtime unchanged"
-    },
-    "touch": "ATTEMPTED_NOT_VERIFIED_FROM_APPROVED_QA",
-    "physicalDevice": "NOT_TESTED",
-    "liveCMP": "NOT_VERIFIED",
-    "actualFill": "NOT_VERIFIED"
-  }
+    "status": "RELEASE_CANDIDATE_QA_PASS_WITH_EXPLICIT_LIMITS"
+  },
+  "productionReadback": "REQUIRED_AFTER_CORRECTION_DEPLOY",
+  "knownLimits": [
+    "Physical touch/iOS Safari not independently verified",
+    "Full campaigns not rerun; accepted game assets byte-exact",
+    "Actual fill/site review/provider control panel state not inferred"
+  ]
 }

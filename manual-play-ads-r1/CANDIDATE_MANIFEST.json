@@ -1,11 +1,11 @@
 {
-  "at": "2026-10-02T22:27:55.736Z",
-  "sourceHead": "f9d5d99277dd1e2a1ec9b5bcde4ea4d987bdde30",
+  "at": "2026-10-02T23:07:22.895Z",
+  "sourceHead": "80505a8c2c2d0f8e7264a74b853562c2b568e6ef",
   "productionBasis": {
-    "id": "505622e0-ec23-4dc0-b624-cc9ff56367da",
+    "id": "0fb1fd1e-956e-436e-87a7-c4183a2ca918",
     "versions": [
       {
-        "version": "54243815-4bed-4b5f-8d2c-b011dec1a2c7",
+        "version": "885b89a2-5b4d-4cbb-b5da-cd96aca3d376",
         "percentage": 100
       }
     ]
@@ -330,8 +330,8 @@
     },
     {
       "file": "assets/manual-play-ads-r1.js",
-      "bytes": 5563,
-      "sha256": "0dae4b2af441849f7f02bcc45896234349e3547939d8b769b9d7d2085f09cef7"
+      "bytes": 7750,
+      "sha256": "304f9493443da658bc4039a6d849ad36530bc12e2c3e3e7f7dd26a6743717013"
     },
     {
       "file": "assets/public-language.js",
@@ -1207,5 +1207,12 @@
   "workerUnchanged": true,
   "providerConfigurationUnchanged": true,
   "autoAdsExclusion": "HUMAN_CONFIRMED_UNCHANGED",
-  "release": "HUMAN_RELEASE_REVIEW_PENDING"
+  "release": "HUMAN_RELEASE_REVIEW_PENDING",
+  "sdkTargetRepair": {
+    "priorManifestSha256": "25e50cba08f14873626e6acf26eaa2f9933ad2a8103623b8ffb81d7e469b9f55",
+    "priorPublishedVersion": "885b89a2-5b4d-4cbb-b5da-cd96aca3d376",
+    "reason": "Real push({}) selected dormant Left tag during mobile Bottom initialization",
+    "productDelta": "Only shared manual-ad initialization asset; 16 Play HTML and every other served asset unchanged",
+    "authority": "Same explicit Human release approval; completion had failed browser readback"
+  }
 }
