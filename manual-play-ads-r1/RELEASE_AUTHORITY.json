@@ -1,0 +1,40 @@
+{
+  "recordedAt": "2026-10-02T22:38:11.626Z",
+  "source": "DIRECT_HUMAN_MESSAGE",
+  "decision": "PRODUCTION_RELEASE_APPROVED",
+  "oneShot": true,
+  "approvedAt": "2026-10-03 JST; precise Human message time NOT_AVAILABLE",
+  "approvedOriginalManifestSha256": "3882cd3df705d29b27f788f40d2eb990197f6bf1f04a4c921e840d38b9a596e8",
+  "currentManifest": "CANDIDATE_MANIFEST.json",
+  "currentCandidateProvenance": "Original manifest release field is preserved pre-approval candidate metadata; this current Human authority supersedes it.",
+  "safetyNarrowing": "ONLY_HOLD_UNIT_MARKUP_REMOVAL",
+  "holdRouteSlugs": [
+    "tiny-delivery",
+    "island-connections",
+    "project-magnet"
+  ],
+  "holdSlotDomCount": 0,
+  "coilhopEmberSideSlotDomCount": 0,
+  "authorized": [
+    "final scope verification",
+    "fresh Security all/index/history",
+    "scoped stage",
+    "commit",
+    "private main normal push",
+    "Production deploy",
+    "post-deploy readback",
+    "browser smoke",
+    "postflight"
+  ],
+  "prohibited": [
+    "git add .",
+    "force push",
+    "history rewrite",
+    "unrelated dirty cleanup",
+    "AdSense Provider settings changes",
+    "CMP settings changes",
+    "Growth Measurement specification changes"
+  ],
+  "executionEvidence": "internal/release-r1",
+  "publicGameCount": 8
+}

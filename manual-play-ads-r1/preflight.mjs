@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import {read,sha,json,git,verifyManifest,ensureRoot,state} from '../game008-009-production-r1/common.mjs';
+import {productionVersionControl} from '../rimbloom-complete-r2-integration/release-state.mjs';
+import {cloudRead} from '../game008-009-production-r1/cloud-read.mjs';
+const root='manual-play-ads-r1',config='game008-009-production-r1/game009/wrangler.production.json';
+ensureRoot();
+const manifestFile='game008-009-production-r1/game009/RELEASE_MANIFEST.json',m=read(manifestFile);verifyManifest(m);
+const head=git('rev-parse','HEAD'),remote=git('ls-remote','origin','refs/heads/main').split(/\s/)[0];
+const tracked=git('diff','--name-only').split('\n').filter(Boolean).map(file=>({file,sha256:sha(fs.readFileSync(file))}));
+const untracked=git('ls-files','--others','--exclude-standard').split('\n').filter(Boolean);
+const indexed=git('diff','--cached','--name-only');
+const production=state(config),version=production.versions[0].version;
+const control=productionVersionControl(config,version),cloud=await cloudRead();
+json(root+'/internal/PREFLIGHT.json',{at:new Date().toISOString(),head,remote,indexed,tracked,untracked,production,control,cloud,basis:{manifestFile,sha256:sha(fs.readFileSync(manifestFile)),root:m.root,routes:m.routes},permissions:{stage:false,commit:false,push:false,deploy:false}});
+console.log(JSON.stringify({head,remote,tracked:tracked.length,untracked:untracked.length,indexEmpty:indexed==='',production,control,cloud,playRoutes:m.routes.filter(r=>/^\/(ja|en)\/play\//.test(r))}));
