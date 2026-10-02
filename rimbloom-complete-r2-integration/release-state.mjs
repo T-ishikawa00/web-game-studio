@@ -1,0 +1,20 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {spawnSync,execFileSync} from 'node:child_process';
+import {validateAssets,validateInheritedConfig} from './release-guards.mjs';
+export const root='rimbloom-complete-r2-integration',read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,'')),sha=b=>createHash('sha256').update(b).digest('hex'),git=(...args)=>execFileSync('git',args,{encoding:'utf8',windowsHide:true,maxBuffer:64e6,env:{...process.env,GIT_TERMINAL_PROMPT:'0',GCM_INTERACTIVE:'never'}}).trim();
+export const env=()=>({...process.env,WRANGLER_SEND_METRICS:'false',WRANGLER_WRITE_LOGS:'false',WRANGLER_LOG_SANITIZE:'true',CI:'true',TEMP:path.resolve(root+'/internal/temp'),TMP:path.resolve(root+'/internal/temp')});
+export function cli(args){fs.mkdirSync(root+'/internal/temp',{recursive:true});const r=spawnSync(process.execPath,['.cache/tools/wrangler-r1/node_modules/wrangler/bin/wrangler.js',...args],{env:env(),encoding:'utf8',windowsHide:true,maxBuffer:64e6});assert.equal(r.status,0,'Cloudflare operation failed; raw authentication diagnostics withheld');return r.stdout;}
+export function productionState(){const data=JSON.parse(cli(['deployments','status','--config',root+'/wrangler.production.json','--json']));return{id:data.id,versions:data.versions.map(v=>({version:v.version_id,percentage:v.percentage}))};}
+export function productionVersionControl(configFile,version){
+ const config=read(configFile),data=JSON.parse(cli(['versions','view',version,'--config',configFile,'--json']));assert.equal(data.id,version);assert.equal(data.resources.bindings.length,4,'Unexpected live binding or variable inventory');
+ const bindings=data.resources.bindings.map(b=>{if(b.type==='assets'){assert.equal(b.name,'ASSETS');return{name:b.name,type:b.type};}if(b.type==='d1'){assert.equal(b.name,'GROWTH_DB');assert.equal(b.database_id,config.d1_databases[0].database_id);return{name:b.name,type:b.type,database_id:b.database_id};}assert.equal(b.type,'plain_text','Unreviewed live binding type');assert(['GROWTH_ENABLED','GROWTH_MODE'].includes(b.name));assert.equal(b.text,config.vars[b.name],'Live published variable differs');return{name:b.name,type:b.type,text:b.text};}).sort((a,b)=>a.name.localeCompare(b.name));
+ assert.deepEqual(bindings.map(b=>b.name).sort(),['ASSETS','GROWTH_DB','GROWTH_ENABLED','GROWTH_MODE'].sort());assert.deepEqual(data.resources.script.handlers.sort(),['fetch','scheduled']);assert.equal(data.resources.script_runtime.compatibility_date,config.compatibility_date);
+ return{version,bindings,handlers:['fetch','scheduled'],compatibilityDate:config.compatibility_date,scriptEtag:data.resources.script.etag,secretBindings:0,unknownBindings:0,rawOutputPersisted:false};
+}
+export function validateRelease(){
+ assert.equal(fs.realpathSync('.').replaceAll('\\','/').toLowerCase(),'c:/projects/web game studio');assert.equal(git('remote','get-url','origin'),'https://github.com/T-ishikawa00/web-game-studio.git');
+ const manifest=read(root+'/RELEASE_MANIFEST.json'),input=read(root+'/input-manifest-current.json'),config=read(root+'/wrangler.production.json');assert.equal(manifest.inputManifestSha256,sha(fs.readFileSync(root+'/input-manifest-current.json')));assert.equal(manifest.sourceHead,input.sourceHead);
+ assert.equal(manifest.root,root+'/builds/candidate-v6');validateAssets(manifest,manifest.root);
+ for(const e of input.files)assert.equal(sha(fs.readFileSync(root+'/inputs/'+e.file)),e.sha256,'Inherited or pinned input changed '+e.file);
+ const basis=read(root+'/inputs/published-backend/wrangler.json');validateInheritedConfig(config,basis,'builds/candidate-v6','inputs/published-backend/runtime/worker.mjs');assert.equal(input.productionBasis.configSha256,sha(fs.readFileSync(root+'/inputs/published-backend/wrangler.json')));
+ return{manifest,input,config,manifestSha256:sha(fs.readFileSync(root+'/RELEASE_MANIFEST.json')),configSha256:sha(fs.readFileSync(root+'/wrangler.production.json'))};
+}

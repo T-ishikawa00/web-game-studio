@@ -1,0 +1,2 @@
+Lightwork Garden — Tinlumo Studio. Original procedural artwork and sound. No background music.
+Three.js — MIT, see THREE-LICENSE.txt.

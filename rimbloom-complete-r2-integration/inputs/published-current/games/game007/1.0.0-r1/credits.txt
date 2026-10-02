@@ -1,0 +1,1 @@
+RIMBLOOM — Tinlumo Studio. Original code-native Canvas 2D visuals and synthesized Web Audio sound effects. No background music. No third-party runtime or external game assets. Human Accepted version 1.0.0-r1; Portal Integration Candidate R1.

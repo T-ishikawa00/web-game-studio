@@ -1,0 +1,4 @@
+/internal/
+/builds/
+/inputs/standalone/dist/
+/inputs/standalone/BUILD_MANIFEST.json

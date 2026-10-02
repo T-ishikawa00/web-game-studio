@@ -1,0 +1,326 @@
+{
+  "authority": "Human RIMBLOOM FULL GAME R1",
+  "createdUTC": "2026-09-30T17:03:41.623Z",
+  "source": "C:\\projects\\App 007\\game007",
+  "snapshot": "C:\\projects\\App 007\\game007-accepted-prototype-r1",
+  "files": [
+    {
+      "file": "AUTHORITY.md",
+      "bytes": 3003,
+      "sha256": "00ac82ba7fb208e601a9d559870051e9f92639461ed630bf430287189263f8bd"
+    },
+    {
+      "file": "decision.md",
+      "bytes": 44305,
+      "sha256": "c78705d1c4d6c0904c87fdd6a31a3974cde6ee858b7aa982ddde45c96c879b0a"
+    },
+    {
+      "file": "dist\\index.html",
+      "bytes": 2358,
+      "sha256": "614736d1323e2e29f3246896df43aeb70950b12efea9d2f9b2cb520e2d18f5b7"
+    },
+    {
+      "file": "dist\\manifest.json",
+      "bytes": 816,
+      "sha256": "a625f1c211bef05ada6bc79495058482154b6c6e9d116d3383df77a97622485e"
+    },
+    {
+      "file": "dist\\src\\audio.mjs",
+      "bytes": 1561,
+      "sha256": "938ef8d45945de5c04151c5f30b70d8a81dca5a686d117a7c269a8cf56114956"
+    },
+    {
+      "file": "dist\\src\\core.mjs",
+      "bytes": 5745,
+      "sha256": "688139646bcb9385d73f88e65ee3581e4bb351596f24a65e2272937f7c1e7287"
+    },
+    {
+      "file": "dist\\src\\game.mjs",
+      "bytes": 17980,
+      "sha256": "b5ed25a17cfd8f0344521000f2d6a6192b8cbb6dfbd6f6da42c881d458b47c8a"
+    },
+    {
+      "file": "dist\\src\\style.css",
+      "bytes": 7311,
+      "sha256": "64f806e28a487e1ac1a7f651fcd272bd6748876a257e75e679de57a7d1e2be01"
+    },
+    {
+      "file": "index.html",
+      "bytes": 2358,
+      "sha256": "614736d1323e2e29f3246896df43aeb70950b12efea9d2f9b2cb520e2d18f5b7"
+    },
+    {
+      "file": "package.json",
+      "bytes": 265,
+      "sha256": "767881b1c1a41c4b02e558b2864136b60d6a7ff20941353f7b3f62801b0583c1"
+    },
+    {
+      "file": "PRODUCT.md",
+      "bytes": 7016,
+      "sha256": "fc9da6156d29ec21da1ae71aabc4921ee48b8399a19b0f5861144f065a692f61"
+    },
+    {
+      "file": "qa\\core-review.md",
+      "bytes": 10135,
+      "sha256": "4d0779a360940c1a867116b07987f9e6d9cabe40e3cb483738e56dcfec6b6446"
+    },
+    {
+      "file": "qa\\evidence\\desktop-final-result.jpg",
+      "bytes": 50843,
+      "sha256": "e662a4606a20e7b23310b5544a0158403d5909f7da22689014f0f3a0d436e0e1"
+    },
+    {
+      "file": "qa\\evidence\\desktop-first-screen.jpg",
+      "bytes": 40852,
+      "sha256": "be7a6989e6b9e53fc1fab34f229e5ddbc9d82217a5a79cef98e2c04ba855ab2a"
+    },
+    {
+      "file": "qa\\evidence\\desktop-midrun-paused.jpg",
+      "bytes": 49918,
+      "sha256": "5ea386754b2eb61c9379046faac39b33f84aef364f622f1d8e68702b6780ed24"
+    },
+    {
+      "file": "qa\\evidence\\desktop-new-seed-paused.jpg",
+      "bytes": 47871,
+      "sha256": "379d5e1eb572c7e460d9d9698b937207dfdf82aae1579c9c79038a64de939b2c"
+    },
+    {
+      "file": "qa\\evidence\\gameplay-15s-chain-r3.mp4",
+      "bytes": 856712,
+      "sha256": "c17149a6dbf8e4b45b3f136431d0df3f46049361b3a111eed2b61464f395c315"
+    },
+    {
+      "file": "qa\\evidence\\gameplay-15s-r3.mp4",
+      "bytes": 824307,
+      "sha256": "2eed144cc9522dd14c1dbd7e7b5bc5aa8f6b84439ed8705a0c10f8e71aa44f6b"
+    },
+    {
+      "file": "qa\\evidence\\gameplay-keyboard-r2.mp4",
+      "bytes": 2482527,
+      "sha256": "686b3db03eb4a57a3d19e86635cb10f94b31495cf90baa45dc47a29d3b6eaca4"
+    },
+    {
+      "file": "qa\\evidence\\gameplay-pointer-r3.mp4",
+      "bytes": 1697840,
+      "sha256": "d1561e59a4b6e1645c0a39ecdabdc6c46b3877fee845d2bde84464fd75744f06"
+    },
+    {
+      "file": "qa\\evidence\\mobile-320-en-settings.jpg",
+      "bytes": 17188,
+      "sha256": "f01a8721d3c81ad8c7ca6f9573751fe649bf75f3e76b18d3177f5c0f7780521d"
+    },
+    {
+      "file": "qa\\evidence\\mobile-390-paused.jpg",
+      "bytes": 24552,
+      "sha256": "9dbf27eedae6c98d2096dbe438767f68a12fe2acd74840efe4b6374e4a6d4a03"
+    },
+    {
+      "file": "qa\\evidence\\pointer-gameplay-frame.png",
+      "bytes": 109665,
+      "sha256": "f9cddfebbbd4bf87339c0fcedc9ce276c2a58d35b765f70b35cde770ca90a48b"
+    },
+    {
+      "file": "qa\\evidence\\pointer-pressure-frame.png",
+      "bytes": 141977,
+      "sha256": "23eba10b7240d113b7858aebd7884bed1de00c7215bf08a40491c046aa3cac34"
+    },
+    {
+      "file": "qa\\evidence\\review-desktop.jpg",
+      "bytes": 49212,
+      "sha256": "7d6e31ce443a6d9fbc15e292f8b6ad4a2e69d46c0c896dcf2d784328a6bb5617"
+    },
+    {
+      "file": "qa\\evidence\\review-mobile.jpg",
+      "bytes": 28525,
+      "sha256": "154f99704ec7b3770283e728a8486c08fc9097452baab48cca371c67654f571a"
+    },
+    {
+      "file": "qa\\evidence\\take-1790782945243.json",
+      "bytes": 32670,
+      "sha256": "7149f3aa7dcbcfb4984842fcfd755671c0eb6d507d62859c8a34c149d95be323"
+    },
+    {
+      "file": "qa\\evidence\\take-1790782945243.webm",
+      "bytes": 51687607,
+      "sha256": "992ca136013c216313532a5976c5dd7f30ab150412db755be8eeafdbcfc6f1c0"
+    },
+    {
+      "file": "qa\\evidence\\take-1790783512509.json",
+      "bytes": 33395,
+      "sha256": "d889eaaffeb9b3aa7ce6f02d4a4250a9c1978e279ede7902a5028aa2d66bc9d8"
+    },
+    {
+      "file": "qa\\evidence\\take-1790783512509.webm",
+      "bytes": 12715797,
+      "sha256": "34a3c1c4c0546ea54c391bc836bc1b8ffb281a15975e6eaf91e851b7ccf3ce84"
+    },
+    {
+      "file": "qa\\evidence\\take-1790783688665.json",
+      "bytes": 31391,
+      "sha256": "8d957c5d62f5002791b31db031d30f1ce0d1ccaa292e8a401b648115af6d531e"
+    },
+    {
+      "file": "qa\\evidence\\take-1790783688665.webm",
+      "bytes": 3230526,
+      "sha256": "50944635a6e1701fe70ac843679c9a7cd66505dc93fa5b8bb365cc6a61ca21e1"
+    },
+    {
+      "file": "qa\\evidence\\take-1790783765490.json",
+      "bytes": 31041,
+      "sha256": "1d825ea81e7931161852f6d0d3da9134ee74e6d4cf91d14d037cfb8559a90e3e"
+    },
+    {
+      "file": "qa\\evidence\\take-1790783765490.webm",
+      "bytes": 7571792,
+      "sha256": "35a34feaf2816755748f4d34f93bfcb293814db80f3edb7150c67ffb69f77ec6"
+    },
+    {
+      "file": "qa\\evidence\\take-1790783991450.json",
+      "bytes": 32754,
+      "sha256": "744a489be4ca717c133e8315286dffd028b53a4e4e91d17d6c2b6f61c19393cb"
+    },
+    {
+      "file": "qa\\evidence\\take-1790783991450.webm",
+      "bytes": 7833494,
+      "sha256": "3e28e613eec31a0b30acf57ca01ca48c0ebb88c097ef548ecf5d93a5dc796ff9"
+    },
+    {
+      "file": "qa\\FINAL_EVIDENCE.json",
+      "bytes": 22596,
+      "sha256": "2f0597f696d4b78cec7d2fd775bbbd8644e4b99fc172e423ef2f57280cc15321"
+    },
+    {
+      "file": "qa\\security-scan.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "qa\\selection-red-team.md",
+      "bytes": 16708,
+      "sha256": "4069c0cae894d65d5e18b9a2924613311a78b06825d938c07a7e0e32c06804af"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2251,
+      "sha256": "c2af8e58a63187df820a345a6b4065b458bad92f9cd5b10b3f3c4ec901d91b50"
+    },
+    {
+      "file": "research\\action-physics.md",
+      "bytes": 38565,
+      "sha256": "5805aef7b20f00f802986e174a3be5f061ff619eee475ee93d6f0fe9bef98690"
+    },
+    {
+      "file": "research\\puzzle-experimental.md",
+      "bytes": 27691,
+      "sha256": "c4d29c7f70d9d2b3c3d384ba19f46ed4dcffdf75b6af00100d2256ae202802cd"
+    },
+    {
+      "file": "research\\strategy-systems.md",
+      "bytes": 27228,
+      "sha256": "6468f153a3b99a5012beb67ca4c714b114cd35b93924c786a19d9d3c94fdfb35"
+    },
+    {
+      "file": "review.html",
+      "bytes": 8501,
+      "sha256": "7cc3c145e8f99ebdb8fed1f23e4e6bf027b89c1512df1194ff0e913f84ea8525"
+    },
+    {
+      "file": "REVIEW.md",
+      "bytes": 18491,
+      "sha256": "17a72e1a1370f18725b0b4d2d8236a563d7eb08e851b50e251ee13a3b912f48f"
+    },
+    {
+      "file": "scripts\\build.mjs",
+      "bytes": 919,
+      "sha256": "bb4bbbfb0188af368ec62d3fca07eb93eecc8e2754da6de3d28699683d9c95d2"
+    },
+    {
+      "file": "scripts\\server.mjs",
+      "bytes": 3459,
+      "sha256": "d1cc79b30cb0f6c3de2a21cc5eed7947b4348e03a7213a07c711aec8717e45d9"
+    },
+    {
+      "file": "scripts\\verify-local.mjs",
+      "bytes": 8239,
+      "sha256": "6634e1fc5109fdb09021435766b66153eb045915620ba7d5c5addc1557fd42d0"
+    },
+    {
+      "file": "src\\audio.mjs",
+      "bytes": 1561,
+      "sha256": "938ef8d45945de5c04151c5f30b70d8a81dca5a686d117a7c269a8cf56114956"
+    },
+    {
+      "file": "src\\core.mjs",
+      "bytes": 5745,
+      "sha256": "688139646bcb9385d73f88e65ee3581e4bb351596f24a65e2272937f7c1e7287"
+    },
+    {
+      "file": "src\\game.mjs",
+      "bytes": 17980,
+      "sha256": "b5ed25a17cfd8f0344521000f2d6a6192b8cbb6dfbd6f6da42c881d458b47c8a"
+    },
+    {
+      "file": "src\\style.css",
+      "bytes": 7311,
+      "sha256": "64f806e28a487e1ac1a7f651fcd272bd6748876a257e75e679de57a7d1e2be01"
+    },
+    {
+      "file": "tests\\core-independent.test.mjs",
+      "bytes": 11798,
+      "sha256": "f5f49eb67d4f874368e6d9dbdfac9dffd623118367c27ceaacf5bba0d4e95f54"
+    }
+  ],
+  "parameters": {
+    "canvas": [
+      540,
+      760
+    ],
+    "arena": {
+      "left": 30,
+      "right": 510,
+      "top": 112,
+      "bottom": 700
+    },
+    "roundSeconds": 60,
+    "speed": 1450,
+    "acceleration": "NONE, instantaneous constant velocity",
+    "dashSeconds": 0.62,
+    "range": 899,
+    "recoverySeconds": 0.23,
+    "playerRadius": 11,
+    "simulationHz": 120,
+    "renderCapHz": 60,
+    "life": 3,
+    "postDashInvulnerability": 0.2,
+    "armorBlockInvulnerability": 0.35,
+    "damageInvulnerability": 1.7,
+    "softRadius": 19,
+    "armorRadius": 24,
+    "chargedSoftPulseRadius": 82,
+    "chainMultiplierCap": 5,
+    "baseScore": {
+      "soft": 60,
+      "armor": 120,
+      "chargedExtra": 40
+    },
+    "spawnIntervals": [
+      3.4,
+      2.9,
+      2.5
+    ],
+    "wavesAt": [
+      0,
+      20,
+      40
+    ],
+    "input": "absolute pointer aim / drag-release; arrows/WASD direction then Space/Enter; aim during recovery; pause on Esc/blur/hidden",
+    "bounce": "player-radius wall contact; component reversal including both axes at corner; charge current dash only; TOI ordered swept-circle collisions"
+  },
+  "humanAccepted": [
+    "Gameplay intrinsic fun",
+    "Fast smooth pacing",
+    "Satisfying aimed chain",
+    "Luminous Pressure Garden for this game"
+  ],
+  "fullAcceptance": "PENDING"
+}

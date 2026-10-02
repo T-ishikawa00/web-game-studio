@@ -1,0 +1,13 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import assert from 'node:assert/strict';import {spawnSync} from 'node:child_process';
+const root='rimbloom-complete-r2-integration',source='C:/projects/App 007/rimbloom-complete-r2',sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(dir+'/'+e.name).map(f=>e.name+'/'+f):[e.name]);const put=(p,b)=>{fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,b);};
+assert(!fs.existsSync(root+'/input-manifest.json'),'Inputs already pinned');const build=JSON.parse(fs.readFileSync(source+'/BUILD_MANIFEST.json'));assert.equal(build.runtimeSha256,'17718a7a7ad5539d64b07853d5f086adec7e10f0b725f0d7d4aad4b9e0d3ddcd');
+for(const e of build.files){const b=fs.readFileSync(source+'/'+e.file);assert.equal(sha(b),e.sha256,e.file);put(root+'/inputs/standalone/'+e.file,b);}
+for(const dir of ['tests','docs','qa/fixtures'])for(const f of walk(source+'/'+dir))put(root+'/inputs/standalone/'+dir+'/'+f,fs.readFileSync(source+'/'+dir+'/'+f));
+for(const f of ['package.json','scripts/build.mjs','START_HERE.md','qa/planner.mjs','qa/ACCEPTED_BASELINE.json'])put(root+'/inputs/standalone/'+f,fs.readFileSync(source+'/'+f));
+for(const f of ['assets/cover-wide-1280x720.png','assets/thumbnail-square-800x800.png'])put(root+'/inputs/standalone/'+f,fs.readFileSync(source+'/'+f));
+put(root+'/inputs/scene-finale.jpg',fs.readFileSync(source+'/qa/evidence/review-fullclear-finale-1025s.jpg'));
+const publishedQuick=spawnSync('git',['show','HEAD:rimbloom-portal-integration-r1/records.mjs'],{encoding:'buffer',windowsHide:true});assert.equal(publishedQuick.status,0);put(root+'/inputs/published-quick-records.mjs',publishedQuick.stdout);
+put(root+'/inputs/old-copy.json',fs.readFileSync('rimbloom-portal-integration-r1/inputs/catalog/ja-en.json'));
+const pre=JSON.parse(fs.readFileSync(root+'/internal/preflight.json'));
+const manifest={nodeVersion:process.version,sourceHead:pre.head,publishedReadbackAt:pre.at,standaloneRuntimeSha256:build.runtimeSha256,standaloneFinalZipSha256:'cc43150e1e4c51f560a651deadba2e2909163ba644b5683ba0eb617b61a2447d',productionRoutes:pre.routes,toolchain:['node_modules/sharp/package.json'].map(file=>({file,sha256:sha(fs.readFileSync(file))})),files:walk(root+'/inputs').sort().map(file=>{const b=fs.readFileSync(root+'/inputs/'+file);return {file,bytes:b.length,sha256:sha(b)};})};put(root+'/input-manifest.json',JSON.stringify(manifest,null,2));console.log(JSON.stringify({inputs:manifest.files.length,bytes:manifest.files.reduce((n,e)=>n+e.bytes,0),sourceHead:manifest.sourceHead}));

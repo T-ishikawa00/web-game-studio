@@ -1,0 +1,567 @@
+RIMBLOOM COMPLETE EDITION R2
+AUTONOMOUS RESEARCH → DESIGN → FULL PRODUCTION → RELEASE
+
+Human方針：
+
+現在Production公開済みのRIMBLOOMは、
+Core Gameplay自体を非常に高く評価しています。
+
+ただし現状は基本60秒Runで終わるため、
+このCore Funを壊さず、
+「一本のゲームとして最後まで遊べる完成版」へ拡張してください。
+
+今回はHumanが途中の企画・Visual・Content Gateを逐一監査しません。
+
+Codex側で、
+
+research
+→ product design
+→ prototype / slice
+→ actual play
+→ independent review
+→ iteration
+→ full production
+→ QA
+→ release package
+→ Portal integration
+→ Production release
+
+まで責任を持って進めてください。
+
+==================================================
+0. WORKSPACE / AUTHORITY
+==================================================
+
+制作root：
+
+C:\projects\App 007
+
+現在のHuman Accepted RIMBLOOMをAuthorityとする。
+
+Accepted Baseline SHA-256：
+
+b25d2a4ac01c3d073bff24a80d8d6bc80b33c8ad93d9c45055be892c3959c0e6
+
+Public Portal integration済みRIMBLOOMのAccepted Core：
+
+- drag / aim / release
+- movement as attack
+- wall bounce
+- chain destruction
+- armor break
+- landing prediction
+- fast recovery
+- fast retry
+- Luminous Pressure Garden
+- existing Audio / VFX identity
+- JA / EN
+
+特にHumanが高く評価した：
+
+- ゲームそのものが面白い
+- サクサク感
+- 連鎖を狙う気持ちよさ
+
+これらは最上位Product Pillarとして固定。
+
+既存Accepted Baselineは直接上書きしない。
+Complete Edition R2は別candidateとして制作する。
+
+==================================================
+1. CORE RULE
+==================================================
+
+現行60秒モードを削除しない。
+
+60秒モードは：
+
+QUICK RUN
+
+として維持する。
+
+Complete Editionでは、
+Quick Runとは別に
+「最後まで遊べる主モード」を追加する。
+
+Humanの追加好み確認なしで、
+Codexが調査・実プレイ・比較から最適な構成を選んでよい。
+
+候補例：
+
+- multi-stage run
+- campaign
+- progressive arcade run
+- survival with finale
+- challenge ladder
+- escalating arenas
+- boss / finale structure
+- endless after clear
+
+ただし、
+既存のCore Loopと無関係なMeta Gameを大量追加しない。
+
+==================================================
+2. TARGET SESSION
+==================================================
+
+主モードは：
+
+平均5〜12分程度で
+「始まり → 上達 → 山場 → 最後 → Result」
+を感じられる構造を目標とする。
+
+固定時間にする必要はない。
+
+最終的にHumanが
+「60秒のミニゲーム」ではなく
+「一本の完成ゲーム」と感じられることを目的とする。
+
+Quick Runは現在の高速体験を維持。
+
+==================================================
+3. RESEARCH
+==================================================
+
+実装前に、
+「短いArcade CoreをどうFull Gameへ拡張しているか」
+を中心に調査する。
+
+対象：
+
+- browser arcade
+- score attack
+- physics action
+- arena survival
+- chain / combo games
+- Peggle-like trajectory games
+- short-session mobile action
+- roguelite-lite
+- stage progression arcade
+
+20〜40作品程度を比較。
+
+見るもの：
+
+- session length
+- progression
+- difficulty curve
+- content density
+- failure / retry
+- finale
+- score motivation
+- run variation
+- tutorial burden
+- mobile controls
+- replay reason
+
+単なるジャンル名ではなく、
+RIMBLOOMへ移植可能な構造を抽出。
+
+既存作品のVisualやThemeをコピーしない。
+
+==================================================
+4. PRODUCT DESIGN
+==================================================
+
+Research後、
+最低3つのComplete Edition構成案を作成。
+
+各案について：
+
+- Full Run flow
+- stage / wave structure
+- progression
+- chain opportunities
+- enemy / obstacle evolution
+- fail state
+- clear condition
+- finale
+- replayability
+- expected session length
+- content production cost
+- mobile suitability
+- Core Fun dilution risk
+
+を比較。
+
+Humanへ選択を求めず、
+Codex自身がPRIMARYを決定。
+
+判断理由を記録。
+
+==================================================
+5. COMPLETE EDITION PILLARS
+==================================================
+
+絶対維持：
+
+FAST
+RESPONSIVE
+CHAINABLE
+READABLE
+IMMEDIATE RETRY
+
+追加する価値：
+
+PROGRESSION
+ESCALATION
+FINALE
+MASTERY
+REPLAYABILITY
+
+禁止：
+
+- 長い会話
+- 長いtutorial
+- grind前提
+- account必須
+- backend必須
+- inventory管理中心
+- 長いloading
+- 演出で操作を止める
+- chainの可読性を壊すparticle overload
+
+==================================================
+6. CONTENT
+==================================================
+
+単純に敵数を増やすだけは禁止。
+
+Full Gameでは：
+
+- enemy behavior
+- armor
+- chain target
+- hazards
+- moving elements
+- bounce geometry
+- safe / risky landing
+- arena topology
+- score opportunity
+- pressure
+- recovery window
+
+等を使って、
+プレイヤーが少しずつ上達する構造を作る。
+
+初心者：
+飛んで壊すだけでも楽しい。
+
+中級：
+反射角と着地点を考える。
+
+上級：
+複数反射、装甲、chain、次setupまで設計する。
+
+この三層を目標。
+
+==================================================
+7. FULL RUN
+==================================================
+
+Codexが最適構造を選ぶこと。
+
+ただし最低限：
+
+- Opening
+- Early mastery
+- Mid-run variation
+- Escalation
+- Late-run high-density section
+- Finale
+- Clear / failure Result
+
+を持つ。
+
+Finaleは、
+単に敵HPを増やすだけにしない。
+
+RIMBLOOMらしい
+bounce / chain / positioningの集大成にする。
+
+==================================================
+8. REPLAYABILITY
+==================================================
+
+Full clear後にも遊ぶ理由を作る。
+
+候補：
+
+- score rank
+- best chain
+- time
+- challenge modifiers
+- alternative layouts
+- seeds
+- harder route
+- endless
+- quick run
+
+ただし、
+巨大なunlock treeやgrindは不要。
+
+==================================================
+9. VISUAL / AUDIO
+==================================================
+
+Luminous Pressure Gardenを維持。
+
+Deep indigo
+Mint
+Coral
+Gold
+
+の既存Visual Languageを基準にする。
+
+新要素が
+「別ゲームから持ってきたAsset」に見えないこと。
+
+Audio：
+
+- launch
+- bounce
+- chain
+- armor
+- danger
+- finale
+- clear
+
+をCore rhythmとして強化。
+
+BGM追加は必須ではない。
+既存のSE主体の良さを優先。
+
+==================================================
+10. MOBILE / DESKTOP
+==================================================
+
+Desktop：
+mouse drag
+keyboard fallback
+
+Mobile：
+touch drag
+
+を第一級。
+
+実機が利用できない場合は、
+Touch emulationとsmall viewportを徹底。
+
+実機未検証は事実として残す。
+
+==================================================
+11. QUALITY LOOP
+==================================================
+
+Humanが途中監査しない代わりに、
+Codex内部の品質Gateを強化する。
+
+主要buildごとに：
+
+PLAY
+→ RECORD
+→ INSPECT
+→ REVIEW
+→ FIX
+→ REGRESSION
+
+を繰り返す。
+
+最低限：
+
+- beginner-style run
+- normal run
+- high-skill run
+- full clear run
+- failure run
+- quick run
+- mobile-size run
+
+を実際にプレイ。
+
+単なるunit test PASSで完成判定しない。
+
+==================================================
+12. INDEPENDENT REVIEW
+==================================================
+
+利用可能なら
+6.0 Lunaの独立subagentを使用。
+
+役割：
+
+A. Game Feel Reviewer
+B. Product / Progression Reviewer
+C. UX / Mobile Reviewer
+
+必要に応じて追加：
+
+D. Visual / Audio Craft Reviewer
+E. QA / Regression Reviewer
+
+writerはメイン1名。
+
+各reviewerは独立に：
+
+- biggest weakness
+- boring section
+- confusing section
+- unfair section
+- repetitive section
+- weakest visual/audio
+- replay motivation
+
+を指摘。
+
+重大問題が残れば修正。
+
+利用量節約を理由に
+品質改善を途中で止めない。
+
+ただし、
+使用量消費自体を成果にしない。
+
+==================================================
+13. ITERATION LIMIT
+==================================================
+
+固定3roundで打ち切らない。
+
+明確な改善余地がある限り、
+必要なiterationを行う。
+
+ただし同じ修正を繰り返して
+改善が頭打ちなら、
+原因を再分析して制作方式を変える。
+
+無意味な微調整を無限に続けない。
+
+==================================================
+14. RELEASE QUALITY
+==================================================
+
+完成条件：
+
+- Quick Run preserved
+- Full Run complete
+- Ending / Result complete
+- Restart / replay complete
+- JA / EN complete
+- save complete
+- accessibility settings
+- sound settings
+- desktop
+- mobile-size
+- no debug UI
+- no QA APIs
+- Production-ready build
+- cover / thumbnail
+- Portal copy
+- credits
+- rights evidence
+- Security
+- rollback
+
+==================================================
+15. WEB GAME STUDIO COORDINATION
+==================================================
+
+現在、
+C:\projects\Web Game Studio
+では別のGrowth / Measurement作業が進行している可能性がある。
+
+Complete Edition制作中は
+Web Game Studioを変更しない。
+
+C:\projects\App 007
+内だけでFull Gameを完成させる。
+
+Portal統合直前に：
+
+- Web Game Studioの最新main
+- current Production
+- active writer
+- dirty state
+- Security state
+
+を再確認。
+
+別writerがまだWeb Game Studioの同じ対象を変更中なら、
+その変更を上書き・巻き戻ししない。
+
+安全に統合可能になるまで、
+Standalone Release Package完成状態で保持。
+
+安全になった時点で
+最新mainへ統合する。
+
+過去のProduction SHAへ戻さない。
+
+==================================================
+16. PORTAL INTEGRATION & RELEASE
+==================================================
+
+安全に統合可能になったら：
+
+- latest mainから開始
+- Portal card
+- JA / EN detail
+- JA / EN play
+- cover
+- save
+- credits
+- navigation
+- AdSense play exclusion coverage
+- current measurement / Consent仕様
+
+を最新Productionへ統合。
+
+既存6ゲームを壊さない。
+
+fresh Security
+final QA
+scoped stage
+commit
+private main push
+Production deploy
+readback
+browser smoke
+
+まで一括実行。
+
+外部費用：
+USD 0 / JPY 0
+
+有料Asset・APIは禁止。
+
+==================================================
+17. STOP ONLY IF
+==================================================
+
+停止するのは：
+
+- credentialのHuman入力が必要
+- 新規費用
+- destructive operation
+- unresolved real secret
+- third-party license ambiguity
+- Web Game Studioの同時writerと安全に統合不能
+- current Productionを壊す可能性が解消できない
+
+場合だけ。
+
+Creative選択や細かいProduct判断で
+Humanへ戻らない。
+
+==================================================
+FINAL
+==================================================
+
+成功時：
+
+RIMBLOOM_COMPLETE_EDITION_R2_PRODUCT_DEFINED
+RIMBLOOM_COMPLETE_EDITION_R2_FULL_GAME_READY
+RIMBLOOM_COMPLETE_EDITION_R2_INTERNAL_REVIEW_PASS
+RIMBLOOM_COMPLETE_EDITION_R2_RELEASE_CANDIDATE_READY
+RIMBLOOM_COMPLETE_EDITION_R2_PRODUCTION_RELEASED
+RIMBLOOM_COMPLETE_EDITION_R2_PRODUCTION_READBACK_PASS

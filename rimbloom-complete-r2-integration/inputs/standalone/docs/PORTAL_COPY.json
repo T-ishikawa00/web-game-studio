@@ -1,0 +1,20 @@
+{
+  "id":"rimbloom",
+  "title":"RIMBLOOM Complete Edition",
+  "ja":{
+    "short":"壁を使って、一撃を連鎖に。七つの庭を進み、最後の冠を咲かせよう。",
+    "description":"狙って離すと、自分自身が一撃になる。壁で反射して装甲を砕き、リングの花から連鎖をつなぐ。七つの庭を通して遊ぶ主モードと、すぐ挑める60秒のクイックランを収録。動く花、予告される棘、反射するレールを越えて、最後は三巡の冠を砕こう。",
+    "duration":"主モード5〜8分の設計目安。60秒のクイックランも選択可能。失敗時はすぐ再挑戦。",
+    "controls":"マウス・タッチでドラッグして離す。矢印キーまたはWASDで方向を決め、SpaceかEnterで突進。Escで停止。",
+    "save":"記録と設定はブラウザに保存。進行中の旅を休むときは一時停止し、ページを開いたままに。",
+    "routes":"標準・高難度・ゆったりの3コース。ランクと最長連鎖を伸ばし、別の配置でも遊べる。"
+  },
+  "en":{
+    "short":"Use the rim. Turn one dash into a chain. Cross seven gardens and bloom the final crown.",
+    "description":"Aim and release: your movement becomes the attack. Rebound to crack armor and link explosions through ringed blooms. Play a complete seven-garden journey or a fast 60-second Quick Run. Master drifting petals, warning thorns and reflecting rails, then break three circuits of crown seals.",
+    "duration":"Journey designed for about 5–8 minutes. Quick Run lasts 60 seconds. Immediate retry after a failed run.",
+    "controls":"Drag and release with mouse or touch. Aim with Arrows or WASD, then dash with Space or Enter. Esc pauses.",
+    "save":"Records and settings save in this browser. Pause and keep the page open when taking a break during a journey.",
+    "routes":"Standard, Wild and Assist routes. Improve rank and best chain, or try another seeded layout."
+  }
+}
