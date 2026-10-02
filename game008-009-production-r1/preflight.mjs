@@ -1,0 +1,24 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {root,read,sha,git,json,put,walk,cli,state,ensureRoot,verifyManifest} from './common.mjs';
+import {verifyPrivateRepo} from '../rimbloom-complete-r2-integration/private-repo.mjs';
+import {productionVersionControl} from '../rimbloom-complete-r2-integration/release-state.mjs';
+import {cloudRead} from './cloud-read.mjs';
+ensureRoot();assert.equal(git('diff','--cached','--name-only'),'');
+const head=git('rev-parse','HEAD');assert.equal(git('ls-remote','origin','refs/heads/main').split(/\s+/)[0],head);assert.equal(git('rev-parse','origin/main'),head);
+assert(!fs.existsSync(root+'/internal/entry.json'),'Entry evidence already exists');
+const privateRepo=await verifyPrivateRepo();
+const configFile='rimbloom-complete-r2-integration/wrangler.production.json';
+const m=read('rimbloom-complete-r2-integration/RELEASE_MANIFEST.json');verifyManifest(m);
+const deployment=read('rimbloom-complete-r2-integration/internal/deployment.json');assert.equal(deployment.head,head);assert.equal(deployment.status,'PASS');
+const production=state(configFile);assert.deepEqual(production,deployment.control);const control=productionVersionControl(configFile,production.versions[0].version);
+const served=[],queue=m.files.filter(e=>e.file!=='_headers');let next=0;
+await Promise.all(Array.from({length:6},async()=>{while(next<queue.length){const e=queue[next++],missing=e.file==='404.html',route=missing?'__sequential-entry-missing__':e.file==='index.html'?'':e.file.endsWith('/index.html')?e.file.slice(0,-10):e.file;const r=await fetch('https://tinlumo.com/'+route,{redirect:'manual',signal:AbortSignal.timeout(20000)});assert.equal(r.status,missing?404:200);assert.equal(sha(Buffer.from(await r.arrayBuffer())),e.sha256,'Current Production mismatch '+e.file);served.push({file:e.file,status:r.status,sha256:e.sha256});}}));
+const dirty=git('diff','--name-only','-z').split('\0').filter(Boolean).map(file=>({file,bytes:fs.statSync(file).size,sha256:sha(fs.readFileSync(file))}));
+const untracked=git('ls-files','--others','--exclude-standard','-z').split('\0').filter(f=>f&&!f.startsWith(root+'/'));
+const backend={};for(const name of ['worker.mjs','event-schema.mjs','limits.mjs']){const original='rimbloom-complete-r2-integration/inputs/published-backend/runtime/'+name;const b=fs.readFileSync(original);assert.equal(git('hash-object',original),git('rev-parse',head+':'+original));put(root+'/inputs/backend/'+name,b);backend[name]=sha(b);}
+put(root+'/inputs/production-config.json',fs.readFileSync(configFile));
+const cloud=await cloudRead(),db=read(root+'/internal/d1-entry-browser.json');assert.equal(db.healthy,1);assert(Date.now()-Date.parse(db.at)<15*60*1000);assert.deepEqual(cloud.cron,read(configFile).triggers.crons);assert.equal(cloud.observabilityEnabled,false);assert.equal(cloud.logpush,false);
+const entry={at:new Date().toISOString(),head,privateRepo,production,control,manifestFile:'rimbloom-complete-r2-integration/RELEASE_MANIFEST.json',manifestSha256:sha(fs.readFileSync('rimbloom-complete-r2-integration/RELEASE_MANIFEST.json')),files:m.files,routes:m.routes,basis:m.root,backend,db,cloud,configuredCron:read(configFile).triggers.crons,dirty,untracked,indexEmpty:true,served:served.sort((a,b)=>a.file.localeCompare(b.file)),writerReview:'Only this local WGS chat active; prior Growth and R2 writers idle. Separate durable marketing chat has a separate host checkout.',modelId:'NOT_EXPOSED_IN_CURRENT_RUNTIME'};
+json(root+'/internal/entry.json',entry);
+console.log(JSON.stringify({status:'PASS',head,private:true,production,served:served.length,dirty:dirty.length,untracked:untracked.length,db,cron:entry.configuredCron}));

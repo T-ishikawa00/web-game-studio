@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#183c43">
+  <meta name="description" content="COILHOP — Hold to compress a tiny spring courier. Release to cross lantern gardens and reach the summit bell.">
+  <title>COILHOP — Lantern Gardens</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="../" aria-label="ゲーム一覧へ戻る">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span class="brand-copy"><strong>COILHOP</strong><small id="tagline">バネを縮めて、灯りをつなぐ。</small></span>
+      </a>
+      <nav class="utilities" aria-label="ゲーム設定">
+        <a id="homeLink" class="utility-button home-button" href="../"><span class="home-icon" aria-hidden="true">↖</span><span id="homeLabel">ゲーム一覧</span></a>
+        <button id="languageButton" class="utility-button language-button" type="button" aria-label="Change language to English">EN</button>
+        <button id="soundButton" class="utility-button" type="button" aria-pressed="true" aria-label="音を消す">音：オン</button>
+        <button id="motionButton" class="utility-button" type="button" aria-pressed="false" aria-label="演出をひかえめにする">演出：通常</button>
+        <button id="mapButton" class="utility-button" type="button" aria-haspopup="dialog" aria-controls="courseMap">道しるべ</button>
+        <button id="pauseButton" class="utility-button pause-button" type="button" hidden>一時停止</button>
+      </nav>
+    </header>
+
+    <section class="game-section" aria-label="COILHOP">
+      <div id="gameFrame" class="game-frame" data-state="menu" tabindex="0" aria-label="COILHOPのゲーム画面。Spaceキーまたは画面を押し続けてバネを縮め、離すとジャンプします。">
+        <canvas id="gameCanvas" role="img" tabindex="0" aria-label="銅色のバネの配達人が、灯りのある空中庭園の踏み台を山頂の鐘へ向かって跳びます。押し続けて縮め、離すとジャンプします。">
+          COILHOP。押し続けてバネを縮め、離すとジャンプします。
+        </canvas>
+
+        <div class="hud-top" aria-label="登頂状況">
+          <div class="course-chip"><span class="chip-dot" aria-hidden="true"></span><span id="courseName">翡翠の庭</span></div>
+          <div class="progress-chips">
+            <span class="hud-chip" id="hopLabel">ジャンプ 1 / 8</span>
+            <span class="hud-chip beacon-chip" id="beaconLabel">灯台 0 / 2</span>
+          </div>
+        </div>
+
+        <div class="charge-panel" aria-label="バネのチャージ">
+          <div class="charge-head"><span id="chargeHint">押し続けて、離してジャンプ</span><strong id="chargeValue">0%</strong></div>
+          <div class="charge-track" aria-hidden="true"><span id="chargeFill"></span></div>
+        </div>
+
+        <section id="overlay" class="overlay" aria-labelledby="overlayTitle" aria-describedby="overlayCopy">
+          <div class="overlay-card">
+            <p class="eyebrow" id="overlayEyebrow">灯りの庭を、ひと跳びずつ。</p>
+            <h1 id="overlayTitle">COILHOP</h1>
+            <p id="overlayCopy" class="overlay-copy">押し続けてバネを縮め、離して跳ぶ。空中では進路を変えられません。次の踏み台を見て、力加減を探しましょう。</p>
+            <div class="control-mark" aria-hidden="true"><span class="control-orbit"></span><span class="control-spring">↗</span><i></i></div>
+            <p class="route-note" id="overlayFootnote">8つの踏み台 · 2つの灯台 · 山頂の鐘</p>
+            <button id="overlayAction" class="primary-button" type="button">登り始める</button>
+            <button id="overlaySecondary" class="secondary-button" type="button">道しるべを見る</button>
+            <p class="control-note" id="controlNote"><kbd>Space</kbd> または画面を押し続けて離す</p>
+          </div>
+        </section>
+
+        <span id="chargeAccessible" class="sr-only" aria-live="polite">チャージ 0パーセント。</span>
+
+        <section id="courseMap" class="map-overlay" role="dialog" aria-modal="true" aria-labelledby="mapTitle" hidden>
+          <div class="map-card" id="mapCard">
+            <div class="map-heading"><div><p class="eyebrow" id="mapKicker">雲の上へ</p><h2 id="mapTitle">登頂の道</h2></div><button id="mapClose" class="icon-button" type="button" aria-label="閉じる">×</button></div>
+            <p id="mapCopy" class="map-copy">踏み台をつないで、光る灯台でひと休み。</p>
+            <div id="courseList" class="course-list" role="group" aria-label="コース一覧"></div>
+            <p id="mapFootnote" class="map-footnote">一度着地した場所は、落ちても道しるべから再開できます。</p>
+          </div>
+        </section>
+
+        <p id="gameStatus" class="sr-only" role="status" aria-live="polite" aria-atomic="true">登頂を始められます。</p>
+        <p id="saveNote" class="save-note" role="status" hidden></p>
+      </div>
+      <footer class="field-footer"><p id="footerText">銅色の配達人と、雲間に浮かぶ灯りの庭。</p><button id="resetButton" class="reset-button" type="button">記録を消去</button></footer>
+    </section>
+    <footer class="page-footer"><span id="footerDetail">押し続けて、離してジャンプ</span><span>COILHOP <i aria-hidden="true">✦</i></span></footer>
+  </main>
+  <script type="module" src="./game.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+const fail=()=>{const ja=document.documentElement.lang==='ja',title=document.getElementById('overlay-title'),copy=document.getElementById('overlay-copy');title.textContent=ja?'この画面では起動できませんでした。':'The game could not start in this browser.';copy.hidden=false;copy.textContent=ja?'ページを再読み込みするか、Canvas対応の新しいブラウザで開いてください。':'Reload this page or open it in a current browser with Canvas support.';document.getElementById('overlay').hidden=false;for(const id of ['start','journey','quick','route'])document.getElementById(id).disabled=true;};
+window.addEventListener('error',fail,{once:true});
+if(!document.createElement('canvas').getContext('2d'))fail();else import('./game.mjs').catch(fail);

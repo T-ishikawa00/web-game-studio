@@ -1,0 +1,171 @@
+{
+  "archive": "C:\\projects\\App 008\\release\\package\\COILHOP-Game008-standalone-r1.zip",
+  "archiveSha256": "539197c8a2ebd5dfdac9bb5599187276e4ebac61e6446b7dd08412b750e12a29",
+  "archiveCRC": "PASS",
+  "acceptedRuntimeBaseline": "a348e24a75885aafeb16ec5d4628e43105e44113bc07af7964b73dd4af3c2a53",
+  "files": [
+    {
+      "file": "package/build/coilhop/courses.js",
+      "bytes": 9577,
+      "sha256": "2f34fe96d9b040f9134c7bae8125a1424e720b8701c68202f5ff4e4a0891daa4"
+    },
+    {
+      "file": "package/build/coilhop/game.js",
+      "bytes": 30537,
+      "sha256": "8a7c9234906b6299064f9319ae209b9ea6e9a1f92e9e12fc38a29f1b006190af"
+    },
+    {
+      "file": "package/build/coilhop/index.html",
+      "bytes": 5803,
+      "sha256": "64be4912736559c74ac381a72d2c3fa433a3c42ba6b58d56c2a83206cf938297"
+    },
+    {
+      "file": "package/build/coilhop/physics.js",
+      "bytes": 2839,
+      "sha256": "d763163ac0c4dd44e8bae281b08d9571e782313ad4c0926dc7899f51b870ac76"
+    },
+    {
+      "file": "package/build/coilhop/render.js",
+      "bytes": 27261,
+      "sha256": "6055509bf7b15b79a0f6e919dedbdb10fce9721262cff98d9c1633c9a1116ade"
+    },
+    {
+      "file": "package/build/coilhop/style.css",
+      "bytes": 17379,
+      "sha256": "9e276aa2333e7d9973424a1501056162929f392e9bf4805f5e5aca0ee5683a2f"
+    },
+    {
+      "file": "package/build/index.html",
+      "bytes": 438,
+      "sha256": "f17ea8250bf9ade9a1c08fee8dec8d5e3b21e2641e0d23507722e018d20b7180"
+    },
+    {
+      "file": "package/build/manifest.json",
+      "bytes": 1650,
+      "sha256": "517da94a6b9147e6ffc75efd69dfc746cd25f2cadf0c4d9a8f64581ead2d9a71"
+    },
+    {
+      "file": "package/build/shared/audio.js",
+      "bytes": 1495,
+      "sha256": "1a2d5688c36721f7cfcd3c2ccc5587cc4fd0585686d78c8ad1aa9e630783a66d"
+    },
+    {
+      "file": "package/build/shared/capture.js",
+      "bytes": 2327,
+      "sha256": "88172d26cae80f54e071393eb90ef5e930e1aeb98eafd9fb2e24178934961afd"
+    },
+    {
+      "file": "package/build/shared/save.js",
+      "bytes": 10471,
+      "sha256": "ba837bf3e8d1bdcd9d312afb59c1db46469c2abf19de0a5531c47f26e77de49f"
+    },
+    {
+      "file": "package/marketing/clips/frames/preview-first-four-hops.png",
+      "bytes": 80890,
+      "sha256": "0e2309c61ad82fd7c66246960bd643b332986cd60c93dcca00e5273db5c8a6da"
+    },
+    {
+      "file": "package/marketing/copy.md",
+      "bytes": 1683,
+      "sha256": "ed8da7a2c3bf7a853888d43fb98daca2d0ecb53bab4e25369175b6ea0792135e"
+    },
+    {
+      "file": "package/marketing/cover-square.png",
+      "bytes": 259702,
+      "sha256": "6951c0e1fe555fbe7f9bf2ddde8d56119ace0b2bee6e9c48c6d68f7bb473ea6e"
+    },
+    {
+      "file": "package/marketing/cover-wide.png",
+      "bytes": 337984,
+      "sha256": "d304e307c15efe83bf91e261cccfbc6804f80dffa8051b2d83ce22a95701f5a5"
+    },
+    {
+      "file": "package/marketing/rights-ledger.md",
+      "bytes": 2537,
+      "sha256": "66e9944e71cb08dfbcd6bd76ff063fc86a07e7fbc5317ba1497a421025494842"
+    },
+    {
+      "file": "package/source/docs/release/AUDIO_ACCESSIBILITY_JA_EN.md",
+      "bytes": 1650,
+      "sha256": "27f0324fd6fe409768a7ee216a0e4766f35dccb539fa596d868b6dde83112b24"
+    },
+    {
+      "file": "package/source/docs/release/KNOWN_LIMITS.md",
+      "bytes": 3222,
+      "sha256": "1e1d12b4c1889f7c64adb0599780694756a18d59dc0eee890215b2fdefcee9cf"
+    },
+    {
+      "file": "package/source/docs/release/RIGHTS.md",
+      "bytes": 1755,
+      "sha256": "f306115a860194326033f24c93a8cba263a653ca89ccd92045fe2734a2e1c47d"
+    },
+    {
+      "file": "package/source/docs/release/SAVE_SPEC.md",
+      "bytes": 3995,
+      "sha256": "beaa4385c329a203aab575331fbe57a6e0cf1dee9aa0ba96e66d8bdd7bd46db4"
+    },
+    {
+      "file": "package/source/public/coilhop/courses.js",
+      "bytes": 9577,
+      "sha256": "2f34fe96d9b040f9134c7bae8125a1424e720b8701c68202f5ff4e4a0891daa4"
+    },
+    {
+      "file": "package/source/public/coilhop/game.js",
+      "bytes": 30537,
+      "sha256": "8a7c9234906b6299064f9319ae209b9ea6e9a1f92e9e12fc38a29f1b006190af"
+    },
+    {
+      "file": "package/source/public/coilhop/index.html",
+      "bytes": 5803,
+      "sha256": "64be4912736559c74ac381a72d2c3fa433a3c42ba6b58d56c2a83206cf938297"
+    },
+    {
+      "file": "package/source/public/coilhop/physics.js",
+      "bytes": 2839,
+      "sha256": "d763163ac0c4dd44e8bae281b08d9571e782313ad4c0926dc7899f51b870ac76"
+    },
+    {
+      "file": "package/source/public/coilhop/render.js",
+      "bytes": 27261,
+      "sha256": "6055509bf7b15b79a0f6e919dedbdb10fce9721262cff98d9c1633c9a1116ade"
+    },
+    {
+      "file": "package/source/public/coilhop/style.css",
+      "bytes": 17379,
+      "sha256": "9e276aa2333e7d9973424a1501056162929f392e9bf4805f5e5aca0ee5683a2f"
+    },
+    {
+      "file": "package/source/public/shared/audio.js",
+      "bytes": 1495,
+      "sha256": "1a2d5688c36721f7cfcd3c2ccc5587cc4fd0585686d78c8ad1aa9e630783a66d"
+    },
+    {
+      "file": "package/source/public/shared/capture.js",
+      "bytes": 2327,
+      "sha256": "88172d26cae80f54e071393eb90ef5e930e1aeb98eafd9fb2e24178934961afd"
+    },
+    {
+      "file": "package/source/public/shared/save.js",
+      "bytes": 10471,
+      "sha256": "ba837bf3e8d1bdcd9d312afb59c1db46469c2abf19de0a5531c47f26e77de49f"
+    },
+    {
+      "file": "package/source/tests/coilhop-full.test.mjs",
+      "bytes": 10695,
+      "sha256": "1ad1b872a36350efff2bd5004782b3a5a851d292563149de82c7596bdddc83fa"
+    },
+    {
+      "file": "package/source/tests/coilhop-lifecycle.test.mjs",
+      "bytes": 16766,
+      "sha256": "ef19b5f8c6f9e23a59532fb9163fabef8bae4d3838b27a55fc41681f8b52a138"
+    },
+    {
+      "file": "package/source/tests/save.test.mjs",
+      "bytes": 6188,
+      "sha256": "93c54d4e66674bf2d065df3a916bbf40ac354f0113a093dfa3a61eb3e845e407"
+    }
+  ],
+  "standaloneRuntimeVerified": 10,
+  "archiveCopied": false,
+  "debugExcludedFromProduction": "build/shared/capture.js; capture import/call only"
+}

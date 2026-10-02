@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "game": "game008",
+  "files": [
+    {
+      "path": "coilhop/courses.js",
+      "bytes": 9577,
+      "sha256": "2f34fe96d9b040f9134c7bae8125a1424e720b8701c68202f5ff4e4a0891daa4"
+    },
+    {
+      "path": "coilhop/game.js",
+      "bytes": 30537,
+      "sha256": "8a7c9234906b6299064f9319ae209b9ea6e9a1f92e9e12fc38a29f1b006190af"
+    },
+    {
+      "path": "coilhop/index.html",
+      "bytes": 5803,
+      "sha256": "64be4912736559c74ac381a72d2c3fa433a3c42ba6b58d56c2a83206cf938297"
+    },
+    {
+      "path": "coilhop/physics.js",
+      "bytes": 2839,
+      "sha256": "d763163ac0c4dd44e8bae281b08d9571e782313ad4c0926dc7899f51b870ac76"
+    },
+    {
+      "path": "coilhop/render.js",
+      "bytes": 27261,
+      "sha256": "6055509bf7b15b79a0f6e919dedbdb10fce9721262cff98d9c1633c9a1116ade"
+    },
+    {
+      "path": "coilhop/style.css",
+      "bytes": 17379,
+      "sha256": "9e276aa2333e7d9973424a1501056162929f392e9bf4805f5e5aca0ee5683a2f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 438,
+      "sha256": "f17ea8250bf9ade9a1c08fee8dec8d5e3b21e2641e0d23507722e018d20b7180"
+    },
+    {
+      "path": "shared/audio.js",
+      "bytes": 1495,
+      "sha256": "1a2d5688c36721f7cfcd3c2ccc5587cc4fd0585686d78c8ad1aa9e630783a66d"
+    },
+    {
+      "path": "shared/capture.js",
+      "bytes": 2327,
+      "sha256": "88172d26cae80f54e071393eb90ef5e930e1aeb98eafd9fb2e24178934961afd"
+    },
+    {
+      "path": "shared/save.js",
+      "bytes": 10471,
+      "sha256": "ba837bf3e8d1bdcd9d312afb59c1db46469c2abf19de0a5531c47f26e77de49f"
+    }
+  ],
+  "baseline": "a348e24a75885aafeb16ec5d4628e43105e44113bc07af7964b73dd4af3c2a53"
+}

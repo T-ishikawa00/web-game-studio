@@ -1,0 +1,2 @@
+# Preserve pinned production/package bytes on every checkout.
+* -text

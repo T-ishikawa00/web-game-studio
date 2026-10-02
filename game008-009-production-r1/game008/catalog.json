@@ -1,0 +1,27 @@
+{
+  "id": "game008", "slug": "coilhop", "version": "1.0.0-r1", "state": "released",
+  "authority": "C:/projects/App 008",
+  "saveNamespace": "tinlumo:game008:coilhop:v1", "inputs": ["pointer", "keyboard", "touch"],
+  "cover": "/covers/game008.webp", "thumbnail": "/covers/game008-portrait.webp",
+  "runtime": "/games/game008/1.0.0-r1/coilhop/", "growthGameId": "coilhop",
+  "ja": {
+    "title": "COILHOP", "category": "バネのジャンプアクション",
+    "short": "押して縮めて、離して跳ぶ。灯りの庭を山頂の鐘へ。",
+    "description": "小さなバネの配達人を、押し続けて縮め、離して跳ばそう。着地点を見ながら力を調整し、分かれ道や動く足場を越えて8つの空中庭園を登ります。灯台から再挑戦し、最後は山頂の鐘へ。クリア後は別の道や落下の少ない登頂にも挑めます。",
+    "controls": "Spaceキー、マウス、タッチで押し続け、離すとジャンプ。空中では進路を変えられません。分かれ道は左右キーまたは画面の選択肢で選び、Escapeまたは一時停止ボタンで休めます。",
+    "duration": "8つの空中庭園。灯台からすぐ再挑戦。",
+    "save": "庭園のクリア、分かれ道の記録、メダル、選んだ庭園と言語・音・動きの設定を、このブラウザーに保存します。途中の足場・チャージ・灯台位置は保存しません。ゲーム内の記録リセットで、COILHOPの進捗と設定だけを初期化します。読み込めない元データは先にバックアップします。",
+    "settings": "音と演出の量をゲーム内で切り替えられます。",
+    "credits": "コード、Canvas描画、庭園、UI、合成効果音、カバーは本作のために制作しました。制作にCodexを使用しています。第三者のゲーム用ライブラリ、画像、音源、配布フォントは使用していません。"
+  },
+  "en": {
+    "title": "COILHOP", "category": "Spring hopping action",
+    "short": "Hold to compress. Release to hop. Reach the bell above the lantern gardens.",
+    "description": "Compress a tiny spring courier by holding, then release to jump. Read the landing and tune your charge across branches and moving ledges in eight aerial gardens. Retry from lantern checkpoints and reach the summit bell. After clearing, explore other paths and aim for fewer falls.",
+    "controls": "Hold Space, the mouse or a touch, then release to hop. You cannot steer in the air. Choose branches with arrow keys or on-screen choices. Use Escape or Pause for a break.",
+    "duration": "Eight aerial gardens with immediate lantern-checkpoint retries.",
+    "save": "Garden clears, branch records, medals, selected garden, language, sound and motion preferences save in this browser. Current ledge, charge and lantern checkpoint are not saved. The in-game record reset initializes only COILHOP progress and preferences, backing up unreadable original data first.",
+    "settings": "Switch sound and reduced motion in the game.",
+    "credits": "Code, Canvas artwork, gardens, interface, synthesized sound effects and covers were created for this game with Codex. No third-party game library, images, audio samples or distributed fonts are used."
+  }
+}
