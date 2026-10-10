@@ -1,0 +1,1075 @@
+{
+  "at": "2026-10-10T21:12:46.584Z",
+  "sourceHead": "5b884d9bd526b0f75887bffb802f51b05a8c7592",
+  "productionBasis": {
+    "id": "251abb8f-674b-40a3-b743-2425638c457e",
+    "versions": [
+      {
+        "version": "8d9a12b2-96d0-495b-9775-1a0d6eb09496",
+        "percentage": 100
+      }
+    ]
+  },
+  "basisManifest": {
+    "file": "manual-play-ads-r1/CANDIDATE_MANIFEST.json",
+    "sha256": "aace1935fb05e5eb9026a12d77bb39d144637e3ad578e277d5444c2a8d030994"
+  },
+  "root": "tinlumo-adsense-recovery-r1/builds/candidate",
+  "routes": [
+    "/",
+    "/en/",
+    "/en/about/",
+    "/en/contact/",
+    "/en/credits/",
+    "/en/games/",
+    "/en/games/coilhop/",
+    "/en/games/ember-glaze/",
+    "/en/games/island-connections/",
+    "/en/games/light-garden/",
+    "/en/games/project-magnet/",
+    "/en/games/rimbloom/",
+    "/en/games/tiny-delivery/",
+    "/en/games/two-ways-home/",
+    "/en/play/coilhop/",
+    "/en/play/ember-glaze/",
+    "/en/play/island-connections/",
+    "/en/play/light-garden/",
+    "/en/play/project-magnet/",
+    "/en/play/rimbloom/",
+    "/en/play/tiny-delivery/",
+    "/en/play/two-ways-home/",
+    "/en/privacy/",
+    "/en/settings/",
+    "/en/terms/",
+    "/en/video-policy/",
+    "/ja/",
+    "/ja/about/",
+    "/ja/contact/",
+    "/ja/credits/",
+    "/ja/games/",
+    "/ja/games/coilhop/",
+    "/ja/games/ember-glaze/",
+    "/ja/games/island-connections/",
+    "/ja/games/light-garden/",
+    "/ja/games/project-magnet/",
+    "/ja/games/rimbloom/",
+    "/ja/games/tiny-delivery/",
+    "/ja/games/two-ways-home/",
+    "/ja/play/coilhop/",
+    "/ja/play/ember-glaze/",
+    "/ja/play/island-connections/",
+    "/ja/play/light-garden/",
+    "/ja/play/project-magnet/",
+    "/ja/play/rimbloom/",
+    "/ja/play/tiny-delivery/",
+    "/ja/play/two-ways-home/",
+    "/ja/privacy/",
+    "/ja/settings/",
+    "/ja/terms/",
+    "/ja/video-policy/"
+  ],
+  "changed": [
+    "en/about/index.html",
+    "en/games/coilhop/index.html",
+    "en/games/ember-glaze/index.html",
+    "en/games/index.html",
+    "en/games/island-connections/index.html",
+    "en/games/light-garden/index.html",
+    "en/games/project-magnet/index.html",
+    "en/games/rimbloom/index.html",
+    "en/games/tiny-delivery/index.html",
+    "en/games/two-ways-home/index.html",
+    "en/index.html",
+    "en/play/coilhop/index.html",
+    "en/play/ember-glaze/index.html",
+    "ja/about/index.html",
+    "ja/games/coilhop/index.html",
+    "ja/games/ember-glaze/index.html",
+    "ja/games/index.html",
+    "ja/games/island-connections/index.html",
+    "ja/games/light-garden/index.html",
+    "ja/games/project-magnet/index.html",
+    "ja/games/rimbloom/index.html",
+    "ja/games/tiny-delivery/index.html",
+    "ja/games/two-ways-home/index.html",
+    "ja/index.html",
+    "ja/play/coilhop/index.html",
+    "ja/play/ember-glaze/index.html",
+    "sitemap.xml"
+  ],
+  "added": [
+    "assets/game-guides-r1.css",
+    "guides/coilhop.png",
+    "guides/ember-glaze.png",
+    "guides/island-connections.png",
+    "guides/light-garden.png",
+    "guides/project-magnet.png",
+    "guides/rimbloom.png",
+    "guides/tiny-delivery.png",
+    "guides/two-ways-home.png"
+  ],
+  "files": [
+    {
+      "file": "404.html",
+      "bytes": 22726,
+      "sha256": "0e3bf6ac150694d5b83eef1df51c3ae973fce735e3f3adb28f32e85b5c4a89d9"
+    },
+    {
+      "file": "_headers",
+      "bytes": 1019,
+      "sha256": "ba0dd411700fdbf48d8dc96e4e68528fc4b624a6352dcd97d3ad5c0d5ae1add1"
+    },
+    {
+      "file": "ads.txt",
+      "bytes": 59,
+      "sha256": "58c5090ac75121f45bfafa2e925c5653eaca36069be1e05ca835cd70e4b146e8"
+    },
+    {
+      "file": "assets/analytics-consent.js",
+      "bytes": 4838,
+      "sha256": "df6797d80630955beadac53766dff8b11313185d6d792b4abf0f0292d01bf0f0"
+    },
+    {
+      "file": "assets/game-guides-r1.css",
+      "bytes": 2141,
+      "sha256": "4a4563d4a48b390f6198ed5ddde678ce21a00be941325126957fe5d54e808ec9"
+    },
+    {
+      "file": "assets/growth-client.js",
+      "bytes": 5032,
+      "sha256": "11eb11bc1d1422c5bed27e3e392057d883941fd7de7169303948829eeee46894"
+    },
+    {
+      "file": "assets/island-copy.js",
+      "bytes": 2472,
+      "sha256": "f4dca3a07854ec03556799ecdec2de131769f951bf584157206b3d8346f05613"
+    },
+    {
+      "file": "assets/manual-play-ads-r1.js",
+      "bytes": 7750,
+      "sha256": "304f9493443da658bc4039a6d849ad36530bc12e2c3e3e7f7dd26a6743717013"
+    },
+    {
+      "file": "assets/public-language.js",
+      "bytes": 1345,
+      "sha256": "195690dafaeeec6842b5c8b40efd03aef813cc6f7b7e177d01c742292f1fadd5"
+    },
+    {
+      "file": "assets/rimbloom-reset.mjs",
+      "bytes": 1250,
+      "sha256": "b6246fb0a11aa82d1802c10d802cdb4d3633028e78dc8f24059d4d7db0f679d2"
+    },
+    {
+      "file": "assets/save-settings.js",
+      "bytes": 57332,
+      "sha256": "b6a7645a20d3185332509809a036ac9df6e99db61bfa0ad43c43b7a24fc30d1d"
+    },
+    {
+      "file": "assets/visual-portal.js",
+      "bytes": 905,
+      "sha256": "9b3578404b69fa1e2548c1b948ed751b7c7c1f9d9a29253fcdccaab24c68d4c5"
+    },
+    {
+      "file": "covers/game005-a-portrait.webp",
+      "bytes": 33000,
+      "sha256": "758c4d9cf4d0afa82a06905b22875f99828101ea3ae2c517e4404ddb47bb88d8"
+    },
+    {
+      "file": "covers/game005-a.webp",
+      "bytes": 101126,
+      "sha256": "9cd00cdba77ead2cc24dcad16fd26c20cdc780e60ac23318d8c507af8b31cc4d"
+    },
+    {
+      "file": "covers/game007-a-portrait.webp",
+      "bytes": 33868,
+      "sha256": "964e703bb014fa365cf9d4a44ecc239ed1286ae9d337bb3a1f3ab3ecf4d5baf3"
+    },
+    {
+      "file": "covers/game007-a.webp",
+      "bytes": 48774,
+      "sha256": "f621e5f74b9cf11b9d508a1da3250540b7f0dd750f8b4477cb32c17feaad4cd2"
+    },
+    {
+      "file": "covers/game008-portrait.webp",
+      "bytes": 19232,
+      "sha256": "ce36c4c0b4611fa6c46c7f0d86282d7a9c444c01b56b6a4c95876b8acf5174d0"
+    },
+    {
+      "file": "covers/game008.webp",
+      "bytes": 36178,
+      "sha256": "e61df2b2a353e2693fb9ab1942a4f47131d4c0df351b341430c8478be4ab425b"
+    },
+    {
+      "file": "covers/game009-a-portrait.webp",
+      "bytes": 24928,
+      "sha256": "2b60f825a16db3feaf1d776a971380af852974fd282edc7d8e398b5c4b14b543"
+    },
+    {
+      "file": "covers/game009-a.webp",
+      "bytes": 41540,
+      "sha256": "ebacee15a0552242fa588c9addca8551e2df8684894a14547c2c914635c5b500"
+    },
+    {
+      "file": "covers/light-garden-a-portrait.webp",
+      "bytes": 69518,
+      "sha256": "66674812cc1594966f7bc07aab8c4964f2ab3f74555390a373c7a3a01def3876"
+    },
+    {
+      "file": "covers/light-garden-a.webp",
+      "bytes": 113370,
+      "sha256": "dac1eee462a38dae6f791a116ca40bcabe9cb934bcfc01c1ce3994cef1976a19"
+    },
+    {
+      "file": "covers/project-magnet-a-portrait.webp",
+      "bytes": 67504,
+      "sha256": "5e43af739d69d71eb76db98f9ee7a803e691dceaecb247ffe8ebd590767b2c9d"
+    },
+    {
+      "file": "covers/project-magnet-a.webp",
+      "bytes": 113224,
+      "sha256": "89b61d12e3d6fbc5fd9f2a8015a42c78265c04659fbe041c5c5fc296c4b7f854"
+    },
+    {
+      "file": "covers/tiny-delivery-a-portrait.webp",
+      "bytes": 40892,
+      "sha256": "ba75edfc44d3b25d3811967068a3a8d19bb3fb101c5a2908054a983b8eea4b83"
+    },
+    {
+      "file": "covers/tiny-delivery-a.webp",
+      "bytes": 70350,
+      "sha256": "8cbd750192d522d4641fc5e3b3397ba2c98c405d3c5ebd47d1f60f36e0bff4cb"
+    },
+    {
+      "file": "covers/two-ways-home-a-portrait.webp",
+      "bytes": 58234,
+      "sha256": "bffa3df0539543aff0f3099b538781bca55f17d1873fd2a3ea13c49e8808ebcb"
+    },
+    {
+      "file": "covers/two-ways-home-a.webp",
+      "bytes": 115296,
+      "sha256": "f8205fcba04b876a65b00a112d196a59ce8840116f702ad9c25611fb1b74da53"
+    },
+    {
+      "file": "en/about/index.html",
+      "bytes": 24345,
+      "sha256": "e4b2c9e0c4ad5c575a4acc2e6fed6dad5d306f0ac4a7d67dda064485eb4382b7"
+    },
+    {
+      "file": "en/contact/index.html",
+      "bytes": 24244,
+      "sha256": "21c8b6ea75d9c900cc8e3d45b99ef9db906c72135534d4540a6d683c2ff76f28"
+    },
+    {
+      "file": "en/credits/index.html",
+      "bytes": 25949,
+      "sha256": "0deae888183fbdea3ec6fb1af5a59b7b9e14c4220c38a48b42d464b7d7dad354"
+    },
+    {
+      "file": "en/games/coilhop/index.html",
+      "bytes": 31696,
+      "sha256": "3f0bbb153e980243c4788ed67e96985f57dd5f774e6f3f81b89f6455855ca106"
+    },
+    {
+      "file": "en/games/ember-glaze/index.html",
+      "bytes": 31432,
+      "sha256": "caabe5c1760213df3c3afaea086c15572c239cb74ac1387fa96b23b143081123"
+    },
+    {
+      "file": "en/games/index.html",
+      "bytes": 31835,
+      "sha256": "f67532e51b5dc6f0bfc06161da47d3a89eb2eaf1bc92991be4c18ffab54d3fea"
+    },
+    {
+      "file": "en/games/island-connections/index.html",
+      "bytes": 31732,
+      "sha256": "b8595ff1d5c7f4dd65848674183fb79dc49dc47fe09202bd4f377be02cd241aa"
+    },
+    {
+      "file": "en/games/light-garden/index.html",
+      "bytes": 31059,
+      "sha256": "4001b3d07f958c0166d315b4295a2590b255f3b6c90b1776f8d0b6e5eded5faa"
+    },
+    {
+      "file": "en/games/project-magnet/index.html",
+      "bytes": 31423,
+      "sha256": "b516af4aeb40db90db3b48e73e5a9db289988e36dc4461c05fbde9950f274725"
+    },
+    {
+      "file": "en/games/rimbloom/index.html",
+      "bytes": 31934,
+      "sha256": "4f930f85536db175670b126744b968acf31c2d186ab24249210624969d7d39df"
+    },
+    {
+      "file": "en/games/tiny-delivery/index.html",
+      "bytes": 31521,
+      "sha256": "91f708c24105e7d9ef46f846473a279be337da490dcf72a9252a95a4e628fd4e"
+    },
+    {
+      "file": "en/games/two-ways-home/index.html",
+      "bytes": 31136,
+      "sha256": "e368f846b86bb4753cff89db5e868745f08fe6637684895002b6b2a79692adab"
+    },
+    {
+      "file": "en/index.html",
+      "bytes": 36559,
+      "sha256": "985d39e8642a5859b59929e0e13f84a02c6fe752e6647ea3ee304e9aee461b05"
+    },
+    {
+      "file": "en/play/coilhop/index.html",
+      "bytes": 25178,
+      "sha256": "d5e60859752e70873cd9bb79da6d1e67d9914c35ce62558152c343755fb1c07c"
+    },
+    {
+      "file": "en/play/ember-glaze/index.html",
+      "bytes": 25119,
+      "sha256": "f1953e5fe361191daa4df127fad4ea7dac42fd577ea995ed62f69043c7de494a"
+    },
+    {
+      "file": "en/play/island-connections/index.html",
+      "bytes": 21583,
+      "sha256": "1f0cc115345342b2a0c64b1ae4538b1362c35933c00e50065feafcba5cfcd61b"
+    },
+    {
+      "file": "en/play/light-garden/index.html",
+      "bytes": 28023,
+      "sha256": "a931646ceec2ac5ebd57f56a4d31f9db8ca7ae68ad213fb996ee964646fa4ff6"
+    },
+    {
+      "file": "en/play/project-magnet/index.html",
+      "bytes": 23779,
+      "sha256": "3e47ddb35671f0879e0b2256311692b504d9e9acf802a15341627ca9c09792ef"
+    },
+    {
+      "file": "en/play/rimbloom/index.html",
+      "bytes": 28507,
+      "sha256": "234216a10a3e3175566b1a37dd2199a76863c4dc36f7a0dca4a092db21d43851"
+    },
+    {
+      "file": "en/play/tiny-delivery/index.html",
+      "bytes": 30599,
+      "sha256": "d392874c9a1f9176be614302c80c41858ff6275c4e92f36c621870c3921934c7"
+    },
+    {
+      "file": "en/play/two-ways-home/index.html",
+      "bytes": 24313,
+      "sha256": "b4da72a969e73838cfbd1618f7f0e4a15e8d1917d8ba55b8cc51cbd52f63dc98"
+    },
+    {
+      "file": "en/privacy/index.html",
+      "bytes": 37855,
+      "sha256": "caf7d720eb03bd75b74a423f572ad59f9658b59631dbf5913d3a7449b9624455"
+    },
+    {
+      "file": "en/settings/index.html",
+      "bytes": 28273,
+      "sha256": "38beb151e75adceba0edc567c5c9d3d199b5189a82c18e278095ad8b5d2fec44"
+    },
+    {
+      "file": "en/terms/index.html",
+      "bytes": 27158,
+      "sha256": "06098dcdea02763d24c25115e65cd2094d37b573cdafbfe5763d5fc728ab10c8"
+    },
+    {
+      "file": "en/video-policy/index.html",
+      "bytes": 24778,
+      "sha256": "2a8748668895cc058c19b7deaafad93a1b9971d2ed12dafc7fddd832f3020632"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 243,
+      "sha256": "db98c074909c265849b79a1443c81db6f21a1ad38fff437204b18ae809dbb774"
+    },
+    {
+      "file": "games/game005/web-v1-r1/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/bridge-BKetEhnw.png",
+      "bytes": 8829,
+      "sha256": "f1fe9faac79beaae91582e5fe0a1a2d81c2860f46307e622293bc52fe1f28302"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/commons-CEfu4S30.png",
+      "bytes": 39239,
+      "sha256": "f5484ecb9423308059f7479266907c5487b87ad9822c0e721d36b358391f426f"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/cove-D6J7H1QG.png",
+      "bytes": 34539,
+      "sha256": "5543ad6054d2d0676bbdd984f7864226e3223366c407c61a478ee5c94455c84b"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/dock-BZp_GcK3.png",
+      "bytes": 19841,
+      "sha256": "22c105510ebf7ad3f7ed25595617e03c83b4627e18a3c5216c9b885d563cb06f"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/hillpath-CNyYb8Mi.png",
+      "bytes": 37670,
+      "sha256": "41e37efde5dc70e00f04ca2fdcec86891bdf9cf0f9e5d0b0f86317d5f9acd2c5"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/house-DUowNtYr.png",
+      "bytes": 56437,
+      "sha256": "2e63877cfab641b85db4a62697a5498034a4334262e2c1a5d0e7b0cf22b6307b"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/index-B45CS-CE.css",
+      "bytes": 22117,
+      "sha256": "1c6a8f863ffae94153c11b492a56d07645caf074ba5b1550154b322c4ebbf6c5"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/index-CMoUGFhE.js",
+      "bytes": 660489,
+      "sha256": "ecff511b515e7ff8190241723e869d4ec2ccf0a1c7057d431a595708ab59df49"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/lookout-C0xcxQst.png",
+      "bytes": 29639,
+      "sha256": "e30a3e51ea984cccc382d40730dedbb6df934b2f4864f41b0e72fb42b7b7e7cd"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/lumber-CmLHj2ea.png",
+      "bytes": 20324,
+      "sha256": "ab470494aaa7fc39d7b5d98db696e8d2a18a63c814f5cc5b07e5a0422869b8d5"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/market-C6t55qk3.png",
+      "bytes": 16123,
+      "sha256": "21e9b6052e14234d4bfe730678c4a07b415f5932cc3a7ab2757c22fff5d21593"
+    },
+    {
+      "file": "games/game005/web-v1-r1/assets/promenade-DVNleZxF.png",
+      "bytes": 37670,
+      "sha256": "71fa7f800e94e982c0421c520f3b566c7a391a506b3dd80989b4f890d1bf3151"
+    },
+    {
+      "file": "games/game005/web-v1-r1/credits.txt",
+      "bytes": 454,
+      "sha256": "550c866ef7ddb0d5a01e6db410f0dc2424f9256de97431806b1d2e7c68b7e6a3"
+    },
+    {
+      "file": "games/game005/web-v1-r1/index.html",
+      "bytes": 934,
+      "sha256": "251c9013e9044767a16b1ae5b5994792d10d1754ee62eb448d04732fbff87fd7"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/credits.txt",
+      "bytes": 244,
+      "sha256": "39edc9743bcad4f67412b2f565d4174ad1ca9f451255310133a9efeafb4d7f29"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/index.html",
+      "bytes": 3399,
+      "sha256": "366428b0aa6830f8ee52f198e1984cecc816948d86caee1cca3c5c32e4885c1b"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/portal.css",
+      "bytes": 679,
+      "sha256": "122ffd21be1f7d9aefcd6ec8755fdd6c6e85cc01366d251835e66b7b4c3f07d2"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/portal.mjs",
+      "bytes": 1400,
+      "sha256": "48c0c9fa7162c3b8fba1488144ef8e898e1cd9af81486cac80a750608f98cdbc"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/src/audio.mjs",
+      "bytes": 5361,
+      "sha256": "08c2c10dae1a65eb954f4575224af46da496f7136d13f7ee93b478ccca58d591"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/src/content.mjs",
+      "bytes": 1443,
+      "sha256": "3306efb9c7f4dc2c43edcef2c8e215fd64230b922092e9df3d5498bcba9a176a"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/src/core.mjs",
+      "bytes": 8167,
+      "sha256": "3cc871de0ab70b39729fed9be849e23924d2000202cdf1b3a8af6bd88208ddc1"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/src/game.mjs",
+      "bytes": 10866,
+      "sha256": "7fe9479151f8eb78dfe52745cbc14dcb5010401babb2f9e1acc8d6e1611f0154"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/src/input.mjs",
+      "bytes": 4241,
+      "sha256": "ee5239cc3dcc40b922cdd64d636d6a5cf250756847121cb2c580d4e9bbde2846"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/src/records.mjs",
+      "bytes": 1865,
+      "sha256": "391f7379b3936461fb5618cf00730ef26f511f3c715f793ec8532e62d1a9a285"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/src/style.css",
+      "bytes": 5466,
+      "sha256": "9019799e0665cd272ba19464268d144540bd6fabae2b062f131f5cda6e3261fd"
+    },
+    {
+      "file": "games/game007/1.0.0-r1/src/view.mjs",
+      "bytes": 9673,
+      "sha256": "e2f42bb1503cfe10cce4aaec2f29cd326162b9b5de0a3b3204116e7258edd88f"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/credits.txt",
+      "bytes": 475,
+      "sha256": "c50107d13c404a2fb18d6945cc2285385a7986c6bb4ea07d07558f2ab6ccb55d"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/portal.css",
+      "bytes": 656,
+      "sha256": "6ca9f9c05346b269ecac08d4204722621660571387555fe17093887870bb6dd3"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/portal.mjs",
+      "bytes": 1495,
+      "sha256": "8063915134f790d03c9ac955e8380e9d0dfd6452eb730975c920ab72f5500a53"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/audio-cues.mjs",
+      "bytes": 658,
+      "sha256": "95b033b1ddebc5bfc4fc42f4e9264ba293dd7fc35eeb0467f8c4fecf4bcbe6e1"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/audio.mjs",
+      "bytes": 5361,
+      "sha256": "08c2c10dae1a65eb954f4575224af46da496f7136d13f7ee93b478ccca58d591"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/boot.mjs",
+      "bytes": 784,
+      "sha256": "bb9269dc13001f78c797be0dc6d6dc90b5fd560af04b999b4566f002311f31d2"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/complete.css",
+      "bytes": 5431,
+      "sha256": "ddea211eb79dfb995465dd80f1752c1a67fe9aef0cd846dc47d2442cea6f6f30"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/content.mjs",
+      "bytes": 1443,
+      "sha256": "3306efb9c7f4dc2c43edcef2c8e215fd64230b922092e9df3d5498bcba9a176a"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/copy.mjs",
+      "bytes": 2703,
+      "sha256": "19708a862bec852124408a67549d62a65eb23acb16d657beccf4be4604410709"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/core.mjs",
+      "bytes": 8167,
+      "sha256": "3cc871de0ab70b39729fed9be849e23924d2000202cdf1b3a8af6bd88208ddc1"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/game.mjs",
+      "bytes": 16549,
+      "sha256": "161bd82660c8c4f563902f644dba703a04eefbfd7c77651bae30db85419a4d10"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/input.mjs",
+      "bytes": 4241,
+      "sha256": "ee5239cc3dcc40b922cdd64d636d6a5cf250756847121cb2c580d4e9bbde2846"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/journey-content.mjs",
+      "bytes": 3281,
+      "sha256": "3dc163dff766de87b6595fa9a89923ffd0ea9e0ed3d20df8b08a46b19defb039"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/journey-core.mjs",
+      "bytes": 12664,
+      "sha256": "35090587886d4be067a58f85cb7257c1996d75d717a8f9c92ef3a798c274b1a5"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/journey-view.mjs",
+      "bytes": 12266,
+      "sha256": "32e7fe768324dea736962c8d812e1febf40ceda48e51216b5f2be5b6e2ba771d"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/records.mjs",
+      "bytes": 1865,
+      "sha256": "391f7379b3936461fb5618cf00730ef26f511f3c715f793ec8532e62d1a9a285"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/save.mjs",
+      "bytes": 3213,
+      "sha256": "80f959d26289403e7e0746ef02ac4ab4dcb719aaf9962fa485f050972f902c84"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/style.css",
+      "bytes": 5168,
+      "sha256": "5996777ba29daed7f44bf4c3b4d001b629cd0e1d6a4b1347549471a9b2093f45"
+    },
+    {
+      "file": "games/game007/2.0.0-r2/src/view.mjs",
+      "bytes": 9673,
+      "sha256": "e2f42bb1503cfe10cce4aaec2f29cd326162b9b5de0a3b3204116e7258edd88f"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/coilhop/courses.js",
+      "bytes": 9577,
+      "sha256": "2f34fe96d9b040f9134c7bae8125a1424e720b8701c68202f5ff4e4a0891daa4"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/coilhop/game.js",
+      "bytes": 30453,
+      "sha256": "45a94858e65b1f1fd33ce7352fbfe13f9b288a5472f7e52b8f44b0c21bc005b1"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/coilhop/index.html",
+      "bytes": 5803,
+      "sha256": "64be4912736559c74ac381a72d2c3fa433a3c42ba6b58d56c2a83206cf938297"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/coilhop/physics.js",
+      "bytes": 2839,
+      "sha256": "d763163ac0c4dd44e8bae281b08d9571e782313ad4c0926dc7899f51b870ac76"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/coilhop/render.js",
+      "bytes": 27261,
+      "sha256": "6055509bf7b15b79a0f6e919dedbdb10fce9721262cff98d9c1633c9a1116ade"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/coilhop/style.css",
+      "bytes": 16861,
+      "sha256": "919351754a2d84901b42ce6a773219cbf4cdc245126564d90bfd2f4655f388e6"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/observe.mjs",
+      "bytes": 3323,
+      "sha256": "fa6dde0f4eec31ac5817e6f611cf77f1a28e35353dc0c099ca82c4fff043e919"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/portal.mjs",
+      "bytes": 866,
+      "sha256": "d4050d74c549696c6c8bda38c7fa70e55da0a5a1067a5c855b23c37b920423e4"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/shared/audio.js",
+      "bytes": 1495,
+      "sha256": "1a2d5688c36721f7cfcd3c2ccc5587cc4fd0585686d78c8ad1aa9e630783a66d"
+    },
+    {
+      "file": "games/game008/1.0.0-r1/shared/save.js",
+      "bytes": 10471,
+      "sha256": "ba837bf3e8d1bdcd9d312afb59c1db46469c2abf19de0a5531c47f26e77de49f"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/index.html",
+      "bytes": 3305,
+      "sha256": "3f85a8d808409bf2a152d00a07db23cf5bef1d77596972496d03ce86979e13fe"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/portal.mjs",
+      "bytes": 1451,
+      "sha256": "06cfd2deb6bfa92b10bf693e3fe0dba5427b205fa6bec3a2f61b63f4bbcf7aba"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/app.js",
+      "bytes": 14264,
+      "sha256": "7e1f0931b92f66d7390fd57c2b7a6318d1b588c5c867b728ac73bb66dfa4fe56"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/common/async-start.js",
+      "bytes": 248,
+      "sha256": "fbbf3b841acc9dab4134af059fb2f9872783303e511ac94c217d2aa366272c0e"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/common/audio.js",
+      "bytes": 6717,
+      "sha256": "7e00b784751f629cd6825594988557fddfd68c0194c9817562703e706e0e3540"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/common/input.js",
+      "bytes": 2612,
+      "sha256": "4b5e5cbee2840e304c718d7f0adcbc4d323d69d6fd348912349ca8c0b94b4a84"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/common/math.js",
+      "bytes": 915,
+      "sha256": "f242a30f0c43741c5b878fe5c6d6da368ee38bec5452cce879f1f3a7e7ec06c0"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/common/store.js",
+      "bytes": 12737,
+      "sha256": "de56b1f21ff508cbeff5cf657928aad7afac41c1d279b70aca63e893354084bc"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/portal-bridge.mjs",
+      "bytes": 1585,
+      "sha256": "011ac001a1a0ed29a330d8c4e8a8b27d11804e67193e8dd450df65160b2917f2"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/product/kiln-game.js",
+      "bytes": 9734,
+      "sha256": "f3cc230c6cfbcfb9917c7f28b6063e59debc567ecc39e16ba4cf0742b91aab62"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/product/kiln-model.js",
+      "bytes": 10472,
+      "sha256": "e3c28427836ea05195275d43a2015a5386699af2025e0165cbe7b0f2683be109"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/product/kiln-render.js",
+      "bytes": 29768,
+      "sha256": "e6e065b0ea1e03a47f60dba787e40f3ddc042e8348805b9715a9f48f8ac00db3"
+    },
+    {
+      "file": "games/game009/1.0.0-r1/src/style.css",
+      "bytes": 8674,
+      "sha256": "1322ea4bc16ca1ba009a8f43ad1dcb10e3f3c7374e18fc17febb19f0742f3432"
+    },
+    {
+      "file": "games/light-garden/conservatory-r1/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "games/light-garden/conservatory-r1/credits.txt",
+      "bytes": 138,
+      "sha256": "60aab44e8ca277050243b431ce7b17defcccda488937c857893e46d625e3ca96"
+    },
+    {
+      "file": "games/light-garden/conservatory-r1/game.css",
+      "bytes": 13403,
+      "sha256": "bffdf7d6e1e7d27fb92fc12c41d258bf7ef377336ffad90f0af59ebda7f39b8f"
+    },
+    {
+      "file": "games/light-garden/conservatory-r1/game.js",
+      "bytes": 735709,
+      "sha256": "ee77c59d67abdc54606021cac8e5f2d698f447b390d93d2a088df6d6df0c7a97"
+    },
+    {
+      "file": "games/light-garden/conservatory-r1/index.html",
+      "bytes": 5069,
+      "sha256": "52a699477a49a2b4532dbeb4390bc1ce8319e32e369a0f25addcc2c7000eea8c"
+    },
+    {
+      "file": "games/project-magnet/frontier-r1/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "games/project-magnet/frontier-r1/credits.txt",
+      "bytes": 136,
+      "sha256": "f0457fbee2a370f89f4bbca210901273db743541de877ee26acf669e982accd0"
+    },
+    {
+      "file": "games/project-magnet/frontier-r1/game.css",
+      "bytes": 23043,
+      "sha256": "50e3e6c828d219c5ce6587cab2088ab1d20a672497ba8b3a748c7b07e8652ce6"
+    },
+    {
+      "file": "games/project-magnet/frontier-r1/game.js",
+      "bytes": 727032,
+      "sha256": "05d22e5525659da7f97d14ca9ff020a69bd9e43837734dd548d8ce0c88c04f8a"
+    },
+    {
+      "file": "games/project-magnet/frontier-r1/index.html",
+      "bytes": 3262,
+      "sha256": "5f704f87a1952be1c0a939da9a49f8d3cfae244623a4ab60512908a383cd6f60"
+    },
+    {
+      "file": "games/tiny-delivery/parcel-grove-r1/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "games/tiny-delivery/parcel-grove-r1/bgm-audio/D1.wav",
+      "bytes": 12288044,
+      "sha256": "05b01efe37574c335b5164b92c8c80896e20a452696fd66fd55c1d5336a75945"
+    },
+    {
+      "file": "games/tiny-delivery/parcel-grove-r1/credits.txt",
+      "bytes": 137,
+      "sha256": "e2ad83dccaba71cb78ae3d7a5445c3b66ed4393ab95ae3cfe82a9df82dbd8f89"
+    },
+    {
+      "file": "games/tiny-delivery/parcel-grove-r1/full.css",
+      "bytes": 7581,
+      "sha256": "5f11547c08b8db20586b0db2f1a320550e8af0854c065b784554fffa2b2425d0"
+    },
+    {
+      "file": "games/tiny-delivery/parcel-grove-r1/game.css",
+      "bytes": 12287,
+      "sha256": "54970f0ddad667cd40c772c3354e98f08dd1a4dfafd01a5632c28c4481fe1c28"
+    },
+    {
+      "file": "games/tiny-delivery/parcel-grove-r1/game.js",
+      "bytes": 725003,
+      "sha256": "494fa7832ea7ddbc908fe6eaa8c19d9bef66152202a49e25b39004aace738cf8"
+    },
+    {
+      "file": "games/tiny-delivery/parcel-grove-r1/index.html",
+      "bytes": 6637,
+      "sha256": "715049438af65589bd1b497c9b09ba299396fe8b911beabc9f841d6ea5817746"
+    },
+    {
+      "file": "games/two-ways-home/little-towns-r1/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "games/two-ways-home/little-towns-r1/credits.txt",
+      "bytes": 135,
+      "sha256": "ab6529dd04a81032a820148c7c7d59eefc820b62b902606dac0bffec2d82414a"
+    },
+    {
+      "file": "games/two-ways-home/little-towns-r1/game.css",
+      "bytes": 13600,
+      "sha256": "ffe10a2b870e87974b726274b4771782faf606a6854b75d1d0b851e053ca7a68"
+    },
+    {
+      "file": "games/two-ways-home/little-towns-r1/game.js",
+      "bytes": 712737,
+      "sha256": "228f2c93c2ecf31c841d30288e0b4cc31515459ce6c419a64e975b58e04eefd5"
+    },
+    {
+      "file": "games/two-ways-home/little-towns-r1/index.html",
+      "bytes": 1240,
+      "sha256": "7d353ebbaf26e4090534cfc3d65ad681b32092f77c4f557713219f41435fe082"
+    },
+    {
+      "file": "guides/coilhop.png",
+      "bytes": 344341,
+      "sha256": "2b5261b8b38a61353b4bf5793c69c2913bea3a5e818078fcc84c713e04433156"
+    },
+    {
+      "file": "guides/ember-glaze.png",
+      "bytes": 377512,
+      "sha256": "43c3fbc6a4757b7882ee55b9b5b5dd78a475bc7ae953ffbe0ce6512338d40253"
+    },
+    {
+      "file": "guides/island-connections.png",
+      "bytes": 154096,
+      "sha256": "7447107d03138831473fcb01b22c7fc916d6d634f86d6187169357bb73a6ff16"
+    },
+    {
+      "file": "guides/light-garden.png",
+      "bytes": 364632,
+      "sha256": "86b38816d9252d1e52ada84aa8a0382063caccb76f9bcedc1eaa6c79c6a3affc"
+    },
+    {
+      "file": "guides/project-magnet.png",
+      "bytes": 396810,
+      "sha256": "7750f53bc803101bdcad51c90a4384e77126dbb5764ae8d966d37a28134a7279"
+    },
+    {
+      "file": "guides/rimbloom.png",
+      "bytes": 350928,
+      "sha256": "2591bf71b3bd8506f928fc65f2f938f79b62acfdb9f72a1722b192817ef1d646"
+    },
+    {
+      "file": "guides/tiny-delivery.png",
+      "bytes": 417563,
+      "sha256": "c4fb8e23a101d57cdf26a95b3d994acf82fdd01f1da0f141486e752d98a673fd"
+    },
+    {
+      "file": "guides/two-ways-home.png",
+      "bytes": 196803,
+      "sha256": "4f34ff9397183a03e3c410fdda323fb40c7f5d512981e51b62230bb83026bfd6"
+    },
+    {
+      "file": "index.html",
+      "bytes": 23528,
+      "sha256": "22e4abc8239fa8339107db21e3448760c1779d80296a9a05e375cb36ed4dadd8"
+    },
+    {
+      "file": "ja/about/index.html",
+      "bytes": 24984,
+      "sha256": "65ab0ae470446274ae9ee2430e23c6cf2e253931a5e0da83f270e821c429a26b"
+    },
+    {
+      "file": "ja/contact/index.html",
+      "bytes": 24771,
+      "sha256": "fe830e8ed2d8cc84d0f7beb4572881b7f8c55fd1f95f52e21b784a3c50269184"
+    },
+    {
+      "file": "ja/credits/index.html",
+      "bytes": 26620,
+      "sha256": "caac7aed75b77e34377df6700b5959bba62f9cf97662455e727895556749bc08"
+    },
+    {
+      "file": "ja/games/coilhop/index.html",
+      "bytes": 32946,
+      "sha256": "cbbafb319f3d4aeaec89c331b5ab54fdd73b39d7027966ac7cb7ef2cd6cdeae9"
+    },
+    {
+      "file": "ja/games/ember-glaze/index.html",
+      "bytes": 32762,
+      "sha256": "acc26f655911886a7fd5be6d50c58740be2eae112926122512fd6212314cfa90"
+    },
+    {
+      "file": "ja/games/index.html",
+      "bytes": 32812,
+      "sha256": "68782c4ef4af07fa074ad344ca21c0417bd5f33ab0ad66321bd67247f2096ff5"
+    },
+    {
+      "file": "ja/games/island-connections/index.html",
+      "bytes": 32765,
+      "sha256": "a8a4bc5c0110c51833084f619774e3147b47ae517a3d0220b19cad5d4a96b033"
+    },
+    {
+      "file": "ja/games/light-garden/index.html",
+      "bytes": 32058,
+      "sha256": "4aa42f3179511dfcd7760cbef97217d0b0e860505485ce7c758c51edee259612"
+    },
+    {
+      "file": "ja/games/project-magnet/index.html",
+      "bytes": 32412,
+      "sha256": "08865ff327b28f04c02608016d5436d66771141a08b5d2b22cb9d1832cc00014"
+    },
+    {
+      "file": "ja/games/rimbloom/index.html",
+      "bytes": 33477,
+      "sha256": "d8079fa06718708c623e96efcb7c9c0caa6d9f589f64b64642f04faa73226967"
+    },
+    {
+      "file": "ja/games/tiny-delivery/index.html",
+      "bytes": 32665,
+      "sha256": "6f8ce8984caaa6b06e8dd6ade2a5a179b4c6a67668284b3a054534966a98e452"
+    },
+    {
+      "file": "ja/games/two-ways-home/index.html",
+      "bytes": 32212,
+      "sha256": "c6564603a7e4a74e08f5f18c9bd9571b5c4595acee57948ff0a0508b6221ab12"
+    },
+    {
+      "file": "ja/index.html",
+      "bytes": 37802,
+      "sha256": "95856432bcfffe60731417bb9bc19087e6633f116860a7d05772222a1ed814d6"
+    },
+    {
+      "file": "ja/play/coilhop/index.html",
+      "bytes": 25362,
+      "sha256": "d490b961e576ff010e905fe42db749e3c26222f582e143b1fccf53151961f348"
+    },
+    {
+      "file": "ja/play/ember-glaze/index.html",
+      "bytes": 25291,
+      "sha256": "7e0cf02769d6d0825142d6a357dfc741bf705f5c7052e149458add07a314639b"
+    },
+    {
+      "file": "ja/play/island-connections/index.html",
+      "bytes": 21655,
+      "sha256": "caf1a7bae570d412120fd2a88089eae1b90f6b184a58d6697cb17363c352bc37"
+    },
+    {
+      "file": "ja/play/light-garden/index.html",
+      "bytes": 28218,
+      "sha256": "8741f575cf494be4b00136c8c26c6a07e3c88f0be61f3ba90131c96911892df1"
+    },
+    {
+      "file": "ja/play/project-magnet/index.html",
+      "bytes": 23821,
+      "sha256": "7678baecd9729f1d789d65a723131d6f383da85b00e75c27cba8c759a3c56465"
+    },
+    {
+      "file": "ja/play/rimbloom/index.html",
+      "bytes": 28590,
+      "sha256": "a5a7307e79a4b6df4772c511b55ffb5e9a371db9cf8a3ac1f928cf366cdee053"
+    },
+    {
+      "file": "ja/play/tiny-delivery/index.html",
+      "bytes": 30875,
+      "sha256": "a01f42b6555c288010b53e19c31082043eaf461145e2bbc87afcbc75f22286f2"
+    },
+    {
+      "file": "ja/play/two-ways-home/index.html",
+      "bytes": 24420,
+      "sha256": "97c4266102d6abe24839028ce86bcbb221fbaadaf34c2611845d222a86aef5f3"
+    },
+    {
+      "file": "ja/privacy/index.html",
+      "bytes": 40431,
+      "sha256": "c3d98c3fd4cf10119edaad995809794c43d7918c97137dbbb79fbf682a1f2a0e"
+    },
+    {
+      "file": "ja/settings/index.html",
+      "bytes": 29019,
+      "sha256": "4165dcd23587dd548bb61eadd3f1b3ff0a8ed15206d705142f28b1f162e9fa97"
+    },
+    {
+      "file": "ja/terms/index.html",
+      "bytes": 28040,
+      "sha256": "a673c9226a353c70710c9029c0ea9e3f228d10c7def2458f6852e843a898fa39"
+    },
+    {
+      "file": "ja/video-policy/index.html",
+      "bytes": 25399,
+      "sha256": "1cad177bd2508ff884def4e3f07ded307c0d5e06f04800b46b71554f7e1cbe2d"
+    },
+    {
+      "file": "licenses/ASTRO-LICENSE.txt",
+      "bytes": 3628,
+      "sha256": "4aa72be797aad0e5e21827eaae6a1df9e122d7a401f07d2c308a6b9a5f0e1278"
+    },
+    {
+      "file": "robots.txt",
+      "bytes": 64,
+      "sha256": "a356e90ecf45972d8600915d2140d6189a3feb33fb581a9a48e4f57cb0c8ab74"
+    },
+    {
+      "file": "scenes/game005.webp",
+      "bytes": 101126,
+      "sha256": "9cd00cdba77ead2cc24dcad16fd26c20cdc780e60ac23318d8c507af8b31cc4d"
+    },
+    {
+      "file": "scenes/game007.webp",
+      "bytes": 36864,
+      "sha256": "e2081980034b8304aa4e95d23c0b587e2f475a127ea7864edc3ba187ff1dedd0"
+    },
+    {
+      "file": "scenes/game008.webp",
+      "bytes": 8440,
+      "sha256": "b58fea7f688710c14ab57a7c19747468e7e2982c0094a2f13ffcc1fef6e9594b"
+    },
+    {
+      "file": "scenes/game009.webp",
+      "bytes": 54026,
+      "sha256": "4b7425b812f9f6bc8e48a3ee10ee38aab23290cb0795351bc8283b88a63ee6b0"
+    },
+    {
+      "file": "scenes/light-garden.webp",
+      "bytes": 76904,
+      "sha256": "77f1a3c2a9575e386d670b410a9785f64922f869ea351b85b278935036ad7d5f"
+    },
+    {
+      "file": "scenes/project-magnet.webp",
+      "bytes": 110746,
+      "sha256": "efec55e26c4f34bd6cd7e2967f8db729999ffbd63c0bb636ba06ec4d93d8a065"
+    },
+    {
+      "file": "scenes/tiny-delivery.webp",
+      "bytes": 70278,
+      "sha256": "cf05c6704c2d3e9ee07522f5d05d33ebbbfc42fc1b493ce9db1f3f2dff7aca04"
+    },
+    {
+      "file": "scenes/two-ways-home.webp",
+      "bytes": 83656,
+      "sha256": "b48966b7cdfcdb091ce18c9eb02bcff5c0c7ea8fafd5856454fd1ecca201789f"
+    },
+    {
+      "file": "sitemap.xml",
+      "bytes": 3173,
+      "sha256": "c6d8442045bb20fb32ff3367a0b6e4cf21c455fa71000d06a99186bf3efd75fa"
+    }
+  ],
+  "preserved": 154,
+  "gameCoreBytePreserved": true,
+  "twelvePlayBytePreserved": true,
+  "playShellFixes": [
+    "ja/play/coilhop/index.html",
+    "ja/play/ember-glaze/index.html",
+    "en/play/coilhop/index.html",
+    "en/play/ember-glaze/index.html"
+  ],
+  "playShellDelta": "Remove only unrelated RIMBLOOM initializer from COILHOP/EMBER shells; game engines and every other shell byte preserved",
+  "legalAdsConsentGrowthBytePreserved": true,
+  "release": "HUMAN_RELEASE_AND_REVIEW_REQUEST_PENDING"
+}

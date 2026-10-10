@@ -1,0 +1,5 @@
+function eraseRimbloomRecords(storage){
+ const keys=['rimbloom.full-r1.local-records.v1','rimbloom.complete-r2.records.v2'];
+ try{for(const key of keys)storage.removeItem(key);return keys.every(key=>storage.getItem(key)===null);}catch{return false;}
+}
+const open=document.querySelector('[data-reset-rimbloom]'),dialog=document.querySelector('#rimbloom-reset'),confirm=document.querySelector('[data-confirm-rimbloom-reset]'),output=document.querySelector('#rimbloom-reset-result');if(open&&dialog&&confirm&&output){open.addEventListener('click',()=>dialog.showModal());confirm.addEventListener('click',()=>{const ja=document.documentElement.lang==='ja';let success=false;try{success=eraseRimbloomRecords(localStorage);}catch{}output.textContent=success?(ja?'JourneyとQuick Runの記録を消去しました。ゲーム設定、ほかの作品、計測設定は保持します。':'Journey and Quick Run records were erased. Game preferences, other games and analytics settings are retained.'):(ja?'消去の完了を確認できません。保存機能を利用できる状態で、もう一度確認してください。':'Deletion could not be confirmed. Try again when browser storage is available.');if(success){dialog.close();open.focus();}});}

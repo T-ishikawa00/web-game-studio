@@ -1,0 +1,2 @@
+Hakorilo — Tinlumo Studio. Original procedural artwork and sound. Original synthesized music.
+Three.js — MIT, see THREE-LICENSE.txt.
