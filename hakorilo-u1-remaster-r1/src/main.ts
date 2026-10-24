@@ -15,7 +15,15 @@ const save=createPrototypeSave('tiny-delivery',()=>localStorage),loaded=save.loa
 const sfx=createCraftAudio();const music=createMusicAudio('D1',()=>screen==='play'&&!paused&&!document.hidden&&!sfx.preferences.mute&&(!$<HTMLDialogElement>('settings').open)&&(!run||run.status==='running'));
 const text=(ja:string,en:string)=>lang==='ja'?ja:en;
 let world:GroveWorld,journeyCompletedNow=false;
-try{world=new GroveWorld($('world'),params.has('capture'));}catch(error){$('unsupported').hidden=false;$('unsupported').textContent='3D描画を開始できませんでした。WebGL 2が使えるブラウザーで開いてください。 / WebGL 2 could not start. Please use a compatible browser.';throw error;}
+try{world=new GroveWorld($('world'),params.has('capture'));}catch(error){
+ $('loading').hidden=true;document.body.dataset.ready='false';document.documentElement.lang=lang;
+ $('title').hidden=true;$('game').querySelectorAll<HTMLButtonElement>('button').forEach(button=>{button.disabled=true;});
+ const notice=$('unsupported'),back=document.createElement('a');
+ back.href=`/${lang}/games/tiny-delivery/`;back.textContent=text('Hakoriloの遊び方へ戻る','Back to Hakorilo details');
+ back.style.cssText='display:inline-flex;align-items:center;min-height:44px;color:inherit';
+ notice.replaceChildren(document.createTextNode(text('3D描画を開始できませんでした。このブラウザーや端末ではWebGL 2を利用できない場合があります。対応ブラウザーで開き直してください。','3D rendering could not start. WebGL 2 may be unavailable in this browser or on this device. Try a compatible browser.')),document.createElement('br'),back);
+ notice.hidden=false;notice.tabIndex=-1;notice.focus();throw error;
+}
 world.setReducedMotion(progress.settings.reducedMotion||matchMedia('(prefers-reduced-motion: reduce)').matches);world.setLevel(level,edit);world.setScreen(screen);
 const input=directInput($('controls'),()=>screen==='play'&&!run&&!$<HTMLDialogElement>('settings').open,()=>{});
 function persist(captureBoard=true){if(captureBoard){progress={...progress,levelId:level.id,levelVersion:level.version,board:structuredClone(edit)};hasProgress=true;}saveProblem=!save.write(progress);updateSave();}

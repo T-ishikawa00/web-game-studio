@@ -12,6 +12,7 @@ export function adaptEntry(source,id){
   replace("if(params.get('entry')==='portal'){","if(true){");
   replace('`portal.html?view=home&lang=${lang}&cover=${cover}`','`/${lang}/games/tiny-delivery/`');
   replace('a[href="/"],a[data-portal-back]','a[href="/"],a[data-portal-back],.brand');
+  replace("if(a.closest('.game-footer'))a.textContent=text('Tinlumoへ','Back to Tinlumo');","if(a.closest('.game-footer'))a.textContent=text('遊び方へ','How to play');");
   s+=`\nconst recover=document.createElement('a');recover.href='/'+lang+'/settings/#hakorilo-save';recover.textContent=text('保存の設定・進行の消去','Save settings / erase progress');recover.style.cssText='display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;font-size:12px';$('settings').append(recover);$('language').addEventListener('click',()=>{recover.href='/'+lang+'/settings/#hakorilo-save';recover.textContent=text('保存の設定・進行の消去','Save settings / erase progress');});\n`;
  }
  if(id==='light-garden'){

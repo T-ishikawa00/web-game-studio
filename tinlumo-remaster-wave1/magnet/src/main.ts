@@ -8,8 +8,11 @@ import {MagnetWorld,TUNE,clamp} from './core';
 import {MagnetArt} from './world';
 import {MagnetAudio} from './audio';
 import {publicCopy} from './public-copy';
+import {showMagnetBootFailure} from './boot-failure';
 const canvas=document.querySelector<HTMLCanvasElement>('#arena')!,portrait=innerHeight>innerWidth;
-const world=new MagnetWorld(portrait?540:960,portrait?820:640),art=new MagnetArt(canvas,world),audio=new MagnetAudio();
+const world=new MagnetWorld(portrait?540:960,portrait?820:640);let art:MagnetArt;
+try{art=new MagnetArt(canvas,world);}catch(error){showMagnetBootFailure();throw error;}
+const audio=new MagnetAudio();
 const store=new SaveStore((()=>{try{return localStorage;}catch{return null;}})());
 let hubOpen=true,runActive=false,completionHandled=false;
 let hub:ReturnType<typeof createHub>;

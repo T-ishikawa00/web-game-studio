@@ -7,7 +7,7 @@ export function productionGameHtml(html,game,locale){
  if(!/name="robots"/.test(html))html=html.replace('</head>','<meta name="robots" content="noindex,nofollow"></head>');
  if(!/name="description"/.test(html))html=html.replace('</head>',`<meta name="description" content="${game.description[locale].replaceAll('"','&quot;')}"></head>`);
  html=html.replace(/<details id="capture-panel"[\s\S]*?<\/details>/,'').replace(/<aside id="capture-controls"[\s\S]*?<\/aside>/,'');
- if(game.id==='tiny-delivery')html=html.replace(/href="\/"/g,`data-portal-back href="/${locale}/"`).replace('aria-label="Tinlumo Review"','aria-label="Tinlumo"').replace('data-ja="Reviewへ" data-en="Back to review"','data-ja="遊び方へ" data-en="How to play"');
+ if(game.id==='tiny-delivery')html=html.replace(/href="\/"/g,`data-portal-back href="/${locale}/games/tiny-delivery/"`).replace('aria-label="Tinlumo Review"','aria-label="Tinlumo"').replace('data-ja="Reviewへ" data-en="Back to review"','data-ja="遊び方へ" data-en="How to play"');
  if(game.id==='light-garden')html=html.replace('href="/portal.html"',`href="/${locale}/"`).replace('href="/index.html"',`href="/${locale}/games/light-garden/"`).replace('>Review</a>',`>${locale==='ja'?'遊び方':'How to play'}</a>`).replace('</head>','<style>body{min-width:0}@media(max-width:680px){.title-copy h1 br{display:block}.title-copy h1 em{margin-left:0}}</style></head>');
  if(game.id==='two-ways-home')html=html.replace('href="../portal.html"',`href="/${locale}/"`).replace('href="../index.html"',`href="/${locale}/games/two-ways-home/"`).replace('>Reviewへ</a>',`>${locale==='ja'?'遊び方':'How to play'}</a>`);
  if(game.id==='light-garden'){
