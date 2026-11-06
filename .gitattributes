@@ -11,3 +11,6 @@ game005-island/public-r1/public/games/game005/web-v1-r1/THREE-LICENSE.txt -text
 # Preserve manifest-bound RIMBLOOM integration payload and accepted build inputs.
 release-artifacts/rimbloom-portal-integration-r1/** -text
 rimbloom-portal-integration-r1/** -text
+
+# The new Git-preservation manifest is byte-pinned by the local preview helper.
+scripts/release-preview/final-git-manifest.json -text

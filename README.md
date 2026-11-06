@@ -1,166 +1,102 @@
-# Web Game Studio / Tinlumo
+# Tinlumo / Web Game Studio
 
-自作ブラウザゲームと日英Portalの開発リポジトリです。主な構成はAstro・TypeScript・静的配布物で、作品別の実装とReview／QA証拠を分けて保管します。**公開本数、Production、Human Gate、Release、Provider、Securityの現在地はPRODUCTION_CURRENT.md（参照原本はPrivate保全・候補には非同梱）を参照してください。** このREADMEの後半には日付付きの制作履歴が残っています。
+日英対応のオリジナルWebゲーム8作品と、作品を探して遊べる静的Portalの開発・保存リポジトリです。短い時間で遊べるゲームを、企画、デザイン、実装、検証、配信まで一貫して制作することを目的としていました。
 
-- Codexの作業範囲・権限・参照ルーター：AGENTS.md（参照原本はPrivate保全・候補には非同梱）
-- 事業・安全方針の原本：START_HERE_CODEX_WEB_GAME_STUDIO.md（参照原本はPrivate保全・候補には非同梱）
-- SecurityとHookの運用：[SECURITY.md](SECURITY.md)
-- 制作・QAの手順：[Production Playbook R2](docs/planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md)
-- 開発者向け：[ローカル起動](#ローカル起動powershell)／[check・test・build・route QA](#本番ビルドと技術qa)／[構成](#構成)
+**Tinlumo事業と一般配信は終了しています。このPrivate repositoryは開発資産と制作記録の保管用です。ローカル復元は閲覧用であり、再公開ではありません。** 根拠、外部確認の限界、保全branchは[Project Status](docs/engineering/PROJECT_STATUS.md)を参照してください。利用者数・売上・人気等の実績は本書では主張しません。
 
-前提はNode.js 22.12以上とnpmです。主要な場所は `src/`（Portal・Productionのソース）、`public/`（静的素材）、`docs/`（Authority・仕様・Review／QA）、`tests/` と `scripts/`（検証・ローカルツール）です。以下の起動手順はローカル開発用であり、Productionの配布入口は現在地と対象Release記録を確認してください。
+## 完成版を見る
 
-## 2026-09-13〜15の制作・受入記録（historical）
-
-この節から「ローカル起動」までのAcceptance、公開数、Gate、Review URL、単発Git許可は**各工程当時の記録**です。現在の状態・作業許可として使用しません。
-
-当時採用したTiny build: [Craft Baseline R2](docs/games/CRAFT_BASELINE_R2.md) = preserved R1 + Human Accepted BGM B (D1 Rhythm Refine /80 BPM). BGM Pilot 01 Human PASS; further tuning frozen. [Checkpoint](docs/qa/tiny-craft-r2-checkpoint/REPORT.md) / [Studio Craft learning](docs/planning/CRAFT_PIPELINE_LEARNING_R2.md). All original comparison evidence is retained; public release and remaining Human gates are separate.
-
-当時のproduction / validation / growth standard: [Playbook R2](docs/planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md). **Tiny Delivery C: Human Craft Acceptance PASS**, adopted as [Craft Baseline R1](docs/games/CRAFT_BASELINE_R1.md). Current state and acceptance boundaries（参照原本はPrivate保全・候補には非同梱） / [final checkpoint QA](docs/qa/tiny-craft-checkpoint/REPORT.md) / [preserved A/B/C Review](docs/qa/tiny-craft-pilot-01/REPORT.md). Preserve 57 puzzles and onboarding; earlier 54-puzzle reports are historical. This PASS excludes physical phones, first-time users, full gameplay, public/legal/ads and other games' Audio/Motion.
-
-## Previous local review: 導入と光の因果表現
-
-以下は導入改修時点の記録です。局所修正の受入と今回のCraft Pilotは、上記の現在地・Reviewを参照してください。
-
-Human試遊を受け、ふたりの短い導入3問・安定IDによる順序変更と、ひかりの因果反応を改修。[変更理由・保存方針](docs/games/BATCH_01_LEARNING_AND_CAUSE.md) / [統合Review Pack](docs/qa/batch-01-learning/REVIEW.html) / [QA](docs/qa/batch-01-learning/REPORT.md)。R5採用を維持し、今回のHuman受入は再試遊待ち。stage / commit / push / deployは行いません。
-
-ゲームは `npm run preview:prototypes`（4324）、今回のレビューは `node scripts/learning-review-server.mjs`（4326）。保存があれば同じIDの続きから再開し、面一覧から新しい01へ移れます。
-
-## Historical Baseline: Batch 01 R5 — Visual Language Human Acceptance PASS
-
-2026-09-15、HumanがR5の色・形・質感・最小テキスト・盤面中心の設計・R4操作との統合・3表示のVisual方向を正式採用。[現行Baselineと受入範囲](docs/games/GAME_VISUAL_LANGUAGE_BASELINE_R5.md) / [R5 Review Pack](docs/qa/batch-01-r5/REVIEW.html) / [制作レシピ](docs/qa/batch-01-r5/RECIPE.md) / [checkpoint QA](docs/qa/batch-01-checkpoint/REPORT.md)。全54問のHumanゲーム性受入・実機・初見・公開・法務・広告は未完了です。
-
-再起動: `npm run preview:prototypes`（4324）と `node scripts/r5-review-server.mjs`（4325）。今回だけ、検証後の1 checkpoint commitと既存Private origin/mainへの通常pushが承認されています。以下は以前の工程記録です。
-
-## Historical: Batch 01 R4 — 直接操作UI / Humanレビュー待ち
-
-当時の3作品レビューは [R4 Review Pack](docs/qa/batch-01-r4/REVIEW.html) / [QA・保全・Security調査](docs/qa/batch-01-r4/REPORT.md)。[R4仕様原本](docs/games/GAME_DIRECT_MANIPULATION_R4.md)に従い、54問・ルール・Art・R3の3表示を維持して盤面への直接操作と選択式D-padへ変更しました。下記のR1〜R3は以前の工程記録です。今回のUI／操作／全編Human AcceptanceはPENDING、Security候補1件もHuman判定待ちです。
-
-起動中の [レビュー](http://127.0.0.1:4325/) から日英・通常／縦／横の18リンクと比較画像・操作動画へ進めます。再起動は `npm run preview:prototypes`（4324）と `node scripts/r4-review-server.mjs`（4325）。ポートの重複起動を避けてください。今回のstage・commit・push・deployは0です。
-
-2026-09-13時点の記録：AI支援による自社開発ブラウザゲームと、日英の自社Portal。**Portal Baseline R1はHuman Acceptance PASS・正式採用**。当時は最初の実ゲームのテーマ選択待ち、公開ゲーム0本でした。現在の公開数とGateは現在地（参照原本はPrivate保全・候補には非同梱）を参照してください。
-
-## Portal Baseline R1 — Human Acceptance PASS
-
-2026-09-13、Humanが「ゲーム画面もこれでいい。Portalとして完成でOK」と判断し、前回のHome Visualを維持したローカルPortal本体（確認したPlayを含む）を正式採用しました。Games index、全幅Playと折りたたみ内部QA、関連作品の空状態、JS無効時と404、画像復旧を含みます。[受入範囲・残課題](docs/qa/baseline-r1/REPORT.md#human-acceptance) / [技術QA・6画面](docs/qa/baseline-r1/REPORT.md)。物理スマホはNOT TESTED、一般公開・実広告・法務確定・実ゲーム完成は未承認です。
-
-基準commitは `95e3360b8de68a4df89a1a8889653af8c8e41d40`。今回のHuman指示でBaseline差分と受入記録のcommit・Private `origin/main`への通常pushだけを許可。直近QAを引き継ぎ、採用後の追加編集は文書のみです。下記のVisual R1・bootstrapの作業状態は以前の工程の記録です。
-
-見本の[Games index](http://127.0.0.1:4323/ja/design-preview/games/)も利用できます。ブラウザQAの最新出力先は `docs/qa/baseline-r1/`（`QA_OUTPUT_DIR`で変更可）。以前のHome受入証跡は上書きしません。
-
-## Visual R1 — Concept A 採用後のローカルレビュー
-
-採用画像・5調整を反映した共通Home/Card/Play周辺と日英補助画面を実装。2026-09-13、Concept A実装方向と日英PC HomeはHuman PASS、日本語スマホHome提示画像はVisual PASS。現在の配色・Hero・カード・グリッド・雰囲気をVisual Baselineとして維持します。Play受入・物理スマホ操作・公開可否は未承認です。[採用記録](docs/qa/visual-r1/REPORT.md#human-acceptance) / [原本](docs/design/references/PORTAL_VISUAL_REFERENCE_R1.md) / [画像](docs/design/references/PORTAL_VISUAL_REFERENCE_R1.png) / [技術QAと実装画像](docs/qa/visual-r1/REPORT.md)。Repository全体のTier S/A/B割当方針はrepo-local `AGENTS.md` に記載しています。
+初めて読む場合は、再ビルドせず**2026年9月27日の5作品版**を閲覧してください。公開時の固定commit・manifestに対し102ファイルのsize / SHA256 / Git blobを検証して復元します。Node.jsとGitだけで実行できます。
 
 ```powershell
-npm run build:design
-npm run preview:design
+# このrepositoryのcheckoutで実行。出力先は新規パスを選ぶ。
+node scripts/release-preview/restore.mjs --source-repo . --dest .tmp/preview-20260927
+node .tmp/preview-20260927/serve.mjs --root .tmp/preview-20260927 --port 4387
 ```
 
-デザイン見本: [日本語Home](http://127.0.0.1:4323/ja/design-preview/) / [English Home](http://127.0.0.1:4323/en/design-preview/) / [Play周辺](http://127.0.0.1:4323/ja/design-preview/play/larva-evolution-lab/)。仮10作品は実ゲーム・公開本数に含みません。下部の「デザイン確認用の表示設定」で10/2/0件・混在Artworkを確認できます。
+日本語は [127.0.0.1:4387/ja/](http://127.0.0.1:4387/ja/)、Englishは [127.0.0.1:4387/en/](http://127.0.0.1:4387/en/)。停止は起動した端末で`Ctrl+C`、再起動は2行目を同じportで実行します。port変更時はbrowser saveのoriginも変わります。使用中のportでは既存processを停止せず、空きportを選びます。
 
-通常ビルドは `dist/`、デザイン専用ビルドは `.cache/visual-dist/`。デザイン用データは `src/design/`、画像は原本から `scripts/design-assets.mjs` で再現し `.cache/visual-public/design-art/` に隔離します。通常ビルドに見本ルート・仮作品データ・仮Artworkを含めません。通常データ: [日本語Home](http://127.0.0.1:4322/ja/)、実際に動く [内部接続テスト](http://127.0.0.1:4323/ja/play/connection-lab/)。4322と4323は別originなので保存は共有しません。
+復元先が存在すると上書きせず停止します。shallow cloneでは必要objectが不足する場合があります。[Local Preview](docs/engineering/LOCAL_PREVIEW.md)に取得条件、検証、Windows手順、安全処理、最終8作品版の扱いを記載しています。通常の`npm run dev`は初期Portal / fixtureの開発画面です。完成版とは別の経路です。
 
-`preview:design` は4323でフォアグラウンド起動し、既存4322のAstro preview lockを維持します。端末起動ならCtrl+Cで停止。今回のレビュー用プロセスはウィンドウ非表示で起動済みです。再起動前はポート使用状況を確認してください。
+## 8作品と保存版の関係
 
-```powershell
-node node_modules/tsx/dist/cli.mjs --test tests/visual-output.test.ts
-# Playwrightがインストール済みならそのまま実行可能。
-# 同梱runtimeを使う場合はQA_PLAYWRIGHT_MODULEにplaywright/index.mjsの絶対パスを指定。
-node tests/visual.browser.mjs
+| 作品 | 主な遊び | 9月27日版 |
+| --- | --- | --- |
+| Hakorilo | 矢印とタイミングを組み合わせる配達パズル | 含む |
+| ひかりの仕掛け庭 / Lightwork Garden | 鏡を回して花へ光を届けるパズル | 含む |
+| ふたりの帰り道 / Two Ways Home | 同じ入力でふたりを家へ導くパズル | 含む |
+| PROJECT MAGNET | 磁力を使って進むアクション | 含む |
+| 島をつなぐ日 / An Island Connected | 生産・出荷・建設で島をつなぐゲーム | 含む |
+| RIMBLOOM | 花と盤面を使った庭園ゲーム | 後続release |
+| COILHOP | バネのcharge / releaseで跳ぶゲーム | 後続release |
+| 火種と釉 / EMBER & GLAZE | 火と通気を調整する陶芸ゲーム | 後続release |
+
+最終公開系統は8作品です。9月27日版はその前段の5作品であり、8作品を5作品へ巻き戻したものではありません。[Games & Releases](docs/engineering/RELEASES.md)に固定commit、配布物、編集原本、archiveの対応をまとめています。
+
+## 実ゲームの画面
+
+下の画像は2026-09-27の固定配布物を今回ローカル復元し、通常操作した画面の**CURRENT_CAPTURE**です。販促conceptや最終8作品のremaster画像ではありません。[撮影条件](docs/engineering/SCREENSHOTS.md)。
+
+| Hakorilo | Lightwork Garden |
+| --- | --- |
+| ![Hakoriloの復元版ゲーム画面](docs/engineering/screens/hakorilo.png) | ![Lightwork Gardenの復元版ゲーム画面](docs/engineering/screens/lightwork.png) |
+
+| Two Ways Home | PROJECT MAGNET |
+| --- | --- |
+| ![Two Ways Homeの復元版ゲーム画面](docs/engineering/screens/two-ways.png) | ![PROJECT MAGNETの復元版ゲーム画面](docs/engineering/screens/magnet.png) |
+
+![島をつなぐ日の復元版ゲーム画面](docs/engineering/screens/island.jpg)
+
+## 技術構成
+
+Astro、TypeScript、JavaScript、HTML / CSSを中心に、静的HTMLと作品ごとのruntimeを配信していました。最初の5作品にはThree.jsを使った描画、後続作品にはCanvas / Web Audio実装があります。最終remasterの一部にはAI生成bitmapも含みます。依存versionは[package.json](package.json)とlockfileが正本です。
+
+```mermaid
+flowchart LR
+    Registry[作品metadata / registry] --> Portal[Astro Portal / 日英ページ]
+    Source[作品別source・素材] --> Runtime[作品別runtime]
+    Portal --> Artifact[固定artifact + manifest]
+    Runtime --> Artifact
+    Artifact --> Local[loopbackの保存版preview]
+    Artifact -. 過去の配信 .-> Worker[Cloudflare Worker / Static Assets]
+    Worker -. 過去の集計 .-> D1[Growth D1 / 明示同意]
 ```
 
-Visual実装完了時はcommit/push/deploy・実広告・購入・外部サービス接続は0。その後のHome採用に伴い、Humanが今回のVisual実装・受入記録のローカルcommitだけを追加許可しました。push・deploy・実広告・購入・ゲーム制作は許可されていません。以下のbootstrap記録中の「初期化・commitなし」は初期工程当時の情報です。
+図のCloudflare / D1は過去の構成です。ローカル閲覧にaccount、広告、Analytics、D1は不要です。[Architecture](docs/engineering/ARCHITECTURE.md)は通常build、5作品builder、後続統合、最終保存物を分けて説明しています。
 
-最上位Authority: START_HERE_CODEX_WEB_GAME_STUDIO.md（参照原本はPrivate保全・候補には非同梱）。元文書は変更していません。ゲーム「Connection Lab」はPortal接続用の内部fixture 1本のみで、Game 001・販売作品・公開本数には含みません。
+## 開発・検証する
 
-## ローカル起動（PowerShell）
-Node.js 22.12以上、npmが必要です。2026-09-15時点の確認値はNode 24.14.0 / npm 11.9.0（当時の環境記録であり、現行値の保証ではありません）。
+Node.js **22.12以上**とnpm、Gitを使用します。今回の実測環境はWindows / Node v24.14.0 / npm 11.9.0です。意図した削除や別企画が残る既存rootでは、cleanな隔離checkoutを使用してください。
 
 ```powershell
-Set-Location -LiteralPath 'C:\projects\Web Game Studio'
 npm ci
-npm run dev -- --port 4321
-```
-
-日本語: [http://127.0.0.1:4321/ja/](http://127.0.0.1:4321/ja/) / 英語: [http://127.0.0.1:4321/en/](http://127.0.0.1:4321/en/)
-
-依存は既にインストール済みなら `npm ci` を省略できます。Astroのコマンドはrepo内wrapperでtelemetryを無効にし、一時ファイルを `.tmp/` に限定。npm cacheは `.cache/npm/`。global設定は変更しません。
-
-## 本番ビルドと技術QA
-```powershell
-npm run check
 npm test
 npm run build
 npm run preview -- --port 4322
+# 別端末で実行
 npm run test:routes
 ```
 
-本番出力は `dist/`。確認用プレビュー: [日本語](http://127.0.0.1:4322/ja/) / [内部ゲーム](http://127.0.0.1:4322/ja/play/connection-lab/)。`test:routes` は4322の本番プレビューにHTTPで接続し、日英ルート・リンク・素材・404を検査します。別ポートの場合は `$env:QA_BASE_URL='http://127.0.0.1:任意ポート'` を設定します。
+上記build / routesは初期Portalと接続fixtureの検証です。8作品のreleaseを再生成するcommandではありません。`npm run check`の全体検査は今回の保存mainで完走しましたが、既存エラーが残っています。[Development & Testing](docs/engineering/DEVELOPMENT.md)と[Known Issues](docs/engineering/KNOWN_ISSUES.md)に実行条件・結果・限界を記録しています。
 
-このAstro版のdev/previewはバックグラウンドプロセスで起動します。状態確認と、自分が起動したプロセスの停止:
-```powershell
-npm run dev -- status
-npm run preview -- status
-npm run dev -- stop
-npm run preview -- stop
-```
+## 制作プロセスとHuman / AI
 
-ブラウザQAの実施手順・結果は [QA記録](docs/qa/BOOTSTRAP_QA_R1.md)。lintは未設定で、型チェックと意味のあるadapter/routeテストを実施。外部サービス接続・実機互換性の全検証は含みません。
+Humanが目的・制約・方向選択・受入・公開判断を持ち、AIが調査、実装、素材制作、テスト、文書作成を支援しました。技術PASSをHumanの全編試遊や実機確認の代用にはしていません。手書き実装率や本人による全作品完走等は推定していません。[Development Process & AI Collaboration](docs/engineering/PROCESS.md)。
 
-## 構成
+## 文書と資産の入口
 
-以下の詳細表は初期Portal実装時点の構成記録です。現在の全作品・Production構成は冒頭の概要と現在地（参照原本はPrivate保全・候補には非同梱）から確認してください。
-| ディレクトリ | 役割 |
-|---|---|
-| `src/pages/`, `src/layouts/`, `src/components/` | 静的Portal、日英のHome/index/detail/play/About/Privacy/Terms/Contact、404 |
-| `src/data/games.ts` | 型付きregistryと未制作のtheme cards |
-| `src/i18n/` | Portalの日本語・英語UI |
-| `src/lib/` | save、mock/disabled ads、メモリ内analytics |
-| `src/scripts/` | iframeのload/input/state、保存、QA操作 |
-| `public/games/connection-lab/v0.1.0/` | 唯一の内部fixture、独立した版付き静的build |
-| `docs/planning/` | ロードマップ・Portal仕様・制作・広告・法務・インフラ・マーケティング・3候補 |
-| `docs/architecture/`, `docs/records/`, `docs/qa/` | event辞書、来歴/依存license、検証証跡 |
-| `tests/`, `scripts/` | adapterテスト、HTTP route checks、ローカルツール |
+| 知りたいこと | 入口 |
+| --- | --- |
+| 現在状態・保全・外部確認 | [Project Status](docs/engineering/PROJECT_STATUS.md) |
+| 読み順 | [Engineering Index](docs/engineering/README.md) |
+| 8作品・release・原本・archive | [Games & Releases](docs/engineering/RELEASES.md) |
+| システムと配信構造 | [Architecture](docs/engineering/ARCHITECTURE.md) |
+| 導入・build・test・troubleshooting | [Development & Testing](docs/engineering/DEVELOPMENT.md) |
+| 隔離閲覧・停止・再起動 | [Local Preview](docs/engineering/LOCAL_PREVIEW.md) |
+| 素材・license・権利の限界 | [Assets, Credits & Rights](docs/engineering/ASSETS_RIGHTS.md) |
+| 今回の監査・QA・独立レビュー | Maintenance Report（参照原本はPrivate保全・候補には非同梱） |
+| 以前のREADME全文 | Historical README（参照原本はPrivate保全・候補には非同梱） |
 
-ゲーム追加時は、まず `src/data/games.ts` に安定したID/slug、日英情報、版付きbuildPathとcover、inputs/devices/orientation、state、related、save/ads/legalを登録。現在のプレイ接続契約は内部fixture用であり、実ゲームでは同じadapterを利用するruntime契約を作品のA–C段階で拡張します。registryに追加するだけで任意の第三者ゲームが動くとは保証しません。
+コード・素材を公開利用できる新しいlicenseは付与していません。Privateを維持し、第三者libraryのnoticeは各配布物に保持します。全素材の法務確定や全履歴mediaの個人情報皆無は保証していません。[権利](docs/engineering/ASSETS_RIGHTS.md)と[SECURITY](SECURITY.md)を参照してください。
 
-## 2026-09-13〜15のBootstrap・prototype記録（historical）
-
-以下の実装状態・広告・計測・公開数・許可・Review URLは当時の記録です。現在のProduction／Provider状態や作業許可には使いません。
-
-### セーブ・広告・プライバシー
-- セーブは `wgs:save:<gameId>`。schema/version入り、旧schema移行例あり。不正/未知版は元データを残して一時モード。resetはそのゲームだけを消します。保存できなければ成功表示しません。
-- adはmock/disabledのみ。明示ボタンでpause/resumeを確認。rewardedは任意、skipでは報酬なし。前回mockから60秒・入力後1.2秒は表示しません。これは内部QA方針で本番頻度ではありません。
-- localStorage/sessionStorageはブラウザと**origin（scheme/host/port）**ごと。4321と4322で保存が別なのは仕様。別端末同期・消去後の復旧はありません。
-- analyticsは最新50件のページメモリのみ。広告/分析サービスへ送信しません。法務文書は草案で、適法性や権利処理の保証ではありません。
-
-### 当時の境界と次の判断
-変更先は `C:\projects\Web Game Studio` のみ。Gitはmainを初期化し、commit/push/remote作成なし。公開/deploy/購入/契約/広告申請/実広告/外部メッセージ送信なし。全ページnoindexとrobots Disallowですが、これはアクセス制御ではありません。公開前にinternal/draftの除外と別途Human承認が必要です。
-
-HumanはHomeの印象、日英切替、スマホ幅の操作、内部fixtureの保存/広告復帰を確認してください。その後 [3テーマ](docs/planning/INITIAL_GAME_THEME_CARDS_R1.md) からA幼体進化 / B光と仕掛け / C一手の連鎖のいずれかを選択します。実ゲームの全制作・公開可否はこのbootstrapでは承認されていません。
-### Prototype Batch 01 — R1 historical opening slice
-
-Human選択の「ひかりの仕掛け庭」「ふたりの帰り道」「ちいさな配送パズル」を各5問の導入MVPとして実装。Portal Baseline R1を維持し、公開ゲーム0本・Design Preview10見本とは別のprototype buildへ隔離しています。
-
-```powershell
-cd 'C:\projects\Web Game Studio'
-npm run build:prototypes
-npm run preview:prototypes
-```
-
-案内: [日本語](http://127.0.0.1:4324/ja/prototypes/) / [English](http://127.0.0.1:4324/en/prototypes/)。127.0.0.1限定、deployではありません。日英で保存を共有しますが、4322/4323/4324は別originで保存も別です。起動済みの4324を二重に開始しないでください。
-
-仕様原本: [Batch依頼](docs/games/GAME_PROTOTYPE_BATCH_01_R1.md)。[実装/QA/試遊画像/制約](docs/qa/prototype-batch-01/REPORT.md)。今回の停止点は3作品まとめてのHuman試遊。中盤・終盤・公開・commit/push/deployは実行しません。
-
-## Historical: Batch 01 R2 full-run alpha
-
-3作品の核はHumanが継続制作を採用。各18問・3章へ拡張し、ゲーム内Artと初見ガイドを改修しました。ゲーム性の継続採用はVisual/UX/全編のHuman PASSを意味しません。[R2依頼原本](docs/games/GAME_BATCH_01_R2_ART_UX_AND_FULL_RUN.md) / [まとめて試遊・Before/After・QA](docs/qa/batch-01-r2/REPORT.md)。上記のbuild/previewコマンド、port4324を継続使用。公開0本・Design見本10点・旧fixtureを維持し、未stage/未commitでHumanレビュー待ちです。
-
-R2 QA: `npm test`、`npm run check`、通常/Design/prototype build、`node --import tsx tests/r2-full-run.browser.mjs`、`node tests/r2-browser-regression.mjs`。ブラウザQAはこのWindows環境のbundled Playwright/Edgeを使用し、他環境の依存パスは調整が必要です。
-
-## Historical: Batch 01 R3 controls and capture layouts
-
-3作品の54問・ルール・Art・旧保存を維持し、共通操作バー、状態に応じた主操作、設定内の通常／縦9:16／横16:9切替を追加しました。[依頼原本](docs/games/GAME_CONTROL_UI_AND_CAPTURE_R3.md) / [試遊・9画面比較・6動画](docs/qa/batch-01-r3/REVIEW.html) / [QAとHuman判断待ち事項](docs/qa/batch-01-r3/REPORT.md)。ローカル試遊は引き続き4324です。撮影切替は現在のiframeとゲーム状態を維持し、配送の走行は明示的な再開まで停止します。未stage・未commit、Humanレビュー待ちです。
-
-R3 QA: `node --import tsx tests/r3-full-run.browser.mjs`、`node tests/r3-state.browser.mjs`、`node tests/r3-browser-regression.mjs`、`node tests/r3-layout.browser.mjs`、`node tests/r3-responsive.browser.mjs`、`node tests/r3-controls.browser.mjs`。R2の証拠は別フォルダに保持しています。
+Agent作業時はAGENTS（参照原本はPrivate保全・候補には非同梱）とPRODUCTION_CURRENT（参照原本はPrivate保全・候補には非同梱）が入口です。旧文書に残るdeploy・復旧・Git操作許可は当時限りの記録で、今回以降の実行権限にはなりません。
