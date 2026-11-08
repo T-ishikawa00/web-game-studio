@@ -1,19 +1,20 @@
+// Publication candidate pins map to sanitized history; historical manifest bytes and original IDs remain evidence.
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 export const PIN = Object.freeze({
   key:'five', title:'Tinlumo 2026-09-27 / 5 games',
   repository: 'T-ishikawa00/web-game-studio',
-  releaseCommit: 'd8ca30c36d94f1a9272267497c993a12dd0e9f25',
-  preservedMainBasis: 'bb243407a760a117dcf892bfab26c5cdb18c20ad',
-  archiveCommit: 'ab91ae39c767b5cb0ff2f8ce10a10e9bab93dfad',
+  releaseCommit: 'be4989a8f232024c1a351db35dc7db42bae3e5c5',
+  preservedMainBasis: '4969bd5f5de0e292641b33f846f59d901bf233df',
+  archiveCommit: '9a5c2e9e5f724dfd5a1b76fdd93d732a73a13b36',
   artifact: 'release-artifacts/tinlumo-copy-debt-r1',
   manifest: 'tinlumo-copy-debt-r1/internal/distribution.json',
   manifestBlob: 'abc06c362b4b036714a72a029e1f6df08a1dd2bd',
   artifactTree: '7a00e6e39619c558dbd17410e0af4ddc617dbff8',
   files: 102, served: 101, routes: 39,
 });
-export const FINAL_PIN=Object.freeze({...PIN,key:'final',title:'Tinlumo final Git preservation / 8 games (not byte-identical historical distribution)',releaseCommit:'bb243407a760a117dcf892bfab26c5cdb18c20ad',artifact:'tinlumo-visual-remaster-final-integration-r1/builds/candidate',manifest:'tinlumo-visual-remaster-final-integration-r1/CANDIDATE_MANIFEST.json',manifestBlob:'b9762053c1d6973fea0543e0cb5246828123b2ed',snapshotManifestBlob:'9fcd39d40bf134e5d956100088634c07ca672420',artifactTree:'4ec6ab85edc4882a57a55664061f4d1a837d114e',files:248,served:247,routes:51});
+export const FINAL_PIN=Object.freeze({...PIN,key:'final',title:'Tinlumo final Git preservation / 8 games (not byte-identical historical distribution)',releaseCommit:'4969bd5f5de0e292641b33f846f59d901bf233df',artifact:'tinlumo-visual-remaster-final-integration-r1/builds/candidate',manifest:'tinlumo-visual-remaster-final-integration-r1/CANDIDATE_MANIFEST.json',manifestBlob:'b9762053c1d6973fea0543e0cb5246828123b2ed',snapshotManifestBlob:'9fcd39d40bf134e5d956100088634c07ca672420',artifactTree:'4ec6ab85edc4882a57a55664061f4d1a837d114e',files:248,served:247,routes:51});
 export function getPin(key='five'){if(key==='five')return PIN;if(key==='final')return FINAL_PIN;throw Error('Choose --release five or --release final');}
 export const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 export const gitBlob = bytes => createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex');

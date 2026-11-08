@@ -57,3 +57,15 @@ node .tmp/preview-final-eight/serve.mjs --root .tmp/preview-final-eight --port 4
 ```
 
 5作品の歴史的HTTP配信照合と、最終8作品のGit保全bytesの照合は別の結果として扱います。
+
+## 公開準備R1の履歴対応
+
+上記の当時のSHAとmanifestは歴史的証拠です。公開候補では履歴を一般化したため、復元ツールの実行用pinを次の対応に変更しました。artifact tree・manifest blob・復元されるゲームbytesは変更していません。`final-git-manifest.json`内のcommitは元の歴史的commitを指します。
+
+| 元のcommit | 公開候補内の対応commit |
+| --- | --- |
+| `d8ca30c36d94f1a9272267497c993a12dd0e9f25` | `be4989a8f232024c1a351db35dc7db42bae3e5c5` |
+| `bb243407a760a117dcf892bfab26c5cdb18c20ad` | `4969bd5f5de0e292641b33f846f59d901bf233df` |
+| `ab91ae39c767b5cb0ff2f8ce10a10e9bab93dfad` | `9a5c2e9e5f724dfd5a1b76fdd93d732a73a13b36` |
+
+この対応はローカル候補専用です。候補履歴がGitHubへ反映される前の`--github`経路は使用しません。権利HOLDと公開承認PENDINGは維持します。
