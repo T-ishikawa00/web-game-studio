@@ -2,9 +2,9 @@
 
 日英対応のオリジナルWebゲーム8作品と、作品を探して遊べる静的Portalの開発・保存リポジトリです。短い時間で遊べるゲームを、企画、デザイン、実装、検証、配信まで一貫して制作することを目的としていました。
 
-**Tinlumo事業と一般配信は終了しています。このPrivate repositoryは開発資産と制作記録の保管用です。ローカル復元は閲覧用であり、再公開ではありません。** 根拠、外部確認の限界、保全branchは[Project Status](docs/engineering/PROJECT_STATUS.md)を参照してください。利用者数・売上・人気等の実績は本書では主張しません。
+**Tinlumo事業と一般配信は終了しています。** このローカル候補は公開準備レビュー用で、GitHub公開・配信再開・deployを行っていません。remoteの現在状態はこの作業では再確認していません。歴史的な終了記録と外部状態の確認限界は[Project Status](docs/engineering/PROJECT_STATUS.md)を参照してください。利用者数・売上・人気等の実績は主張しません。
 
-## 完成版を見る
+## 2026年9月27日の固定5作品版を見る
 
 初めて読む場合は、再ビルドせず**2026年9月27日の5作品版**を閲覧してください。公開時の固定commit・manifestに対し102ファイルのsize / SHA256 / Git blobを検証して復元します。Node.jsとGitだけで実行できます。
 
@@ -94,9 +94,14 @@ Humanが目的・制約・方向選択・受入・公開判断を持ち、AIが�
 | 導入・build・test・troubleshooting | [Development & Testing](docs/engineering/DEVELOPMENT.md) |
 | 隔離閲覧・停止・再起動 | [Local Preview](docs/engineering/LOCAL_PREVIEW.md) |
 | 素材・license・権利の限界 | [Assets, Credits & Rights](docs/engineering/ASSETS_RIGHTS.md) |
-| 今回の監査・QA・独立レビュー | Maintenance Report（参照原本はPrivate保全・候補には非同梱） |
-| 以前のREADME全文 | Historical README（参照原本はPrivate保全・候補には非同梱） |
 
-コード・素材を公開利用できる新しいlicenseは付与していません。Privateを維持し、第三者libraryのnoticeは各配布物に保持します。全素材の法務確定や全履歴mediaの個人情報皆無は保証していません。[権利](docs/engineering/ASSETS_RIGHTS.md)と[SECURITY](SECURITY.md)を参照してください。
 
-Agent作業時はAGENTS（参照原本はPrivate保全・候補には非同梱）とPRODUCTION_CURRENT（参照原本はPrivate保全・候補には非同梱）が入口です。旧文書に残るdeploy・復旧・Git操作許可は当時限りの記録で、今回以降の実行権限にはなりません。
+
+このローカル候補は新しいOSS licenseや公開許諾を付与しません。第三者libraryのnoticeは各配布物に保持します。全素材の法務確定や全履歴mediaの個人情報皆無は保証していません。[権利](docs/engineering/ASSETS_RIGHTS.md)と[SECURITY](SECURITY.md)を参照してください。
+
+過去の作業指示・レビュー記録にある命令形や外部操作許可は、現在の作業権限ではありません。
+
+
+このローカル候補は公開・配信・外部service確認を行っていません。remoteの現在状態はNOT VERIFIEDです。公開判断はこの候補と別に維持してください。
+
+公開準備の履歴・原証拠・保留条件は[公開準備候補R1の範囲](docs/PUBLICATION_PREPARATION_R1.md)を参照してください。

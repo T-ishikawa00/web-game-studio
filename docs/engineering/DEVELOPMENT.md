@@ -4,9 +4,9 @@
 
 Node要件は22.12以上。Astro 7.3.2、TypeScript 6.0.3、@astrojs/check 0.9.10、tsx 4.23.13等はlockfileで固定しています。今回の環境はWindows / Node v24.14.0 / npm 11.9.0。最小version22.12.0で全commandを試験したという意味ではありません。
 
-既存rootには終了時の意図した削除と別企画が残ります。reset / clean / stash / pullで整えず、隔離checkoutを使います。Git書込み権限はAGENTS（参照原本はPrivate保全・候補には非同梱）と最新Human依頼を確認してください。
+現行の固定sourceには過去作業の残置内容があります。現在の作業でGit変更やbuildを行う場合は、元の保全状態を確認してから隔離checkoutを使います。
 
-新規checkoutの依存導入は`npm ci`です。lockfileを維持し、勝手にupgradeしません。今回worktreeのQAは既存rootの固定依存をrepo内junctionで参照して開始しました。独立再取得・依存導入の結果はReport（参照原本はPrivate保全・候補には非同梱）に分けて記載します。
+新規checkoutの依存導入はnpm ciです。lockfileを維持し、勝手にupgradeしません。この公開準備候補の作成では依存導入やbuild/test実行をしていません。
 
 ```powershell
 npm ci
@@ -45,4 +45,4 @@ cacheの一括削除は含めません。`.tmp`、`.cache`、`dist`にも保全�
 
 commit前は[SECURITY](../../SECURITY.md)に従い、ignoredを含む全projectとfull index、push前は全local historyを検査します。既知raw FAILと限定Human dispositionは別判定。新規候補、scanner missing / ERROR、index / history FAILは停止条件です。
 
-QA選択は[Playbook §4.2](../planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md#qa-by-change)。技術、視覚、独立レビュー、実機、Human受入、法務、外部配信を区別します。
+QAのscope選択は過去の変更記録です。技術、visual、独立review、実機、Human受入、法務、外部配信を区別してください。

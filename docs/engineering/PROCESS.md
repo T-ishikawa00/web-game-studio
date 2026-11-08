@@ -17,6 +17,6 @@ Humanが判断・制約・受入・公開権限を持ち、AIが実作業を支�
 
 初期5作品のprocedural artworkと、後期remaster3作品のAI bitmapは版を分けて[権利文書](ASSETS_RIGHTS.md)に記載しています。販促coverを実play captureとは呼びません。
 
-今回の主担当、調査、独立レビューのモデルとruntime ID確認可否はReport（参照原本はPrivate保全・候補には非同梱）に記載します。推奨Tier名から実runtime IDを推定しません。独立レビューの設定モデルは`gpt-6-luna`です。
+過去の主担当・調査・review記録は、モデル/runtime IDを含めその時点の実行記録です。推奨Tier名や過去の記録から本人の手書き実装率を推定しません。
 
-規範はSTART_HERE（参照原本はPrivate保全・候補には非同梱）、[Playbook](../planning/WEB_GAME_STUDIO_PRODUCTION_PLAYBOOK_R2.md)、AGENTS（参照原本はPrivate保全・候補には非同梱）、各作品のSPEC / 採用記録です。旧文書の命令形は新しい作業権限ではありません。
+作品別の仕様とHuman採用baselineは、当時の対象範囲を示す証拠として扱います。旧instructionや命令形の文書は新しい作業権限ではありません。

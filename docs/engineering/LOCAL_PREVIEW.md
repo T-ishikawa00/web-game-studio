@@ -46,7 +46,7 @@ artifactの保存bytesは変更しません。応答HTMLだけにlocal guardを�
 
 ## 最終8作品の保存版
 
-固定点は`bb243407a760a117dcf892bfab26c5cdb18c20ad`、artifactは`tinlumo-visual-remaster-final-integration-r1/builds/candidate/`です。旧manifestとの照合結果と、復元で使うmanifestの種類はReport（参照原本はPrivate保全・候補には非同梱）を確認してください。不一致やPENDINGを黙って書き換えません。独立workspaceからの再buildは別監査です。
+固定点はbb243407a760a117dcf892bfab26c5cdb18c20ad、artifactはtinlumo-visual-remaster-final-integration-r1/builds/candidate/です。旧manifestのPENDING状態は当時の履歴として保持し、現在の公開承認へ昇格させません。
 
 **final modeは`final-git-manifest.json`を使って固定commitのGit保存bytesを復元します。当時の配信bytesとの完全一致は成立していません。** 元の配信候補manifestとは33 text filesに差異があり、旧manifestは復元先の`evidence/distribution.recorded-historical.json`へ別保存します。今回のderived manifestはGit保全用で、歴史的配信実績の置換ではありません。
 

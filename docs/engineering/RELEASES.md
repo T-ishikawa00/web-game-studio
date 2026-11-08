@@ -9,9 +9,9 @@
 | 最終Visual Remaster公開系統 | `bb243407a760a117dcf892bfab26c5cdb18c20ad` / `tinlumo-visual-remaster-final-integration-r1/builds/candidate/` | 248 files、51 routes。HTTP247＋`_headers`1 |
 | 終了時原本保全 | `ab91ae39c767b5cb0ff2f8ce10a10e9bab93dfad` / `archive/tinlumo-final-preservation-20261024` | 上記mainから1 commit、追加10＋変更12、削除0 |
 
-9月27日版の[POSTFLIGHT](../../tinlumo-copy-debt-r1/release/POSTFLIGHT.md)は当時の101配信file / 39 routes照合を記録します。今回のlocal QAで歴史的配信結果を書き換えません。[元manifest](../../tinlumo-copy-debt-r1/internal/distribution.json)の候補statusも保全しています。
+9月27日版のPOSTFLIGHTは当時の101配信file / 39 routes照合の履歴です。今回のローカル公開準備で過去の配信bytesは再検証していません。元manifestの候補statusも当時の記録として保持します。
 
-最終[manifest](../../tinlumo-visual-remaster-final-integration-r1/CANDIDATE_MANIFEST.json)の`sourceHead`は構築基準で、release HEADではありません。`release`に残るPENDINGも現在の判定ではありません。固定Git treeとのfresh照合・不一致はReport（参照原本はPrivate保全・候補には非同梱）に記載します。
+最終manifestのsourceHeadは構築基準で、release HEADではありません。releaseに残るPENDINGは当時の記録で、現在の承認ではありません。固定Git treeのfresh照合・不一致はこの公開準備作業では再検証していません。
 
 ## Sourceの入口
 

@@ -1,20 +1,17 @@
-# Project Status — 2026-11-07 JST
+# Project Status — Local Preparation Candidate R1 (2026-11-09 JST)
 
-Tinlumo事業と一般配信は終了しています。今回の依頼は終了したprojectの再現性・可読性・保守性・安全性を改善するPrivate repository maintenanceです。
+この作業は、固定main b21d4389c7737de621fb97ebdc0adddce379f537に基づくローカル公開準備候補です。Tinlumo事業と一般配信は終了したという既存記録を保持します。この候補の作成はリモートrepository状態の変更、公開、配信再開、外部serviceの稼働確認を意味しません。
 
-| 対象 | 状態と根拠 |
+| 対象 | 確認状態 |
 | --- | --- |
-| 事業 | 恒久終了。今回のHuman依頼と2026-10-24保全記録 |
-| 最終公開実績 | 8作品。最終公開系統`bb243407a760a117dcf892bfab26c5cdb18c20ad` |
-| 復元対象 | 2026-09-27・5作品。`d8ca30c36d94f1a9272267497c993a12dd0e9f25` |
-| GitHub | `T-ishikawa00/web-game-studio`、Private。今回GETで直接確認 |
-| 原本保全branch | `archive/tinlumo-final-preservation-20261024`、`ab91ae39c767b5cb0ff2f8ce10a10e9bab93dfad` |
-| 終了時の外部状態 | 2026-10-24記録ではWorker、DNS、D1等の撤去。今回providerへ再照会していない |
-| 現在のCloudflare / Google / DNS / SNS / 登録・課金 | **NOT VERIFIED**。過去の削除・料金・残作業を現在値へ昇格しない |
-| 今回のQA | Report（参照原本はPrivate保全・候補には非同梱）。新しい全編Human受入・実機受入を意味しない |
+| 対象source | bare mirrorのmain = b21d4389c7737de621fb97ebdc0adddce379f537。別ref archive/tinlumo-final-preservation-20261024 = ab91ae39c767b5cb0ff2f8ce10a10e9bab93dfad |
+| 過去の事業・一般配信 | 終了記録あり。現在のサービス稼働状態は今回未照会 |
+| 最終8作品系統 | 歴史的な公開系統として記録。現在の稼働・公開を表さない |
+| 2026-09-27の5作品版 | 当時の固定配布物として保存。8作品版の代替ではない |
+| GitHub remoteの現在状態 | この作業では再確認・変更していない。過去の監査記録はPrivateを記載するが、現在値はNOT VERIFIED |
+| 権利・個人情報 | 重点素材はASSETS_RIGHTS.mdにHOLDを記録。全履歴・全mediaの法的clearance/個人情報不存在を主張しない |
+| 公開承認 | PENDING。外部公開、GitHub public化、deploy、DNS変更、外部投稿を行っていない |
 
-archiveの[固定CURRENT](https://github.com/T-ishikawa00/web-game-studio/blob/ab91ae39c767b5cb0ff2f8ce10a10e9bab93dfad/docs/games/PRODUCTION_CURRENT.md)に終了時の記録があります。archiveは原本保全であり、全体を最新受入releaseとしてmainへmergeしません。
+このoverlayは文書と公開候補方針の修正のみです。ゲームコード、画面、原稿、runtime画像・音源を変更しません。未確定のruntime assetを候補から削除せず、公開再現をHOLDにします。旧文書の命令・当時の操作許可は現在の権限として扱いません。
 
-今回の承認はREADME / 関連docs / 安全なpreview helper / 検証済みの限定開発設定と、条件成立後のscoped stage・commit・Private main通常pushです。破壊的Git操作、Public化、Pages、deploy、外部投稿、有料serviceは含みません。完了後に単発承認を再利用しないでください。
-
-旧制作指示、CURRENT block、manifestの候補status、Human gateはそれぞれの日時・版の記録として保持します。最新maintenance結果（参照原本はPrivate保全・候補には非同梱）と区別してください。
+Tinlumoの作品・公開履歴は歴史的事実として記載できます。利用者数、売上、改善率、現在のサービス稼働など、根拠のない成果や現在状態は追加しません。本人とAIの役割はPROCESS.mdの記録範囲を維持し、手書き実装割合は推定しません。
