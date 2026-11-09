@@ -99,9 +99,15 @@ Humanが目的・制約・方向選択・受入・公開判断を持ち、AIが�
 
 このローカル候補は新しいOSS licenseや公開許諾を付与しません。第三者libraryのnoticeは各配布物に保持します。全素材の法務確定や全履歴mediaの個人情報皆無は保証していません。[権利](docs/engineering/ASSETS_RIGHTS.md)と[SECURITY](SECURITY.md)を参照してください。
 
+2026-11-09のR2本人判断：画像・音楽に無断利用した第三者素材はありません（`OWNER_CONFIRMED_NO_UNAUTHORIZED_THIRD_PARTY_ASSETS`）。この判断はR1で残っていた対象画像・音源の権利HOLDを本公開準備候補で解除します。第三者libraryのライセンスとNOTICEは引き続き遵守し、このリポジトリ全体へ新しいOSS licenseを付与するものではありません。過去のGit author・committer emailの公開も本人承認済みです。適用範囲と記録は[Assets, Credits & Rights](docs/engineering/ASSETS_RIGHTS.md#r2-owner-decision)を参照してください.
+
 過去の作業指示・レビュー記録にある命令形や外部操作許可は、現在の作業権限ではありません。
 
 
 このローカル候補は公開・配信・外部service確認を行っていません。remoteの現在状態はNOT VERIFIEDです。公開判断はこの候補と別に維持してください。
 
 公開準備の履歴・原証拠・保留条件は[公開準備候補R1の範囲](docs/PUBLICATION_PREPARATION_R1.md)を参照してください。
+
+## 公開準備 R2
+
+作者・committerメールの公開承認等の最新確認と、リモート適用の範囲は[公開準備R2](docs/PUBLICATION_PREPARATION_R2.md)に記録しています。R1の本人確認待ちは、この更新を反映して解消しています。GitHubへの適用・Public化は別工程です。

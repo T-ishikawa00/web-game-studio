@@ -2,6 +2,14 @@
 
 固定main b21d4389c7737de621fb97ebdc0adddce379f537から作ったローカル公開準備候補の素材台帳です。これは公開許諾・配信再開・外部公開承認ではありません。remote状態は変更しておらず、現在値も再確認していません。ソース一式に包括的なOSS licenseは付与していません。第三者libraryのNOTICEは各libraryと対応する配布物だけに適用され、Tinlumo全体の再配布許可ではありません。
 
+## R2 owner decision
+
+2026-11-09、本人はTinlumoの画像・音楽に無断利用した第三者素材がないことを確認しました：`OWNER_CONFIRMED_NO_UNAUTHORIZED_THIRD_PARTY_ASSETS`。この確認に基づき、下記のR1記録にある対象6画像と選定済みD1.wavの権利HOLDを、本公開準備候補において解除します。R1のC2PA記録はファイル内metadataに関する技術的観察として保持し、生成経路・契約・アカウント等の追加証明は求めません。この本人確認はC2PA署名検証でも、プロジェクト全体へのOSS license付与でもありません。
+
+本人は過去Git commitのauthor・committer emailの公開を承認しています。この承認範囲はGitのauthor/committer metadataです。公式サービス窓口として既存のContact/Privacyページや`mailto`導線に掲載している連絡先は、その用途により意図的に公開されています。その他の本文・QA記録に含まれる連絡先情報が自動的に承認されたものとは扱いません。
+
+第三者libraryを含む配布物では既存のLICENSE/NOTICEと各適用条件を維持してください。これらのnoticeはlibraryに適用され、Tinlumo全体の再配布許可にはなりません.
+
 ## 重点素材台帳
 
 6点の画像は固定候補artifactのSHA-256とbytesを照合しました。PNGにはC2PA形式のcaBX Manifest Storeがあり、claim内に「OpenAI Media Service API」、created時刻、trainedAlgorithmicMediaが記録されています。これはファイルに埋め込まれた声明の読み取り結果で、サービス利用経路・モデル・署名の有効性・利用者アカウント・入力権利を検証したものではありません。4つのWebPにはC2PA metadataがなく、archive側の対応名source PNGとの変換を示す署名済みingredient linkageも確認していません。
